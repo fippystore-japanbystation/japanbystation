@@ -24,77 +24,98 @@
 </script>
 </head>
 <body>
-<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none">Japan <i>by</i> Station</a><span class="links"><a href="index.html"><b>Home</b></a><a href="osaka-where-to-stay.html">Osaka</a><a href="namba.html">Namba</a><a href="kansai-airport-to-osaka.html">Airport</a></span></nav>
-<header class="hero home-hero">
-  <img src="https://images.pexels.com/photos/28608380/pexels-photo-28608380.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="The Dotonbori arch lit up in neon at dusk, Osaka">
+<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none">Japan <i>by</i> Station</a><span class="links"><a href="index.html"><b>Home</b></a><a href="osaka-where-to-stay.html">Osaka</a><a href="namba.html">Namba</a><a href="kansai-airport-to-osaka.html">Airport</a><a href="about.html">About</a></span></nav>
+<header class="hello">
+  <div class="wrap hello-grid">
+    <div class="hello-text">
+      <span class="tape t-sun">Hi, we're Japan by Station</span>
+      <h1>What's on your mind about <mark>your Japan trip?</mark></h1>
+      <svg class="squiggle" viewBox="0 0 120 12" aria-hidden="true"><path d="M2 6c10-8 20 8 30 0s20-8 30 0 20 8 30 0 20-8 26 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      <p class="hello-sub">Pick the thing you're unsure about. We'll give you the short answer, then point you to the guide with the train times and walking minutes behind it.</p>
+    </div>
+    <div class="hello-photos" aria-hidden="true">
+      <img class="p1" src="https://images.pexels.com/photos/35183439/pexels-photo-35183439.jpeg?auto=compress&cs=tinysrgb&w=900" alt="">
+      <img class="p2" src="https://images.pexels.com/photos/40884563/pexels-photo-40884563.jpeg?auto=compress&cs=tinysrgb&w=700" alt="">
+      <img class="p3" src="https://images.pexels.com/photos/12759815/pexels-photo-12759815.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+    </div>
+  </div>
+
   <div class="wrap">
-    <span class="kicker">Japan travel, sorted by station</span>
-    <h1>Stay in the right place, and Japan gets easy.</h1>
-    <p>Where to stay in each city, what's on your doorstep, and how many minutes to everything else.</p>
-    <form class="quick" id="quick" onsubmit="return false">
-      <label for="q-city">I'm going to</label>
-      <select id="q-city"><option value="osaka">Osaka</option><option disabled>Tokyo (soon)</option><option disabled>Kyoto (soon)</option></select>
-      <label for="q-who">travelling as</label>
-      <select id="q-who">
-        <option value="first">a first-timer</option><option value="couple">a couple</option><option value="family">a family with kids</option>
-        <option value="group">4 friends</option><option value="solo">solo, on a budget</option><option value="trips">a day-tripper</option>
-      </select>
-      <button class="btn q-go" id="q-go" type="submit">Show me where to stay →</button>
-    </form>
+    <div class="concerns" role="tablist" aria-label="What are you unsure about?">
+      <button role="tab" class="concern c-coral" data-k="stay" aria-selected="false"><span class="ico">📍</span><b>Where to stay</b><small>Which area puts everything close</small></button>
+      <button role="tab" class="concern c-mint" data-k="transport" aria-selected="false"><span class="ico">🚆</span><b>Getting around</b><small>Which train, how long, any changes</small></button>
+      <button role="tab" class="concern c-sky" data-k="airport" aria-selected="false"><span class="ico">✈️</span><b>Airport to hotel</b><small>The easy way in with luggage</small></button>
+      <button role="tab" class="concern c-sun" data-k="nearby" aria-selected="false"><span class="ico">🍢</span><b>What's nearby</b><small>Things to do on foot</small></button>
+      <button role="tab" class="concern c-pink" data-k="kids" aria-selected="false"><span class="ico">🧸</span><b>Travelling with kids</b><small>Space, privacy, early nights</small></button>
+      <button role="tab" class="concern c-lilac" data-k="daytrips" aria-selected="false"><span class="ico">🗺️</span><b>Day trips</b><small>Kyoto, Nara, Universal Studios</small></button>
+    </div>
+    <div class="reply" id="reply" hidden>
+      <span class="reply-who">Our short answer</span>
+      <h2 id="reply-h"></h2>
+      <p id="reply-p"></p>
+      <div class="reply-links" id="reply-links"></div>
+    </div>
   </div>
 </header>
-<script>
-document.getElementById('quick').addEventListener('submit',function(){
-  location.href='osaka-where-to-stay.html#for-'+document.getElementById('q-who').value;});
-</script>
+
 <main>
-  <div class="wrap trust">
-    <div><b>Real train times</b><span>From operators, airports and tourism bureaus</span></div>
-    <div><b>Checked Nov 2026</b><span>Re-checked every three months</span></div>
-    <div><b>Honest pros and cons</b><span>No paid stays, no hype</span></div>
-  </div>
-
-  <p class="lede wrap">Most Japan trips go wrong in one place: the hotel is in the wrong area. You lose an hour a day on trains and miss the evenings. We check every area against the trains, the sights and the airport, then tell you straight where to stay.</p>
-
-  <section class="wrap sec" aria-labelledby="h-ten">
-    <div class="sec-h"><h2 id="h-ten">Osaka in 10 seconds</h2><span>Three areas, one red subway line</span></div>
-    <div class="tens">
-      <a class="ten t-namba" href="osaka-where-to-stay.html#namba"><small>Best for food & first visits</small><b>Namba</b><span><em>3 min</em> to Dotonbori</span><span><em>34–39 min</em> from the airport</span></a>
-      <a class="ten t-umeda" href="osaka-where-to-stay.html#umeda"><small>Best for day trips</small><b>Umeda</b><span><em>29 min</em> to Kyoto</span><span><em>≈15 min</em> to Universal Studios</span></a>
-      <a class="ten t-tennoji" href="osaka-where-to-stay.html#tennoji"><small>Best for families & budgets</small><b>Tennoji</b><span><em>30 min</em> from the airport</span><span><em>5–10 min</em> to the zoo</span></a>
-    </div>
-  </section>
-
-  <section class="wrap sec" aria-labelledby="h-latest">
-    <div class="sec-h"><h2 id="h-latest">Start here</h2></div>
-    <div class="related">
-      <a href="osaka-where-to-stay.html"><img src="https://images.pexels.com/photos/30037377/pexels-photo-30037377.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Osaka Station at night" loading="lazy"><span>Where to stay in Osaka<small>Pick by who's travelling</small></span></a>
-      <a href="namba.html"><img src="https://images.pexels.com/photos/35183439/pexels-photo-35183439.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Dotonbori and the Glico sign" loading="lazy"><span>Things to do around Namba<small>Every spot within a 15-minute walk</small></span></a>
-      <a href="kansai-airport-to-osaka.html"><img src="https://images.pexels.com/photos/39466513/pexels-photo-39466513.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Airport trains at a platform" loading="lazy"><span>Kansai Airport to Osaka<small>Which train for which area</small></span></a>
+  <section class="wrap sec" aria-labelledby="h-posts">
+    <div class="sec-h"><span class="tape t-mint">Fresh from us</span><h2 id="h-posts">Latest posts</h2></div>
+    <div class="posts">
+      <a class="post" href="osaka-where-to-stay.html">
+        <div class="post-img"><img src="https://images.pexels.com/photos/30037377/pexels-photo-30037377.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Osaka Station lit up at night" loading="lazy"></div>
+        <div class="post-tx"><span class="tag tag-coral">Where to stay</span><h3>Where to stay in Osaka: Namba, Umeda or Tennoji?</h3><p>Three areas on one red subway line. What's outside each door, and who each one suits.</p><small>Osaka · checked 22 Nov 2026</small></div>
+      </a>
+      <a class="post" href="namba.html">
+        <div class="post-img"><img src="https://images.pexels.com/photos/35183439/pexels-photo-35183439.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Dotonbori canal and the Glico sign" loading="lazy"></div>
+        <div class="post-tx"><span class="tag tag-sun">Things to do</span><h3>Things to do around Namba, all within a 15-minute walk</h3><p>The canal, the food streets and the shopping arcades, with walking times from Exit 14.</p><small>Osaka · checked 22 Nov 2026</small></div>
+      </a>
+      <a class="post" href="kansai-airport-to-osaka.html">
+        <div class="post-img"><img src="https://images.pexels.com/photos/39466513/pexels-photo-39466513.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Airport trains at a platform" loading="lazy"></div>
+        <div class="post-tx"><span class="tag tag-sky">Getting there</span><h3>Kansai Airport to Osaka: which train for your hotel</h3><p>Nankai or JR? Pick the line that stops at your hotel and skip the transfer.</p><small>Osaka · checked 22 Nov 2026</small></div>
+      </a>
     </div>
   </section>
 
   <section class="wrap sec" aria-labelledby="h-cities">
-    <div class="sec-h"><h2 id="h-cities">Cities</h2></div>
-    <div class="cities">
-      <a class="city live" href="osaka-where-to-stay.html"><img src="https://images.pexels.com/photos/34729040/pexels-photo-34729040.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Dotonbori canal at night" loading="lazy"><span><b>Osaka</b><small>3 guides · Namba, Umeda, Tennoji</small></span></a>
-      <div class="city live soon-img"><img src="https://images.pexels.com/photos/5905666/pexels-photo-5905666.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Shibuya Crossing at twilight" loading="lazy"><span><b>Tokyo</b><small>Coming soon</small></span></div>
-      <div class="city live soon-img"><img src="https://images.pexels.com/photos/40884563/pexels-photo-40884563.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Red torii gates at Fushimi Inari, Kyoto" loading="lazy"><span><b>Kyoto</b><small>Coming soon</small></span></div>
-      <div class="city live soon-img"><img src="https://images.pexels.com/photos/36595972/pexels-photo-36595972.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="A snowy street in Sapporo" loading="lazy"><span><b>Hokkaido</b><small>Coming soon</small></span></div>
+    <div class="sec-h"><span class="tape t-pink">Cities</span><h2 id="h-cities">Where we've written about</h2></div>
+    <div class="cities2">
+      <a class="city2 live" href="osaka-where-to-stay.html"><img src="https://images.pexels.com/photos/34729040/pexels-photo-34729040.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Dotonbori canal at night" loading="lazy"><span><b>Osaka</b><small>3 guides</small></span></a>
+      <div class="city2"><img src="https://images.pexels.com/photos/5905666/pexels-photo-5905666.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Shibuya Crossing at twilight" loading="lazy"><span><b>Tokyo</b><small>Writing now</small></span></div>
+      <div class="city2"><img src="https://images.pexels.com/photos/40884563/pexels-photo-40884563.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Red torii gates at Fushimi Inari, Kyoto" loading="lazy"><span><b>Kyoto</b><small>Up next</small></span></div>
+      <div class="city2"><img src="https://images.pexels.com/photos/36595972/pexels-photo-36595972.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A snowy street in Sapporo" loading="lazy"><span><b>Hokkaido</b><small>On our list</small></span></div>
     </div>
   </section>
 
-  <section class="wrap sec" aria-labelledby="h-how">
-    <div class="sec-h"><h2 id="h-how">How every guide works</h2></div>
-    <div class="how">
-      <div><span>1</span><h3>What it's like</h3><p>The feel of the area, in one honest paragraph.</p></div>
-      <div><span>2</span><h3>What's nearby</h3><p>The sights you can walk to, with minutes on foot.</p></div>
-      <div><span>3</span><h3>How far</h3><p>Airport, Kyoto, Nara, theme parks. Real train times.</p></div>
-      <div><span>4</span><h3>Where to book</h3><p>Hotels close to the station, plus the tickets you'll need.</p></div>
+  <section class="wrap sec team" aria-labelledby="h-team">
+    <div class="team-card">
+      <span class="tape t-lilac">Who writes this</span>
+      <h2 id="h-team">A small team that plans Japan from the station out</h2>
+      <p>We start every guide with the train map. Which station are you near, how many minutes to the things you came for, and what's annoying about the area. Every time and price is checked against the train company, the airport or the tourism bureau, and the date we checked is on the page.</p>
+      <p>Some links earn us a small commission if you book. It never changes what we tell you, and if an area isn't right for you, we'll say so.</p>
+      <div class="team-links"><a class="pill" href="about.html">How we check things →</a><a class="pill ghost" href="https://www.instagram.com/japanbystation/">Ask us on Instagram</a></div>
     </div>
   </section>
-  <p class="byline wrap" style="margin-top:30px">Photos on Pexels: Royce Ho, Talha Resitoglu, Julien, MacroLingo LLC, Glen Zi, Imani Williams, Arnaud Audoin, Iban Lopez Luna.</p>
+  <p class="byline wrap" style="margin-top:28px">Photos on Pexels: Royce Ho, Talha Resitoglu, Julien, MacroLingo LLC, Glen Zi, Imani Williams, Arnaud Audoin, Iban Lopez Luna.</p>
 </main>
+<script>
+(function(){
+var D={
+ stay:{h:"Stay where your evenings are.",p:"In Osaka, most people should sleep in Namba: Dotonbori is 3–5 minutes on foot and the airport train goes straight there. Umeda suits day trips, Tennoji suits families and tighter budgets. All three are on the same subway line, so none of them is far.",l:[["osaka-where-to-stay.html","Where to stay in Osaka"],["osaka-where-to-stay.html#for-first","Pick by who's travelling"]]},
+ transport:{h:"One red line does most of the work.",p:"Namba, Umeda and Tennoji all sit on the Midosuji subway line, so getting between them takes under 15 minutes. From Umeda, Kyoto is 29 minutes by JR. From Namba, Nara is about 40 minutes by Kintetsu.",l:[["osaka-where-to-stay.html","Minutes from each area"],["kansai-airport-to-osaka.html","Airport trains"]]},
+ airport:{h:"Match the train to your hotel.",p:"Nankai trains run to Namba (34–39 minutes on the Rapi:t). JR trains run to Tennoji, Osaka Station and Shin-Osaka. If you pick the right one, you won't need to change trains with your luggage.",l:[["kansai-airport-to-osaka.html","Kansai Airport to Osaka"]]},
+ nearby:{h:"Namba is best on foot.",p:"From Namba Station's Exit 14, the Dotonbori canal is 3–5 minutes away, the Shinsaibashi-suji arcade starts about 600 m north, and Kuromon Market is around 8 minutes' walk.",l:[["namba.html","Things to do around Namba"]]},
+ kids:{h:"Think about space and early nights.",p:"Tennoji is calmer than Namba, the zoo is 5–10 minutes' walk away, and JR's Haruka reaches the airport in about 30 minutes. Look for family rooms or apartment-style stays so everyone gets some privacy.",l:[["osaka-where-to-stay.html#for-family","Osaka with kids"]]},
+ daytrips:{h:"Sleep near the train you'll use most.",p:"Umeda is the best base for day trips: Kyoto is 29 minutes away and Universal Studios is about 15. If Nara is the main plan, Namba or Tennoji gets you there faster.",l:[["osaka-where-to-stay.html#for-trips","Best base for day trips"]]}
+};
+var tabs=[].slice.call(document.querySelectorAll('.concern')),box=document.getElementById('reply');
+function show(k){var d=D[k];if(!d)return;tabs.forEach(function(t){t.setAttribute('aria-selected',t.dataset.k===k?'true':'false')});
+ box.hidden=false;box.className='reply '+document.querySelector('.concern[data-k="'+k+'"]').className.split(' ')[1];
+ document.getElementById('reply-h').textContent=d.h;document.getElementById('reply-p').textContent=d.p;
+ document.getElementById('reply-links').innerHTML=d.l.map(function(x){return '<a class="pill" href="'+x[0]+'">'+x[1]+' →</a>'}).join('');}
+tabs.forEach(function(t){t.addEventListener('click',function(){show(t.dataset.k);box.scrollIntoView({behavior:'smooth',block:'nearest'})})});
+})();
+</script>
 <footer>
   <div class="wrap">
     <p><b>Japan by Station</b> · Where to stay in Japan, worked out from the station.</p>
