@@ -342,3 +342,16 @@ footer a{color:var(--ink);font-weight:700}
   .band{border-radius:26px}
 }
 .lede,.byline{max-width:64ch}
+/* auto guides */
+.faq details{margin-top:12px}
+.faq summary{font-weight:800;cursor:pointer}
+.sources .small,.small{font-size:13px;color:var(--muted)}
+.hero-lite{min-height:auto;padding:56px 0 28px;background:linear-gradient(135deg,#ffe3d6,#e3f6ff)}
+.hero-lite h1,.hero-lite p,.hero-lite .kicker{color:var(--ink);text-shadow:none}
+.tipbox{max-width:64ch;margin:18px auto;padding:16px 18px;border-radius:18px;background:#fff3c4;border:2px dashed var(--sun)}
+.tipbox b{color:var(--ink)}
+.cta-row{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+.pick{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:14px}
+.pick .box{background:#fff;border-radius:20px;padding:16px 18px;box-shadow:0 6px 20px rgba(59,48,96,.08)}
+.pick .box h4{margin:0 0 6px}
+.pick .box p{margin:0;font-size:15px}
