@@ -1,0 +1,12 @@
+# Japan by Station
+
+> English guides to Japan travel, organised around train stations: where to stay, what is within walking distance, and how many minutes it takes to reach the airport, day trips and sights. Every time and price is checked against operators, airports and tourism bureaus, with the check date shown on each page.
+
+## Osaka
+- [Where to stay in Osaka: Namba, Umeda or Tennoji](https://japanbystation.com/osaka-where-to-stay): which area suits first-timers, couples, families, groups and day-trippers, with walking and train times.
+- [Things to do around Namba](https://japanbystation.com/namba): sights within a 15-minute walk of Namba Station, with walking times.
+- [Kansai Airport to Osaka](https://japanbystation.com/kansai-airport-to-osaka): Nankai vs JR trains to Namba, Tennoji, Osaka Station and Shin-Osaka, with times and fares.
+
+## About
+- [About and how we check facts](https://japanbystation.com/about)
+- [How we make money](https://japanbystation.com/disclosure)
