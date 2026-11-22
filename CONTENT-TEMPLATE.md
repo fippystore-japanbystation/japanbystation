@@ -18,3 +18,11 @@ Each section is also a ready-made Reel topic. Every time, price and distance nee
 9. **Pros and cons, honestly.**
 10. **Tickets & bookings**: where to buy each ticket (official vs Klook/KKday), whether to pre-book, and CTAs.
 11. **Sources**: links for every fact, plus the date it was checked.
+
+## Reel captions
+1. Hook line answering the traveler's question, plus one emoji.
+2. 3–4 emoji bullets with the facts (times, prices, why we suggest it). Facts must match the page.
+3. One summary line, then "Comment KEYWORD and we'll DM you the full guide."
+4. A share line, worded differently each time, e.g. "📌 Save this and send it to whoever you're travelling with." / "Tag your travel buddy." / "Share it with your trip group chat."
+5. 5–8 hashtags, last.
+No affiliate or commission wording, no fake urgency.
