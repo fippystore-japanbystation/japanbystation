@@ -1,2 +1,7 @@
 /brand/*
   Access-Control-Allow-Origin: *
+/keywords.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: max-age=60
+/covers/*
+  Access-Control-Allow-Origin: *
