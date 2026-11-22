@@ -341,3 +341,4 @@ footer a{color:var(--ink);font-weight:700}
   .team-card{padding:24px 20px}
   .band{border-radius:26px}
 }
+.lede,.byline{max-width:64ch}
