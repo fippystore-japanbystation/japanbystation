@@ -3,5 +3,8 @@
 /keywords.json
   Access-Control-Allow-Origin: *
   Cache-Control: max-age=60
+/reels-queue.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: max-age=60
 /covers/*
   Access-Control-Allow-Origin: *
