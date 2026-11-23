@@ -85,9 +85,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 52 · hakone-big-suitcase-forward-carry-store · HAKONE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [x] 53 · lake-kawaguchi-station-or-lake-view · KAWAGUCHI · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [~] 23 Nov 20:42 JST 54 'Mount Fuji view' rooms: what you actually buy  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 23 Nov 20:42 JST 55 Kawaguchiko dinner after the last shuttle  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [!] 55 needs research — Kawaguchiko dinner after the last shuttle  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [~] 23 Nov 20:42 JST 56 Tokyo to Kawaguchiko with a big suitcase: bus or train  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [ ] 57 Lake Kawaguchi half-day cycling  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 21:40 JST 57 Lake Kawaguchi half-day cycling  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 58 Cloudy Fuji forecast: still go?  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 59 Hakone ryokan dinner: when to leave Tokyo  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 60 Hakone base: Yumoto, Gora or Lake Ashi  (Tokyo · BRIEFS-TOKYO-41-70.md)
