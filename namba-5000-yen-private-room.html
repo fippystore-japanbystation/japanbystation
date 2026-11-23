@@ -92,7 +92,7 @@ b.forEach(function(x){x.addEventListener('click',function(){sel(x.dataset.night)
       <div class="tip-actions"><a href="kansai-airport-to-osaka.html">Which airport train →</a><button type="button" class="tip-next" hidden>Next tip →</button></div>
     </div>
   </details>
-  <script>(function(){var t=document.getElementById('tip-namba');if(!t)return;var tips=[["Which Namba Station?",t.querySelector('.tip-text').textContent],["Shared toilet or private?","The ¥2,998 room lists an attached shower room but a shared toilet. If that matters to you, tick \"Private bathroom\" in Booking.com's filters before you compare prices."]],i=0,n=t.querySelector('.tip-next');n.hidden=false;n.addEventListener('click',function(){i=(i+1)%tips.length;t.querySelector('.tip-q').textContent=tips[i][0];t.querySelector('.tip-text').textContent=tips[i][1];n.textContent=i?'First tip →':'Next tip →';});})();</script>
+  <script>(function(){var t=document.getElementById('tip-namba');if(!t)return;var tips=[["Which Namba Station?",t.querySelector('.tip-text').textContent],["Shared toilet or private?","The ¥2,998 room lists an attached shower room but a shared toilet. If that matters to you, tick \"Private bathroom\" in Booking.com's filters before you compare prices."]],i=0,n=t.querySelector('.tip-next');n.hidden=false;n.addEventListener('click',function(){i=(i+1)%tips.length;t.querySelector('.tip-q').textContent=tips[i][0];t.querySelector('.tip-text').textContent=tips[i][1];n.textContent=i?'First tip →':'Next tip →';t.querySelector('.tip-actions a').hidden=!!i;});})();</script>
 
 </div></section>
 
