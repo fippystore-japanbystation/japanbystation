@@ -23,18 +23,19 @@ def make(video, t, title, cat, color, kw, out):
     f = F(66); s = "Japan by Station"; w = f.getlength(s)
     d.rounded_rectangle((W/2 - w/2 - 44, 262, W/2 + w/2 + 44, 372), radius=55, fill=CREAM + (245,))
     d.text((W/2 - w/2, 272), s, font=f, fill=INK)
-    # category tag
-    f = F(44); w = f.getlength(cat) + 64
-    d.rounded_rectangle((W/2 - w/2, 404, W/2 + w/2, 482), radius=39, fill=INK + (235,))
-    d.text((W/2 - (w - 64)/2, 413), cat, font=f, fill=WHITE)
-    # title: BIG, outlined, max 2 lines, high up so it reads on the profile grid
-    lines = title.split("|"); fs = 136
-    while max(F(fs).getlength(l) for l in lines) > 960: fs -= 4
-    f = F(fs); lh = int(fs * 1.08); y = 522
-    band = (0, y - 24, W, y + lh * len(lines) + 30)
-    d.rectangle(band, fill=(30, 22, 50, 95))
+    # category pill + title, centred as one block on the middle of the grid crop (y=960)
+    lines = title.split("|"); fs = 108
+    while max(F(fs).getlength(l) for l in lines) > 940: fs -= 4
+    f = F(fs); lh = int(fs * 1.1); gap = 34; ph = 78
+    block = ph + gap + lh * len(lines)
+    top = 960 - block // 2
+    fc = F(44); w = fc.getlength(cat) + 64
+    d.rounded_rectangle((W/2 - w/2, top, W/2 + w/2, top + ph), radius=39, fill=INK + (235,))
+    d.text((W/2 - (w - 64)/2, top + 9), cat, font=fc, fill=WHITE)
+    y = top + ph + gap
+    d.rectangle((0, y - 22, W, y + lh * len(lines) + 22), fill=(30, 22, 50, 95))
     for l in lines:
-        d.text(((W - f.getlength(l)) / 2, y), l, font=f, fill=WHITE, stroke_width=11, stroke_fill=STROKE)
+        d.text(((W - f.getlength(l)) / 2, y), l, font=f, fill=WHITE, stroke_width=9, stroke_fill=STROKE)
         y += lh
     # no bottom pill (Ling, 23 Nov): natural sharing, no "DM us" on the cover
     im = im.convert("RGBA"); im.alpha_composite(ov); im.convert("RGB").save(out, quality=90)
