@@ -1,0 +1,159 @@
+{
+ "slug": "namba-5000-yen-private-room",
+ "keyword": "PRIVACY",
+ "music": "m_tokyostroll.mp3",
+ "clipdir": "air/",
+ "outdir": "out/",
+ "hook": {
+  "tag": "NAMBA, OSAKA",
+  "lines": [
+   "Can ¥5,000",
+   "buy privacy?"
+  ]
+ },
+ "cta_sub": "real prices, same nights",
+ "cover": {
+  "title": "Can ¥5,000|buy privacy?",
+  "category": "NAMBA, OSAKA",
+  "color": "coral",
+  "clip": "c_39438148.mp4",
+  "t": 3
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clip": [
+    "c_39438148.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Five thousand yen a night in Namba.",
+     "¥5,000 a night in Namba."
+    ],
+    [
+     "Can it buy you a private room? We checked real prices.",
+     "Can it buy a private room? We checked."
+    ]
+   ]
+  },
+  {
+   "id": "a",
+   "clip": [
+    "c_28962556.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "WEEKNIGHT",
+    "title": "Private single",
+    "big": "≈¥5,000",
+    "small": "own bathroom, 600 m"
+   },
+   "clauses": [
+    [
+     "On a Wednesday, yes.",
+     "On a Wednesday, yes."
+    ],
+    [
+     "A small single with its own bathroom, six hundred metres from the station, came to about five thousand.",
+     "A single with its own bathroom, 600 m away: about ¥5,000."
+    ]
+   ]
+  },
+  {
+   "id": "b",
+   "clip": [
+    "c_7815111.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "JUST A BED",
+    "title": "Capsule",
+    "big": "≈¥3,200",
+    "small": "same night, nearby"
+   },
+   "clauses": [
+    [
+     "A capsule nearby was about three thousand two hundred.",
+     "A capsule nearby: about ¥3,200."
+    ],
+    [
+     "Fine if you only need a bed after a late night.",
+     "Fine if you only need a bed after a late night."
+    ]
+   ]
+  },
+  {
+   "id": "c",
+   "clip": [
+    "c_31387679.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "SATURDAY",
+    "title": "Cheapest room",
+    "big": "¥11,000+",
+    "small": "same 1 km radius"
+   },
+   "clauses": [
+    [
+     "But on a Saturday,",
+     "But on a Saturday,"
+    ],
+    [
+     "the cheapest private room was over eleven thousand.",
+     "the cheapest private room was over ¥11,000."
+    ],
+    [
+     "Five thousand only bought a capsule.",
+     "¥5,000 only bought a capsule."
+    ]
+   ]
+  },
+  {
+   "id": "verdict",
+   "clip": [
+    "c_40101522.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "lilac",
+    "kicker": "OUR PICK",
+    "title": "Book midweek",
+    "big": "Sun–Thu",
+    "small": "private room fits ¥5,000"
+   },
+   "clauses": [
+    [
+     "So we suggest Namba midweek,",
+     "So we suggest Namba midweek,"
+    ],
+    [
+     "or the capsule on Saturday.",
+     "or the capsule on Saturday."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clip": [
+    "c_29006525.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Comment PRIVACY and we'll DM you the full guide.",
+     "Comment PRIVACY for the full guide."
+    ],
+    [
+     "Follow for more Japan tips.",
+     "Follow for more Japan tips."
+    ]
+   ]
+  }
+ ],
+ "caption": "Can ¥5,000 a night buy you privacy in Namba? We checked real prices for the same nights 🏨\n\n🛏️ Wednesday: a single with its own bathroom, ~600 m from Namba Station, about ¥5,000\n🧳 Capsule nearby the same night: about ¥3,200\n📈 Saturday: the cheapest private room within 1 km was over ¥11,000, so ¥5,000 only bought a capsule\n\nOur pick: book Namba Sunday to Thursday, or take the capsule on Saturday.\nComment PRIVACY and we'll DM you the full guide 📩\n📌 Send this to the friend who's budgeting your Osaka trip.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#namba #osaka #budgettravel #capsulehotel #osakahotel #japantravel #japantrip #dotonbori"
+}

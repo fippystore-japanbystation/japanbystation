@@ -10,3 +10,5 @@ NOT Japan / unsure, never use: 40285557 (lantern alley, looks like Taiwan), 2899
 Night food stall with people (Japan): 40101522 · Busy Namba/Shinsaibashi night street: 18662589 · Night elevated train: 36024206
 Tenjinbashisuji-style arcade with people: 36549266 · Tuna slicing at market: 30683352 · Yakiniku + sushi table: 41127522 · Korean dining neon (Osaka): 31387611
 Friends eating hot pot: 41127516 · Bedroom with city view: 28962556 · Hotel bed made up: 6466562 · Osaka intersection with bus: 34448615
+TOKYO (Shinjuku Kabukicho, "新宿東宝ビル" sign) — NEVER in Osaka/Kansai Reels, fine for Tokyo: 18662589, 18662590, 18662591, 18662592
+Hostel bunk bed (use for capsule/dorm scenes): 7815111 · Luxury Western hotel room (not for budget topics): 6466568 · Shinsekai + Tsutenkaku (Osaka, day): 37606282

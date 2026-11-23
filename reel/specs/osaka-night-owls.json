@@ -16,14 +16,14 @@
   "title": "Out late in Osaka?|Stay here",
   "category": "NIGHTLIFE",
   "color": "pink",
-  "clip": "c_18662589.mp4",
-  "t": 3
+  "clip": "c_31387611.mp4",
+  "t": 2
  },
  "scenes": [
   {
    "id": "hook",
    "clip": [
-    "c_18662589.mp4",
+    "c_31387611.mp4",
     0.0
    ],
    "clauses": [

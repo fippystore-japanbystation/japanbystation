@@ -8,10 +8,11 @@
 - osaka-live-like-a-local · LOCAL · Reel ✓ (Tenma, Tsuruhashi as bases)
 - osaka-night-owls · NIGHT · Reel ✓ (Namba, Ura-Namba, Tenma; last trains)
 - osaka-four-friends · GROUP · Reel ✓ (apartment vs apartment hotel vs two twins; legal rentals)
+- namba-5000-yen-private-room · PRIVACY · Reel ✓ (brief 01: weeknight private room vs Saturday capsule, Booking.com prices 16 + 19 Dec 2026)
 
 ## PRIORITY 1 — Ling's 40 briefs (BRIEFS-KANSAI-40.md), in number order
 Website task: write the guide for the next brief(s) without a guide. Reels task: Reel for briefs whose guide is live. Mark each: `- [x] 01 · <slug> · <KEYWORD> · page ✓ · reel ✓` (or `needs research` → NEEDS-RESEARCH.md).
-- [ ] 01 Namba ¥5,000 privacy
+- [x] 01 · namba-5000-yen-private-room · PRIVACY · page ✓ · reel ✓
 - [ ] 02 Honmachi ¥10,000 late dinner, quiet room
 - [ ] 03 Nakazakicho vs Umeda ¥3,000 saving
 - [ ] 04 Kuromon ¥12,000 room for 8 a.m. breakfast
