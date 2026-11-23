@@ -218,3 +218,6 @@ footer a{color:var(--ink);font-weight:700}
 .more-list a:hover{background:var(--sun-t)}
 .more-list small{color:var(--muted);font-weight:700;margin-left:4px}
 @media (max-width:520px){.nav .links{gap:2px}.nav .links a,.more-menu summary{padding:6px 9px}}
+
+.onemore{max-width:64ch;margin:18px auto;padding:18px 20px;border-radius:18px;background:#fff;border:2px solid var(--coral,#ff7d5e)}
+.onemore h2{margin-top:0}
