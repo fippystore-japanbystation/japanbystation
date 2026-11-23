@@ -16,3 +16,7 @@ Photos viewed and fine: 23228674 (Tokyo Bay elevated railway), 33326934 (Hakone 
 ## Added 23 Nov 2026 night (briefs 54, 56, 57) — same reason (no Downloads folder connected in the unattended run)
 fb-fujiview-1/2 (place "LAKE KAWAGUCHI, YAMANASHI"), fb-excursion-1 ("KAWAGUCHIKO, YAMANASHI"), fb-excursion-2 ("SHINJUKU, TOKYO"), fb-cycle-1/2 ("LAKE KAWAGUCHI, YAMANASHI"). Orders 29–34.
 Photos viewed (thumbnail) and fine: 31268058 (Fuji over the lake, boat), 40294746 (Kawaguchiko Station building + Fuji), 31001256 (yellow Chuo-Sobu train, Tokyo), 33341980 (street with Fuji, Fujikawaguchiko), 31311185 (lakeside railing, Lake Kawaguchi). CHECK before use: 37307622 (Pexels title "Mt Fuji from Lake Kawaguchi", loads as JPEG, not viewed).
+
+## Added 23 Nov 2026 late (briefs 58, 59, 60) — same reason (no Downloads folder connected in the unattended run)
+fb-clouds-1/2 (place "LAKE KAWAGUCHI, YAMANASHI"), fb-dinner-1/2 ("HAKONE, KANAGAWA"), fb-base-1/2 ("HAKONE, KANAGAWA"). Orders 35–40.
+Photos viewed (thumbnail) and fine: 37307622 (Fuji over Lake Kawaguchi, car on shore), 34548049 (Lake Kawaguchi under grey sky, no Fuji), 37194569 (Lake Ashi with Hakone Shrine torii and pirate ship), 31252459 (Hakone Shrine torii close-up), 37194576 (misty Lake Ashi). 33326934 (Hakone Tozan bus, autumn) viewed in an earlier run.

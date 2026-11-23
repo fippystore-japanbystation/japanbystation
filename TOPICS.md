@@ -46,6 +46,9 @@
 - kawaguchiko-fuji-view-room-what-you-buy · FUJIVIEW (brief 54: Booking 16 Dec 2026 2 adults: Fuji View Hotel Mt.Fuji View 36 m² ¥61,020 vs garden twin ¥52,740 (+¥8,280); Kasuitei Ooya 'selected at check-in' ¥47,500 vs No View ¥39,330, 7F bath 5–10/15–24; Toyoko Inn Ohashi twin ¥14,910 + Ohashi Bridge/Ubuyagasaki at dawn)
 - tokyo-to-kawaguchiko-big-suitcase-bus-or-train · EXCURSION (brief 56: Busta bus ¥2,000 online, 1 case/person in hold, 6:45–22:25; Fuji Excursion weekday 7:30–10:30 ¥4,200; Kaiji :30 → Otsuki ~1 h + Fujikyu ¥1,170, last 21:59→23:10)
 - lake-kawaguchi-half-day-cycling · CYCLE (brief 57: Q-BIKE ¥1,100/h cap ¥3,300, station day pass ¥4,400 10–17; bridge out-and-back for 14:58 train, Oishi Park for 16:48; Red Line 27 min ¥1,500; Hoto Fudo north 11–19)
+- kawaguchiko-cloudy-fuji-forecast · CLOUDS (brief 58: Fujisan Watcher live cams; JR one free change before departure; kosokubus cancel by 17:00 day before; Toyoko Inn Ohashi ¥14,910 free cancel to 15 Dec; Itchiku Kubota ¥1,500 Dec–Mar 10–16:30; Hoto Fudo 11–19 ¥1,210; bus pass 1 day ¥1,500 / 2 days ¥2,000)
+- hakone-ryokan-dinner-leave-tokyo · DINNER (brief 59: Kiritani Hakoneso check-in 15:30–18:00 ¥34,000 2 meals; Shinjuku 15:00 Romancecar → Gora 17:03 ¥2,871; Open-Air Museum ¥2,000, leave by 16:50 for 17:01; room-only MIRAHAKONE ¥16,800 + 18:00 Homeway → 19:40, Kinosuke L.O. 21:30 closed Mon)
+- hakone-base-yumoto-gora-lake-ashi · BASE (brief 60: Booking 16 Dec 2 adults: Yumoto MIRAHAKONE ¥16,800 RO vs Sundance Gora ¥18,540 BF vs RoheN Ashinoko lake view ¥18,225 BF; last weekday bus Yumoto→lake 20:48; La Terrazza L.O. 19:00; ropeway Owakudani–Sounzan bus 7–24 Dec 2026)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -92,9 +95,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [!] 55 needs research — Kawaguchiko dinner after the last shuttle  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [x] 56 · tokyo-to-kawaguchiko-big-suitcase-bus-or-train · EXCURSION · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [x] 57 · lake-kawaguchi-half-day-cycling · CYCLE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [~] 23 Nov 12:42 58 Cloudy Fuji forecast: still go?  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 23 Nov 12:42 59 Hakone ryokan dinner: when to leave Tokyo  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 23 Nov 12:42 60 Hakone base: Yumoto, Gora or Lake Ashi  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 58 · kawaguchiko-cloudy-fuji-forecast · CLOUDS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
+- [x] 59 · hakone-ryokan-dinner-leave-tokyo · DINNER · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
+- [x] 60 · hakone-base-yumoto-gora-lake-ashi · BASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [ ] 61 Hakone Freepass for a ryokan-focused stay  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 62 Hakone 'private onsen': private when?  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 63 Hakone ropeway closed: plan B  (Tokyo · BRIEFS-TOKYO-41-70.md)
