@@ -18,29 +18,28 @@ def make(video, t, title, cat, color, kw, out):
     im = ImageEnhance.Color(im).enhance(1.15)
     ov = Image.new("RGBA", (W, H), (30, 22, 50, 70)); d = ImageDraw.Draw(ov)
     c = COL[color]
-    # brand pill
+    # brand pill (top of the 3:4 grid crop, which shows y 240-1680)
     f = F(34); s = "Japan by Station"; w = f.getlength(s)
-    d.rounded_rectangle((W/2 - w/2 - 30, 300, W/2 + w/2 + 30, 364), radius=32, fill=CREAM + (240,))
-    d.text((W/2 - w/2, 307), s, font=f, fill=INK)
+    d.rounded_rectangle((W/2 - w/2 - 30, 290, W/2 + w/2 + 30, 354), radius=32, fill=CREAM + (240,))
+    d.text((W/2 - w/2, 297), s, font=f, fill=INK)
     # category tag
-    f = F(38); w = f.getlength(cat) + 56
-    d.rounded_rectangle((W/2 - w/2, 640, W/2 + w/2, 708), radius=34, fill=c + (255,))
-    d.text((W/2 - (w - 56)/2, 648), cat, font=f, fill=INK)
-    # title, outlined, max 2 lines
-    lines = title.split("|"); fs = 104
-    while max(F(fs).getlength(l) for l in lines) > 940: fs -= 4
-    f = F(fs); y = 740
+    f = F(44); w = f.getlength(cat) + 64
+    d.rounded_rectangle((W/2 - w/2, 420, W/2 + w/2, 498), radius=39, fill=c + (255,))
+    d.text((W/2 - (w - 64)/2, 429), cat, font=f, fill=INK)
+    # title: BIG, outlined, max 2 lines, high up so it reads on the profile grid
+    lines = title.split("|"); fs = 158
+    while max(F(fs).getlength(l) for l in lines) > 1010: fs -= 4
+    f = F(fs); lh = int(fs * 1.08); y = 530
+    band = (0, y - 24, W, y + lh * len(lines) + 30)
+    d.rectangle(band, fill=(30, 22, 50, 95))
     for l in lines:
-        d.text(((W - f.getlength(l)) / 2, y), l, font=f, fill=WHITE, stroke_width=8, stroke_fill=STROKE)
-        y += int(fs * 1.12)
-    # keyword
-    f = F(40, "Medium"); s = "Comment"; fk = F(56); k = kw
-    tw = f.getlength(s) + 18 + fk.getlength(k) + 70
-    y2 = 1500
-    d.rounded_rectangle((W/2 - tw/2, y2, W/2 + tw/2, y2 + 96), radius=48, fill=CREAM + (245,))
-    x = W/2 - tw/2 + 35
-    d.text((x, y2 + 22), s, font=f, fill=INK); x += f.getlength(s) + 18
-    d.text((x, y2 + 10), k, font=fk, fill=c if color not in ("sun",) else (214, 150, 0))
+        d.text(((W - f.getlength(l)) / 2, y), l, font=f, fill=WHITE, stroke_width=11, stroke_fill=STROKE)
+        y += lh
+    # bottom pill: the guide comes by DM (keyword is in the video and caption)
+    f = F(58); s = "Full guide in DM"
+    tw = f.getlength(s) + 90; y2 = 1420
+    d.rounded_rectangle((W/2 - tw/2, y2, W/2 + tw/2, y2 + 110), radius=55, fill=CREAM + (245,))
+    d.text((W/2 - f.getlength(s)/2, y2 + 18), s, font=f, fill=c if color not in ("sun",) else (214, 150, 0))
     im = im.convert("RGBA"); im.alpha_composite(ov); im.convert("RGB").save(out, quality=90)
 
 if __name__ == "__main__":

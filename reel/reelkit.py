@@ -140,16 +140,16 @@ def render(spec, tj, wd, stills=False):
         if s == order[0]:
             a = ease(lt / .35); hk = spec["hook"]
             fk = F(30); kw = fk.getlength(hk["tag"]) + 44
-            rr(d, (W/2 - kw/2, 520, W/2 + kw/2, 572), 26, al(COL["sun"], a)); ctext(d, 527, hk["tag"], fk, al(INK, a))
-            f = F(96)
-            while max(f.getlength(l) for l in hk["lines"]) > 960: f = F(f.size - 4)
+            rr(d, (W/2 - kw/2, 420, W/2 + kw/2, 472), 26, al(COL["sun"], a)); ctext(d, 427, hk["tag"], fk, al(INK, a))
+            f = F(140)
+            while max(f.getlength(l) for l in hk["lines"]) > 1000: f = F(f.size - 4)
             for i, l in enumerate(hk["lines"]):
                 r = back((lt - .15 - i * .12) / .45)
-                otext(d, ((W - f.getlength(l)) / 2, 600 + i * int(f.size * 1.2) + (1 - r) * 40), l, f, al(WHITE, min(1, r * 1.2)), sw=7)
+                otext(d, ((W - f.getlength(l)) / 2, 500 + i * int(f.size * 1.12) + (1 - r) * 40), l, f, al(WHITE, min(1, r * 1.2)), sw=10)
         elif s == order[-1]:
             a = ease(lt / .3); K = spec["keyword"]
             rr(d, (150, 450 + (1 - a) * 30, W - 150, 850 + (1 - a) * 30), 46, al(CREAM, .95 * a))
-            ctext(d, 490 + (1 - a) * 30, "Comment", F(56), al(INK, a))
+            ctext(d, 490 + (1 - a) * 30, "Comment or DM us", F(56), al(INK, a))
             r = back((lt - .2) / .45); fw = F(92)
             while fw.getlength(K) > 640: fw = F(fw.size - 4)
             w = fw.getlength(K) + 90; y = 570 + (1 - r) * 40
