@@ -8,6 +8,8 @@
 - osaka-live-like-a-local · LOCAL · Reel ✓ (Tenma, Tsuruhashi as bases)
 - osaka-night-owls · NIGHT · Reel ✓ (Namba, Ura-Namba, Tenma; last trains)
 - osaka-four-friends · GROUP · Reel ✓ (apartment vs apartment hotel vs two twins; legal rentals)
+- shinjuku-which-station · SHINJUKU (brief 73: JR Shinjuku vs Shinjuku-sanchome vs Higashi-shinjuku, Booking prices 16 Dec 2026)
+- cup-noodles-museum-ikeda · NOODLES (brief 12: My CUPNOODLES vs Chicken Ramen Factory vs free museum)
 - namba-5000-yen-private-room · PRIVACY · Reel ✓ (brief 01: weeknight private room vs Saturday capsule, Booking.com prices 16 + 19 Dec 2026)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
@@ -15,9 +17,9 @@ Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `
 - [ ] 71 Shibuya Crossing: pay for a view?  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [ ] 11 Minoh Falls autumn afternoon  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 72 Yoyogi-Hachiman / Yoyogi-Uehara vs central Shibuya (check the 'one stop' claim)  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [~] 2026-11-23 09:38 (main chat) 02 Honmachi ¥10,000 late dinner, quiet room  (Osaka city · BRIEFS-KANSAI-40.md)
-- [~] 2026-11-23 09:38 (main chat) 73 Which Shinjuku station: JR, Shinjuku-sanchome, Higashi-shinjuku  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [~] 2026-11-23 09:38 (main chat) 12 Ikeda Cup Noodles Museum: which experience  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [!] 02 needs research — Honmachi ¥10,000 late dinner, quiet room  (Osaka city · BRIEFS-KANSAI-40.md)
+- [x] 73 · shinjuku-which-station · SHINJUKU · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [x] 12 · cup-noodles-museum-ikeda · NOODLES · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 74 Shinjuku 2 hours: Gyoen, Metropolitan Govt Building, Shinjuku-sanchome  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [ ] 03 Nakazakicho vs Umeda ¥3,000 saving  (Osaka city · BRIEFS-KANSAI-40.md)
 - [ ] 75 Senso-ji before breakfast or after dinner  (Tokyo · BRIEFS-TOKYO-71-80.md)
