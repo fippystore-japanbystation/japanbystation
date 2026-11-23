@@ -1,30 +1,30 @@
 {
+ "OSAKA": {
+  "url": "https://japanbystation.com/osaka-where-to-stay",
+  "title": "Where to stay in Osaka: Namba, Umeda or Tennoji?"
+ },
+ "NAMBA": {
+  "url": "https://japanbystation.com/namba",
+  "title": "Things to do around Namba, all within a 15-minute walk"
+ },
  "AIRPORT": {
   "url": "https://japanbystation.com/kansai-airport-to-osaka",
   "title": "Kansai Airport to Osaka: which train for your hotel"
  },
- "OSAKA": {
-  "url": "https://japanbystation.com/osaka-where-to-stay",
-  "title": "Where to stay in Osaka: Namba, Umeda or Tennoji"
- },
- "NAMBA": {
-  "url": "https://japanbystation.com/namba",
-  "title": "Things to do around Namba, within a 15-minute walk"
- },
- "MARKET": {
-  "url": "https://japanbystation.com/osaka-local-markets",
-  "title": "Local markets in Osaka beyond Kuromon"
- },
- "LOCAL": {
-  "url": "https://japanbystation.com/osaka-live-like-a-local",
-  "title": "Where to stay in Osaka to live like a local"
+ "GROUP": {
+  "url": "https://japanbystation.com/osaka-four-friends",
+  "title": "Four Friends in Osaka: One Apartment or Two Hotel Rooms?"
  },
  "NIGHT": {
   "url": "https://japanbystation.com/osaka-night-owls",
-  "title": "Where to stay in Osaka if you're out late"
+  "title": "Where to Stay in Osaka If You're Out Late"
  },
- "GROUP": {
-  "url": "https://japanbystation.com/osaka-four-friends",
-  "title": "Four friends in Osaka: one apartment or two hotel rooms?"
+ "LOCAL": {
+  "url": "https://japanbystation.com/osaka-live-like-a-local",
+  "title": "Where to Stay in Osaka to Live Like a Local"
+ },
+ "MARKET": {
+  "url": "https://japanbystation.com/osaka-local-markets",
+  "title": "Local Markets in Osaka Beyond Kuromon"
  }
 }
