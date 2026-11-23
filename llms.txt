@@ -2,12 +2,8 @@
 
 > English guides to Japan travel, organised around train stations: where to stay, what is within walking distance, local markets, nightlife, and how many minutes it takes to reach the airport, day trips and sights. Every time and price is checked against operators, airports and tourism bureaus, with the check date shown on each page.
 
-## Tokyo
-- [Would You Stay Outside Shibuya for a Quieter Morning?](https://japanbystation.com/shibuya-quiet-base-yoyogi): Neither is one stop from Shibuya. Same-night prices, the trip home after dinner and who the quieter base really suits.
-- [Shibuya Crossing: Is It Worth Paying to See It From Above?](https://japanbystation.com/shibuya-crossing-view): Free from Hachiko Square, a drink for the Starbucks window, ¥1,800 for the MAG8 rooftop or ¥2,700+ for Shibuya Sky. Which view fits you.
-- ["Shinjuku" on the Booking: Which Station Will You Actually Use?](https://japanbystation.com/shinjuku-which-station): JR Shinjuku, Shinjuku-sanchome or Higashi-shinjuku? Same-night prices and the trips each one makes easy.
-
 ## Osaka
+- [Nakazakicho vs Umeda: Would You Walk for ¥3,000 Less a Night?](https://japanbystation.com/nakazakicho-vs-umeda-hotel): About ¥9,500 saved over three nights for a 12-minute walk. A taxi costs from ¥600.
 - [Minoh Falls in Autumn: Leave Osaka at 1, Back Before Dark?](https://japanbystation.com/minoh-falls-autumn-afternoon): Umeda at 13:00 still works on a weekday: falls by 14:15, back before the 16:48 sunset. The shorter walk, and when to leave earlier.
 - [Cup Noodles Museum Ikeda: Design a Cup, Make Noodles, or Just Explore?](https://japanbystation.com/cup-noodles-museum-ikeda): ¥500 cup on the day, a 70-minute noodle workshop you must book, or the free museum. Which one fits your visit.
 - [Can ¥5,000 Buy a Private Room Near Namba?](https://japanbystation.com/namba-5000-yen-private-room): Wednesday: a private room from ¥2,998. Saturday: ¥5,000 buys a capsule. Real prices for two sampled nights.
@@ -18,6 +14,13 @@
 - [Where to stay in Osaka: Namba, Umeda or Tennoji?](https://japanbystation.com/osaka-where-to-stay): Three areas on one red subway line. What's outside each door, and who each one suits.
 - [Things to do around Namba, all within a 15-minute walk](https://japanbystation.com/namba): The canal, the food streets and the shopping arcades, with walking times from Exit 14.
 - [Kansai Airport to Osaka: which train for your hotel](https://japanbystation.com/kansai-airport-to-osaka): Nankai or JR? Pick the line that stops at your hotel and skip the transfer.
+
+## Tokyo
+- [Senso-ji Before Breakfast or After Dinner?](https://japanbystation.com/sensoji-morning-or-evening): Inside the main hall: go early. Lit-up photos: go after dinner. Nakamise shops: midday.
+- [Two Hours Before Dinner in Shinjuku: Garden, Skyline or Side Streets?](https://japanbystation.com/shinjuku-two-hours-before-dinner): Gyoen's last entry is 16:00 in winter. After that, the free observatory or Shinjuku-sanchome.
+- [Would You Stay Outside Shibuya for a Quieter Morning?](https://japanbystation.com/shibuya-quiet-base-yoyogi): Neither is one stop from Shibuya. Same-night prices, the trip home after dinner and who the quieter base really suits.
+- [Shibuya Crossing: Is It Worth Paying to See It From Above?](https://japanbystation.com/shibuya-crossing-view): Free from Hachiko Square, a drink for the Starbucks window, ¥1,800 for the MAG8 rooftop or ¥2,700+ for Shibuya Sky. Which view fits you.
+- ["Shinjuku" on the Booking: Which Station Will You Actually Use?](https://japanbystation.com/shinjuku-which-station): JR Shinjuku, Shinjuku-sanchome or Higashi-shinjuku? Same-night prices and the trips each one makes easy.
 
 ## About
 - [About and how we check facts](https://japanbystation.com/about)
