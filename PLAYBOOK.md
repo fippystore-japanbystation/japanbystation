@@ -41,6 +41,14 @@ Body: copy the structure of an existing guide (e.g. `site/guides/osaka-local-mar
 - Deploy: `python3 jbs.py deploy-site "Add <slug>"` (builds, copies to main, pushes → live in ~1 min). **Batch several guides per deploy** (Cloudflare free plan ≈500 builds/month; budget ≤4 site deploys/day).
 - Verify one new page in the browser after deploy.
 
+## 2b. Facebook text posts (Ling, 23 Nov — test)
+For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` → `{"id":"fb-<keyword-lower>-1","guide":"<slug>","photo":<pexels id that shows that place>,"order":<next number>,"text":"…"}` (second one `-2`). build.py turns them into fb-queue.json; n8n posts the next one at about 10:00 and 20:30 Malaysia time with the photo.
+- Same topic and facts as the guide, but its own angle: a mini-guide a reader can use in 30 seconds. 120–220 words, English, written like a small team that knows the place ("we'd", "our take"), warm, specific, never salesy.
+- Post 1 = MINI-GUIDE: situation hook → 2–3 options, each = decision + 1–2 researched whys (numbers from the guide only) → "Our take" → guide link → one easy question.
+- Post 2 = one of: INSIDER TIP / MISTAKE TO AVOID (one thing first-timers get wrong + the fix), SAVE-THIS CHECKLIST (3–5 steps), or A-or-B QUESTION. Rotate.
+- Insider, lesser-known first: lead with the places and habits regulars know. Dotonbori / Namba / Shibuya crossing / Kabukicho only as a reference point and at most once in any 3 posts; never "the best / must-see" hype.
+- Every post ends with the full guide URL (https://japanbystation.com/<slug>) and a question or "save this". No affiliate links, no "cheaper/best price", no hashtags walls (0–2 max), emojis as bullets only.
+
 ## 3. Reels (approved style; do not change without Ling)
 - Mature male voice with intonation, slow pace (Kokoro blend am_michael 0.65 + am_fenrir 0.35, speed 1.0, built into reelkit).
 - Phrase subtitles, outlined text, no background, spoken word bounces in yellow. Small cards in the site palette. Same cover LAYOUT every time (cover.py).
