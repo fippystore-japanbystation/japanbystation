@@ -71,3 +71,8 @@ End each run by sending Ling a short progress note (what went live, queue depth,
 - n8n runs in Docker on Ling's PC; if it sleeps nothing posts. Changing n8n needs Ling's login or API key; don't hunt for credentials.
 - Posting times: n8n posts every 2 hours at :57 + random 0–6 min (on the hour ±3 min).
 - Travelpayouts hotel programs (Booking.com, Agoda, Trip.com…) are pending review by Travelpayouts; links still work, they start earning once matched.
+
+## 6. Interactive pieces (pilot, 23 Nov)
+- Night/date comparison (`.compare` with `.nights` buttons and `.night` panels, see site/guides/namba-5000-yen-private-room.html): use only when the guide has researched prices for 2+ specific nights. Show total price, what it buys, private vs shared toilet/shower, the sample dates, occupancy and tax basis. Keep both panels in the HTML (visible without JavaScript). Put the booking CTA right after it. Keep "over budget" and "difference between rooms" as separate numbers.
+- Station Tip ticket (`<details class="ticket">`): an inline disclosure next to the paragraph it relates to; only link to a real guide or verified route; "Next tip" only when there is a second tip specific to that article. At most one per guide; never a floating pop-up.
+- Home page "Start with your situation" is set in build.py (SITUATIONS); city counts come from the published guides automatically.
