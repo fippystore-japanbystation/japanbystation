@@ -23,6 +23,9 @@
 - nifrel-two-hours · NIFREL (brief 14: suggested 1–1.5 h, ¥2,400; Umeda round trip ≈1 h by Hankyu+monorail ¥530 each way, Namba ¥680; Housing & Living museum ¥600 as closer option)
 - monzen-nakacho-market-day · FUKAGAWA (brief 78: antique market 1st/2nd/4th/5th Sun 6:00–17:00 = 6/13/27 Dec 2026; fair days 1/15/28; goma 9/11/13/15/17; Fukagawa Juku L.O. 14:30 weekdays, 16:30 weekends, closed Mon) — hero is a generic east-Tokyo shrine, no real Monzen-nakacho photo on Pexels
 - namba-or-tennoji-30000-yen · BUDGET (brief 05: Booking 14–17 Dec 2026, 1 adult: Toho Namba Motomachi ¥14,741 vs Smile Tennoji ¥13,338; totals with KIX trains + Dotonbori evenings ¥16,681 vs ¥16,898; last Midosuji 00:17)
+- yanaka-ginza-which-direction · YANAKA (brief 79: Nippori → down Yuyake Dandan → Sendagi; reverse ends with the climb; step-free = Sendagi lift out-and-back or TMG Nippori East Exit route; lunch Restaurant Ryu per listings only; step count not officially published)
+- itami-sky-park-without-a-car · PLANES (brief 15: Hankyu Umeda–Itami ¥240 21 min + city bus 25 ¥250 8 min; taxi ≈¥1,100 out, no rank at park; airport deck free 6:00–21:30, ¥440 via Hotarugaike+monorail; loop ¥1,180; last bus 22:03; Pexels hero = Osaka runway at dusk)
+- kiyosumi-shirakawa-what-to-pay-for · KIYOSUMI (brief 80: garden ¥150 9:00–17:00; MOT big shows end 6/13 Dec, 16 Dec only Collection ¥500, free 65+ 3rd Wed; free walk Kiyosu Bridge + Kiba Park) — hero is a generic Tokyo pond garden, not confirmed as Kiyosumi
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -42,9 +45,9 @@ Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `
 - [x] 14 · nifrel-two-hours · NIFREL · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [x] 78 · monzen-nakacho-market-day · FUKAGAWA · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 05 · namba-or-tennoji-30000-yen · BUDGET · page ✓  (Osaka city · BRIEFS-KANSAI-40.md)
-- [~] 2026-11-23 13:42 79 Yanaka Ginza: which direction (steps, step-free)  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [~] 2026-11-23 13:42 15 Itami Sky Park plane watching without a car  (Kansai trip · BRIEFS-KANSAI-40.md)
-- [~] 2026-11-23 13:42 80 Kiyosumi-Shirakawa: garden, MOT museum or free walk  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [x] 79 · yanaka-ginza-which-direction · YANAKA · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [x] 15 · itami-sky-park-without-a-car · PLANES · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [x] 80 · kiyosumi-shirakawa-what-to-pay-for · KIYOSUMI · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [ ] 06 Kitahama Sunday breakfast  (Osaka city · BRIEFS-KANSAI-40.md)
 - [ ] 41 Narita, 3 nights, then Shinkansen: Ueno vs Tokyo Stn vs Shinagawa  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 16 Settsukyo, Takatsuki: river vs bus time  (Kansai trip · BRIEFS-KANSAI-40.md)
