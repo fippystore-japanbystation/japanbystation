@@ -11,6 +11,18 @@
   "url": "https://japanbystation.com/kansai-airport-to-osaka",
   "title": "Kansai Airport to Osaka: which train for your hotel"
  },
+ "BASE": {
+  "url": "https://japanbystation.com/hakone-base-yumoto-gora-lake-ashi",
+  "title": "One Car-Free Night in Hakone: Yumoto, Gora or Lake Ashi?"
+ },
+ "DINNER": {
+  "url": "https://japanbystation.com/hakone-ryokan-dinner-leave-tokyo",
+  "title": "Hakone Ryokan With Dinner: What Time Should You Leave Tokyo?"
+ },
+ "CLOUDS": {
+  "url": "https://japanbystation.com/kawaguchiko-cloudy-fuji-forecast",
+  "title": "Cloudy Fuji Forecast: Move the Kawaguchiko Trip, Go Anyway or Keep the Night?"
+ },
  "CYCLE": {
   "url": "https://japanbystation.com/lake-kawaguchi-half-day-cycling",
   "title": "Lake Kawaguchi by Bike in Half a Day: How Far Can You Ride?"
