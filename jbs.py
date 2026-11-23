@@ -65,7 +65,9 @@ def deploy_site(msg):
     shutil.rmtree(live, ignore_errors=True)
     sh([sys.executable, os.path.join(HERE, "build.py")])
     for f in os.listdir(live):
-        shutil.copy(os.path.join(live, f), os.path.join(MAIN, f))
+        src = os.path.join(live, f)
+        if os.path.isdir(src): shutil.copytree(src, os.path.join(MAIN, f), dirs_exist_ok=True)
+        else: shutil.copy(src, os.path.join(MAIN, f))
     commit_push(MAIN, msg, "main")
 
 
