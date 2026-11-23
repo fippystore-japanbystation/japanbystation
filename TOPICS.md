@@ -2,8 +2,8 @@
 
 ## NEW REGIONS (Ling, 23 Nov) — every run: 1 line from the WORK ORDER + 2 lines from here
 Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
-- [ ] R01 · Hokkaido · First trip to Sapporo: Sapporo Station, Odori or Susukino? (who each suits, walking times, winter snow/footpaths)
-- [ ] R02 · Kyoto · First trip to Kyoto: Kyoto Station, Shijo-Kawaramachi/Gion or Karasuma? (buses vs subway, crowds, early mornings)
+- [~] 23 Nov 23:42 R01 · Hokkaido · First trip to Sapporo: Sapporo Station, Odori or Susukino? (who each suits, walking times, winter snow/footpaths)
+- [~] 23 Nov 23:42 R02 · Kyoto · First trip to Kyoto: Kyoto Station, Shijo-Kawaramachi/Gion or Karasuma? (buses vs subway, crowds, early mornings)
 - [ ] R03 · Fukuoka · Fukuoka basics: Hakata, Tenjin or Nakasu? (airport is minutes away by subway; yatai stalls at night)
 - [ ] R04 · Hokkaido · New Chitose Airport to Sapporo: JR Rapid Airport, bus or car? (times, fares, reserved seats, winter delays)
 - [ ] R05 · Kyoto · Kansai Airport to Kyoto: Haruka, limousine bus or via Osaka? (by hotel area, luggage, ICOCA & HARUKA)
@@ -116,7 +116,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 58 · kawaguchiko-cloudy-fuji-forecast · CLOUDS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [x] 59 · hakone-ryokan-dinner-leave-tokyo · DINNER · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [x] 60 · hakone-base-yumoto-gora-lake-ashi · BASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [ ] 61 Hakone Freepass for a ryokan-focused stay  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 23:42 61 Hakone Freepass for a ryokan-focused stay  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 62 Hakone 'private onsen': private when?  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 63 Hakone ropeway closed: plan B  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)
