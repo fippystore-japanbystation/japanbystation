@@ -17,6 +17,9 @@
 - shinjuku-two-hours-before-dinner · GARDEN (brief 74: Gyoen last entry 16:00 Oct–mid-Mar, free TMG observatory to 22:00, Shinjuku-sanchome/Kinokuniya for rain)
 - nakazakicho-vs-umeda-hotel · NAKAZAKI (brief 03: Booking prices 14–17 Dec 2026, Quintessa ¥24,920 vs Monterey ¥34,394 vs Granvia ¥49,243; 800 m walk; taxi ¥600/1.2 km)
 - sensoji-morning-or-evening · SENSOJI (brief 75: hall 6:30 Oct–Mar, MISOJYU ¥850 from 8:00, Nakamise 250 m, lights to ~23:00 + tourist-centre terrace route)
+- sakai-watch-knife-making · KNIFE (brief 13: free Denshokan sharpening demo Fri 13:30–15:00, forges need 10–15 days' booking, free museum + 24-maker shop; Nankai ¥290 ≈35 min)
+- asakusa-across-the-river · RIVER (brief 76: Booking 14–17 Dec 2026, 2 adults: SORA Kaminarimon ¥36,845 vs Tabist Azumabashi ¥37,350 vs OCICA Oshiage shared bath ¥29,260; Solamachi restaurants to 23:00)
+- kagurazaka-lunch-main-street-or-lanes · LANES (brief 77: Tonkatsu Sakura weekday ¥990 L.O. 22:00, Oishinbo alley lunch L.O. 14:00 closed Sun, Hyogo/Kakurenbo yokocho walk to Le Bretagne lunch after 14:00 closed Mon)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -29,10 +32,10 @@ Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `
 - [x] 74 · shinjuku-two-hours-before-dinner · GARDEN · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 03 · nakazakicho-vs-umeda-hotel · NAKAZAKI · page ✓  (Osaka city · BRIEFS-KANSAI-40.md)
 - [x] 75 · sensoji-morning-or-evening · SENSOJI · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [~] 2026-11-23 03:42 UTC 13 Sakai: watch a knife being made  (Kansai trip · BRIEFS-KANSAI-40.md)
-- [~] 2026-11-23 03:42 UTC 76 Asakusa: book across the river (Honjo/Azumabashi)?  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [x] 13 · sakai-watch-knife-making · KNIFE · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [x] 76 · asakusa-across-the-river · RIVER · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [!] 04 needs research — Kuromon ¥12,000 room for 8 a.m. breakfast  (Osaka city · BRIEFS-KANSAI-40.md)
-- [~] 2026-11-23 03:52 UTC 77 Kagurazaka lunch: main street or back lanes  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [x] 77 · kagurazaka-lunch-main-street-or-lanes · LANES · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [ ] 14 Suita NIFREL in two hours  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 78 Monzen-nakacho: market day or ordinary weekday  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [ ] 05 ¥30,000 three nights, Namba or Tennoji, KIX flight  (Osaka city · BRIEFS-KANSAI-40.md)
