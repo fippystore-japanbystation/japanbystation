@@ -376,6 +376,7 @@ print("keywords:",len(_kw))
 # designed Facebook images (fbimg.py) are published at /fbimg/<id>.jpg
 import shutil as _sh
 if os.path.isdir(os.path.join(SRC,"fbimg")): _sh.copytree(os.path.join(SRC,"fbimg"), os.path.join(OUT,"fbimg"), dirs_exist_ok=True)
+if os.path.isdir(os.path.join(SRC,"pinimg")): _sh.copytree(os.path.join(SRC,"pinimg"), os.path.join(OUT,"pinimg"), dirs_exist_ok=True)
 # fb-queue.json for the Facebook text-post workflow (site/fbposts/*.json, posted in "order")
 _fb=[]
 for _f in sorted(os.listdir(os.path.join(SRC,"fbposts"))) if os.path.isdir(os.path.join(SRC,"fbposts")) else []:
