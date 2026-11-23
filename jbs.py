@@ -111,6 +111,17 @@ def add_reel(slugs):
     commit_push(MAIN, "Queue reels: " + ", ".join(slugs), "main")
 
 
+def pull_reel(slugs):
+    """Take unposted Reels out of the queue (e.g. to re-cut them). Re-add later with add-reel."""
+    pull(MAIN, "main")
+    qp = os.path.join(MAIN, "reels-queue.json"); q = json.load(open(qp))
+    before = len(q["items"]); q["items"] = [i for i in q["items"] if i["slug"] not in slugs]
+    q["updated"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    json.dump(q, open(qp, "w"), ensure_ascii=False, indent=1)
+    print("removed", before - len(q["items"]))
+    commit_push(MAIN, "Pull reels for re-cut: " + ", ".join(slugs), "main")
+
+
 def save(msg):
     commit_push(HERE, msg + " [CF-Pages-Skip]", "studio")
 
@@ -127,4 +138,4 @@ def status():
 if __name__ == "__main__":
     a = sys.argv[1:] or ["status"]
     {"setup": lambda: setup(), "deploy-site": lambda: deploy_site(a[1] if len(a) > 1 else "Site update"),
-     "add-reel": lambda: add_reel(a[1:]), "save": lambda: save(a[1] if len(a) > 1 else "Studio update"), "status": lambda: status()}[a[0]]()
+     "add-reel": lambda: add_reel(a[1:]), "pull-reel": lambda: pull_reel(a[1:]), "save": lambda: save(a[1] if len(a) > 1 else "Studio update"), "status": lambda: status()}[a[0]]()
