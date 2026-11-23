@@ -14,6 +14,9 @@
 - shibuya-crossing-view · SCRAMBLE (brief 71: Hachiko Square free vs Starbucks window vs Shibuya Sky; MAG8 ¥1,800 as paid pick)
 - minoh-falls-autumn-afternoon · MINOH (brief 11: 13:00 from Umeda, sunset 16:48 on 26 Nov 2026, Ryuan-ji short walk, light-up to 6 Dec)
 - shibuya-quiet-base-yoyogi · YOYOGI (brief 72: Yoyogi-Hachiman vs Yoyogi-Uehara vs central Shibuya, Booking prices 16–19 Dec 2026; not one stop)
+- shinjuku-two-hours-before-dinner · GARDEN (brief 74: Gyoen last entry 16:00 Oct–mid-Mar, free TMG observatory to 22:00, Shinjuku-sanchome/Kinokuniya for rain)
+- nakazakicho-vs-umeda-hotel · NAKAZAKI (brief 03: Booking prices 14–17 Dec 2026, Quintessa ¥24,920 vs Monterey ¥34,394 vs Granvia ¥49,243; 800 m walk; taxi ¥600/1.2 km)
+- sensoji-morning-or-evening · SENSOJI (brief 75: hall 6:30 Oct–Mar, MISOJYU ¥850 from 8:00, Nakamise 250 m, lights to ~23:00 + tourist-centre terrace route)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -23,9 +26,9 @@ Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `
 - [!] 02 needs research — Honmachi ¥10,000 late dinner, quiet room  (Osaka city · BRIEFS-KANSAI-40.md)
 - [x] 73 · shinjuku-which-station · SHINJUKU · page ✓ · reel ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 12 · cup-noodles-museum-ikeda · NOODLES · page ✓ · reel ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
-- [~] 2026-11-23 02:42Z 74 Shinjuku 2 hours: Gyoen, Metropolitan Govt Building, Shinjuku-sanchome  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [~] 2026-11-23 02:42Z 03 Nakazakicho vs Umeda ¥3,000 saving  (Osaka city · BRIEFS-KANSAI-40.md)
-- [~] 2026-11-23 02:42Z 75 Senso-ji before breakfast or after dinner  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [x] 74 · shinjuku-two-hours-before-dinner · GARDEN · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [x] 03 · nakazakicho-vs-umeda-hotel · NAKAZAKI · page ✓  (Osaka city · BRIEFS-KANSAI-40.md)
+- [x] 75 · sensoji-morning-or-evening · SENSOJI · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [ ] 13 Sakai: watch a knife being made  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 76 Asakusa: book across the river (Honjo/Azumabashi)?  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [ ] 04 Kuromon ¥12,000 room for 8 a.m. breakfast  (Osaka city · BRIEFS-KANSAI-40.md)
