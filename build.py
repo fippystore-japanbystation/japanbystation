@@ -385,3 +385,12 @@ for _f in sorted(os.listdir(os.path.join(SRC,"fbposts"))) if os.path.isdir(os.pa
                     "photo_url":(SITE+"/"+_p["image"]) if _p.get("image") else f"https://images.pexels.com/photos/{_p['photo']}/pexels-photo-{_p['photo']}.jpeg?auto=compress&cs=tinysrgb&w=1600"})
 _fb.sort(key=lambda x:(x["order"],x["id"]))
 open(f"{OUT}/fb-queue.json","w").write(_json.dumps({"items":_fb},ensure_ascii=False,indent=1))
+
+# Pinterest website claim (p:domain_verify) on every page's <head>
+_PIN='<meta name="p:domain_verify" content="eb3483b0c99319fb04a7c61ccba32038"/>'
+for _r,_d,_fs in os.walk(OUT):
+    for _f in _fs:
+        if _f.endswith(".html"):
+            _pth=os.path.join(_r,_f); _t=open(_pth,encoding="utf-8").read()
+            if "p:domain_verify" not in _t and "<head>" in _t:
+                open(_pth,"w",encoding="utf-8").write(_t.replace("<head>","<head>\n"+_PIN,1))
