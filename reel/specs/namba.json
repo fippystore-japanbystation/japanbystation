@@ -1,0 +1,207 @@
+{
+ "slug": "namba",
+ "keyword": "NAMBA",
+ "music": "m_japansnacks.mp3",
+ "clipdir": "air/",
+ "outdir": "out/",
+ "hook": {
+  "tag": "STAYING IN NAMBA",
+  "lines": [
+   "What's within",
+   "a short walk?"
+  ]
+ },
+ "cta_sub": "every stop, with walking times",
+ "cover": {
+  "title": "What's near|Namba?",
+  "category": "THINGS TO DO",
+  "color": "sky",
+  "clip": "v_cta.mp4",
+  "t": 6
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clip": [
+    "c_31387614.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Staying in Namba?",
+     "Staying in Namba?"
+    ],
+    [
+     "Here's what we'd walk to first.",
+     "Here's what we'd walk to first."
+    ]
+   ]
+  },
+  {
+   "id": "dotonbori",
+   "clip": [
+    "v_cta.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "AFTER DARK",
+    "title": "Dotonbori",
+    "big": "3–5 min",
+    "small": "from Exit 14"
+   },
+   "clauses": [
+    [
+     "Start with Dotonbori.",
+     "Start with Dotonbori."
+    ],
+    [
+     "It's three to five minutes from Exit 14.",
+     "It's 3 to 5 minutes from Exit 14."
+    ],
+    [
+     "We suggest going after dark, when the signs light up the canal.",
+     "Go after dark, when the signs light up the canal."
+    ]
+   ]
+  },
+  {
+   "id": "eat",
+   "clip": [
+    "c_31387726.mp4",
+    0.5
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "HUNGRY?",
+    "title": "Kuromon Market",
+    "big": "8 min",
+    "small": "best before noon"
+   },
+   "clauses": [
+    [
+     "Hungry?",
+     "Hungry?"
+    ],
+    [
+     "Kuromon Market is about eight minutes away,",
+     "Kuromon Market is about 8 minutes away,"
+    ],
+    [
+     "with around a hundred and fifty food stalls.",
+     "with around 150 food stalls."
+    ],
+    [
+     "Go before noon, before it gets crowded.",
+     "Go before noon, before it gets crowded."
+    ]
+   ]
+  },
+  {
+   "id": "shop",
+   "clip": [
+    "c_36549267.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "RAINY DAY",
+    "title": "Shinsaibashi-suji",
+    "big": "600 m",
+    "small": "covered arcade"
+   },
+   "clauses": [
+    [
+     "Raining?",
+     "Raining?"
+    ],
+    [
+     "Shinsaibashi-suji is a covered arcade, about six hundred metres long,",
+     "Shinsaibashi-suji is a covered arcade, about 600 m long,"
+    ],
+    [
+     "and it starts right at the canal.",
+     "and it starts right at the canal."
+    ]
+   ]
+  },
+  {
+   "id": "quiet",
+   "clip": [
+    "c_31387639.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "lilac",
+    "kicker": "QUIET BREAK",
+    "title": "Hozenji Yokocho",
+    "big": "3–5 min",
+    "small": "stone alley, old temple"
+   },
+   "clauses": [
+    [
+     "Need a break from the crowds?",
+     "Need a break from the crowds?"
+    ],
+    [
+     "Hozenji Yokocho is a quiet stone alley around a small temple,",
+     "Hozenji Yokocho is a quiet stone alley around a small temple,"
+    ],
+    [
+     "just three to five minutes away.",
+     "just 3 to 5 minutes away."
+    ]
+   ]
+  },
+  {
+   "id": "why",
+   "clip": [
+    "c_39514427.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "WHY NAMBA",
+    "title": "All on foot",
+    "big": "<15 min",
+    "small": "to every stop"
+   },
+   "clauses": [
+    [
+     "That's why we suggest Namba as your base.",
+     "That's why we suggest Namba as your base."
+    ],
+    [
+     "Everything here is under fifteen minutes on foot.",
+     "Everything here is under 15 minutes on foot."
+    ],
+    [
+     "No train needed.",
+     "No train needed."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clip": [
+    "v_namba.mp4",
+    0.5
+   ],
+   "clauses": [
+    [
+     "Want the full walking list?",
+     "Want the full walking list?"
+    ],
+    [
+     "Comment NAMBA,",
+     "Comment NAMBA,"
+    ],
+    [
+     "and we'll send you our guide.",
+     "and we'll send you our guide."
+    ]
+   ]
+  }
+ ],
+ "caption": "Staying in Namba? Here's what we'd walk to first 🏮\n\n🌃 Dotonbori: 3–5 min from Exit 14, best after dark\n🍣 Kuromon Market: about 8 min, around 150 food stalls, go before noon\n☔ Shinsaibashi-suji: a 600 m covered arcade starting at the canal\n⛩️ Hozenji Yokocho: a quiet stone alley, 3–5 min away\n\nAll of it under 15 minutes on foot, no train needed.\nComment NAMBA and we'll DM you the full walking list.\n📌 Save this, and share it with your travel buddy before you go.\n\n#osaka #namba #dotonbori #osakatravel #japantravel #japantrip #osakafood #japantips"
+}

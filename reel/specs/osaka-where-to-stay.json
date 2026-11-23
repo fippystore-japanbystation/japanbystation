@@ -1,0 +1,183 @@
+{
+ "slug": "osaka-where-to-stay",
+ "keyword": "OSAKA",
+ "music": "m_kyotoriver.mp3",
+ "clipdir": "air/",
+ "outdir": "out/",
+ "hook": {
+  "tag": "FIRST TIME IN OSAKA",
+  "lines": [
+   "Where should",
+   "you stay?"
+  ]
+ },
+ "cta_sub": "which area suits who, in one guide",
+ "cover": {
+  "title": "Where to stay|in Osaka?",
+  "category": "WHERE TO STAY",
+  "color": "coral",
+  "clip": "v_cta.mp4",
+  "t": 3
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clip": [
+    "c_31387679.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "First time in Osaka?",
+     "First time in Osaka?"
+    ],
+    [
+     "Here's where we'd stay, and why.",
+     "Here's where we'd stay, and why."
+    ]
+   ]
+  },
+  {
+   "id": "namba",
+   "clip": [
+    "v_cta.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "FIRST TIME?",
+    "title": "Namba",
+    "big": "3–5 min",
+    "small": "walk to Dotonbori"
+   },
+   "clauses": [
+    [
+     "For most first timers, we suggest Namba.",
+     "For most first-timers, we suggest Namba."
+    ],
+    [
+     "Dotonbori is three to five minutes on foot,",
+     "Dotonbori is 3 to 5 minutes on foot,"
+    ],
+    [
+     "and the airport train stops right there.",
+     "and the airport train stops right there."
+    ]
+   ]
+  },
+  {
+   "id": "umeda",
+   "clip": [
+    "c_16910860.mp4",
+    2.0
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "DAY TRIPS",
+    "title": "Umeda",
+    "big": "29 min",
+    "small": "to Kyoto by train"
+   },
+   "clauses": [
+    [
+     "Planning day trips?",
+     "Planning day trips?"
+    ],
+    [
+     "Pick Umeda.",
+     "Pick Umeda."
+    ],
+    [
+     "Kyoto is twenty nine minutes by train,",
+     "Kyoto is 29 minutes by train,"
+    ],
+    [
+     "and Universal Studios is about fifteen.",
+     "and Universal Studios is about 15."
+    ]
+   ]
+  },
+  {
+   "id": "tennoji",
+   "clip": [
+    "c_31387638.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "KIDS OR BUDGET",
+    "title": "Tennoji",
+    "big": "30 min",
+    "small": "from the airport"
+   },
+   "clauses": [
+    [
+     "With kids, or watching the budget?",
+     "With kids, or watching the budget?"
+    ],
+    [
+     "Go Tennoji.",
+     "Go Tennoji."
+    ],
+    [
+     "It's calmer, the zoo is a short walk,",
+     "It's calmer, the zoo is a short walk,"
+    ],
+    [
+     "and the airport is thirty minutes away.",
+     "and the airport is 30 minutes away."
+    ]
+   ]
+  },
+  {
+   "id": "why",
+   "clip": [
+    "c_29252508.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "lilac",
+    "kicker": "WHY IT'S EASY",
+    "title": "One subway line",
+    "big": "<15 min",
+    "small": "between all three"
+   },
+   "clauses": [
+    [
+     "Good news.",
+     "Good news."
+    ],
+    [
+     "All three sit on the same subway line,",
+     "All three sit on the same subway line,"
+    ],
+    [
+     "so the others are under fifteen minutes away.",
+     "so the others are under 15 minutes away."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clip": [
+    "v_namba.mp4",
+    0.5
+   ],
+   "clauses": [
+    [
+     "Want the full breakdown?",
+     "Want the full breakdown?"
+    ],
+    [
+     "Comment OSAKA,",
+     "Comment OSAKA,"
+    ],
+    [
+     "and we'll send you our guide.",
+     "and we'll send you our guide."
+    ]
+   ]
+  }
+ ],
+ "caption": "First time in Osaka? Here's where we'd stay, and why 🏮\n\n📍 Namba: Dotonbori is 3–5 min on foot, and the airport train stops here\n🚆 Umeda: Kyoto in 29 min, Universal Studios about 15\n🧸 Tennoji: calmer, the zoo is a short walk, 30 min from the airport\n\nAll three sit on one subway line, under 15 min apart.\nComment OSAKA and we'll DM you the full guide.\n📌 Save this and send it to whoever you're travelling with, so you can pick an area together.\n\n#osaka #osakatravel #japantravel #japantrip #wheretostay #dotonbori #umeda #tennoji"
+}

@@ -1,0 +1,7 @@
+reel/tts/
+reel/out/
+reel/work/
+reel/air/
+live/
+__pycache__/
+*.pyc
