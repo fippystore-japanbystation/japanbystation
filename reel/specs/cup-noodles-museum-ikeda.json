@@ -1,0 +1,155 @@
+{
+ "slug": "cup-noodles-museum-ikeda",
+ "keyword": "NOODLES",
+ "music": "m_japansnacks.mp3",
+ "clipdir": "air/",
+ "outdir": "out/",
+ "hook": {
+  "tag": "IKEDA, OSAKA",
+  "lines": [
+   "Which noodle",
+   "experience?"
+  ]
+ },
+ "cta_sub": "hours, prices & booking",
+ "cover": {
+  "title": "Which noodle|experience?",
+  "category": "IKEDA",
+  "color": "sun",
+  "clip": "c_31387608.mp4",
+  "t": 3
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clip": [
+    "c_31387608.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "The Cup Noodles Museum in Ikeda is free.",
+     "The Cup Noodles Museum in Ikeda is free."
+    ],
+    [
+     "So which experience is worth paying for?",
+     "So which experience is worth paying for?"
+    ]
+   ]
+  },
+  {
+   "id": "a",
+   "clip": [
+    "c_33400919.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "SHORT VISIT",
+    "title": "Design a cup",
+    "big": "¥500",
+    "small": "no booking, numbered ticket"
+   },
+   "clauses": [
+    [
+     "Design your own cup for five hundred yen.",
+     "Design your own cup for ¥500."
+    ],
+    [
+     "Pick your soup and toppings. No booking, just a numbered ticket on the day.",
+     "Soup, toppings, no booking. Ticket on the day."
+    ]
+   ]
+  },
+  {
+   "id": "b",
+   "clip": [
+    "c_12001580.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "HANDS-ON",
+    "title": "Chicken Ramen Factory",
+    "big": "¥1,200",
+    "small": "70 min, book ahead"
+   },
+   "clauses": [
+    [
+     "Or make the noodles yourself.",
+     "Or make the noodles yourself."
+    ],
+    [
+     "Seventy minutes, twelve hundred yen, and you must book ahead.",
+     "70 minutes, ¥1,200, and you must book ahead."
+    ]
+   ]
+  },
+  {
+   "id": "c",
+   "clip": [
+    "c_31387638.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "IF BOTH ARE FULL",
+    "title": "Free museum",
+    "big": "¥0",
+    "small": "noodle tunnel, 1958 shed"
+   },
+   "clauses": [
+    [
+     "Both full? The museum itself costs nothing:",
+     "Both full? The museum itself is free:"
+    ],
+    [
+     "the instant noodle tunnel and the shed where it all began.",
+     "the noodle tunnel and the shed where it began."
+    ]
+   ]
+  },
+  {
+   "id": "verdict",
+   "clip": [
+    "c_31387614.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "lilac",
+    "kicker": "OUR PICK",
+    "title": "Design a cup",
+    "big": "¥500",
+    "small": "closed Tuesdays"
+   },
+   "clauses": [
+    [
+     "Our pick for most visitors: the five-hundred-yen cup.",
+     "Our pick for most visitors: the ¥500 cup."
+    ],
+    [
+     "Book the workshop only if you can commit to a time. Closed Tuesdays.",
+     "Workshop only if you can commit. Closed Tuesdays."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clauses": [
+    [
+     "Comment or DM us NOODLES, and we'll send you the full guide.",
+     "Comment or DM us NOODLES for the full guide."
+    ],
+    [
+     "Follow for more Japan tips.",
+     "Follow for more Japan tips."
+    ]
+   ],
+   "clip": [
+    "c_31387679.mp4",
+    0.0
+   ]
+  }
+ ],
+ "caption": "Cup Noodles Museum in Ikeda: design a cup, make noodles, or just explore? 🍜\n\n🎨 My CUPNOODLES Factory: design your own cup for ¥500, no booking, numbered tickets on the day\n👩‍🍳 Chicken Ramen Factory: 70 minutes of real noodle-making, ¥1,200 for adults, reservation only\n🏛️ Both full? The museum is free: the Instant Noodles Tunnel and the shed where Chicken Ramen was invented in 1958\n\nOur pick: the ¥500 cup for most visitors; book the workshop only if you can commit to a session. Closed Tuesdays.\nComment NOODLES or DM us NOODLES, and we'll send you the full guide 📩\n📌 Tag the friend who'd design the weirdest cup.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#cupnoodlesmuseum #ikeda #osakadaytrip #instantramen #osakafood #japantravel #japantrip"
+}

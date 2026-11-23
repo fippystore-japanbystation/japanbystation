@@ -1,0 +1,159 @@
+{
+ "slug": "shinjuku-which-station",
+ "keyword": "SHINJUKU",
+ "music": "m_petals.mp3",
+ "clipdir": "air/",
+ "outdir": "out/",
+ "hook": {
+  "tag": "SHINJUKU, TOKYO",
+  "lines": [
+   "Which Shinjuku",
+   "station?"
+  ]
+ },
+ "cta_sub": "real prices, same night",
+ "cover": {
+  "title": "Which Shinjuku|station?",
+  "category": "SHINJUKU",
+  "color": "sky",
+  "clip": "c_32287884.mp4",
+  "t": 3
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clip": [
+    "c_32287884.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Three hotels all say Shinjuku.",
+     "Three hotels all say Shinjuku."
+    ],
+    [
+     "Which station will you actually use?",
+     "Which station will you actually use?"
+    ]
+   ]
+  },
+  {
+   "id": "a",
+   "clip": [
+    "c_30383468.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "EARLY TRAIN",
+    "title": "JR Shinjuku",
+    "big": "≈¥22,000",
+    "small": "Narita Express from here"
+   },
+   "clauses": [
+    [
+     "For an early train, JR Shinjuku.",
+     "For an early train, JR Shinjuku."
+    ],
+    [
+     "The Narita Express leaves from here, first one around five fifty-five,",
+     "Narita Express from here, first around 5:55,"
+    ],
+    [
+     "but rooms nearby started around twenty-two thousand yen.",
+     "but rooms started around ¥22,000."
+    ]
+   ]
+  },
+  {
+   "id": "b",
+   "clip": [
+    "c_28869249.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "SHOPPING + SUBWAY",
+    "title": "Shinjuku-sanchome",
+    "big": "≈¥15,000",
+    "small": "Shibuya, Ikebukuro, Ginza"
+   },
+   "clauses": [
+    [
+     "Shinjuku-sanchome was about fifteen thousand.",
+     "Shinjuku-sanchome: about ¥15,000."
+    ],
+    [
+     "Exits run into Isetan, with direct subways to Shibuya, Ikebukuro and Ginza.",
+     "Exits into Isetan, direct to Shibuya, Ikebukuro, Ginza."
+    ]
+   ]
+  },
+  {
+   "id": "c",
+   "clip": [
+    "c_18672145.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "LOWEST PRICE",
+    "title": "Higashi-shinjuku",
+    "big": "≈¥13,000",
+    "small": "expresses skip it"
+   },
+   "clauses": [
+    [
+     "Higashi-shinjuku was cheapest, about thirteen thousand.",
+     "Higashi-shinjuku: cheapest, about ¥13,000."
+    ],
+    [
+     "The catch: Fukutoshin Line expresses don't stop there.",
+     "The catch: Fukutoshin expresses don't stop."
+    ]
+   ]
+  },
+  {
+   "id": "verdict",
+   "clip": [
+    "c_18662590.mp4",
+    0.0
+   ],
+   "card": {
+    "color": "lilac",
+    "kicker": "OUR PICK",
+    "title": "Shinjuku-sanchome",
+    "big": "Most trips",
+    "small": "JR side before early trains"
+   },
+   "clauses": [
+    [
+     "We suggest Shinjuku-sanchome for most trips.",
+     "We suggest Shinjuku-sanchome for most trips."
+    ],
+    [
+     "Pay for JR Shinjuku only before an early Narita Express.",
+     "JR Shinjuku only before an early Narita Express."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clauses": [
+    [
+     "Comment or DM us SHINJUKU, and we'll send you the full guide.",
+     "Comment or DM us SHINJUKU for the full guide."
+    ],
+    [
+     "Follow for more Japan tips.",
+     "Follow for more Japan tips."
+    ]
+   ],
+   "clip": [
+    "c_18662592.mp4",
+    0.0
+   ]
+  }
+ ],
+ "caption": "Three hotels say \"Shinjuku\". Which station will you actually use? 🚉\n\n🚄 Near JR Shinjuku: the Narita Express leaves from here (first around 5:55), rooms from about ¥22,000\n🛍️ Near Shinjuku-sanchome: exits into Isetan, direct subways to Shibuya, Ikebukuro and Ginza, about ¥15,000\n💴 Near Higashi-shinjuku: cheapest at about ¥13,000, but Fukutoshin Line expresses don't stop\n(Double room for two, same Wednesday night in December)\n\nOur pick: Shinjuku-sanchome for most trips; pay for the JR side only before an early Narita Express.\nComment SHINJUKU or DM us SHINJUKU, and we'll send you the full guide 📩\n📌 Drop this in your Tokyo trip group chat.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#shinjuku #shinjukusanchome #tokyohotel #wheretostayintokyo #tokyotravel #japantravel #japantrip"
+}
