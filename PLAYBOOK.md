@@ -47,7 +47,9 @@ For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` �
 - Post 1 = MINI-GUIDE: situation hook → 2–3 options, each = decision + 1–2 researched whys (numbers from the guide only) → "Our take" → guide link → one easy question.
 - Post 2 = one of: INSIDER TIP / MISTAKE TO AVOID (one thing first-timers get wrong + the fix), SAVE-THIS CHECKLIST (3–5 steps), or A-or-B QUESTION. Rotate.
 - Insider, lesser-known first: lead with the places and habits regulars know. Dotonbori / Namba / Shibuya crossing / Kabukicho only as a reference point and at most once in any 3 posts; never "the best / must-see" hype.
-- Every post ends with the full guide URL (https://japanbystation.com/<slug>) and a question or "save this". No affiliate links, no "cheaper/best price", no hashtags walls (0–2 max), emojis as bullets only.
+- Every post ends with the full guide URL (https://japanbystation.com/<slug>) and a question or "save this". No affiliate links, no "cheaper/best price", emojis as bullets only. End with 3–5 relevant hashtags (place, topic, #japantravel).
+- Photo (Ling, 23 Nov): an eye-catching, clearly Japanese Pexels photo that LOOKS at you (colour, lanterns, food, people, a famous station); it may differ from the exact place, but stay in the same region (Kansai photo for Kansai, Tokyo for Tokyo; never Mount Fuji on an Osaka post). Look at it before using it.
+- Emotion: a line or two of feeling (why this moment is worth it), but never claim a stay or visit we didn't make.
 
 ## 3. Reels (approved style; do not change without Ling)
 - Mature male voice with intonation, slow pace (Kokoro blend am_michael 0.65 + am_fenrir 0.35, speed 1.0, built into reelkit).
