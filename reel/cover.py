@@ -18,25 +18,26 @@ def make(video, t, title, cat, color, kw, out):
     im = ImageEnhance.Color(im).enhance(1.15)
     ov = Image.new("RGBA", (W, H), (30, 22, 50, 70)); d = ImageDraw.Draw(ov)
     c = COL[color]
-    # brand pill (top of the 3:4 grid crop, which shows y 240-1680)
-    # BIG so a stranger on the grid instantly knows this is about Japan
-    f = F(66); s = "Japan by Station"; w = f.getlength(s)
-    d.rounded_rectangle((W/2 - w/2 - 44, 262, W/2 + w/2 + 44, 372), radius=55, fill=CREAM + (245,))
-    d.text((W/2 - w/2, 272), s, font=f, fill=INK)
-    # category pill + title, centred as one block on the middle of the grid crop (y=960)
+    # ONE centred block on the middle of the grid crop (y=960), logo colours, one pill only:
+    #   coral "Japan by Station" pill  ->  title  ->  place in plain white text
     lines = title.split("|"); fs = 108
     while max(F(fs).getlength(l) for l in lines) > 940: fs -= 4
-    f = F(fs); lh = int(fs * 1.1); gap = 34; ph = 78
-    block = ph + gap + lh * len(lines)
+    f = F(fs); lh = int(fs * 1.1)
+    fb = F(54); bs = "Japan by Station"; bw = fb.getlength(bs); bh = 92
+    fc = F(46); cw = fc.getlength(cat)
+    g1, g2, ch = 30, 30, 60
+    block = bh + g1 + lh * len(lines) + g2 + ch
     top = 960 - block // 2
-    fc = F(44); w = fc.getlength(cat) + 64
-    d.rounded_rectangle((W/2 - w/2, top, W/2 + w/2, top + ph), radius=39, fill=INK + (235,))
-    d.text((W/2 - (w - 64)/2, top + 9), cat, font=fc, fill=WHITE)
-    y = top + ph + gap
-    d.rectangle((0, y - 22, W, y + lh * len(lines) + 22), fill=(30, 22, 50, 95))
+    CORAL = (255, 125, 94)
+    d.rounded_rectangle((W/2 - bw/2 - 40, top, W/2 + bw/2 + 40, top + bh), radius=46, fill=CORAL + (255,))
+    d.text((W/2 - bw/2, top + 10), bs, font=fb, fill=CREAM)
+    y = top + bh + g1
+    d.rectangle((0, y - 20, W, y + lh * len(lines) + g2 + ch + 16), fill=(30, 22, 50, 95))
     for l in lines:
         d.text(((W - f.getlength(l)) / 2, y), l, font=f, fill=WHITE, stroke_width=9, stroke_fill=STROKE)
         y += lh
+    y += g2
+    d.text(((W - cw) / 2, y), cat, font=fc, fill=CREAM, stroke_width=5, stroke_fill=STROKE)
     # no bottom pill (Ling, 23 Nov): natural sharing, no "DM us" on the cover
     im = im.convert("RGBA"); im.alpha_composite(ov); im.convert("RGB").save(out, quality=90)
 
