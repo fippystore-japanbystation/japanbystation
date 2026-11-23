@@ -1,0 +1,175 @@
+{
+ "slug": "osaka-local-markets",
+ "keyword": "MARKET",
+ "music": "m_tokyostroll.mp3",
+ "clipdir": "air/",
+ "outdir": "out/",
+ "hook": {
+  "tag": "OSAKA MARKETS",
+  "lines": [
+   "Kuromon too",
+   "crowded?"
+  ]
+ },
+ "cta_sub": "hours, closing days & stations",
+ "cover": {
+  "title": "Osaka markets|beyond Kuromon",
+  "category": "LOCAL FOOD",
+  "color": "mint",
+  "clip": "c_36549266.mp4",
+  "t": 3
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clip": [
+    "c_39514427.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Kuromon Market too crowded?",
+     "Kuromon Market too crowded?"
+    ],
+    [
+     "Here's where Osaka actually shops.",
+     "Here's where Osaka actually shops."
+    ]
+   ]
+  },
+  {
+   "id": "kizu",
+   "clip": [
+    "c_30683352.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "For a seafood breakfast, we suggest Kizu Market.",
+     "For a seafood breakfast, we suggest Kizu Market."
+    ],
+    [
+     "It's a chef's wholesale market, one subway stop from Namba.",
+     "A chefs' wholesale market, one stop from Namba."
+    ],
+    [
+     "Go between eight thirty and ten thirty. It's closed on Sundays.",
+     "Go 8:30 to 10:30. Closed Sundays."
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "SEAFOOD BREAKFAST",
+    "title": "Kizu Market",
+    "big": "1 stop",
+    "small": "from Namba"
+   }
+  },
+  {
+   "id": "tsuru",
+   "clip": [
+    "c_31387611.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Love grilled meat?",
+     "Love grilled meat?"
+    ],
+    [
+     "Tsuruhashi Market starts right outside the station.",
+     "Tsuruhashi Market starts right outside the station."
+    ],
+    [
+     "Yakiniku, kimchi and Korean food stalls, one line from Namba.",
+     "Yakiniku, kimchi and Korean food, one line from Namba."
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "YAKINIKU & KIMCHI",
+    "title": "Tsuruhashi",
+    "big": "0 min",
+    "small": "from the station"
+   }
+  },
+  {
+   "id": "tenjin",
+   "clip": [
+    "c_36549266.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "For an everyday Osaka walk,",
+     "For an everyday Osaka walk,"
+    ],
+    [
+     "try Tenjinbashisuji.",
+     "try Tenjinbashisuji."
+    ],
+    [
+     "It's about two point six kilometres of covered shops, and locals use it daily.",
+     "About 2.6 km of covered shops, used by locals daily."
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "EVERYDAY OSAKA",
+    "title": "Tenjinbashisuji",
+    "big": "2.6 km",
+    "small": "covered street"
+   }
+  },
+  {
+   "id": "tip",
+   "clip": [
+    "c_41127522.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "One tip.",
+     "One tip."
+    ],
+    [
+     "Many small stalls still prefer cash,",
+     "Many small stalls still prefer cash,"
+    ],
+    [
+     "so bring some yen.",
+     "so bring some yen."
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "BEFORE YOU GO",
+    "title": "Bring cash",
+    "big": "¥",
+    "small": "small stalls"
+   }
+  },
+  {
+   "id": "cta",
+   "clip": [
+    "c_39438148.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Want hours, closing days and stations?",
+     "Want hours, closing days and stations?"
+    ],
+    [
+     "Comment MARKET,",
+     "Comment MARKET,"
+    ],
+    [
+     "and we'll send you our guide.",
+     "and we'll send you our guide."
+    ]
+   ]
+  }
+ ],
+ "caption": "Kuromon too crowded? Here's where Osaka actually shops 🐟\n\n🍣 Kizu Market: a chefs' wholesale market, 1 subway stop from Namba. Go 8:30–10:30, closed Sundays\n🥩 Tsuruhashi: yakiniku, kimchi and Korean food right outside the station\n🛍️ Tenjinbashisuji: about 2.6 km of covered shops locals use every day\n\nMany small stalls prefer cash, so bring some yen.\nComment MARKET and we'll DM you the full guide with hours and stations.\n📌 Save this for your Osaka food day, and send it to whoever's coming with you.\n\n#osaka #osakafood #kizumarket #tsuruhashi #japanfood #osakatravel #japantravel #japantrip"
+}

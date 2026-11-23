@@ -1,0 +1,171 @@
+{
+ "slug": "osaka-four-friends",
+ "keyword": "GROUP",
+ "music": "m_japansnacks.mp3",
+ "clipdir": "air/",
+ "outdir": "out/",
+ "hook": {
+  "tag": "TRAVELLING AS FOUR?",
+  "lines": [
+   "One apartment or",
+   "two hotel rooms?"
+  ]
+ },
+ "cta_sub": "how to choose, and how to check it's legal",
+ "cover": {
+  "title": "4 friends: apartment|or 2 hotel rooms?",
+  "category": "GROUPS",
+  "color": "sun",
+  "clip": "c_41127516.mp4",
+  "t": 3
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clip": [
+    "c_41127516.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Four friends in Osaka.",
+     "Four friends in Osaka."
+    ],
+    [
+     "One apartment, or two hotel rooms?",
+     "One apartment, or two hotel rooms?"
+    ]
+   ]
+  },
+  {
+   "id": "twins",
+   "clip": [
+    "c_6466562.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Staying two or three nights?",
+     "Staying 2 or 3 nights?"
+    ],
+    [
+     "We suggest two twin rooms near the station.",
+     "We suggest two twin rooms near the station."
+    ],
+    [
+     "Two bathrooms, daily cleaning, easy check-in.",
+     "Two bathrooms, daily cleaning, easy check-in."
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "2–3 NIGHTS",
+    "title": "Two twins",
+    "big": "2",
+    "small": "bathrooms"
+   }
+  },
+  {
+   "id": "apthotel",
+   "clip": [
+    "c_28962556.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Four nights or more?",
+     "4 nights or more?"
+    ],
+    [
+     "An apartment hotel often wins.",
+     "An apartment hotel often wins."
+    ],
+    [
+     "Real beds for four, a washing machine, and staff if something goes wrong.",
+     "Beds for 4, a washer, and staff on hand."
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "4+ NIGHTS",
+    "title": "Apartment hotel",
+    "big": "4",
+    "small": "real beds"
+   }
+  },
+  {
+   "id": "legal",
+   "clip": [
+    "c_34448615.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Booking a private apartment?",
+     "Booking a private apartment?"
+    ],
+    [
+     "Check the listing shows a registration number.",
+     "Check the listing shows a registration number."
+    ],
+    [
+     "Osaka has been cracking down on unlicensed rentals.",
+     "Osaka is cracking down on unlicensed rentals."
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "BEFORE YOU BOOK",
+    "title": "Private apartment",
+    "big": "Reg. no.",
+    "small": "must be on the listing"
+   }
+  },
+  {
+   "id": "where",
+   "clip": [
+    "c_31387638.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Where? We'd look in Namba.",
+     "Where? We'd look in Namba."
+    ],
+    [
+     "Easy to split up by day, and meet up for dinner.",
+     "Easy to split up by day and meet for dinner."
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "WHERE",
+    "title": "Namba",
+    "big": "Direct",
+    "small": "airport train"
+   }
+  },
+  {
+   "id": "cta",
+   "clip": [
+    "v_namba.mp4",
+    0.5
+   ],
+   "clauses": [
+    [
+     "Want the full comparison?",
+     "Want the full comparison?"
+    ],
+    [
+     "Comment GROUP,",
+     "Comment GROUP,"
+    ],
+    [
+     "and we'll send you our guide.",
+     "and we'll send you our guide."
+    ]
+   ]
+  }
+ ],
+ "caption": "Four friends in Osaka: one apartment or two hotel rooms? 🏠🏨\n\n🛏️ 2–3 nights: two twin rooms near the station. Two bathrooms, daily cleaning\n🏢 4+ nights: an apartment hotel often wins. Beds for four, a washer, staff on hand\n🔎 Private apartment? Check the listing shows a registration number\n📍 Where: Namba, easy to split up by day and meet for dinner\n\nComment GROUP and we'll DM you the full comparison.\n📌 Drop this in your trip group chat before anyone books.\n\n#osaka #japantravel #osakatravel #grouptravel #travelwithfriends #japantrip #wheretostay #namba"
+}

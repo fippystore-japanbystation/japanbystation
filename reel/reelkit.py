@@ -82,8 +82,12 @@ def render(spec, tj, wd, stills=False):
     inputs, flt = [], []
     for n, i in enumerate(order):
         f, st = S[i]["clip"]; d = B[i][1] - B[i][0]
-        inputs += ["-ss", str(st), "-t", f"{d:.3f}", "-i", cd + f]
-        flt.append(f"[{n}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,trim=duration={d:.3f},setpts=PTS-STARTPTS[v{n}]")
+        dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", cd + f],
+                                   capture_output=True, text=True).stdout.strip() or 0)
+        avail = max(0.5, dur - st)
+        k = 1.0 if avail >= d else min(d / avail, 1.6)       # short clip: slow it down a little, then loop if still short
+        inputs += ["-stream_loop", "-1", "-ss", str(st), "-i", cd + f]
+        flt.append(f"[{n}:v]setpts={k:.4f}*(PTS-STARTPTS),scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,trim=duration={d:.3f},setpts=PTS-STARTPTS[v{n}]")
     flt.append("".join(f"[v{n}]" for n in range(len(order))) + f"concat=n={len(order)}:v=1:a=0,eq=saturation=1.12:contrast=1.03[out]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(flt), "-map", "[out]",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", wd + "base.mp4"], check=True)

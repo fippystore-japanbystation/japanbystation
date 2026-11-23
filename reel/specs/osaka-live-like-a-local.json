@@ -1,0 +1,195 @@
+{
+ "slug": "osaka-live-like-a-local",
+ "keyword": "LOCAL",
+ "music": "m_kyotoriver.mp3",
+ "clipdir": "air/",
+ "outdir": "out/",
+ "hook": {
+  "tag": "WANT LOCAL OSAKA?",
+  "lines": [
+   "Skip the neon,",
+   "stay here"
+  ]
+ },
+ "cta_sub": "two local areas, with train times",
+ "cover": {
+  "title": "Live like a local|in Osaka",
+  "category": "WHERE TO STAY",
+  "color": "lilac",
+  "clip": "c_36549267.mp4",
+  "t": 3
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clip": [
+    "c_31387676.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Want local Osaka, not the neon?",
+     "Want local Osaka, not the neon?"
+    ],
+    [
+     "Here's where we'd stay.",
+     "Here's where we'd stay."
+    ]
+   ]
+  },
+  {
+   "id": "tenma",
+   "clip": [
+    "c_36549267.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Our pick is Tenma.",
+     "Our pick is Tenma."
+    ],
+    [
+     "Japan's longest shopping street runs right through it,",
+     "Japan's longest shopping street runs right through it,"
+    ],
+    [
+     "about two point six kilometres, under one roof.",
+     "about 2.6 km, under one roof."
+    ]
+   ],
+   "card": {
+    "color": "lilac",
+    "kicker": "OUR PICK",
+    "title": "Tenma",
+    "big": "2.6 km",
+    "small": "shopping street"
+   }
+  },
+  {
+   "id": "ura",
+   "clip": [
+    "c_40285557.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "At night, walk into Ura-Tenma.",
+     "At night, walk into Ura-Tenma."
+    ],
+    [
+     "Tiny izakaya and standing bars, full of office workers, not tour groups.",
+     "Tiny izakaya, full of office workers, not tour groups."
+    ]
+   ],
+   "card": {
+    "color": "pink",
+    "kicker": "AFTER WORK",
+    "title": "Ura-Tenma",
+    "big": "≈5 min",
+    "small": "from JR Tenma"
+   }
+  },
+  {
+   "id": "trains",
+   "clip": [
+    "c_31387672.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "And it's still easy.",
+     "And it's still easy."
+    ],
+    [
+     "Osaka Station is one stop on the Loop Line,",
+     "Osaka Station is 1 stop on the Loop Line,"
+    ],
+    [
+     "and the Namba side is about ten minutes by subway.",
+     "and the Namba side is about 10 minutes by subway."
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "STILL CENTRAL",
+    "title": "1 stop",
+    "big": "to Osaka Stn",
+    "small": "Loop Line"
+   }
+  },
+  {
+   "id": "tsuru",
+   "clip": [
+    "c_41127522.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Love food, or heading to Nara?",
+     "Love food, or heading to Nara?"
+    ],
+    [
+     "Try Tsuruhashi.",
+     "Try Tsuruhashi."
+    ],
+    [
+     "Famous for yakiniku, with direct trains to Namba and Nara.",
+     "Famous for yakiniku, direct to Namba and Nara."
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "FOR FOODIES",
+    "title": "Tsuruhashi",
+    "big": "Direct",
+    "small": "to Nara"
+   }
+  },
+  {
+   "id": "who",
+   "clip": [
+    "c_34448615.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "First trip, two or three nights? Stay central.",
+     "First trip, 2 or 3 nights? Stay central."
+    ],
+    [
+     "Second trip, or four nights or more? Go local.",
+     "Second trip, or 4+ nights? Go local."
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "WHO IT SUITS",
+    "title": "4+ nights",
+    "big": "go local",
+    "small": "or a 2nd trip"
+   }
+  },
+  {
+   "id": "cta",
+   "clip": [
+    "c_29006525.mp4",
+    0.0
+   ],
+   "clauses": [
+    [
+     "Want both areas, with train times?",
+     "Want both areas, with train times?"
+    ],
+    [
+     "Comment LOCAL,",
+     "Comment LOCAL,"
+    ],
+    [
+     "and we'll send you our guide.",
+     "and we'll send you our guide."
+    ]
+   ]
+  }
+ ],
+ "caption": "Want local Osaka, not the neon? Here's where we'd stay 🏮\n\n🛍️ Tenma: Japan's longest shopping street, about 2.6 km under one roof\n🍶 Ura-Tenma: tiny izakaya full of office workers, ≈5 min from JR Tenma\n🚃 Still central: Osaka Station is 1 stop on the Loop Line\n🥩 Tsuruhashi: yakiniku heaven, direct trains to Namba and Nara\n\nFirst trip with 2–3 nights? Stay central. Second trip or 4+ nights? Go local.\nComment LOCAL and we'll DM you the full guide.\n📌 Tag the friend you're going to Osaka with.\n\n#osaka #osakatravel #tenma #tsuruhashi #japantravel #wheretostay #japantrip #localjapan"
+}
