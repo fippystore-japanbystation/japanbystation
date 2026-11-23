@@ -3,9 +3,9 @@
 These were made before the new rules and were pulled from the queue unposted (`jbs.py pull-reel`).
 Redo them FIRST, in this order (keeps Dotonbori/Namba apart), max 3 per run:
 
-- [ ] osaka-live-like-a-local
-- [ ] shinjuku-which-station
-- [ ] cup-noodles-museum-ikeda
+- [x] osaka-live-like-a-local
+- [x] shinjuku-which-station
+- [x] cup-noodles-museum-ikeda
 - [ ] namba-5000-yen-private-room
 
 For each: rewrite the existing spec in reel/specs/ to the current PLAYBOOK §3 (answer first + 1–2 whys, keyword ~8–10 s, ending built from the guide's ONE MORE THING, never "full guide"),

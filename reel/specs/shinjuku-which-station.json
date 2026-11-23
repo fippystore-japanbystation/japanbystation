@@ -1,159 +1,190 @@
 {
+ "clipdir": "air/",
+ "outdir": "out/",
  "slug": "shinjuku-which-station",
  "keyword": "SHINJUKU",
  "music": "m_petals.mp3",
- "clipdir": "air/",
- "outdir": "out/",
  "hook": {
-  "tag": "SHINJUKU, TOKYO",
+  "tag": "HOTEL SAYS SHINJUKU?",
   "lines": [
-   "Which Shinjuku",
-   "station?"
+   "Book near",
+   "Shinjuku-sanchome"
   ]
  },
- "cta_sub": "real prices, same night",
+ "cta_sub": "a 7 a.m. café under the East Exit",
  "cover": {
-  "title": "Which Shinjuku|station?",
-  "category": "SHINJUKU",
+  "title": "Hotel says Shinjuku?|Check the station",
+  "category": "SHINJUKU, TOKYO",
   "color": "sky",
-  "clip": "c_32287884.mp4",
-  "t": 3
+  "clip": "cv_w_64.mp4",
+  "t": 0.5
  },
  "scenes": [
   {
    "id": "hook",
-   "clip": [
-    "c_32287884.mp4",
-    0.0
+   "clips": [
+    [
+     "c_32287884.mp4",
+     0.0
+    ],
+    [
+     "w_57.jpg"
+    ]
    ],
    "clauses": [
     [
-     "Three hotels all say Shinjuku.",
-     "Three hotels all say Shinjuku."
+     "Hotel says Shinjuku?",
+     "Hotel says Shinjuku?"
     ],
     [
-     "Which station will you actually use?",
-     "Which station will you actually use?"
+     "For most trips, book near Shinjuku-sanchome.",
+     "For most trips, book near Shinjuku-sanchome."
     ]
    ]
   },
   {
-   "id": "a",
-   "clip": [
-    "c_30383468.mp4",
-    0.0
+   "id": "sanchome",
+   "clips": [
+    [
+     "w_29.jpg"
+    ],
+    [
+     "w_21.jpg"
+    ],
+    [
+     "w_12.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Rooms from about fifteen thousand yen,",
+     "Rooms from about ¥15,000,"
+    ],
+    [
+     "with direct subways to Shibuya, Ikebukuro and Ginza.",
+     "direct subways to Shibuya, Ikebukuro and Ginza."
+    ],
+    [
+     "Café tip at the end, comment SHINJUKU.",
+     "Café tip at the end, comment SHINJUKU."
+    ]
    ],
    "card": {
     "color": "sky",
-    "kicker": "EARLY TRAIN",
-    "title": "JR Shinjuku",
-    "big": "≈¥22,000",
-    "small": "Narita Express from here"
-   },
-   "clauses": [
-    [
-     "For an early train, JR Shinjuku.",
-     "For an early train, JR Shinjuku."
-    ],
-    [
-     "The Narita Express leaves from here, first one around five fifty-five,",
-     "Narita Express from here, first around 5:55,"
-    ],
-    [
-     "but rooms nearby started around twenty-two thousand yen.",
-     "but rooms started around ¥22,000."
-    ]
-   ]
+    "kicker": "ANSWER A",
+    "title": "Shinjuku-sanchome",
+    "big": "¥15,000",
+    "small": "sample night, 2 adults"
+   }
   },
   {
-   "id": "b",
-   "clip": [
-    "c_28869249.mp4",
-    0.0
+   "id": "jr",
+   "clips": [
+    [
+     "w_20.jpg"
+    ],
+    [
+     "w_60.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Early Narita Express? Pay for JR Shinjuku.",
+     "Early Narita Express? Pay for JR Shinjuku."
+    ],
+    [
+     "First train around five fifty-five.",
+     "First train around 5:55."
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "ANSWER B",
+    "title": "JR Shinjuku",
+    "big": "¥22,000+",
+    "small": "N'EX to Narita: 1 h 20 min"
+   }
+  },
+  {
+   "id": "higashi",
+   "clips": [
+    [
+     "w_10.jpg"
+    ],
+    [
+     "w_03.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Tightest budget? Higashi-shinjuku, from about thirteen thousand.",
+     "Tightest budget? Higashi-shinjuku, from about ¥13,000."
+    ],
+    [
+     "The catch: express trains skip it.",
+     "The catch: express trains skip it."
+    ]
    ],
    "card": {
     "color": "mint",
-    "kicker": "SHOPPING + SUBWAY",
-    "title": "Shinjuku-sanchome",
-    "big": "≈¥15,000",
-    "small": "Shibuya, Ikebukuro, Ginza"
-   },
-   "clauses": [
-    [
-     "Shinjuku-sanchome was about fifteen thousand.",
-     "Shinjuku-sanchome: about ¥15,000."
-    ],
-    [
-     "Exits run into Isetan, with direct subways to Shibuya, Ikebukuro and Ginza.",
-     "Exits into Isetan, direct to Shibuya, Ikebukuro, Ginza."
-    ]
-   ]
-  },
-  {
-   "id": "c",
-   "clip": [
-    "c_18672145.mp4",
-    0.0
-   ],
-   "card": {
-    "color": "sun",
-    "kicker": "LOWEST PRICE",
+    "kicker": "ANSWER C",
     "title": "Higashi-shinjuku",
-    "big": "≈¥13,000",
-    "small": "expresses skip it"
-   },
-   "clauses": [
-    [
-     "Higashi-shinjuku was cheapest, about thirteen thousand.",
-     "Higashi-shinjuku: cheapest, about ¥13,000."
-    ],
-    [
-     "The catch: Fukutoshin Line expresses don't stop there.",
-     "The catch: Fukutoshin expresses don't stop."
-    ]
-   ]
+    "big": "¥13,000",
+    "small": "Fukutoshin expresses pass"
+   }
   },
   {
    "id": "verdict",
-   "clip": [
-    "c_18662590.mp4",
-    0.0
-   ],
-   "card": {
-    "color": "lilac",
-    "kicker": "OUR PICK",
-    "title": "Shinjuku-sanchome",
-    "big": "Most trips",
-    "small": "JR side before early trains"
-   },
-   "clauses": [
+   "clips": [
     [
-     "We suggest Shinjuku-sanchome for most trips.",
-     "We suggest Shinjuku-sanchome for most trips."
+     "w_58.jpg"
     ],
     [
-     "Pay for JR Shinjuku only before an early Narita Express.",
-     "JR Shinjuku only before an early Narita Express."
+     "w_65.jpg"
     ]
-   ]
+   ],
+   "clauses": [
+    [
+     "Our pick: Sanchome most nights.",
+     "Our pick: Sanchome most nights."
+    ],
+    [
+     "JR Shinjuku only before an early airport train.",
+     "JR Shinjuku only before an early airport train."
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "OUR VERDICT",
+    "title": "Sanchome",
+    "big": "most nights",
+    "small": "JR side: early trains only"
+   }
   },
   {
    "id": "cta",
-   "clauses": [
+   "clips": [
     [
-     "Comment or DM us SHINJUKU, and we'll send you the full guide.",
-     "Comment or DM us SHINJUKU for the full guide."
+     "w_63.jpg"
     ],
     [
-     "Follow for more Japan tips.",
-     "Follow for more Japan tips."
+     "w_09.jpg"
+    ],
+    [
+     "w_08.jpg"
     ]
    ],
-   "clip": [
-    "c_18662592.mp4",
-    0.0
+   "clauses": [
+    [
+     "Under the East Exit, a tiny café has fed commuters since 1970,",
+     "Under the East Exit, a tiny café has fed commuters since 1970,"
+    ],
+    [
+     "from seven a.m. Comment SHINJUKU.",
+     "from 7 a.m. Comment SHINJUKU."
+    ]
    ]
   }
  ],
- "caption": "Three hotels say \"Shinjuku\". Which station will you actually use? 🚉\n\n🚄 Near JR Shinjuku: the Narita Express leaves from here (first around 5:55), rooms from about ¥22,000\n🛍️ Near Shinjuku-sanchome: exits into Isetan, direct subways to Shibuya, Ikebukuro and Ginza, about ¥15,000\n💴 Near Higashi-shinjuku: cheapest at about ¥13,000, but Fukutoshin Line expresses don't stop\n(Double room for two, same Wednesday night in December)\n\nOur pick: Shinjuku-sanchome for most trips; pay for the JR side only before an early Narita Express.\nComment SHINJUKU or DM us SHINJUKU, and we'll send you the full guide 📩\n📌 Drop this in your Tokyo trip group chat.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#shinjuku #shinjukusanchome #tokyohotel #wheretostayintokyo #tokyotravel #japantravel #japantrip"
+ "caption": "Hotel says \"Shinjuku\"? Check which station first 🚉\n\n🛍️ Shinjuku-sanchome: from about ¥15,000 on our sample night, direct subways to Shibuya, Ikebukuro and Ginza\n🚄 JR Shinjuku: from about ¥22,000, but the first Narita Express leaves around 5:55\n💴 Higashi-shinjuku: from about ¥13,000, but Fukutoshin Line express trains pass through\n\nOur take: Sanchome most nights, JR Shinjuku only before an early airport train.\n\nUnder the East Exit there's a tiny café that has fed commuters since 1970, open from 7 a.m. ☕ Comment SHINJUKU 👇 (DMs with SHINJUKU work too)\n📌 Send this to whoever is booking your Tokyo hotel.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\nPrices: Booking.com, 2 adults, Wed 16 Dec 2026, checked 23 Nov 2026.\nPhotos: Joe Mabel CC BY-SA 3.0, MaedaAkihiko CC BY-SA 4.0, Kakidai CC BY-SA 4.0, DAJF CC BY-SA 3.0, De-Shao Liu CC BY 2.0, nesnad CC BY 3.0, Wirtz CC BY-SA 3.0, LERK CC BY 3.0, Ymblanter CC BY-SA 4.0, Nesnad CC BY 4.0, udono CC BY-SA 2.0, Ximonic CC BY-SA 4.0 via Wikimedia\n\n#shinjuku #shinjukusanchome #tokyohotel #wheretostaytokyo #tokyotips #japantravel #japantrip"
 }
