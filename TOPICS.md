@@ -2,8 +2,8 @@
 
 ## NEW REGIONS (Ling, 23 Nov) — every run: 1 line from the WORK ORDER + 2 lines from here
 Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
-- [~] 23 Nov 23:42 R01 · Hokkaido · First trip to Sapporo: Sapporo Station, Odori or Susukino? (who each suits, walking times, winter snow/footpaths)
-- [~] 23 Nov 23:42 R02 · Kyoto · First trip to Kyoto: Kyoto Station, Shijo-Kawaramachi/Gion or Karasuma? (buses vs subway, crowds, early mornings)
+- [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts in fbposts-pending/
+- [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts in fbposts-pending/
 - [ ] R03 · Fukuoka · Fukuoka basics: Hakata, Tenjin or Nakasu? (airport is minutes away by subway; yatai stalls at night)
 - [ ] R04 · Hokkaido · New Chitose Airport to Sapporo: JR Rapid Airport, bus or car? (times, fares, reserved seats, winter delays)
 - [ ] R05 · Kyoto · Kansai Airport to Kyoto: Haruka, limousine bus or via Osaka? (by hotel area, luggage, ICOCA & HARUKA)
@@ -67,6 +67,9 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - kawaguchiko-cloudy-fuji-forecast · CLOUDS (brief 58: Fujisan Watcher live cams; JR one free change before departure; kosokubus cancel by 17:00 day before; Toyoko Inn Ohashi ¥14,910 free cancel to 15 Dec; Itchiku Kubota ¥1,500 Dec–Mar 10–16:30; Hoto Fudo 11–19 ¥1,210; bus pass 1 day ¥1,500 / 2 days ¥2,000)
 - hakone-ryokan-dinner-leave-tokyo · DINNER (brief 59: Kiritani Hakoneso check-in 15:30–18:00 ¥34,000 2 meals; Shinjuku 15:00 Romancecar → Gora 17:03 ¥2,871; Open-Air Museum ¥2,000, leave by 16:50 for 17:01; room-only MIRAHAKONE ¥16,800 + 18:00 Homeway → 19:40, Kinosuke L.O. 21:30 closed Mon)
 - hakone-base-yumoto-gora-lake-ashi · BASE (brief 60: Booking 16 Dec 2 adults: Yumoto MIRAHAKONE ¥16,800 RO vs Sundance Gora ¥18,540 BF vs RoheN Ashinoko lake view ¥18,225 BF; last weekday bus Yumoto→lake 20:48; La Terrazza L.O. 19:00; ropeway Owakudani–Sounzan bus 7–24 Dec 2026)
+- hakone-freepass-ryokan-one-night · FREEPASS (brief 61: Freepass Shinjuku ¥7,100 / Odawara ¥6,000; ryokan Gora + Open-Air Museum singles ¥3,662; full loop singles ¥8,272 (ropeway ¥2,000, cruise ¥1,700, bus ¥1,210); Odawara loop ¥6,470; Tozan 1-Day ¥1,580; Gora Park ¥650 re-entry next day; Tamura Ginkatsutei)
+- sapporo-where-to-stay-first-trip · SAPPORO (R01: Odori pick; Chi-Ka-Ho 520 m ≈10 min 5:45–24:30; Rapid Airport 33 min ¥1,230; Susukino 1.5 km ≈20 min; Daruma 17–5; Snow Festival 4–11 Feb 2027; Meidai Nigirimeshi 24 h)
+- kyoto-where-to-stay-first-trip · KYOTO (R02: Shijo-Karasuma pick; Kyoto–Shijo 3 min ¥220; bus ¥230, Subway day ¥800, Subway+Bus ¥1,100; hotel tax from 1 Mar 2026; Daiichi Asahi 6:00 closed Thu; Inoda Coffee 7:00)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -116,7 +119,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 58 · kawaguchiko-cloudy-fuji-forecast · CLOUDS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [x] 59 · hakone-ryokan-dinner-leave-tokyo · DINNER · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [x] 60 · hakone-base-yumoto-gora-lake-ashi · BASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [~] 23 Nov 23:42 61 Hakone Freepass for a ryokan-focused stay  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 61 · hakone-freepass-ryokan-one-night · FREEPASS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [ ] 62 Hakone 'private onsen': private when?  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 63 Hakone ropeway closed: plan B  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)

@@ -20,3 +20,7 @@ Photos viewed (thumbnail) and fine: 31268058 (Fuji over the lake, boat), 4029474
 ## Added 23 Nov 2026 late (briefs 58, 59, 60) — same reason (no Downloads folder connected in the unattended run)
 fb-clouds-1/2 (place "LAKE KAWAGUCHI, YAMANASHI"), fb-dinner-1/2 ("HAKONE, KANAGAWA"), fb-base-1/2 ("HAKONE, KANAGAWA"). Orders 35–40.
 Photos viewed (thumbnail) and fine: 37307622 (Fuji over Lake Kawaguchi, car on shore), 34548049 (Lake Kawaguchi under grey sky, no Fuji), 37194569 (Lake Ashi with Hakone Shrine torii and pirate ship), 31252459 (Hakone Shrine torii close-up), 37194576 (misty Lake Ashi). 33326934 (Hakone Tozan bus, autumn) viewed in an earlier run.
+
+## Added 23 Nov 2026 late night (brief 61, R01, R02) — same reason (no Downloads folder connected in the unattended run)
+fb-freepass-1/2 (place "HAKONE, KANAGAWA"), fb-sapporo-1/2 ("SAPPORO, HOKKAIDO"), fb-kyoto-1/2 ("KYOTO"). Orders 41–46.
+Photos viewed (thumbnail) and fine: 31266605 (Fuji over Lake Ashi with pirate ship), 4107400 (Owakudani steam), 32970318 (Sapporo aerial at dusk), 36595974 (snowy Sapporo izakaya lantern), 31791442 (Kamo River, Kyoto), 28969414 (Gion lanterns and fans, Kyoto).
