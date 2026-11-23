@@ -11,6 +11,18 @@
   "url": "https://japanbystation.com/kansai-airport-to-osaka",
   "title": "Kansai Airport to Osaka: which train for your hotel"
  },
+ "CYCLE": {
+  "url": "https://japanbystation.com/lake-kawaguchi-half-day-cycling",
+  "title": "Lake Kawaguchi by Bike in Half a Day: How Far Can You Ride?"
+ },
+ "EXCURSION": {
+  "url": "https://japanbystation.com/tokyo-to-kawaguchiko-big-suitcase-bus-or-train",
+  "title": "Tokyo to Kawaguchiko With a Big Suitcase: Bus or Train?"
+ },
+ "FUJIVIEW": {
+  "url": "https://japanbystation.com/kawaguchiko-fuji-view-room-what-you-buy",
+  "title": "'Mount Fuji View' Rooms at Lake Kawaguchi: What You Actually Buy"
+ },
  "KAWAGUCHI": {
   "url": "https://japanbystation.com/lake-kawaguchi-station-or-lake-view",
   "title": "Lake Kawaguchi Without a Car: Station Hotel, North Shore or Lakeside Ryokan?"
@@ -26,6 +38,10 @@
  "MORNING": {
   "url": "https://japanbystation.com/kiyosumi-shirakawa-base-7am-start",
   "title": "Kiyosumi-Shirakawa as a Tokyo Base: Quiet Mornings, but Breakfast at Seven?"
+ },
+ "LUGGAGE": {
+  "url": "https://japanbystation.com/tokyo-early-arrival-luggage",
+  "title": "Arriving in Tokyo at 8 a.m.: Who Will Take Your Suitcase Before Check-in?"
  },
  "SPACE": {
   "url": "https://japanbystation.com/tokyo-double-or-twin-two-suitcases",
@@ -50,6 +66,10 @@
  "LANDING": {
   "url": "https://japanbystation.com/haneda-late-arrival-first-night",
   "title": "Landing at Haneda at 11 p.m.: Book Central Tokyo or Sleep at the Airport?"
+ },
+ "BULLET": {
+  "url": "https://japanbystation.com/narita-three-nights-then-shinkansen",
+  "title": "Narita In, Three Nights, Then the Shinkansen: Ueno, Tokyo Station or Shinagawa?"
  },
  "KIYOSUMI": {
   "url": "https://japanbystation.com/kiyosumi-shirakawa-what-to-pay-for",
@@ -146,5 +166,9 @@
  "SUICA": {
   "url": "https://japanbystation.com/tokyo-ic-card-or-subway-pass",
   "title": "Getting Around Tokyo: IC Card, JR or Metro, and Is the Subway Pass Worth It?"
+ },
+ "STAY": {
+  "url": "https://japanbystation.com/tokyo-where-to-stay-first-trip",
+  "title": "First Trip to Tokyo: Which Area Should You Stay In?"
  }
 }
