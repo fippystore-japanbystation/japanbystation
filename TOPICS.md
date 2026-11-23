@@ -78,9 +78,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 48 · tokyo-double-or-twin-two-suitcases · SPACE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [x] 49 · tokyo-early-arrival-luggage · LUGGAGE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [x] 50 · kiyosumi-shirakawa-base-7am-start · MORNING · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — hero swapped to JPEG 38139863 and redeployed (all images checked); FB posts in fbposts-pending/
-- [ ] 51 Tokyo Disney: hotel night before or after  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [ ] 52 Big suitcase through Hakone: forward, carry or store  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [ ] 53 Lake Kawaguchi: station hotel or lake view  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 18:42 51 Tokyo Disney: hotel night before or after  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 18:42 52 Big suitcase through Hakone: forward, carry or store  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 18:42 53 Lake Kawaguchi: station hotel or lake view  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 54 'Mount Fuji view' rooms: what you actually buy  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 55 Kawaguchiko dinner after the last shuttle  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 56 Tokyo to Kawaguchiko with a big suitcase: bus or train  (Tokyo · BRIEFS-TOKYO-41-70.md)
