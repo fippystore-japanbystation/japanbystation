@@ -7,7 +7,7 @@ JR train platform: 16910860 · Train platform: 29252508 · Airport shuttle bus: 
 Shinsekai / Tsutenkaku: 37606282
 Avoid for Osaka: 30383468 (Tokyo atre), 20666735 (Kyoto street) · Takoyaki studio shot 6645819 is dull (white background)
 NOT Japan / unsure, never use: 40285557 (lantern alley, looks like Taiwan), 28995349 (English-menu food stall)
-Night food stall with people (Japan): 40101522 · Busy Namba/Shinsaibashi night street: 18662589 · Night elevated train: 36024206
+Night food stall with people (Japan): 40101522 · Busy Namba/Shinsaibashi night street: (18662589 is TOKYO, see below)
 Tenjinbashisuji-style arcade with people: 36549266 · Tuna slicing at market: 30683352 · Yakiniku + sushi table: 41127522 · Korean dining neon (Osaka): 31387611
 Friends eating hot pot: 41127516 · Bedroom with city view: 28962556 · Hotel bed made up: 6466562 · Osaka intersection with bus: 34448615
 TOKYO (Shinjuku Kabukicho, "新宿東宝ビル" sign) — NEVER in Osaka/Kansai Reels, fine for Tokyo: 18662589, 18662590, 18662591, 18662592
@@ -17,3 +17,5 @@ Shibuya (Tokyo): crossing + bus 19743476 · Tokyo night street w/ flag 19743526
 Osaka food: Ichiran-style ramen bowl + chopsticks 31387608, 31387604 (near-identical, never both), landscape 31387238 · Osaka street day (2.4 s, too short) 31387672
 Generic food (no city): ramen toppings 33400919 · noodles in pot 12001580
 NOT Japan / unsure, never use: 30703758 (Vietnam Hảo Hảo noodles), 36690405 (European metro "7041"), 37629347 (unknown subway platform) · 17455317 red train = probably Meitetsu (Nagoya), not Osaka
+
+TOKYO UENO ("JR 上野駅 UENO STATION" sign) — NEVER in Osaka/Kansai Reels, fine for Tokyo: 36024206 (night elevated train; slipped into the Osaka night-owls Reel on 23 Nov — check EVERY frame for station signs)
