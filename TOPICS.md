@@ -92,9 +92,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [!] 55 needs research — Kawaguchiko dinner after the last shuttle  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [x] 56 · tokyo-to-kawaguchiko-big-suitcase-bus-or-train · EXCURSION · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [x] 57 · lake-kawaguchi-half-day-cycling · CYCLE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [ ] 58 Cloudy Fuji forecast: still go?  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [ ] 59 Hakone ryokan dinner: when to leave Tokyo  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [ ] 60 Hakone base: Yumoto, Gora or Lake Ashi  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 12:42 58 Cloudy Fuji forecast: still go?  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 12:42 59 Hakone ryokan dinner: when to leave Tokyo  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 12:42 60 Hakone base: Yumoto, Gora or Lake Ashi  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 61 Hakone Freepass for a ryokan-focused stay  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 62 Hakone 'private onsen': private when?  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 63 Hakone ropeway closed: plan B  (Tokyo · BRIEFS-TOKYO-41-70.md)
