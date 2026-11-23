@@ -22,6 +22,18 @@ Always finish with `python3 jbs.py save "what you did"` so the next session has 
 - NOT ALWAYS DOTONBORI / NAMBA (Ling, 23 Nov; guides AND Reels). Too many Osaka pieces end with "stay in Namba, walk to Dotonbori". Every Osaka piece must include at least one less obvious area as a real option, framed as "besides Namba / Dotonbori, consider X, because …" with 1–2 researched whys (e.g. Tenma, Kitashinchi, Nakazakicho, Tanimachi, Kyobashi, Fukushima, Bentencho, Shin-Osaka, Kitahama), matched to who it suits. Do not use Dotonbori as the reference point in more than one answer per piece. Same idea in Tokyo: not every answer is Shinjuku or Shibuya.
 
 ## 2. Website guides
+DEEP TEMPLATE (Ling, 23 Nov; EVERY new guide, briefs included): copy `site/guides/tenma-tenjinbashisuji-local-guide.html`. Ling: "not surface level", a real 3–5 minute read (about 700–1,100 words), quality over speed. A place may be covered again from a new angle (Ling: one place can be told more than once) — link the related guides both ways.
+  Order (use the sections that fit the question; brief guides keep their A/B/C answers and verdict inside this frame):
+  1. Hero + lede that ANSWERS FIRST (who should go / what to pick) and why, in 2–3 sentences; byline "About a N-minute read · facts checked <date>".
+  2. "Who it suits, and who it doesn't" (`.fit` yes/no boxes).
+  3. Getting there (exact lines/stations, which pass covers it).
+  4. Eat like a local: named places with what to order, price level, closing day, queue tip; at least one photo (`<figure class="photo">` with alt text + caption).
+  5. A half-day route with times (`ol.route`, `span.t`) when it's an area guide.
+  6. Where to stay: three bases as cards, each = who it suits + one downside + a link whose text is UNIQUE and evocative ("Wake up quiet, be in Kyoto by mid-morning →"), never "See hotels near X", never the word "affiliate".
+  7. A "hot" experience box (`.hotbox`) where one really exists (food walk, sell-out tickets) — check on Klook/osaka-info that it exists.
+  8. "📅 Good to know before you book" (`.bookbox`): SOFT FOMO from real facts only (annual fixed dates, reservation-only spots, real closures, "most hotels offer free cancellation"); never "book now", never invented scarcity.
+  9. Nearby, if you have more time; 10. ONE MORE THING; 11. one-line affiliate disclosure at the very bottom (`p.disclose`); 12. Keep planning links.
+  Every <img> has descriptive alt text; hero_alt is used for og:image:alt (build does it). Photos: Pexels ids that really show that place (look first). FAQ 3–4 with direct answers.
 One file per guide: `site/guides/<slug>.html`. The build picks it up automatically (home "Latest posts", /guides index, sitemap, llms.txt, JSON-LD Article + Breadcrumb + FAQPage, keywords.json).
 Header block (JSON, must parse):
 ```
@@ -52,8 +64,8 @@ Body: copy the structure of an existing guide (e.g. `site/guides/osaka-local-mar
 - Verify one new page in the browser after deploy.
 
 ## 2b. Facebook text posts (Ling, 23 Nov — test)
-For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` → `{"id":"fb-<keyword-lower>-1","guide":"<slug>","photo":<pexels id that shows that place>,"order":<next number>,"text":"…"}` (second one `-2`). build.py turns them into fb-queue.json; n8n posts the next one at about 10:00 and 20:30 Malaysia time with the photo.
-- Same topic and facts as the guide, but its own angle. Ling (23 Nov): detailed (250–400 words), English, a small team that knows the place ("we'd", "our take"), warm, specific, never salesy.
+For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` → `{"id":"fb-<keyword-lower>-1","guide":"<slug>","photo":<pexels id that shows that place>,"order":<next number>,"text":"…"}` (second one `-2`). build.py turns them into fb-queue.json; n8n posts the next one up to 10 times a day (about 08:10, 09:50, 11:05, 12:50, 14:20, 16:05, 17:55, 19:10, 20:20, 21:40 Malaysia time) with its designed image.
+- Same topic and facts as the guide, but its own angle; may say we took our time and checked every fact against official listings (true). Example of the approved emotional style: site/fbposts/fb-tenma-1.json. Ling (23 Nov): detailed (250–400 words), English, a small team that knows the place ("we'd", "our take"), warm, specific, never salesy.
 - HOOK = the first 1–2 sentences, ONE paragraph, 150–250 characters, no line break inside it. Facebook only shows this before "See more", so it must carry the payoff (a number, a surprising fact, a clear benefit) and end with 👇. Bad: "Second trip to Osaka? Stay where Osaka actually lives." Good: "We priced the same three nights on both sides of Osaka Station. Walking 12 minutes saved ¥9,474. Here's when that walk is worth it, and when it isn't 👇"
 - LAYOUT: a BLANK LINE between every paragraph and every point (no stacked bullets). Section headers as one line "🚇 HOW TO GET THERE" (emoji + CAPS), no ━━━ lines. Each point = its own 1–2 sentence paragraph, starting with an emoji or 1️⃣. Link on its own line after "👉 …:". Example: site/fbposts/fb-nakazaki-1.json.
 - Post 1 = MINI-GUIDE: situation hook → 2–3 options, each = decision + 1–2 researched whys (numbers from the guide only) → "Our take" → guide link → one easy question.
