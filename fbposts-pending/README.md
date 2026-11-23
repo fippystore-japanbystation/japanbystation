@@ -12,3 +12,7 @@ Photos to CHECK before use (not yet viewed by us): 31252767 (capsule-hotel windo
 ## Added 23 Nov 2026 evening (briefs 51, 52, 53) — same reason (no Downloads folder connected in the unattended run)
 fb-maihama-1/2 (place "MAIHAMA, TOKYO"), fb-hakone-1/2 ("HAKONE, KANAGAWA"), fb-kawaguchi-1/2 ("LAKE KAWAGUCHI, YAMANASHI"). Orders 23–28.
 Photos viewed and fine: 23228674 (Tokyo Bay elevated railway), 33326934 (Hakone Tozan bus, autumn), 31418958 (Lake Ashi), 32028992 (Fuji over Lake Kawaguchi), 31318845 (Chureito Pagoda + Fuji). CHECK before use: 23228639 (harbour buildings near Rainbow Bridge, not viewed).
+
+## Added 23 Nov 2026 night (briefs 54, 56, 57) — same reason (no Downloads folder connected in the unattended run)
+fb-fujiview-1/2 (place "LAKE KAWAGUCHI, YAMANASHI"), fb-excursion-1 ("KAWAGUCHIKO, YAMANASHI"), fb-excursion-2 ("SHINJUKU, TOKYO"), fb-cycle-1/2 ("LAKE KAWAGUCHI, YAMANASHI"). Orders 29–34.
+Photos viewed (thumbnail) and fine: 31268058 (Fuji over the lake, boat), 40294746 (Kawaguchiko Station building + Fuji), 31001256 (yellow Chuo-Sobu train, Tokyo), 33341980 (street with Fuji, Fujikawaguchiko), 31311185 (lakeside railing, Lake Kawaguchi). CHECK before use: 37307622 (Pexels title "Mt Fuji from Lake Kawaguchi", loads as JPEG, not viewed).
