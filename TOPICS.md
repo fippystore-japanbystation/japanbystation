@@ -4,8 +4,8 @@
 Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
 - [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts in fbposts-pending/
 - [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts in fbposts-pending/
-- [ ] R03 · Fukuoka · Fukuoka basics: Hakata, Tenjin or Nakasu? (airport is minutes away by subway; yatai stalls at night)
-- [ ] R04 · Hokkaido · New Chitose Airport to Sapporo: JR Rapid Airport, bus or car? (times, fares, reserved seats, winter delays)
+- [~] 2026-11-24 23:43UTC R03 · Fukuoka · Fukuoka basics: Hakata, Tenjin or Nakasu? (airport is minutes away by subway; yatai stalls at night)
+- [~] 2026-11-24 23:43UTC R04 · Hokkaido · New Chitose Airport to Sapporo: JR Rapid Airport, bus or car? (times, fares, reserved seats, winter delays)
 - [ ] R05 · Kyoto · Kansai Airport to Kyoto: Haruka, limousine bus or via Osaka? (by hotel area, luggage, ICOCA & HARUKA)
 - [ ] R06 · Hiroshima · Hiroshima + Miyajima: where to base and how to fit both in one day (tram vs JR + ferry, tides at the torii)
 - [ ] R07 · Okinawa · Naha basics: Kokusai-dori, Asahibashi or Omoromachi? Do you need a car? (monorail, Yui Rail pass, buses)
@@ -120,7 +120,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 59 · hakone-ryokan-dinner-leave-tokyo · DINNER · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [x] 60 · hakone-base-yumoto-gora-lake-ashi · BASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [x] 61 · hakone-freepass-ryokan-one-night · FREEPASS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [ ] 62 Hakone 'private onsen': private when?  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 2026-11-24 23:43UTC 62 Hakone 'private onsen': private when?  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 63 Hakone ropeway closed: plan B  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
