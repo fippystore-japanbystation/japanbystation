@@ -138,11 +138,29 @@ pages["disclosure.html"]=(head("How We Make Money","Japan by Station earns commi
   <p>Commissions never decide which area we recommend. We recommend areas based on train times, walking distances and who is travelling. If an area isn't a good fit for you, we say so, even when it would be easier to sell.</p>
   <p>These commissions pay for keeping our guides checked and up to date.</p>
 '''))
-pages["privacy.html"]=(head("Privacy","How Japan by Station handles your data."),"",simple("","Privacy",'''
-  <p>We don't ask you to create an account, and we don't collect your name or email on this site.</p>
+pages["privacy.html"]=(head("Privacy Policy","How Japan by Station handles your data on this website and on Instagram."),"",simple("","Privacy Policy",'''
+  <p><i>Last updated 23 November 2026.</i> Japan by Station runs japanbystation.com and the Instagram account <b>@japanbystation</b>. This policy explains what data we handle and why.</p>
+  <h2>On this website</h2>
+  <p>We don't ask you to create an account, and we don't collect your name or email on this site. We use Cloudflare Web Analytics, which counts visits without cookies and without identifying you. Our hosting provider, Cloudflare, may log basic technical data such as IP addresses to keep the site secure.</p>
   <p>When you click a booking link, the booking site may set cookies so it can tell that you came from us. That is how affiliate commissions are tracked. Those cookies belong to the booking site and are covered by its own privacy policy.</p>
-  <p>Our hosting provider, Cloudflare, may log basic technical data such as IP addresses to keep the site secure and running.</p>
-  <p>Questions? Message us on Instagram at <b>@japanbystation</b>.</p>
+  <h2>On Instagram (comments and direct messages)</h2>
+  <p>Our Reels invite you to comment a keyword, such as AIRPORT, to receive the matching guide. When you do, our app "Japan by Station DM" uses the Instagram API to read comments on our own posts, check whether the comment contains one of our keywords, and send you one direct message with the link to that guide. We may also reply publicly under your comment.</p>
+  <p>To do this we process your Instagram username, the comment ID, the comment text and the time it was posted. We keep a record of which comment IDs we have already answered so you don't get the same message twice. We do not sell this data, use it for advertising, or share it with anyone except Meta, which delivers the message. Records of answered comments are deleted automatically when they are no longer needed, and at the latest after 12 months.</p>
+  <p>If you reply to our message, we read your reply in our Instagram inbox to answer your question.</p>
+  <h2>Deleting your data</h2>
+  <p>You can ask us to delete any data we hold about you at any time. See <a href="data-deletion.html">how to request data deletion</a>.</p>
+  <h2>Contact</h2>
+  <p>Questions about this policy? Send a direct message to <b>@japanbystation</b> on Instagram.</p>
+'''))
+pages["data-deletion.html"]=(head("Data Deletion Instructions","How to ask Japan by Station to delete the data we hold about you from Instagram comments and messages."),"",simple("","Data deletion instructions",'''
+  <p>Japan by Station keeps very little data: if you commented a keyword on one of our Instagram posts, we keep your Instagram username and the ID of that comment so we don't message you twice.</p>
+  <h2>How to request deletion</h2>
+  <ol>
+    <li>Send a direct message to <b>@japanbystation</b> on Instagram with the words <b>"Delete my data"</b>.</li>
+    <li>We delete every record linked to your Instagram username within 7 days and reply to confirm.</li>
+  </ol>
+  <p>You can also delete your own comment on our post at any time. Deleting the comment does not delete the message we already sent you; you can delete that conversation in your Instagram inbox.</p>
+  <p>See our <a href="privacy.html">privacy policy</a> for details.</p>
 '''))
 
 # ---- Auto guides: site/guides/<slug>.html with a <!--meta {json} --> header

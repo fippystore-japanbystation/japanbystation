@@ -52,19 +52,54 @@ Website task: write the guide for the next brief(s) without a guide. Reels task:
 - [ ] 39 Wakayama Castle + Kuroshio Market without a car
 - [ ] 40 Koyasan day trip vs temple stay
 
-## PRIORITY 2 — Tokyo and nearby (same style: a real traveller constraint, three answers, a verdict)
-- [ ] Where to stay in Tokyo by traveller type (Shinjuku, Shibuya, Ueno, Asakusa, Tokyo Station, Ginza)
-- [ ] Narita vs Haneda to your hotel: which train or bus by area
-- [ ] Tokyo on a ¥8,000/night budget: private room or capsule, by area
-- [ ] Late nights in Tokyo: last trains and where to stay
+## PRIORITY 2 — Tokyo briefs 71–80 (BRIEFS-TOKYO-71-80.md), in number order (after all 40 Kansai briefs)
+- [ ] 71 Shibuya Crossing: pay for a view?
+- [ ] 72 Yoyogi-Hachiman / Yoyogi-Uehara vs central Shibuya (check the 'one stop' claim)
+- [ ] 73 Which Shinjuku station: JR, Shinjuku-sanchome, Higashi-shinjuku
+- [ ] 74 Shinjuku 2 hours: Gyoen, Metropolitan Govt Building, Shinjuku-sanchome
+- [ ] 75 Senso-ji before breakfast or after dinner
+- [ ] 76 Asakusa: book across the river (Honjo/Azumabashi)?
+- [ ] 77 Kagurazaka lunch: main street or back lanes
+- [ ] 78 Monzen-nakacho: market day or ordinary weekday
+- [ ] 79 Yanaka Ginza: which direction (steps, step-free)
+- [ ] 80 Kiyosumi-Shirakawa: garden, MOT museum or free walk
+
+## PRIORITY 3 — Tokyo + day-trip briefs 41–70 (BRIEFS-TOKYO-41-70.md), in number order
+- [ ] 41 Narita, 3 nights, then Shinkansen: Ueno vs Tokyo Stn vs Shinagawa
+- [ ] 42 Haneda 11 p.m. landing: train, taxi or airport hotel
+- [ ] 43 'Five minutes from Shinjuku Station' with a suitcase
+- [ ] 44 Shibuya nightlife + quiet room
+- [ ] 45 Which 'Asakusa Station' from Narita
+- [ ] 46 Ueno ¥12,000: Keisei Ueno vs Okachimachi vs quiet side street
+- [ ] 47 Last night: move from Shinjuku to Nippori before Narita?
+- [ ] 48 Tokyo ¥15,000: double vs twin vs bigger room farther out
+- [ ] 49 8 a.m. arrival: who takes my suitcase
+- [ ] 50 Kiyosumi-Shirakawa as a base with 7 a.m. starts
+- [ ] 51 Tokyo Disney: hotel night before or after
+- [ ] 52 Big suitcase through Hakone: forward, carry or store
+- [ ] 53 Lake Kawaguchi: station hotel or lake view
+- [ ] 54 'Mount Fuji view' rooms: what you actually buy
+- [ ] 55 Kawaguchiko dinner after the last shuttle
+- [ ] 56 Tokyo to Kawaguchiko with a big suitcase: bus or train
+- [ ] 57 Lake Kawaguchi half-day cycling
+- [ ] 58 Cloudy Fuji forecast: still go?
+- [ ] 59 Hakone ryokan dinner: when to leave Tokyo
+- [ ] 60 Hakone base: Yumoto, Gora or Lake Ashi
+- [ ] 61 Hakone Freepass for a ryokan-focused stay
+- [ ] 62 Hakone 'private onsen': private when?
+- [ ] 63 Hakone ropeway closed: plan B
+- [ ] 64 Kamakura from noon: temples or sunset
+- [ ] 65 Enoshima with someone who dislikes stairs
+- [ ] 66 Yokohama just for dinner
+- [ ] 67 Kawagoe with parents: which station
+- [ ] 68 Nikko shrines + Lake Chuzenji in one day
+- [ ] 69 Mount Takao: split the group after the cable car
+- [ ] 70 Atami lunch stop between Tokyo and Kyoto
+
+## PRIORITY 4 — other Tokyo ideas not covered by the briefs
+- [ ] Tokyo late nights: last trains and where to stay
 - [ ] Tokyo local markets and shopping streets (Ameyoko, Togoshi Ginza, Sunamachi, Tsukiji Outer Market timing)
-- [ ] Yokohama day trip: Chinatown, Minato Mirai, what fits a half day
-- [ ] Kamakura + Enoshima in one day: order and crowd timing
-- [ ] Kawagoe half day
-- [ ] Nikko day trip vs overnight
-- [ ] Hakone loop: one day vs overnight, Hakone Free Pass maths
-- [ ] Mount Fuji Five Lakes: Kawaguchiko day trip timing, bus vs train
-- [ ] Tokyo with kids / Tokyo rainy day / four friends in Tokyo
+- [ ] Tokyo with kids / rainy day / four friends in Tokyo
 
 ## LATER (Ling will name other regions; these are placeholders)
 - Kyoto where to stay, Kyoto buses, Hiroshima + Miyajima, Kanazawa, Shirakawa-go, Takayama, Fukuoka, Sapporo

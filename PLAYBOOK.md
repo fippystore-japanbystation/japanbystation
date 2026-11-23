@@ -58,7 +58,7 @@ Body: copy the structure of an existing guide (e.g. `site/guides/osaka-local-mar
 - Publishing is automatic (n8n on Ling's PC reads reels-queue.json). Never post to Instagram by hand.
 
 ## 3b. Briefs (BRIEFS-*.md)
-Ling supplies batches of briefs (e.g. `BRIEFS-KANSAI-40.md`). Work them in number order: the WEBSITE task writes the guide page for a brief first (title = the question, three researched answers A/B/C, the verdict with when it changes, sources and check date), then the REELS task makes the Reel from that live page.
+Ling supplies batches of briefs: `BRIEFS-KANSAI-40.md` (01–40), then `BRIEFS-TOKYO-71-80.md`, then `BRIEFS-TOKYO-41-70.md`. Follow the order in TOPICS.md. Work them in number order: the WEBSITE task writes the guide page for a brief first (title = the question, three researched answers A/B/C, the verdict with when it changes, sources and check date), then the REELS task makes the Reel from that live page.
 Research rules from the brief: room prices on the same stay dates, occupancy and total-price basis (search Booking.com in the built-in browser for one named weeknight about 4 weeks ahead and state those dates on the page); routes count walk + transfers + waiting + the way back; food spots: check last orders; "quiet hotel": evidence about the actual street or room. If a key detail cannot be verified, do NOT publish it: add the brief to `NEEDS-RESEARCH.md` with what is missing and move on. "Go earlier", "skip the upgrade" or "this budget only buys a capsule on these dates" are valid answers.
 Affiliate fit: name the stay/activity/transport that fits the verdict and link it with the approved Booking.com/Klook search links only; leave it out if nothing fits.
 
