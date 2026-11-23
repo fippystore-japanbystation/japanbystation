@@ -58,6 +58,8 @@ def setup():
 
 
 def deploy_site(msg):
+    # always build from the newest studio sources, so parallel runs never deploy an older home page / keywords.json
+    subprocess.run(["git", "pull", "-q", "--rebase", "--autostash", "origin", "studio"], cwd=HERE)
     pull(MAIN, "main")
     live = os.path.join(HERE, "live")
     shutil.rmtree(live, ignore_errors=True)
