@@ -10,92 +10,90 @@
 - osaka-four-friends · GROUP · Reel ✓ (apartment vs apartment hotel vs two twins; legal rentals)
 - namba-5000-yen-private-room · PRIVACY · Reel ✓ (brief 01: weeknight private room vs Saturday capsule, Booking.com prices 16 + 19 Dec 2026)
 
-## PRIORITY 1 — Ling's 40 briefs (BRIEFS-KANSAI-40.md), in number order
-Website task: write the guide for the next brief(s) without a guide. Reels task: Reel for briefs whose guide is live. Mark each: `- [x] 01 · <slug> · <KEYWORD> · page ✓ · reel ✓` (or `needs research` → NEEDS-RESEARCH.md).
+## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
+Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
+- [ ] 71 Shibuya Crossing: pay for a view?  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 11 Minoh Falls autumn afternoon  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 72 Yoyogi-Hachiman / Yoyogi-Uehara vs central Shibuya (check the 'one stop' claim)  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 02 Honmachi ¥10,000 late dinner, quiet room  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] 73 Which Shinjuku station: JR, Shinjuku-sanchome, Higashi-shinjuku  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 12 Ikeda Cup Noodles Museum: which experience  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 74 Shinjuku 2 hours: Gyoen, Metropolitan Govt Building, Shinjuku-sanchome  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 03 Nakazakicho vs Umeda ¥3,000 saving  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] 75 Senso-ji before breakfast or after dinner  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 13 Sakai: watch a knife being made  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 76 Asakusa: book across the river (Honjo/Azumabashi)?  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 04 Kuromon ¥12,000 room for 8 a.m. breakfast  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] 77 Kagurazaka lunch: main street or back lanes  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 14 Suita NIFREL in two hours  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 78 Monzen-nakacho: market day or ordinary weekday  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 05 ¥30,000 three nights, Namba or Tennoji, KIX flight  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] 79 Yanaka Ginza: which direction (steps, step-free)  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 15 Itami Sky Park plane watching without a car  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 80 Kiyosumi-Shirakawa: garden, MOT museum or free walk  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] 06 Kitahama Sunday breakfast  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] 41 Narita, 3 nights, then Shinkansen: Ueno vs Tokyo Stn vs Shinagawa  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 16 Settsukyo, Takatsuki: river vs bus time  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 42 Haneda 11 p.m. landing: train, taxi or airport hotel  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 07 Noda as a base for Umeda  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] 43 'Five minutes from Shinjuku Station' with a suitcase  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 17 Hirakata Park after lunch: pass or pay per ride  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 44 Shibuya nightlife + quiet room  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 08 Shinsaibashi ¥15,000 floor space for two suitcases  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] 45 Which 'Asakusa Station' from Narita  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 18 Kishiwada half day from Namba  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 46 Ueno ¥12,000: Keisei Ueno vs Okachimachi vs quiet side street  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 09 Kaiyukan: dinner after the aquarium  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] 47 Last night: move from Shinjuku to Nippori before Narita?  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 19 Izumisano seafood lunch before a flight  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 48 Tokyo ¥15,000: double vs twin vs bigger room farther out  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 10 Osaka Castle: which side to stay  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] 49 8 a.m. arrival: who takes my suitcase  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 20 KIX 8 a.m. flight: where to sleep  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 50 Kiyosumi-Shirakawa as a base with 7 a.m. starts  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 51 Tokyo Disney: hotel night before or after  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 21 Kobe Kitano + waterfront before dinner  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 52 Big suitcase through Hakone: forward, carry or store  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 53 Lake Kawaguchi: station hotel or lake view  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 22 Kobe beef ¥8,000: lunch or dinner  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 54 'Mount Fuji view' rooms: what you actually buy  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 55 Kawaguchiko dinner after the last shuttle  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 23 Nada sake: two breweries after lunch  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 56 Tokyo to Kawaguchiko with a big suitcase: bus or train  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 57 Lake Kawaguchi half-day cycling  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 24 Arima Onsen: day bath vs overnight  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 58 Cloudy Fuji forecast: still go?  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 59 Hakone ryokan dinner: when to leave Tokyo  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 25 Mount Rokko night view and getting back  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 60 Hakone base: Yumoto, Gora or Lake Ashi  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 61 Hakone Freepass for a ryokan-focused stay  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 26 Akashi Uonotana at 2 p.m.  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 62 Hakone 'private onsen': private when?  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 63 Hakone ropeway closed: plan B  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 27 Himeji castle + garden, back in Osaka by six  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 28 Takarazuka without a theatre ticket  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 29 Uji: temple or matcha first (noon start)  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 69 Mount Takao: split the group after the cable car  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 30 Fushimi Inari vs sake district order  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 70 Atami lunch stop between Tokyo and Kyoto  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] 31 Arashiyama overnight for first light  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 32 Komyo-ji, Nagaokakyo without a car  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 33 Amanohashidate same-day return  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 34 Nara Park from Umeda vs Namba  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 35 Naramachi at 4 p.m.  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 36 Asuka four hours: walk, bike or e-bike  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 37 Lake Biwa: which station for the water  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 38 Omihachiman canal boats in half a day  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 39 Wakayama Castle + Kuroshio Market without a car  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] 40 Koyasan day trip vs temple stay  (Kansai trip · BRIEFS-KANSAI-40.md)
+
+## Finished briefs
 - [x] 01 · namba-5000-yen-private-room · PRIVACY · page ✓ · reel ✓
-- [ ] 02 Honmachi ¥10,000 late dinner, quiet room
-- [ ] 03 Nakazakicho vs Umeda ¥3,000 saving
-- [ ] 04 Kuromon ¥12,000 room for 8 a.m. breakfast
-- [ ] 05 ¥30,000 three nights, Namba or Tennoji, KIX flight
-- [ ] 06 Kitahama Sunday breakfast
-- [ ] 07 Noda as a base for Umeda
-- [ ] 08 Shinsaibashi ¥15,000 floor space for two suitcases
-- [ ] 09 Kaiyukan: dinner after the aquarium
-- [ ] 10 Osaka Castle: which side to stay
-- [ ] 11 Minoh Falls autumn afternoon
-- [ ] 12 Ikeda Cup Noodles Museum: which experience
-- [ ] 13 Sakai: watch a knife being made
-- [ ] 14 Suita NIFREL in two hours
-- [ ] 15 Itami Sky Park plane watching without a car
-- [ ] 16 Settsukyo, Takatsuki: river vs bus time
-- [ ] 17 Hirakata Park after lunch: pass or pay per ride
-- [ ] 18 Kishiwada half day from Namba
-- [ ] 19 Izumisano seafood lunch before a flight
-- [ ] 20 KIX 8 a.m. flight: where to sleep
-- [ ] 21 Kobe Kitano + waterfront before dinner
-- [ ] 22 Kobe beef ¥8,000: lunch or dinner
-- [ ] 23 Nada sake: two breweries after lunch
-- [ ] 24 Arima Onsen: day bath vs overnight
-- [ ] 25 Mount Rokko night view and getting back
-- [ ] 26 Akashi Uonotana at 2 p.m.
-- [ ] 27 Himeji castle + garden, back in Osaka by six
-- [ ] 28 Takarazuka without a theatre ticket
-- [ ] 29 Uji: temple or matcha first (noon start)
-- [ ] 30 Fushimi Inari vs sake district order
-- [ ] 31 Arashiyama overnight for first light
-- [ ] 32 Komyo-ji, Nagaokakyo without a car
-- [ ] 33 Amanohashidate same-day return
-- [ ] 34 Nara Park from Umeda vs Namba
-- [ ] 35 Naramachi at 4 p.m.
-- [ ] 36 Asuka four hours: walk, bike or e-bike
-- [ ] 37 Lake Biwa: which station for the water
-- [ ] 38 Omihachiman canal boats in half a day
-- [ ] 39 Wakayama Castle + Kuroshio Market without a car
-- [ ] 40 Koyasan day trip vs temple stay
-
-## PRIORITY 2 — Tokyo briefs 71–80 (BRIEFS-TOKYO-71-80.md), in number order (after all 40 Kansai briefs)
-- [ ] 71 Shibuya Crossing: pay for a view?
-- [ ] 72 Yoyogi-Hachiman / Yoyogi-Uehara vs central Shibuya (check the 'one stop' claim)
-- [ ] 73 Which Shinjuku station: JR, Shinjuku-sanchome, Higashi-shinjuku
-- [ ] 74 Shinjuku 2 hours: Gyoen, Metropolitan Govt Building, Shinjuku-sanchome
-- [ ] 75 Senso-ji before breakfast or after dinner
-- [ ] 76 Asakusa: book across the river (Honjo/Azumabashi)?
-- [ ] 77 Kagurazaka lunch: main street or back lanes
-- [ ] 78 Monzen-nakacho: market day or ordinary weekday
-- [ ] 79 Yanaka Ginza: which direction (steps, step-free)
-- [ ] 80 Kiyosumi-Shirakawa: garden, MOT museum or free walk
-
-## PRIORITY 3 — Tokyo + day-trip briefs 41–70 (BRIEFS-TOKYO-41-70.md), in number order
-- [ ] 41 Narita, 3 nights, then Shinkansen: Ueno vs Tokyo Stn vs Shinagawa
-- [ ] 42 Haneda 11 p.m. landing: train, taxi or airport hotel
-- [ ] 43 'Five minutes from Shinjuku Station' with a suitcase
-- [ ] 44 Shibuya nightlife + quiet room
-- [ ] 45 Which 'Asakusa Station' from Narita
-- [ ] 46 Ueno ¥12,000: Keisei Ueno vs Okachimachi vs quiet side street
-- [ ] 47 Last night: move from Shinjuku to Nippori before Narita?
-- [ ] 48 Tokyo ¥15,000: double vs twin vs bigger room farther out
-- [ ] 49 8 a.m. arrival: who takes my suitcase
-- [ ] 50 Kiyosumi-Shirakawa as a base with 7 a.m. starts
-- [ ] 51 Tokyo Disney: hotel night before or after
-- [ ] 52 Big suitcase through Hakone: forward, carry or store
-- [ ] 53 Lake Kawaguchi: station hotel or lake view
-- [ ] 54 'Mount Fuji view' rooms: what you actually buy
-- [ ] 55 Kawaguchiko dinner after the last shuttle
-- [ ] 56 Tokyo to Kawaguchiko with a big suitcase: bus or train
-- [ ] 57 Lake Kawaguchi half-day cycling
-- [ ] 58 Cloudy Fuji forecast: still go?
-- [ ] 59 Hakone ryokan dinner: when to leave Tokyo
-- [ ] 60 Hakone base: Yumoto, Gora or Lake Ashi
-- [ ] 61 Hakone Freepass for a ryokan-focused stay
-- [ ] 62 Hakone 'private onsen': private when?
-- [ ] 63 Hakone ropeway closed: plan B
-- [ ] 64 Kamakura from noon: temples or sunset
-- [ ] 65 Enoshima with someone who dislikes stairs
-- [ ] 66 Yokohama just for dinner
-- [ ] 67 Kawagoe with parents: which station
-- [ ] 68 Nikko shrines + Lake Chuzenji in one day
-- [ ] 69 Mount Takao: split the group after the cable car
-- [ ] 70 Atami lunch stop between Tokyo and Kyoto
 
 ## PRIORITY 4 — other Tokyo ideas not covered by the briefs
 - [ ] Tokyo late nights: last trains and where to stay
