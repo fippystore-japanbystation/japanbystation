@@ -259,9 +259,10 @@ def seo(fn,h):
     url=SITE+"/" if fn=="index.html" else SITE+"/"+fn[:-5]
     title=_re.search(r"<title>(.*?) \| Japan by Station</title>",h).group(1)
     desc=_re.search(r'<meta name="description" content="(.*?)">',h).group(1)
-    tags=f'<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">\n<meta property="og:type" content="{"article" if fn in GUIDES else "website"}">\n'
+    tags=f'<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">\n<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">\n<meta property="og:type" content="{"article" if fn in GUIDES else "website"}">\n'
     if fn in OGIMG: tags+=f'<meta property="og:image" content="{purl(OGIMG[fn],1200)}">\n<meta name="twitter:card" content="summary_large_image">\n'
-    org={"@type":"Organization","name":"Japan by Station","url":SITE+"/","sameAs":["https://www.instagram.com/japanbystation/"]}
+    org={"@type":"Organization","name":"Japan by Station","url":SITE+"/","logo":SITE+"/brand/logo-320.png",
+         "sameAs":["https://www.instagram.com/japanbystation/","https://www.facebook.com/1512969825226649"]}
     if fn=="index.html":
         ld={"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"Japan by Station","url":SITE+"/","description":desc,"publisher":org},org]}
     elif fn in GUIDES:
@@ -282,7 +283,9 @@ for fn,(h,active,b) in pages.items():
     open(f"{OUT}/{fn}","w").write(h+nav(active)+b+FOOT)
 today=_dt.date.today().isoformat()
 open(f"{OUT}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n' for u,f in urls)+'</urlset>\n')
-open(f"{OUT}/robots.txt","w").write("User-agent: *\nAllow: /\n\nSitemap: https://japanbystation.com/sitemap.xml\n")
+# GEO: say plainly that search and AI-answer crawlers are welcome (Ling wants to be cited by ChatGPT, Claude, Perplexity, Gemini)
+_bots=["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot","Applebot-Extended","DuckDuckBot"]
+open(f"{OUT}/robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in _bots)+"User-agent: *\nAllow: /\n\nSitemap: https://japanbystation.com/sitemap.xml\n")
 _ll="# Japan by Station\n\n> English guides to Japan travel, organised around train stations: where to stay, what is within walking distance, local markets, nightlife, and how many minutes it takes to reach the airport, day trips and sights. Every time and price is checked against operators, airports and tourism bureaus, with the check date shown on each page.\n"
 for _c in _cities:
     _ll+=f"\n## {_c}\n"+"".join(f"- [{g['title']}](https://japanbystation.com/{g['slug'][:-5]}): {g['card']}\n" for g in ALLG if g['city']==_c)
