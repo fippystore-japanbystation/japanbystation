@@ -29,6 +29,9 @@
 - tokyo-where-to-stay-first-trip · STAY (brief T1: Booking 16–17 Dec 2026, 2 adults, rated 7+, first 20: middle Shinjuku ¥18,100 / Tokyo Stn ≤1 km ¥22,200 / Ueno ≤1 km ¥18,400 / Asakusa ¥15,800; Ueno NOT cheaper than Shinjuku; 6 Shinkansen lines at Tokyo Stn)
 - tokyo-airport-which-train · ARRIVE (brief T2: Keikyu T3–Shinagawa 11 min, last 00:08; Monorail 13 min ¥519; N'EX ¥3,140/¥3,330, round trip ¥5,200; Skyliner ¥2,470; Limousine Haneda–Shinjuku ¥1,400, late-night ¥2,800 00:20–02:20; Narita taxi ¥29,000–32,500)
 - tokyo-ic-card-or-subway-pass · SUICA (brief T3: Suica back since 1 Mar 2025; Welcome Suica 28 days; TOURIST PASMO May 2026; Subway Ticket ¥1,000/1,500/2,000 since 14 Mar 2026, 72 h pays off at ~3 rides/day; JR min IC ¥155)
+- narita-three-nights-then-shinkansen · BULLET (brief 41: Booking 14–17 Dec 2026, 2 adults, 3 nights: Ueno ≈¥41,300–49,700 vs Tokyo Stn ≈¥83,600–98,500 vs Shinagawa ≈¥58,900–64,000; Skyliner 41 min ¥2,470; Ueno–Kyoto 2:28 vs Tokyo 2:15 vs Shinagawa 2:08; Shinagawa–Shibuya 13 min)
+- haneda-late-arrival-first-night · LANDING (brief 42: T3 last trains Wed 16 Dec: Asakusa 23:37, Shinjuku/Shibuya 23:51, Monorail 00:10; night bus 0:20–2:20 ¥2,800; taxi night fixed ≈¥9,800 Shinjuku + tolls; Villa Fontaine Grand ¥18,700 vs central ≈¥19,200–19,900)
+- shinjuku-five-minutes-with-a-suitcase · SUITCASE (brief 43: Gracery "5 min from East Exit"; N'EX pl. 5–6 lift route → south gates ≈970 m; Metro B11/A6 lifts 6–23 h, 450 m; Narita Limousine to Kabukicho Tower ¥3,600 115 min vs N'EX 87 min ¥3,330)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -58,9 +61,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] T1 · tokyo-where-to-stay-first-trip · STAY · page ✓  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
 - [x] T2 · tokyo-airport-which-train · ARRIVE · page ✓  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
 - [x] T3 · tokyo-ic-card-or-subway-pass · SUICA · page ✓  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
-- [~] 23 Nov 15:42 41 Narita, 3 nights, then Shinkansen: Ueno vs Tokyo Stn vs Shinagawa  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 23 Nov 15:42 42 Haneda 11 p.m. landing: train, taxi or airport hotel  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 23 Nov 15:42 43 'Five minutes from Shinjuku Station' with a suitcase  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 41 · narita-three-nights-then-shinkansen · BULLET · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 42 · haneda-late-arrival-first-night · LANDING · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 43 · shinjuku-five-minutes-with-a-suitcase · SUITCASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 44 Shibuya nightlife + quiet room  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 45 Which 'Asakusa Station' from Narita  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 46 Ueno ¥12,000: Keisei Ueno vs Okachimachi vs quiet side street  (Tokyo · BRIEFS-TOKYO-41-70.md)
