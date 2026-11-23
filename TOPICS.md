@@ -52,9 +52,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 
 ## Finished briefs
 - [x] 01 · namba-5000-yen-private-room · PRIVACY · page ✓ · reel ✓
-- [ ] T1 Tokyo first trip: which area to stay  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
-- [ ] T2 Narita or Haneda: which train to your hotel  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
-- [ ] T3 Getting around Tokyo: IC card, JR vs Metro, pass  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
+- [~] 23 Nov 14:42 T1 Tokyo first trip: which area to stay  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
+- [~] 23 Nov 14:42 T2 Narita or Haneda: which train to your hotel  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
+- [~] 23 Nov 14:42 T3 Getting around Tokyo: IC card, JR vs Metro, pass  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
 - [ ] 41 Narita, 3 nights, then Shinkansen: Ueno vs Tokyo Stn vs Shinagawa  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 42 Haneda 11 p.m. landing: train, taxi or airport hotel  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 43 'Five minutes from Shinjuku Station' with a suitcase  (Tokyo · BRIEFS-TOKYO-41-70.md)
