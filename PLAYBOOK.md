@@ -70,7 +70,7 @@ End each run by sending Ling a short progress note (what went live, queue depth,
 ## 5. Known limits
 - Meta app "Japan by Station DM" is LIVE since 23 Nov 2026; Ling tested: comment-for-DM reaches everyone. Privacy policy (/privacy) and data deletion page (/data-deletion) must stay online.
 - n8n runs in Docker on Ling's PC; if it sleeps nothing posts. Changing n8n needs Ling's login or API key; don't hunt for credentials.
-- Posting times (Ling, 23 Nov, to keep the new account safe from spam flags): 4 Reels a day at about 08:00, 11:44, 15:11, 17:40 Malaysia time (±10 min), to Instagram AND the Facebook Page (n8n workflow "JbS · Publish Reel (4 a day)": schedule → Random delay Wait node → Run; the Code step must finish within 300 s). Reels producer makes 2 per run, twice a day.
+- Posting times (Ling, 23 Nov, to keep the new account safe from spam flags): 5 Reels a day at about 08:00, 11:44, 15:11, 17:40, 22:31 Malaysia time (±10 min), to Instagram AND the Facebook Page (n8n workflow "JbS · Publish Reel (5 a day)": schedule → Random delay Wait node → Run; the Code step must finish within 300 s). Reels producer makes up to 3 per run, twice a day.
 - Travelpayouts hotel programs (Booking.com, Agoda, Trip.com…) are pending review by Travelpayouts; links still work, they start earning once matched.
 
 ## 6. Interactive pieces (pilot, 23 Nov)
