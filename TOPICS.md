@@ -36,6 +36,9 @@
 - shibuya-nightlife-quiet-room · QUIET (brief 44: Booking 16–17 Dec 2026, 2 adults: Granbell Sakuragaoka double ¥23,800 vs Tobu Udagawacho ¥29,045 vs Prince Smart Inn Ebisu ¥31,293; Tobu reviews = lift/neighbour noise not street; last Yamanote Shibuya–Ebisu 00:48; taxi ≈¥1,300 meter 2.7 km)
 - asakusa-which-station-from-narita · ASAKUSA (brief 45: Access Express Narita T1 15:09→Toei Asakusa 16:19 ¥1,380 no change; TX Asakusa needs 2 changes ¥3,010; Toei A2b→Hotel Trend Annex ≈670 m vs TX A1 ≈240 m; 14–17 Dec 3 nights Annex ¥37,500 vs SORA Kaminarimon ¥36,845; TX→Akihabara 5 min ¥230; Tawaramachi→Shibuya 35 min)
 - last-night-shinjuku-or-nippori · NIPPORI (brief 47: Thu 17 Dec, T1 by 08:30: Shinjuku 07:13 Yamanote+Skyliner 15 → 08:27 ¥2,840, N'EX 06:34→07:58; Nippori 07:45, +32 min sleep; move = 21 min ¥260 + check-out/in; APA TKP Nippori ¥14,742 vs Shinjuku middle ≈¥18,800; first Skyliner 05:25→06:03; nine hours T2 capsule from ¥7,000)
+- tokyo-double-or-twin-two-suitcases · SPACE (brief 48: Booking 16–17 Dec 2026, 2 adults: ICI Ueno Shin Okachimachi double 13.80 m² ¥15,250 vs twin 18.40 m² ¥19,650 (beds together on plan) vs deluxe double 18 m² ¥18,750; Brillia ist Kinshi Park flat 25 m² ¥10,968, check-in 16–22; Kinshicho–Shinjuku 21 min vs 27)
+- tokyo-early-arrival-luggage · LUGGAGE (brief 49: Sotetsu Fresa Inn Toyocho FAQ 24 h desk + bags before check-in, not oversized; Kinshicho flat unmanned, check-in 16:00; JR East lockers S ¥500 / M ¥700–800 / L ¥900–1,000; Ueno 21 sites, Shinobazu 20 LL + 56 L)
+- kiyosumi-shirakawa-base-7am-start · MORNING (brief 50: CLANN BY THE RIVER 7:00, 10 min from A3, cashless; Blue Bottle 8:00; garden 9:00 ¥150; Comfort Hotel Exit B1 buffet 6:30–9:30 ≈¥16,072 1 adult; 07:05 Hanzomon starts here → Shibuya 07:28, 07:08 Oedo → Shinjuku 07:40)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -72,9 +75,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 45 · asakusa-which-station-from-narita · ASAKUSA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [!] 46 needs research — Ueno ¥12,000: Keisei Ueno vs Okachimachi vs quiet side street  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [x] 47 · last-night-shinjuku-or-nippori · NIPPORI · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
-- [~] 23 Nov 09:42 UTC 48 Tokyo ¥15,000: double vs twin vs bigger room farther out  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 23 Nov 09:42 UTC 49 8 a.m. arrival: who takes my suitcase  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 23 Nov 09:42 UTC 50 Kiyosumi-Shirakawa as a base with 7 a.m. starts  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 48 · tokyo-double-or-twin-two-suitcases · SPACE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
+- [x] 49 · tokyo-early-arrival-luggage · LUGGAGE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
+- [x] 50 · kiyosumi-shirakawa-base-7am-start · MORNING · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — live hero image broken (Pexels PNG); fixed in studio, goes live with the next deploy; FB posts in fbposts-pending/
 - [ ] 51 Tokyo Disney: hotel night before or after  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 52 Big suitcase through Hakone: forward, carry or store  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 53 Lake Kawaguchi: station hotel or lake view  (Tokyo · BRIEFS-TOKYO-41-70.md)
