@@ -11,6 +11,18 @@
   "url": "https://japanbystation.com/kansai-airport-to-osaka",
   "title": "Kansai Airport to Osaka: which train for your hotel"
  },
+ "KYOTO": {
+  "url": "https://japanbystation.com/kyoto-where-to-stay-first-trip",
+  "title": "First Trip to Kyoto: Kyoto Station, Kawaramachi/Gion or Karasuma?"
+ },
+ "SAPPORO": {
+  "url": "https://japanbystation.com/sapporo-where-to-stay-first-trip",
+  "title": "First Trip to Sapporo: Sapporo Station, Odori or Susukino?"
+ },
+ "FREEPASS": {
+  "url": "https://japanbystation.com/hakone-freepass-ryokan-one-night",
+  "title": "Hakone Freepass for a Ryokan Night: Worth It or Not?"
+ },
  "BASE": {
   "url": "https://japanbystation.com/hakone-base-yumoto-gora-lake-ashi",
   "title": "One Car-Free Night in Hakone: Yumoto, Gora or Lake Ashi?"
