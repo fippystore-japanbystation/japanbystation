@@ -57,7 +57,7 @@ def body_of(fn):
     return fiximg(s[a:b])
 def relink(s):
     return s.replace('href="index.html#','href="osaka-where-to-stay.html#').replace('href="index.html"','href="osaka-where-to-stay.html"')
-CSSV="5"
+CSSV="6"
 pages={}
 # ---- Osaka where to stay with traveller filter
 osaka=relink(body_of("index.html"))
@@ -191,9 +191,31 @@ def _card(g):
     except Exception: dd=d
     return (f'<a class="post" href="{g["slug"]}"><div class="post-img"><img src="{img}" alt="{html.escape(g.get("hero_alt",g["title"]))}" loading="lazy"></div>'
             f'<div class="post-tx"><span class="tag tag-{g.get("tag","coral")}">{html.escape(g["cat"])}</span><h3>{html.escape(g["title"])}</h3><p>{html.escape(g["card"])}</p><small>{g["city"]} · checked {dd}</small></div></a>')
-# home latest 6
+# home: "Start with your situation" (3 hand-picked guides) + latest 6 (excluding those 3) + city counts
+SITUATIONS=[("namba-5000-yen-private-room.html","I have ¥5,000 a night.",31728406,"A compact hotel room","What ¥5,000 really buys near Namba on a weeknight vs a Saturday."),
+            ("osaka-night-owls.html","I want to walk home after midnight.",37619882,"People walking through an Osaka izakaya street at night","Where to sleep so the last train doesn't matter."),
+            ("osaka-four-friends.html","There are four of us.",11062799,"Three beds in one apartment room","One apartment or two hotel rooms: how we'd decide.")]
+_live=set(GMETA)|{g["slug"] for g in LEGACY}
+_sit=[x for x in SITUATIONS if x[0] in _live]
+_sith=""
+if _sit:
+    _sith='<section class="wrap sec" aria-labelledby="h-sit"><div class="sec-h"><span class="tape t-coral">Start here</span><h2 id="h-sit">Start with your situation</h2></div><div class="situations">'
+    for slug,q,ph,alt,sub in _sit:
+        _sith+=(f'<a class="sit" href="{slug}"><div class="sit-img"><img src="https://images.pexels.com/photos/{ph}/pexels-photo-{ph}.jpeg?auto=compress&cs=tinysrgb&w=700" alt="{html.escape(alt)}" loading="lazy"></div>'
+                f'<div class="sit-tx"><q>{html.escape(q)}</q><p>{html.escape(sub)}</p><span class="sit-go">Read the answer →</span></div></a>')
+    _sith+='</div></section>'
+_used={x[0] for x in _sit}
+_latest=[g for g in ALLG if g["slug"] not in _used][:6]
 _h=pages["index.html"]
-_body=re.sub(r'(<div class="posts">).*?(</div>\s*</section>)', lambda m: m.group(1)+''.join(_card(g) for g in ALLG[:6])+m.group(2), _h[2], count=1, flags=re.S)
+_body=re.sub(r'(<div class="posts">).*?(</div>\s*</section>)', lambda m: m.group(1)+''.join(_card(g) for g in _latest)+m.group(2), _h[2], count=1, flags=re.S)
+_body=_body.replace('{{SITUATIONS}}',_sith)
+def _cnt(c):
+    n=sum(1 for g in ALLG if g["city"]==c); return f"{n} guide{'s' if n!=1 else ''} →"
+_body=re.sub(r'\{\{COUNT:(\w+)\}\}', lambda m:_cnt(m.group(1)), _body)
+_tok=sum(1 for g in ALLG if g["city"]=="Tokyo")
+_tc=(f'<a class="city2 live" href="guides.html#tokyo"><img src="{purl("tokyo",800)}" alt="Shibuya Crossing at twilight" loading="lazy"><span><b>Tokyo</b><small>{_cnt("Tokyo")}</small></span></a>' if _tok else
+     f'<div class="city2"><img src="{purl("tokyo",800)}" alt="Shibuya Crossing at twilight" loading="lazy"><span><b>Tokyo</b><small>Writing now</small></span></div>')
+_body=_body.replace('{{TOKYOCARD}}',_tc)
 pages["index.html"]=(_h[0],_h[1],_body)
 # all-guides index grouped by city
 _cities=[]

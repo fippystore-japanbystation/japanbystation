@@ -5,7 +5,7 @@
       <span class="tape t-sun">Hi, we're Japan by Station</span>
       <h1>What's on your mind about <mark>your Japan trip?</mark></h1>
       <svg class="squiggle" viewBox="0 0 120 12" aria-hidden="true"><path d="M2 6c10-8 20 8 30 0s20-8 30 0 20 8 30 0 20-8 26 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
-      <p class="hello-sub">Pick the thing you're unsure about. We'll give you the short answer, then point you to the guide with the train times and walking minutes behind it.</p>
+      <p class="hello-sub">Pick a question. Get a short answer, then see the train times and walking routes behind it.</p>
     </div>
     <div class="hello-photos" aria-hidden="true">
       <img class="p1" src="{img:glico:900}" alt="">
@@ -15,26 +15,28 @@
   </div>
 
   <div class="wrap">
-    <div class="concerns" role="tablist" aria-label="What are you unsure about?">
-      <button role="tab" class="concern c-coral" data-k="stay" aria-selected="false"><span class="ico">📍</span><b>Where to stay</b><small>Which area puts everything close</small></button>
-      <button role="tab" class="concern c-mint" data-k="transport" aria-selected="false"><span class="ico">🚆</span><b>Getting around</b><small>Which train, how long, any changes</small></button>
-      <button role="tab" class="concern c-sky" data-k="airport" aria-selected="false"><span class="ico">✈️</span><b>Airport to hotel</b><small>The easy way in with luggage</small></button>
-      <button role="tab" class="concern c-sun" data-k="nearby" aria-selected="false"><span class="ico">🍢</span><b>What's nearby</b><small>Things to do on foot</small></button>
-      <button role="tab" class="concern c-pink" data-k="kids" aria-selected="false"><span class="ico">🧸</span><b>Travelling with kids</b><small>Space, privacy, early nights</small></button>
-      <button role="tab" class="concern c-lilac" data-k="daytrips" aria-selected="false"><span class="ico">🗺️</span><b>Day trips</b><small>Kyoto, Nara, Universal Studios</small></button>
+    <p class="concerns-hint" id="concerns-hint">👇 Tap a card to open our short answer</p>
+    <div class="concerns" aria-describedby="concerns-hint">
+      <button type="button" class="concern c-coral" data-k="stay" aria-expanded="false" aria-controls="reply"><span class="ico">📍</span><b>Where to stay</b><small>Which area puts everything close</small></button>
+      <button type="button" class="concern c-mint" data-k="transport" aria-expanded="false" aria-controls="reply"><span class="ico">🚆</span><b>Getting around</b><small>Which train, how long, any changes</small></button>
+      <button type="button" class="concern c-sky" data-k="airport" aria-expanded="false" aria-controls="reply"><span class="ico">✈️</span><b>Airport to hotel</b><small>The easy way in with luggage</small></button>
+      <button type="button" class="concern c-sun" data-k="nearby" aria-expanded="false" aria-controls="reply"><span class="ico">🍢</span><b>What's nearby</b><small>Things to do on foot</small></button>
+      <button type="button" class="concern c-pink" data-k="kids" aria-expanded="false" aria-controls="reply"><span class="ico">🧸</span><b>Travelling with kids</b><small>Space, privacy, early nights</small></button>
+      <button type="button" class="concern c-lilac" data-k="daytrips" aria-expanded="false" aria-controls="reply"><span class="ico">🗺️</span><b>Day trips</b><small>Kyoto, Nara, Universal Studios</small></button>
     </div>
-    <div class="reply" id="reply" hidden>
-      <span class="reply-who">Our short answer</span>
-      <h2 id="reply-h"></h2>
-      <p id="reply-p"></p>
-      <div class="reply-links" id="reply-links"></div>
+    <div class="reply c-coral" id="reply" role="region" aria-live="polite" aria-labelledby="reply-h" tabindex="-1">
+      <span class="reply-who">Our short answer · <span id="reply-q">Where to stay</span></span>
+      <h2 id="reply-h">Stay where your evenings are.</h2>
+      <p id="reply-p">In Osaka, most people should sleep in Namba: Dotonbori is 3–5 minutes on foot and the airport train goes straight there. Umeda suits day trips, Tennoji suits families and tighter budgets. All three are on the same subway line, so none of them is far.</p>
+      <div class="reply-links" id="reply-links"><a class="pill" href="osaka-where-to-stay.html">Where to stay in Osaka →</a><a class="pill" href="osaka-where-to-stay.html#for-first">Pick by who's travelling →</a></div>
     </div>
   </div>
 </header>
 
 <main>
+  {{SITUATIONS}}
   <section class="wrap sec" aria-labelledby="h-posts">
-    <div class="sec-h"><span class="tape t-mint">Fresh from us</span><h2 id="h-posts">Latest posts</h2></div>
+    <div class="sec-h"><span class="tape t-mint">Fresh from us</span><h2 id="h-posts">Latest guides</h2></div>
     <div class="posts">
       <a class="post" href="osaka-where-to-stay.html">
         <div class="post-img"><img src="{img:umeda_head:900}" alt="Osaka Station lit up at night" loading="lazy"></div>
@@ -54,8 +56,8 @@
   <section class="wrap sec" aria-labelledby="h-cities">
     <div class="sec-h"><span class="tape t-pink">Cities</span><h2 id="h-cities">Where we've written about</h2></div>
     <div class="cities2">
-      <a class="city2 live" href="osaka-where-to-stay.html"><img src="{img:dotonbori:800}" alt="Dotonbori canal at night" loading="lazy"><span><b>Osaka</b><small>3 guides</small></span></a>
-      <div class="city2"><img src="{img:tokyo:800}" alt="Shibuya Crossing at twilight" loading="lazy"><span><b>Tokyo</b><small>Writing now</small></span></div>
+      <a class="city2 live" href="guides.html#osaka"><img src="{img:dotonbori:800}" alt="Dotonbori canal at night" loading="lazy"><span><b>Osaka</b><small>{{COUNT:Osaka}}</small></span></a>
+      {{TOKYOCARD}}
       <div class="city2"><img src="{img:kyoto:800}" alt="Red torii gates at Fushimi Inari, Kyoto" loading="lazy"><span><b>Kyoto</b><small>Up next</small></span></div>
       <div class="city2"><img src="{img:hokkaido:800}" alt="A snowy street in Sapporo" loading="lazy"><span><b>Hokkaido</b><small>On our list</small></span></div>
     </div>
@@ -82,11 +84,21 @@ var D={
  kids:{h:"Think about space and early nights.",p:"Tennoji is calmer than Namba, the zoo is 5–10 minutes' walk away, and JR's Haruka reaches the airport in about 30 minutes. Look for family rooms or apartment-style stays so everyone gets some privacy.",l:[["osaka-where-to-stay.html#for-family","Osaka with kids"]]},
  daytrips:{h:"Sleep near the train you'll use most.",p:"Umeda is the best base for day trips: Kyoto is 29 minutes away and Universal Studios is about 15. If Nara is the main plan, Namba or Tennoji gets you there faster.",l:[["osaka-where-to-stay.html#for-trips","Best base for day trips"]]}
 };
-var tabs=[].slice.call(document.querySelectorAll('.concern')),box=document.getElementById('reply');
-function show(k){var d=D[k];if(!d)return;tabs.forEach(function(t){t.setAttribute('aria-selected',t.dataset.k===k?'true':'false')});
- box.hidden=false;box.className='reply '+document.querySelector('.concern[data-k="'+k+'"]').className.split(' ')[1];
+var cards=[].slice.call(document.querySelectorAll('.concern')),box=document.getElementById('reply'),grid=document.querySelector('.concerns');
+function cols(){return getComputedStyle(grid).gridTemplateColumns.split(' ').filter(Boolean).length||1}
+function place(card){ // put the answer right under the row of the tapped card
+ var n=cols(),i=cards.indexOf(card),end=Math.min(cards.length-1,Math.floor(i/n)*n+n-1);
+ cards[end].insertAdjacentElement('afterend',box);}
+function show(k,card,focus){var d=D[k];if(!d)return;
+ cards.forEach(function(t){t.setAttribute('aria-expanded',t===card?'true':'false')});
+ box.className='reply '+card.className.split(' ')[1];
+ document.getElementById('reply-q').textContent=card.querySelector('b').textContent;
  document.getElementById('reply-h').textContent=d.h;document.getElementById('reply-p').textContent=d.p;
- document.getElementById('reply-links').innerHTML=d.l.map(function(x){return '<a class="pill" href="'+x[0]+'">'+x[1]+' →</a>'}).join('');}
-tabs.forEach(function(t){t.addEventListener('click',function(){show(t.dataset.k);box.scrollIntoView({behavior:'smooth',block:'nearest'})})});
+ document.getElementById('reply-links').innerHTML=d.l.map(function(x){return '<a class="pill" href="'+x[0]+'">'+x[1]+' →</a>'}).join('');
+ place(card);
+ if(focus){var r=box.getBoundingClientRect();if(r.bottom>innerHeight||r.top<0)box.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'nearest'});}}
+cards.forEach(function(t){t.addEventListener('click',function(){show(t.dataset.k,t,true)})});
+var first=cards[0];show('stay',first,false);
+addEventListener('resize',function(){var c=cards.filter(function(t){return t.getAttribute('aria-expanded')==='true'})[0];if(c)place(c)});
 })();
 </script>
