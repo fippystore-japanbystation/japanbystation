@@ -33,6 +33,10 @@
 - haneda-late-arrival-first-night · LANDING (brief 42: T3 last trains Wed 16 Dec: Asakusa 23:37, Shinjuku/Shibuya 23:51, Monorail 00:10; night bus 0:20–2:20 ¥2,800; taxi night fixed ≈¥9,800 Shinjuku + tolls; Villa Fontaine Grand ¥18,700 vs central ≈¥19,200–19,900)
 - shinjuku-five-minutes-with-a-suitcase · SUITCASE (brief 43: Gracery "5 min from East Exit"; N'EX pl. 5–6 lift route → south gates ≈970 m; Metro B11/A6 lifts 6–23 h, 450 m; Narita Limousine to Kabukicho Tower ¥3,600 115 min vs N'EX 87 min ¥3,330)
 
+- shibuya-nightlife-quiet-room · QUIET (brief 44: Booking 16–17 Dec 2026, 2 adults: Granbell Sakuragaoka double ¥23,800 vs Tobu Udagawacho ¥29,045 vs Prince Smart Inn Ebisu ¥31,293; Tobu reviews = lift/neighbour noise not street; last Yamanote Shibuya–Ebisu 00:48; taxi ≈¥1,300 meter 2.7 km)
+- asakusa-which-station-from-narita · ASAKUSA (brief 45: Access Express Narita T1 15:09→Toei Asakusa 16:19 ¥1,380 no change; TX Asakusa needs 2 changes ¥3,010; Toei A2b→Hotel Trend Annex ≈670 m vs TX A1 ≈240 m; 14–17 Dec 3 nights Annex ¥37,500 vs SORA Kaminarimon ¥36,845; TX→Akihabara 5 min ¥230; Tawaramachi→Shibuya 35 min)
+- last-night-shinjuku-or-nippori · NIPPORI (brief 47: Thu 17 Dec, T1 by 08:30: Shinjuku 07:13 Yamanote+Skyliner 15 → 08:27 ¥2,840, N'EX 06:34→07:58; Nippori 07:45, +32 min sleep; move = 21 min ¥260 + check-out/in; APA TKP Nippori ¥14,742 vs Shinjuku middle ≈¥18,800; first Skyliner 05:25→06:03; nine hours T2 capsule from ¥7,000)
+
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
 UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 IN ORDER (they start general: which station, airport arrival, exits), then the remaining Kansai briefs in order. No more alternating for now. Reels follow the same sequence (newest guides first).
@@ -64,10 +68,10 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 41 · narita-three-nights-then-shinkansen · BULLET · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [x] 42 · haneda-late-arrival-first-night · LANDING · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [x] 43 · shinjuku-five-minutes-with-a-suitcase · SUITCASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 2026-11-23 16:42 44 Shibuya nightlife + quiet room  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 2026-11-23 16:42 45 Which 'Asakusa Station' from Narita  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 44 · shibuya-nightlife-quiet-room · QUIET · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
+- [x] 45 · asakusa-which-station-from-narita · ASAKUSA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [!] 46 needs research — Ueno ¥12,000: Keisei Ueno vs Okachimachi vs quiet side street  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 2026-11-23 16:59 47 Last night: move from Shinjuku to Nippori before Narita?  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 47 · last-night-shinjuku-or-nippori · NIPPORI · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [ ] 48 Tokyo ¥15,000: double vs twin vs bigger room farther out  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 49 8 a.m. arrival: who takes my suitcase  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 50 Kiyosumi-Shirakawa as a base with 7 a.m. starts  (Tokyo · BRIEFS-TOKYO-41-70.md)
