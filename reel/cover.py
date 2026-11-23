@@ -25,22 +25,18 @@ def make(video, t, title, cat, color, kw, out):
     d.text((W/2 - w/2, 272), s, font=f, fill=INK)
     # category tag
     f = F(44); w = f.getlength(cat) + 64
-    d.rounded_rectangle((W/2 - w/2, 404, W/2 + w/2, 482), radius=39, fill=c + (255,))
-    d.text((W/2 - (w - 64)/2, 413), cat, font=f, fill=INK)
+    d.rounded_rectangle((W/2 - w/2, 404, W/2 + w/2, 482), radius=39, fill=INK + (235,))
+    d.text((W/2 - (w - 64)/2, 413), cat, font=f, fill=WHITE)
     # title: BIG, outlined, max 2 lines, high up so it reads on the profile grid
-    lines = title.split("|"); fs = 158
-    while max(F(fs).getlength(l) for l in lines) > 1010: fs -= 4
+    lines = title.split("|"); fs = 136
+    while max(F(fs).getlength(l) for l in lines) > 960: fs -= 4
     f = F(fs); lh = int(fs * 1.08); y = 522
     band = (0, y - 24, W, y + lh * len(lines) + 30)
     d.rectangle(band, fill=(30, 22, 50, 95))
     for l in lines:
         d.text(((W - f.getlength(l)) / 2, y), l, font=f, fill=WHITE, stroke_width=11, stroke_fill=STROKE)
         y += lh
-    # bottom pill: the guide comes by DM (keyword is in the video and caption)
-    f = F(58); s = "Full guide in DM"
-    tw = f.getlength(s) + 90; y2 = 1420
-    d.rounded_rectangle((W/2 - tw/2, y2, W/2 + tw/2, y2 + 110), radius=55, fill=CREAM + (245,))
-    d.text((W/2 - f.getlength(s)/2, y2 + 18), s, font=f, fill=c if color not in ("sun",) else (214, 150, 0))
+    # no bottom pill (Ling, 23 Nov): natural sharing, no "DM us" on the cover
     im = im.convert("RGBA"); im.alpha_composite(ov); im.convert("RGB").save(out, quality=90)
 
 if __name__ == "__main__":
