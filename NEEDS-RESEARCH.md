@@ -1,3 +1,4 @@
 # Briefs that could not be verified (what is missing)
 
 - 02 Honmachi ¥10,000, dinner at 9, quiet by 10: missing room-specific noise evidence (recent reviews about street- vs rear-facing rooms for a named Honmachi hotel) and a named restaurant near Honmachi with an official last order after 21:00. Prices are easy (Booking.com); the quiet-room claim is the blocker.
+- 04 Kuromon ¥12,000 room for 8 a.m. breakfast (checked 23 Nov 2026): no stall could be confirmed serving at 8:00 from an official source. kuromon.com blocks automated access (Cloudflare check); the one shop page we could read, Kuromon Sanpei, says 10:00–17:00 on kuromon.com but "opens at 8:00" in a GLTJP article and 9:30 in GLTJP's directory. Needs: a named stall's own (or kuromon.com) hours showing 8:00 service, the time most stalls open, and a comparison breakfast near the departure station. Room prices not yet pulled.
