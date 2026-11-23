@@ -9,10 +9,16 @@ def fiximg(s):
     s=re.sub(r'src="img/([a-z_]+)\.jpg"', lambda m: f'src="{purl(m.group(1), 1600 if m.group(1) in ("hero","glico","kix") else 1000)}"', s)
     return s
 FAV="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23ff6a4d'/%3E%3Ccircle cx='32' cy='32' r='12' fill='white'/%3E%3C/svg%3E"
-NAV=[("home","index.html","Home"),("stay","osaka-where-to-stay.html","Osaka"),("guides","guides.html","All guides"),("about","about.html","About")]
+NAV_CITIES=[]   # filled after guides are discovered: [(city, slug, count)]
+def cslug(c): return re.sub(r"[^a-z0-9]+","-",c.lower()).strip("-")
 def nav(active):
-    return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none">Japan <i>by</i> Station</a><span class="links">'+ \
-      ''.join(f'<a href="{u}">{"<b>"+n+"</b>" if k==active else n}</a>' for k,u,n in NAV)+'</span></nav>'
+    top=NAV_CITIES[:2]; rest=NAV_CITIES[2:]
+    def a(k,u,n): return f'<a href="{u}">{"<b>"+n+"</b>" if k==active else n}</a>'
+    links=a("home","index.html","Home")+"".join(a("city-"+sl,sl+".html",c) for c,sl,n in top)
+    more="".join(f'<a href="{sl}.html">{c} <small>{n}</small></a>' for c,sl,n in rest)
+    more+='<a href="guides.html">All guides</a><a href="about.html">About</a>'
+    links+=f'<details class="more-menu"><summary>More</summary><div class="more-list">{more}</div></details>'
+    return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none">Japan <i>by</i> Station</a><span class="links">'+links+'</span></nav>'
 FOOT='''<footer>
   <div class="wrap">
     <p><b>Japan by Station</b> · Where to stay in Japan, worked out from the station.</p>
@@ -57,7 +63,7 @@ def body_of(fn):
     return fiximg(s[a:b])
 def relink(s):
     return s.replace('href="index.html#','href="osaka-where-to-stay.html#').replace('href="index.html"','href="osaka-where-to-stay.html"')
-CSSV="6"
+CSSV="7"
 pages={}
 # ---- Osaka where to stay with traveller filter
 osaka=relink(body_of("index.html"))
@@ -108,9 +114,9 @@ var h=(location.hash||'').replace('#for-','');if(D[h]){show(h);setTimeout(functi
 '''
 osaka=osaka.replace('<p class="byline wrap">Times checked 22 November 2026</p>','<p class="byline wrap">Times checked 22 November 2026</p>'+FILTER,1)
 osaka=osaka.replace('<span class="kicker">Osaka · Where to stay</span>','<span class="kicker">Osaka · Where to stay</span>')
-pages["osaka-where-to-stay.html"]=(head("Where to Stay in Osaka: Namba, Umeda or Tennoji","Where to stay in Osaka for first-timers, couples, families and day-trippers. Each area with walking times to the sights and minutes to the airport, Kyoto and Nara."),"stay",osaka)
-pages["namba.html"]=(head("Things to Do Around Namba, Osaka","Everything worth a stop within a 15-minute walk of Namba Station: Dotonbori, Kuromon Market, Shinsaibashi-suji and more, with walking times."),"namba",relink(body_of("namba.html")))
-pages["kansai-airport-to-osaka.html"]=(head("Kansai Airport to Osaka: Which Train for Your Hotel","Nankai or JR? Kansai Airport to Namba, Tennoji, Osaka Station and Shin-Osaka with travel times and fares, picked by where your hotel is."),"air",relink(body_of("kansai-airport-to-osaka.html")))
+pages["osaka-where-to-stay.html"]=(head("Where to Stay in Osaka: Namba, Umeda or Tennoji","Where to stay in Osaka for first-timers, couples, families and day-trippers. Each area with walking times to the sights and minutes to the airport, Kyoto and Nara."),"city-osaka",osaka)
+pages["namba.html"]=(head("Things to Do Around Namba, Osaka","Everything worth a stop within a 15-minute walk of Namba Station: Dotonbori, Kuromon Market, Shinsaibashi-suji and more, with walking times."),"city-osaka",relink(body_of("namba.html")))
+pages["kansai-airport-to-osaka.html"]=(head("Kansai Airport to Osaka: Which Train for Your Hotel","Nankai or JR? Kansai Airport to Namba, Tennoji, Osaka Station and Shin-Osaka with travel times and fares, picked by where your hotel is."),"city-osaka",relink(body_of("kansai-airport-to-osaka.html")))
 # ---- Home
 import re as _re
 home=open(os.path.join(HERE,"home.html")).read()
@@ -177,7 +183,7 @@ for _f in sorted(_glob.glob(f"{SRC}/guides/*.html")):
         _body+='<section class="wrap sec faq" aria-labelledby="h-faq"><h2 id="h-faq">Quick answers</h2>'+''.join(f'<details><summary>{html.escape(q)}</summary><p>{a}</p></details>' for q,a in _meta["faq"])+'</section>'
     if _meta.get("sources"):
         _body+=f'<section class="wrap sec sources"><p class="small">Sources: {_meta["sources"]}</p></section>'
-    pages[_slug]=(head(_meta["title"],_meta["desc"]),"guides",_body)
+    pages[_slug]=(head(_meta["title"],_meta["desc"]),"city-"+cslug(_meta["city"]),_body)
 # older hand-built guides, so they show in lists
 LEGACY=[{"slug":"osaka-where-to-stay.html","title":"Where to stay in Osaka: Namba, Umeda or Tennoji?","card":"Three areas on one red subway line. What's outside each door, and who each one suits.","city":"Osaka","cat":"Where to stay","tag":"coral","hero":30037377,"date":"2026-11-22","keyword":"OSAKA"},
         {"slug":"namba.html","title":"Things to do around Namba, all within a 15-minute walk","card":"The canal, the food streets and the shopping arcades, with walking times from Exit 14.","city":"Osaka","cat":"Things to do","tag":"sun","hero":35183439,"date":"2026-11-22","keyword":"NAMBA"},
@@ -211,11 +217,21 @@ _body=re.sub(r'(<div class="posts">).*?(</div>\s*</section>)', lambda m: m.group
 _body=_body.replace('{{SITUATIONS}}',_sith)
 def _cnt(c):
     n=sum(1 for g in ALLG if g["city"]==c); return f"{n} guide{'s' if n!=1 else ''} →"
-_body=re.sub(r'\{\{COUNT:(\w+)\}\}', lambda m:_cnt(m.group(1)), _body)
+_cities=[]
+for _g in ALLG:
+    if _g["city"] not in _cities: _cities.append(_g["city"])
+_CITYIMG={"Osaka":"dotonbori","Tokyo":"tokyo","Kyoto":"kyoto","Hokkaido":"hokkaido","Nara":"nara"}
+_cc=""
+for _c,_sl,_n in sorted([(c,cslug(c),sum(1 for g in ALLG if g["city"]==c)) for c in _cities], key=lambda x:-x[2]):
+    _im=purl(_CITYIMG[_c],800) if _c in _CITYIMG else f'https://images.pexels.com/photos/{next(g["hero"] for g in ALLG if g["city"]==_c)}/pexels-photo-{next(g["hero"] for g in ALLG if g["city"]==_c)}.jpeg?auto=compress&cs=tinysrgb&w=800'
+    _cc+=f'<a class="city2 live" href="{_sl}.html"><img src="{_im}" alt="{_c}" loading="lazy"><span><b>{_c}</b><small>{_cnt(_c)}</small></span></a>'
+for _c,_lab in (("Kyoto","Up next"),("Hokkaido","On our list")):
+    if _c not in _cities: _cc+=f'<div class="city2"><img src="{purl(_CITYIMG[_c],800)}" alt="{_c}" loading="lazy"><span><b>{_c}</b><small>{_lab}</small></span></div>'
+_body=re.sub(r'<div class="cities2">.*?</div>\s*</section>', lambda m:'<div class="cities2">'+_cc+'</div>\n  </section>', _body, count=1, flags=re.S)
 _tok=sum(1 for g in ALLG if g["city"]=="Tokyo")
 _tc=(f'<a class="city2 live" href="guides.html#tokyo"><img src="{purl("tokyo",800)}" alt="Shibuya Crossing at twilight" loading="lazy"><span><b>Tokyo</b><small>{_cnt("Tokyo")}</small></span></a>' if _tok else
      f'<div class="city2"><img src="{purl("tokyo",800)}" alt="Shibuya Crossing at twilight" loading="lazy"><span><b>Tokyo</b><small>Writing now</small></span></div>')
-_body=_body.replace('{{TOKYOCARD}}',_tc)
+
 pages["index.html"]=(_h[0],_h[1],_body)
 # all-guides index grouped by city
 _cities=[]
@@ -226,6 +242,16 @@ for c in _cities:
     _gi+=f'<section class="wrap sec" id="{c.lower()}" aria-labelledby="h-{c.lower()}"><div class="sec-h"><h2 id="h-{c.lower()}">{c}</h2></div><div class="posts">'+''.join(_card(g) for g in ALLG if g["city"]==c)+'</div></section>'
 _gi+='</main>'
 pages["guides.html"]=(head("All Japan Travel Guides","Every Japan by Station guide, by city: where to stay, getting around, local markets, nightlife and day trips, with times checked against official sources."),"guides",_gi)
+
+for _c in _cities:
+    _gs=[g for g in ALLG if g["city"]==_c]; _sl=cslug(_c)
+    NAV_CITIES.append((_c,_sl,len(_gs)))
+    _hb=(f'<header class="hero hero-lite"><div class="wrap"><span class="kicker">{_c} · {len(_gs)} guide{"s" if len(_gs)!=1 else ""}</span><h1>{_c} travel guides</h1>'
+         f'<p>Where to stay, how to get around and what is worth your time in and around {_c}. Every time and price is checked, with the date on each guide.</p></div></header>'
+         f'<main><section class="wrap sec"><div class="posts">'+''.join(_card(g) for g in _gs)+'</div></section>'
+         f'<div class="wrap"><section class="more"><p><a href="guides.html">All guides</a></p></section></div></main>')
+    pages[_sl+".html"]=(head(f"{_c} Travel Guides: Where to Stay, Getting Around",f"Every Japan by Station guide for {_c}: where to stay, trains and transfers, local food and day trips, with times and prices checked against official sources."),"city-"+_sl,_hb)
+NAV_CITIES.sort(key=lambda x:-x[2])
 os.makedirs(OUT,exist_ok=True)
 import json as _json, datetime as _dt
 SITE="https://japanbystation.com"
