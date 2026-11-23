@@ -13,6 +13,7 @@ python3 jbs.py status                        # what's queued, which keywords exi
 Always finish with `python3 jbs.py save "what you did"` so the next session has your new sources (no Cloudflare build).
 
 ## 1. Voice and facts (non-negotiable)
+- NEVER repeat a topic. Before writing anything, read the DONE list in TOPICS.md and the existing site/guides and reel/specs. Add every new guide/Reel to DONE.
 - Professional team voice: "we suggest", "we'd take", "our pick". Never "Honestly?", no overly friendly AI phrasing, no hype.
 - Never invent team names, credentials or personal stays. We build guides from official sources.
 - Every time, price, opening day and distance comes from a source you found this session (operator, airport, city tourism bureau such as osaka-info.jp / kyoto.travel, the venue itself). If only blogs say it, write "about" or leave it out. Put sources in the guide's `sources` field with the check date.
@@ -39,17 +40,27 @@ Body: copy the structure of an existing guide (e.g. `site/guides/osaka-local-mar
 
 ## 3. Reels (approved style; do not change without Ling)
 - Mature male voice with intonation, slow pace (Kokoro blend am_michael 0.65 + am_fenrir 0.35, speed 1.0, built into reelkit).
-- Phrase subtitles, outlined text, no background, spoken word bounces in yellow. Small cards in the site palette. Same cover layout every time (cover.py).
+- Phrase subtitles, outlined text, no background, spoken word bounces in yellow. Small cards in the site palette. Same cover LAYOUT every time (cover.py).
 - Real Japan footage WITH PEOPLE, lively, from the right city. No clip used twice in one video (reelkit asserts). Japanese-style music, rotate `m_tokyostroll / m_kyotoriver / m_japansnacks / m_petals`.
-- 40–50 s. Scene 1 = hook (a traveler question), last scene = CTA "Comment KEYWORD, and we'll send you our guide." In between 3–5 scenes, each with a card {kicker, title, big number, small} and the WHY.
-- Spec: `reel/specs/<slug>.json` (copy `reel/specs/namba.json`). Add `"caption"`:
-  hook line + emoji / 3–4 emoji fact bullets / one summary line / "Comment KEYWORD and we'll DM you the full guide." / a share line worded differently each time ("📌 Save this and send it to whoever you're travelling with", "Tag your travel buddy", "Share it with your trip group chat") / 5–8 hashtags last.
+- Voiceover 70–95 words (about 35–45 s). Start with the most useful finding. Give exactly three answers (the brief's A, B, C), each with ONE concrete detail and who it suits. Then the verdict: one practical recommendation, and say exactly when it changes (time, price, day of week). Then the CTA scene.
+- Spec: `reel/specs/<slug>.json` (copy `reel/specs/osaka-night-owls.json`). Scene 1 = hook, last scene = CTA: "Comment KEYWORD and we'll DM you the full guide. Follow for more Japan tips." Middle scenes: the three answers + verdict, each with a card {kicker, title, big number, small}. Cards use only glyphs Poppins has (no №, no arrows; use "No.", "to").
+- COVER (first image, Ling's rule): the cover LAYOUT is fixed, but the PHOTO must change every time. Pick a strong, recognisably Japanese frame from that place: street crowds, neon, a temple, a train, food stalls, and seasonal scenes (snow, cherry blossom, autumn leaves) when that place really looks like that. Never reuse a cover clip from the last 12 Reels: check and append to `COVERS.md`. For a brief, the cover text is the brief's OPENING: line before the slash → `category`, line after → `title`.
+- Caption (`"caption"` in the spec), all relevant to THIS place and question:
+  1) hook line + emoji; 2) 3 emoji bullets (the three answers, one concrete detail each); 3) the verdict in one line;
+  4) "Comment KEYWORD and we'll DM you the full guide 📩"; 5) a share line, worded differently every time ("Send this to whoever you're travelling with", "Tag your trip buddy", "Drop this in your group chat");
+  6) "Follow @japanbystation for a new Japan tip every day"; 7) 5–8 hashtags last: 2–3 for the exact place (e.g. #kizumarket #namba), 2–3 for the topic (#osakafood #budgethotel), 2 broad (#japantravel #japantrip). No affiliate wording.
+- Growth goal from Ling: 400 followers a week. Every Reel must give a real answer, end with the comment-for-DM CTA, a share CTA and a follow CTA.
 - Footage (needs Ling's computer, built-in browser): in a Pexels tab (`https://www.pexels.com/search/videos/<query>/?orientation=portrait`), collect slugs, then in ONE javascript call fetch each video page, take the `1080_1920` (or 720_1280) mp4 URL, fetch the blobs, build one bundle `window._jbs = Blob([10-digit header length, JSON index [[name,size],…], …parts])`, click-download it as `jbs_bundle_<x>.bin`. Ling asked: **bundle downloads into one file**, never one popup per clip.
-  In device_bash: the download appears in `$HOME/mnt/Downloads` as a `.tmp` and vanishes fast → poll and `cp` the newest `*.tmp` of the right size to /tmp, split it with python into `$HOME/mnt/Downloads/jbs_media/`, then `device_stage_files` (Windows paths `C:\Users\User\Downloads\jbs_media\…`) and copy from `/mnt/user-data/uploads/Downloads/jbs_media/` into `reel/air/`.
-  Look at one frame of each clip before using it (city/people check). Keep `CLIPS.md` updated with good clip ids.
+  In device_bash: the download appears in `$HOME/mnt/Downloads` as a `.tmp` and vanishes fast → poll and `cp` the newest `*.tmp` to /tmp until it reaches the full size, split it with python into `$HOME/mnt/Downloads/jbs_media/`, then `device_stage_files` (Windows paths `C:\Users\User\Downloads\jbs_media\…`) and copy from `/mnt/user-data/uploads/Downloads/jbs_media/` into `reel/air/`.
+  Look at one frame of each clip before using it (city, people, really Japan?). Pexels titles lie: an "Asian alley" may be Taiwan. Keep `CLIPS.md` updated (good clips and never-use clips).
 - Render: `cd reel && python3 reelkit.py specs/<slug>.json --stills` → Read `work/<slug>/sheet.jpg` and check → `python3 reelkit.py specs/<slug>.json` → check `out/<slug>.jpg` cover.
 - Queue: `python3 jbs.py add-reel slugA slugB …` (batch 2–4 per call: one media push + one main push).
 - Publishing is automatic (n8n on Ling's PC reads reels-queue.json). Never post to Instagram by hand.
+
+## 3b. Briefs (BRIEFS-*.md)
+Ling supplies batches of briefs (e.g. `BRIEFS-KANSAI-40.md`). Work them in number order: the WEBSITE task writes the guide page for a brief first (title = the question, three researched answers A/B/C, the verdict with when it changes, sources and check date), then the REELS task makes the Reel from that live page.
+Research rules from the brief: room prices on the same stay dates, occupancy and total-price basis (search Booking.com in the built-in browser for one named weeknight about 4 weeks ahead and state those dates on the page); routes count walk + transfers + waiting + the way back; food spots: check last orders; "quiet hotel": evidence about the actual street or room. If a key detail cannot be verified, do NOT publish it: add the brief to `NEEDS-RESEARCH.md` with what is missing and move on. "Go earlier", "skip the upgrade" or "this budget only buys a capsule on these dates" are valid answers.
+Affiliate fit: name the stay/activity/transport that fits the verdict and link it with the approved Booking.com/Klook search links only; leave it out if nothing fits.
 
 ## 4. Reporting
 End each run by sending Ling a short progress note (what went live, queue depth, anything blocked). Plain, short, no step-by-step recap.

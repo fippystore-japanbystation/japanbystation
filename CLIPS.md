@@ -4,5 +4,9 @@ Dotonbori canal cruise (day): v_cta (from earlier session) · Dotonbori evening:
 Kaiten-zushi in Osaka: 31387726, 31387687 · Osaka temple lanterns (quiet): 31387639
 Busy covered shopping arcade (people): 36549267 · Busy Japanese shopping street: 39514427
 JR train platform: 16910860 · Train platform: 29252508 · Airport shuttle bus: 34930311
-Shinsekai / Tsutenkaku: 37606282 · Alley with lanterns: 40285557
+Shinsekai / Tsutenkaku: 37606282
 Avoid for Osaka: 30383468 (Tokyo atre), 20666735 (Kyoto street) · Takoyaki studio shot 6645819 is dull (white background)
+NOT Japan / unsure, never use: 40285557 (lantern alley, looks like Taiwan), 28995349 (English-menu food stall)
+Night food stall with people (Japan): 40101522 · Busy Namba/Shinsaibashi night street: 18662589 · Night elevated train: 36024206
+Tenjinbashisuji-style arcade with people: 36549266 · Tuna slicing at market: 30683352 · Yakiniku + sushi table: 41127522 · Korean dining neon (Osaka): 31387611
+Friends eating hot pot: 41127516 · Bedroom with city view: 28962556 · Hotel bed made up: 6466562 · Osaka intersection with bus: 34448615
