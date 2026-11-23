@@ -72,9 +72,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 45 · asakusa-which-station-from-narita · ASAKUSA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [!] 46 needs research — Ueno ¥12,000: Keisei Ueno vs Okachimachi vs quiet side street  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [x] 47 · last-night-shinjuku-or-nippori · NIPPORI · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
-- [ ] 48 Tokyo ¥15,000: double vs twin vs bigger room farther out  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [ ] 49 8 a.m. arrival: who takes my suitcase  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [ ] 50 Kiyosumi-Shirakawa as a base with 7 a.m. starts  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 09:42 UTC 48 Tokyo ¥15,000: double vs twin vs bigger room farther out  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 09:42 UTC 49 8 a.m. arrival: who takes my suitcase  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 23 Nov 09:42 UTC 50 Kiyosumi-Shirakawa as a base with 7 a.m. starts  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 51 Tokyo Disney: hotel night before or after  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 52 Big suitcase through Hakone: forward, carry or store  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 53 Lake Kawaguchi: station hotel or lake view  (Tokyo · BRIEFS-TOKYO-41-70.md)
