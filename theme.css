@@ -221,3 +221,15 @@ footer a{color:var(--ink);font-weight:700}
 
 .onemore{max-width:64ch;margin:18px auto;padding:18px 20px;border-radius:18px;background:#fff;border:2px solid var(--coral,#ff7d5e)}
 .onemore h2{margin-top:0}
+/* deep neighbourhood guides (Ling, 23 Nov) */
+.fit{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:64ch;margin:14px auto}
+@media(max-width:600px){.fit{grid-template-columns:1fr}}
+.fit>div{border-radius:18px;padding:14px 16px}.fit .yes{background:var(--mint-t)}.fit .no{background:var(--coral-t)}
+.fit h3{margin:0 0 6px;font-size:16px}.fit ul{margin:0;padding-left:18px}
+.photo{max-width:64ch;margin:18px auto}.photo img{width:100%;border-radius:18px;display:block}.photo figcaption{font-size:13px;opacity:.75;margin-top:6px}
+.route{max-width:64ch;margin:10px auto;padding-left:20px}.route li{margin:10px 0}.route .t{font-weight:800;color:var(--coral)}
+.bookbox{max-width:64ch;margin:24px auto;padding:18px 20px;border-radius:20px;background:var(--sun-t)}
+.bookbox h2{margin-top:0}
+.hotbox{max-width:64ch;margin:16px auto;padding:14px 18px;border-radius:18px;background:var(--mint-t)}
+.golink{display:inline-block;margin-top:8px;font-weight:800;color:var(--ink);text-decoration:none;border-bottom:3px solid var(--coral)}
+.disclose{max-width:64ch;margin:18px auto 0;font-size:13px;opacity:.75}

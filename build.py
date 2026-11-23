@@ -60,7 +60,7 @@ def body_of(fn):
     return fiximg(s[a:b])
 def relink(s):
     return s.replace('href="index.html#','href="osaka-where-to-stay.html#').replace('href="index.html"','href="osaka-where-to-stay.html"')
-CSSV="8"
+CSSV="9"
 pages={}
 # ---- Osaka where to stay with traveller filter
 osaka=relink(body_of("index.html"))
@@ -263,6 +263,7 @@ def seo(fn,h):
     desc=_re.search(r'<meta name="description" content="(.*?)">',h).group(1)
     tags=f'<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">\n<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">\n<meta property="og:type" content="{"article" if fn in GUIDES else "website"}">\n'
     if fn in OGIMG: tags+=f'<meta property="og:image" content="{purl(OGIMG[fn],1200)}">\n<meta name="twitter:card" content="summary_large_image">\n'
+    if fn in GMETA and GMETA[fn].get("hero_alt"): tags+=f'<meta property="og:image:alt" content="{html.escape(GMETA[fn]["hero_alt"])}">\n'
     org={"@type":"Organization","name":"Japan by Station","url":SITE+"/","logo":SITE+"/brand/logo-320.png",
          "sameAs":["https://www.instagram.com/japanbystation/","https://www.facebook.com/1512969825226649"]}
     if fn=="index.html":
