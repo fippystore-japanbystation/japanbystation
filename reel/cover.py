@@ -19,17 +19,18 @@ def make(video, t, title, cat, color, kw, out):
     ov = Image.new("RGBA", (W, H), (30, 22, 50, 70)); d = ImageDraw.Draw(ov)
     c = COL[color]
     # brand pill (top of the 3:4 grid crop, which shows y 240-1680)
-    f = F(34); s = "Japan by Station"; w = f.getlength(s)
-    d.rounded_rectangle((W/2 - w/2 - 30, 290, W/2 + w/2 + 30, 354), radius=32, fill=CREAM + (240,))
-    d.text((W/2 - w/2, 297), s, font=f, fill=INK)
+    # BIG so a stranger on the grid instantly knows this is about Japan
+    f = F(66); s = "Japan by Station"; w = f.getlength(s)
+    d.rounded_rectangle((W/2 - w/2 - 44, 262, W/2 + w/2 + 44, 372), radius=55, fill=CREAM + (245,))
+    d.text((W/2 - w/2, 272), s, font=f, fill=INK)
     # category tag
     f = F(44); w = f.getlength(cat) + 64
-    d.rounded_rectangle((W/2 - w/2, 420, W/2 + w/2, 498), radius=39, fill=c + (255,))
-    d.text((W/2 - (w - 64)/2, 429), cat, font=f, fill=INK)
+    d.rounded_rectangle((W/2 - w/2, 404, W/2 + w/2, 482), radius=39, fill=c + (255,))
+    d.text((W/2 - (w - 64)/2, 413), cat, font=f, fill=INK)
     # title: BIG, outlined, max 2 lines, high up so it reads on the profile grid
     lines = title.split("|"); fs = 158
     while max(F(fs).getlength(l) for l in lines) > 1010: fs -= 4
-    f = F(fs); lh = int(fs * 1.08); y = 530
+    f = F(fs); lh = int(fs * 1.08); y = 522
     band = (0, y - 24, W, y + lh * len(lines) + 30)
     d.rectangle(band, fill=(30, 22, 50, 95))
     for l in lines:
