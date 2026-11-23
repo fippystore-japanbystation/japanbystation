@@ -20,6 +20,9 @@
 - sakai-watch-knife-making · KNIFE (brief 13: free Denshokan sharpening demo Fri 13:30–15:00, forges need 10–15 days' booking, free museum + 24-maker shop; Nankai ¥290 ≈35 min)
 - asakusa-across-the-river · RIVER (brief 76: Booking 14–17 Dec 2026, 2 adults: SORA Kaminarimon ¥36,845 vs Tabist Azumabashi ¥37,350 vs OCICA Oshiage shared bath ¥29,260; Solamachi restaurants to 23:00)
 - kagurazaka-lunch-main-street-or-lanes · LANES (brief 77: Tonkatsu Sakura weekday ¥990 L.O. 22:00, Oishinbo alley lunch L.O. 14:00 closed Sun, Hyogo/Kakurenbo yokocho walk to Le Bretagne lunch after 14:00 closed Mon)
+- nifrel-two-hours · NIFREL (brief 14: suggested 1–1.5 h, ¥2,400; Umeda round trip ≈1 h by Hankyu+monorail ¥530 each way, Namba ¥680; Housing & Living museum ¥600 as closer option)
+- monzen-nakacho-market-day · FUKAGAWA (brief 78: antique market 1st/2nd/4th/5th Sun 6:00–17:00 = 6/13/27 Dec 2026; fair days 1/15/28; goma 9/11/13/15/17; Fukagawa Juku L.O. 14:30 weekdays, 16:30 weekends, closed Mon) — hero is a generic east-Tokyo shrine, no real Monzen-nakacho photo on Pexels
+- namba-or-tennoji-30000-yen · BUDGET (brief 05: Booking 14–17 Dec 2026, 1 adult: Toho Namba Motomachi ¥14,741 vs Smile Tennoji ¥13,338; totals with KIX trains + Dotonbori evenings ¥16,681 vs ¥16,898; last Midosuji 00:17)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -36,9 +39,9 @@ Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `
 - [x] 76 · asakusa-across-the-river · RIVER · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [!] 04 needs research — Kuromon ¥12,000 room for 8 a.m. breakfast  (Osaka city · BRIEFS-KANSAI-40.md)
 - [x] 77 · kagurazaka-lunch-main-street-or-lanes · LANES · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [~] 2026-11-23 13:42 JST 14 Suita NIFREL in two hours  (Kansai trip · BRIEFS-KANSAI-40.md)
-- [~] 2026-11-23 13:42 JST 78 Monzen-nakacho: market day or ordinary weekday  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [~] 2026-11-23 13:42 JST 05 ¥30,000 three nights, Namba or Tennoji, KIX flight  (Osaka city · BRIEFS-KANSAI-40.md)
+- [x] 14 · nifrel-two-hours · NIFREL · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [x] 78 · monzen-nakacho-market-day · FUKAGAWA · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [x] 05 · namba-or-tennoji-30000-yen · BUDGET · page ✓  (Osaka city · BRIEFS-KANSAI-40.md)
 - [ ] 79 Yanaka Ginza: which direction (steps, step-free)  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [ ] 15 Itami Sky Park plane watching without a car  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 80 Kiyosumi-Shirakawa: garden, MOT museum or free walk  (Tokyo · BRIEFS-TOKYO-71-80.md)
