@@ -43,6 +43,10 @@
 - hakone-big-suitcase-forward-carry-store · HAKONE (brief 52: Yamato Shinjuku→Kyoto sent 15 Dec arrives 16 Dec, 160 size ¥3,160; Hakone Luggage Transport Yumoto 8:30–12:00 → hotel after 15:00, ¥1,500/¥2,500; Odawara Multi ecube L ¥800/day, 2am day reset, 86×34×65 cm)
 - lake-kawaguchi-station-or-lake-view · KAWAGUCHI (brief 53: Booking 16 Dec 2 adults: Station Inn ¥13,200, Hotel Ban ¥24,300 (no Fuji promise), Mizunosato Fuji view ¥50,600 / HB ¥57,200, no view ¥38,500; Red Line last 17:45; Hoto Fudo 11–19 cash; 05:49→Shimoyoshida 06:03)
 
+- kawaguchiko-fuji-view-room-what-you-buy · FUJIVIEW (brief 54: Booking 16 Dec 2026 2 adults: Fuji View Hotel Mt.Fuji View 36 m² ¥61,020 vs garden twin ¥52,740 (+¥8,280); Kasuitei Ooya 'selected at check-in' ¥47,500 vs No View ¥39,330, 7F bath 5–10/15–24; Toyoko Inn Ohashi twin ¥14,910 + Ohashi Bridge/Ubuyagasaki at dawn)
+- tokyo-to-kawaguchiko-big-suitcase-bus-or-train · EXCURSION (brief 56: Busta bus ¥2,000 online, 1 case/person in hold, 6:45–22:25; Fuji Excursion weekday 7:30–10:30 ¥4,200; Kaiji :30 → Otsuki ~1 h + Fujikyu ¥1,170, last 21:59→23:10)
+- lake-kawaguchi-half-day-cycling · CYCLE (brief 57: Q-BIKE ¥1,100/h cap ¥3,300, station day pass ¥4,400 10–17; bridge out-and-back for 14:58 train, Oishi Park for 16:48; Red Line 27 min ¥1,500; Hoto Fudo north 11–19)
+
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
 UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 IN ORDER (they start general: which station, airport arrival, exits), then the remaining Kansai briefs in order. No more alternating for now. Reels follow the same sequence (newest guides first).
