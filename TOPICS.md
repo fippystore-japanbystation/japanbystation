@@ -26,6 +26,9 @@
 - yanaka-ginza-which-direction · YANAKA (brief 79: Nippori → down Yuyake Dandan → Sendagi; reverse ends with the climb; step-free = Sendagi lift out-and-back or TMG Nippori East Exit route; lunch Restaurant Ryu per listings only; step count not officially published)
 - itami-sky-park-without-a-car · PLANES (brief 15: Hankyu Umeda–Itami ¥240 21 min + city bus 25 ¥250 8 min; taxi ≈¥1,100 out, no rank at park; airport deck free 6:00–21:30, ¥440 via Hotarugaike+monorail; loop ¥1,180; last bus 22:03; Pexels hero = Osaka runway at dusk)
 - kiyosumi-shirakawa-what-to-pay-for · KIYOSUMI (brief 80: garden ¥150 9:00–17:00; MOT big shows end 6/13 Dec, 16 Dec only Collection ¥500, free 65+ 3rd Wed; free walk Kiyosu Bridge + Kiba Park) — hero is a generic Tokyo pond garden, not confirmed as Kiyosumi
+- tokyo-where-to-stay-first-trip · STAY (brief T1: Booking 16–17 Dec 2026, 2 adults, rated 7+, first 20: middle Shinjuku ¥18,100 / Tokyo Stn ≤1 km ¥22,200 / Ueno ≤1 km ¥18,400 / Asakusa ¥15,800; Ueno NOT cheaper than Shinjuku; 6 Shinkansen lines at Tokyo Stn)
+- tokyo-airport-which-train · ARRIVE (brief T2: Keikyu T3–Shinagawa 11 min, last 00:08; Monorail 13 min ¥519; N'EX ¥3,140/¥3,330, round trip ¥5,200; Skyliner ¥2,470; Limousine Haneda–Shinjuku ¥1,400, late-night ¥2,800 00:20–02:20; Narita taxi ¥29,000–32,500)
+- tokyo-ic-card-or-subway-pass · SUICA (brief T3: Suica back since 1 Mar 2025; Welcome Suica 28 days; TOURIST PASMO May 2026; Subway Ticket ¥1,000/1,500/2,000 since 14 Mar 2026, 72 h pays off at ~3 rides/day; JR min IC ¥155)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -52,9 +55,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 
 ## Finished briefs
 - [x] 01 · namba-5000-yen-private-room · PRIVACY · page ✓ · reel ✓
-- [~] 23 Nov 14:42 T1 Tokyo first trip: which area to stay  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
-- [~] 23 Nov 14:42 T2 Narita or Haneda: which train to your hotel  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
-- [~] 23 Nov 14:42 T3 Getting around Tokyo: IC card, JR vs Metro, pass  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
+- [x] T1 · tokyo-where-to-stay-first-trip · STAY · page ✓  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
+- [x] T2 · tokyo-airport-which-train · ARRIVE · page ✓  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
+- [x] T3 · tokyo-ic-card-or-subway-pass · SUICA · page ✓  (Tokyo basics · BRIEFS-TOKYO-BASICS.md)
 - [ ] 41 Narita, 3 nights, then Shinkansen: Ueno vs Tokyo Stn vs Shinagawa  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 42 Haneda 11 p.m. landing: train, taxi or airport hotel  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 43 'Five minutes from Shinjuku Station' with a suitcase  (Tokyo · BRIEFS-TOKYO-41-70.md)
