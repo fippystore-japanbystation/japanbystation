@@ -14,9 +14,9 @@
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
-- [ ] 71 Shibuya Crossing: pay for a view?  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [ ] 11 Minoh Falls autumn afternoon  (Kansai trip · BRIEFS-KANSAI-40.md)
-- [ ] 72 Yoyogi-Hachiman / Yoyogi-Uehara vs central Shibuya (check the 'one stop' claim)  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [~] 2026-11-23 01:42Z 71 Shibuya Crossing: pay for a view?  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [~] 2026-11-23 01:42Z 11 Minoh Falls autumn afternoon  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [~] 2026-11-23 01:42Z 72 Yoyogi-Hachiman / Yoyogi-Uehara vs central Shibuya (check the 'one stop' claim)  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [!] 02 needs research — Honmachi ¥10,000 late dinner, quiet room  (Osaka city · BRIEFS-KANSAI-40.md)
 - [x] 73 · shinjuku-which-station · SHINJUKU · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 12 · cup-noodles-museum-ikeda · NOODLES · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
