@@ -369,3 +369,13 @@ for g in sorted(ALLG,key=lambda g:g.get("date","")):
     _kw[k]={"url":"https://japanbystation.com/"+g["slug"][:-5],"title":g["title"]}
 open(f"{OUT}/keywords.json","w").write(_json.dumps(_kw,ensure_ascii=False,indent=1))
 print("keywords:",len(_kw))
+
+# fb-queue.json for the Facebook text-post workflow (site/fbposts/*.json, posted in "order")
+_fb=[]
+for _f in sorted(os.listdir(os.path.join(SRC,"fbposts"))) if os.path.isdir(os.path.join(SRC,"fbposts")) else []:
+    if _f.endswith(".json"):
+        _p=_json.load(open(os.path.join(SRC,"fbposts",_f)))
+        _fb.append({"id":_p["id"],"order":_p.get("order",999),"guide":_p["guide"],"text":_p["text"],
+                    "photo_url":f"https://images.pexels.com/photos/{_p['photo']}/pexels-photo-{_p['photo']}.jpeg?auto=compress&cs=tinysrgb&w=1600"})
+_fb.sort(key=lambda x:(x["order"],x["id"]))
+open(f"{OUT}/fb-queue.json","w").write(_json.dumps({"items":_fb},ensure_ascii=False,indent=1))
