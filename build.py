@@ -12,12 +12,9 @@ FAV="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6
 NAV_CITIES=[]   # filled after guides are discovered: [(city, slug, count)]
 def cslug(c): return re.sub(r"[^a-z0-9]+","-",c.lower()).strip("-")
 def nav(active):
-    top=NAV_CITIES[:2]; rest=NAV_CITIES[2:]
     def a(k,u,n): return f'<a href="{u}">{"<b>"+n+"</b>" if k==active else n}</a>'
-    links=a("home","index.html","Home")+"".join(a("city-"+sl,sl+".html",c) for c,sl,n in top)
-    more="".join(f'<a href="{sl}.html">{c} <small>{n}</small></a>' for c,sl,n in rest)
-    more+='<a href="guides.html">All guides</a><a href="about.html">About</a>'
-    links+=f'<details class="more-menu"><summary>More</summary><div class="more-list">{more}</div></details>'
+    links=a("home","index.html","Home")+"".join(a("city-"+sl,sl+".html",c) for c,sl,n in NAV_CITIES)
+    links+=a("guides","guides.html","All guides")+a("about","about.html","About")
     return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none">Japan <i>by</i> Station</a><span class="links">'+links+'</span></nav>'
 FOOT='''<footer>
   <div class="wrap">
