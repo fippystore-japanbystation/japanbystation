@@ -98,5 +98,17 @@
  "MARKET": {
   "url": "https://japanbystation.com/osaka-local-markets",
   "title": "Local Markets in Osaka Beyond Kuromon"
+ },
+ "ARRIVE": {
+  "url": "https://japanbystation.com/tokyo-airport-which-train",
+  "title": "Narita or Haneda: Which Train Gets You to Your Tokyo Hotel Fastest?"
+ },
+ "SUICA": {
+  "url": "https://japanbystation.com/tokyo-ic-card-or-subway-pass",
+  "title": "Getting Around Tokyo: IC Card, JR or Metro, and Is the Subway Pass Worth It?"
+ },
+ "STAY": {
+  "url": "https://japanbystation.com/tokyo-where-to-stay-first-trip",
+  "title": "First Trip to Tokyo: Which Area Should You Stay In?"
  }
 }
