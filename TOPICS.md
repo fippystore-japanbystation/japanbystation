@@ -1,5 +1,23 @@
 # Topics (work top to bottom; NEVER repeat anything in DONE)
 
+## NEW REGIONS (Ling, 23 Nov) — every run: 1 line from the WORK ORDER + 2 lines from here
+Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
+- [ ] R01 · Hokkaido · First trip to Sapporo: Sapporo Station, Odori or Susukino? (who each suits, walking times, winter snow/footpaths)
+- [ ] R02 · Kyoto · First trip to Kyoto: Kyoto Station, Shijo-Kawaramachi/Gion or Karasuma? (buses vs subway, crowds, early mornings)
+- [ ] R03 · Fukuoka · Fukuoka basics: Hakata, Tenjin or Nakasu? (airport is minutes away by subway; yatai stalls at night)
+- [ ] R04 · Hokkaido · New Chitose Airport to Sapporo: JR Rapid Airport, bus or car? (times, fares, reserved seats, winter delays)
+- [ ] R05 · Kyoto · Kansai Airport to Kyoto: Haruka, limousine bus or via Osaka? (by hotel area, luggage, ICOCA & HARUKA)
+- [ ] R06 · Hiroshima · Hiroshima + Miyajima: where to base and how to fit both in one day (tram vs JR + ferry, tides at the torii)
+- [ ] R07 · Okinawa · Naha basics: Kokusai-dori, Asahibashi or Omoromachi? Do you need a car? (monorail, Yui Rail pass, buses)
+- [ ] R08 · Hokkaido · Where Sapporo locals eat: Nijo Market vs Curb Market, soup curry, ramen beyond the Ramen Alley
+- [ ] R09 · Kyoto · Fushimi Inari: dawn, afternoon or after dark? (how far up is worth it, crowds, safety at night)
+- [ ] R10 · Nara · Nara as a day trip or one night? (deer park timing, Kintetsu vs JR from Osaka/Kyoto, quiet Naramachi evening)
+- [ ] R11 · Fukuoka · Yatai stalls: how they work, Nakasu vs Tenjin vs Nagahama, what to order, cash, seats
+- [ ] R12 · Hokkaido · Otaru from Sapporo: half day or overnight? (canal at dusk, Sankaku Market, train side)
+- [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
+- [ ] R14 · Nagoya · Nagoya: worth a night between Tokyo and Osaka? (Sakae vs Meieki, local food: miso katsu, hitsumabushi)
+- [ ] R15 · Kyoto · Arashiyama without the crowds: what time, which order, where to eat
+
 ## DONE (guide slug · keyword · Reel?)  ← add every new item here
 - osaka-where-to-stay · OSAKA · Reel ✓ (Namba vs Umeda vs Tennoji by traveller type)
 - namba · NAMBA · Reel ✓ (things within 15 min walk of Namba)

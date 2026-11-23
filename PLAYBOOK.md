@@ -77,6 +77,16 @@ For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` �
 - Emotion: a line or two of feeling (why this moment is worth it), but never claim a stay or visit we didn't make.
 
 ## 3. Reels (approved style; do not change without Ling)
+### REEL FORMAT v3 (Ling, 23 Nov) — OVERRIDES any older line below that says "three answers" or a comment-only CTA
+Reels now carry the same depth as the deep guides. Approved example structure (Tenma, ~35 s):
+1. HOOK 0–3 s: the answer + the situation, e.g. "Skip Dotonbori tonight. Osaka eats one stop away, in Tenma."
+2. One framing fact 3–6 s (e.g. "A 2.6 km covered street, priced for locals.").
+3. TOP 2 PICKS, named and specific: "Number one: Harukoma, the oldest sushi shop on the street. Plates from about ¥100. Go mid-afternoon. Closed Tuesdays." / "Number two: …". Each = name + 2–3 concrete details (price, time, closing day, exit, what to order). Cards "#1 <name> · <key fact>", "#2 …".
+4. A LESS-KNOWN DETAIL most people miss ("At Harukoma's tables you write your order on paper, so you don't need Japanese."). It must be on the guide page.
+5. ENDING = exciting soft hook with a little emotion, pointing to the guide; vary it. Examples: "That's just the afternoon. The best part happens after dark, and it's all in our guide: link in bio." / "The route that ties it together is in our bio. Or DM us TENMA and we'll send it." / "There's one more stop we'd never skip. It's waiting in our DMs: send TENMA." Main CTAs: link in bio and DM the keyword. "Comment KEYWORD" only now and then (at most 1 Reel in 4). Never "full guide", never pushy.
+Caption: hook line + emoji; 🥇 / 🥈 lines with the concrete details; 💡 the less-known detail; the soft-hook CTA (link in bio 👆 / DM KEYWORD); share line; follow line; 5–8 hashtags.
+Every fact must be on that guide's page. Shots: max 4 s each, matching the line (rules 5, 5b, 5c).
+
 - Mature male voice with intonation, slow pace (Kokoro blend am_michael 0.65 + am_fenrir 0.35, speed 1.0, built into reelkit).
 - Phrase subtitles, outlined text, no background, spoken word bounces in yellow. Small cards in the site palette. Same cover LAYOUT every time (cover.py).
 - Real Japan footage WITH PEOPLE, lively, from the right city. No clip used twice in one video (reelkit asserts). Japanese-style music, rotate `m_tokyostroll / m_kyotoriver / m_japansnacks / m_petals`.
