@@ -48,7 +48,7 @@ def make(src, title, kicker, out, fx=0.5):
         y += lh
     # site line
     fu = F(38, "SemiBold") if os.path.exists(FD + "Poppins-SemiBold.ttf") else F(38)
-    u = "Full guide on japanbystation.com"
+    u = "Read more on japanbystation.com"
     d.text(((W - fu.getlength(u)) / 2, H - 110), u, font=fu, fill=CREAM, stroke_width=4, stroke_fill=STROKE)
     im = im.convert("RGBA"); im.alpha_composite(ov)
     im.convert("RGB").save(out, quality=88)
