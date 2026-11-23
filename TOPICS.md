@@ -77,7 +77,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 47 · last-night-shinjuku-or-nippori · NIPPORI · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [x] 48 · tokyo-double-or-twin-two-suitcases · SPACE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [x] 49 · tokyo-early-arrival-luggage · LUGGAGE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
-- [x] 50 · kiyosumi-shirakawa-base-7am-start · MORNING · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — live hero image broken (Pexels PNG); fixed in studio, goes live with the next deploy; FB posts in fbposts-pending/
+- [x] 50 · kiyosumi-shirakawa-base-7am-start · MORNING · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — hero swapped to JPEG 38139863 and redeployed (all images checked); FB posts in fbposts-pending/
 - [ ] 51 Tokyo Disney: hotel night before or after  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 52 Big suitcase through Hakone: forward, carry or store  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 53 Lake Kawaguchi: station hotel or lake view  (Tokyo · BRIEFS-TOKYO-41-70.md)
