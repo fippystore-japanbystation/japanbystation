@@ -66,6 +66,7 @@ Affiliate fit: name the stay/activity/transport that fits the verdict and link i
 End each run by sending Ling a short progress note (what went live, queue depth, anything blocked). Plain, short, no step-by-step recap.
 
 ## 5. Known limits
-- Instagram DMs to the public need Meta App Review (app is in development mode). Until approved only app-role testers get DMs.
+- Meta app "Japan by Station DM" is LIVE since 23 Nov 2026; Ling tested: comment-for-DM reaches everyone. Privacy policy (/privacy) and data deletion page (/data-deletion) must stay online.
 - n8n runs in Docker on Ling's PC; if it sleeps nothing posts. Changing n8n needs Ling's login or API key; don't hunt for credentials.
+- Posting times: n8n posts every 2 hours at :57 + random 0–6 min (on the hour ±3 min).
 - Travelpayouts hotel programs (Booking.com, Agoda, Trip.com…) are pending review by Travelpayouts; links still work, they start earning once matched.
