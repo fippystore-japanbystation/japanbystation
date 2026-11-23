@@ -8,3 +8,7 @@ A bundle with these photos (jbs_bundle_fb44.bin) was downloaded to Ling's Downlo
 ## Added 23 Nov 2026 (briefs 48, 49, 50) — same reason, no Downloads access in the unattended run
 fb-space-1/2 (place "UENO & KINSHICHO, TOKYO"), fb-luggage-1/2 ("UENO, TOKYO"), fb-morning-1/2 ("KIYOSUMI-SHIRAKAWA, TOKYO").
 Photos to CHECK before use (not yet viewed by us): 31252767 (capsule-hotel window, city unknown), 30750074 (coin lockers "in Japan", city unknown), 33465186 (Skytree over the Sumida). 31485863, 31593756, 38139863 were viewed and read as Tokyo.
+
+## Added 23 Nov 2026 evening (briefs 51, 52, 53) — same reason (no Downloads folder connected in the unattended run)
+fb-maihama-1/2 (place "MAIHAMA, TOKYO"), fb-hakone-1/2 ("HAKONE, KANAGAWA"), fb-kawaguchi-1/2 ("LAKE KAWAGUCHI, YAMANASHI"). Orders 23–28.
+Photos viewed and fine: 23228674 (Tokyo Bay elevated railway), 33326934 (Hakone Tozan bus, autumn), 31418958 (Lake Ashi), 32028992 (Fuji over Lake Kawaguchi), 31318845 (Chureito Pagoda + Fuji). CHECK before use: 23228639 (harbour buildings near Rainbow Bridge, not viewed).

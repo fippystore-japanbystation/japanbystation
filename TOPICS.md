@@ -39,6 +39,9 @@
 - tokyo-double-or-twin-two-suitcases · SPACE (brief 48: Booking 16–17 Dec 2026, 2 adults: ICI Ueno Shin Okachimachi double 13.80 m² ¥15,250 vs twin 18.40 m² ¥19,650 (beds together on plan) vs deluxe double 18 m² ¥18,750; Brillia ist Kinshi Park flat 25 m² ¥10,968, check-in 16–22; Kinshicho–Shinjuku 21 min vs 27)
 - tokyo-early-arrival-luggage · LUGGAGE (brief 49: Sotetsu Fresa Inn Toyocho FAQ 24 h desk + bags before check-in, not oversized; Kinshicho flat unmanned, check-in 16:00; JR East lockers S ¥500 / M ¥700–800 / L ¥900–1,000; Ueno 21 sites, Shinobazu 20 LL + 56 L)
 - kiyosumi-shirakawa-base-7am-start · MORNING (brief 50: CLANN BY THE RIVER 7:00, 10 min from A3, cashless; Blue Bottle 8:00; garden 9:00 ¥150; Comfort Hotel Exit B1 buffet 6:30–9:30 ≈¥16,072 1 adult; 07:05 Hanzomon starts here → Shibuya 07:28, 07:08 Oedo → Shinjuku 07:40)
+- tokyo-disney-hotel-night-before-or-after · MAIHAMA (brief 51: Happy Entry 15 min, never on check-in day; Official Hotels no early entry; TDL 17 Dec 9:00–21:00; Booking 2A+child 6, 16/17 Dec: Sheraton ¥43,000/¥40,000, Hilton ¥45,991/¥43,505, Okura ¥27,594 BF/¥40,117, ICI Hatchobori ¥39,600/¥37,950)
+- hakone-big-suitcase-forward-carry-store · HAKONE (brief 52: Yamato Shinjuku→Kyoto sent 15 Dec arrives 16 Dec, 160 size ¥3,160; Hakone Luggage Transport Yumoto 8:30–12:00 → hotel after 15:00, ¥1,500/¥2,500; Odawara Multi ecube L ¥800/day, 2am day reset, 86×34×65 cm)
+- lake-kawaguchi-station-or-lake-view · KAWAGUCHI (brief 53: Booking 16 Dec 2 adults: Station Inn ¥13,200, Hotel Ban ¥24,300 (no Fuji promise), Mizunosato Fuji view ¥50,600 / HB ¥57,200, no view ¥38,500; Red Line last 17:45; Hoto Fudo 11–19 cash; 05:49→Shimoyoshida 06:03)
 
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
@@ -78,9 +81,9 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 48 · tokyo-double-or-twin-two-suitcases · SPACE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [x] 49 · tokyo-early-arrival-luggage · LUGGAGE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [x] 50 · kiyosumi-shirakawa-base-7am-start · MORNING · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — hero swapped to JPEG 38139863 and redeployed (all images checked); FB posts in fbposts-pending/
-- [~] 23 Nov 18:42 51 Tokyo Disney: hotel night before or after  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 23 Nov 18:42 52 Big suitcase through Hakone: forward, carry or store  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [~] 23 Nov 18:42 53 Lake Kawaguchi: station hotel or lake view  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 51 · tokyo-disney-hotel-night-before-or-after · MAIHAMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
+- [x] 52 · hakone-big-suitcase-forward-carry-store · HAKONE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
+- [x] 53 · lake-kawaguchi-station-or-lake-view · KAWAGUCHI · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
 - [ ] 54 'Mount Fuji view' rooms: what you actually buy  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 55 Kawaguchiko dinner after the last shuttle  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 56 Tokyo to Kawaguchiko with a big suitcase: bus or train  (Tokyo · BRIEFS-TOKYO-41-70.md)
