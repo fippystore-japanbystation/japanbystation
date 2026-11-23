@@ -77,18 +77,35 @@ def render(spec, tj, wd, stills=False):
         a = 0 if i == 0 else x["start"] - 0.1
         b = END if i == len(order) - 1 else tj["scenes"][i + 1]["start"] - 0.1
         B[x["id"]] = (round(a, 3), round(b, 3))
-    files = [S[i]["clip"][0] for i in order]
-    assert len(files) == len(set(files)), "a clip is used twice"
+    MAXSHOT = 4.0   # Ling, 23 Nov: a new shot at least every 4 s
+    IMG = (".jpg", ".jpeg", ".png", ".webp")
+    segs = []       # (file, start, duration)
+    for i in order:
+        d = B[i][1] - B[i][0]
+        clips = S[i].get("clips") or [S[i]["clip"]]
+        nseg = max(1, -(-d // MAXSHOT))
+        nseg = int(max(nseg, 1))
+        assert len(clips) >= nseg, f"scene '{i}' lasts {d:.1f}s: it needs {nseg} different clips/photos in \"clips\" (max {MAXSHOT:.0f}s per shot), it has {len(clips)}"
+        use = clips[:max(nseg, min(len(clips), int(-(-d // 2.5))))]   # use extra clips if given, aiming ~2.5-4 s per shot
+        for c in use:
+            segs.append((c[0], c[1] if len(c) > 1 else 0.0, d / len(use)))
+    files = [x[0] for x in segs]
+    assert len(files) == len(set(files)), "a clip or photo is used twice"
+    assert all(x[2] <= MAXSHOT + 0.01 for x in segs)
     inputs, flt = [], []
-    for n, i in enumerate(order):
-        f, st = S[i]["clip"]; d = B[i][1] - B[i][0]
+    for n, (f, st, d) in enumerate(segs):
+        if f.lower().endswith(IMG):    # still photo: slow push-in (Ken Burns)
+            N = max(1, int(round(d * 30)))
+            inputs += ["-i", cd + f]
+            flt.append(f"[{n}:v]scale=2160:3840:force_original_aspect_ratio=increase,crop=2160:3840,zoompan=z='1+0.10*on/{N}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={N}:s=1080x1920:fps=30,setsar=1,trim=duration={d:.3f},setpts=PTS-STARTPTS[v{n}]")
+            continue
         dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", cd + f],
                                    capture_output=True, text=True).stdout.strip() or 0)
         avail = max(0.5, dur - st)
         k = 1.0 if avail >= d else min(d / avail, 1.6)       # short clip: slow it down a little, then loop if still short
         inputs += ["-stream_loop", "-1", "-ss", str(st), "-i", cd + f]
         flt.append(f"[{n}:v]setpts={k:.4f}*(PTS-STARTPTS),scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,trim=duration={d:.3f},setpts=PTS-STARTPTS[v{n}]")
-    flt.append("".join(f"[v{n}]" for n in range(len(order))) + f"concat=n={len(order)}:v=1:a=0,eq=saturation=1.12:contrast=1.03[out]")
+    flt.append("".join(f"[v{n}]" for n in range(len(segs))) + f"concat=n={len(segs)}:v=1:a=0,eq=saturation=1.12:contrast=1.03[out]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(flt), "-map", "[out]",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", wd + "base.mp4"], check=True)
 
