@@ -114,7 +114,7 @@ Reels now carry the same depth as the deep guides. Approved example structure (T
 Caption: hook line + emoji; 🥇 <pick 1> then its 3 elaborations on 3 short lines (• special · • how locals do it · • reminder/feeling), 🥈 <pick 2> the same way; 💡 the less-known detail; the soft-hook CTA (link in bio 👆 / DM KEYWORD); share line; follow line; 5–8 hashtags.
 Every fact must be on that guide's page. Shots: max 4 s each, matching the line (rules 5, 5b, 5c).
 
-- Mature male voice with intonation, slow pace (Kokoro blend am_michael 0.65 + am_fenrir 0.35, speed 1.0, built into reelkit).
+- Voice D (Ling, 24 Nov): brighter male voice, Kokoro blend am_puck 0.6 + am_michael 0.4, speed 1.05, whole sentences per call (built into reelkit; do not set "speed" in specs).
 - Phrase subtitles, outlined text, no background, spoken word bounces in yellow. Small cards in the site palette. Same cover LAYOUT every time (cover.py).
 - Real Japan footage WITH PEOPLE, lively, from the right city. No clip used twice in one video (reelkit asserts). Japanese-style music, rotate `m_tokyostroll / m_kyotoriver / m_japansnacks / m_petals`.
 - REEL VARIETY (Ling, 23 Nov): in any 3 Reels in a row, "Dotonbori" or "Namba" may appear (voice, cards, cover, caption) in AT MOST ONE. Before writing a spec, read the specs/captions of the last 2 items in reels-queue.json; if either mentions Dotonbori or Namba, this Reel must not. Same for the over-used Tokyo spots (Shibuya crossing, Shinjuku Kabukicho): max once in 3. Lead with places most visitors have not heard of, with a researched why.
