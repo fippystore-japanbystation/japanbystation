@@ -144,9 +144,9 @@ pages["disclosure.html"]=(head("How We Make Money","Japan by Station earns commi
   <p>These commissions pay for keeping our guides checked and up to date.</p>
 '''))
 pages["privacy.html"]=(head("Privacy Policy","How Japan by Station handles your data on this website and on Instagram."),"",simple("","Privacy Policy",'''
-  <p><i>Last updated 23 November 2026.</i> Japan by Station runs japanbystation.com and the Instagram account <b>@japanbystation</b>. This policy explains what data we handle and why.</p>
+  <p><i>Last updated 24 November 2026.</i> Japan by Station runs japanbystation.com and the Instagram account <b>@japanbystation</b>. This policy explains what data we handle and why.</p>
   <h2>On this website</h2>
-  <p>We don't ask you to create an account, and we don't collect your name or email on this site. We use Cloudflare Web Analytics, which counts visits without cookies and without identifying you. Our hosting provider, Cloudflare, may log basic technical data such as IP addresses to keep the site secure.</p>
+  <p>We don't ask you to create an account, and we don't collect your name or email on this site. We use Cloudflare Web Analytics, which counts visits without cookies and without identifying you, and Google Analytics, which uses cookies to show us anonymous totals such as which countries visitors come from and which pages they read. We don't use it for advertising. You can opt out with Google's <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Analytics opt-out add-on</a> or by blocking cookies in your browser. Our hosting provider, Cloudflare, may log basic technical data such as IP addresses to keep the site secure.</p>
   <p>When you click a booking link, the booking site may set cookies so it can tell that you came from us. That is how affiliate commissions are tracked. Those cookies belong to the booking site and are covered by its own privacy policy.</p>
   <h2>On Instagram (comments and direct messages)</h2>
   <p>Our Reels invite you to comment a keyword, such as AIRPORT, to receive the matching guide. When you do, our app "Japan by Station DM" uses the Instagram API to read comments on our own posts, check whether the comment contains one of our keywords, and send you one direct message with the link to that guide. We may also reply publicly under your comment.</p>
@@ -421,3 +421,12 @@ for _r,_d,_fs in os.walk(OUT):
 # Ling 24 Nov: early Pins linked to /guides/<slug>.html, but pages live at /<slug>.html, so those links fell back to the
 # home page. Cloudflare Pages redirect keeps every old link landing on the right guide.
 open(os.path.join(OUT, "_redirects"), "w").write("/guides/:slug /:slug 301\n/guides/:slug.html /:slug.html 301\n")
+
+# Google Analytics 4 (Ling, 24 Nov; property "Japan by Station", same Google account as Search Console) on every page
+_GA='<script async src="https://www.googletagmanager.com/gtag/js?id=G-G13XXKV55G"></script>\n<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-G13XXKV55G");</script>'
+for _r,_d,_fs in os.walk(OUT):
+    for _f in _fs:
+        if _f.endswith(".html"):
+            _pth=os.path.join(_r,_f); _t=open(_pth,encoding="utf-8").read()
+            if "G-G13XXKV55G" not in _t and "<head>" in _t:
+                open(_pth,"w",encoding="utf-8").write(_t.replace("<head>","<head>\n"+_GA,1))
