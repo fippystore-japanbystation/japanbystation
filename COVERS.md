@@ -15,3 +15,6 @@ cup-noodles-museum-ikeda (re-cut): w_14 giant Cup Noodle display, Ikeda museum (
 namba-5000-yen-private-room (re-cut): w2_n12 okonomiyaki red lantern alley, Osaka (Wikimedia, Andrew Braun)
 shibuya-crossing-view: c_28883550 Shibuya crossing at night, street level crowd
 minoh-falls-autumn-afternoon: w2_m03 Minoh Falls with red bridge in autumn (Wikimedia, 663highland)
+sapporo-where-to-stay-first-trip: w3_s28 Sapporo TV Tower over snowy Odori Park at dusk (Wikimedia, K. Takeda)
+kyoto-where-to-stay-first-trip: w3_k18 Gion lantern street at night with taxi (Wikimedia)
+shibuya-quiet-base-yoyogi: w3_y09 Yoyogi Park red maples with crowd, autumn (Wikimedia)

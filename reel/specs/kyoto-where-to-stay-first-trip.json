@@ -1,0 +1,213 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "kyoto-where-to-stay-first-trip",
+ "keyword": "KYOTO",
+ "music": "m_tokyostroll.mp3",
+ "emph": [
+  "Karasuma",
+  "Gion",
+  "Nishiki",
+  "calendar"
+ ],
+ "hook": {
+  "tag": "A FEW DAYS IN KYOTO",
+  "lines": [
+   "Sleep where",
+   "the trains cross"
+  ]
+ },
+ "cover": {
+  "title": "A few days|in Kyoto?",
+  "category": "GION, KYOTO",
+  "color": "coral",
+  "clip": "cv_w3_k18.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "c_20666702.mp4",
+     0.0
+    ],
+    [
+     "w3_k04.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "A few days in Kyoto?",
+     "A few days in Kyoto?"
+    ],
+    [
+     "Sleep where the train lines cross.",
+     "Sleep where the train lines cross."
+    ]
+   ]
+  },
+  {
+   "id": "frame",
+   "clips": [
+    [
+     "w3_k10.jpg"
+    ],
+    [
+     "w3_k11.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "In season,",
+     "In season,"
+    ],
+    [
+     "its buses get very crowded.",
+     "its buses get very crowded."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "w3_k01.jpg"
+    ],
+    [
+     "w3_k08.jpg"
+    ],
+    [
+     "w3_k07.jpg"
+    ],
+    [
+     "c_31363771.mp4",
+     0.0
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "#1 OUR PICK",
+    "title": "Shijo-Karasuma",
+    "small": "two train lines cross here"
+   },
+   "clauses": [
+    [
+     "Number one: Shijo-Karasuma,",
+     "Number one: Shijo-Karasuma,"
+    ],
+    [
+     "where the subway meets the Hankyu line.",
+     "where the subway meets the Hankyu line."
+    ],
+    [
+     "Kyoto Station and Kawaramachi",
+     "Kyoto Station and Kawaramachi"
+    ],
+    [
+     "are each one short ride away.",
+     "are each one short ride away."
+    ],
+    [
+     "Old Kyoto is a short walk east.",
+     "Old Kyoto is a short walk east."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "w3_k17.jpg"
+    ],
+    [
+     "w3_k25.jpg"
+    ],
+    [
+     "w3_k27.jpg"
+    ],
+    [
+     "w3_k19.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#2 FOR EVENINGS",
+    "title": "Kawaramachi / Gion",
+    "small": "lantern-lit lanes on foot"
+   },
+   "clauses": [
+    [
+     "Number two: Gion, for evening walks.",
+     "Number two: Gion, for evening walks."
+    ],
+    [
+     "At Nishiki Market, eat at each shop,",
+     "At Nishiki Market, eat at each shop,"
+    ],
+    [
+     "not while walking.",
+     "not while walking."
+    ],
+    [
+     "Rooms are mostly",
+     "Rooms are mostly"
+    ],
+    [
+     "ryokan and luxury hotels.",
+     "ryokan and luxury hotels."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "w3_k12.jpg"
+    ],
+    [
+     "w3_k29.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Most people miss this:",
+     "Most people miss this:"
+    ],
+    [
+     "the day pass covers",
+     "the day pass covers"
+    ],
+    [
+     "the calendar day only.",
+     "the calendar day only."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w3_k32.jpg"
+    ],
+    [
+     "w3_k33.jpg"
+    ],
+    [
+     "w3_k30.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Breakfast in a townhouse coffee house?",
+     "Breakfast in a townhouse coffee house?"
+    ],
+    [
+     "Find it in our bio, or DM us KYOTO.",
+     "Find it in our bio, or DM us KYOTO."
+    ]
+   ]
+  }
+ ],
+ "caption": "A few days in Kyoto? Sleep where the train lines cross 🚃\n\nKyoto's own tourism office warns that city buses like the 205 and 206 get very crowded in season, and recommends trains and the subway.\n\n🥇 Shijo-Karasuma, our pick\n• The Karasuma subway line (north–south) and the Hankyu line (east–west) cross right here, so you can head off in every direction.\n• Kyoto Station is one short subway ride away and Kawaramachi is one Hankyu stop. Arashiyama is on the Hankyu line too, with one change at Katsura.\n• It's Kyoto's business district: office blocks, not wooden houses. The old-Kyoto atmosphere starts a short walk east.\n\n🥈 Kawaramachi / Gion, for evenings\n• Walk out at dusk to Yasaka-jinja and the lanes of Gion, with Nishiki Market next door.\n• The market association asks visitors to eat in front of the shop rather than while walking.\n• Lodging here is mostly long-standing ryokan and luxury hotels, so there are fewer budget rooms.\n\n💡 Most people miss this: the Subway & Bus 1-Day Pass covers only the calendar day you start it, not 24 hours.\n\nStaying in Karasuma? A coffee house in an old machiya townhouse serves breakfast a short walk away ☕ Find it through the link in our bio 👆 or DM us KYOTO.\n\n👫 Drop this in your group chat before you book.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#kyoto #karasuma #gion #nishikimarket #kyototravel #wheretostay #japantravel #japantrip"
+}

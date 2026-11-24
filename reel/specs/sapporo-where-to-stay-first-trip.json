@@ -1,0 +1,233 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "sapporo-where-to-stay-first-trip",
+ "keyword": "SAPPORO",
+ "music": "m_japansnacks.mp3",
+ "emph": [
+  "Odori",
+  "Susukino",
+  "Nijo",
+  "mutton",
+  "spikes"
+ ],
+ "hook": {
+  "tag": "FIRST TRIP TO SAPPORO",
+  "lines": [
+   "Sleep in",
+   "Odori"
+  ]
+ },
+ "cover": {
+  "title": "First trip|to Sapporo?",
+  "category": "ODORI, SAPPORO",
+  "color": "sky",
+  "clip": "cv_w3_s28.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "c_31150440.mp4",
+     0.0
+    ],
+    [
+     "w3_s30.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "First trip to Sapporo?",
+     "First trip to Sapporo?"
+    ],
+    [
+     "Sleep in Odori.",
+     "Sleep in Odori."
+    ]
+   ]
+  },
+  {
+   "id": "frame",
+   "clips": [
+    [
+     "w3_s21.jpg"
+    ],
+    [
+     "w3_s22.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "One underground walkway",
+     "One underground walkway"
+    ],
+    [
+     "joins the whole centre.",
+     "joins the whole centre."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "w3_s29.jpg"
+    ],
+    [
+     "w3_s23.jpg"
+    ],
+    [
+     "c_31150441.mp4",
+     0.0
+    ],
+    [
+     "w3_s20.jpg"
+    ],
+    [
+     "w3_s19.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "#1 FIRST TRIP",
+    "title": "Odori",
+    "small": "park, market, TV Tower"
+   },
+   "clauses": [
+    [
+     "Number one: Odori,",
+     "Number one: Odori,"
+    ],
+    [
+     "beside the park and the TV Tower.",
+     "beside the park and the TV Tower."
+    ],
+    [
+     "Walk underground to the station,",
+     "Walk underground to the station,"
+    ],
+    [
+     "even in a blizzard.",
+     "even in a blizzard."
+    ],
+    [
+     "Breakfast is a seafood bowl",
+     "Breakfast is a seafood bowl"
+    ],
+    [
+     "at Nijo Market.",
+     "at Nijo Market."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "w3_s34.jpg"
+    ],
+    [
+     "w3_s10.jpg"
+    ],
+    [
+     "w3_s13.jpg"
+    ],
+    [
+     "w3_s35.jpg"
+    ],
+    [
+     "w3_s02.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#2 FOOD AND NIGHTS",
+    "title": "Susukino",
+    "small": "mutton grills till late"
+   },
+   "clauses": [
+    [
+     "Number two: Susukino,",
+     "Number two: Susukino,"
+    ],
+    [
+     "if dinner is the point.",
+     "if dinner is the point."
+    ],
+    [
+     "Daruma's main branch grills mutton",
+     "Daruma's main branch grills mutton"
+    ],
+    [
+     "every night of the week.",
+     "every night of the week."
+    ],
+    [
+     "Light sleepers should ask",
+     "Light sleepers should ask"
+    ],
+    [
+     "for a high floor.",
+     "for a high floor."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "w3_s09.jpg"
+    ],
+    [
+     "c_31150437.mp4",
+     0.0
+    ]
+   ],
+   "clauses": [
+    [
+     "Most people miss this:",
+     "Most people miss this:"
+    ],
+    [
+     "convenience stores sell",
+     "convenience stores sell"
+    ],
+    [
+     "anti-slip spikes for the ice.",
+     "anti-slip spikes for the ice."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w3_s15.jpg"
+    ],
+    [
+     "w3_s07.jpg"
+    ],
+    [
+     "w3_s27.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Plus the hand-made rice balls",
+     "Plus the hand-made rice balls"
+    ],
+    [
+     "Sapporo's tourism office recommends:",
+     "Sapporo's tourism office recommends:"
+    ],
+    [
+     "link in bio, or DM us SAPPORO.",
+     "link in bio, or DM us SAPPORO."
+    ]
+   ]
+  }
+ ],
+ "caption": "First trip to Sapporo? Sleep in Odori ❄️\n\nSapporo's centre is small, and one straight underground walkway joins it all.\n\n🥇 Odori, the middle of everything\n• It sits right beside Odori Park, with the TV Tower at the park's east end. Sapporo Station is a short underground walk away, and Susukino is one subway stop.\n• The Chi-Ka-Ho walkway runs underground between Sapporo Station and Odori, so you can get around even in a blizzard. It's the reason Odori works so well in winter.\n• Breakfast is a seafood bowl at Nijo Market, close to Odori Station. For another market, the Tozai Line runs four stops to the Curb Market.\n\n🥈 Susukino, if dinner is the point\n• This is Sapporo's night district, and the place for jingisukan, grilled mutton.\n• Daruma's main branch, near Susukino Station, grills it every night of the week.\n• The streets stay busy until late, so light sleepers should ask for a high floor or stay a few blocks away.\n\n💡 Most people miss this: Sapporo's tourism office says pavements freeze in deep winter. Pack boots with grip; convenience stores sell anti-slip spikes.\n\nThere's also a corner of Susukino Market where rice balls are made by hand, in the style the tourism office recommends 🍙 It's in our bio 👆 or DM us SAPPORO.\n\n🧳 Send this to whoever's planning Sapporo with you.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#sapporo #susukino #odoripark #hokkaido #sapporotravel #japanwinter #japantravel #japantrip"
+}
