@@ -50,18 +50,27 @@ def voice(spec, wd):
     def syl(w):
         w = re.sub(r"[^a-z0-9¥]", "", w.lower()) or "x"
         return 3 if re.match(r"^[¥\d]", w) else max(1, len(re.findall(r"[aeiouy]+", w)))
+    # Ling 24 Nov: tone. Speak whole SENTENCES in one go (natural intonation), not clause by clause
+    # (that made every fragment restart its pitch: choppy, robotic). Clause timing for subtitles is
+    # then split inside the sentence by syllables.
     words, scenes, clauses = [], [], []; ch = [np.zeros(int(0.2 * sr), np.float32)]; t = 0.2
     for sc in spec["scenes"]:
-        s0 = t
-        for ci, (spoken, shown) in enumerate(sc["clauses"]):
-            a, sr = k.create(spoken, voice=v, speed=spec.get("speed", 1.0), lang="en-us"); a = trim(a.astype(np.float32)); d = len(a) / sr
-            ws = shown.split(); wt = [syl(w) + 0.4 for w in ws]; tot = sum(wt); c = t + 0.05
-            for w, x in zip(ws, wt):
-                dd = (d - 0.12) * x / tot; words.append(dict(w=w, s=round(c, 3), e=round(c + dd, 3))); c += dd
-            clauses.append(dict(text=shown, s=round(t, 3), e=round(t + d, 3)))
-            last = ci == len(sc["clauses"]) - 1
-            g = 0.3 if last else (0.16 if spoken.rstrip()[-1] in ".?!" else 0.07)
-            ch += [a, np.zeros(int(g * sr), np.float32)]; t += d + g
+        s0 = t; cl = sc["clauses"]; i = 0
+        while i < len(cl):
+            j = i
+            while j < len(cl) - 1 and cl[j][0].rstrip()[-1:] not in ".?!": j += 1
+            grp = cl[i:j + 1]
+            a, sr = k.create(" ".join(x[0].strip() for x in grp), voice=v, speed=spec.get("speed", 1.0), lang="en-us")
+            a = trim(a.astype(np.float32)); d = len(a) / sr
+            sw = [sum(syl(w) for w in x[0].split()) + 0.6 for x in grp]; tot = sum(sw); c0 = t
+            for (spoken, shown), x in zip(grp, sw):
+                cd_ = d * x / tot
+                ws = shown.split(); wt = [syl(w) + 0.4 for w in ws]; wtot = sum(wt); c = c0 + 0.03
+                for w, y in zip(ws, wt):
+                    dd = (cd_ - 0.06) * y / wtot; words.append(dict(w=w, s=round(c, 3), e=round(c + dd, 3))); c += dd
+                clauses.append(dict(text=shown, s=round(c0, 3), e=round(c0 + cd_, 3))); c0 += cd_
+            g = 0.3 if j == len(cl) - 1 else 0.2
+            ch += [a, np.zeros(int(g * sr), np.float32)]; t += d + g; i = j + 1
         scenes.append(dict(id=sc["id"], start=round(s0, 3), end=round(t, 3)))
     sf.write(wd + "voice_raw.wav", np.concatenate(ch), sr)
     subprocess.run(f"ffmpeg -y -loglevel error -i {wd}voice_raw.wav -af 'highpass=f=80,acompressor=threshold=-20dB:ratio=2.5:attack=5:release=80,loudnorm=I=-15:TP=-1.5,aresample=44100' -ac 2 {wd}voice.wav", shell=True, check=True)
@@ -196,7 +205,7 @@ def render(spec, tj, wd, stills=False):
     def frame(t):
         s = next((k for k in order if B[k][0] <= t < B[k][1]), order[-1]); lt = t - B[s][0]
         ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
-        edge = s in (order[0], order[-1])
+        edge = s == order[0]
         d.rectangle((0, 0, W, H), fill=(30, 22, 50, 70 if edge else 30)); brand(d)
         if s == order[0]:
             a = 1.0; hk = spec["hook"]   # Ling 24 Nov: hook on screen from frame 1 (strong hook + FB thumbnail)
@@ -208,16 +217,13 @@ def render(spec, tj, wd, stills=False):
                 r = back((lt + .45 - i * .12) / .45) if lt < 1.2 else 1.0
                 otext(d, ((W - f.getlength(l)) / 2, 500 + i * int(f.size * 1.12) + (1 - r) * 40), l, f, al(WHITE, min(1, r * 1.2)), sw=10)
         elif s == order[-1]:
+            # Ling 24 Nov: no big box over the footage at the end. One small pill at the bottom, video stays visible.
             a = ease(lt / .3); K = spec["keyword"]
-            rr(d, (150, 450 + (1 - a) * 30, W - 150, 850 + (1 - a) * 30), 46, al(CREAM, .95 * a))
-            ctext(d, 490 + (1 - a) * 30, "Comment or DM us", F(56), al(INK, a))
-            r = back((lt - .2) / .45); fw = F(92)
-            while fw.getlength(K) > 640: fw = F(fw.size - 4)
-            w = fw.getlength(K) + 90; y = 570 + (1 - r) * 40
-            rr(d, (W/2 - w/2, y, W/2 + w/2, y + 130), 65, al(COL["coral"], min(1, r))); ctext(d, y + 10, K, fw, al(INK, min(1, r)))
-            b = ease((lt - .6) / .35)
-            ctext(d, 730, spec.get("cta_sub", "the full guide, free"), F(32, "Medium"), al(INK, b))
-            ctext(d, 778, "japanbystation.com", F(32), al(COL["coral"], b))
+            f1 = F(40); t1 = f"DM {K}"; f2 = F(30, "Medium"); t2 = "  ·  link in bio"
+            w1 = f1.getlength(t1) + 40; w2 = f2.getlength(t2); w = w1 + w2 + 36; x0 = W/2 - w/2; y = 1690 + (1 - a) * 24
+            rr(d, (x0, y, x0 + w, y + 76), 38, al(CREAM, .93 * a))
+            rr(d, (x0 + 8, y + 8, x0 + 8 + w1, y + 68), 30, al(COL["coral"], a)); d.text((x0 + 28, y + 12), t1, font=f1, fill=al(INK, a))
+            d.text((x0 + 8 + w1 + 14, y + 20), t2, font=f2, fill=al(INK, a))
         elif S[s].get("card"): card(d, lt, S[s]["card"])
         if s != order[0] and lt < 0.12: d.rectangle((0, 0, W, H), fill=(255, 255, 255, int(70 * (1 - lt / 0.12))))   # quick flash on every new part
         caption(d, t)
