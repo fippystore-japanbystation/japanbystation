@@ -69,6 +69,39 @@ def voice(spec, wd):
     json.dump(tj, open(wd + "timing.json", "w"), indent=1); return tj
 
 # ---------------- render ----------------
+# ---- sound effects (Ling, 24 Nov: key words get a sound + visual hit). All synthesised here: no licensed audio.
+def _sfx_track(path, events, END, sr=44100):
+    n = int((END + 1.5) * sr); a = np.zeros(n, dtype=np.float32); rng = np.random.default_rng(7)
+    def put(t, x):
+        i = int(t * sr); j = min(n, i + len(x))
+        if 0 <= i < n: a[i:j] += x[:j - i]
+    for t, k in events:
+        if k == "impact":      # hook: low thump + short noise burst
+            tt = np.arange(int(.45 * sr)) / sr
+            x = .55 * np.sin(2 * np.pi * (90 - 50 * tt / .45) * tt) * np.exp(-tt * 9)
+            x[:int(.06 * sr)] += .25 * rng.standard_normal(int(.06 * sr)) * np.exp(-np.arange(int(.06 * sr)) / (.012 * sr))
+            put(t, x)
+        elif k == "whoosh":    # card in: soft filtered-noise swoosh
+            L = int(.32 * sr); env = np.sin(np.linspace(0, np.pi, L)) ** 2
+            nz = rng.standard_normal(L + 64); x = np.convolve(nz, np.ones(24) / 24, "same")[:L]
+            put(t - .18, .16 * x * env / max(1e-6, np.abs(x).max()))
+        elif k == "pop":       # card lands
+            tt = np.arange(int(.09 * sr)) / sr
+            put(t, .30 * np.sin(2 * np.pi * (520 + 900 * tt / .09) * tt) * np.exp(-tt * 38))
+        elif k == "tick":      # emphasised word
+            tt = np.arange(int(.05 * sr)) / sr
+            put(t, .12 * np.sin(2 * np.pi * 1850 * tt) * np.exp(-tt * 70))
+        elif k == "ding":      # ending
+            tt = np.arange(int(.8 * sr)) / sr
+            put(t, (.20 * np.sin(2 * np.pi * 1318 * tt) + .10 * np.sin(2 * np.pi * 1976 * tt)) * np.exp(-tt * 5))
+    a = np.clip(a, -0.95, 0.95); sf.write(path, np.stack([a, a], 1), sr)
+
+def _is_emph(w, extra):
+    k = re.sub(r"[^\w¥%#'-]", "", w)
+    if not k: return False
+    if k.lower() in extra: return True
+    return bool(re.search(r"\d|¥|%", k)) or (len(k) >= 3 and k.isupper() and k.isalpha())
+
 def render(spec, tj, wd, stills=False):
     cd = spec["clipdir"]; END = round(tj["end"] + 1.0, 2)
     S = {s["id"]: s for s in spec["scenes"]}; order = [s["id"] for s in spec["scenes"]]
@@ -109,6 +142,16 @@ def render(spec, tj, wd, stills=False):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(flt), "-map", "[out]",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", wd + "base.mp4"], check=True)
 
+    EMPH = {x.lower() for x in spec.get("emph", [])}
+    ev = [(0.02, "impact")]
+    for k in order[1:]:
+        if S[k].get("card"): ev += [(B[k][0], "whoosh"), (B[k][0] + .05, "pop")]
+    ev.append((B[order[-1]][0] + .2, "ding"))
+    last = -9
+    for wd_ in tj["words"]:
+        if _is_emph(wd_["w"] if "w" in wd_ else wd_.get("text", ""), EMPH) and wd_["s"] - last > 1.5 and wd_["s"] > 1.0:
+            ev.append((wd_["s"], "tick")); last = wd_["s"]
+    _sfx_track(wd + "sfx.wav", ev, END)
     def brand(d):
         f = F(30); s = "Japan by Station"; w = f.getlength(s)
         rr(d, (W/2 - w/2 - 28, 120, W/2 + w/2 + 28, 178), 29, al(CREAM, .92)); d.text((W/2 - w/2, 127), s, font=f, fill=INK)
@@ -143,10 +186,11 @@ def render(spec, tj, wd, stills=False):
                     tw = sum(f.getlength(words[i]) for i in idxs) + sp * (len(idxs) - 1); x = (W - tw) / 2
                     for i in idxs:
                         w = words[i]; wt = ws[i]; wl = f.getlength(w)
+                        em = _is_emph(w, EMPH)
                         if wt is not None and wt["s"] - 0.02 <= t < wt["e"] + 0.04:
-                            p = (t - wt["s"] + 0.02) / max(0.12, wt["e"] - wt["s"]); lift = -14 * (1 - abs(1 - min(2, p * 6)))
-                            otext(d, (x, y0 + li * lh + lift), w, f, al(COL["sun"], a), sw=7)
-                        else: otext(d, (x, y0 + li * lh), w, f, al(WHITE, a))
+                            p = (t - wt["s"] + 0.02) / max(0.12, wt["e"] - wt["s"]); lift = (-26 if em else -14) * (1 - abs(1 - min(2, p * 6)))
+                            otext(d, (x, y0 + li * lh + lift), w, f, al(COL["coral"] if em else COL["sun"], a), sw=8 if em else 7)
+                        else: otext(d, (x, y0 + li * lh), w, f, al(COL["sun"] if em else WHITE, a))
                         x += wl + sp
                 return
     def frame(t):
@@ -155,13 +199,13 @@ def render(spec, tj, wd, stills=False):
         edge = s in (order[0], order[-1])
         d.rectangle((0, 0, W, H), fill=(30, 22, 50, 70 if edge else 30)); brand(d)
         if s == order[0]:
-            a = ease(lt / .35); hk = spec["hook"]
+            a = 1.0; hk = spec["hook"]   # Ling 24 Nov: hook on screen from frame 1 (strong hook + FB thumbnail)
             fk = F(30); kw = fk.getlength(hk["tag"]) + 44
             rr(d, (W/2 - kw/2, 420, W/2 + kw/2, 472), 26, al(COL["sun"], a)); ctext(d, 427, hk["tag"], fk, al(INK, a))
             f = F(140)
             while max(f.getlength(l) for l in hk["lines"]) > 1000: f = F(f.size - 4)
             for i, l in enumerate(hk["lines"]):
-                r = back((lt - .15 - i * .12) / .45)
+                r = back((lt + .45 - i * .12) / .45) if lt < 1.2 else 1.0
                 otext(d, ((W - f.getlength(l)) / 2, 500 + i * int(f.size * 1.12) + (1 - r) * 40), l, f, al(WHITE, min(1, r * 1.2)), sw=10)
         elif s == order[-1]:
             a = ease(lt / .3); K = spec["keyword"]
@@ -175,6 +219,7 @@ def render(spec, tj, wd, stills=False):
             ctext(d, 730, spec.get("cta_sub", "the full guide, free"), F(32, "Medium"), al(INK, b))
             ctext(d, 778, "japanbystation.com", F(32), al(COL["coral"], b))
         elif S[s].get("card"): card(d, lt, S[s]["card"])
+        if s != order[0] and lt < 0.12: d.rectangle((0, 0, W, H), fill=(255, 255, 255, int(70 * (1 - lt / 0.12))))   # quick flash on every new part
         caption(d, t)
         fade = min(1, (END - t) / .35)   # Ling 24 Nov: no fade-in, so the first frame (FB thumbnail) is never black
         if fade < 1: d.rectangle((0, 0, W, H), fill=(0, 0, 0, int(255 * (1 - max(0, fade)))))
@@ -192,10 +237,10 @@ def render(spec, tj, wd, stills=False):
     music = os.path.join(HERE, "music", spec.get("music", "m_tokyostroll.mp3"))
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-i", wd + "base.mp4",
         "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-        "-i", wd + "voice.wav", "-stream_loop", "-1", "-i", music,
+        "-i", wd + "voice.wav", "-stream_loop", "-1", "-i", music, "-i", wd + "sfx.wav",
         "-filter_complex",
         f"[0:v][1:v]overlay=0:0:format=auto[v];[3:a]volume=0.32,afade=t=in:d=0.6,afade=t=out:st={END-1.4}:d=1.4[m];"
-        f"[2:a]asplit=2[vo][sc];[m][sc]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=350[md];[vo][md]amix=inputs=2:duration=first:normalize=0,apad[a]",
+        f"[2:a]asplit=2[vo][sc];[m][sc]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=350[md];[4:a]volume=0.9[fx];[vo][md][fx]amix=inputs=3:duration=first:normalize=0,apad[a]",
         "-map", "[v]", "-map", "[a]", "-t", str(END), "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M",
         "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out + ".tmp.mp4"], stdin=subprocess.PIPE)
     for i in range(int(END * FPS)): p.stdin.write(frame(i / FPS).tobytes())
