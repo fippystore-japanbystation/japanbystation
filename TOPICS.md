@@ -8,8 +8,8 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - [x] R04 · new-chitose-airport-to-sapporo · CHITOSE · page ✓  (Hokkaido · Rapid Airport vs bus vs taxi/car, winter) — FB posts queued with images
 - [x] R05 · Kyoto · kansai-airport-to-kyoto · HARUKA · page ✓
 - [x] R06 · Hiroshima · hiroshima-miyajima-one-day · MIYAJIMA · page ✓
-- [ ] R07 · Okinawa · Naha basics: Kokusai-dori, Asahibashi or Omoromachi? Do you need a car? (monorail, Yui Rail pass, buses)
-- [ ] R08 · Hokkaido · Where Sapporo locals eat: Nijo Market vs Curb Market, soup curry, ramen beyond the Ramen Alley
+- [~] 2026-11-24 07:42UTC R07 · Okinawa · Naha basics: Kokusai-dori, Asahibashi or Omoromachi? Do you need a car? (monorail, Yui Rail pass, buses)
+- [~] 2026-11-24 07:42UTC R08 · Hokkaido · Where Sapporo locals eat: Nijo Market vs Curb Market, soup curry, ramen beyond the Ramen Alley
 - [ ] R09 · Kyoto · Fushimi Inari: dawn, afternoon or after dark? (how far up is worth it, crowds, safety at night)
 - [ ] R10 · Nara · Nara as a day trip or one night? (deer park timing, Kintetsu vs JR from Osaka/Kyoto, quiet Naramachi evening)
 - [ ] R11 · Fukuoka · Yatai stalls: how they work, Nakasu vs Tenjin vs Nagahama, what to order, cash, seats
@@ -129,7 +129,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 61 · hakone-freepass-ryokan-one-night · FREEPASS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 62 · hakone-private-onsen-which-booking · ONSEN · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 63 · gora-to-lake-ashi-bus-or-ropeway · ROPEWAY · page ✓ (reframed 24 Nov as an evergreen bus-vs-ropeway guide; old slug hakone-ropeway-closed-plan-b 301s to it)
-- [ ] 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 2026-11-24 07:42UTC 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
