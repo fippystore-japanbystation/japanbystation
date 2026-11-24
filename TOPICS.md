@@ -182,3 +182,4 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 
 ## SEO STATION HUBS (SEO task, Ling 24 Nov)
 - [x] SEO · osaka-station-vs-umeda · UMEDA · page ✓  (Osaka Station vs Umeda hub, 24 Nov; HARUKA West Gate, KIX bus ¥1,800, Granvia/RESPIRE/Osaka Station Hotel/Nakazakicho picks, Kushikatsu Matsuba)
+- [~] 2026-11-24 SEO: namba-station-which-namba · NAMBASTATION? (Namba Station hub: which of the Namba stations, which exit for your hotel)
