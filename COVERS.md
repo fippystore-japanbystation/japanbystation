@@ -12,3 +12,6 @@ cup-noodles-museum-ikeda: c_31387608 ramen bowl with chopsticks (Osaka)
 osaka-live-like-a-local (re-cut): w_25 Tenma Ichiba lantern alley at night (Wikimedia, PD)
 shinjuku-which-station (re-cut): w_64 Moa street Shinjuku, rainy evening (Wikimedia, Ximonic)
 cup-noodles-museum-ikeda (re-cut): w_14 giant Cup Noodle display, Ikeda museum (Wikimedia, chee.hong)
+namba-5000-yen-private-room (re-cut): w2_n12 okonomiyaki red lantern alley, Osaka (Wikimedia, Andrew Braun)
+shibuya-crossing-view: c_28883550 Shibuya crossing at night, street level crowd
+minoh-falls-autumn-afternoon: w2_m03 Minoh Falls with red bridge in autumn (Wikimedia, 663highland)

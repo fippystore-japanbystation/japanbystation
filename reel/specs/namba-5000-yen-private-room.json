@@ -1,159 +1,203 @@
 {
+ "clipdir": "air/",
+ "outdir": "out/",
  "slug": "namba-5000-yen-private-room",
  "keyword": "PRIVACY",
  "music": "m_tokyostroll.mp3",
- "clipdir": "air/",
- "outdir": "out/",
+ "emph": [
+  "Wednesday",
+  "Saturday",
+  "capsule",
+  "moss"
+ ],
  "hook": {
-  "tag": "NAMBA, OSAKA",
+  "tag": "SOLO ON A BUDGET, OSAKA",
   "lines": [
-   "Can ¥5,000",
-   "buy privacy?"
+   "¥5,000 a night?",
+   "Go midweek"
   ]
  },
- "cta_sub": "real prices, same nights",
+ "cta_sub": "the mossy statue you splash",
  "cover": {
-  "title": "Can ¥5,000|buy privacy?",
+  "title": "¥5,000 a night|in Osaka?",
   "category": "NAMBA, OSAKA",
   "color": "coral",
-  "clip": "c_39438148.mp4",
-  "t": 3
+  "clip": "cv_w2_n12.mp4",
+  "t": 0.5
  },
  "scenes": [
   {
    "id": "hook",
-   "clip": [
-    "c_39438148.mp4",
-    0.0
+   "clips": [
+    [
+     "c_31387638.mp4",
+     0.5
+    ],
+    [
+     "w2_n12.jpg"
+    ]
    ],
    "clauses": [
     [
-     "Five thousand yen a night in Namba.",
-     "¥5,000 a night in Namba."
+     "Solo in Osaka on five thousand yen a night?",
+     "Solo in Osaka on ¥5,000 a night?"
     ],
     [
-     "Can it buy you a private room? We checked real prices.",
-     "Can it buy a private room? We checked."
+     "Book a weeknight.",
+     "Book a weeknight."
     ]
    ]
   },
   {
-   "id": "a",
-   "clip": [
-    "c_28962556.mp4",
-    0.0
+   "id": "frame",
+   "clips": [
+    [
+     "c_34448615.mp4",
+     2.0
+    ],
+    [
+     "c_28962556.mp4",
+     0.5
+    ],
+    [
+     "c_31387614.mp4",
+     0.5
+    ]
+   ],
+   "clauses": [
+    [
+     "We priced the same two nights near Namba.",
+     "We priced the same two nights near Namba."
+    ],
+    [
+     "Saturday's cheapest private room? Eleven thousand yen.",
+     "Saturday's cheapest private room? ¥11,130."
+    ],
+    [
+     "DM us PRIVACY for the rest.",
+     "DM us PRIVACY for the rest."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "p_10024089.jpg"
+    ],
+    [
+     "p_27624011.jpg"
+    ],
+    [
+     "c_31387679.mp4",
+     0.0
+    ]
    ],
    "card": {
     "color": "coral",
-    "kicker": "WEEKNIGHT",
-    "title": "Private single",
-    "big": "≈¥5,000",
-    "small": "own bathroom, 600 m"
+    "kicker": "#1 WEEKNIGHT",
+    "title": "Toho Hotel Namba Motomachi",
+    "big": "¥5,015",
+    "small": "own toilet + shower, Wed"
    },
    "clauses": [
     [
-     "On a Wednesday, yes.",
-     "On a Wednesday, yes."
+     "Number one, Wednesday: Toho Hotel Namba Motomachi, five thousand and fifteen yen.",
+     "#1 Wednesday: Toho Hotel Namba Motomachi, ¥5,015."
     ],
     [
-     "A small single with its own bathroom, six hundred metres from the station, came to about five thousand.",
-     "A single with its own bathroom, 600 m away: about ¥5,000."
+     "Its own toilet and shower, just fifteen yen over budget.",
+     "Its own toilet and shower, just ¥15 over budget."
+    ],
+    [
+     "Then walk home and shut your own door.",
+     "Then walk home and shut your own door."
     ]
    ]
   },
   {
-   "id": "b",
-   "clip": [
-    "c_7815111.mp4",
-    0.0
-   ],
-   "card": {
-    "color": "mint",
-    "kicker": "JUST A BED",
-    "title": "Capsule",
-    "big": "≈¥3,200",
-    "small": "same night, nearby"
-   },
-   "clauses": [
+   "id": "pick2",
+   "clips": [
     [
-     "A capsule nearby was about three thousand two hundred.",
-     "A capsule nearby: about ¥3,200."
+     "w2_n01.jpg"
     ],
     [
-     "Fine if you only need a bed after a late night.",
-     "Fine if you only need a bed after a late night."
+     "w2_n05.jpg"
+    ],
+    [
+     "w2_n04.jpg"
+    ],
+    [
+     "w2_n06.jpg"
+    ],
+    [
+     "c_7815111.mp4",
+     0.5
     ]
-   ]
-  },
-  {
-   "id": "c",
-   "clip": [
-    "c_31387679.mp4",
-    0.0
    ],
    "card": {
     "color": "sun",
-    "kicker": "SATURDAY",
-    "title": "Cheapest room",
-    "big": "¥11,000+",
-    "small": "same 1 km radius"
+    "kicker": "#2 SATURDAY",
+    "title": "Capsule Hotel Asahi Plaza",
+    "big": "¥5,000",
+    "small": "the cheapest bed within 1 km, Sat"
    },
    "clauses": [
     [
-     "But on a Saturday,",
-     "But on a Saturday,"
+     "Number two, Saturday: a capsule at Asahi Plaza Shinsaibashi, five thousand yen.",
+     "#2 Saturday: a capsule at Asahi Plaza Shinsaibashi, ¥5,000."
     ],
     [
-     "the cheapest private room was over eleven thousand.",
-     "the cheapest private room was over ¥11,000."
+     "A bed, a locker and a shower, right where your night ends.",
+     "A bed, a locker and a shower, right where your night ends."
     ],
     [
-     "Five thousand only bought a capsule.",
-     "¥5,000 only bought a capsule."
+     "Check first: several capsules are men-only.",
+     "Check first: several capsules are men-only."
     ]
    ]
   },
   {
-   "id": "verdict",
-   "clip": [
-    "c_40101522.mp4",
-    0.0
-   ],
-   "card": {
-    "color": "lilac",
-    "kicker": "OUR PICK",
-    "title": "Book midweek",
-    "big": "Sun–Thu",
-    "small": "private room fits ¥5,000"
-   },
-   "clauses": [
+   "id": "detail",
+   "clips": [
     [
-     "So we suggest Namba midweek,",
-     "So we suggest Namba midweek,"
+     "p_18816214.jpg"
     ],
     [
-     "or the capsule on Saturday.",
-     "or the capsule on Saturday."
+     "p_3875523.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Most people miss this: one single was under three thousand yen, but the toilet is shared.",
+     "Most people miss this: one single was ¥2,998, but the toilet is shared."
     ]
    ]
   },
   {
    "id": "cta",
-   "clip": [
-    "c_29006525.mp4",
-    0.0
+   "clips": [
+    [
+     "w2_n08.jpg"
+    ],
+    [
+     "w2_n10.jpg"
+    ],
+    [
+     "w2_n11.jpg"
+    ]
    ],
    "clauses": [
     [
-     "Comment PRIVACY and we'll DM you the full guide.",
-     "Comment PRIVACY for the full guide."
+     "Two minutes away is a statue so mossy you can't see its face.",
+     "Two minutes away is a statue so mossy you can't see its face."
     ],
     [
-     "Follow for more Japan tips.",
-     "Follow for more Japan tips."
+     "How to splash it for luck? Link in bio.",
+     "How to splash it for luck? Link in bio."
     ]
    ]
   }
  ],
- "caption": "Can ¥5,000 a night buy you privacy in Namba? We checked real prices for the same nights 🏨\n\n🛏️ Wednesday: a single with its own bathroom, ~600 m from Namba Station, about ¥5,000\n🧳 Capsule nearby the same night: about ¥3,200\n📈 Saturday: the cheapest private room within 1 km was over ¥11,000, so ¥5,000 only bought a capsule\n\nOur pick: book Namba Sunday to Thursday, or take the capsule on Saturday.\nComment PRIVACY or DM us PRIVACY, and we'll send you the full guide 📩\n📌 Send this to the friend who's budgeting your Osaka trip.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#namba #osaka #budgettravel #capsulehotel #osakahotel #japantravel #japantrip #dotonbori"
+ "caption": "Solo in Osaka on ¥5,000 a night? Book a weeknight 🛏️\n\nWe priced the same two nights in December 2026, all within 1 km of Namba Station. On the Saturday, the cheapest private room jumped to ¥11,130.\n\n🥇 Weeknight: Toho Hotel Namba Motomachi, economy single, ¥5,015 (Wed)\n• Its own toilet and shower: the cheapest fully private room we found that night.\n• Just ¥15 over budget, for a lockable room and a shower nobody else uses. That's how you do Osaka cheaply: move your Namba nights midweek.\n• Finish the evening by the canal, walk back, and close a door that's yours alone.\n\n🥈 Saturday: Capsule Hotel Asahi Plaza Shinsaibashi, ¥5,000\n• The cheapest bed within 1 km that night: a bed, a locker and a shower.\n• It's the pick for a Friday or Saturday out: sleep close to where you finish.\n• Check before booking: several capsules are men-only or keep separate floors.\n\n💡 Most people miss this: Hotel LEAP's single was about ¥2,998 on the Wednesday, but its toilet is shared. Read the facilities before you book.\n\nTwo minutes from those capsules there's a moss-covered statue people splash for luck, and how to do it properly is in our guide 👆 link in bio (or DM us PRIVACY).\nPrices change daily: these are the two nights we sampled, so check your own dates.\n\n💬 Send this to the friend who always books the last bed in the capsule.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\nPhotos: Tokumeigakarinoaoshima CC0, Syced CC0, Mr.ちゅらさん CC BY-SA 4.0, Choi2451 CC BY-SA 3.0, Kok Leng Yeo CC BY 2.0, Ian G Shingler CC BY-SA 4.0, KENPEI CC BY-SA 3.0, Andrew Braun CC BY 3.0 via Wikimedia · Video/photo: Pexels\n\n#namba #shinsaibashi #osakabudget #capsulehotel #solotraveljapan #osakatravel #japantravel #japantrip"
 }

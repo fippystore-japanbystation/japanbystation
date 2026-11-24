@@ -32,3 +32,13 @@ WIKIMEDIA COMMONS photos in Downloads/jbs_media (w_NN.jpg; full title/author/lic
  Cup Noodles Museum Ikeda: w_14 chee.hong (giant cup), w_15 Camodr25, w_22/23/54/55 Tokumeigakarinoaoshima, w_37/38 663highland, w_16/46–53 Mr.ちゅらさん (w_53 shows private faces: avoid) · Hankyu Ikeda w_41 Dabikun, w_56 MaedaAkihiko (CC0) · Satsukiyama park w_42–44 Mti (park, not a clear view)
  NOTE: Commons file "CupNoodles Museum 2.jpg" is YOKOHAMA — never in Ikeda Reels.
 Photo covers: ffmpeg -ss on a .jpg gives no frame, so covers from photos use a 1-s mp4 made from the jpg (air/cv_w_NN.mp4, t 0.5).
+
+## Added 24 Nov (Reels run: namba-5000 re-cut, shibuya-crossing-view, minoh-falls)
+Pexels, SHIBUYA (Tokyo only, checked): street-level night crowd 28883548, 28883550 (cover) · aerial night 35291926, 31044316 · aerial day 31044317, 31044318, 37570306, 37570326, 38779837, 30077560 · street corner day 31053919
+NOT Shibuya: 31397167 (3D cat billboard = Shinjuku East) · unsure: 16626218 (crossing by elevated JR tracks, city unclear)
+Pexels photos: compact hotel room 10024089 · small bathroom 27624011 · shared sinks 3875523 · dim single bed 18816214 · (luxury: 32389432, 9696595 — not for budget topics) · 29139296 b/w restroom (unused)
+WIKIMEDIA (w2_*.jpg in Downloads/jbs_media; credit in captions):
+ Namba/Hozenji: w2_n01 Capsule Hotel Asahi Plaza Shinsaibashi (Tokumeigakarinoaoshima, CC0) · capsules Osaka 2007 w2_n02–n07 (Syced, CC0) · Hozenji Yokocho w2_n08 (Mr.ちゅらさん, CC BY-SA 4.0), w2_n09 night (Choi2451, CC BY-SA 3.0), w2_n13 day (KENPEI) · Mizukake Fudo moss w2_n10 (Kok Leng Yeo, CC BY 2.0) · Hozenji night w2_n11 (Ian G Shingler, CC BY-SA 4.0) · okonomiyaki lantern alley w2_n12 (Andrew Braun, CC BY 3.0) · w2_n14 is a DIFFERENT Hozen-ji (rural): never use
+ Shibuya: from Scramble Square w2_s01/s02, MAGNET looking down w2_s04/s05/s11 (all Dick Thomas Johnson, CC BY 2.0) · Shibuya Sky rooftop w2_s03 (Real Estate Japan, CC BY 2.0) · Starbucks Tsutaya window w2_s06/s07/s12 (DTJ) · Myth of Tomorrow signs w2_s08/s09 (Syced, CC0), mural w2_s10 (MathieuMD, CC BY-SA 4.0)
+ Minoh: falls autumn w2_m01/m02/m03/m25 (663highland, CC BY 2.5), w2_m09/m10 (Go Imai, CC BY-SA 2.0), w2_m08/m26 (Kanchi1979), w2_m05/m06 (::::=UT=::::), green/summer w2_m04, m07, m23 (not for autumn lines) · Ryuan-ji red bridge w2_m11 (KURATA TETSURO, low-res), w2_m12/m24 (KENPEI) · momiji tempura w2_m13/m14 (Fred Cherrygarden) · autumn w2_m15/16/17 (lumoplank CC0), w2_m18 (663highland) · Minoh Brewery w2_m19 (Jojo2000, 2007 stamp) · Hankyu Minoo line w2_m20 (Toshiki Miyake), w2_m22 (Haijimahideki), Minoo stn w2_m21 (Brancacube)
+ NOTE: c_39438148 and v_namba are the same file (same size): never both in one video.
