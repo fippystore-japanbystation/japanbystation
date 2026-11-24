@@ -1,7 +1,7 @@
 # Topics (work top to bottom; NEVER repeat anything in DONE)
 
 ## NEW REGIONS (Ling, 23 Nov) — every run: 1 line from the WORK ORDER + 2 lines from here
-Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
+FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / different dishes worth trying, mostly not mainstream with one or two classics, linking out to sources (PLAYBOOK 2 FOOD BLOG). They sit inside both lists; take them in order like any other line. Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
 - [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓ · reel ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts queued with images
 - [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓ · reel ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts queued with images
 - [x] R03 · fukuoka-where-to-stay-first-trip · FUKUOKA · page ✓ · reel ✓  (Fukuoka · Hakata vs Tenjin vs Nakasu-Kawabata) — FB posts queued with images
@@ -14,9 +14,17 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - [x] R10 · Nara · nara-day-trip-or-one-night · DEER · page ✓ — FB posts queued with images
 - [ ] R11 · Fukuoka · Yatai stalls: how they work, Nakasu vs Tenjin vs Nagahama, what to order, cash, seats
 - [ ] R12 · Hokkaido · Otaru from Sapporo: half day or overnight? (canal at dusk, Sankaku Market, train side)
+- [ ] F01 · Fukuoka · FOOD · Fukuoka beyond tonkotsu ramen: goboten udon, mentaiko, motsunabe, gomasaba (which are local habits, where locals eat them)
 - [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
 - [ ] R14 · Nagoya · Nagoya: worth a night between Tokyo and Osaka? (Sakae vs Meieki, local food: miso katsu, hitsumabushi)
+- [ ] F02 · Nagoya · FOOD · Nagoya's odd ones: ankake spaghetti, tebasaki wings, "morning service" coffee sets, plus hitsumabushi as the classic
 - [ ] R15 · Kyoto · Arashiyama without the crowds: what time, which order, where to eat
+- [ ] F03 · Okinawa · FOOD · Beyond taco rice: Okinawa soba vs soki soba, jushi, champuru, sata andagi (and where locals eat them in Naha)
+- [ ] F04 · Kanazawa · FOOD · Hanton rice, Kanazawa curry and Kanazawa oden: what locals actually eat (Omicho Market seafood as the classic)
+- [ ] F05 · Hokkaido · FOOD · Sapporo everyday eats: jingisukan, zangi, Hokkaido milk soft serve, miso ramen (where locals go)
+- [ ] F06 · Kyoto · FOOD · What Kyoto people eat: obanzai, nishin soba, saba-zushi, yudofu (classic vs local pick)
+- [ ] F07 · Hiroshima · FOOD · Hiroshima beyond okonomiyaki: Hiroshima tsukemen with chilli, anago-meshi, age-momiji, oysters
+- [ ] F08 · Nara · FOOD · Nara's own food: kakinoha-zushi, Miwa somen, chagayu, Yoshino kuzu
 
 ## DONE (guide slug · keyword · Reel?)  ← add every new item here
 - osaka-where-to-stay · OSAKA · Reel ✓ (Namba vs Umeda vs Tennoji by traveller type)
@@ -143,33 +151,40 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] F09 · Tokyo · FOOD · Monjayaki in Tsukishima: what it is, how to cook it at your table, a classic shop and a local one
 - [ ] 69 Mount Takao: split the group after the cable car  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 70 Atami lunch stop between Tokyo and Kyoto  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 06 Kitahama Sunday breakfast  (Osaka city · BRIEFS-KANSAI-40.md)
 - [ ] 16 Settsukyo, Takatsuki: river vs bus time  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 07 Noda as a base for Umeda  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] F10 · Osaka · FOOD · Osaka dishes most visitors never order: kasu udon, ikayaki (Hanshin Umeda), doteyaki, hakozushi, kitsune udon's birthplace
 - [ ] 17 Hirakata Park after lunch: pass or pay per ride  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 08 Shinsaibashi ¥15,000 floor space for two suitcases  (Osaka city · BRIEFS-KANSAI-40.md)
 - [ ] 18 Kishiwada half day from Namba  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] F11 · Tokyo · FOOD · Old Edo eats: fukagawa-meshi (Monzen-Nakacho / Kiyosumi), dojo nabe (Asakusa), chanko nabe (Ryogoku)
 - [ ] 09 Kaiyukan: dinner after the aquarium  (Osaka city · BRIEFS-KANSAI-40.md)
 - [ ] 19 Izumisano seafood lunch before a flight  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 10 Osaka Castle: which side to stay  (Osaka city · BRIEFS-KANSAI-40.md)
 - [ ] 20 KIX 8 a.m. flight: where to sleep  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 21 Kobe Kitano + waterfront before dinner  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 22 Kobe beef ¥8,000: lunch or dinner  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] F12 · Kansai · FOOD · Akashiyaki (Akashi's egg-rich "takoyaki" dipped in broth) vs Osaka takoyaki, and where to try each
 - [ ] 23 Nada sake: two breweries after lunch  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 24 Arima Onsen: day bath vs overnight  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 25 Mount Rokko night view and getting back  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 26 Akashi Uonotana at 2 p.m.  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] F13 · Tokyo · FOOD · Tokyo sweets locals queue for: taiyaki in Ningyocho/Azabu-Juban, ningyo-yaki, anmitsu (classic + niche)
 - [ ] 27 Himeji castle + garden, back in Osaka by six  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 28 Takarazuka without a theatre ticket  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 29 Uji: temple or matcha first (noon start)  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 30 Fushimi Inari vs sake district order  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] F14 · Kyoto · FOOD · Uji and Kyoto tea sweets beyond matcha ice cream: warabi mochi, chazuke, Uji matcha soba
 - [ ] 31 Arashiyama overnight for first light  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 32 Komyo-ji, Nagaokakyo without a car  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 33 Amanohashidate same-day return  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 34 Nara Park from Umeda vs Namba  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 35 Naramachi at 4 p.m.  (Kansai trip · BRIEFS-KANSAI-40.md)
+- [ ] F15 · Kansai · FOOD · Wakayama ramen (chuka soba with hayazushi) and Kuroshio tuna: the Wakayama food day
 - [ ] 36 Asuka four hours: walk, bike or e-bike  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 37 Lake Biwa: which station for the water  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 38 Omihachiman canal boats in half a day  (Kansai trip · BRIEFS-KANSAI-40.md)
