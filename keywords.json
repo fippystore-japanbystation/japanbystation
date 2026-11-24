@@ -215,6 +215,14 @@
   "url": "https://japanbystation.com/hakone-private-onsen-which-booking",
   "title": "Hakone 'Private Onsen': Which Booking Actually Gets You One?"
  },
+ "ENOSHIMA": {
+  "url": "https://japanbystation.com/enoshima-without-the-stairs",
+  "title": "Enoshima Without the Stairs: Escalator, Boat or Stay on the Shore?"
+ },
+ "INARI": {
+  "url": "https://japanbystation.com/fushimi-inari-dawn-day-or-after-dark",
+  "title": "Fushimi Inari: Dawn, Afternoon or After Dark? How Far Up Is Worth It"
+ },
  "ROPEWAY": {
   "url": "https://japanbystation.com/gora-to-lake-ashi-bus-or-ropeway",
   "title": "Gora to Lake Ashi: Bus or Ropeway?"
@@ -238,6 +246,10 @@
  "NANKAI": {
   "url": "https://japanbystation.com/namba-station-which-namba",
   "title": "Namba Station: Which Namba, Which Exit for Your Hotel"
+ },
+ "DEER": {
+  "url": "https://japanbystation.com/nara-day-trip-or-one-night",
+  "title": "Nara: Day Trip or One Night? Deer, Trains and a Quiet Evening"
  },
  "UMEDA": {
   "url": "https://japanbystation.com/osaka-station-vs-umeda",
