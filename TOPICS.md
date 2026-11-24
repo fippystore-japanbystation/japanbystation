@@ -8,8 +8,8 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - [x] R04 · new-chitose-airport-to-sapporo · CHITOSE · page ✓  (Hokkaido · Rapid Airport vs bus vs taxi/car, winter) — FB posts queued with images
 - [x] R05 · Kyoto · kansai-airport-to-kyoto · HARUKA · page ✓
 - [x] R06 · Hiroshima · hiroshima-miyajima-one-day · MIYAJIMA · page ✓
-- [~] 2026-11-24 07:42UTC R07 · Okinawa · Naha basics: Kokusai-dori, Asahibashi or Omoromachi? Do you need a car? (monorail, Yui Rail pass, buses)
-- [~] 2026-11-24 07:42UTC R08 · Hokkaido · Where Sapporo locals eat: Nijo Market vs Curb Market, soup curry, ramen beyond the Ramen Alley
+- [x] R07 · Okinawa · naha-where-to-stay-do-you-need-a-car · NAHA · page ✓ — FB posts queued with images
+- [x] R08 · Hokkaido · sapporo-where-locals-eat · SOUPCURRY · page ✓ — FB posts queued with images
 - [ ] R09 · Kyoto · Fushimi Inari: dawn, afternoon or after dark? (how far up is worth it, crowds, safety at night)
 - [ ] R10 · Nara · Nara as a day trip or one night? (deer park timing, Kintetsu vs JR from Osaka/Kyoto, quiet Naramachi evening)
 - [ ] R11 · Fukuoka · Yatai stalls: how they work, Nakasu vs Tenjin vs Nagahama, what to order, cash, seats
@@ -78,6 +78,11 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - kansai-airport-to-kyoto · HARUKA (R05: HARUKA One-way ¥2,700 from 1 Nov 2026 (was ¥2,200); regular unreserved ≈¥3,100; 75–80 min, last 22:16; limousine ¥2,800 85–90 min to Hachijo, last T1 23:20→0:45, no reservations to Kyoto; Hankyu via Osaka ¥1,670 ≈1 h 50; ICOCA & HARUKA not on JR West list; Skyway free 10–22)
 - hiroshima-miyajima-one-day · MIYAJIMA (R06: museum 7:30 (online reservation for 7:30–8:30); JR 25–30 min ≈¥420 + ferry ¥200; tram ¥240 70–75 min; Peace Park boat ¥2,400/¥4,400, last back 17:30; walk to torii <100 cm, floats >250 cm (Miyajima Tourist Assoc.); JR torii-route ferries 9:10–16:10; Okonomi-mura 23 shops; Anagomeshi Ueno)
 
+- kamakura-from-noon-temples-or-sunset · KAMAKURA (brief 64: Tokyo 11:36 → Kamakura 12:33 ¥1,040/IC ¥1,034; Enoden ¥200/¥200/¥220; Kotoku-in 8–17 Oct–Mar (17:30 Apr–Sep) last entry −15 min ¥300; Hasedera last entry 16:30 Jul–Mar ¥400, Kaikoan 10–16; Inamuragasaki 8 min, Fuji early Dec–late Feb windy days; sunset ~16:30 winter / ~19:00 June; Hachimangu 6–20; bills Shichirigahama 7–21) 
+- naha-where-to-stay-do-you-need-a-car · NAHA (R07: Yui Rail airport→Asahibashi 11 min ¥290 / Kenchomae 13 ¥290 / Makishi 16 ¥320 / Omoromachi 19 ¥320 / Shuri 27 ¥360; 1-day ¥1,000 24 h, 2-day ¥1,800; Suica etc. OK; Churaumi ~2 h car / ~3 h bus; Makishi market 75+12 shops, mochiage since 1990; Kokusai-dori Sunday transit mall 12–18; Shuri main hall interior reopened 23 Nov 2026)
+- sapporo-where-locals-eat · SOUPCURRY (R08: Curb Market ~60 shops ~20 restaurants 6–17 (rest. from 7), Nijuyonken 7 min, Sakae-yu from 13:00, free shuttle Kita no Ryoba / Kitano Gourmet-tei; Nijo shops 7–18 rest. 6–21; Garaku, Okushiba Shoten, Picante + Rakkyo (Kotoni); Ramen Yokocho 17 shops 42 m; Keyaki 10–2; Arinko, Sandria)
+
+- PHOTO BACKFILL (24 Nov): sapporo-where-to-stay-first-trip, new-chitose-airport-to-sapporo, kyoto-where-to-stay-first-trip got 3 photos each (now 5); no facts changed
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
 UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 IN ORDER (they start general: which station, airport arrival, exits), then the remaining Kansai briefs in order. No more alternating for now. Reels follow the same sequence (newest guides first).
@@ -129,7 +134,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 61 · hakone-freepass-ryokan-one-night · FREEPASS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 62 · hakone-private-onsen-which-booking · ONSEN · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 63 · gora-to-lake-ashi-bus-or-ropeway · ROPEWAY · page ✓ (reframed 24 Nov as an evergreen bus-vs-ropeway guide; old slug hakone-ropeway-closed-plan-b 301s to it)
-- [~] 2026-11-24 07:42UTC 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 64 · kamakura-from-noon-temples-or-sunset · KAMAKURA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [ ] 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
