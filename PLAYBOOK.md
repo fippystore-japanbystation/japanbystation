@@ -84,6 +84,8 @@ For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` �
 - Key points go in dashed boxes (tipbox / bookbox / hotbox / onemore are styled dashed); sections alternate background bands automatically.
 - PHOTO BACKFILL: older guides with fewer than 3 `class="photo"` figures get 2–3 more, 3 guides per website run, starting with the big-question guides of each city.
 
+- FACEBOOK vs IG (Ling, 24 Nov): Facebook captions can carry a clickable link, so Reels on the Facebook Page never say "comment/DM KEYWORD" or "link in bio". n8n rewrites the caption for FB automatically: the tip stays, the CTA part becomes "👉 <reason>: <guide URL>". Facebook text posts never use keywords either; they use the playful click line + link (2b).
+
 ## 3. Reels (approved style; do not change without Ling)
 ### REEL FORMAT v3 (Ling, 23 Nov) — OVERRIDES any older line below that says "three answers" or a comment-only CTA
 Reels now carry the same depth as the deep guides. Approved example structure (Tenma, ~35 s):
