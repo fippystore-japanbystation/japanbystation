@@ -84,17 +84,17 @@ For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` �
 - Key points go in dashed boxes (tipbox / bookbox / hotbox / onemore are styled dashed); sections alternate background bands automatically.
 - PHOTO BACKFILL: older guides with fewer than 3 `class="photo"` figures get 2–3 more, 3 guides per website run, starting with the big-question guides of each city.
 
-- FACEBOOK vs IG (Ling, 24 Nov): Facebook captions can carry a clickable link, so Reels on the Facebook Page never say "comment/DM KEYWORD" or "link in bio". n8n rewrites the caption for FB automatically: the tip stays, the CTA part becomes "👉 <reason>: <guide URL>". Facebook text posts never use keywords either; they use the playful click line + link (2b).
+- FACEBOOK vs IG (Ling, 24 Nov): Reels go to IG and the Facebook Page together with the same video and caption; "link in bio" stays as it is. Only a "comment/DM KEYWORD" sentence is swapped on Facebook (the keyword auto-reply only works on IG): n8n keeps the tip and puts "👉 <reason>: <guide URL>" in place of that sentence. Facebook text posts never use keywords either; they use the playful click line + link (2b).
 
 ## 3. Reels (approved style; do not change without Ling)
 ### REEL FORMAT v3 (Ling, 23 Nov) — OVERRIDES any older line below that says "three answers" or a comment-only CTA
 Reels now carry the same depth as the deep guides. Approved example structure (Tenma, ~35 s):
 1. HOOK 0–3 s: the answer + the situation, e.g. "Skip Dotonbori tonight. Osaka eats one stop away, in Tenma."
 2. One framing fact 3–6 s (e.g. "A 2.6 km covered street, priced for locals.").
-3. TOP 2 PICKS, named and specific: "Number one: Harukoma, the oldest sushi shop on the street. Plates from about ¥100. Go mid-afternoon. Closed Tuesdays." / "Number two: …". Each = name + 2–3 concrete details (price, time, closing day, exit, what to order). Cards "#1 <name> · <key fact>", "#2 …".
+3. TOP 2 PICKS, named and specific: "Number one: Harukoma, the oldest sushi shop on the street. Plates from about ¥100. Go mid-afternoon. Closed Tuesdays." / "Number two: …". Each = name + EXACTLY 3 concrete details (Ling, 24 Nov: every point gets three elaborations), e.g. price · time/closing day · what to order or which exit. Cards "#1 <name> · <key fact>", "#2 …".
 4. A LESS-KNOWN DETAIL most people miss ("At Harukoma's tables you write your order on paper, so you don't need Japanese."). It must be on the guide page.
 5. ENDING = exciting soft hook with a little emotion, pointing to the guide; vary it. Examples: "That's just the afternoon. The best part happens after dark, and it's all in our guide: link in bio." / "The route that ties it together is in our bio. Or DM us TENMA and we'll send it." / "There's one more stop we'd never skip. It's waiting in our DMs: send TENMA." Main CTAs: link in bio and DM the keyword. "Comment KEYWORD" only now and then (at most 1 Reel in 4). Never "full guide", never pushy.
-Caption: hook line + emoji; 🥇 / 🥈 lines with the concrete details; 💡 the less-known detail; the soft-hook CTA (link in bio 👆 / DM KEYWORD); share line; follow line; 5–8 hashtags.
+Caption: hook line + emoji; 🥇 <pick 1> then its 3 details on 3 short lines (• …), 🥈 <pick 2> with its 3 details the same way; 💡 the less-known detail; the soft-hook CTA (link in bio 👆 / DM KEYWORD); share line; follow line; 5–8 hashtags.
 Every fact must be on that guide's page. Shots: max 4 s each, matching the line (rules 5, 5b, 5c).
 
 - Mature male voice with intonation, slow pace (Kokoro blend am_michael 0.65 + am_fenrir 0.35, speed 1.0, built into reelkit).
