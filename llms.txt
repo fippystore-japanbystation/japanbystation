@@ -2,13 +2,15 @@
 
 > English guides to Japan travel, organised around train stations: where to stay, what is within walking distance, local markets, nightlife, and how many minutes it takes to reach the airport, day trips and sights. Every time and price is checked against operators, airports and tourism bureaus, with the check date shown on each page.
 
-## Kyoto
-- [First Trip to Kyoto: Kyoto Station, Kawaramachi/Gion or Karasuma?](https://japanbystation.com/kyoto-where-to-stay-first-trip): Karasuma for most first trips: 3 minutes from Kyoto Station, one stop from Kawaramachi, Hankyu to Arashiyama. Kyoto Station for JR day trips; Gion for evenings.
-
 ## Hokkaido
+- [New Chitose Airport to Sapporo: Train, Bus or Car?](https://japanbystation.com/new-chitose-airport-to-sapporo): The train is fastest and Suica works. The bus wins when it stops at your hotel door. A car only makes sense if Sapporo isn't your last stop.
 - [First Trip to Sapporo: Sapporo Station, Odori or Susukino?](https://japanbystation.com/sapporo-where-to-stay-first-trip): Odori for most first trips, Sapporo Station for early trains and big bags, Susukino if dinner runs late. All three are joined underground.
 
+## Fukuoka
+- [First Trip to Fukuoka: Hakata, Tenjin or Nakasu?](https://japanbystation.com/fukuoka-where-to-stay-first-trip): The airport is 5 minutes from Hakata by subway. Hakata for trains, Tenjin for shopping, Nakasu for yatai nights, and why all three work.
+
 ## Tokyo
+- [Hakone 'Private Onsen': Which Booking Actually Gets You One?](https://japanbystation.com/hakone-private-onsen-which-booking): An 'open-air bath' room isn't always hot-spring water. How to pick between an in-room bath, a reservable private bath and a two-hour private bath room in Yumoto.
 - [Hakone Freepass for a Ryokan Night: Worth It or Not?](https://japanbystation.com/hakone-freepass-ryokan-one-night): Ryokan plus one short outing: skip the pass and save about ¥3,400. Ropeway and boat in the plan: the pass wins by about ¥1,200.
 - [One Car-Free Night in Hakone: Yumoto, Gora or Lake Ashi?](https://japanbystation.com/hakone-base-yumoto-gora-lake-ashi): Yumoto for late arrivals and easy dinners, Gora for the museum and ropeway side, Lake Ashi for a quiet morning if you arrive by afternoon.
 - [Hakone Ryokan With Dinner: What Time Should You Leave Tokyo?](https://japanbystation.com/hakone-ryokan-dinner-leave-tokyo): For an 18:00 ryokan check-in in Gora, take the 15:00 Romancecar; add the Open-Air Museum on the 10:00; or go room-only in Yumoto and eat out by 21:30.
@@ -41,6 +43,9 @@
 - [Narita or Haneda: Which Train Gets You to Your Tokyo Hotel Fastest?](https://japanbystation.com/tokyo-airport-which-train): Keikyu, Monorail, N'EX or Skyliner? Official times and fares, matched to where your hotel is.
 - [Getting Around Tokyo: IC Card, JR or Metro, and Is the Subway Pass Worth It?](https://japanbystation.com/tokyo-ic-card-or-subway-pass): Suica, JR vs Metro, and the exact number of rides a day where the Tokyo Subway Ticket pays off.
 - [First Trip to Tokyo: Which Area Should You Stay In?](https://japanbystation.com/tokyo-where-to-stay-first-trip): Shinjuku, Tokyo Station or Asakusa/Ueno? Same-night prices for two and the trips each base makes easy.
+
+## Kyoto
+- [First Trip to Kyoto: Kyoto Station, Kawaramachi/Gion or Karasuma?](https://japanbystation.com/kyoto-where-to-stay-first-trip): Karasuma for most first trips: 3 minutes from Kyoto Station, one stop from Kawaramachi, Hankyu to Arashiyama. Kyoto Station for JR day trips; Gion for evenings.
 
 ## Osaka
 - [Itami Sky Park: Can You Watch Planes Without a Car?](https://japanbystation.com/itami-sky-park-without-a-car): Hankyu to Itami + city bus 25 = ¥490 each way. Best day: go out via the airport deck, back via the bus.

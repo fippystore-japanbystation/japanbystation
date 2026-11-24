@@ -198,5 +198,17 @@
  "STAY": {
   "url": "https://japanbystation.com/tokyo-where-to-stay-first-trip",
   "title": "First Trip to Tokyo: Which Area Should You Stay In?"
+ },
+ "CHITOSE": {
+  "url": "https://japanbystation.com/new-chitose-airport-to-sapporo",
+  "title": "New Chitose Airport to Sapporo: Train, Bus or Car?"
+ },
+ "FUKUOKA": {
+  "url": "https://japanbystation.com/fukuoka-where-to-stay-first-trip",
+  "title": "First Trip to Fukuoka: Hakata, Tenjin or Nakasu?"
+ },
+ "ONSEN": {
+  "url": "https://japanbystation.com/hakone-private-onsen-which-booking",
+  "title": "Hakone 'Private Onsen': Which Booking Actually Gets You One?"
  }
 }
