@@ -20,3 +20,5 @@ kyoto-where-to-stay-first-trip: w3_k18 Gion lantern street at night with taxi (W
 shibuya-quiet-base-yoyogi: w3_y09 Yoyogi Park red maples with crowd, autumn (Wikimedia)
 fukuoka-where-to-stay-first-trip: cv_w4_02 Nakasu yatai stalls at night, lit ramen signs (Wikimedia, Yoshikazu TAKADA)
 shinjuku-two-hours-before-dinner: cv_p_38410095 Shinjuku Gyoen garden with Docomo tower (Pexels)
+new-chitose-airport-to-sapporo: cv_p_35837217 ANA plane at snowy New Chitose gate (Pexels)
+sensoji-morning-or-evening: c_18688462 Senso-ji pagoda lit at night with Skytree (Pexels)

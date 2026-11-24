@@ -1,0 +1,172 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "new-chitose-airport-to-sapporo",
+ "keyword": "CHITOSE",
+ "music": "m_tokyostroll.mp3",
+ "emph": [
+  "Sapporo",
+  "Suica",
+  "Odori",
+  "Hakodate",
+  "u-seat"
+ ],
+ "hook": {
+  "tag": "BIG SUITCASE, SAPPORO?",
+  "lines": [
+   "Take the",
+   "airport train"
+  ]
+ },
+ "cover": {
+  "title": "Big suitcase?|Take the train",
+  "category": "NEW CHITOSE, SAPPORO",
+  "color": "sky",
+  "clip": "cv_p_35837217.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "p_35837219.jpg"
+    ],
+    [
+     "p_36053234.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Big suitcase into Sapporo?",
+     "Big suitcase into Sapporo?"
+    ],
+    [
+     "Take the airport train.",
+     "Take the airport train."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "w5_12.jpg"
+    ],
+    [
+     "w5_08.jpg"
+    ],
+    [
+     "w5_01.jpg"
+    ],
+    [
+     "p_36595976.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "#1 FASTEST",
+    "title": "Rapid Airport train",
+    "small": "station under the terminal"
+   },
+   "clauses": [
+    [
+     "Number one: the Rapid Airport.",
+     "Number one: the Rapid Airport."
+    ],
+    [
+     "Its station sits under the terminal:",
+     "Its station sits under the terminal:"
+    ],
+    [
+     "tap Suica and roll straight on.",
+     "tap Suica and roll straight on."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "w5_04.jpg"
+    ],
+    [
+     "c_31150440.mp4",
+     1.0
+    ],
+    [
+     "w5_02.jpg"
+    ],
+    [
+     "p_36464542.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "#2 DOOR TO DOOR",
+    "title": "Airport bus",
+    "small": "stops at big Odori hotels"
+   },
+   "clauses": [
+    [
+     "Number two: the airport bus,",
+     "Number two: the airport bus,"
+    ],
+    [
+     "if your Odori hotel is a stop.",
+     "if your Odori hotel is a stop."
+    ],
+    [
+     "Pay by cash or card, not Suica.",
+     "Pay by cash or card, not Suica."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "w5_13.jpg"
+    ],
+    [
+     "p_36595968.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Busy day? The reserved u-seat car",
+     "Busy day? The reserved u-seat car"
+    ],
+    [
+     "saves room for your case.",
+     "saves room for your case."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w5_15.jpg"
+    ],
+    [
+     "p_29989984.jpg"
+    ],
+    [
+     "w5_16.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "A Hakodate seafood bowl waits in the terminal.",
+     "A Hakodate seafood bowl waits in the terminal."
+    ],
+    [
+     "DM us CHITOSE to find it.",
+     "DM us CHITOSE to find it."
+    ]
+   ]
+  }
+ ],
+ "caption": "Big suitcase into Sapporo? Take the airport train ✈️🚆\n\n🥇 The JR Rapid Airport train\n• Its station is directly under New Chitose's Domestic Terminal, so you just follow the signs down from arrivals to the platform.\n• With Suica, ICOCA, PASMO or Kitaca you just tap through and take any non-reserved car, no ticket queue. Without one, the ticket machines take cash only, while the orange reserved-seat machines and the JR counter take cards.\n• Luggage is limited to two items each, which suits most trips. More big bags than that? Look at the bus or a pre-booked transfer instead.\n\n🥈 The airport bus, if your hotel is a stop\n• Hokuto Kotsu's buses stop at Sapporo Station, Susukino and several big Odori hotels, so you can skip the station entirely and step off at your door.\n• No reservation needed: you pay as you get off, by cash, contactless card or PayPay. Suica doesn't work on it.\n• It's one suitcase per person in the hold, and since there are no reservations, a full bus means waiting for the next one.\n\n💡 At busy times, car 4 is the reserved u-seat car: a guaranteed seat and space for a big case. You can book it ahead online as a ticketless reservation.\n\nBefore you even head down to the trains, a Hakodate seafood bowl from a shop that began at Hakodate's morning market is waiting in the terminal 🍣 DM us CHITOSE and we'll send you where.\n\n🧳 Send this to whoever's sharing the luggage trolley.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#newchitoseairport #sapporo #hokkaido #sapporotravel #hokkaidotravel #japantravel #japantrip"
+}

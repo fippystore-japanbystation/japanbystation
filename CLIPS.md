@@ -62,3 +62,12 @@ WIKIMEDIA (w4_*.jpg in Downloads/jbs_media; credit on the GUIDE page only):
 Pexels, SHINJUKU GYOEN (checked): 38410094/95/96, 28405153, 28405154, 31100329, 35468235, 37644815, 40953632 · TMG building 34840277, 35074673, 41116332, 31171932 · Tokyo night from high up 40437973 (photo), 31024383 (Docomo tower at night), 30995856 (Nishi-Shinjuku towers at night)
 Pexels, FUKUOKA: canal/river 29398692, 29398691, 38932251, 39547560 · river + bridge day video 32079491 (landscape)
 Unsure, skip: 28283592 ("night fever Fukuoka", city not confirmed), 35205660 (dark park + tower), 35589844 / 29188783 (autumn garden/park, place not confirmed)
+
+## Added 25 Nov (Reels run: new-chitose-airport-to-sapporo, sensoji-morning-or-evening)
+Pexels, NEW CHITOSE / SAPPORO (checked): ANA plane at snowy Chitose gate 35837217 (cover), 35837219 · Chitose waiting-hall seats 19267311 · JR Hokkaido trains in deep snow 36595976, 36595968 · snowy Sapporo streets 36464542, 36503366, 37402385 · TV Tower in snow 36053234 · Sapporo night tram 37437791 · generic seafood bowl 29989984
+Pexels, ASAKUSA / SENSO-JI (Tokyo only, checked): videos 18688462 pagoda + Skytree at night (cover), 34183481 midday crowd at pagoda, 37688848 main hall + incense burner (day), 37605915 street by Kaminarimon (day), 37688859 roof + sky (weak) · photos: quiet Nakamise morning 41068409, Hozomon + pagoda empty 21759449, crowded Nakamise 33434176 / 32630950, Kaminarimon day 15880175, lantern 21792352, aerial Nakamise 35896325, night: Kaminarimon crowd 25526694, Nakamise closed stalls from above 19592986, pagoda 38738804 / 40996151, Hozomon 8508506, hall 18996952 · Japanese breakfast tray 39692061
+NOT Japan, never use: video 30352449 ("night view of traditional asian architecture" = Chinese-style building, not Senso-ji)
+Pexels png-only (fail as .jpeg): 31251621, 31251612, 20449858
+WIKIMEDIA (w5_*.jpg in Downloads/jbs_media; author/licence in w5_index_1125.json; credit on the GUIDE page only):
+ New Chitose: JR station entrance 2025 w5_12 (AlphaBetaGamma), gates w5_08 / platform w5_07 (has a departure board WITH TIMES: avoid) / concourse w5_09 (Mister0124), older platform w5_01 (hequilizm), bus ticket booth w5_04 (Tennen-Gas), Hokkaido Ramen Dojo 3F w5_14–16 (ノボホショコロトソ) · trains: 733 Rapid Airport w5_13 (MaedaAkihiko CC0), w5_05 (Rsa) · Hokuto Kotsu AIRPORT LINER w5_02 (PD), plain Hokuto bus w5_00 (PD) · w5_10 Airport Liner is at OKADAMA airport: don't use for Chitose
+ Asakusa Engei Hall (rakugo): w5_11 (Nesnad), w5_03 (Kakidai), w5_06 street with Don Quijote tower (Yoshio Kohara)

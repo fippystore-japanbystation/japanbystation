@@ -1,0 +1,174 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "sensoji-morning-or-evening",
+ "keyword": "SENSOJI",
+ "music": "m_petals.mp3",
+ "emph": [
+  "Senso-ji",
+  "Nakamise",
+  "shutters",
+  "free",
+  "rakugo"
+ ],
+ "hook": {
+  "tag": "SENSO-JI CROWDS?",
+  "lines": [
+   "Come early,",
+   "or after dinner"
+  ]
+ },
+ "cover": {
+  "title": "Skip midday|Senso-ji",
+  "category": "ASAKUSA, TOKYO",
+  "color": "sun",
+  "clip": "c_18688462.mp4",
+  "t": 1.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "c_34183481.mp4",
+     1.0
+    ],
+    [
+     "p_33434176.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Skip midday Senso-ji.",
+     "Skip midday Senso-ji."
+    ],
+    [
+     "Come early, or after dinner.",
+     "Come early, or after dinner."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "p_41068409.jpg"
+    ],
+    [
+     "c_37688848.mp4",
+     0.5
+    ],
+    [
+     "p_39692061.jpg"
+    ],
+    [
+     "p_21759449.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "#1 EARLY MORNING",
+    "title": "Before breakfast",
+    "small": "inside the main hall, no crowds"
+   },
+   "clauses": [
+    [
+     "Number one: early morning.",
+     "Number one: early morning."
+    ],
+    [
+     "Step inside the main hall before the stalls open,",
+     "Step inside the main hall before the stalls open,"
+    ],
+    [
+     "then warm up with miso soup nearby.",
+     "then warm up with miso soup nearby."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "p_25526694.jpg"
+    ],
+    [
+     "p_38738804.jpg"
+    ],
+    [
+     "p_19592986.jpg"
+    ],
+    [
+     "c_18688462.mp4",
+     6.0
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#2 AFTER DINNER",
+    "title": "Lit-up gates",
+    "small": "painted shutters on Nakamise"
+   },
+   "clauses": [
+    [
+     "Number two: after dinner.",
+     "Number two: after dinner."
+    ],
+    [
+     "The gates and the pagoda glow,",
+     "The gates and the pagoda glow,"
+    ],
+    [
+     "and the closed stalls show painted shutters.",
+     "and the closed stalls show painted shutters."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "p_15880175.jpg"
+    ],
+    [
+     "p_35896325.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "For the view down Nakamise,",
+     "For the view down Nakamise,"
+    ],
+    [
+     "try the tourist centre's free terrace.",
+     "try the tourist centre's free terrace."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w5_11.jpg"
+    ],
+    [
+     "w5_03.jpg"
+    ],
+    [
+     "w5_06.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Nearby, comic storytellers perform every day.",
+     "Nearby, comic storytellers perform every day."
+    ],
+    [
+     "It's in our bio, or DM us SENSOJI.",
+     "It's in our bio, or DM us SENSOJI."
+    ]
+   ]
+  }
+ ],
+ "caption": "Skip midday Senso-ji. Come early, or after dinner 🏮\n\n🥇 Early morning, before breakfast\n• The grounds never close, so you can walk through Kaminarimon and down Nakamise before a single stall has opened.\n• Come early if you want to step inside the main hall without the crowds. It's the one thing an evening visit can't give you.\n• Then walk to MISOJYU, a miso soup shop nearby, for its morning set: miso soup, a rice ball, half a seasoned egg and pickles. A warm, quiet start before Asakusa wakes up.\n\n🥈 After dinner, lit up\n• Kaminarimon, Hozomon, the five-storied pagoda and the main hall are lit every evening, and the paths are quieter than at midday.\n• Walk Nakamise once the shops have closed: the stall shutters are painted, so the street turns into a gallery you never see by day.\n• The hall itself is shut at night, so this visit is for photos and a slow walk. Staying in Asakusa? You can do both quiet visits in one day.\n\n💡 For the view straight down Nakamise, go up to the free 8th-floor terrace of the Asakusa Culture Tourist Information Center, right opposite Kaminarimon.\n\nA short walk away, one of only four Tokyo theatres with rakugo every day of the year lets you drift in between acts 🎭 It's in our bio, or DM us SENSOJI.\n\n👫 Send this to whoever you're exploring Tokyo with.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#sensoji #asakusa #nakamise #tokyotemple #tokyotravel #japantravel #japantrip"
+}
