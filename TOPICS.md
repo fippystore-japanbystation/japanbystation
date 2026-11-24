@@ -10,8 +10,8 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - [x] R06 · Hiroshima · hiroshima-miyajima-one-day · MIYAJIMA · page ✓
 - [x] R07 · Okinawa · naha-where-to-stay-do-you-need-a-car · NAHA · page ✓ — FB posts queued with images
 - [x] R08 · Hokkaido · sapporo-where-locals-eat · SOUPCURRY · page ✓ — FB posts queued with images
-- [ ] R09 · Kyoto · Fushimi Inari: dawn, afternoon or after dark? (how far up is worth it, crowds, safety at night)
-- [ ] R10 · Nara · Nara as a day trip or one night? (deer park timing, Kintetsu vs JR from Osaka/Kyoto, quiet Naramachi evening)
+- [~] 24 Nov 11:43Z R09 · Kyoto · Fushimi Inari: dawn, afternoon or after dark? (how far up is worth it, crowds, safety at night)
+- [~] 24 Nov 11:43Z R10 · Nara · Nara as a day trip or one night? (deer park timing, Kintetsu vs JR from Osaka/Kyoto, quiet Naramachi evening)
 - [ ] R11 · Fukuoka · Yatai stalls: how they work, Nakasu vs Tenjin vs Nagahama, what to order, cash, seats
 - [ ] R12 · Hokkaido · Otaru from Sapporo: half day or overnight? (canal at dusk, Sankaku Market, train side)
 - [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
@@ -135,7 +135,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 62 · hakone-private-onsen-which-booking · ONSEN · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 63 · gora-to-lake-ashi-bus-or-ropeway · ROPEWAY · page ✓ (reframed 24 Nov as an evergreen bus-vs-ropeway guide; old slug hakone-ropeway-closed-plan-b 301s to it)
 - [x] 64 · kamakura-from-noon-temples-or-sunset · KAMAKURA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
-- [ ] 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 24 Nov 11:43Z 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
