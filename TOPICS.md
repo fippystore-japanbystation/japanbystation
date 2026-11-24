@@ -152,8 +152,8 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 63 · gora-to-lake-ashi-bus-or-ropeway · ROPEWAY · page ✓ (reframed 24 Nov as an evergreen bus-vs-ropeway guide; old slug hakone-ropeway-closed-plan-b 301s to it)
 - [x] 64 · kamakura-from-noon-temples-or-sunset · KAMAKURA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 65 · enoshima-without-the-stairs · ENOSHIMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
-- [ ] D00 · Tokyo · DEPACHIKA · Depachika 101: how Japan's department-store basement food halls work (what's down there, tasting, eat-in or take away, closing-time discounts, keeping things cold, tax-free on food) — hub page, link every D page to it
-- [ ] D01 · Tokyo · DEPACHIKA · Isetan Shinjuku food hall (B1): the refined things worth buying (sweets, bento, gift boxes, seasonal), what makes it different, best time to go
+- [ ] D00 · Tokyo · DEPACHIKA · Depachika 101: how Japan's department-store basement food halls work (what's down there, free tasting, closing-time discounts, eat-in or take away, the restaurant floors upstairs, tax-free on food) — hub page, link every D page to it
+- [ ] D01 · Tokyo · DEPACHIKA · Isetan Shinjuku food hall: the refined things worth buying (sweets, bento, gift boxes, seasonal), discounts and tasting, the restaurant floor upstairs
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
