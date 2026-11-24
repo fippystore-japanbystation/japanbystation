@@ -1,0 +1,2 @@
+/guides/:slug /:slug 301
+/guides/:slug.html /:slug.html 301
