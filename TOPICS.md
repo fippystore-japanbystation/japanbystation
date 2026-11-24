@@ -12,15 +12,19 @@ FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / differe
 - [x] R08 · Hokkaido · sapporo-where-locals-eat · SOUPCURRY · page ✓ — FB posts queued with images
 - [x] R09 · Kyoto · fushimi-inari-dawn-day-or-after-dark · INARI · page ✓ — FB posts queued with images
 - [x] R10 · Nara · nara-day-trip-or-one-night · DEER · page ✓ — FB posts queued with images
+- [ ] D03 · Kyoto · DEPACHIKA · Kyoto Station's JR Kyoto Isetan food hall + Daimaru / Takashimaya Kyoto: Kyoto sweets, tsukemono, last-minute gifts before the train
 - [ ] R11 · Fukuoka · Yatai stalls: how they work, Nakasu vs Tenjin vs Nagahama, what to order, cash, seats
 - [ ] R12 · Hokkaido · Otaru from Sapporo: half day or overnight? (canal at dusk, Sankaku Market, train side)
 - [ ] F01 · Fukuoka · FOOD · Fukuoka beyond tonkotsu ramen: goboten udon, mentaiko, motsunabe, gomasaba (which are local habits, where locals eat them)
+- [ ] D07 · Hokkaido · DEPACHIKA · Daimaru Sapporo food hall: Hokkaido sweets, dairy and seafood counters by Sapporo Station
 - [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
 - [ ] R14 · Nagoya · Nagoya: worth a night between Tokyo and Osaka? (Sakae vs Meieki, local food: miso katsu, hitsumabushi)
 - [ ] F02 · Nagoya · FOOD · Nagoya's odd ones: ankake spaghetti, tebasaki wings, "morning service" coffee sets, plus hitsumabushi as the classic
+- [ ] D06 · Fukuoka · DEPACHIKA · Hakata Hankyu and Iwataya food halls: Fukuoka sweets, mentaiko counters, what to take home
 - [ ] R15 · Kyoto · Arashiyama without the crowds: what time, which order, where to eat
 - [ ] F03 · Okinawa · FOOD · Beyond taco rice: Okinawa soba vs soki soba, jushi, champuru, sata andagi (and where locals eat them in Naha)
 - [ ] F04 · Kanazawa · FOOD · Hanton rice, Kanazawa curry and Kanazawa oden: what locals actually eat (Omicho Market seafood as the classic)
+- [ ] D08 · Nagoya · DEPACHIKA · JR Nagoya Takashimaya food hall: Nagoya specialties and sweets right on top of the station
 - [ ] F05 · Hokkaido · FOOD · Sapporo everyday eats: jingisukan, zangi, Hokkaido milk soft serve, miso ramen (where locals go)
 - [ ] F06 · Kyoto · FOOD · What Kyoto people eat: obanzai, nishin soba, saba-zushi, yudofu (classic vs local pick)
 - [ ] F07 · Hiroshima · FOOD · Hiroshima beyond okonomiyaki: Hiroshima tsukemen with chilli, anago-meshi, age-momiji, oysters
@@ -148,21 +152,28 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 63 · gora-to-lake-ashi-bus-or-ropeway · ROPEWAY · page ✓ (reframed 24 Nov as an evergreen bus-vs-ropeway guide; old slug hakone-ropeway-closed-plan-b 301s to it)
 - [x] 64 · kamakura-from-noon-temples-or-sunset · KAMAKURA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 65 · enoshima-without-the-stairs · ENOSHIMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [ ] D00 · Tokyo · DEPACHIKA · Depachika 101: how Japan's department-store basement food halls work (what's down there, tasting, eat-in or take away, closing-time discounts, keeping things cold, tax-free on food) — hub page, link every D page to it
+- [ ] D01 · Tokyo · DEPACHIKA · Isetan Shinjuku food hall (B1): the refined things worth buying (sweets, bento, gift boxes, seasonal), what makes it different, best time to go
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] D04 · Tokyo · DEPACHIKA · Before the Shinkansen: Daimaru Tokyo food hall vs GranSta vs Nihonbashi Mitsukoshi (bento and gifts near Tokyo Station)
 - [ ] F09 · Tokyo · FOOD · Monjayaki in Tsukishima: what it is, how to cook it at your table, a classic shop and a local one
 - [ ] 69 Mount Takao: split the group after the cable car  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 70 Atami lunch stop between Tokyo and Kyoto  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [ ] D02 · Osaka · DEPACHIKA · Umeda food halls: Hankyu Umeda vs Hanshin Umeda (Hanshin's ikayaki, Hankyu's sweets) — what each does best
 - [ ] 06 Kitahama Sunday breakfast  (Osaka city · BRIEFS-KANSAI-40.md)
 - [ ] 16 Settsukyo, Takatsuki: river vs bus time  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 07 Noda as a base for Umeda  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] D05 · Tokyo · DEPACHIKA · Ginza food floors: Mitsukoshi Ginza vs Matsuya Ginza vs GINZA SIX (the polished end of Tokyo's food halls)
 - [ ] F10 · Osaka · FOOD · Osaka dishes most visitors never order: kasu udon, ikayaki (Hanshin Umeda), doteyaki, hakozushi, kitsune udon's birthplace
 - [ ] 17 Hirakata Park after lunch: pass or pay per ride  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 08 Shinsaibashi ¥15,000 floor space for two suitcases  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] D09 · Osaka · DEPACHIKA · Namba and Shinsaibashi food halls: Takashimaya Osaka vs Daimaru Shinsaibashi
 - [ ] 18 Kishiwada half day from Namba  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] F11 · Tokyo · FOOD · Old Edo eats: fukagawa-meshi (Monzen-Nakacho / Kiyosumi), dojo nabe (Asakusa), chanko nabe (Ryogoku)
 - [ ] 09 Kaiyukan: dinner after the aquarium  (Osaka city · BRIEFS-KANSAI-40.md)
+- [ ] D10 · Tokyo · DEPACHIKA · Shibuya and Ikebukuro food halls: Tokyu Food Show / Shibuya vs Seibu and Tobu Ikebukuro (some of the biggest)
 - [ ] 19 Izumisano seafood lunch before a flight  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [ ] 10 Osaka Castle: which side to stay  (Osaka city · BRIEFS-KANSAI-40.md)
 - [ ] 20 KIX 8 a.m. flight: where to sleep  (Kansai trip · BRIEFS-KANSAI-40.md)
