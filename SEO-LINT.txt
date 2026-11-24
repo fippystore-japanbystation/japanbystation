@@ -13,6 +13,7 @@ hakone-private-onsen-which-booking.html	description 175 chars (aim 120-160; add 
 hakone-ryokan-dinner-leave-tokyo.html	description 177 chars (aim 120-160; add "seo_desc")
 haneda-late-arrival-first-night.html	title 73 chars (aim <=60; add "seo_title" to the guide meta)
 haneda-late-arrival-first-night.html	description 168 chars (aim 120-160; add "seo_desc")
+hiroshima.html	description 162 chars (aim 120-160; add "seo_desc")
 hokkaido.html	description 161 chars (aim 120-160; add "seo_desc")
 itami-sky-park-without-a-car.html	description 165 chars (aim 120-160; add "seo_desc")
 kagurazaka-lunch-main-street-or-lanes.html	description 188 chars (aim 120-160; add "seo_desc")
