@@ -215,6 +215,13 @@ STATION HUB TEMPLATE (Ling, 24 Nov — every station guide, e.g. "Osaka Station 
 6. FAQ (3–4, direct answers), photos with specific alt text, links to the area guides and the hotels-by-budget page.
 UNIQUE OR DON'T PUBLISH (Ling, 24 Nov): every post must contain something beyond what a quick search or an AI summary returns — a direct named pick with reasons, a niche local find with its source, or an insider detail. If a draft only restates the top search results, research more or don't publish it.
 
+KEYWORD DEMAND (Ling, 24 Nov: start from what most people search). Once a day, research demand before choosing topics, in the built-in browser:
+- Google autocomplete for seed phrases ("osaka station ", "umeda station ", "namba station ", "where to stay in osaka ", "tokyo station ", "shinjuku station ", "kyoto station ", "hotels near … station"…): open https://www.google.com/complete/search?client=firefox&hl=en&gl=us&q=<phrase> and read the suggestions (they are ranked by popularity); try a–z after the phrase for long-tail.
+- Google Trends (https://trends.google.com/trends/explore?q=<a>,<b>&geo=US / worldwide) to compare which station/area is searched more and what's rising.
+- "People also ask" and "Related searches" on a Google results page for the main phrases (read with get_page_text).
+- Search Console queries (our real impressions) always win over guesses.
+Write the findings in KEYWORDS.md (phrase · source · relative demand: high/med/low · our page or "none" · next action). Topics for new guides AND Reels come from the top of that list: high demand + no good page first. Share the top 5 Reel-worthy questions in KEYWORDS.md under "For Reels" so the Reels producer can use them.
+
 EVERY SEO RUN:
 1. QUERIES → CONTENT. Search Console → Performance → 28 days, tabs QUERIES and PAGES (read with get_page_text). For each query with impressions, log it in SEO-LOG.md (query, impressions, position, page). Then:
    - a query we rank for on page 1–2 (position ≤ 20) with an existing page: improve THAT page so it answers the query directly: the exact question as an H2 or FAQ entry with a 2–3 sentence answer first, the phrase in the title/description only if it reads naturally, internal links from 2 related guides. Never keyword-stuff.
@@ -230,4 +237,4 @@ EVERY SEO RUN:
 - Numbers come from n8n's READ-ONLY endpoint http://localhost:5678/webhook/jbs-stats-r2x (open it with the built-in browser's navigate tool, read the JSON with get_page_text). It returns IG Reels (reach, views, saves, shares, avg watch time), FB posts and FB Reels (when the token allows), followers. NEVER call /webhook/jbs-post-now-7f3k for this: that one posts.
 - Save one snapshot a day as perf/<YYYY-MM-DD>.json; update PERF.md: early signals → patterns (only with ≥ 3 comparable posts per side, ≥ 48 h old, same format). Track per post: hook type (situation / question / number / "before you book"…), topic, city, posting slot, length.
 - The Reels and Facebook producers READ PERF.md before writing: do more of what wins, less of what loses, but always keep ~20% experiments (new hook types, new topics) so we keep learning.
-- Competitor formats: once a week, open 8–12 English Japan-travel accounts' Reels/pages in the built-in browser (public pages), note which posts clearly beat the account's usual numbers and WHY (hook, structure, length, on-screen text), in COMPETITORS.md. Patterns only — never copy captions, scripts, footage or photos.
+- Competitor formats (Ling, 24 Nov: daily, not weekly): EVERY DAY study 3–4 accounts from the COMPETITORS.md list in rotation (the whole list is covered about every 3 days; add new accounts as you find them). Same method as before: open 8–12 English Japan-travel accounts' Reels/pages in the built-in browser (public pages), note which posts clearly beat the account's usual numbers and WHY (hook, structure, length, on-screen text), in COMPETITORS.md. Patterns only — never copy captions, scripts, footage or photos.
