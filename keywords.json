@@ -223,12 +223,24 @@
   "url": "https://japanbystation.com/hiroshima-miyajima-one-day",
   "title": "Hiroshima and Miyajima in One Day: Where to Base, Tram or Train, and the Tides"
  },
+ "KAMAKURA": {
+  "url": "https://japanbystation.com/kamakura-from-noon-temples-or-sunset",
+  "title": "Kamakura From Noon: Temples, Sunset or Both?"
+ },
  "HARUKA": {
   "url": "https://japanbystation.com/kansai-airport-to-kyoto",
   "title": "Kansai Airport to Kyoto: Haruka, Limousine Bus or via Osaka?"
  },
+ "NAHA": {
+  "url": "https://japanbystation.com/naha-where-to-stay-do-you-need-a-car",
+  "title": "Naha First Trip: Where to Stay and Do You Need a Car?"
+ },
  "UMEDA": {
   "url": "https://japanbystation.com/osaka-station-vs-umeda",
   "title": "Osaka Station vs Umeda: Same Place? Which Side for Your Hotel"
+ },
+ "SOUPCURRY": {
+  "url": "https://japanbystation.com/sapporo-where-locals-eat",
+  "title": "Where Sapporo Locals Eat: Markets, Soup Curry and Ramen"
  }
 }
