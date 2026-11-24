@@ -14,8 +14,8 @@ FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / differe
 - [x] R10 · Nara · nara-day-trip-or-one-night · DEER · page ✓ — FB posts queued with images
 - [x] D03 · kyoto-station-depachika-gifts · OMIYAGE · page ✓  (Kyoto · DEPACHIKA, format C classic vs local) — FB posts queued with images
 - [x] R11 · fukuoka-yatai-how-they-work · YATAI · page ✓  (Fukuoka · Nakasu vs Tenjin vs Nagahama) — FB posts queued with images
-- [ ] R12 · Hokkaido · Otaru from Sapporo: half day or overnight? (canal at dusk, Sankaku Market, train side)
-- [ ] F01 · Fukuoka · FOOD · Fukuoka beyond tonkotsu ramen: goboten udon, mentaiko, motsunabe, gomasaba (which are local habits, where locals eat them)
+- [~] 25 Nov 07:42 R12 · Hokkaido · Otaru from Sapporo: half day or overnight? (canal at dusk, Sankaku Market, train side)
+- [~] 25 Nov 07:42 F01 · Fukuoka · FOOD · Fukuoka beyond tonkotsu ramen: goboten udon, mentaiko, motsunabe, gomasaba (which are local habits, where locals eat them)
 - [ ] D07 · Hokkaido · DEPACHIKA · Daimaru Sapporo food hall: Hokkaido sweets, dairy and seafood counters by Sapporo Station
 - [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
 - [ ] R14 · Nagoya · Nagoya: worth a night between Tokyo and Osaka? (Sakae vs Meieki, local food: miso katsu, hitsumabushi)
@@ -157,7 +157,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 64 · kamakura-from-noon-temples-or-sunset · KAMAKURA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 65 · enoshima-without-the-stairs · ENOSHIMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] D00 · depachika-japan-food-halls-how-they-work · DEPACHIKA · page ✓  (Tokyo · DEPACHIKA hub, format B floor by floor; every D page links here) — FB posts queued with images
-- [ ] D01 · Tokyo · DEPACHIKA · Isetan Shinjuku food hall: the refined things worth buying (sweets, bento, gift boxes, seasonal), discounts and tasting, the restaurant floor upstairs
+- [~] 25 Nov 07:42 D01 · Tokyo · DEPACHIKA · Isetan Shinjuku food hall: the refined things worth buying (sweets, bento, gift boxes, seasonal), discounts and tasting, the restaurant floor upstairs
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
