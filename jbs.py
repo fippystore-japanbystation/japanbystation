@@ -94,6 +94,8 @@ def add_reel(slugs):
     qp = os.path.join(MAIN, "reels-queue.json"); q = json.load(open(qp))
     for s, sp in specs.items():
         shutil.copy(os.path.join(out, s + ".jpg"), os.path.join(MAIN, "covers", s + ".jpg"))
+        for i in q["items"]:
+            if i["slug"] == s: i["caption"] = sp["caption"]   # re-cut of a queued Reel: new video + new caption
         if not any(i["slug"] == s for i in q["items"]):
             q["items"].append({"slug": s, "keyword": sp["keyword"],
                                "video_url": f"https://media.japanbystation-web.pages.dev/{s}.mp4",
