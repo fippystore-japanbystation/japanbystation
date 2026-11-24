@@ -12,8 +12,8 @@ FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / differe
 - [x] R08 · Hokkaido · sapporo-where-locals-eat · SOUPCURRY · page ✓ — FB posts queued with images
 - [x] R09 · Kyoto · fushimi-inari-dawn-day-or-after-dark · INARI · page ✓ — FB posts queued with images
 - [x] R10 · Nara · nara-day-trip-or-one-night · DEER · page ✓ — FB posts queued with images
-- [ ] D03 · Kyoto · DEPACHIKA · Kyoto Station's JR Kyoto Isetan food hall + Daimaru / Takashimaya Kyoto: Kyoto sweets, tsukemono, last-minute gifts before the train
-- [ ] R11 · Fukuoka · Yatai stalls: how they work, Nakasu vs Tenjin vs Nagahama, what to order, cash, seats
+- [~] 24 Nov 15:42 D03 · Kyoto · DEPACHIKA · Kyoto Station's JR Kyoto Isetan food hall + Daimaru / Takashimaya Kyoto: Kyoto sweets, tsukemono, last-minute gifts before the train
+- [~] 24 Nov 15:42 R11 · Fukuoka · Yatai stalls: how they work, Nakasu vs Tenjin vs Nagahama, what to order, cash, seats
 - [ ] R12 · Hokkaido · Otaru from Sapporo: half day or overnight? (canal at dusk, Sankaku Market, train side)
 - [ ] F01 · Fukuoka · FOOD · Fukuoka beyond tonkotsu ramen: goboten udon, mentaiko, motsunabe, gomasaba (which are local habits, where locals eat them)
 - [ ] D07 · Hokkaido · DEPACHIKA · Daimaru Sapporo food hall: Hokkaido sweets, dairy and seafood counters by Sapporo Station
@@ -152,7 +152,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 63 · gora-to-lake-ashi-bus-or-ropeway · ROPEWAY · page ✓ (reframed 24 Nov as an evergreen bus-vs-ropeway guide; old slug hakone-ropeway-closed-plan-b 301s to it)
 - [x] 64 · kamakura-from-noon-temples-or-sunset · KAMAKURA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 65 · enoshima-without-the-stairs · ENOSHIMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
-- [ ] D00 · Tokyo · DEPACHIKA · Depachika 101: how Japan's department-store basement food halls work (what's down there, free tasting, closing-time discounts, eat-in or take away, the restaurant floors upstairs, tax-free on food) — hub page, link every D page to it
+- [~] 24 Nov 15:42 D00 · Tokyo · DEPACHIKA · Depachika 101: how Japan's department-store basement food halls work (what's down there, free tasting, closing-time discounts, eat-in or take away, the restaurant floors upstairs, tax-free on food) — hub page, link every D page to it
 - [ ] D01 · Tokyo · DEPACHIKA · Isetan Shinjuku food hall: the refined things worth buying (sweets, bento, gift boxes, seasonal), discounts and tasting, the restaurant floor upstairs
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
