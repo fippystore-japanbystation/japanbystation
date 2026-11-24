@@ -1,6 +1,20 @@
 # SEO / GEO log
 Newest first. One block per run: queries seen, pages changed, new guides, indexing status, GEO checks.
 
+## 2026-11-24 (scheduled SEO run 2)
+- Search Console 28 days: 1 impression, 0 clicks — "station" "osaka", pos 9, page / (data still lagging; the 7-day/24 h views showed the same). No new queries yet.
+- Page indexing: still "Processing data, check again in a day". Sitemap: Success, last read 24 Nov, 65 discovered (live sitemap now 67 with the two hubs).
+- KEYWORD DEMAND (first today): Trends worldwide 12 m: osaka station ≈50 (falling 100→30), namba station ≈13, umeda ≈5, shin osaka ≈5, tennoji ≈3. Autocomplete: "namba station to kix / to kyoto / to dotonbori / luggage storage / map", "hotels near namba station (nankai / jr)", "shin osaka station vs osaka station", "tennoji station coin lockers". SERP for "namba station": Reddit thread "osaka namba station vs namba station" on page 1 → confusion confirmed. KEYWORDS.md rewritten incl. "For Reels".
+- NEW GUIDE (station hub #2): /namba-station-which-namba "Namba Station: Which Namba, Which Exit for Your Hotel" (keyword NANKAI): 4 stations explained, destination-first exits (14 Dotonbori, 4 Namba Parks/Nankai, 15-B HIPS, 27 Kintetsu/Hanshin, Yotsubashi 30 → OCAT), KIX rapi:t (34 min, surcharge ¥700/¥550 app since 1 Apr 2026) vs Airport Express (≈45 min, ¥970) vs OCAT bus (≈48 min, ¥1,400), picks: Swissotel Nankai / Monterey Grasmere / Cross Hotel / Namba Oriental (Sennichimae side), Jiyuken + Marufuku Coffee, ONE MORE THING n·e·s·t counter Nankai 2F (¥800/day, ¥2,500 to KIX). keyfacts + about entities. 9 images, all load live.
+  Not verified (left out): USJ route from Namba, exact OCAT stop, JR↔Nankai walk (only "about 7 min" from the Monterey page), Jiyuken hours (sources disagree), rapi:t total (shown as fare + surcharge).
+  No FB posts written for it (SEO task) → website producer may add 2 FB posts.
+- Hub linked from: namba, kansai-airport-to-osaka, osaka-where-to-stay (Namba section), osaka-station-vs-umeda, namba-5000-yen, namba-or-tennoji, nifrel, osaka-four-friends, osaka-hotels-by-budget, osaka-live-like-a-local, osaka-local-markets, osaka-night-owls, sakai (Keep planning).
+- QUERIES → CONTENT: only query is "station osaka" → served by the Umeda hub (live since this morning); nothing else to improve until GSC shows more.
+- LINT: seo_title/seo_desc for 12 Tokyo/Hakone/Kawaguchiko guides + osaka-where-to-stay description (build.py) → SEO-LINT 48 → 24 lines (left: about/privacy/disclosure/data-deletion, Asakusa, Shibuya x3, Hakone x3, Sapporo, Kyoto, Fukuoka, etc.).
+- Technical: 0 broken internal links (1 false positive = JS template in index). New page title 51 chars, desc 159. IndexNow pinged 30 URLs. URL inspection → Indexing requested for /namba-station-which-namba ("URL is unknown to Google" before).
+- GEO: WebSearch "which Namba station for Kansai Airport rapi:t vs Osaka-Namba" → not cited (osakastation.com, trvlogue, ekitan, nankai.co.jp rank; several still quote the old rapi:t surcharge — our page has the April 2026 one). "hotels near Osaka Station HARUKA West Gate which hotel" → not cited (j-hotel, osakastation-hotel.jp, marriott, osakatourism.org). Strengthened: new Namba hub answers in sentence 1 + keyfacts; Bing Webmaster Tools still waiting on Ling.
+- NEXT: hub #3 "Shin-Osaka vs Osaka Station" (autocomplete "shin osaka station vs osaka station"), then Tennoji; keep fixing lint (24 left); recheck Page indexing + GSC queries.
+
 ## 2026-11-24 (scheduled SEO run 1)
 - Search Console 28 days: still 0 in the 28-day view (data lag); last 24 h: 5 impressions, 0 clicks. Query: "station" "osaka" — 4 impressions, avg position 8.3. Pages: / (3), /osaka-live-like-a-local (1), /sakai-watch-knife-making (1).
 - Page indexing: still "Processing data, check again in a day". Sitemap: Success, 65 discovered (66 after this deploy).
