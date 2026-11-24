@@ -176,7 +176,7 @@ def render(spec, tj, wd, stills=False):
             ctext(d, 778, "japanbystation.com", F(32), al(COL["coral"], b))
         elif S[s].get("card"): card(d, lt, S[s]["card"])
         caption(d, t)
-        fade = min(1, t / .25, (END - t) / .35)
+        fade = min(1, (END - t) / .35)   # Ling 24 Nov: no fade-in, so the first frame (FB thumbnail) is never black
         if fade < 1: d.rectangle((0, 0, W, H), fill=(0, 0, 0, int(255 * (1 - max(0, fade)))))
         return ov
     if stills:
