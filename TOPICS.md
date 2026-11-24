@@ -10,8 +10,8 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - [x] R06 · Hiroshima · hiroshima-miyajima-one-day · MIYAJIMA · page ✓
 - [x] R07 · Okinawa · naha-where-to-stay-do-you-need-a-car · NAHA · page ✓ — FB posts queued with images
 - [x] R08 · Hokkaido · sapporo-where-locals-eat · SOUPCURRY · page ✓ — FB posts queued with images
-- [~] 24 Nov 11:43Z R09 · Kyoto · Fushimi Inari: dawn, afternoon or after dark? (how far up is worth it, crowds, safety at night)
-- [~] 24 Nov 11:43Z R10 · Nara · Nara as a day trip or one night? (deer park timing, Kintetsu vs JR from Osaka/Kyoto, quiet Naramachi evening)
+- [x] R09 · Kyoto · fushimi-inari-dawn-day-or-after-dark · INARI · page ✓ — FB posts queued with images
+- [x] R10 · Nara · nara-day-trip-or-one-night · DEER · page ✓ — FB posts queued with images
 - [ ] R11 · Fukuoka · Yatai stalls: how they work, Nakasu vs Tenjin vs Nagahama, what to order, cash, seats
 - [ ] R12 · Hokkaido · Otaru from Sapporo: half day or overnight? (canal at dusk, Sankaku Market, train side)
 - [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
@@ -83,6 +83,10 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - sapporo-where-locals-eat · SOUPCURRY (R08: Curb Market ~60 shops ~20 restaurants 6–17 (rest. from 7), Nijuyonken 7 min, Sakae-yu from 13:00, free shuttle Kita no Ryoba / Kitano Gourmet-tei; Nijo shops 7–18 rest. 6–21; Garaku, Okushiba Shoten, Picante + Rakkyo (Kotoni); Ramen Yokocho 17 shops 42 m; Keyaki 10–2; Arinko, Sandria)
 
 - PHOTO BACKFILL (24 Nov): sapporo-where-to-stay-first-trip, new-chitose-airport-to-sapporo, kyoto-where-to-stay-first-trip got 3 photos each (now 5); no facts changed
+- enoshima-without-the-stairs · ENOSHIMA (brief 65: Escar ¥500 8:50–19:05 up only, descent stairs, replaces ~20 min steps; Benten-maru Chigogafuchi→bridge ~10 min ~¥400, weather, phone 0466-22-4141 before 10:00; Benten Bridge 389 m; Freepass ¥1,640, Romancecar ¥750 61–69 min; Katase-Enoshima→aquarium powered-wheelchair route; aquarium ¥2,800; Tobicchi Honten 11–21; Enoshima Koya 8–20; one more = Katase Fishing Port promenade Fuji view)
+- fushimi-inari-dawn-day-or-after-dark · INARI (R09: open 24 h free; first JR Kyoto→Inari 5:33/5:51, last Inari→Kyoto 0:04; sunrise ~6:41 late Nov, 7:05 end Dec; Yotsutsuji 30–45 min, loop 2–3 h, 233 m; busy ~9–18; unlit upper loop; Inafuku 9–17 closed Tue, Nezameya quail ¥900, Kendonya closed Wed, Nishimura-tei; one more = Shin-ike echo pond)
+- nara-day-trip-or-one-night · DEER (R10: Kintetsu Namba ~40 min ¥680, Kyoto LTD ~35 min ~¥1,280, Aoniyoshi ¥1,490 no Thu; JR Kyoto ~45, Osaka ~50; Todaiji Nov–Mar 8–17 ¥800; Kasuga 7–17, inner 9–16 ¥700; 1,465 deer Jul 2025, crackers ¥200; Izasa-chaya; Bar at Nara Hotel 18–23; one more = Nigatsudo sunset)
+- PHOTO BACKFILL (24 Nov, run 2): shinjuku-which-station (+3), osaka-live-like-a-local (+2), osaka-night-owls (+2); no facts changed
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
 UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 IN ORDER (they start general: which station, airport arrival, exits), then the remaining Kansai briefs in order. No more alternating for now. Reels follow the same sequence (newest guides first).
@@ -135,7 +139,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 62 · hakone-private-onsen-which-booking · ONSEN · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 63 · gora-to-lake-ashi-bus-or-ropeway · ROPEWAY · page ✓ (reframed 24 Nov as an evergreen bus-vs-ropeway guide; old slug hakone-ropeway-closed-plan-b 301s to it)
 - [x] 64 · kamakura-from-noon-temples-or-sunset · KAMAKURA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
-- [~] 24 Nov 11:43Z 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [x] 65 · enoshima-without-the-stairs · ENOSHIMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
