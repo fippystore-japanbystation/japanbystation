@@ -433,7 +433,7 @@ for _r,_d,_fs in os.walk(OUT):
 
 # Ling 24 Nov: early Pins linked to /guides/<slug>.html, but pages live at /<slug>.html, so those links fell back to the
 # home page. Cloudflare Pages redirect keeps every old link landing on the right guide.
-open(os.path.join(OUT, "_redirects"), "w").write("/guides/:slug /:slug 301\n/guides/:slug.html /:slug.html 301\n")
+open(os.path.join(OUT, "_redirects"), "w").write("/guides/:slug /:slug 301\n/guides/:slug.html /:slug.html 301\n/hakone-ropeway-closed-plan-b /gora-to-lake-ashi-bus-or-ropeway 301\n/hakone-ropeway-closed-plan-b.html /gora-to-lake-ashi-bus-or-ropeway.html 301\n")
 
 # Google Analytics 4 (Ling, 24 Nov; property "Japan by Station", same Google account as Search Console) on every page
 _GA='<script async src="https://www.googletagmanager.com/gtag/js?id=G-G13XXKV55G"></script>\n<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-G13XXKV55G");</script>'

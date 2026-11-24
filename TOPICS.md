@@ -74,7 +74,7 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - fukuoka-where-to-stay-first-trip · FUKUOKA (R03: Hakata pick; airport–Hakata 5 min, Tenjin 11; intl terminal shuttle ~10 min; Hakata–Tenjin ¥210 6 min; ~100 yatai from 18:00; Nagahama revived 2023; Yanagibashi market 8:00, closed Sun/hol)
 - new-chitose-airport-to-sapporo · CHITOSE (R04: Rapid Airport 33/37/43 min ¥1,230, u-seat ¥1,000/¥800; Hokuto bus ¥1,500 no Suica; taxi ~60 min from ~¥17,000; 25–26 Jan 2026 1,145 trains cancelled; Kikuyo Shokudo 11–20 3F)
 
-- hakone-ropeway-closed-plan-b · ROPEWAY (brief 63: live status 24 Nov ropeway + cruise suspended; Gora→Kowakien S bus→H line→Moto-Hakone 20 min ¥910; Yumoto→Moto-Hakone 30 min ¥1,210; Gora→Togendai bus ≈55 min ¥880 vs cable+ropeway 65; OAM ¥2,000 daily; Pola closed 1 Dec 2026; digital Freepass weather refund ropeway ¥1,640/¥1,750, partial ¥820; e-Romancecar refund ¥100)
+- gora-to-lake-ashi-bus-or-ropeway · ROPEWAY (brief 63 reframed as evergreen bus vs ropeway, Ling 24 Nov: no one-day events; Gora→Kowakien S bus→H line→Moto-Hakone 20 min ¥910; Yumoto→Moto-Hakone 30 min ¥1,210; Gora→Togendai bus ≈55 min ¥880 vs cable+ropeway 65; OAM ¥2,000 daily; Pola closed 1 Dec 2026; digital Freepass weather refund ropeway ¥1,640/¥1,750, partial ¥820; e-Romancecar refund ¥100)
 - kansai-airport-to-kyoto · HARUKA (R05: HARUKA One-way ¥2,700 from 1 Nov 2026 (was ¥2,200); regular unreserved ≈¥3,100; 75–80 min, last 22:16; limousine ¥2,800 85–90 min to Hachijo, last T1 23:20→0:45, no reservations to Kyoto; Hankyu via Osaka ¥1,670 ≈1 h 50; ICOCA & HARUKA not on JR West list; Skyway free 10–22)
 - hiroshima-miyajima-one-day · MIYAJIMA (R06: museum 7:30 (online reservation for 7:30–8:30); JR 25–30 min ≈¥420 + ferry ¥200; tram ¥240 70–75 min; Peace Park boat ¥2,400/¥4,400, last back 17:30; walk to torii <100 cm, floats >250 cm (Miyajima Tourist Assoc.); JR torii-route ferries 9:10–16:10; Okonomi-mura 23 shops; Anagomeshi Ueno)
 
@@ -128,7 +128,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 60 · hakone-base-yumoto-gora-lake-ashi · BASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 61 · hakone-freepass-ryokan-one-night · FREEPASS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 62 · hakone-private-onsen-which-booking · ONSEN · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
-- [x] 63 · hakone-ropeway-closed-plan-b · ROPEWAY · page ✓
+- [x] 63 · gora-to-lake-ashi-bus-or-ropeway · ROPEWAY · page ✓ (reframed 24 Nov as an evergreen bus-vs-ropeway guide; old slug hakone-ropeway-closed-plan-b 301s to it)
 - [ ] 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
