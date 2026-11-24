@@ -474,7 +474,7 @@ main .sec>h2{margin-top:6px}
 @media(max-width:760px){.hub-tips .posts{grid-template-columns:1fr}}
 /* photos inside "where to stay" cards and a photo strip under routes (Ling, 24 Nov) */
 .card.noimg.withimg{padding-top:0}
-.card.noimg .cimg{width:calc(100% + 40px);margin:0 -20px 16px;aspect-ratio:16/9;object-fit:cover;display:block}
+.card.noimg .cimg{width:calc(100% + 40px);max-width:none;margin:0 -20px 16px;aspect-ratio:16/9;object-fit:cover;display:block}
 .card.withimg .big{font-size:40px}
 .strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:66ch;margin:20px auto 6px}
 .strip figure{margin:0}
