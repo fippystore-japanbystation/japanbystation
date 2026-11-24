@@ -47,7 +47,7 @@ def brand(d, x=36, y=36, size=30):
 def pill(d, x, y, text, size=28, fill=INK, color=WHITE):
     f = F(size); w = f.getlength(text)
     d.rounded_rectangle((x, y, x + w + 44, y + size + 24), radius=(size + 24) // 2, fill=fill + (255,))
-    d.text((x + 22, y + 7), text, font=f, fill=color); return w + 44
+    d.text((x + 22, y + 7 + max(0, size - 28) // 4), text, font=f, fill=color); return w + 44
 
 
 def chips(d, y, items, size=30):
@@ -80,7 +80,7 @@ def cover(src, title, kicker, out, fx=0.5, fy=0.5, hl=None):
     fs = 74
     while max(F(fs).getlength(l) for l in lines) > 900: fs -= 2
     lh = int(fs * 1.12); y = H - 110 - lh * len(lines) - extra
-    pill(d, 50, y - 74, kicker, 26, fill=CREAM, color=INK)
+    pill(d, 50, y - 96, kicker, 40, fill=CREAM, color=INK)  # Ling 24 Nov: place label bigger
     for l in lines:
         d.text((50, y), l, font=F(fs), fill=WHITE, stroke_width=2, stroke_fill=(18, 12, 32)); y += lh
     if items: chips(d, y + 14, items)
@@ -104,7 +104,7 @@ def collage(srcs, labels, title, kicker, out):
         while fl.getlength(lab) > cw - 110: fl = F(fl.size - 1)
         d.text((x + 88, y + ch - 70), lab, font=fl, fill=WHITE, stroke_width=2, stroke_fill=(18, 12, 32))
     d = ImageDraw.Draw(can); brand(d, size=26)
-    pill(d, 50, GH + 34, kicker, 24)
+    pill(d, 50, GH + 30, kicker, 32)
     fs = 62
     while F(fs).getlength(title) > 900: fs -= 2
     d.text((50, GH + 106), title, font=F(fs), fill=INK)
