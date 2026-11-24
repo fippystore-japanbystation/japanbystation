@@ -32,6 +32,7 @@ Rule: patterns need samples. Compare like with like (same format, similar postin
 3. FB: Reels get 50–230 views from non-followers. Text posts get 0–18 views because the Page has 1 follower and text posts are mostly shown to followers. Our own FB text-style test (27–29 Nov) will be underpowered unless text posts reach people (see E3).
 
 ## Do more / Do less / Next experiments (read by the Reels and Facebook producers)
+LING DECISION (24 Nov evening, permanent): Reels go to FAST + STRONG HOOK v4 (PLAYBOOK 3): 20–30 s, 50–70 words, hook in the first second with the answer, a new shot every 1.5–2.5 s. From 25 Nov this log compares v4 Reels against the older 33–40 s Reels.
 Do more
 - Problem-first hooks: name one specific annoyance or constraint the viewer has (crowds, late nights, luggage, closing times), then the local alternative.
 - Put the practical, save-worthy payoff in the first 3 s (saves > likes on every Reel).

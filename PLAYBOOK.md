@@ -118,7 +118,7 @@ Before `add-reel`, check EVERY Reel against this list. If any line fails, fix it
 2. STORY: situation → answer → #1 (3 elaborations) → #2 (3 elaborations) → one less-known detail → soft ending. Read the voiceover top to bottom aloud in your head: does each sentence follow from the last? No repeated points, no filler.
 3. CLEAN: no dates, hours, exits or station minutes; no CTA before the last line; keyword once, at the end; one message per card; caption without credit or source lines.
 4. PICTURE: the stills sheet shows the right city, the right time of day and the subject that is being talked about under every line; no other country's signs; no text cut off.
-5. LISTEN TEST: voiceover 70–95 words, full sentences, nothing that sounds like a list of fragments.
+5. LISTEN TEST: voiceover 50–70 words (v4, Ling 24 Nov), full sentences, nothing that sounds like a list of fragments.
 
 ### REEL FORMAT v3 (Ling, 23 Nov) — OVERRIDES any older line below that says "three answers" or a comment-only CTA
 Reels now carry the same depth as the deep guides. Approved example structure (Tenma, ~35 s):
