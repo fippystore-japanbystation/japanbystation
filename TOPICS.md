@@ -216,5 +216,5 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 
 ## SEO STATION HUBS (SEO task, Ling 24 Nov)
 - [x] SEO · osaka-station-vs-umeda · UMEDA · page ✓  (Osaka Station vs Umeda hub, 24 Nov; HARUKA West Gate, KIX bus ¥1,800, Granvia/RESPIRE/Osaka Station Hotel/Nakazakicho picks, Kushikatsu Matsuba)
-- [~] 2026-11-25 SEO: shin-osaka-vs-osaka-station (Shin-Osaka vs Osaka Station hub)
+- [x] SEO · shin-osaka-vs-osaka-station · SHINOSAKA · page ✓  (Shin-Osaka vs Osaka Station hub, 25 Nov; platforms 20–27, Kyoto ¥580 from both, 11-min JR→Midosuji, remm/Courtyard/Via Inn/Toyoko Inn, Jukusei Udon Nakaya, Crosta same-day delivery; no FB posts yet)
 - [x] SEO · namba-station-which-namba · NANKAI · page ✓  (Namba Station hub, 24 Nov; 4 stations, exits 14/4/15-B/27, rapi:t vs Airport Express vs OCAT bus, Swissotel/Monterey Grasmere/Cross/Namba Oriental, Jiyuken + Marufuku Coffee, n·e·s·t luggage counter)

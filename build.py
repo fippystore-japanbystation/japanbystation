@@ -128,7 +128,7 @@ def simple(title,h1,inner):
   {inner}
 </main>
 '''
-pages["about.html"]=(head("About Japan by Station","Who runs Japan by Station and how our guides are made."),"about",simple("About","About Japan by Station",'''
+pages["about.html"]=(head("About Japan by Station","Who runs Japan by Station and how our guides are made: train times from operators and official sources, a check date on every guide, and no paid stays."),"about",simple("About","About Japan by Station",'''
   <p>Japan by Station is a guide to one decision: where to stay. We cover Japan's main cities area by area, and for each one we answer three questions. What is it like to stay there? What can you walk to? How long does it take to reach everything else?</p>
   <h2>How we check our facts</h2>
   <p>Train times come from the operators themselves, the airports and city tourism bureaus wherever they publish them. When we can only find a figure in travel guides, we say so. Each guide shows the date we checked it, and we re-check every three months.</p>
@@ -138,12 +138,12 @@ pages["about.html"]=(head("About Japan by Station","Who runs Japan by Station an
   <h2>Contact</h2>
   <p>Spotted a wrong time or a closed attraction? Send us a message on Instagram at <b>@japanbystation</b> and we'll fix it.</p>
 '''))
-pages["disclosure.html"]=(head("How We Make Money","Japan by Station earns commissions from some booking links. Here is how that works."),"",simple("","How we make money",'''
+pages["disclosure.html"]=(head("How We Make Money","Japan by Station earns commissions from some booking links (Booking.com, Agoda, Klook). How it works, and why it never changes your price or our picks."),"",simple("","How we make money",'''
   <p>Some links on Japan by Station go to booking sites such as Agoda, Booking.com and Klook. If you book through one of those links, we may earn a small commission. You pay the same price either way.</p>
   <p>Commissions never decide which area we recommend. We recommend areas based on train times, walking distances and who is travelling. If an area isn't a good fit for you, we say so, even when it would be easier to sell.</p>
   <p>These commissions pay for keeping our guides checked and up to date.</p>
 '''))
-pages["privacy.html"]=(head("Privacy Policy","How Japan by Station handles your data on this website and on Instagram."),"",simple("","Privacy Policy",'''
+pages["privacy.html"]=(head("Privacy Policy","How Japan by Station handles your data on japanbystation.com and on Instagram: site analytics, booking-site cookies, Instagram comments and messages."),"",simple("","Privacy Policy",'''
   <p><i>Last updated 24 November 2026.</i> Japan by Station runs japanbystation.com and the Instagram account <b>@japanbystation</b>. This policy explains what data we handle and why.</p>
   <h2>On this website</h2>
   <p>We don't ask you to create an account, and we don't collect your name or email on this site. We use Cloudflare Web Analytics, which counts visits without cookies and without identifying you, and Google Analytics, which uses cookies to show us anonymous totals such as which countries visitors come from and which pages they read. We don't use it for advertising. You can opt out with Google's <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Analytics opt-out add-on</a> or by blocking cookies in your browser. Our hosting provider, Cloudflare, may log basic technical data such as IP addresses to keep the site secure.</p>
@@ -157,7 +157,7 @@ pages["privacy.html"]=(head("Privacy Policy","How Japan by Station handles your 
   <h2>Contact</h2>
   <p>Questions about this policy? Send a direct message to <b>@japanbystation</b> on Instagram.</p>
 '''))
-pages["data-deletion.html"]=(head("Data Deletion Instructions","How to ask Japan by Station to delete the data we hold about you from Instagram comments and messages."),"",simple("","Data deletion instructions",'''
+pages["data-deletion.html"]=(head("Data Deletion Instructions","How to ask Japan by Station to delete the data we hold about you from Instagram comments and messages. We delete it within 7 days and confirm."),"",simple("","Data deletion instructions",'''
   <p>Japan by Station keeps very little data: if you commented a keyword on one of our Instagram posts, we keep your Instagram username and the ID of that comment so we don't message you twice.</p>
   <h2>How to request deletion</h2>
   <ol>
@@ -272,7 +272,7 @@ for _c in _cities:
          f'<p>Start with the big questions, then the food, day trips and smaller details. Every time and price is checked, with the date on each guide.</p>{_jump}</div></header>'
          f'<main>{_secs}'
          f'<div class="wrap"><section class="more"><p><a href="guides.html">All guides</a></p></section></div></main>')
-    pages[_sl+".html"]=(head(f"{_c} Travel Guides: Where to Stay, Getting Around",f"Every Japan by Station guide for {_c}: where to stay, trains and transfers, local food and day trips, with times and prices checked against official sources."),"city-"+_sl,_hb)
+    pages[_sl+".html"]=(head(f"{_c} Travel Guides: Where to Stay, Getting Around",f"Every Japan by Station guide for {_c}: where to stay, trains and transfers, local food and day trips, with times and prices checked at the source."),"city-"+_sl,_hb)
 NAV_CITIES.sort(key=lambda x:-x[2])
 os.makedirs(OUT,exist_ok=True)
 import json as _json, datetime as _dt
