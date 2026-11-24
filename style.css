@@ -463,3 +463,12 @@ main .sec>h2{margin-top:6px}
 .hotbox{border:2px dashed var(--mint);background:var(--mint-t)}
 .onemore{border:2px dashed var(--coral);background:#fff}
 .tipbox,.bookbox,.hotbox,.onemore{position:relative}
+.t-coral{background:var(--coral-t);box-shadow:inset 0 0 0 2px var(--coral)}
+/* small questions: compact rows, so they read as a separate, lighter list */
+.hub-tips .posts{grid-template-columns:repeat(2,1fr);gap:12px}
+.hub-tips .post{flex-direction:row;align-items:stretch;border-radius:18px}
+.hub-tips .post-img{width:104px;flex:none;aspect-ratio:auto}
+.hub-tips .post-tx{padding:12px 14px;gap:4px}
+.hub-tips .post h3{font-size:16.5px}
+.hub-tips .post p,.hub-tips .post .tag{display:none}
+@media(max-width:760px){.hub-tips .posts{grid-template-columns:1fr}}
