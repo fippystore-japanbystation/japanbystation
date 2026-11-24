@@ -6,8 +6,8 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts queued with images
 - [x] R03 · fukuoka-where-to-stay-first-trip · FUKUOKA · page ✓  (Fukuoka · Hakata vs Tenjin vs Nakasu-Kawabata) — FB posts queued with images
 - [x] R04 · new-chitose-airport-to-sapporo · CHITOSE · page ✓  (Hokkaido · Rapid Airport vs bus vs taxi/car, winter) — FB posts queued with images
-- [ ] R05 · Kyoto · Kansai Airport to Kyoto: Haruka, limousine bus or via Osaka? (by hotel area, luggage, ICOCA & HARUKA)
-- [ ] R06 · Hiroshima · Hiroshima + Miyajima: where to base and how to fit both in one day (tram vs JR + ferry, tides at the torii)
+- [~] 24 Nov 11:42 R05 · Kyoto · Kansai Airport to Kyoto: Haruka, limousine bus or via Osaka? (by hotel area, luggage, ICOCA & HARUKA)
+- [~] 24 Nov 11:42 R06 · Hiroshima · Hiroshima + Miyajima: where to base and how to fit both in one day (tram vs JR + ferry, tides at the torii)
 - [ ] R07 · Okinawa · Naha basics: Kokusai-dori, Asahibashi or Omoromachi? Do you need a car? (monorail, Yui Rail pass, buses)
 - [ ] R08 · Hokkaido · Where Sapporo locals eat: Nijo Market vs Curb Market, soup curry, ramen beyond the Ramen Alley
 - [ ] R09 · Kyoto · Fushimi Inari: dawn, afternoon or after dark? (how far up is worth it, crowds, safety at night)
@@ -124,7 +124,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 60 · hakone-base-yumoto-gora-lake-ashi · BASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 61 · hakone-freepass-ryokan-one-night · FREEPASS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 62 · hakone-private-onsen-which-booking · ONSEN · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
-- [ ] 63 Hakone ropeway closed: plan B  (Tokyo · BRIEFS-TOKYO-41-70.md)
+- [~] 24 Nov 11:42 63 Hakone ropeway closed: plan B  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
