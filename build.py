@@ -32,7 +32,7 @@ def head(title,desc):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title} | Japan by Station</title>
+<title>{title if len(title)+19>65 else title+" | Japan by Station"}</title>
 <meta name="description" content="{html.escape(desc)}">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
@@ -182,7 +182,7 @@ for _f in sorted(_glob.glob(f"{SRC}/guides/*.html")):
         _body+='<section class="wrap sec faq" aria-labelledby="h-faq"><h2 id="h-faq">Quick answers</h2>'+''.join(f'<details><summary>{html.escape(q)}</summary><p>{a}</p></details>' for q,a in _meta["faq"])+'</section>'
     if _meta.get("sources"):
         _body+=f'<section class="wrap sec sources"><p class="small">Sources: {_meta["sources"]}</p></section>'
-    pages[_slug]=(head(_meta["title"],_meta["desc"]),"city-"+cslug(_meta["city"]),_body)
+    pages[_slug]=(head(_meta.get("seo_title",_meta["title"]),_meta.get("seo_desc",_meta["desc"])),"city-"+cslug(_meta["city"]),_body)
 # older hand-built guides, so they show in lists
 LEGACY=[{"slug":"osaka-where-to-stay.html","title":"Where to stay in Osaka: Namba, Umeda or Tennoji?","card":"Three areas on one red subway line. What's outside each door, and who each one suits.","city":"Osaka","cat":"Where to stay","tag":"coral","hero":30037377,"date":"2026-11-22","keyword":"OSAKA"},
         {"slug":"namba.html","title":"Things to do around Namba, all within a 15-minute walk","card":"The canal, the food streets and the shopping arcades, with walking times from Exit 14.","city":"Osaka","cat":"Things to do","tag":"sun","hero":35183439,"date":"2026-11-22","keyword":"NAMBA"},
@@ -223,9 +223,9 @@ _CITYIMG={"Osaka":"dotonbori","Tokyo":"tokyo","Kyoto":"kyoto","Hokkaido":"hokkai
 _cc=""
 for _c,_sl,_n in sorted([(c,cslug(c),sum(1 for g in ALLG if g["city"]==c)) for c in _cities], key=lambda x:-x[2]):
     _im=purl(_CITYIMG[_c],800) if _c in _CITYIMG else f'https://images.pexels.com/photos/{next(g["hero"] for g in ALLG if g["city"]==_c)}/pexels-photo-{next(g["hero"] for g in ALLG if g["city"]==_c)}.jpeg?auto=compress&cs=tinysrgb&w=800'
-    _cc+=f'<a class="city2 live" href="{_sl}.html"><img src="{_im}" alt="{_c}" loading="lazy"><span><b>{_c}</b><small>{_cnt(_c)}</small></span></a>'
+    _cc+=f'<a class="city2 live" href="{_sl}.html"><img src="{_im}" alt="Travel guides for {_c}, Japan" loading="lazy"><span><b>{_c}</b><small>{_cnt(_c)}</small></span></a>'
 for _c,_lab in (("Kyoto","Up next"),("Hokkaido","On our list")):
-    if _c not in _cities: _cc+=f'<div class="city2"><img src="{purl(_CITYIMG[_c],800)}" alt="{_c}" loading="lazy"><span><b>{_c}</b><small>{_lab}</small></span></div>'
+    if _c not in _cities: _cc+=f'<div class="city2"><img src="{purl(_CITYIMG[_c],800)}" alt="Travel guides for {_c}, Japan" loading="lazy"><span><b>{_c}</b><small>{_lab}</small></span></div>'
 _body=re.sub(r'<div class="cities2">.*?</div>\s*</section>', lambda m:'<div class="cities2">'+_cc+'</div>\n  </section>', _body, count=1, flags=re.S)
 _tok=sum(1 for g in ALLG if g["city"]=="Tokyo")
 _tc=(f'<a class="city2 live" href="guides.html#tokyo"><img src="{purl("tokyo",800)}" alt="Shibuya Crossing at twilight" loading="lazy"><span><b>Tokyo</b><small>{_cnt("Tokyo")}</small></span></a>' if _tok else
@@ -290,7 +290,7 @@ def _mod(fn):
 _HUBS={cslug(c)+".html":c for c in {g["city"] for g in ALLG}}
 def seo(fn,h):
     url=SITE+"/" if fn=="index.html" else SITE+"/"+fn[:-5]
-    title=_re.search(r"<title>(.*?) \| Japan by Station</title>",h).group(1)
+    title=_re.search(r"<title>(.*?)(?: \| Japan by Station)?</title>",h).group(1)
     desc=_re.search(r'<meta name="description" content="(.*?)">',h).group(1)
     tags=f'<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">\n<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">\n<meta property="og:type" content="{"article" if fn in GUIDES else "website"}">\n'
     if fn in OGIMG: tags+=f'<meta property="og:image" content="{purl(OGIMG[fn],1200)}">\n<meta name="twitter:card" content="summary_large_image">\n'
@@ -475,3 +475,20 @@ for g in ALLG:
     _x="\n".join(l.strip() for l in html.unescape(_x).splitlines() if l.strip())
     _full+=[f"## {g['title']}", f"URL: {SITE}/{g['slug'].replace('.html','')}", f"City: {g['city']} · Facts checked: {_mod(g['slug'])}", "", _x, ""]
 open(os.path.join(OUT,"llms-full.txt"),"w",encoding="utf-8").write("\n".join(_full))
+
+
+# SEO lint (24 Nov): written to SEO-LINT.txt in the studio folder (not published) for the SEO task to work through.
+_lint=[]
+for _f in sorted(os.listdir(OUT)):
+    if not _f.endswith(".html"): continue
+    _t=open(os.path.join(OUT,_f),encoding="utf-8").read()
+    _ti=html.unescape((re.search(r"<title>(.*?)</title>",_t) or [None,""])[1]); _de=html.unescape((re.search(r'<meta name="description" content="(.*?)">',_t) or [None,""])[1])
+    if len(_ti)>65: _lint.append(f"{_f}\ttitle {len(_ti)} chars (aim <=60; add \"seo_title\" to the guide meta)")
+    if not 110<=len(_de)<=160: _lint.append(f"{_f}\tdescription {len(_de)} chars (aim 120-160; add \"seo_desc\")")
+    for _im in re.findall(r"<img\b[^>]*>",_t):
+        if 'aria-hidden' in _t[max(0,_t.find(_im)-1200):_t.find(_im)]: continue
+        _a=re.search(r'alt="([^"]*)"',_im)
+        if not _a or len(_a.group(1).strip())<10: _lint.append(f"{_f}\timage alt missing/short: {_im[-120:]}")
+    if _t.count("<h1")!=1: _lint.append(f"{_f}\th1 count {_t.count('<h1')}")
+open(os.path.join(HERE,"SEO-LINT.txt"),"w").write("\n".join(_lint)+"\n")
+print("seo lint:", len(_lint), "items -> SEO-LINT.txt")
