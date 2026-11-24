@@ -417,3 +417,7 @@ for _r,_d,_fs in os.walk(OUT):
             _pth=os.path.join(_r,_f); _t=open(_pth,encoding="utf-8").read()
             if "p:domain_verify" not in _t and "<head>" in _t:
                 open(_pth,"w",encoding="utf-8").write(_t.replace("<head>","<head>\n"+_PIN,1))
+
+# Ling 24 Nov: early Pins linked to /guides/<slug>.html, but pages live at /<slug>.html, so those links fell back to the
+# home page. Cloudflare Pages redirect keeps every old link landing on the right guide.
+open(os.path.join(OUT, "_redirects"), "w").write("/guides/:slug /:slug 301\n/guides/:slug.html /:slug.html 301\n")
