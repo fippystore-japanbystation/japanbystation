@@ -279,6 +279,15 @@ SITE="https://japanbystation.com"
 OGIMG={"index.html":"glico","osaka-where-to-stay.html":"hero","namba.html":"glico","kansai-airport-to-osaka.html":"kix"}
 for _s,_g in GMETA.items(): P["g_"+_s]=_g["hero"]; OGIMG[_s]="g_"+_s
 GUIDES={"osaka-where-to-stay.html","namba.html","kansai-airport-to-osaka.html"}|set(GMETA)
+_MON={m:i+1 for i,m in enumerate(["January","February","March","April","May","June","July","August","September","October","November","December"])}
+def _mod(fn):
+    """SEO 24 Nov: last real change = newest 'Checked D Month YYYY' in the sources line, else the publish date."""
+    g=GMETA.get(fn,{}); best=g.get("modified") or g.get("date","2026-11-22")
+    for d,m,y in _re.findall(r"[Cc]hecked (?:on )?(\d{1,2}) (January|February|March|April|May|June|July|August|September|October|November|December) (20\d\d)", g.get("sources","")):
+        iso=f"{y}-{_MON[m]:02d}-{int(d):02d}"
+        if iso>best and iso<=_dt.date.today().isoformat(): best=iso
+    return best
+_HUBS={cslug(c)+".html":c for c in {g["city"] for g in ALLG}}
 def seo(fn,h):
     url=SITE+"/" if fn=="index.html" else SITE+"/"+fn[:-5]
     title=_re.search(r"<title>(.*?) \| Japan by Station</title>",h).group(1)
@@ -287,15 +296,19 @@ def seo(fn,h):
     if fn in OGIMG: tags+=f'<meta property="og:image" content="{purl(OGIMG[fn],1200)}">\n<meta name="twitter:card" content="summary_large_image">\n'
     if fn in GMETA and GMETA[fn].get("hero_alt"): tags+=f'<meta property="og:image:alt" content="{html.escape(GMETA[fn]["hero_alt"])}">\n'
     org={"@type":"Organization","name":"Japan by Station","url":SITE+"/","logo":SITE+"/brand/logo-320.png",
-         "sameAs":["https://www.instagram.com/japanbystation/","https://www.facebook.com/1512969825226649"]}
+         "sameAs":["https://www.instagram.com/japanbystation/","https://www.facebook.com/1512969825226649","https://www.pinterest.com/japanbystation/"]}
     if fn=="index.html":
         ld={"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"Japan by Station","url":SITE+"/","description":desc,"publisher":org},org]}
     elif fn in GUIDES:
         ld={"@context":"https://schema.org","@graph":[
-          {"@type":"Article","headline":title,"description":desc,"url":url,"datePublished":GMETA.get(fn,{}).get("date","2026-11-22"),"dateModified":GMETA.get(fn,{}).get("date","2026-11-22"),
+          {"@type":"Article","headline":title,"description":desc,"url":url,"datePublished":GMETA.get(fn,{}).get("date","2026-11-22"),"dateModified":_mod(fn),
            "author":{"@type":"Organization","name":"Japan by Station team","url":SITE+"/about"},"publisher":org,
            "image":purl(OGIMG.get(fn,"hero"),1200),"about":{"@type":"Place","name":GMETA.get(fn,{}).get("city","Osaka")+", Japan"}},
           {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":SITE+"/"},{"@type":"ListItem","position":2,"name":GMETA.get(fn,{}).get("city","Osaka"),"item":SITE+"/guides#"+GMETA.get(fn,{}).get("city","Osaka").lower()},{"@type":"ListItem","position":3,"name":title,"item":url}]}]}
+    elif fn in _HUBS:
+        _gs=[g for g in ALLG if g["city"]==_HUBS[fn]]
+        ld={"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":title,"description":desc,"url":url,"publisher":org,"about":{"@type":"Place","name":_HUBS[fn]+", Japan"}},
+            {"@type":"ItemList","name":title,"itemListElement":[{"@type":"ListItem","position":k+1,"url":SITE+"/"+g["slug"].replace(".html",""),"name":g["title"]} for k,g in enumerate(_gs)]}]}
     else:
         ld={"@context":"https://schema.org","@type":"WebPage","name":title,"url":url,"publisher":org}
     if GMETA.get(fn,{}).get("faq"):
@@ -307,7 +320,7 @@ for fn,(h,active,b) in pages.items():
     h,url=seo(fn,h); urls.append((url,fn))
     open(f"{OUT}/{fn}","w").write(h+nav(active)+b+FOOT)
 today=_dt.date.today().isoformat()
-open(f"{OUT}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n' for u,f in urls)+'</urlset>\n')
+open(f"{OUT}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{_mod(f) if f in GUIDES else today}</lastmod></url>\n' for u,f in urls)+'</urlset>\n')
 # GEO: say plainly that search and AI-answer crawlers are welcome (Ling wants to be cited by ChatGPT, Claude, Perplexity, Gemini)
 _bots=["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot","Applebot-Extended","DuckDuckBot"]
 open(f"{OUT}/robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in _bots)+"User-agent: *\nAllow: /\n\nSitemap: https://japanbystation.com/sitemap.xml\n")
@@ -430,3 +443,35 @@ for _r,_d,_fs in os.walk(OUT):
             _pth=os.path.join(_r,_f); _t=open(_pth,encoding="utf-8").read()
             if "G-G13XXKV55G" not in _t and "<head>" in _t:
                 open(_pth,"w",encoding="utf-8").write(_t.replace("<head>","<head>\n"+_GA,1))
+
+
+# SEO/GEO pass (24 Nov): faster first image (Core Web Vitals LCP p90 was ~7.8 s), responsive Pexels images,
+# a full-text llms-full.txt for AI answer engines, and an IndexNow key so Bing (which feeds ChatGPT search) can be pinged.
+_IDX="6c1f0b2e9a7d4c58b3e1f2a0d9c8b7a6"
+open(os.path.join(OUT, _IDX+".txt"),"w").write(_IDX)
+def _srcset(m):
+    tag=m.group(0)
+    if "srcset=" in tag or "images.pexels.com/photos/" not in tag: return tag
+    u=re.search(r'src="(https://images\.pexels\.com/photos/\d+/pexels-photo-\d+\.jpeg\?auto=compress&cs=tinysrgb)&w=\d+"',tag)
+    if not u: return tag
+    b=u.group(1)
+    return tag.replace(" src=", f' srcset="{b}&w=640 640w, {b}&w=1000 1000w, {b}&w=1600 1600w" sizes="(max-width: 700px) 100vw, 1100px" src=',1)
+for _r,_d,_fs in os.walk(OUT):
+    for _f in _fs:
+        if not _f.endswith(".html"): continue
+        _pth=os.path.join(_r,_f); _t=open(_pth,encoding="utf-8").read(); _o=_t
+        _t=re.sub(r'<img\b[^>]*>', _srcset, _t)
+        _t=re.sub(r'(<header class="hero">\s*<img)(?![^>]*fetchpriority)', r'\1 fetchpriority="high" decoding="async"', _t, count=1)
+        if _t!=_o: open(_pth,"w",encoding="utf-8").write(_t)
+_full=["# Japan by Station: full text of every guide","","> English Japan travel guides organised around train stations. Each guide shows the date its facts were checked. Source: https://japanbystation.com",""]
+for g in ALLG:
+    _fp=os.path.join(OUT, g["slug"])
+    if not os.path.exists(_fp): continue
+    _t=open(_fp,encoding="utf-8").read()
+    _m=re.search(r"<main>(.*?)</main>",_t,re.S)
+    if not _m: continue
+    _x=re.sub(r"<(script|style)[^>]*>.*?</\1>","",_m.group(1),flags=re.S)
+    _x=re.sub(r"</(p|li|h2|h3|h4|figcaption|div|section)>","\n",_x); _x=re.sub(r"<[^>]+>","",_x)
+    _x="\n".join(l.strip() for l in html.unescape(_x).splitlines() if l.strip())
+    _full+=[f"## {g['title']}", f"URL: {SITE}/{g['slug'].replace('.html','')}", f"City: {g['city']} · Facts checked: {_mod(g['slug'])}", "", _x, ""]
+open(os.path.join(OUT,"llms-full.txt"),"w",encoding="utf-8").write("\n".join(_full))
