@@ -96,13 +96,21 @@ A signature fact (e.g. Tenma's "2.6 km covered street") may appear in at most ON
 The hook is on screen from the very first frame with an impact sound; every card lands with a whoosh + pop and a quick flash; key words (numbers, prices, UPPERCASE words, and anything listed in the spec's "emph": ["…"]) show in yellow, jump in coral when spoken and get a soft tick; the ending gets a ding. In each spec list 3–5 "emph" words that carry the hook (a dish, a place name, "free", "locals"). All sounds are synthesised in reelkit (no licensed audio).
 
 ### REEL ANGLE (Ling, 24 Nov) — every Reel starts from WHO is travelling, not from a place
-Open with the traveller's situation, then recommend: "Travelling with a big suitcase? Here's where to go", "With kids in Osaka? Two places they'll love", "Just the two of you in Tokyo for one evening?", "Taking your parents? Skip the stairs here", "First night after a long flight?", "Rainy day in Kyoto?". The place names come second, as the answer. Rotate the situations (luggage, family with kids, couple, solo, parents/older travellers, friends group, first time, short time, rain, budget) and never use the same one twice in a row. 9 Reels go out a day (US + Asia time slots), so variety matters.
+Open with the traveller's situation, then recommend: "Travelling with a big suitcase? Here's where to go", "With kids in Osaka? Two places they'll love", "Just the two of you in Tokyo for one evening?", "Taking your parents? Skip the stairs here", "First night after a long flight?", "Rainy day in Kyoto?". The place names come second, as the answer. Rotate the situations (luggage, family with kids, couple, solo, parents/older travellers, friends group, first time, short time, rain, budget) and never use the same one twice in a row. 7 Reels go out a day (Ling, 24 Nov), about 01:15, 04:25, 07:35, 10:45, 14:15, 18:05 and 21:35 Malaysia time (±5 min), so variety matters.
 
 ### CLEAN CAPTIONS + CLEAN VIDEO (Ling, 24 Nov — after deleting the Shinjuku Reel: "too much date info, messy, not organised")
 - Captions: NO "Photos: …" credit line, NO "Prices: Booking.com, 2 adults, <date>, checked <date>" line, no source notes at all. Hook line, the picks, the soft-hook CTA, share line, follow line, hashtags. That's it.
 - Video (voice, cards, subtitles): NO dates of any kind (sample nights, check dates, "first train 5:55"), no hours, no exits, no station minutes. Prices only when the whole Reel is about money, rounded ("about ¥15,000"), at most 2 in one Reel.
 - ONE message per card: kicker + name + one short line. If a card needs a second number, the Reel is trying to say too much: cut.
 - The Reel tells one clear story in order: situation → answer → pick 1 (3 elaborations) → pick 2 (3 elaborations) → one less-known detail → soft ending. Nothing else.
+
+### QUALITY GATE (Ling, 24 Nov: "内容必须对" — the content must be right; a wrong or messy Reel is worse than no Reel)
+Before `add-reel`, check EVERY Reel against this list. If any line fails, fix it; if it can't be fixed, don't queue it (leave a note in REDO-REELS.md).
+1. FACTS: for every spoken sentence and every card, find the sentence on the guide page that supports it (write the pairs out in your notes). No support = cut it. No numbers that aren't on the page.
+2. STORY: situation → answer → #1 (3 elaborations) → #2 (3 elaborations) → one less-known detail → soft ending. Read the voiceover top to bottom aloud in your head: does each sentence follow from the last? No repeated points, no filler.
+3. CLEAN: no dates, hours, exits or station minutes; no CTA before the last line; keyword once, at the end; one message per card; caption without credit or source lines.
+4. PICTURE: the stills sheet shows the right city, the right time of day and the subject that is being talked about under every line; no other country's signs; no text cut off.
+5. LISTEN TEST: voiceover 70–95 words, full sentences, nothing that sounds like a list of fragments.
 
 ### REEL FORMAT v3 (Ling, 23 Nov) — OVERRIDES any older line below that says "three answers" or a comment-only CTA
 Reels now carry the same depth as the deep guides. Approved example structure (Tenma, ~35 s):
