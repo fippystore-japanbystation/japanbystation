@@ -2,10 +2,10 @@
 
 ## NEW REGIONS (Ling, 23 Nov) — every run: 1 line from the WORK ORDER + 2 lines from here
 Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
-- [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts in fbposts-pending/
-- [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts in fbposts-pending/
-- [x] R03 · fukuoka-where-to-stay-first-trip · FUKUOKA · page ✓  (Fukuoka · Hakata vs Tenjin vs Nakasu-Kawabata) — FB posts in fbposts-pending/
-- [x] R04 · new-chitose-airport-to-sapporo · CHITOSE · page ✓  (Hokkaido · Rapid Airport vs bus vs taxi/car, winter) — FB posts in fbposts-pending/
+- [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts queued with images
+- [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts queued with images
+- [x] R03 · fukuoka-where-to-stay-first-trip · FUKUOKA · page ✓  (Fukuoka · Hakata vs Tenjin vs Nakasu-Kawabata) — FB posts queued with images
+- [x] R04 · new-chitose-airport-to-sapporo · CHITOSE · page ✓  (Hokkaido · Rapid Airport vs bus vs taxi/car, winter) — FB posts queued with images
 - [ ] R05 · Kyoto · Kansai Airport to Kyoto: Haruka, limousine bus or via Osaka? (by hotel area, luggage, ICOCA & HARUKA)
 - [ ] R06 · Hiroshima · Hiroshima + Miyajima: where to base and how to fit both in one day (tram vs JR + ferry, tides at the torii)
 - [ ] R07 · Okinawa · Naha basics: Kokusai-dori, Asahibashi or Omoromachi? Do you need a car? (monorail, Yui Rail pass, buses)
@@ -112,18 +112,18 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 48 · tokyo-double-or-twin-two-suitcases · SPACE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [x] 49 · tokyo-early-arrival-luggage · LUGGAGE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts waiting for images in fbposts-pending/
 - [x] 50 · kiyosumi-shirakawa-base-7am-start · MORNING · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — hero swapped to JPEG 38139863 and redeployed (all images checked); FB posts in fbposts-pending/
-- [x] 51 · tokyo-disney-hotel-night-before-or-after · MAIHAMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [x] 52 · hakone-big-suitcase-forward-carry-store · HAKONE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [x] 53 · lake-kawaguchi-station-or-lake-view · KAWAGUCHI · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [x] 54 · kawaguchiko-fuji-view-room-what-you-buy · FUJIVIEW · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
+- [x] 51 · tokyo-disney-hotel-night-before-or-after · MAIHAMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [x] 52 · hakone-big-suitcase-forward-carry-store · HAKONE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [x] 53 · lake-kawaguchi-station-or-lake-view · KAWAGUCHI · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [x] 54 · kawaguchiko-fuji-view-room-what-you-buy · FUJIVIEW · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [!] 55 needs research — Kawaguchiko dinner after the last shuttle  (Tokyo · BRIEFS-TOKYO-41-70.md)
-- [x] 56 · tokyo-to-kawaguchiko-big-suitcase-bus-or-train · EXCURSION · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [x] 57 · lake-kawaguchi-half-day-cycling · CYCLE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [x] 58 · kawaguchiko-cloudy-fuji-forecast · CLOUDS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [x] 59 · hakone-ryokan-dinner-leave-tokyo · DINNER · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [x] 60 · hakone-base-yumoto-gora-lake-ashi · BASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [x] 61 · hakone-freepass-ryokan-one-night · FREEPASS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
-- [x] 62 · hakone-private-onsen-which-booking · ONSEN · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts in fbposts-pending/
+- [x] 56 · tokyo-to-kawaguchiko-big-suitcase-bus-or-train · EXCURSION · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [x] 57 · lake-kawaguchi-half-day-cycling · CYCLE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [x] 58 · kawaguchiko-cloudy-fuji-forecast · CLOUDS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [x] 59 · hakone-ryokan-dinner-leave-tokyo · DINNER · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [x] 60 · hakone-base-yumoto-gora-lake-ashi · BASE · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [x] 61 · hakone-freepass-ryokan-one-night · FREEPASS · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
+- [x] 62 · hakone-private-onsen-which-booking · ONSEN · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [ ] 63 Hakone ropeway closed: plan B  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 64 Kamakura from noon: temples or sunset  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 65 Enoshima with someone who dislikes stairs  (Tokyo · BRIEFS-TOKYO-41-70.md)
