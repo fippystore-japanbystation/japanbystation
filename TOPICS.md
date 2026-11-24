@@ -176,4 +176,4 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - Kyoto where to stay, Kyoto buses, Hiroshima + Miyajima, Kanazawa, Shirakawa-go, Takayama, Fukuoka, Sapporo
 
 ## SEO STATION HUBS (SEO task, Ling 24 Nov)
-- [~] 2026-11-24 SEO: osaka-station-vs-umeda · Osaka Station vs Umeda: same place? Which station/side for your hotel
+- [x] SEO · osaka-station-vs-umeda · UMEDA · page ✓  (Osaka Station vs Umeda hub, 24 Nov; HARUKA West Gate, KIX bus ¥1,800, Granvia/RESPIRE/Osaka Station Hotel/Nakazakicho picks, Kushikatsu Matsuba)
