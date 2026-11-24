@@ -178,6 +178,10 @@ for _f in sorted(_glob.glob(f"{SRC}/guides/*.html")):
     _meta=_jj.loads(_m.group(1)); _slug=os.path.basename(_f)
     _meta["slug"]=_slug; GMETA[_slug]=_meta
     _body=fiximg(_raw[_m.end():])
+    # GEO (24 Nov): "keyfacts" = short, quotable answer lines with numbers, shown right after the byline
+    if _meta.get("keyfacts"):
+        _kf='<aside class="wrap keyfacts" aria-labelledby="h-kf"><h2 id="h-kf">Key facts</h2><ul>'+''.join(f'<li>{k}</li>' for k in _meta["keyfacts"])+'</ul></aside>'
+        _body=re.sub(r'(<p class="byline wrap">.*?</p>)', lambda mm: mm.group(1)+_kf, _body, count=1, flags=re.S)
     if _meta.get("faq"):
         _body+='<section class="wrap sec faq" aria-labelledby="h-faq"><h2 id="h-faq">Quick answers</h2>'+''.join(f'<details><summary>{html.escape(q)}</summary><p>{a}</p></details>' for q,a in _meta["faq"])+'</section>'
     if _meta.get("sources"):
@@ -303,7 +307,7 @@ def seo(fn,h):
         ld={"@context":"https://schema.org","@graph":[
           {"@type":"Article","headline":title,"description":desc,"url":url,"datePublished":GMETA.get(fn,{}).get("date","2026-11-22"),"dateModified":_mod(fn),
            "author":{"@type":"Organization","name":"Japan by Station team","url":SITE+"/about"},"publisher":org,
-           "image":purl(OGIMG.get(fn,"hero"),1200),"about":{"@type":"Place","name":GMETA.get(fn,{}).get("city","Osaka")+", Japan"}},
+           "image":purl(OGIMG.get(fn,"hero"),1200),"about":([{"@type":e.get("type","Place"),"name":e["name"],**({"sameAs":e["sameAs"]} if e.get("sameAs") else {})} for e in GMETA[fn]["about"]] if GMETA.get(fn,{}).get("about") else {"@type":"Place","name":GMETA.get(fn,{}).get("city","Osaka")+", Japan"})},
           {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":SITE+"/"},{"@type":"ListItem","position":2,"name":GMETA.get(fn,{}).get("city","Osaka"),"item":SITE+"/guides#"+GMETA.get(fn,{}).get("city","Osaka").lower()},{"@type":"ListItem","position":3,"name":title,"item":url}]}]}
     elif fn in _HUBS:
         _gs=[g for g in ALLG if g["city"]==_HUBS[fn]]
@@ -325,6 +329,10 @@ open(f"{OUT}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<u
 _bots=["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot","Applebot-Extended","DuckDuckBot"]
 open(f"{OUT}/robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in _bots)+"User-agent: *\nAllow: /\n\nSitemap: https://japanbystation.com/sitemap.xml\n")
 _ll="# Japan by Station\n\n> English guides to Japan travel, organised around train stations: where to stay, what is within walking distance, local markets, nightlife, and how many minutes it takes to reach the airport, day trips and sights. Every time and price is checked against operators, airports and tourism bureaus, with the check date shown on each page.\n"
+# GEO (24 Nov): station hubs first, with their key facts, so answer engines find the direct answers
+_hubs=[g for g in ALLG if g.get("keyfacts") and "station" in g["slug"]]
+if _hubs:
+    _ll+="\n## Station guides (start here)\n"+"".join(f"- [{g['title']}](https://japanbystation.com/{g['slug'][:-5]}): {g['card']} Key facts (checked {_mod(g['slug'])}): "+" ".join(re.sub(r'<[^>]+>','',k) for k in g['keyfacts'])+"\n" for g in _hubs)
 for _c in _cities:
     _ll+=f"\n## {_c}\n"+"".join(f"- [{g['title']}](https://japanbystation.com/{g['slug'][:-5]}): {g['card']}\n" for g in ALLG if g['city']==_c)
 _ll+="\n## About\n- [About and how we check facts](https://japanbystation.com/about)\n- [How we make money](https://japanbystation.com/disclosure)\n- [All guides](https://japanbystation.com/guides)\n"
