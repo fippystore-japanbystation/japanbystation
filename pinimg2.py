@@ -50,18 +50,40 @@ def pill(d, x, y, text, size=28, fill=INK, color=WHITE):
     d.text((x + 22, y + 7), text, font=f, fill=color); return w + 44
 
 
-def cover(src, title, kicker, out, fx=0.5, fy=0.5):
+def chips(d, y, items, size=30):
+    """Highlight keywords as coloured tags (Ling 24 Nov: show WHAT the highlights are at a glance)."""
+    fc = F(size, "SemiBold"); x = 50; rows = 1
+    for k, c in enumerate(items):
+        cw = fc.getlength(c) + 36
+        if x + cw > W - 50 and x > 50: x = 50; y += size + 30; rows += 1
+        col = (CORAL, TEAL, SUN)[k % 3]
+        d.rounded_rectangle((x, y, x + cw, y + size + 18), radius=(size + 18) // 2, fill=col + (255,))
+        d.text((x + 18, y + 5), c, font=fc, fill=INK if col == SUN else WHITE); x += cw + 12
+    return rows
+
+
+def cover(src, title, kicker, out, fx=0.5, fy=0.5, hl=None):
     lines = [l for l in title.split("|") if l][:2]
+    items = [c.strip() for c in (hl or "").split(";") if c.strip()][:3]
+    if items:  # measure how many chip rows we need
+        fc = F(30, "SemiBold"); x = 50; nrows = 1
+        for c in items:
+            cw = fc.getlength(c) + 36
+            if x + cw > W - 50 and x > 50: x = 50; nrows += 1
+            x += cw + 12
+        extra = 20 + nrows * 60
+    else: extra = 0
     can = Image.new("RGBA", (W, H)); can.paste(fit(src, W, H, fx, fy), (0, 0))
     fade(can, 0, 170, 110, 0, top=True)
     fade(can, H - 560, H, 0, 215)
     d = ImageDraw.Draw(can); brand(d)
     fs = 74
     while max(F(fs).getlength(l) for l in lines) > 900: fs -= 2
-    lh = int(fs * 1.12); y = H - 110 - lh * len(lines)
+    lh = int(fs * 1.12); y = H - 110 - lh * len(lines) - extra
     pill(d, 50, y - 74, kicker, 26, fill=CREAM, color=INK)
     for l in lines:
         d.text((50, y), l, font=F(fs), fill=WHITE, stroke_width=2, stroke_fill=(18, 12, 32)); y += lh
+    if items: chips(d, y + 14, items)
     d.text((52, H - 78), "japanbystation.com", font=F(30, "SemiBold"), fill=SUN)
     can.convert("RGB").save(out, quality=88)
 
@@ -118,6 +140,9 @@ def page(src, n, head, body, out, fx=0.5, fy=0.5):
 
 if __name__ == "__main__":
     a = sys.argv; m = a[1]
-    if m == "cover": cover(a[2], a[3], a[4], a[5], *(float(x) for x in a[6:8]))
+    if m == "cover":
+        hl = None
+        if "--hl" in a: i = a.index("--hl"); hl = a[i + 1]; a = a[:i] + a[i + 2:]
+        cover(a[2], a[3], a[4], a[5], *(float(x) for x in a[6:8]), hl=hl)
     elif m == "collage": collage(a[2].split(","), a[3].split("|"), a[4], a[5], a[6])
     elif m == "page": page(a[2], int(a[3]), a[4], a[5], a[6], *(float(x) for x in a[7:9]))
