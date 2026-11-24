@@ -78,6 +78,12 @@ For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` �
 - Photo choice: an eye-catching, clearly Japanese Pexels photo that LOOKS at you (colour, lanterns, food, people, a famous station); it may differ from the exact place, but stay in the same region (Kansai photo for Kansai, Tokyo for Tokyo; never Mount Fuji on an Osaka post). Look at it before using it.
 - Emotion: a line or two of feeling (why this moment is worth it), but never claim a stay or visit we didn't make.
 
+## 2c. Page layout and photos (Ling, 24 Nov)
+- City hubs are grouped automatically by build.py: "Start here: the big questions" (first-trip where-to-stay, airport, getting around), "Eat and explore like a local", "Day trips and nights away", then "Smart answers for specific situations" as a compact list. A very niche guide must never be the first thing on a city page.
+- Walls of text feel like a bombardment: every guide needs a photo at least every 2 sections (3–5 photos per page, each a real photo of that place, `<figure class="photo"><img …><figcaption>…</figcaption></figure>` placed between paragraphs, never two in a row).
+- Key points go in dashed boxes (tipbox / bookbox / hotbox / onemore are styled dashed); sections alternate background bands automatically.
+- PHOTO BACKFILL: older guides with fewer than 3 `class="photo"` figures get 2–3 more, 3 guides per website run, starting with the big-question guides of each city.
+
 ## 3. Reels (approved style; do not change without Ling)
 ### REEL FORMAT v3 (Ling, 23 Nov) — OVERRIDES any older line below that says "three answers" or a comment-only CTA
 Reels now carry the same depth as the deep guides. Approved example structure (Tenma, ~35 s):

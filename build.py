@@ -60,7 +60,7 @@ def body_of(fn):
     return fiximg(s[a:b])
 def relink(s):
     return s.replace('href="index.html#','href="osaka-where-to-stay.html#').replace('href="index.html"','href="osaka-where-to-stay.html"')
-CSSV="9"
+CSSV="11"
 pages={}
 # ---- Osaka where to stay with traveller filter
 osaka=relink(body_of("index.html"))
@@ -242,12 +242,34 @@ for c in _cities:
 _gi+='</main>'
 pages["guides.html"]=(head("All Japan Travel Guides","Every Japan by Station guide, by city: where to stay, getting around, local markets, nightlife and day trips, with times checked against official sources."),"guides",_gi)
 
+import re as _hre
+_CORE=_hre.compile(r"(?i)first trip|which area should you stay|where to stay in|where to stay:|airport to|narita or haneda|getting around|kansai airport")
+_AWAY=_hre.compile(r"(?i)hakone|kawaguchi|fuji|minoh|nara|nikko|kamakura|miyajima|otaru")
+def _hub_groups(gs):
+    core=[g for g in gs if _CORE.search(g["title"]) and "¥" not in g["title"] and g["cat"] in ("Where to stay","Getting there","Getting around")]
+    core.sort(key=lambda g:(0 if _hre.search(r"(?i)first trip|which area|namba, umeda or tennoji",g["title"]) else 1 if g["cat"]=="Where to stay" else 2 if g["cat"]=="Getting there" else 3))
+    rest=[g for g in gs if g not in core]
+    away=[g for g in rest if g["cat"] in ("Day trip","Day trips") or _AWAY.search(g["title"])]
+    away.sort(key=lambda g:0 if _hre.search(r"(?i)hakone|fuji|kawaguchi|minoh|nara|cup noodles",g["title"]) else 1)
+    rest=[g for g in rest if g not in away]
+    eat=[g for g in rest if g["cat"] in ("Food","Local food","Neighbourhood guide","Things to do")]
+    rest=[g for g in rest if g not in eat]
+    return [("big","Start here","t-coral","The big questions first","Where to stay, how to get in from the airport and how to get around. Read these before anything else.",core),
+            ("eat","Eat & explore","t-mint","Eat and explore like a local","Food streets, neighbourhoods and the things worth your time.",eat),
+            ("away","Day trips","t-sun","Day trips and nights away","Easy escapes from the city, with the train times worked out.",away),
+            ("tips","Small questions","t-lilac","Smart answers for specific situations","Budget, groups, late nights, big suitcases and the little decisions that make a trip smoother.",rest)]
 for _c in _cities:
     _gs=[g for g in ALLG if g["city"]==_c]; _sl=cslug(_c)
     NAV_CITIES.append((_c,_sl,len(_gs)))
+    _grp=[x for x in _hub_groups(_gs) if x[5]]
+    _jump='<nav class="hubjump" aria-label="Sections">'+''.join(f'<a href="#{k}">{lab}</a>' for k,lab,_t,_h2,_p,_l in _grp)+'</nav>' if len(_grp)>1 else ''
+    _secs=''
+    for k,lab,tcls,h2,p,lst in _grp:
+        _secs+=(f'<section class="wrap sec hubsec hub-{k}" id="{k}" aria-labelledby="h-{k}"><div class="sec-h"><span class="tape {tcls}">{lab}</span><h2 id="h-{k}">{h2}</h2></div>'
+                f'<p class="hubsub">{p}</p><div class="posts{" posts-big" if k=="big" else ""}">'+''.join(_card(g) for g in lst)+'</div></section>')
     _hb=(f'<header class="hero hero-lite"><div class="wrap"><span class="kicker">{_c} · {len(_gs)} guide{"s" if len(_gs)!=1 else ""}</span><h1>{_c} travel guides</h1>'
-         f'<p>Where to stay, how to get around and what is worth your time in and around {_c}. Every time and price is checked, with the date on each guide.</p></div></header>'
-         f'<main><section class="wrap sec"><div class="posts">'+''.join(_card(g) for g in _gs)+'</div></section>'
+         f'<p>Start with the big questions, then the food, day trips and smaller details. Every time and price is checked, with the date on each guide.</p>{_jump}</div></header>'
+         f'<main>{_secs}'
          f'<div class="wrap"><section class="more"><p><a href="guides.html">All guides</a></p></section></div></main>')
     pages[_sl+".html"]=(head(f"{_c} Travel Guides: Where to Stay, Getting Around",f"Every Japan by Station guide for {_c}: where to stay, trains and transfers, local food and day trips, with times and prices checked against official sources."),"city-"+_sl,_hb)
 NAV_CITIES.sort(key=lambda x:-x[2])

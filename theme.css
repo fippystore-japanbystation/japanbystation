@@ -233,3 +233,41 @@ footer a{color:var(--ink);font-weight:700}
 .hotbox{max-width:64ch;margin:16px auto;padding:14px 18px;border-radius:18px;background:var(--mint-t)}
 .golink{display:inline-block;margin-top:8px;font-weight:800;color:var(--ink);text-decoration:none;border-bottom:3px solid var(--coral)}
 .disclose{max-width:64ch;margin:18px auto 0;font-size:13px;opacity:.75}
+
+/* ===== v10 readability (Ling, 24 Nov) ===== */
+/* symmetric padding on hub/all-guides heroes (mobile text touched the left edge) */
+.hero-lite .wrap{padding:0 20px;margin:0 auto;max-width:1080px}
+/* city hubs: grouped sections, quick jump chips, alternating bands */
+.hubjump{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.hubjump a{text-decoration:none;font-weight:800;font-size:14.5px;padding:8px 14px;border-radius:999px;background:#fff;color:var(--ink);box-shadow:var(--shadow)}
+.hubsub{color:var(--muted);margin:6px 0 0;max-width:64ch}
+.posts-big{grid-template-columns:repeat(2,1fr)}
+.posts-big .post h3{font-size:22px}
+@media(max-width:760px){.posts-big{grid-template-columns:1fr}}
+/* alternating full-width background bands so each part reads as its own block */
+main>section.sec:nth-of-type(even):not(.onemore){background:var(--soft);box-shadow:0 0 0 100vmax var(--soft);clip-path:inset(0 -100vmax);padding-top:30px;padding-bottom:34px}
+main>section.hub-eat{background:var(--mint-t)!important;box-shadow:0 0 0 100vmax var(--mint-t)!important;clip-path:inset(0 -100vmax)}
+main>section.hub-tips{background:var(--lilac-t)!important;box-shadow:0 0 0 100vmax var(--lilac-t)!important;clip-path:inset(0 -100vmax)}
+/* guide body: one centred reading column, airier text, smaller list indent */
+main .sec>p,main .sec>ul,main .sec>ol,main .sec>h2,main .sec>h3,main .sec>.photo{max-width:66ch;margin-left:auto;margin-right:auto}
+main .sec>p{font-size:17.5px;line-height:1.75;margin-top:0;margin-bottom:16px}
+main .sec>ul,main .sec>ol{padding-left:22px}
+main .sec>ul li,main .sec>ol li{margin:8px 0;line-height:1.7}
+main .sec>h2{margin-top:6px}
+.photo{margin:26px auto}
+.photo img{aspect-ratio:3/2;object-fit:cover}
+/* dashed boxes for the key-point parts (tips, booking notes, hot experiences, one more thing) */
+.tipbox{border:2px dashed var(--sun);background:var(--sun-t)}
+.bookbox{border:2px dashed var(--sun);background:#fff8e3}
+.hotbox{border:2px dashed var(--mint);background:var(--mint-t)}
+.onemore{border:2px dashed var(--coral);background:#fff}
+.tipbox,.bookbox,.hotbox,.onemore{position:relative}
+.t-coral{background:var(--coral-t);box-shadow:inset 0 0 0 2px var(--coral)}
+/* small questions: compact rows, so they read as a separate, lighter list */
+.hub-tips .posts{grid-template-columns:repeat(2,1fr);gap:12px}
+.hub-tips .post{flex-direction:row;align-items:stretch;border-radius:18px}
+.hub-tips .post-img{width:104px;flex:none;aspect-ratio:auto}
+.hub-tips .post-tx{padding:12px 14px;gap:4px}
+.hub-tips .post h3{font-size:16.5px}
+.hub-tips .post p,.hub-tips .post .tag{display:none}
+@media(max-width:760px){.hub-tips .posts{grid-template-columns:1fr}}
