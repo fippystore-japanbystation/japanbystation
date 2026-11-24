@@ -417,6 +417,7 @@ _fb=[]
 for _f in sorted(os.listdir(os.path.join(SRC,"fbposts"))) if os.path.isdir(os.path.join(SRC,"fbposts")) else []:
     if _f.endswith(".json"):
         _p=_json.load(open(os.path.join(SRC,"fbposts",_f)))
+        if _p.get("skip"): continue  # Ling 24 Nov: retired posts (e.g. hotel/booking) stay on disk but never post
         _fb.append({"id":_p["id"],"order":_p.get("order",999),"guide":_p["guide"],"text":_p["text"],
                     "photo_url":(SITE+"/"+_p["image"]) if _p.get("image") else f"https://images.pexels.com/photos/{_p['photo']}/pexels-photo-{_p['photo']}.jpeg?auto=compress&cs=tinysrgb&w=1600"})
 _fb.sort(key=lambda x:(x["order"],x["id"]))
