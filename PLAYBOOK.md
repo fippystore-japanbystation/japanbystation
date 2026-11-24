@@ -1,5 +1,7 @@
 # Japan by Station: production playbook
 
+> READ STRATEGY.md FIRST (goal, channel roles, content mix, engagement). It wins over any rule below that conflicts with it.
+
 Ling runs **Japan by Station**: japanbystation.com (Japan-only English travel guides) and Instagram **@japanbystation**.
 Each Reel answers ONE traveler question and gives the solution. Viewers comment a KEYWORD and n8n DMs them the guide page.
 **The guide page must be live (and its keyword in keywords.json) before its Reel is queued.**
@@ -66,8 +68,7 @@ Body: copy the structure of an existing guide (e.g. `site/guides/osaka-local-mar
 - Verify one new page in the browser after deploy.
 
 ## 2b. Facebook text posts (Ling, 23 Nov — test)
-- WHERE TO STAY IS FINE ON FACEBOOK (Ling, 24 Nov, final): FB text posts MAY be about which area to stay in, room types, booking tips and price/value by area — people read text slowly. Mix them 1:1 with place/trip posts (routes, food, spots, mistakes to avoid) in "order"; place/trip posts reach more people so far (24 Nov: Cup Noodles 190 reach, Shinjuku station tip 129; booking/price posts 0–4), so watch PERF.md and shift the mix by results. Every post links to its guide; detailed hotel picks live on the website.
-- A post about ONE specific hotel must be specific about what makes it special (fits a family or 4 friends, onsen, view, right on the exit you arrive at), not a list of sizes, and use photos of that hotel only from a source whose licence allows it (Wikimedia CC, an official media library that allows social use). No usable photo → don't write that post. Never ask anyone for permission, never screenshot booking sites.
+- FACEBOOK = JAPAN FIRST (Ling, 24 Nov, final; see STRATEGY.md 2–4): posts are about what makes Japan fun, special or easier at a station/area, written to be enjoyed on Facebook itself. Hotels are never the topic (we have no real hotel photos; hotel-centred posts look weak); at most one soft line like "we filtered a few good-value hotels near X on the site". Mix per STRATEGY.md 3. Posts marked "rewrite" in site/fbposts are hotel-centred and wait to be rewritten to this angle (build.py drops them from the queue until "rewrite" is removed).
 - STYLE (24 Nov): write every Facebook text post to FB-STYLE.md (style profile learned from high-performing Japan-travel FB posts). - PERFORMANCE (24 Nov): before writing, read PERF.md (what hooks/topics are winning on IG/FB) and COMPETITORS.md (formats that outperform); lean on winners, keep ~20% experiments. See section 9.
 For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` → `{"id":"fb-<keyword-lower>-1","guide":"<slug>","photo":<pexels id that shows that place>,"order":<next number>,"text":"…"}` (second one `-2`). build.py turns them into fb-queue.json; n8n posts the next one 6 times a day (about 08:15, 10:55, 13:25, 16:10, 19:15, 21:45 Malaysia time, each ±5 min at random; Ling 24 Nov: never fixed times) with its designed image. Keep at least 12 unposted posts in the queue (2 days).
 - Same topic and facts as the guide, but its own angle (FACT VARIETY in section 3 applies; each point gets 2–3 sentences with colour and a reason, like the Reel elaborations); may say we took our time and checked every fact against official listings (true). Example of the approved emotional style: site/fbposts/fb-tenma-1.json. Ling (23 Nov): detailed (250–400 words), English, a small team that knows the place ("we'd", "our take"), warm, specific, never salesy.
