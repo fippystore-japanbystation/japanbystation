@@ -30,6 +30,13 @@ FOOD BLOG (Ling, 24 Nov; TOPICS.md lines marked "FOOD", F01…): a lighter blog-
 - Each dish: what it is in one plain sentence; why it's different or special (history, how it's made, how locals eat it); where to try it: one well-known place AND one smaller local place, each with area/nearest station, price level, closing day if known; how to order/eat it (one tip). 2–4 sentences per dish, warm, specific, no hype.
 - LINK OUT (Ling: "refer other links"): link the sources inline, like a blog: the shop's own site or its Tabelog page, the city/prefecture tourism page, a museum or association page. 1–2 outside links per dish, rel="noopener" target="_blank". Also link our related station/area guides.
 - 600–900 words, answer-first lede ("If you only try one unusual thing in X, make it …"), 3–5 photos of the dishes or the food street (Pexels only; if no photo of that exact dish, show the area or the market, never a different dish), a short FAQ (2–3), sources with check date. City = the region's city value. One UPPERCASE keyword (e.g. MONJA).
+- VARY THE FORMAT (Ling, 24 Nov): food pages must not all look the same. Rotate one of these per page (check the last 2 food pages and pick a different one; note the format in TOPICS.md DONE):
+  A. "Eat it differently": the unusual WAY locals eat something familiar (dip it, pour broth on it, eat it for breakfast, the order you're meant to eat it in), then where to try.
+  B. "Reversed": start from the place (a market, a station, a street) and what to eat there in order, instead of dish by dish.
+  C. "Classic vs local": each pair = the famous version and the one locals prefer, side by side.
+  D. "Would you try it?": the strangest-sounding dishes first, with why they're actually good; ends on the safe classic.
+  E. "One dish, deep": one regional dish told properly (story, how it's made, 2–3 places, how to order), for dishes with enough to say.
+  Official sources (tourism boards, prefecture pages, the shop's own site) are welcome as links. The point is engagement: show something different and special people can try in that area.
 - FB posts for a food page: both are PLAY or WONDER posts ("Would you try this?", "Guess what this costs", the story behind one dish); food posts are our best fit for STRATEGY.md.
 
 DEEP TEMPLATE (Ling, 23 Nov; EVERY new guide, briefs included): copy `site/guides/tenma-tenjinbashisuji-local-guide.html`. Ling: "not surface level", a real 3–5 minute read (about 700–1,100 words), quality over speed. A place may be covered again from a new angle (Ling: one place can be told more than once) — link the related guides both ways.
