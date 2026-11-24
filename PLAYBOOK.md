@@ -223,3 +223,10 @@ EVERY SEO RUN:
 3. GEO (AI answers): pick 2 questions our guides answer and WebSearch them; note whether japanbystation.com shows up. Improve the page that should be cited: answer in the first 2 sentences, concrete numbers with "checked <date>", a short FAQ, named sources. Keep llms.txt / llms-full.txt building (build.py does it). In Cloudflare referrers, watch for chatgpt.com, perplexity.ai, gemini, copilot and log them.
 4. After a deploy: ping IndexNow for the changed URLs from a japanbystation.com tab in the built-in browser: `fetch('https://api.indexnow.org/indexnow?url='+encodeURIComponent(u)+'&key=6c1f0b2e9a7d4c58b3e1f2a0d9c8b7a6',{mode:'no-cors'})` for each URL. For new or changed key pages, Search Console URL inspection → REQUEST INDEXING (max ~8 a day).
 5. Max ONE deploy per run (shared Cloudflare build budget). Log what changed in SEO-LOG.md.
+
+
+## 9. PERFORMANCE LOOP + COMPETITOR FORMATS (Ling, 24 Nov: "start recording properly; we need many samples")
+- Numbers come from n8n's READ-ONLY endpoint http://localhost:5678/webhook/jbs-stats-r2x (open it with the built-in browser's navigate tool, read the JSON with get_page_text). It returns IG Reels (reach, views, saves, shares, avg watch time), FB posts and FB Reels (when the token allows), followers. NEVER call /webhook/jbs-post-now-7f3k for this: that one posts.
+- Save one snapshot a day as perf/<YYYY-MM-DD>.json; update PERF.md: early signals → patterns (only with ≥ 3 comparable posts per side, ≥ 48 h old, same format). Track per post: hook type (situation / question / number / "before you book"…), topic, city, posting slot, length.
+- The Reels and Facebook producers READ PERF.md before writing: do more of what wins, less of what loses, but always keep ~20% experiments (new hook types, new topics) so we keep learning.
+- Competitor formats: once a week, open 8–12 English Japan-travel accounts' Reels/pages in the built-in browser (public pages), note which posts clearly beat the account's usual numbers and WHY (hook, structure, length, on-screen text), in COMPETITORS.md. Patterns only — never copy captions, scripts, footage or photos.
