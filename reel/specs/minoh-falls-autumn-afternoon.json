@@ -13,11 +13,10 @@
  "hook": {
   "tag": "ONE AFTERNOON IN OSAKA",
   "lines": [
-   "Leave at 1,",
-   "back by dark"
+   "One afternoon,",
+   "one waterfall"
   ]
  },
- "cta_sub": "the brewery one stop early",
  "cover": {
   "title": "Minoh Falls|in an afternoon",
   "category": "MINOH, OSAKA",
@@ -38,12 +37,12 @@
    ],
    "clauses": [
     [
-     "Just the two of you, with one free afternoon in Osaka?",
-     "Just the two of you, with one free afternoon in Osaka?"
+     "Two of you, one free afternoon in Osaka?",
+     "Two of you, one free afternoon in Osaka?"
     ],
     [
-     "Take the Hankyu line to Minoh Falls.",
-     "Take the Hankyu line to Minoh Falls."
+     "Ride the Hankyu to Minoh Falls.",
+     "Ride the Hankyu to Minoh Falls."
     ]
    ]
   },
@@ -54,20 +53,17 @@
      "w2_m21.jpg"
     ],
     [
-     "w2_m06.jpg"
-    ],
-    [
      "w2_m08.jpg"
     ]
    ],
    "clauses": [
     [
-     "On a weekday, leave Umeda at one, and you're back before dark.",
-     "On a weekday, leave Umeda at one, and you're back before dark."
+     "On a weekday,",
+     "On a weekday,"
     ],
     [
-     "We timed the whole walk: DM us MINOH.",
-     "We timed the whole walk: DM us MINOH."
+     "you're back before dark.",
+     "you're back before dark."
     ]
    ]
   },
@@ -75,13 +71,13 @@
    "id": "pick1",
    "clips": [
     [
-     "w2_m16.jpg"
+     "w2_m06.jpg"
+    ],
+    [
+     "w2_m02.jpg"
     ],
     [
      "w2_m10.jpg"
-    ],
-    [
-     "w2_m03.jpg"
     ],
     [
      "w2_m01.jpg"
@@ -91,21 +87,28 @@
     "color": "sun",
     "kicker": "#1 THE FULL WALK",
     "title": "Minoh Falls",
-    "big": "33 m",
-    "small": "riverside path, no cars, free"
+    "small": "a car-free riverside path"
    },
    "clauses": [
     [
-     "Number one: the full walk. A riverside path with no cars, up to a thirty-three metre waterfall.",
-     "#1 The full walk. A riverside path with no cars, up to a 33 m waterfall."
+     "Number one: the full walk,",
+     "Number one: the full walk,"
     ],
     [
-     "Go on a weekday: in leaf season, weekends pack the path from the station.",
-     "Go on a weekday: in leaf season, weekends pack the path from the station."
+     "a car-free riverside path",
+     "a car-free riverside path"
     ],
     [
-     "Wear proper shoes, and save twenty minutes just to stand at the falls.",
-     "Wear proper shoes, and save twenty minutes just to stand at the falls."
+     "to a thirty-three metre waterfall.",
+     "to a 33 m waterfall."
+    ],
+    [
+     "Go midweek; weekends get packed.",
+     "Go midweek; weekends get packed."
+    ],
+    [
+     "Then just stand there a while.",
+     "Then just stand there a while."
     ]
    ]
   },
@@ -129,21 +132,24 @@
     "color": "coral",
     "kicker": "#2 THE SHORT WALK",
     "title": "Ryuan-ji red bridge",
-    "big": "No climb",
-    "small": "turn around at the temple"
+    "small": "all the colour, no climb"
    },
    "clauses": [
     [
-     "Number two, the short walk: Ryuan-ji temple and its red bridge.",
-     "Number two, the short walk: Ryuan-ji temple and its red bridge."
+     "Number two: the short walk",
+     "Number two: the short walk"
     ],
     [
-     "The park office's own autumn photos were taken right here.",
-     "The park office's own autumn photos were taken right here."
+     "to Ryuan-ji's red bridge.",
+     "to Ryuan-ji's red bridge."
     ],
     [
-     "All the colour, none of the climb, perfect for a late start.",
-     "All the colour, none of the climb, perfect for a late start."
+     "The park's own autumn photos come from here.",
+     "The park's own autumn photos come from here."
+    ],
+    [
+     "All the colour, no climb.",
+     "All the colour, no climb."
     ]
    ]
   },
@@ -159,8 +165,12 @@
    ],
    "clauses": [
     [
-     "Most people miss this: shops on the path fry momiji tempura, maple leaves in sweet batter.",
-     "Most people miss this: shops on the path fry momiji tempura, maple leaves in sweet batter."
+     "Most people miss this:",
+     "Most people miss this:"
+    ],
+    [
+     "shops on the path fry maple-leaf tempura.",
+     "shops on the path fry maple-leaf tempura."
     ]
    ]
   },
@@ -179,15 +189,19 @@
    ],
    "clauses": [
     [
-     "On the way back, get off one stop early. A family-run brewery pours its beer there, at its freshest.",
-     "On the way back, get off one stop early. A family-run brewery pours its beer there, at its freshest."
+     "Heading back, get off one stop early",
+     "Heading back, get off one stop early"
     ],
     [
-     "Where? Link in bio.",
-     "Where? Link in bio."
+     "for a family-run brewery.",
+     "for a family-run brewery."
+    ],
+    [
+     "DM us MINOH.",
+     "DM us MINOH."
     ]
    ]
   }
  ],
- "caption": "Just the two of you, one free afternoon in Osaka? Take the Hankyu line to Minoh Falls 🍁\n\nOn a weekday, leave Osaka-umeda at 13:00 and you're back at Minoh Station well before dark.\n\n🥇 The full walk to Minoh Falls\n• A paved riverside path with no cars, climbing gently for about 2.7 km to a 33 m waterfall. Entry to the park is free.\n• Go on a weekday: on leaf-season weekends the park office expects the path packed all the way from the station.\n• Wear proper shoes, and keep about 20 minutes just to stand at the falls before walking down.\n\n🥈 The short walk: Ryuan-ji and its red bridge\n• Turn around at the temple and its red bridge, past the insect museum: about 1 h 15 min there and back.\n• The park office's own autumn photos were taken right here.\n• All the colour on the lower path, none of the climb: the one for a late start or little legs.\n\n💡 Most people miss this: shops on the first stretch of the path fry momiji tempura, Minoh's famous snack of salted maple leaves in sweet batter.\n\nOn the way back, get off one stop early: a family-run brewery founded in 1997 pours its beer at its own taproom there 🍺 Where it is (and the full timing) is in our guide, link in bio 👆 or DM us MINOH.\n\n💌 Send this to the person you'd take.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\nPhotos: 663highland CC BY 2.5, Go Imai CC BY-SA 2.0, ::::=UT=:::: CC BY-SA 3.0, Kanchi1979 CC BY-SA 4.0, KURATA TETSURO CC BY 3.0, KENPEI CC BY-SA 3.0, Fred Cherrygarden CC BY-SA 4.0, lumoplank CC0, Toshiki Miyake CC BY-SA 3.0, Brancacube CC BY-SA 3.0, Jojo2000 CC BY-SA 3.0, Haijimahideki (free use) via Wikimedia\n\n#minohfalls #minoh #osakaautumn #momiji #osakadaytrip #kansai #japantravel #japantrip"
+ "caption": "Two of you, one free afternoon in Osaka? Take the Hankyu line to Minoh Falls 🍁\n\nOn a weekday, an afternoon is enough: up to the falls and back at the station before dark.\n\n🥇 The full walk to Minoh Falls\n• A paved riverside path with no cars, climbing gently to a 33 m waterfall. Entry to the park is free.\n• Go midweek: on leaf-season weekends the park office expects the path packed all the way from the station.\n• Wear proper shoes, then just stand at the falls for a while before you walk down.\n\n🥈 The short walk: Ryuan-ji and its red bridge\n• Turn around at the temple and its red bridge, past the insect museum.\n• The park office's own autumn photos were taken right here.\n• All the colour on the lower path, none of the climb: the one for a late start or little legs.\n\n💡 Most people miss this: shops on the first stretch of the path fry momiji tempura, Minoh's famous snack of salted maple leaves in sweet batter.\n\nOn the way back, get off one stop early: a family-run brewery pours its own beer at its taproom there 🍺 Where it is is in our bio 👆 or DM us MINOH.\n\n💌 Send this to the person you'd take.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#minohfalls #minoh #osakaautumn #momiji #osakadaytrip #kansai #japantravel #japantrip"
 }
