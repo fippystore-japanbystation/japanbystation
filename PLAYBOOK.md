@@ -89,6 +89,9 @@ For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` �
 - FACEBOOK vs IG (Ling, 24 Nov): Reels go to IG and the Facebook Page together with the same video and caption; "link in bio" stays as it is. Only a "comment/DM KEYWORD" sentence is swapped on Facebook (the keyword auto-reply only works on IG): n8n keeps the tip and puts "👉 <reason>: <guide URL>" in place of that sentence. Facebook text posts never use keywords either; they use the playful click line + link (2b).
 
 ## 3. Reels (approved style; do not change without Ling)
+### REEL ANGLE (Ling, 24 Nov) — every Reel starts from WHO is travelling, not from a place
+Open with the traveller's situation, then recommend: "Travelling with a big suitcase? Here's where to go", "With kids in Osaka? Two places they'll love", "Just the two of you in Tokyo for one evening?", "Taking your parents? Skip the stairs here", "First night after a long flight?", "Rainy day in Kyoto?". The place names come second, as the answer. Rotate the situations (luggage, family with kids, couple, solo, parents/older travellers, friends group, first time, short time, rain, budget) and never use the same one twice in a row. 9 Reels go out a day (US + Asia time slots), so variety matters.
+
 ### REEL FORMAT v3 (Ling, 23 Nov) — OVERRIDES any older line below that says "three answers" or a comment-only CTA
 Reels now carry the same depth as the deep guides. Approved example structure (Tenma, ~35 s):
 1. HOOK 0–3 s: the answer + the situation, e.g. "Skip Dotonbori tonight. Osaka eats one stop away, in Tenma."
