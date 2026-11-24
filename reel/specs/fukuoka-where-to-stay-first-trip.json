@@ -1,0 +1,174 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "fukuoka-where-to-stay-first-trip",
+ "keyword": "FUKUOKA",
+ "music": "m_kyotoriver.mp3",
+ "emph": [
+  "Fukuoka",
+  "Nakasu-Kawabata",
+  "Hakata",
+  "yatai",
+  "kitchen"
+ ],
+ "hook": {
+  "tag": "IN FUKUOKA FOR THE FOOD?",
+  "lines": [
+   "Sleep by the",
+   "river stalls"
+  ]
+ },
+ "cover": {
+  "title": "Sleep by the|river stalls",
+  "category": "NAKASU, FUKUOKA",
+  "color": "coral",
+  "clip": "cv_w4_02.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "w4_01.jpg"
+    ],
+    [
+     "w4_16.jpg"
+    ],
+    [
+     "w4_05.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "In Fukuoka for the food?",
+     "In Fukuoka for the food?"
+    ],
+    [
+     "Sleep by the river stalls.",
+     "Sleep by the river stalls."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "w4_03.jpg"
+    ],
+    [
+     "w4_20.jpg"
+    ],
+    [
+     "w4_22.jpg"
+    ],
+    [
+     "w4_24.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#1 FOR YATAI NIGHTS",
+    "title": "Nakasu-Kawabata",
+    "small": "walk home from the stalls"
+   },
+   "clauses": [
+    [
+     "Number one: Nakasu-Kawabata.",
+     "Number one: Nakasu-Kawabata."
+    ],
+    [
+     "The yatai, Kushida Shrine",
+     "The yatai, Kushida Shrine"
+    ],
+    [
+     "and Hakata's oldest arcade",
+     "and Hakata's oldest arcade"
+    ],
+    [
+     "are on your doorstep.",
+     "are on your doorstep."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "w4_28.jpg"
+    ],
+    [
+     "w4_32.jpg"
+    ],
+    [
+     "w4_29.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "#2 FOR DAY TRIPS",
+    "title": "Hakata",
+    "small": "Kyushu's biggest station"
+   },
+   "clauses": [
+    [
+     "Number two: Hakata, for day trips,",
+     "Number two: Hakata, for day trips,"
+    ],
+    [
+     "with Kyushu's biggest station downstairs.",
+     "with Kyushu's biggest station downstairs."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "w4_04.jpg"
+    ],
+    [
+     "w4_15.jpg"
+    ],
+    [
+     "w4_10.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Most stalls seat about ten,",
+     "Most stalls seat about ten,"
+    ],
+    [
+     "so drop your bags at the hotel first.",
+     "so drop your bags at the hotel first."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w4_y1.jpg"
+    ],
+    [
+     "w4_26.jpg"
+    ],
+    [
+     "w4_y0.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Breakfast?",
+     "Breakfast?"
+    ],
+    [
+     "Hakata's kitchen market is in our bio.",
+     "Hakata's kitchen market is in our bio."
+    ]
+   ]
+  }
+ ],
+ "caption": "In Fukuoka for the food? Sleep by the river stalls 🏮\n\n🥇 Nakasu-Kawabata, for yatai nights\n• The river yatai, Kushida Shrine and Kawabata, Hakata's oldest shopping arcade, are all on your doorstep, one stop from both Hakata and Tenjin.\n• Start at a stall by the river, then try a second one rather than staying at one all night. Still hungry? Tenjin's stalls are one subway stop away.\n• The bar streets nearest the river stay loud late, so pick a hotel on the Kawabata side and simply walk home from the stalls.\n\n🥈 Hakata, for trains and day trips\n• Kyushu's biggest station is right downstairs, with shinkansen and limited expresses across Kyushu.\n• The airport is a short subway ride away, so almost no time is lost between plane and hotel.\n• Behind the offices hide quiet temple streets and Sumiyoshi Shrine, the oldest of Japan's Sumiyoshi shrines. The station side does feel like a business district at night.\n\n💡 Most yatai seat about ten people. Order at least one thing each, leave room for the next person, and drop your luggage at the hotel first, because there's nowhere to put it.\n\nBreakfast is sorted too: the market known as \"Hakata's kitchen\", where Fukuoka's chefs and home cooks shop, is in our bio 👆\n\n📲 Send this to the friend who plans every trip around food.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#fukuoka #hakata #nakasu #yatai #fukuokafood #kyushu #japantravel #japantrip"
+}

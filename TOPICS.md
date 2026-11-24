@@ -4,7 +4,7 @@
 Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
 - [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓ · reel ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts queued with images
 - [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓ · reel ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts queued with images
-- [x] R03 · fukuoka-where-to-stay-first-trip · FUKUOKA · page ✓  (Fukuoka · Hakata vs Tenjin vs Nakasu-Kawabata) — FB posts queued with images
+- [x] R03 · fukuoka-where-to-stay-first-trip · FUKUOKA · page ✓ · reel ✓  (Fukuoka · Hakata vs Tenjin vs Nakasu-Kawabata) — FB posts queued with images
 - [x] R04 · new-chitose-airport-to-sapporo · CHITOSE · page ✓  (Hokkaido · Rapid Airport vs bus vs taxi/car, winter) — FB posts queued with images
 - [x] R05 · Kyoto · kansai-airport-to-kyoto · HARUKA · page ✓
 - [x] R06 · Hiroshima · hiroshima-miyajima-one-day · MIYAJIMA · page ✓
@@ -32,7 +32,7 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - shibuya-crossing-view · SCRAMBLE · Reel ✓ (brief 71: Hachiko Square free vs Starbucks window vs Shibuya Sky; MAG8 ¥1,800 as paid pick)
 - minoh-falls-autumn-afternoon · MINOH · Reel ✓ (brief 11: 13:00 from Umeda, sunset 16:48 on 26 Nov 2026, Ryuan-ji short walk, light-up to 6 Dec)
 - shibuya-quiet-base-yoyogi · YOYOGI · Reel ✓ (brief 72: Yoyogi-Hachiman vs Yoyogi-Uehara vs central Shibuya, Booking prices 16–19 Dec 2026; not one stop)
-- shinjuku-two-hours-before-dinner · GARDEN (brief 74: Gyoen last entry 16:00 Oct–mid-Mar, free TMG observatory to 22:00, Shinjuku-sanchome/Kinokuniya for rain)
+- shinjuku-two-hours-before-dinner · GARDEN · Reel ✓ (brief 74: Gyoen last entry 16:00 Oct–mid-Mar, free TMG observatory to 22:00, Shinjuku-sanchome/Kinokuniya for rain)
 - nakazakicho-vs-umeda-hotel · NAKAZAKI (brief 03: Booking prices 14–17 Dec 2026, Quintessa ¥24,920 vs Monterey ¥34,394 vs Granvia ¥49,243; 800 m walk; taxi ¥600/1.2 km)
 - sensoji-morning-or-evening · SENSOJI (brief 75: hall 6:30 Oct–Mar, MISOJYU ¥850 from 8:00, Nakamise 250 m, lights to ~23:00 + tourist-centre terrace route)
 - sakai-watch-knife-making · KNIFE (brief 13: free Denshokan sharpening demo Fri 13:30–15:00, forges need 10–15 days' booking, free museum + 24-maker shop; Nankai ¥290 ≈35 min)
@@ -71,7 +71,7 @@ Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each
 - sapporo-where-to-stay-first-trip · SAPPORO · Reel ✓ (R01: Odori pick; Chi-Ka-Ho 520 m ≈10 min 5:45–24:30; Rapid Airport 33 min ¥1,230; Susukino 1.5 km ≈20 min; Daruma 17–5; Snow Festival 4–11 Feb 2027; Meidai Nigirimeshi 24 h)
 - kyoto-where-to-stay-first-trip · KYOTO · Reel ✓ (R02: Shijo-Karasuma pick; Kyoto–Shijo 3 min ¥220; bus ¥230, Subway day ¥800, Subway+Bus ¥1,100; hotel tax from 1 Mar 2026; Daiichi Asahi 6:00 closed Thu; Inoda Coffee 7:00)
 - hakone-private-onsen-which-booking · ONSEN (brief 62: Ikyu 16 Dec 2026 2 adults 2 meals: Kiritani standard ¥27,000 vs open-air-bath room ¥39,600 (in-room bath NOT onsen); Kiritani private onsen ¥3,600/50 min, 5 groups/day, by check-in order; Hakone Yuryo private room ¥10,400/120 min weekday, book 1 month to 15:00 day before, closed 1–3 Dec 2026)
-- fukuoka-where-to-stay-first-trip · FUKUOKA (R03: Hakata pick; airport–Hakata 5 min, Tenjin 11; intl terminal shuttle ~10 min; Hakata–Tenjin ¥210 6 min; ~100 yatai from 18:00; Nagahama revived 2023; Yanagibashi market 8:00, closed Sun/hol)
+- fukuoka-where-to-stay-first-trip · FUKUOKA · Reel ✓ (R03: Hakata pick; airport–Hakata 5 min, Tenjin 11; intl terminal shuttle ~10 min; Hakata–Tenjin ¥210 6 min; ~100 yatai from 18:00; Nagahama revived 2023; Yanagibashi market 8:00, closed Sun/hol)
 - new-chitose-airport-to-sapporo · CHITOSE (R04: Rapid Airport 33/37/43 min ¥1,230, u-seat ¥1,000/¥800; Hokuto bus ¥1,500 no Suica; taxi ~60 min from ~¥17,000; 25–26 Jan 2026 1,145 trains cancelled; Kikuyo Shokudo 11–20 3F)
 
 - gora-to-lake-ashi-bus-or-ropeway · ROPEWAY (brief 63 reframed as evergreen bus vs ropeway, Ling 24 Nov: no one-day events; Gora→Kowakien S bus→H line→Moto-Hakone 20 min ¥910; Yumoto→Moto-Hakone 30 min ¥1,210; Gora→Togendai bus ≈55 min ¥880 vs cable+ropeway 65; OAM ¥2,000 daily; Pola closed 1 Dec 2026; digital Freepass weather refund ropeway ¥1,640/¥1,750, partial ¥820; e-Romancecar refund ¥100)
@@ -96,7 +96,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [!] 02 needs research — Honmachi ¥10,000 late dinner, quiet room  (Osaka city · BRIEFS-KANSAI-40.md)
 - [x] 73 · shinjuku-which-station · SHINJUKU · page ✓ · reel ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 12 · cup-noodles-museum-ikeda · NOODLES · page ✓ · reel ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
-- [x] 74 · shinjuku-two-hours-before-dinner · GARDEN · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [x] 74 · shinjuku-two-hours-before-dinner · GARDEN · page ✓ · reel ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 03 · nakazakicho-vs-umeda-hotel · NAKAZAKI · page ✓  (Osaka city · BRIEFS-KANSAI-40.md)
 - [x] 75 · sensoji-morning-or-evening · SENSOJI · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 13 · sakai-watch-knife-making · KNIFE · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)

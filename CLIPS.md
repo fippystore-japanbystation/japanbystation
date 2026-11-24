@@ -51,3 +51,14 @@ WIKIMEDIA (w3_*.jpg in Downloads/jbs_media; author/licence in w3_index_1124.json
  Kyoto: Shijo-Karasuma w3_k01–k03, Hankyu Karasuma w3_k04/k05, Hankyu trains w3_k06/k07, subway w3_k08/k09, city buses w3_k10–k15, Gion night w3_k17–k20, Yasaka shrine night w3_k21/k22, Nishiki w3_k23–k28, Keihan w3_k29, Inoda Coffee w3_k30–k33, Kyoto Stn atrium w3_k34/k35, Kamo River w3_k36 · AVOID: w3_k16 (old ticket with a date)
  Tokyo: Yoyogi-Hachiman stn w3_y01–y04, Odakyu trains w3_y05–y07/y29 (y29 = Yoyogi-Uehara), Yoyogi Park w3_y08–y14 (y09 autumn crowd = cover), Shibuya night streets w3_y15–y20 (y15 has a pixelated ad), Shimokitazawa platform w3_y21, Tokyo Camii w3_y22–y28
 DOWNLOAD TIP (24 Nov): the bundle .tmp in Downloads vanishes the moment it completes. Schedule the click with setTimeout(…, 12000), then in device_bash poll for *.tmp and `ln` it to a name inside Downloads/jbs_media (same disk; /tmp fails with cross-device). The hardlink keeps the full file after the browser removes the .tmp.
+
+## Added 24 Nov (Reels run: fukuoka-where-to-stay-first-trip, shinjuku-two-hours-before-dinner)
+WIKIMEDIA (w4_*.jpg in Downloads/jbs_media; credit on the GUIDE page only):
+ Fukuoka yatai (night): w4_00 Yatai day/closed (Eejyanaika) · w4_01 Nakasu-yatai crowd (ｍｍｒｙ0241) · w4_02 Nakasu stalls neon (Yoshikazu TAKADA, cover) · w4_03–w4_17 Hakata yatai + food (Nesnad, CC BY 4.0; w4_06/07/13/14 food plates, w4_08 glass, w4_09 menu) · w4_18/w4_19 Seiryu Park yatai at dusk, not open yet (Hirho)
+ Kushida Shrine wall w4_20 · Kawabata arcade w4_22/w4_23/w4_24 (w4_21 has Halloween pumpkins: avoid) · Kawabata Zenzai w4_25 (all Hirho/Nightingale)
+ Yanagibashi Rengo Market: w4_26 (LWY), w4_y0 lane, w4_y1 front sign, w4_y2 manu coffee street, w4_y3 shop shelves (STA3816 / Gemini st.)
+ Hakata Station: w4_27 subway platform, w4_28 concourse (Twotwo2019) · plaza winter illumination w4_29–w4_33 (そらみみ)
+ Shinjuku Gyoen: w4_34 maples (nesnad), w4_35 maple close-up (Carbonium) · TMG South Observatory views (day) w4_36–w4_40 (Guilhem Vellut) · Hanazono Shrine w4_41 entrance day, w4_42 lion (PD), w4_43–45 night torii (Stephen Kelly, small watermark bottom-left: crop centre only)
+Pexels, SHINJUKU GYOEN (checked): 38410094/95/96, 28405153, 28405154, 31100329, 35468235, 37644815, 40953632 · TMG building 34840277, 35074673, 41116332, 31171932 · Tokyo night from high up 40437973 (photo), 31024383 (Docomo tower at night), 30995856 (Nishi-Shinjuku towers at night)
+Pexels, FUKUOKA: canal/river 29398692, 29398691, 38932251, 39547560 · river + bridge day video 32079491 (landscape)
+Unsure, skip: 28283592 ("night fever Fukuoka", city not confirmed), 35205660 (dark park + tower), 35589844 / 29188783 (autumn garden/park, place not confirmed)

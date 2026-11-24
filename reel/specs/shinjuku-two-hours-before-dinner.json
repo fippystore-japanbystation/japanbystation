@@ -1,0 +1,179 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "shinjuku-two-hours-before-dinner",
+ "keyword": "GARDEN",
+ "music": "m_japansnacks.mp3",
+ "emph": [
+  "Shinjuku",
+  "Gyoen",
+  "maples",
+  "free",
+  "sunset"
+ ],
+ "hook": {
+  "tag": "2 HOURS BEFORE DINNER?",
+  "lines": [
+   "Garden early,",
+   "skyline late"
+  ]
+ },
+ "cover": {
+  "title": "Garden early,|skyline late",
+  "category": "SHINJUKU, TOKYO",
+  "color": "mint",
+  "clip": "cv_p_38410095.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "p_28405153.jpg"
+    ],
+    [
+     "c_31024383.mp4",
+     0.0
+    ],
+    [
+     "p_31100329.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Two hours before dinner in Shinjuku?",
+     "Two hours before dinner in Shinjuku?"
+    ],
+    [
+     "Garden early, skyline late.",
+     "Garden early, skyline late."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "p_38410094.jpg"
+    ],
+    [
+     "w4_34.jpg"
+    ],
+    [
+     "w4_35.jpg"
+    ],
+    [
+     "p_37644815.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "#1 START EARLY",
+    "title": "Shinjuku Gyoen",
+    "small": "autumn maples by the gate"
+   },
+   "clauses": [
+    [
+     "Number one: Shinjuku Gyoen,",
+     "Number one: Shinjuku Gyoen,"
+    ],
+    [
+     "if you start early.",
+     "if you start early."
+    ],
+    [
+     "In autumn, the maples",
+     "In autumn, the maples"
+    ],
+    [
+     "by the Shinjuku Gate turn red.",
+     "by the Shinjuku Gate turn red."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "p_34840277.jpg"
+    ],
+    [
+     "w4_36.jpg"
+    ],
+    [
+     "c_30995856.mp4",
+     0.0
+    ],
+    [
+     "p_40437973.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "#2 FREE",
+    "title": "Government observatory",
+    "small": "202 m up, best at sunset"
+   },
+   "clauses": [
+    [
+     "Number two: the free government observatory,",
+     "Number two: the free government observatory,"
+    ],
+    [
+     "over two hundred metres up, best at sunset.",
+     "over 200 metres up, best at sunset."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "w_64.jpg"
+    ],
+    [
+     "w_57.jpg"
+    ],
+    [
+     "w_62.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Raining? Stay in Shinjuku-sanchome,",
+     "Raining? Stay in Shinjuku-sanchome,"
+    ],
+    [
+     "where a big bookstore connects straight to the subway.",
+     "where a big bookstore connects straight to the subway."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w4_44.jpg"
+    ],
+    [
+     "w4_45.jpg"
+    ],
+    [
+     "w4_43.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "And behind Golden Gai hides a quiet shrine.",
+     "And behind Golden Gai hides a quiet shrine."
+    ],
+    [
+     "DM us GARDEN for the way in.",
+     "DM us GARDEN for the way in."
+    ]
+   ]
+  }
+ ],
+ "caption": "Two hours before dinner in Shinjuku? Garden early, skyline late 🍁\n\n🥇 Shinjuku Gyoen, if your two hours start early\n• In autumn the maples in the Japanese Garden turn red, and the Formal Garden has its rows of plane trees. Both are close to the Shinjuku Gate.\n• We suggest staying at the Shinjuku Gate end rather than crossing the whole garden, so you are never rushing to leave.\n• In winter the gates close early in the afternoon, so the garden is for an early start on a dry day.\n\n🥈 The free Tokyo Metropolitan Government observatory, for later\n• It's free and 202 m up, and it stays open into the evening, so it works when the garden has closed.\n• Go near sunset for the light and stay for the city lights. Allow about an hour with the walk and the lift queue.\n• After dark, a free light projection plays on the building's outside wall, so you can watch it on your way to dinner.\n\n💡 Raining? Stay on the east side around Shinjuku-sanchome, where Kinokuniya's main bookstore connects straight to the subway, so you can browse until dinner without an umbrella.\n\nBetween Golden Gai's back lanes and Yasukuni-dori, red gates lead into a quiet shrine where entertainers have long prayed for success ⛩️ DM us GARDEN and we'll send you the way in.\n\n📲 Send this to whoever you're having dinner with.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#shinjuku #shinjukugyoen #tokyoautumn #tokyometropolitangovernmentbuilding #hanazonoshrine #tokyotravel #japantravel #japantrip"
+}
