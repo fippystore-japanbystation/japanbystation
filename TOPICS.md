@@ -16,8 +16,8 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] R11 · fukuoka-yatai-how-they-work · YATAI · page ✓  (Fukuoka · Nakasu vs Tenjin vs Nagahama) — FB posts queued with images
 - [x] R12 · Hokkaido · otaru-from-sapporo-half-day-or-overnight · OTARU · page ✓ — FB posts queued with images
 - [x] F01 · Fukuoka · fukuoka-food-beyond-tonkotsu-ramen · GOMASABA · page ✓  (FOOD format A "eat it differently") — FB posts queued with images
-- [~] 25 Nov 11:44 X06 · Hokkaido · SEASON · Sapporo in December: White Illumination + Munich Christmas Market in Odori Park, dates, snow tips
-- [~] 25 Nov 11:44 X07 · Kyoto · SEASON · Kyoto in December: Arashiyama Hanatouro lantern path, quieter temples after the leaves, year-end bell ringing
+- [x] X06 · sapporo-in-december-2026 · ODORI · page ✓  (Hokkaido · SEASON: White Illumination 46th + Munich Christmas Market 25th, new Red Brick + Nakajima Park venues) — FB posts queued
+- [x] X07 · kyoto-in-december-2026 · JOYA · page ✓  (Kyoto · SEASON: Hanatouro ended 2021 (pref.kyoto.jp), so reframed: daikon-daki, Shimai-Kobo/Tenjin, joya no kane list) — FB posts queued
 - [ ] X08 · Nagoya · SEASON · Nabana no Sato winter illumination (Mie): day trip from Nagoya or Osaka, tickets, timing
 - [ ] H06 · Kyoto · STATION · Kyoto Station: which exit (Karasuma vs Hachijo), buses, lockers and luggage forwarding, food halls — STATION HUB TEMPLATE + exit card
 - [ ] H07 · Fukuoka · STATION · Hakata Station: which exit (Hakata vs Chikushi), airport subway, food floors — STATION HUB TEMPLATE + exit card
@@ -41,6 +41,10 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [ ] F08 · Nara · FOOD · Nara's own food: kakinoha-zushi, Miwa somen, chagayu, Yoshino kuzu
 
 ## DONE (guide slug · keyword · Reel?)  ← add every new item here
+- tokyo-christmas-markets-2026 · GLUHWEIN · season page (25 Nov)
+- sapporo-in-december-2026 · ODORI · season page (25 Nov)
+- kyoto-in-december-2026 · JOYA · season page (25 Nov)
+- photo backfill 25 Nov: nakazakicho-vs-umeda-hotel (+3), shibuya-quiet-base-yoyogi (+2), lake-kawaguchi-station-or-lake-view (+2)
 - osaka-where-to-stay · OSAKA · Reel ✓ (Namba vs Umeda vs Tennoji by traveller type)
 - namba · NAMBA · Reel ✓ (things within 15 min walk of Namba)
 - kansai-airport-to-osaka · AIRPORT · Reel ✓ as "kansai-airport-which-train" (Nankai vs JR by hotel area) — do NOT make another
@@ -172,7 +176,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 65 · enoshima-without-the-stairs · ENOSHIMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] D00 · depachika-japan-food-halls-how-they-work · DEPACHIKA · page ✓  (Tokyo · DEPACHIKA hub, format B floor by floor; every D page links here) — FB posts queued with images
 - [x] D01 · isetan-shinjuku-food-hall-what-to-buy · ISETAN · page ✓  (Tokyo · DEPACHIKA, FOOD format D "would you try it") — FB posts queued with images
-- [~] 25 Nov 11:44 X01 · Tokyo · SEASON · Tokyo Christmas markets 2026: which one for you (Shin-Toyosu paid market + Shiba Park from 4 Dec, Roppongi Hills 20th edition, Skytree free, Tokyo Tower, Azabudai, Yokohama Red Brick) with dates, hours, entry, mugs; ticket link if sold on Klook
+- [x] X01 · tokyo-christmas-markets-2026 · GLUHWEIN · page ✓  (Tokyo · SEASON: Shin-Toyosu, Shiba Park, Roppongi Hills, Skytree, Yokohama Red Brick; not on Klook) — FB posts queued (place card + practical with image)
 - [ ] X02 · Osaka · SEASON · Osaka Christmas markets 2026: Tenshiba (Tennoji, free) vs Umeda Sky Building (ticket incl. coupon) vs Hankyu Umeda, dates, hours, what to eat
 - [ ] X03 · Osaka · SEASON · Osaka winter lights 2026: Osaka Hikari Renaissance (Nakanoshima), Midosuji illumination, Namba Hikari Tabi, Umeda — dates, free or paid, a one-evening route
 - [ ] X04 · Tokyo · SEASON · Tokyo winter illuminations 2026: Marunouchi, Roppongi Keyakizaka, Tokyo Dome City, Yomiuriland Jewellumination, Sumida bamboo lanterns — dates, free or paid, one evening plan
