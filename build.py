@@ -60,7 +60,7 @@ def body_of(fn):
     return fiximg(s[a:b])
 def relink(s):
     return s.replace('href="index.html#','href="osaka-where-to-stay.html#').replace('href="index.html"','href="osaka-where-to-stay.html"')
-CSSV = "15"
+CSSV = "16"
 pages={}
 # ---- Osaka where to stay with traveller filter
 osaka=relink(body_of("index.html"))
@@ -184,6 +184,24 @@ for _f in sorted(_glob.glob(f"{SRC}/guides/*.html")):
     if _meta.get("sources"):
         _body+=f'<section class="wrap sec sources"><p class="small">Sources: {_meta["sources"]}</p></section>'
     pages[_slug]=(head(_meta.get("seo_title",_meta["title"]),_meta.get("seo_desc",_meta["desc"])),"city-"+cslug(_meta["city"]),_body)
+# ---- Station clusters (Ling 25 Nov: social visitors open station pages; keep them exploring the same station)
+try: _ST=_jj.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),"stations.json")))
+except Exception: _ST={}
+_CL={}
+for _s,_m in GMETA.items():
+    for _st in (_m.get("stations") or _ST.get(_s[:-5]) or []): _CL.setdefault(_st,[]).append(_s)
+for _s,_m in GMETA.items():
+    _blocks=""
+    for _st in (_m.get("stations") or _ST.get(_s[:-5]) or [])[:2]:
+        _others=[o for o in _CL.get(_st,[]) if o!=_s][:4]
+        if not _others: continue
+        _lis="".join(f'<li><a href="{o}"><b>{html.escape(GMETA[o]["title"])}</b><span>{html.escape(GMETA[o].get("card",GMETA[o].get("desc",""))[:110])}</span></a></li>' for o in _others)
+        _lab=_st if any(w in _st for w in ("Airport","Station")) else _st+" Station"
+        _blocks+=f'<section class="wrap sec around" aria-label="More around {html.escape(_lab)}"><h2>More around {html.escape(_lab)}</h2><ul class="around-list">{_lis}</ul></section>'
+    if _blocks:
+        _h,_c,_b=pages[_s]
+        _i=_b.find('<section class="wrap sec faq"')
+        pages[_s]=(_h,_c,(_b[:_i]+_blocks+_b[_i:]) if _i>=0 else _b+_blocks)
 # older hand-built guides, so they show in lists
 LEGACY=[{"slug":"osaka-where-to-stay.html","title":"Where to stay in Osaka: Namba, Umeda or Tennoji?","card":"Three areas on one red subway line. What's outside each door, and who each one suits.","city":"Osaka","cat":"Where to stay","tag":"coral","hero":30037377,"date":"2026-11-22","keyword":"OSAKA"},
         {"slug":"namba.html","title":"Things to do around Namba, all within a 15-minute walk","card":"The canal, the food streets and the shopping arcades, with walking times from Exit 14.","city":"Osaka","cat":"Things to do","tag":"sun","hero":35183439,"date":"2026-11-22","keyword":"NAMBA"},
