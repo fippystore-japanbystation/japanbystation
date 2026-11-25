@@ -558,6 +558,9 @@ for g in sorted(ALLG,key=lambda g:g.get("date","")):
     if not k: continue
     assert k not in _kw, f"duplicate keyword {k}"
     _kw[k]={"url":"https://japanbystation.com/"+g["slug"][:-5],"title":g["title"]}
+    for _al in (g.get("keyword_aliases") or []):   # Ling 25 Nov: area words like SHIBUYA can also trigger the guide
+        assert _al not in _kw, f"duplicate keyword alias {_al}"
+        _kw[_al]=_kw[k]
 open(f"{OUT}/keywords.json","w").write(_json.dumps(_kw,ensure_ascii=False,indent=1))
 print("keywords:",len(_kw))
 
