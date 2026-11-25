@@ -283,6 +283,10 @@ EVERY SEO RUN:
 - Social visitors open station pages first. Grow each big station into a CLUSTER: the hub (TOPICS H lines, exit card) + 3–5 "around <Station>" topics that people search (what to eat right by the station, 1–2 hours near it, rainy day near it, late night near it, breakfast before an early train, coin lockers/luggage, the quiet side). Add those lines to TOPICS.md under the hub as the hub goes live.
 - Every guide belongs to 1–2 stations in stations.json (or a "stations" list in its meta). build.py then adds "More around <Station>" cards linking the other guides of that cluster, so one visit becomes several page views. New guides: always add their stations.
 
+## 8d. FROM-BASE FRAMING (Ling, 25 Nov)
+- Travellers think from where they sleep. Day trips and nearby places are framed from the BASE city first: "Half a day free in Osaka?", "One extra day in Tokyo?", then the options with round-trip time ("Kobe: about 30 min each way") and who each suits. Reels open with that base-city situation, never with a sudden "Kobe…" a viewer in Osaka mode doesn't expect. The place itself (Kobe, Nara, Kamakura…) can also have its own pages and Reels.
+- These pages join the "Day trips from <City>" cluster in stations.json, so readers of any Osaka page see the escapes too.
+
 ## 9. PERFORMANCE LOOP + COMPETITOR FORMATS (Ling, 24 Nov: "start recording properly; we need many samples")
 - Numbers come from n8n's READ-ONLY endpoint http://localhost:5678/webhook/jbs-stats-r2x (open it with the built-in browser's navigate tool, read the JSON with get_page_text). It returns IG Reels (reach, views, saves, shares, avg watch time), FB posts and FB Reels (when the token allows), followers. NEVER call /webhook/jbs-post-now-7f3k for this: that one posts.
 - Save one snapshot a day as perf/<YYYY-MM-DD>.json; update PERF.md: early signals → patterns (only with ≥ 3 comparable posts per side, ≥ 48 h old, same format). Track per post: hook type (situation / question / number / "before you book"…), topic, city, posting slot, length.

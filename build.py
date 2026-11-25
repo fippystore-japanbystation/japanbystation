@@ -196,8 +196,9 @@ for _s,_m in GMETA.items():
         _others=[o for o in _CL.get(_st,[]) if o!=_s][:4]
         if not _others: continue
         _lis="".join(f'<li><a href="{o}"><b>{html.escape(GMETA[o]["title"])}</b><span>{html.escape(GMETA[o].get("card",GMETA[o].get("desc",""))[:110])}</span></a></li>' for o in _others)
-        _lab=_st if any(w in _st for w in ("Airport","Station")) else _st+" Station"
-        _blocks+=f'<section class="wrap sec around" aria-label="More around {html.escape(_lab)}"><h2>More around {html.escape(_lab)}</h2><ul class="around-list">{_lis}</ul></section>'
+        _lab=_st if any(w in _st for w in ("Airport","Station","Day trips")) else _st+" Station"
+        _hd=_lab if _lab.startswith("Day trips") else "More around "+_lab
+        _blocks+=f'<section class="wrap sec around" aria-label="{html.escape(_hd)}"><h2>{html.escape(_hd)}</h2><ul class="around-list">{_lis}</ul></section>'
     if _blocks:
         _h,_c,_b=pages[_s]
         _i=_b.find('<section class="wrap sec faq"')

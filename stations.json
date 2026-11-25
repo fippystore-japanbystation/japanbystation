@@ -1,16 +1,206 @@
-{"_note": "Ling 25 Nov: station clusters. Each guide slug (without .html) -> stations it belongs to. build.py adds a 'More around <Station>' block to every guide in a cluster. New guides: add a line here (or a \"stations\" list in the guide meta).",
- "asakusa-across-the-river": ["Asakusa"], "asakusa-which-station-from-narita": ["Asakusa", "Narita Airport"], "sensoji-morning-or-evening": ["Asakusa"],
- "shinjuku-which-station": ["Shinjuku"], "shinjuku-five-minutes-with-a-suitcase": ["Shinjuku"], "shinjuku-two-hours-before-dinner": ["Shinjuku"], "isetan-shinjuku-food-hall-what-to-buy": ["Shinjuku"], "last-night-shinjuku-or-nippori": ["Shinjuku", "Narita Airport"],
- "shibuya-crossing-view": ["Shibuya"], "shibuya-nightlife-quiet-room": ["Shibuya"], "shibuya-quiet-base-yoyogi": ["Shibuya"],
- "narita-three-nights-then-shinkansen": ["Narita Airport", "Tokyo Station"], "tokyo-airport-which-train": ["Narita Airport", "Haneda Airport"], "haneda-late-arrival-first-night": ["Haneda Airport"], "tokyo-early-arrival-luggage": ["Haneda Airport", "Narita Airport"],
- "kiyosumi-shirakawa-base-7am-start": ["Kiyosumi-Shirakawa"], "kiyosumi-shirakawa-what-to-pay-for": ["Kiyosumi-Shirakawa"], "monzen-nakacho-market-day": ["Kiyosumi-Shirakawa"],
- "namba": ["Namba"], "namba-station-which-namba": ["Namba"], "namba-5000-yen-private-room": ["Namba"], "namba-or-tennoji-30000-yen": ["Namba", "Kansai Airport"], "osaka-night-owls": ["Namba"], "osaka-local-markets": ["Namba"], "osaka-where-to-stay": ["Namba", "Umeda"],
- "osaka-station-vs-umeda": ["Umeda"], "nakazakicho-vs-umeda-hotel": ["Umeda"], "shin-osaka-vs-osaka-station": ["Umeda"], "minoh-falls-autumn-afternoon": ["Umeda"], "cup-noodles-museum-ikeda": ["Umeda"],
- "tenma-tenjinbashisuji-local-guide": ["Tenma"], "osaka-live-like-a-local": ["Tenma"],
- "kansai-airport-to-osaka": ["Kansai Airport"], "kansai-airport-to-kyoto": ["Kansai Airport", "Kyoto Station"],
- "kyoto-where-to-stay-first-trip": ["Kyoto Station"], "kyoto-station-depachika-gifts": ["Kyoto Station"], "fushimi-inari-dawn-day-or-after-dark": ["Kyoto Station"],
- "sapporo-where-to-stay-first-trip": ["Sapporo Station"], "sapporo-where-locals-eat": ["Sapporo Station"], "new-chitose-airport-to-sapporo": ["Sapporo Station"], "otaru-from-sapporo-half-day-or-overnight": ["Sapporo Station"],
- "fukuoka-where-to-stay-first-trip": ["Hakata Station"], "fukuoka-yatai-how-they-work": ["Hakata Station"], "fukuoka-food-beyond-tonkotsu-ramen": ["Hakata Station"],
- "hakone-base-yumoto-gora-lake-ashi": ["Hakone-Yumoto"], "hakone-big-suitcase-forward-carry-store": ["Hakone-Yumoto"], "hakone-freepass-ryokan-one-night": ["Hakone-Yumoto"], "hakone-private-onsen-which-booking": ["Hakone-Yumoto"], "hakone-ryokan-dinner-leave-tokyo": ["Hakone-Yumoto"], "gora-to-lake-ashi-bus-or-ropeway": ["Hakone-Yumoto"],
- "kawaguchiko-cloudy-fuji-forecast": ["Kawaguchiko"], "kawaguchiko-fuji-view-room-what-you-buy": ["Kawaguchiko"], "lake-kawaguchi-half-day-cycling": ["Kawaguchiko"], "lake-kawaguchi-station-or-lake-view": ["Kawaguchiko"], "tokyo-to-kawaguchiko-big-suitcase-bus-or-train": ["Kawaguchiko"]
+{
+"_note": "Ling 25 Nov: station clusters. Each guide slug (without .html) -> stations it belongs to. build.py adds a 'More around <Station>' block to every guide in a cluster. New guides: add a line here (or a \"stations\" list in the guide meta).",
+"asakusa-across-the-river": [
+"Asakusa"
+],
+"asakusa-which-station-from-narita": [
+"Asakusa",
+"Narita Airport"
+],
+"sensoji-morning-or-evening": [
+"Asakusa"
+],
+"shinjuku-which-station": [
+"Shinjuku"
+],
+"shinjuku-five-minutes-with-a-suitcase": [
+"Shinjuku"
+],
+"shinjuku-two-hours-before-dinner": [
+"Shinjuku"
+],
+"isetan-shinjuku-food-hall-what-to-buy": [
+"Shinjuku"
+],
+"last-night-shinjuku-or-nippori": [
+"Shinjuku",
+"Narita Airport"
+],
+"shibuya-crossing-view": [
+"Shibuya"
+],
+"shibuya-nightlife-quiet-room": [
+"Shibuya"
+],
+"shibuya-quiet-base-yoyogi": [
+"Shibuya"
+],
+"narita-three-nights-then-shinkansen": [
+"Narita Airport",
+"Tokyo Station"
+],
+"tokyo-airport-which-train": [
+"Narita Airport",
+"Haneda Airport"
+],
+"haneda-late-arrival-first-night": [
+"Haneda Airport"
+],
+"tokyo-early-arrival-luggage": [
+"Haneda Airport",
+"Narita Airport"
+],
+"kiyosumi-shirakawa-base-7am-start": [
+"Kiyosumi-Shirakawa"
+],
+"kiyosumi-shirakawa-what-to-pay-for": [
+"Kiyosumi-Shirakawa"
+],
+"monzen-nakacho-market-day": [
+"Kiyosumi-Shirakawa"
+],
+"namba": [
+"Namba"
+],
+"namba-station-which-namba": [
+"Namba"
+],
+"namba-5000-yen-private-room": [
+"Namba"
+],
+"namba-or-tennoji-30000-yen": [
+"Namba",
+"Kansai Airport"
+],
+"osaka-night-owls": [
+"Namba"
+],
+"osaka-local-markets": [
+"Namba"
+],
+"osaka-where-to-stay": [
+"Namba",
+"Umeda"
+],
+"osaka-station-vs-umeda": [
+"Umeda"
+],
+"nakazakicho-vs-umeda-hotel": [
+"Umeda"
+],
+"shin-osaka-vs-osaka-station": [
+"Umeda"
+],
+"minoh-falls-autumn-afternoon": [
+"Umeda",
+"Day trips from Osaka"
+],
+"cup-noodles-museum-ikeda": [
+"Umeda",
+"Day trips from Osaka"
+],
+"tenma-tenjinbashisuji-local-guide": [
+"Tenma"
+],
+"osaka-live-like-a-local": [
+"Tenma"
+],
+"kansai-airport-to-osaka": [
+"Kansai Airport"
+],
+"kansai-airport-to-kyoto": [
+"Kansai Airport",
+"Kyoto Station"
+],
+"kyoto-where-to-stay-first-trip": [
+"Kyoto Station"
+],
+"kyoto-station-depachika-gifts": [
+"Kyoto Station"
+],
+"fushimi-inari-dawn-day-or-after-dark": [
+"Kyoto Station",
+"Day trips from Kyoto"
+],
+"sapporo-where-to-stay-first-trip": [
+"Sapporo Station"
+],
+"sapporo-where-locals-eat": [
+"Sapporo Station"
+],
+"new-chitose-airport-to-sapporo": [
+"Sapporo Station"
+],
+"otaru-from-sapporo-half-day-or-overnight": [
+"Sapporo Station",
+"Day trips from Sapporo"
+],
+"fukuoka-where-to-stay-first-trip": [
+"Hakata Station"
+],
+"fukuoka-yatai-how-they-work": [
+"Hakata Station"
+],
+"fukuoka-food-beyond-tonkotsu-ramen": [
+"Hakata Station"
+],
+"hakone-base-yumoto-gora-lake-ashi": [
+"Hakone-Yumoto"
+],
+"hakone-big-suitcase-forward-carry-store": [
+"Hakone-Yumoto"
+],
+"hakone-freepass-ryokan-one-night": [
+"Hakone-Yumoto"
+],
+"hakone-private-onsen-which-booking": [
+"Hakone-Yumoto"
+],
+"hakone-ryokan-dinner-leave-tokyo": [
+"Hakone-Yumoto",
+"Day trips from Tokyo"
+],
+"gora-to-lake-ashi-bus-or-ropeway": [
+"Hakone-Yumoto"
+],
+"kawaguchiko-cloudy-fuji-forecast": [
+"Kawaguchiko"
+],
+"kawaguchiko-fuji-view-room-what-you-buy": [
+"Kawaguchiko"
+],
+"lake-kawaguchi-half-day-cycling": [
+"Kawaguchiko"
+],
+"lake-kawaguchi-station-or-lake-view": [
+"Kawaguchiko"
+],
+"tokyo-to-kawaguchiko-big-suitcase-bus-or-train": [
+"Kawaguchiko",
+"Day trips from Tokyo"
+],
+"nara-day-trip-or-one-night": [
+"Day trips from Osaka"
+],
+"itami-sky-park-without-a-car": [
+"Day trips from Osaka"
+],
+"sakai-watch-knife-making": [
+"Day trips from Osaka"
+],
+"nifrel-two-hours": [
+"Day trips from Osaka"
+],
+"kamakura-from-noon-temples-or-sunset": [
+"Day trips from Tokyo"
+],
+"enoshima-without-the-stairs": [
+"Day trips from Tokyo"
+],
+"tokyo-disney-hotel-night-before-or-after": [
+"Day trips from Tokyo"
+],
+"hiroshima-miyajima-one-day": [
+"Day trips from Hiroshima"
+]
 }

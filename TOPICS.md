@@ -1,7 +1,7 @@
 # Topics (work top to bottom; NEVER repeat anything in DONE)
 
 ## NEW REGIONS (Ling, 23 Nov) — every run: 1 line from the WORK ORDER + 2 lines from here
-STATION lines (H01…, Ling 25 Nov: station/exit pages get the most visits from social; right after December): station hubs with an exit card. SEASON lines (X01…, Ling 25 Nov: "now we work for December"): timely December pages, FIRST priority, exact 2026 dates from the official sites, ticket links where sold. FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / different dishes worth trying, mostly not mainstream with one or two classics, linking out to sources (PLAYBOOK 2 FOOD BLOG). They sit inside both lists; take them in order like any other line. Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
+FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed from the base city ("Half a day free in Osaka?"), then the place. STATION lines (H01…, Ling 25 Nov: station/exit pages get the most visits from social; right after December): station hubs with an exit card. SEASON lines (X01…, Ling 25 Nov: "now we work for December"): timely December pages, FIRST priority, exact 2026 dates from the official sites, ticket links where sold. FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / different dishes worth trying, mostly not mainstream with one or two classics, linking out to sources (PLAYBOOK 2 FOOD BLOG). They sit inside both lists; take them in order like any other line. Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
 - [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓ · reel ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts queued with images
 - [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓ · reel ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts queued with images
 - [x] R03 · fukuoka-where-to-stay-first-trip · FUKUOKA · page ✓ · reel ✓  (Fukuoka · Hakata vs Tenjin vs Nakasu-Kawabata) — FB posts queued with images
@@ -23,6 +23,9 @@ STATION lines (H01…, Ling 25 Nov: station/exit pages get the most visits from 
 - [ ] H07 · Fukuoka · STATION · Hakata Station: which exit (Hakata vs Chikushi), airport subway, food floors — STATION HUB TEMPLATE + exit card
 - [ ] H08 · Hokkaido · STATION · Sapporo Station: which exit, underground walkways to Odori, airport train, lockers — STATION HUB TEMPLATE + exit card
 - [ ] H09 · Nagoya · STATION · Nagoya Station: JR, Meitetsu and Kintetsu, which exit for what, food — STATION HUB TEMPLATE + exit card
+- [ ] B05 · Kyoto · FROM-BASE · Half a day free in Kyoto? Uji, Fushimi sake district, Ohara or Kurama–Kibune
+- [ ] B06 · Fukuoka · FROM-BASE · Half a day free in Fukuoka? Dazaifu, Yanagawa canal boats or Itoshima coast
+- [ ] B07 · Hokkaido · FROM-BASE · One extra day from Sapporo: Otaru, Jozankei Onsen or Asahikawa?
 - [ ] D07 · Hokkaido · DEPACHIKA · Daimaru Sapporo food hall: Hokkaido sweets, dairy and seafood counters by Sapporo Station
 - [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
 - [ ] R14 · Nagoya · Nagoya: worth a night between Tokyo and Osaka? (Sakae vs Meieki, local food: miso katsu, hitsumabushi)
@@ -179,6 +182,10 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [ ] H03 · Tokyo · STATION · Shibuya Station: which exit (Hachiko, Scramble Square, Miyamasuzaka), lines, lockers — STATION HUB TEMPLATE + exit card
 - [ ] H04 · Tokyo · STATION · Ueno Station: Skyliner, JR and Metro, which exit for the park, Ameyoko and hotels — STATION HUB TEMPLATE + exit card
 - [ ] H05 · Osaka · STATION · Tennoji Station: JR, Metro and Kintetsu Abenobashi, which exit for Harukas, Shinsekai, the zoo — STATION HUB TEMPLATE + exit card
+- [ ] B01 · Osaka · FROM-BASE · Half a day free in Osaka? 4 easy escapes and how long each takes (Minoh, Kobe harbour, Nara deer, Osaka Castle park) — title starts from Osaka
+- [ ] B02 · Osaka · FROM-BASE · One extra day in Osaka: Kobe (about 30 min), Nara, Kyoto or Himeji? Which suits you, round-trip times and what to see in each
+- [ ] B03 · Tokyo · FROM-BASE · Half a day free in Tokyo? Kamakura, Yokohama, Kawagoe or Odaiba — time each way and what fits
+- [ ] B04 · Tokyo · FROM-BASE · One extra day from Tokyo: Nikko, Hakone, Kamakura or Mount Fuji (Kawaguchiko)?
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
