@@ -88,7 +88,8 @@ def add_reel(slugs):
     pull(MAIN, "main")
     keys = json.load(open(os.path.join(MAIN, "keywords.json")))
     for s, sp in specs.items():
-        assert sp["keyword"] in keys, f"keyword {sp['keyword']} missing from keywords.json - deploy the page first"
+        if not sp.get("life"):   # LIFE IN JAPAN Reels (Ling 25 Nov) have no guide page / keyword
+            assert sp["keyword"] in keys, f"keyword {sp['keyword']} missing from keywords.json - deploy the page first"
         assert sp.get("caption"), f"{s}: spec needs a caption"
     igs = {s: encode(s) for s in slugs}
     qp = os.path.join(MAIN, "reels-queue.json"); q = json.load(open(qp))
@@ -97,7 +98,7 @@ def add_reel(slugs):
         for i in q["items"]:
             if i["slug"] == s: i["caption"] = sp["caption"]   # re-cut of a queued Reel: new video + new caption
         if not any(i["slug"] == s for i in q["items"]):
-            q["items"].append({"slug": s, "keyword": sp["keyword"],
+            q["items"].append({"slug": s, "keyword": sp.get("keyword") or "",
                                "video_url": f"https://media.japanbystation-web.pages.dev/{s}.mp4",
                                "cover_url": f"https://japanbystation.com/covers/{s}.jpg", "caption": sp["caption"]})
     keep = [i["slug"] for i in q["items"][-45:]]
