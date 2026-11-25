@@ -30,3 +30,7 @@ Relative interest: osaka station ≈ 50 (falling from 100 to ~30 over the year) 
 3. Shin-Osaka or Osaka Station? The Shinkansen never stops at Osaka Station; Kyoto by Special Rapid is ¥580 from both; allow 11 min JR → subway at Shin-Osaka · page: shin-osaka-vs-osaka-station · keyword SHINOSAKA
 4. Namba to Kyoto in about 45 min / ¥820 (Midosuji to Umeda + JR Special Rapid) vs Nara in about 40 min / ¥680 (Kintetsu) · page: namba-station-which-namba
 5. Osaka Station vs Umeda: same place, six stations · page: osaka-station-vs-umeda · keyword UMEDA
+
+## Autocomplete 26 Nov (SEO audit 26 Nov run 1)
+- shinjuku station map / tokyo / sushi / to kawaguchiko station / restaurant / hotels · autocomplete · high · food-near-shinjuku-station (restaurant, sushi), tokyo-to-kawaguchiko-big-suitcase-bus-or-train (to kawaguchiko), shinjuku-which-station + shinjuku-five-minutes-with-a-suitcase (hotels) · keep; H02 Shinjuku hub queued
+- kyoto station map / to osaka station / hotels / luggage storage / shinkansen / to tokyo station / to arashiyama (bamboo forest) / shops / to nara · autocomplete · high · food-near-kyoto-station, kyoto-where-to-stay-first-trip; luggage = G17 queued; to arashiyama → TOPICS SEO line added
