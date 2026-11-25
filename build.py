@@ -60,7 +60,7 @@ def body_of(fn):
     return fiximg(s[a:b])
 def relink(s):
     return s.replace('href="index.html#','href="osaka-where-to-stay.html#').replace('href="index.html"','href="osaka-where-to-stay.html"')
-CSSV = "17"
+CSSV = "18"
 pages={}
 # ---- Osaka where to stay with traveller filter
 osaka=relink(body_of("index.html"))
@@ -212,6 +212,41 @@ for _s in GMETA:
     if 'follow-us' in _b: continue
     _i=_b.find('<section class="wrap sec faq"')
     pages[_s]=(_h,_c,(_b[:_i]+_FOLLOW+_b[_i:]) if _i>=0 else _b+_FOLLOW)
+# ---- First-screen value + tip toast + scroll tracking (Ling 25 Nov: avg engagement ~1 s from social clicks)
+_TTJS='<script>(function(){try{var t=document.getElementById("tiptoast");if(t){var shown=false;function show(){if(shown)return;shown=true;try{if(sessionStorage.getItem("jbs_tt"))return}catch(e){}t.hidden=false;try{sessionStorage.setItem("jbs_tt","1")}catch(e){};if(window.gtag)gtag("event","tip_shown")}setTimeout(show,6000);t.querySelector(".tt-x").onclick=function(){t.hidden=true}}var marks=[25,50,75],done={};window.addEventListener("scroll",function(){var h=document.documentElement,p=(h.scrollTop+innerHeight)/h.scrollHeight*100;marks.forEach(function(m){if(p>=m&&!done[m]){done[m]=1;if(window.gtag)gtag("event","scroll_depth",{percent:m})}})},{passive:true});setTimeout(function(){if(window.gtag)gtag("event","engaged_15s")},15000)}catch(e){}})();</script>'
+def _plain(x): return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>','',x))).strip()
+def _first_sents(t,n=2,maxc=230):
+    ss=re.split(r'(?<=[.!?])\s+',t); out=''
+    for x in ss[:n]:
+        if len(out)+len(x)>maxc and out: break
+        out=(out+' '+x).strip()
+    return out
+for _s,_m in GMETA.items():
+    _h,_c,_b=pages[_s]
+    if 'quick-answer' in _b: continue
+    _q=''
+    _mv=re.search(r'id="h-v".*?class="tipbox"[^>]*>(.*?)</div>',_b,re.S)
+    if _mv: _q=re.sub(r'^We suggest:\s*','',_plain(_mv.group(1)))
+    if not _q:
+        _ml=re.search(r'<p class="lede[^"]*">(.*?)</p>',_b,re.S)
+        if _ml: _q=_plain(_ml.group(1))
+    _q=_first_sents(_q) if _q else ''
+    if _q: _q=_q[0].upper()+_q[1:]
+    _tip=''
+    _mb=re.search(r'id="h-book".*?<li>(.*?)</li>',_b,re.S)
+    if _mb: _tip=_first_sents(_plain(_mb.group(1)),1,170)
+    elif _m.get("keyfacts"): _tip=_first_sents(_plain(str(_m["keyfacts"][0])),1,170)
+    if _q:
+        _more='<a href="#h-v">Why we say this ↓</a>' if 'id="h-v"' in _b else ''
+        _card=f'<div class="quick-answer"><b>💡 The quick answer</b><p>{html.escape(_q)}</p>{_more}</div>'
+        _i=_b.find('</header>')
+        if _i>0:
+            _j=_b.rfind('</div>',0,_i)
+            _b=_b[:_j]+_card+_b[_j:]
+    if _tip:
+        _b+=f'<div class="tiptoast" id="tiptoast" hidden><button class="tt-x" aria-label="Close tip" type="button">×</button><b>Good to know</b><span>{html.escape(_tip)}</span></div>'
+    _b+=_TTJS
+    pages[_s]=(_h,_c,_b)
 # older hand-built guides, so they show in lists
 LEGACY=[{"slug":"osaka-where-to-stay.html","title":"Where to stay in Osaka: Namba, Umeda or Tennoji?","card":"Three areas on one red subway line. What's outside each door, and who each one suits.","city":"Osaka","cat":"Where to stay","tag":"coral","hero":30037377,"date":"2026-11-22","keyword":"OSAKA"},
         {"slug":"namba.html","title":"Things to do around Namba, all within a 15-minute walk","card":"The canal, the food streets and the shopping arcades, with walking times from Exit 14.","city":"Osaka","cat":"Things to do","tag":"sun","hero":35183439,"date":"2026-11-22","keyword":"NAMBA"},
