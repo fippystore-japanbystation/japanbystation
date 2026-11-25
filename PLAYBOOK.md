@@ -136,6 +136,17 @@ For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` �
 - FACEBOOK vs IG (Ling, 24 Nov): Reels go to IG and the Facebook Page together with the same video and caption; "link in bio" stays as it is. Only a "comment/DM KEYWORD" sentence is swapped on Facebook (the keyword auto-reply only works on IG): n8n keeps the tip and puts "👉 <reason>: <guide URL>" in place of that sentence. Facebook text posts never use keywords either; they use the playful click line + link (2b).
 
 ## 3. Reels (approved style; do not change without Ling)
+- HOOK GATE (Ling, 26 Nov 00:34: "still 7 a day, but put a very strong, very RELATED hook up front"). This sits next to ONE STORY at the top of the Reel rules.
+  * DATA (25 Nov snapshot): winners = a specific situation or problem + a concrete payoff. Night owls 1,286 reach (9.5 s average watch, 16 saves, 9 shares), Namba 404, Kuromon alternative 323, Sapporo winter 276–388. Losers stayed at 120–160 reach (4.5–6 s watch, 0–1 saves): generic stay-area or A-or-B hooks ("A few days in Kyoto?", "Quiet mornings near Shibuya?", "Four friends: apartment or 2 rooms?", "Solo on ¥5,000?"). IG decides a Reel's fate in its first day: if the hook loses people in 2 seconds, it never leaves the test group.
+  * Before rendering, write 5 hook candidates and score each one yes/no on these 5 checks. Only a 5/5 hook ships:
+    1. RELATED: hook = cover title = first shot = the ONE promise. The first frame shows exactly what the hook says (food hook = the dish on screen at 0.0 s; snow hook = snow).
+    2. PAYOFF IN 2 SECONDS: it names something people want (a dish, an experience, a view, a fix for a real problem), not just an area name.
+    3. SPECIFIC: a stranger knows after one read who it's for and what they get.
+    4. TENSION: a mistake, a surprise, a contrast, a number or "most people miss": a reason to need the next 3 seconds.
+    5. SAVEABLE BODY: the Reel then delivers 2+ named things worth saving (places to eat, an experience, a route), all on the guide page.
+  * If no candidate gets 5/5, change the angle (lead with the best food or experience on that page) instead of shipping a weak hook. "Where to stay" is never the hook: the area goes in the middle or the caption.
+  * First spoken word at 0.0–0.3 s (no silent intro, no logo), first cut within 1.5 s, the hook text big on screen from frame 1.
+  * Write the hook type in the spec ("hook_type") and log 24 h reach + average watch in PERF.md. Every 7 days, drop the weakest hook type and do more of the best.
 - ONE STORY, ONE PROMISE (Ling, 25 Nov 23:33, about "Quiet mornings near Shibuya? / Don't leave Shibuya" over night crowds, ending "DM us YOYOGI"): this beats every other Reel rule.
   * Write the Reel's ONE promise in one sentence first ("You can have quiet mornings and still be close to Shibuya: stay on the park side."). The cover, the hook line, every card, every spoken line AND every shot must serve that sentence. If a line or shot doesn't, cut it.
   * The answer must obviously fit the question. No twist that sounds like a contradiction ("Quiet mornings? Don't leave Shibuya!") unless the very next line explains it in plain words.
