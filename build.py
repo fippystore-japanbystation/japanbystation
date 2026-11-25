@@ -318,7 +318,7 @@ _gi='<header class="hero hero-lite"><div class="wrap"><span class="kicker">All g
 for c in _cities:
     _gi+=f'<section class="wrap sec" id="{c.lower()}" aria-labelledby="h-{c.lower()}"><div class="sec-h"><h2 id="h-{c.lower()}">{c}</h2></div><div class="posts">'+''.join(_card(g) for g in ALLG if g["city"]==c)+'</div></section>'
 _gi+='</main>'
-pages["guides.html"]=(head("All Japan Travel Guides","Every Japan by Station guide, by city: where to stay, getting around, local markets, nightlife and day trips, with times checked against official sources."),"guides",_gi)
+pages["guides.html"]=(head("All Japan Travel Guides","Japan travel guides by city and station: where to stay in Tokyo, Osaka, Kyoto and Sapporo, airport trains, which exit to use, local food and day trips."),"guides",_gi)
 
 import re as _hre
 _CORE=_hre.compile(r"(?i)first trip|which area should you stay|where to stay in|where to stay:|airport to|narita or haneda|getting around|kansai airport")
@@ -337,14 +337,14 @@ def _hub_groups(gs):
             ("away","Day trips","t-sun","Day trips and nights away","Easy escapes from the city, with the train times worked out.",away),
             ("tips","Small questions","t-lilac","Smart answers for specific situations","Budget, groups, late nights, big suitcases and the little decisions that make a trip smoother.",rest)]
 HUBMETA={  # Ling 25 Nov: hub snippets must answer straight away, no "Every Japan by Station guide..."
- "Osaka":("Osaka Travel Guide: Where to Stay, Airport Trains, Local Food","Where to stay in Osaka (Namba, Umeda, Tennoji or Tenma), which train from Kansai Airport, where locals eat, and easy day trips like Minoh and Nara."),
- "Tokyo":("Tokyo Travel Guide: Where to Stay, Airport Trains, Getting Around","Where to stay in Tokyo on a first trip, Narita or Haneda to your hotel, IC card or subway pass, food halls and quiet neighbourhoods for a half day."),
- "Kyoto":("Kyoto Travel Guide: Where to Stay, Airport Trains, Kyoto Station","Where to stay in Kyoto (station, Gion or Karasuma), Kansai Airport to Kyoto, which Kyoto Station exit, the best time for Fushimi Inari, December events."),
- "Hokkaido":("Sapporo Travel Guide: Where to Stay, Airport Trains, Local Food","Where to stay in Sapporo (station, Odori or Susukino), New Chitose Airport to the city, where locals eat, Otaru, and Sapporo's December lights."),
+ "Osaka":("Osaka Travel Guide: Where to Stay, Airport Trains, Food","Where to stay in Osaka (Namba, Umeda, Tennoji or Tenma), which train from Kansai Airport, where locals eat, and easy day trips like Minoh and Nara."),
+ "Tokyo":("Tokyo Travel Guide: Where to Stay, Airports, Getting Around","Where to stay in Tokyo on a first trip, Narita or Haneda to your hotel, IC card or subway pass, food halls and quiet neighbourhoods for a half day."),
+ "Kyoto":("Kyoto Travel Guide: Where to Stay, Airport, Kyoto Station","Where to stay in Kyoto (station, Gion or Karasuma), Kansai Airport to Kyoto, which Kyoto Station exit, the best time for Fushimi Inari, December events."),
+ "Hokkaido":("Sapporo Travel Guide: Where to Stay, Airport Train, Food","Where to stay in Sapporo (station, Odori or Susukino), New Chitose Airport to the city, where locals eat, Otaru, and Sapporo's December lights."),
  "Nara":("Nara Day Trip Guide: Deer, Temples and Trains","Nara from Osaka or Kyoto: day trip or one night, which station to use, and how to see the deer park, Todaiji's Great Buddha and a quiet evening."),
- "Okinawa":("Naha, Okinawa Guide: Where to Stay, Do You Need a Car?","Where to stay in Naha on a first trip to Okinawa, how far the monorail gets you, and when you really need a rental car."),
+ "Okinawa":("Naha, Okinawa Guide: Where to Stay, Do You Need a Car?","Where to stay in Naha on a first trip to Okinawa (Kokusai-dori, Asahibashi or Omoromachi), how far the Yui Rail monorail gets you, and when you need a car."),
  "Hiroshima":("Hiroshima and Miyajima in One Day: Base, Tram or Train","Hiroshima and Miyajima in one day: where to base yourself, tram or train, and how the tides change your visit to the floating torii."),
- "Nagoya":("Nagoya Day Trips: Nabana no Sato Illumination 2026","Nabana no Sato's 2026 winter illumination: dates, tickets and how to get there as a day trip from Nagoya or Osaka."),
+ "Nagoya":("Nagoya Day Trips: Nabana no Sato Illumination 2026","Nabana no Sato's 2026–27 winter illumination: open 17 Oct to 31 May, December advance tickets ¥3,000, and the easy day trip from Nagoya or Osaka."),
  "Fukuoka":("Fukuoka Travel Guide: Where to Stay, Yatai, Local Food","Where to stay in Fukuoka (Hakata, Tenjin or Nakasu), how the yatai food stalls work, and what to eat beyond tonkotsu ramen."),
 }
 for _c in _cities:
@@ -369,6 +369,11 @@ import json as _json, datetime as _dt
 SITE="https://japanbystation.com"
 OGIMG={"index.html":"glico","osaka-where-to-stay.html":"hero","namba.html":"glico","kansai-airport-to-osaka.html":"kix"}
 for _s,_g in GMETA.items(): P["g_"+_s]=_g["hero"]; OGIMG[_s]="g_"+_s
+for _fn in list(pages):  # SEO 25 Nov: hubs get their own hero as og:image; about/guides the home photo
+    if _fn in OGIMG: continue
+    _mm=re.search(r'<img\b[^>]*?(?:pexels:|photos/)(\d+)',pages[_fn][2])
+    if _mm and _fn not in ("about.html","guides.html","privacy.html","disclosure.html","data-deletion.html"): P["p_"+_fn]=int(_mm.group(1)); OGIMG[_fn]="p_"+_fn
+    elif _fn in ("about.html","guides.html"): OGIMG[_fn]="glico"
 GUIDES={"osaka-where-to-stay.html","namba.html","kansai-airport-to-osaka.html"}|set(GMETA)
 _MON={m:i+1 for i,m in enumerate(["January","February","March","April","May","June","July","August","September","October","November","December"])}
 def _mod(fn):
@@ -441,7 +446,7 @@ def seo(fn,h):
     else:
         ld={"@context":"https://schema.org","@type":"WebPage","name":title,"url":url,"publisher":org}
     if GMETA.get(fn,{}).get("faq"):
-        ld.setdefault("@graph",[]).append({"@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":_re.sub("<[^>]+>","",a)}} for q,a in GMETA[fn]["faq"]]})
+        ld.setdefault("@graph",[]).append({"@type":"FAQPage","mainEntity":[{"@type":"Question","name":html.unescape(q),"acceptedAnswer":{"@type":"Answer","text":html.unescape(_re.sub("<[^>]+>","",a))}} for q,a in GMETA[fn]["faq"]]})
     tags+='<script type="application/ld+json">'+_json.dumps(ld,ensure_ascii=False)+'</script>\n'
     return h.replace('<link rel="stylesheet"',tags+'<link rel="stylesheet"',1), url
 urls=[]
