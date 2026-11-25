@@ -16,7 +16,7 @@ re-render, check the stills sheet, then `jbs.py add-reel` them (same slug). Tick
 ## Cover/hook titles without Japan or a known city (Ling, 25 Nov) — fix FIRST, before they post
 Rewrite ONLY the cover title, the hook tag/lines and the caption's first line so each names Japan or a well-known place (PLAYBOOK STRANGER TEST, STRICT); keep the rest of the spec. Re-render and `jbs.py add-reel <slug>` (same slug replaces the queued video, cover and caption).
 - [x] fukuoka-where-to-stay-first-trip  (cover "Sleep by the river stalls" → e.g. "Fukuoka: sleep by|the river stalls")
-- [x] shinjuku-two-hours-before-dinner  (cover "Garden early, skyline late"; hook "2 HOURS BEFORE DINNER?" → e.g. "2 hours in|Shinjuku, Tokyo?")
+- [ ] shinjuku-two-hours-before-dinner  (pulled 25 Nov: title "Tokyo: garden early, skyline late" is shorthand → plain, e.g. cover "2 hours in Shinjuku?|Garden, then city view", hook line "Two hours in Shinjuku, Tokyo?"; caption first line plain too; then add-reel again)  (cover "Garden early, skyline late"; hook "2 HOURS BEFORE DINNER?" → e.g. "2 hours in|Shinjuku, Tokyo?")
 - [x] new-chitose-airport-to-sapporo  (cover "Big suitcase? Take the train" → e.g. "Sapporo airport:|take the train")
 - [ ] sensoji-morning-or-evening  (cover "Skip midday Senso-ji" → e.g. "Tokyo's Senso-ji:|skip midday")
 
