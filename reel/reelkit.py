@@ -212,7 +212,7 @@ def render(spec, tj, wd, stills=False):
             fk = F(30); kw = fk.getlength(hk["tag"]) + 44
             rr(d, (W/2 - kw/2, 420, W/2 + kw/2, 472), 26, al(COL["sun"], a)); ctext(d, 427, hk["tag"], fk, al(INK, a))
             f = F(140)
-            while max(f.getlength(l) for l in hk["lines"]) > 1000: f = F(f.size - 4)
+            while max(f.getlength(l) for l in hk["lines"]) > 920: f = F(f.size - 4)   # 25 Nov: keep a safe margin (stroke + phone crop)
             for i, l in enumerate(hk["lines"]):
                 r = back((lt + .45 - i * .12) / .45) if lt < 1.2 else 1.0
                 otext(d, ((W - f.getlength(l)) / 2, 500 + i * int(f.size * 1.12) + (1 - r) * 40), l, f, al(WHITE, min(1, r * 1.2)), sw=10)
