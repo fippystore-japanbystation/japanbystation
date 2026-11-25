@@ -63,3 +63,10 @@ Levers, in order of expected impact:
 2. 29 Nov: proven FB text style (FB-STYLE.md) becomes the default.
 3. Next: comment replies on FB + IG (helpful, within hours), and a gentle "invite people who reacted to follow the Page" routine, once Ling agrees.
 4. Weekly: review what grew followers, shift the mix, drop what doesn't work.
+
+## Second project gate (Italy / other countries) — Ling, 25 Nov
+Start the next "<Country> by Station" project only when ALL hold (check around 15 Dec 2026, then weekly):
+1. Search Console: 7 days in a row with ≥ 30 clicks a day (Ling's number) and ≥ 300 impressions a day.
+2. Website, Reels, FB and Pinterest run a full week without Ling having to fix anything.
+3. First affiliate commission recorded (Klook, Airalo, etc.).
+Until then: Japan only. Zero-cost prep (name, domain check) is fine.
