@@ -19,3 +19,13 @@ Rewrite ONLY the cover title, the hook tag/lines and the caption's first line so
 - [ ] shinjuku-two-hours-before-dinner  (cover "Garden early, skyline late"; hook "2 HOURS BEFORE DINNER?" → e.g. "2 hours in|Shinjuku, Tokyo?")
 - [ ] new-chitose-airport-to-sapporo  (cover "Big suitcase? Take the train" → e.g. "Sapporo airport:|take the train")
 - [ ] sensoji-morning-or-evening  (cover "Skip midday Senso-ji" → e.g. "Tokyo's Senso-ji:|skip midday")
+
+## Already POSTED Reels with unclear titles (Ling, 25 Nov: "全都要修") — re-cut as NEW slugs
+Make a "-v2" copy of the spec (new slug <slug>-v2), new cover title + hook per STRANGER TEST STRICT and COVER + HOOK MUST STOP THE SCROLL, freshen 2–3 shots so it isn't a duplicate, keep the facts. Queue with `jbs.py add-reel <slug>-v2`. Tell Ling which old post each replaces so he can delete the old one in the IG/FB app once the new one is live. Do these AFTER the 4 unposted fixes above, max 3 per run, spread them so they don't post back to back.
+- [ ] namba  (was "What's near Namba?")
+- [ ] osaka-four-friends  (was "4 friends: apartment or 2 hotel rooms?")
+- [ ] cup-noodles-museum-ikeda  (was "Cup Noodles Museum: which one to do?")
+- [ ] minoh-falls-autumn-afternoon  (was "Minoh Falls in an afternoon")
+- [ ] sapporo-where-to-stay-first-trip  (hook "Sleep in Odori")
+- [ ] shibuya-quiet-base-yoyogi  (was "Quiet mornings near Shibuya?")
+- [ ] shibuya-crossing-view  (was "Shibuya Crossing: worth paying?" → add Tokyo)

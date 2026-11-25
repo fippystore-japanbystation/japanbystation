@@ -1,7 +1,7 @@
 # Topics (work top to bottom; NEVER repeat anything in DONE)
 
 ## NEW REGIONS (Ling, 23 Nov) — every run: 1 line from the WORK ORDER + 2 lines from here
-FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / different dishes worth trying, mostly not mainstream with one or two classics, linking out to sources (PLAYBOOK 2 FOOD BLOG). They sit inside both lists; take them in order like any other line. Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
+SEASON lines (X01…, Ling 25 Nov: "now we work for December"): timely December pages, FIRST priority, exact 2026 dates from the official sites, ticket links where sold. FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / different dishes worth trying, mostly not mainstream with one or two classics, linking out to sources (PLAYBOOK 2 FOOD BLOG). They sit inside both lists; take them in order like any other line. Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
 - [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓ · reel ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts queued with images
 - [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓ · reel ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts queued with images
 - [x] R03 · fukuoka-where-to-stay-first-trip · FUKUOKA · page ✓ · reel ✓  (Fukuoka · Hakata vs Tenjin vs Nakasu-Kawabata) — FB posts queued with images
@@ -16,6 +16,9 @@ FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / differe
 - [x] R11 · fukuoka-yatai-how-they-work · YATAI · page ✓  (Fukuoka · Nakasu vs Tenjin vs Nagahama) — FB posts queued with images
 - [x] R12 · Hokkaido · otaru-from-sapporo-half-day-or-overnight · OTARU · page ✓ — FB posts queued with images
 - [x] F01 · Fukuoka · fukuoka-food-beyond-tonkotsu-ramen · GOMASABA · page ✓  (FOOD format A "eat it differently") — FB posts queued with images
+- [ ] X06 · Hokkaido · SEASON · Sapporo in December: White Illumination + Munich Christmas Market in Odori Park, dates, snow tips
+- [ ] X07 · Kyoto · SEASON · Kyoto in December: Arashiyama Hanatouro lantern path, quieter temples after the leaves, year-end bell ringing
+- [ ] X08 · Nagoya · SEASON · Nabana no Sato winter illumination (Mie): day trip from Nagoya or Osaka, tickets, timing
 - [ ] D07 · Hokkaido · DEPACHIKA · Daimaru Sapporo food hall: Hokkaido sweets, dairy and seafood counters by Sapporo Station
 - [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
 - [ ] R14 · Nagoya · Nagoya: worth a night between Tokyo and Osaka? (Sakae vs Meieki, local food: miso katsu, hitsumabushi)
@@ -162,6 +165,11 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 65 · enoshima-without-the-stairs · ENOSHIMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] D00 · depachika-japan-food-halls-how-they-work · DEPACHIKA · page ✓  (Tokyo · DEPACHIKA hub, format B floor by floor; every D page links here) — FB posts queued with images
 - [x] D01 · isetan-shinjuku-food-hall-what-to-buy · ISETAN · page ✓  (Tokyo · DEPACHIKA, FOOD format D "would you try it") — FB posts queued with images
+- [ ] X01 · Tokyo · SEASON · Tokyo Christmas markets 2026: which one for you (Shin-Toyosu paid market + Shiba Park from 4 Dec, Roppongi Hills 20th edition, Skytree free, Tokyo Tower, Azabudai, Yokohama Red Brick) with dates, hours, entry, mugs; ticket link if sold on Klook
+- [ ] X02 · Osaka · SEASON · Osaka Christmas markets 2026: Tenshiba (Tennoji, free) vs Umeda Sky Building (ticket incl. coupon) vs Hankyu Umeda, dates, hours, what to eat
+- [ ] X03 · Osaka · SEASON · Osaka winter lights 2026: Osaka Hikari Renaissance (Nakanoshima), Midosuji illumination, Namba Hikari Tabi, Umeda — dates, free or paid, a one-evening route
+- [ ] X04 · Tokyo · SEASON · Tokyo winter illuminations 2026: Marunouchi, Roppongi Keyakizaka, Tokyo Dome City, Yomiuriland Jewellumination, Sumida bamboo lanterns — dates, free or paid, one evening plan
+- [ ] X05 · Tokyo · SEASON · New Year in Japan for visitors: what closes 31 Dec–3 Jan, hatsumode (where it is calm vs packed), fukubukuro lucky bags, New Year food
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
