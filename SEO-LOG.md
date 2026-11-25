@@ -1,6 +1,24 @@
 # SEO / GEO log
 Newest first. One block per run: queries seen, pages changed, new guides, indexing status, GEO checks.
 
+AUDIT CURSOR: 2026-11-25 run 4 → audited (GSC pages) osaka-live-like-a-local, osaka-local-markets, minoh-falls-autumn-afternoon, sakai-watch-knife-making, cup-noodles-museum-ikeda, / . NEXT in alphabetical order of site/guides: asakusa-across-the-river, asakusa-which-station-from-narita, depachika-japan-food-halls-how-they-work, enoshima-without-the-stairs, fukuoka-food-beyond-tonkotsu-ramen, fukuoka-where-to-stay-first-trip (skip the 5 done above when reached); hand-built pages (osaka-where-to-stay, namba, kansai-airport-to-osaka) after the guides.
+
+## 2026-11-25 (scheduled SEO AUDIT run 4, 05:45 UTC; first run under the new "audit only" brief)
+- Search Console 28 days (data to 23 Nov): 11 impressions, 0 clicks, avg position 15.3. Query: "station" "osaka" 5 impr. Pages: /osaka-live-like-a-local 3, / 3, /osaka-local-markets 2, /minoh-falls-autumn-afternoon 1, /sakai-watch-knife-making 1, /cup-noodles-museum-ikeda 1. Search type IMAGE: 0 impressions (no data yet).
+- Indexing: Page indexing report still "Processing data", BUT URL inspection shows /osaka-local-markets and /osaka-live-like-a-local "URL is on Google · Page is indexed" (Breadcrumbs valid). Requested re-indexing for both (titles changed).
+- KEYWORD DEMAND (autocomplete): "minoh falls" → osaka / to katsuoji temple / photos / hike / hours / in december / from kyoto; "cup noodles museum ikeda" → osaka / tickets / hours / entrance fee / reservation; "sakai knife" → museum / shops / making workshop / makers / experience / tour.
+- PAGES AUDITED + FIXED (all had 1 H1, FAQ 3–4 with direct first sentences, desc 120–160 already):
+  - osaka-live-like-a-local: seo_title "Where to Stay in Osaka Like a Local: Tenma or Tsuruhashi" (55); specific hero alt; keyfacts x4; contextual link to tenma-tenjinbashisuji-local-guide in the Tenjinbashisuji caption.
+  - osaka-local-markets: seo_title "Osaka Local Markets Beyond Kuromon: Kizu, Tsuruhashi" (52); hero alt; keyfacts x4; links to tenma-tenjinbashisuji-local-guide (caption + Keep planning); stations.json now Namba + Tenma (shows "More around Tenma Station").
+  - minoh-falls-autumn-afternoon: hero alt (33 m falls, Minoh Park); keyfacts x4; Keep planning + Sakai.
+  - sakai-watch-knife-making: hero alt; keyfacts x4; Keep planning + Minoh.
+  - cup-noodles-museum-ikeda: hero alt; keyfacts x4; Keep planning + Minoh Falls + Osaka Station vs Umeda (was only 2 guide links).
+  - / (home): 1 H1, title/desc OK; no change.
+- SITE-WIDE IMAGE SEO (built in build.py, live): pexels-dims.json = real sizes of all 293 Pexels ids (measured in the browser, all load, 0 broken); every <img> now has width/height (CSS img{height:auto}, checked: 0 distorted images at 390/1280 px); og:image + secure_url + type + width/height, twitter:image (+ :alt) = hero; Article JSON-LD "image" = ImageObject list (hero first, in-page photos with width/height/caption, max 12); sitemap.xml has image:image entries (339 images incl. /exitcards/*.jpg), referenced from robots.txt; llms.txt / llms-full.txt still build. SEO-LINT: 0.
+- Deploy 1. Live check: /osaka-local-markets and /cup-noodles-museum-ikeda render with images (0 broken, 0 distorted), head has og/twitter image + JSON-LD ImageObjects. IndexNow pinged 9 URLs (5 pages, /, sitemap, llms x2).
+- TOPICS added: `SEO · Osaka · Minoh Falls to Katsuo-ji temple` (WORK ORDER).
+- NEXT: audit the next 6 from the cursor; check GSC Images search type again once indexing data arrives; Bing Webmaster Tools still waiting on Ling; privacy-page note from run 3 (now mentions GA, see build.py — resolved).
+
 ## 2026-11-25 (scheduled SEO run 3)
 - Search Console 28 days: unchanged, 1 impression, 0 clicks — "station" "osaka", pos 9 (data still ends 22 Nov). Overview now shows HTTPS 70 pages, Breadcrumbs 50 valid; Core Web Vitals "No data" yet.
 - Page indexing: still "Processing data, check again in a day". Sitemap: Success, last read 24 Nov, 65 discovered (live sitemap larger; Google hasn't re-read).

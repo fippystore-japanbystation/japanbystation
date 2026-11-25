@@ -143,6 +143,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 79 · yanaka-ginza-which-direction · YANAKA · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 15 · itami-sky-park-without-a-car · PLANES · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [x] 80 · kiyosumi-shirakawa-what-to-pay-for · KIYOSUMI · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
+- [ ] SEO · Osaka · Minoh Falls to Katsuo-ji temple: walk on, or bus? (autocomplete "minoh falls to katsuoji temple", also "minoh falls from kyoto"; link from minoh-falls-autumn-afternoon)
 
 ## Finished briefs
 - [x] 01 · namba-5000-yen-private-room · PRIVACY · page ✓ · reel ✓

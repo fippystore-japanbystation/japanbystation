@@ -317,13 +317,48 @@ def _mod(fn):
         if iso>best and iso<=_dt.date.today().isoformat(): best=iso
     return best
 _HUBS={cslug(c)+".html":c for c in {g["city"] for g in ALLG}}
+# IMAGE SEO (25 Nov): real Pexels sizes (pexels-dims.json) -> width/height, og:image size, ImageObject, image sitemap
+try: _DIM={k:v for k,v in _jj.load(open(os.path.join(HERE,"pexels-dims.json")))["w1200"].items()}
+except Exception: _DIM={}
+def _imgh(pid,w=1200):
+    d=_DIM.get(str(pid)); return round(w*d[1]/d[0]) if d else None
+def _page_imgs(body):
+    """[(absolute url, width, height, caption)] for the photos in a page body: Pexels photos + /exitcards cards."""
+    out=[]; seen=set()
+    caps={}
+    for fig in re.findall(r"<figure\b.*?</figure>",body,re.S):
+        im=re.search(r'<img\b[^>]*src="([^"]+)"',fig); fc=re.search(r"<figcaption>(.*?)</figcaption>",fig,re.S)
+        if im and fc: caps[im.group(1)]=html.unescape(re.sub("<[^>]+>","",fc.group(1))).strip()
+    for tag in re.findall(r"<img\b[^>]*>",body):
+        sm=re.search(r'src="([^"]+)"',tag); am=re.search(r'alt="([^"]*)"',tag)
+        if not sm: continue
+        src=sm.group(1); alt=html.unescape(am.group(1)) if am else ""
+        pm=re.search(r"images\.pexels\.com/photos/(\d+)/",src)
+        if pm:
+            pid=pm.group(1); u=f"https://images.pexels.com/photos/{pid}/pexels-photo-{pid}.jpeg?auto=compress&cs=tinysrgb&w=1200"; w,h=1200,_imgh(pid)
+        elif "exitcards/" in src:
+            u=SITE+"/exitcards/"+src.split("exitcards/")[1]; w,h=1080,1440
+        else: continue
+        if u in seen: continue
+        seen.add(u); out.append((u,w,h,caps.get(src) or alt))
+    return out
+def _ldimgs(fn):
+    hero=purl(OGIMG.get(fn,"hero"),1200)
+    lst=_page_imgs(pages[fn][2]) if fn in pages else []
+    lst=[x for x in lst if x[0]==hero]+[x for x in lst if x[0]!=hero]
+    if not lst or lst[0][0]!=hero: lst=[(hero,1200,_imgh(P[OGIMG.get(fn,"hero")]),(GMETA.get(fn,{}).get("hero_alt") or ""))]+lst
+    return [{"@type":"ImageObject","url":u,"contentUrl":u,"width":w,**({"height":h} if h else {}),**({"caption":c} if c else {})} for u,w,h,c in lst[:12]]
 def seo(fn,h):
     url=SITE+"/" if fn=="index.html" else SITE+"/"+fn[:-5]
     title=_re.search(r"<title>(.*?)(?: \| Japan by Station)?</title>",h).group(1)
     desc=_re.search(r'<meta name="description" content="(.*?)">',h).group(1)
     tags=f'<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">\n<link rel="canonical" href="{url}">\n<meta property="og:url" content="{url}">\n<meta property="og:type" content="{"article" if fn in GUIDES else "website"}">\n'
-    if fn in OGIMG: tags+=f'<meta property="og:image" content="{purl(OGIMG[fn],1200)}">\n<meta name="twitter:card" content="summary_large_image">\n'
-    if fn in GMETA and GMETA[fn].get("hero_alt"): tags+=f'<meta property="og:image:alt" content="{html.escape(GMETA[fn]["hero_alt"])}">\n'
+    if fn in OGIMG:
+        _ou=purl(OGIMG[fn],1200); _oh=_imgh(P[OGIMG[fn]])
+        tags+=f'<meta property="og:image" content="{_ou}">\n<meta property="og:image:secure_url" content="{_ou}">\n<meta property="og:image:type" content="image/jpeg">\n<meta property="og:image:width" content="1200">\n'
+        if _oh: tags+=f'<meta property="og:image:height" content="{_oh}">\n'
+        tags+=f'<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:image" content="{_ou}">\n'
+    if fn in GMETA and GMETA[fn].get("hero_alt"): tags+=f'<meta property="og:image:alt" content="{html.escape(GMETA[fn]["hero_alt"])}">\n<meta name="twitter:image:alt" content="{html.escape(GMETA[fn]["hero_alt"])}">\n'
     org={"@type":"Organization","name":"Japan by Station","url":SITE+"/","logo":SITE+"/brand/logo-320.png",
          "sameAs":["https://www.instagram.com/japanbystation/","https://www.facebook.com/1512969825226649","https://www.pinterest.com/japanbystation/"]}
     if fn=="index.html":
@@ -332,7 +367,7 @@ def seo(fn,h):
         ld={"@context":"https://schema.org","@graph":[
           {"@type":"Article","headline":title,"description":desc,"url":url,"datePublished":GMETA.get(fn,{}).get("date","2026-11-22"),"dateModified":_mod(fn),
            "author":{"@type":"Organization","name":"Japan by Station team","url":SITE+"/about"},"publisher":org,
-           "image":purl(OGIMG.get(fn,"hero"),1200),**({"abstract":" ".join(_re.sub("<[^>]+>","",k) for k in GMETA[fn]["keyfacts"])} if GMETA.get(fn,{}).get("keyfacts") else {}),"about":([{"@type":e.get("type","Place"),"name":e["name"],**({"sameAs":e["sameAs"]} if e.get("sameAs") else {})} for e in GMETA[fn]["about"]] if GMETA.get(fn,{}).get("about") else {"@type":"Place","name":GMETA.get(fn,{}).get("city","Osaka")+", Japan"})},
+           "image":_ldimgs(fn),**({"abstract":" ".join(_re.sub("<[^>]+>","",k) for k in GMETA[fn]["keyfacts"])} if GMETA.get(fn,{}).get("keyfacts") else {}),"about":([{"@type":e.get("type","Place"),"name":e["name"],**({"sameAs":e["sameAs"]} if e.get("sameAs") else {})} for e in GMETA[fn]["about"]] if GMETA.get(fn,{}).get("about") else {"@type":"Place","name":GMETA.get(fn,{}).get("city","Osaka")+", Japan"})},
           {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":SITE+"/"},{"@type":"ListItem","position":2,"name":GMETA.get(fn,{}).get("city","Osaka"),"item":SITE+"/guides#"+GMETA.get(fn,{}).get("city","Osaka").lower()},{"@type":"ListItem","position":3,"name":title,"item":url}]}]}
     elif fn in _HUBS:
         _gs=[g for g in ALLG if g["city"]==_HUBS[fn]]
@@ -349,7 +384,10 @@ for fn,(h,active,b) in pages.items():
     h,url=seo(fn,h); urls.append((url,fn))
     open(f"{OUT}/{fn}","w").write(h+nav(active)+b+FOOT)
 today=_dt.date.today().isoformat()
-open(f"{OUT}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{_mod(f) if f in GUIDES else today}</lastmod></url>\n' for u,f in urls)+'</urlset>\n')
+def _smimg(f):
+    if f not in GUIDES: return ""
+    return "".join(f'<image:image><image:loc>{html.escape(u)}</image:loc></image:image>' for u,w,h,c in _page_imgs(pages[f][2]))
+open(f"{OUT}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{_mod(f) if f in GUIDES else today}</lastmod>{_smimg(f)}</url>\n' for u,f in urls)+'</urlset>\n')
 # GEO: say plainly that search and AI-answer crawlers are welcome (Ling wants to be cited by ChatGPT, Claude, Perplexity, Gemini)
 _bots=["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot","Applebot-Extended","DuckDuckBot"]
 open(f"{OUT}/robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in _bots)+"User-agent: *\nAllow: /\n\nSitemap: https://japanbystation.com/sitemap.xml\n")
@@ -426,6 +464,8 @@ css+='''
 .doc h2{font-size:24px;margin-top:30px}
 .doc p{max-width:64ch}
 footer a{color:var(--muted)}
+/* image SEO 25 Nov: width/height attributes only reserve the ratio */
+img{height:auto}
 '''
 css+=open(os.path.join(HERE,"theme.css")).read()
 open(f"{OUT}/style.css","w").write(css)
@@ -492,11 +532,20 @@ def _srcset(m):
     if not u: return tag
     b=u.group(1)
     return tag.replace(" src=", f' srcset="{b}&w=640 640w, {b}&w=1000 1000w, {b}&w=1600 1600w" sizes="(max-width: 700px) 100vw, 1100px" src=',1)
+def _wh(m):
+    """IMAGE SEO 25 Nov: explicit width/height (real ratio) so the browser reserves space; CSS keeps height:auto."""
+    tag=m.group(0)
+    if re.search(r"\swidth=",tag): return tag
+    u=re.search(r'src="https://images\.pexels\.com/photos/(\d+)/[^"]*?&w=(\d+)"',tag)
+    if not u: return tag
+    h=_imgh(u.group(1),int(u.group(2)))
+    return tag.replace("<img ",f'<img width="{u.group(2)}" height="{h}" ',1) if h else tag
 for _r,_d,_fs in os.walk(OUT):
     for _f in _fs:
         if not _f.endswith(".html"): continue
         _pth=os.path.join(_r,_f); _t=open(_pth,encoding="utf-8").read(); _o=_t
         _t=re.sub(r'<img\b[^>]*>', _srcset, _t)
+        _t=re.sub(r'<img\b[^>]*>', _wh, _t)
         _t=re.sub(r'(<header class="hero">\s*<img)(?![^>]*fetchpriority)', r'\1 fetchpriority="high" decoding="async"', _t, count=1)
         if _t!=_o: open(_pth,"w",encoding="utf-8").write(_t)
 _full=["# Japan by Station: full text of every guide","","> English Japan travel guides organised around train stations. Each guide shows the date its facts were checked. Source: https://japanbystation.com",""]

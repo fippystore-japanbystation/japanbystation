@@ -2,6 +2,7 @@
 Filled by the SEO task (PLAYBOOK 8, KEYWORD DEMAND). phrase · source · demand (high/med/low) · our page or "none" · next action
 
 ## Search Console (real impressions)
+- GSC 28 days to 23 Nov: 11 impressions, avg pos 15.3; pages osaka-live-like-a-local 3, osaka-local-markets 2, minoh 1, sakai 1, cup-noodles 1 (audited 25 Nov run 4)
 - "station" "osaka" · GSC 28 days · 1 impression, pos 9, page / (24 Nov 2nd run; 4 impr pos 8.3 in the 24 h view earlier) · osaka-station-vs-umeda (live 24 Nov) · wait for indexing, keep linking
 
 ## Google Trends (worldwide, past 12 months, checked 24 Nov 2026)
@@ -17,6 +18,11 @@ Relative interest: osaka station ≈ 50 (falling from 100 to ~30 over the year) 
 - hotels near shin osaka station / japan / reddit / next to / best / cheap / budget / marriott · autocomplete 25 Nov · high · shin-osaka-vs-osaka-station (remm, Courtyard, Via Inn, Toyoko Inn) · next: add same-date prices when the website task prices hotels
 - tennoji station osaka / map / to kyoto station / to namba / to shin osaka / to nara station / to osaka castle / to dotonbori / to wakayama / coin lockers · autocomplete · med (rechecked 25 Nov, same list) · namba-or-tennoji-30000-yen (partial) → NEXT station hub #4: Tennoji
 - kyoto station map / to osaka station / hotels / luggage storage / shinkansen / to tokyo station / to arashiyama · autocomplete · high · kyoto-where-to-stay-first-trip (partial) → Kyoto Station hub after the Osaka hubs
+
+## Autocomplete 25 Nov (SEO audit run 4)
+- minoh falls osaka / to katsuoji temple / photos / hike / hours / in december / from kyoto · autocomplete · med · minoh-falls-autumn-afternoon (hike, hours) · Katsuo-ji route → TOPICS SEO line added
+- cup noodles museum osaka ikeda tickets / hours / entrance fee / reservation · autocomplete · med · cup-noodles-museum-ikeda (all answered) · keep
+- sakai knife museum / shops / making workshop / makers / experience / tour · autocomplete · med · sakai-watch-knife-making (museum, workshop booking, 24-maker shop) · keep
 
 ## For Reels (top 5 Reel-worthy questions)
 1. "Namba Station" is four stations: which one goes to Kansai Airport? (Nankai Namba; rapi:t 34 min, Airport Express ≈45 min ¥970; bus from OCAT ≈48 min ¥1,400) · page: namba-station-which-namba · keyword NANKAI
