@@ -13,6 +13,15 @@ give every scene a "clips" list with a new shot at least every 4 s, footage/phot
 re-render, check the stills sheet, then `jbs.py add-reel` them (same slug). Tick the line here when queued.
 
 
+
+## READABLE re-cuts (Ling, 25 Nov 19:27: titles "人家不明白你在说什么") — DO THESE FIRST, before anything else
+Specs are ALREADY rewritten (cover, hook, cards, voice, caption) to PLAYBOOK "READABLE TITLES" + "SHORT LINES". Do not change the text: just fetch the same clips as the original spec, re-render (new voice), check the stills sheet, `jbs.py add-reel <slug>`.
+- [ ] sapporo-in-december-2026  (unposted; pulled from the queue 25 Nov; same slug)
+- [ ] shinjuku-two-hours-before-dinner  (unposted; pulled; same slug)
+- [ ] sensoji-morning-or-evening-v2  (original posted 25 Nov; new slug, new caption first line)
+- [ ] new-chitose-airport-to-sapporo-v2  (original posted 25 Nov; new slug, new caption first line)
+For every OTHER line in this file: write the new cover/cards/voice/caption to the READABLE + SHORT LINES rules too.
+
 ## Cover/hook titles without Japan or a known city (Ling, 25 Nov) — fix FIRST, before they post
 Rewrite ONLY the cover title, the hook tag/lines and the caption's first line so each names Japan or a well-known place (PLAYBOOK STRANGER TEST, STRICT); keep the rest of the spec. Re-render and `jbs.py add-reel <slug>` (same slug replaces the queued video, cover and caption).
 - [x] fukuoka-where-to-stay-first-trip  (cover "Sleep by the river stalls" → e.g. "Fukuoka: sleep by|the river stalls")

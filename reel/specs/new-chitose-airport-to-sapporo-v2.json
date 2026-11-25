@@ -1,0 +1,173 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "new-chitose-airport-to-sapporo-v2",
+ "keyword": "CHITOSE",
+ "music": "m_tokyostroll.mp3",
+ "emph": [
+  "Sapporo",
+  "Suica",
+  "Odori",
+  "Hakodate",
+  "CHITOSE"
+ ],
+ "hook": {
+  "tag": "SAPPORO, JAPAN",
+  "lines": [
+   "Airport to Sapporo?",
+   "Take the train"
+  ]
+ },
+ "cover": {
+  "title": "Airport to Sapporo?|Take the train",
+  "category": "NEW CHITOSE AIRPORT",
+  "color": "sky",
+  "clip": "cv_p_35837217.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "p_35837219.jpg"
+    ],
+    [
+     "p_36053234.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Flying into Sapporo with a big suitcase?",
+     "Flying into Sapporo with a big suitcase?"
+    ],
+    [
+     "The easiest way into the city is the train.",
+     "The easiest way into the city is the train."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "w5_12.jpg"
+    ],
+    [
+     "w5_08.jpg"
+    ],
+    [
+     "w5_01.jpg"
+    ],
+    [
+     "p_36595976.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "#1 EASIEST",
+    "title": "JR Rapid Airport train",
+    "small": "no booking, just tap Suica"
+   },
+   "clauses": [
+    [
+     "Number one: the JR Rapid Airport train.",
+     "Number one: the JR Rapid Airport train."
+    ],
+    [
+     "The station is right under the terminal.",
+     "The station is right under the terminal."
+    ],
+    [
+     "Just tap your Suica card and get on.",
+     "Just tap your Suica card and get on."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "w5_04.jpg"
+    ],
+    [
+     "c_31150440.mp4",
+     1.0
+    ],
+    [
+     "w5_02.jpg"
+    ],
+    [
+     "p_36464542.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "#2 TO YOUR HOTEL",
+    "title": "Airport bus",
+    "small": "stops at some big hotels"
+   },
+   "clauses": [
+    [
+     "Number two: the airport bus,",
+     "Number two: the airport bus,"
+    ],
+    [
+     "if your hotel is one of its stops.",
+     "if your hotel is one of its stops."
+    ],
+    [
+     "Pay by cash or card. Suica doesn't work.",
+     "Pay by cash or card. Suica doesn't work."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "w5_13.jpg"
+    ],
+    [
+     "p_36595968.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Busy day? Book a seat in car 4.",
+     "Busy day? Book a seat in car four."
+    ],
+    [
+     "There's more room for your bag.",
+     "There's more room for your bag."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w5_15.jpg"
+    ],
+    [
+     "p_29989984.jpg"
+    ],
+    [
+     "w5_16.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Hungry? There's a Hakodate seafood bowl in the terminal.",
+     "Hungry? There's a Hakodate seafood bowl in the terminal."
+    ],
+    [
+     "DM us CHITOSE and we'll send you where.",
+     "DM us CHITOSE and we'll send you where."
+    ]
+   ]
+  }
+ ],
+ "caption": "Flying into Sapporo with a big suitcase? ✈️🚆\nThe easiest way into the city is the train.\n\n🥇 JR Rapid Airport train\n🚉 The station is right under the\nDomestic Terminal. Follow the signs down.\n💳 Tap Suica, ICOCA, PASMO or Kitaca\nand board any non-reserved car.\n🎫 No IC card? Ticket machines take cash only.\nThe orange reserved-seat machines take cards.\n🧳 Two pieces of luggage per person.\n\n🥈 Airport bus, if your hotel is a stop\n🚌 It stops at Sapporo Station, Susukino\nand several big Odori hotels.\n💴 No booking. Pay when you get off:\ncash, contactless card or PayPay.\n❌ Suica doesn't work on the bus.\n🧳 One suitcase per person in the hold.\n\n💡 Busy day?\nCar 4 has reserved u-seats.\nYou get a seat and room for a big case.\nBook ahead online.\n\n🍣 A Hakodate seafood bowl is waiting\ninside the terminal.\nDM us CHITOSE and we'll send you where.\n\n🧳 Send this to your travel buddy.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#newchitoseairport #sapporo #hokkaido #sapporotravel #hokkaidotravel #japantravel #japantrip",
+ "readable_v": 1
+}

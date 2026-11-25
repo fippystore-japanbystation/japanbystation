@@ -1,0 +1,175 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "sensoji-morning-or-evening-v2",
+ "keyword": "SENSOJI",
+ "music": "m_petals.mp3",
+ "emph": [
+  "Senso-ji",
+  "Nakamise",
+  "shutters",
+  "free",
+  "SENSOJI"
+ ],
+ "hook": {
+  "tag": "TOKYO'S OLDEST TEMPLE",
+  "lines": [
+   "Senso-ji without",
+   "the crowds"
+  ]
+ },
+ "cover": {
+  "title": "Senso-ji without|the crowds",
+  "category": "SENSO-JI, TOKYO",
+  "color": "sun",
+  "clip": "c_18688462.mp4",
+  "t": 1.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "c_34183481.mp4",
+     1.0
+    ],
+    [
+     "p_33434176.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Want Tokyo's Senso-ji without the crowds?",
+     "Want Tokyo's Senso-ji without the crowds?"
+    ],
+    [
+     "Skip midday. Go early, or after dinner.",
+     "Skip midday. Go early, or after dinner."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "p_41068409.jpg"
+    ],
+    [
+     "c_37688848.mp4",
+     0.5
+    ],
+    [
+     "p_39692061.jpg"
+    ],
+    [
+     "p_21759449.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "#1 EARLY MORNING",
+    "title": "Before the shops open",
+    "small": "the main hall, without the crowds"
+   },
+   "clauses": [
+    [
+     "Number one: early morning, before the shops open.",
+     "Number one: early morning, before the shops open."
+    ],
+    [
+     "You can go inside the main hall in peace,",
+     "You can go inside the main hall in peace,"
+    ],
+    [
+     "then warm up with miso soup nearby.",
+     "then warm up with miso soup nearby."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "p_25526694.jpg"
+    ],
+    [
+     "p_38738804.jpg"
+    ],
+    [
+     "p_19592986.jpg"
+    ],
+    [
+     "c_18688462.mp4",
+     6.0
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#2 AFTER DINNER",
+    "title": "Lit up at night",
+    "small": "quiet paths, glowing gates"
+   },
+   "clauses": [
+    [
+     "Number two: after dinner.",
+     "Number two: after dinner."
+    ],
+    [
+     "The gates and the pagoda are lit up,",
+     "The gates and the pagoda are lit up,"
+    ],
+    [
+     "and the closed shops show painted shutters.",
+     "and the closed shops show painted shutters."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "p_15880175.jpg"
+    ],
+    [
+     "p_35896325.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Want the view down Nakamise street?",
+     "Want the view down Nakamise street?"
+    ],
+    [
+     "The tourist centre opposite has a free terrace.",
+     "The tourist centre opposite has a free terrace."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w5_11.jpg"
+    ],
+    [
+     "w5_03.jpg"
+    ],
+    [
+     "w5_06.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Nearby, comedians tell traditional stories every day.",
+     "Nearby, comedians tell traditional stories every day."
+    ],
+    [
+     "DM us SENSOJI and we'll send you where.",
+     "DM us SENSOJI and we'll send you where."
+    ]
+   ]
+  }
+ ],
+ "caption": "Want Tokyo's Senso-ji without the crowds? 🏮\nSkip midday. Go early, or after dinner.\n\n🥇 Early morning\n🚶 The temple grounds never close.\n🏮 Walk Nakamise before the shops open.\n⛩️ Go inside the main hall in peace.\n🍲 Then have a miso soup breakfast\nat MISOJYU, a short walk away.\n\n🥈 After dinner\n✨ The gates, pagoda and main hall are lit up.\n🖼️ The closed shops show painted shutters.\n📸 The hall is shut at night,\nso this visit is for photos and a slow walk.\n\n💡 Free view\nGo up to the free 8th-floor terrace of the\nAsakusa Culture Tourist Information Center.\nIt's right opposite Kaminarimon gate.\n\n🎭 Nearby, a theatre has rakugo, Japanese comic\nstorytelling, every day of the year.\nDM us SENSOJI and we'll send you where.\n\n👫 Send this to your Tokyo travel buddy.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#sensoji #asakusa #nakamise #tokyotemple #tokyotravel #japantravel #japantrip",
+ "readable_v": 1
+}
