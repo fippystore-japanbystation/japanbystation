@@ -7,6 +7,7 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] G11 · food-near-osaka-umeda-station · EKIMAE · page ✓ — FB posts queued with images  (Osaka · GROUND · Food near Osaka / Umeda Station (station malls, Ekimae building…)
 - [x] G16 · food-near-kyoto-station · TOFU · page ✓ — FB posts queued with images  (Kyoto · GROUND · Food near Kyoto Station: breakfast, lunch, dinner (station mall…)
 - [ ] G17 · Kyoto · GROUND · Coin lockers and luggage at Kyoto Station: prices, where the big ones are, what to do when full · searches: "coin locker kyoto station price", "luggage storage kyoto station", "kyoto station coin lockers map"
+- [ ] SEO · Kyoto · Kyoto Station to Arashiyama: JR Sagano Line vs bus, which Arashiyama station, how long and what it costs · searches: "kyoto station to arashiyama", "kyoto station to arashiyama bamboo forest" (Google autocomplete 26 Nov, #7 and #10 for "kyoto station"; R15 covers crowds/timing, not the route)
 - [ ] G13 · Osaka · GROUND · Food near Namba Station by exit (open late, halal only if officially listed) · searches: "food near namba station open now", "best food near namba station"
 - [ ] G12 · Osaka · GROUND · Coin lockers at Osaka / Umeda Station: prices and where the big ones are · searches: "coin locker osaka station price", "coin lockers umeda station"
 - [ ] G14 · Osaka · GROUND · Coin lockers at Namba Station (Nankai side, XXL lockers for airport cases) · searches: "coin locker namba station price", "xxl luggage coin lockers namba station"

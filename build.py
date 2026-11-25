@@ -346,7 +346,7 @@ HUBMETA={  # Ling 25 Nov: hub snippets must answer straight away, no "Every Japa
  "Tokyo":("Tokyo Travel Guide: Where to Stay, Airports, Getting Around","Where to stay in Tokyo on a first trip, Narita or Haneda to your hotel, IC card or subway pass, food halls and quiet neighbourhoods for a half day."),
  "Kyoto":("Kyoto Travel Guide: Where to Stay, Airport, Kyoto Station","Where to stay in Kyoto (station, Gion or Karasuma), Kansai Airport to Kyoto, which Kyoto Station exit, the best time for Fushimi Inari, December events."),
  "Hokkaido":("Sapporo Travel Guide: Where to Stay, Airport Train, Food","Where to stay in Sapporo (station, Odori or Susukino), New Chitose Airport to the city, where locals eat, Otaru, and Sapporo's December lights."),
- "Nara":("Nara Day Trip Guide: Deer, Temples and Trains","Nara from Osaka or Kyoto: day trip or one night, which station to use, and how to see the deer park, Todaiji's Great Buddha and a quiet evening."),
+ "Nara":("Nara Day Trip: Deer, Temples and Trains","Nara from Osaka or Kyoto: day trip or one night, which station to use, and how to see the deer park, Todaiji's Great Buddha and a quiet evening."),
  "Okinawa":("Naha, Okinawa Guide: Where to Stay, Do You Need a Car?","Where to stay in Naha on a first trip to Okinawa (Kokusai-dori, Asahibashi or Omoromachi), how far the Yui Rail monorail gets you, and when you need a car."),
  "Hiroshima":("Hiroshima and Miyajima in One Day: Base, Tram or Train","Hiroshima and Miyajima in one day: where to base yourself, tram or train, and how the tides change your visit to the floating torii."),
  "Nagoya":("Nagoya Day Trips: Nabana no Sato Illumination 2026","Nabana no Sato's 2026–27 winter illumination: open 17 Oct to 31 May, December advance tickets ¥3,000, and the easy day trip from Nagoya or Osaka."),
@@ -365,7 +365,7 @@ for _c in _cities:
          f'<p>Start with the big questions, then the food, day trips and smaller details. Every time and price is checked, with the date on each guide.</p>{_jump}</div></header>'
          f'<main>{_secs}'
          f'<div class="wrap"><section class="more"><p><a href="guides.html">All guides</a></p></section></div></main>')
-    _ht,_hd=HUBMETA.get(_c,(f"{_c} Travel Guide: Where to Stay, Trains, Food", f"{_c}, station by station: "+"; ".join(g["title"] for g in _gs[:3])))
+    _ht,_hd=HUBMETA.get(_c,(f"{_c} Travel Guide: Where to Stay, Trains, Food", f"{_c} travel guide: "+"; ".join(g["title"] for g in _gs[:3])))
     if len(_hd)>158: _hd=_hd[:155].rsplit(" ",1)[0]+"…"
     pages[_sl+".html"]=(head(_ht,_hd),"city-"+_sl,_hb)
 NAV_CITIES.sort(key=lambda x:-x[2])
@@ -378,7 +378,7 @@ for _fn in list(pages):  # SEO 25 Nov: hubs get their own hero as og:image; abou
     if _fn in OGIMG: continue
     _mm=re.search(r'<img\b[^>]*?(?:pexels:|photos/)(\d+)',pages[_fn][2])
     if _mm and _fn not in ("about.html","guides.html","privacy.html","disclosure.html","data-deletion.html"): P["p_"+_fn]=int(_mm.group(1)); OGIMG[_fn]="p_"+_fn
-    elif _fn in ("about.html","guides.html"): OGIMG[_fn]="glico"
+    elif _fn in ("about.html","guides.html","privacy.html","disclosure.html","data-deletion.html"): OGIMG[_fn]="glico"
 GUIDES={"osaka-where-to-stay.html","namba.html","kansai-airport-to-osaka.html"}|set(GMETA)
 _MON={m:i+1 for i,m in enumerate(["January","February","March","April","May","June","July","August","September","October","November","December"])}
 def _mod(fn):
@@ -464,7 +464,7 @@ for fn,(h,active,b) in pages.items():
     _page=_re.sub(r'"([a-z0-9][a-z0-9-]*)\.html(#[^"]*)?"', lambda m: '"/'+m.group(1)+(m.group(2) or '')+'"', _page)   # link targets inside inline scripts
     open(f"{OUT}/{fn}","w").write(_page)
 # 404 (26 Nov): without a 404.html, Cloudflare Pages served the home page with HTTP 200 for ANY unknown URL (soft 404s; Cloudflare even pinged bot probes like /backup.tar.gz to Bing). A real 404.html makes Pages answer 404. Not in the sitemap, noindex, absolute asset paths (it is served at any depth).
-_h404=head("Page not found","This page doesn't exist on Japan by Station. Try our guides to Osaka, Tokyo, Kyoto and more.").replace('<link rel="stylesheet"','<meta name="robots" content="noindex">\n<link rel="stylesheet"',1)
+_h404=head("Page not found","This page doesn't exist on Japan by Station. Try our checked guides instead: where to stay in Tokyo, Osaka and Kyoto, airport trains and food near stations.").replace('<link rel="stylesheet"','<meta name="robots" content="noindex">\n<link rel="stylesheet"',1)
 _p404=_h404+nav("")+simple("","Sorry, that page doesn't exist",'''
   <p>The link may be old, or the address has a typo. These are a good place to start:</p>
   <ul><li><a href="index.html">Home</a></li><li><a href="guides.html">All guides</a></li><li><a href="osaka.html">Osaka</a> · <a href="tokyo.html">Tokyo</a> · <a href="kyoto.html">Kyoto</a></li></ul>
