@@ -60,7 +60,7 @@ def body_of(fn):
     return fiximg(s[a:b])
 def relink(s):
     return s.replace('href="index.html#','href="osaka-where-to-stay.html#').replace('href="index.html"','href="osaka-where-to-stay.html"')
-CSSV = "16"
+CSSV = "17"
 pages={}
 # ---- Osaka where to stay with traveller filter
 osaka=relink(body_of("index.html"))
@@ -203,6 +203,15 @@ for _s,_m in GMETA.items():
         _h,_c,_b=pages[_s]
         _i=_b.find('<section class="wrap sec faq"')
         pages[_s]=(_h,_c,(_b[:_i]+_blocks+_b[_i:]) if _i>=0 else _b+_blocks)
+# ---- Follow block (Ling 25 Nov: grow FB to 5,000 followers; turn website readers into followers)
+_FOLLOW=('<section class="wrap sec follow-us" aria-label="Follow Japan by Station"><p><b>Planning Japan?</b> We share one useful station tip a day, plus December markets and lights. '
+         '<a class="fb" href="https://www.facebook.com/1512969825226649" target="_blank" rel="noopener">Follow on Facebook</a> '
+         '<a class="ig" href="https://www.instagram.com/japanbystation/" target="_blank" rel="noopener">Instagram</a></p></section>')
+for _s in GMETA:
+    _h,_c,_b=pages[_s]
+    if 'follow-us' in _b: continue
+    _i=_b.find('<section class="wrap sec faq"')
+    pages[_s]=(_h,_c,(_b[:_i]+_FOLLOW+_b[_i:]) if _i>=0 else _b+_FOLLOW)
 # older hand-built guides, so they show in lists
 LEGACY=[{"slug":"osaka-where-to-stay.html","title":"Where to stay in Osaka: Namba, Umeda or Tennoji?","card":"Three areas on one red subway line. What's outside each door, and who each one suits.","city":"Osaka","cat":"Where to stay","tag":"coral","hero":30037377,"date":"2026-11-22","keyword":"OSAKA"},
         {"slug":"namba.html","title":"Things to do around Namba, all within a 15-minute walk","card":"The canal, the food streets and the shopping arcades, with walking times from Exit 14.","city":"Osaka","cat":"Things to do","tag":"sun","hero":35183439,"date":"2026-11-22","keyword":"NAMBA"},

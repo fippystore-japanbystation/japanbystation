@@ -46,6 +46,18 @@ Facts from sources checked this session; no invented personal stays; evergreen t
 ## 7. What we measure (daily, PERF.md)
 North Star: **new followers per day** (IG + FB) and **likes/reactions per post**. Then saves, shares, comments, reach. Website clicks are tracked but are not the goal.
 
+## 7b. Targets and the levers behind them (project lead, 25 Nov)
+Two goals grow together: FB followers (5,000 → monetisation) and website visits (1,000 a day → monetisation). Checkpoints, reviewed every Sunday in PERF.md (adjust the plan, not the facts):
+- 31 Dec 2026: FB 500 followers · website 300 visits/day.
+- 28 Feb 2027: FB 2,000 · website 1,000 visits/day.
+- Then FB 5,000.
+Levers, in order of expected impact:
+1. Reels (IG + FB) — our widest reach; every Reel ends with a soft follow line; December SEASON Reels 4/7.
+2. FB 70/30 mix — no-link posts that people react to and share; 30% link posts for the site.
+3. Website → followers: every guide carries a "Follow on Facebook / Instagram" block (readers from Google become followers).
+4. Search: SEO audit 6×/day, station clusters + "More around" links, exit-card downloads, December pages, Pinterest practical pins.
+5. Next, with Ling's OK only: helpful replies to comments, and Facebook's own "invite people who reacted to follow the Page".
+
 ## 8. Roadmap (project lead's plan)
 1. Now: FB queue = Japan-first posts; hotel-centred posts are being rewritten to the Japan-first angle (27 Nov rewrite, together with the A/B/C style test).
 2. 29 Nov: proven FB text style (FB-STYLE.md) becomes the default.
