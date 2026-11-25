@@ -14,8 +14,8 @@ FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / differe
 - [x] R10 · Nara · nara-day-trip-or-one-night · DEER · page ✓ — FB posts queued with images
 - [x] D03 · kyoto-station-depachika-gifts · OMIYAGE · page ✓  (Kyoto · DEPACHIKA, format C classic vs local) — FB posts queued with images
 - [x] R11 · fukuoka-yatai-how-they-work · YATAI · page ✓  (Fukuoka · Nakasu vs Tenjin vs Nagahama) — FB posts queued with images
-- [~] 25 Nov 07:42 R12 · Hokkaido · Otaru from Sapporo: half day or overnight? (canal at dusk, Sankaku Market, train side)
-- [~] 25 Nov 07:42 F01 · Fukuoka · FOOD · Fukuoka beyond tonkotsu ramen: goboten udon, mentaiko, motsunabe, gomasaba (which are local habits, where locals eat them)
+- [x] R12 · Hokkaido · otaru-from-sapporo-half-day-or-overnight · OTARU · page ✓ — FB posts queued with images
+- [x] F01 · Fukuoka · fukuoka-food-beyond-tonkotsu-ramen · GOMASABA · page ✓  (FOOD format A "eat it differently") — FB posts queued with images
 - [ ] D07 · Hokkaido · DEPACHIKA · Daimaru Sapporo food hall: Hokkaido sweets, dairy and seafood counters by Sapporo Station
 - [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
 - [ ] R14 · Nagoya · Nagoya: worth a night between Tokyo and Osaka? (Sakae vs Meieki, local food: miso katsu, hitsumabushi)
@@ -103,6 +103,10 @@ FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / differe
 - kyoto-station-depachika-gifts · OMIYAGE (D03, FOOD format C: JR Kyoto Isetan 10–20, B1 sweets / B2 deli+bento, Eat Paradise 11F 11–22; Imanishiken ohagi Sat 11:00 3 for ¥721; Tsuruya Yoshinobu Kyoto-only yokan 3 bars ¥1,274 ~1 yr; Murakami Juhonten shibazuke 130 g ¥600 Takashimaya B1; Izuu Isetan B2; Sasaya Iori dorayaki 20–22 monthly at Daimaru; ASTY Square at Shinkansen central gate; one more = Isetan B1 mochi calendar, Nakamuraken Thu/Sun)
 - fukuoka-yatai-how-they-work · YATAI (R11: 101 stalls 1 Apr 2026; most open 18:30–19:00 to ~midnight, no fixed holidays, rain closures; street use 17:00–4:00, 3 m × 2.5 m; ~10% take cards; Tenjin pick (Kokinchan yaki-ramen ¥820, 2 min Tenjin, closed Thu/Sun), Nakasu ~20 stalls + Ura-Nakasu 10, Nagahama revived Jun 2023; 23 new spaces open Apr–May 2027; one more = LINE FUKUOKA GUIDE smart-bulb open status + airport yatai concierge 8:00–21:30)
 - PHOTO BACKFILL (25 Nov, run 3): osaka-hotels-by-budget (+3), osaka-live-like-a-local (+2), haneda-late-arrival-first-night (+3); no facts changed
+- isetan-shinjuku-food-hall-what-to-buy · ISETAN (D01, FOOD format D: Tokyo Kitcho prawn heads mornings only; Keito Shindo Shurimpo 2 days/month; Nakamata anko-butter dorayaki Isetan-only; Sasaya Iori roll 20–22th; CUSTA ¥432, Ekberg ¥540, Bouillet flan ¥756, POMOLOGY ¥1,944; tastings paid, free only at events; Eat Paradise 7F 11–22; I-Garden Nov–Feb 10–18; one more = Fukutoshin Isetan Front gate exit-only 7–15 / entry-only from 15)
+- otaru-from-sapporo-half-day-or-overnight · OTARU (R12: Rapid 41 min / local 46, ¥800, last Otaru 23:08→23:53 (Jorudan Wed 16 Dec 2026); bus ¥730; u-seat ¥1,000/¥800; sunset ~16:00 Dec, 19:07–19:18 Jun; canal 1,140 m 63 lamps; night cruise 16:30–18:30 ¥2,000 online only; Takinami 7–17 numbered tickets; Masazushi L.O. 20:30 closed Wed; Isezushi 2 months ahead; Snow Light Path 6–13 Feb 2027; Tenguyama winter to 19:48 ¥2,000; one more = Bank of Japan Otaru Museum free, closed Wed)
+- fukuoka-food-beyond-tonkotsu-ramen · GOMASABA (F01, FOOD format A: Makino Udon kettle of broth 10–23 cash; Daichi no Udon; goma saba Kiharu dinner / Hakata Gomasaba-ya lunch ¥1,000; motsunabe champon finish (Rakutenchi claim), Yamanaka Ohashi closed Tue ¥4,980; Fukuya 1949, Mentaiju 7:00; mizutaki soup first, Nagano ¥3,300 closed Sun; firmness scale + kaedama one step softer; one more = Ganso Nagahamaya opens 6:00)
+- PHOTO BACKFILL (25 Nov, run 4): asakusa-which-station-from-narita (+3), narita-three-nights-then-shinkansen (+2), osaka-local-markets (+3); no facts changed. Big-question guides of every city already have 3+.
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
 UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 IN ORDER (they start general: which station, airport arrival, exits), then the remaining Kansai briefs in order. No more alternating for now. Reels follow the same sequence (newest guides first).
@@ -157,7 +161,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 64 · kamakura-from-noon-temples-or-sunset · KAMAKURA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] 65 · enoshima-without-the-stairs · ENOSHIMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] D00 · depachika-japan-food-halls-how-they-work · DEPACHIKA · page ✓  (Tokyo · DEPACHIKA hub, format B floor by floor; every D page links here) — FB posts queued with images
-- [~] 25 Nov 07:42 D01 · Tokyo · DEPACHIKA · Isetan Shinjuku food hall: the refined things worth buying (sweets, bento, gift boxes, seasonal), discounts and tasting, the restaurant floor upstairs
+- [x] D01 · isetan-shinjuku-food-hall-what-to-buy · ISETAN · page ✓  (Tokyo · DEPACHIKA, FOOD format D "would you try it") — FB posts queued with images
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)
