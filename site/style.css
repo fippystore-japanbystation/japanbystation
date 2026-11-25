@@ -4,8 +4,8 @@
 :root{
   --bg:#fffdf9; --soft:#f5f1ea; --ink:#2a2730; --muted:#77727f; --rule:#ebe5dc;
   --namba:#ff6a4d; --namba-t:#fff1ec; --umeda:#17ab9d; --umeda-t:#e8f7f5; --tennoji:#eaa400; --tennoji-t:#fff7e2;
-  --display:"Nunito","Segoe UI Rounded","Arial Rounded MT Bold",Arial,sans-serif;
-  --body:"Nunito","Segoe UI",Helvetica,Arial,sans-serif;
+  --display:"Nunito","Nunito Fallback","Segoe UI Rounded","Arial Rounded MT Bold",Arial,sans-serif;
+  --body:"Nunito","Nunito Fallback","Segoe UI",Helvetica,Arial,sans-serif;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){color-scheme:dark;--bg:#16151a;--soft:#211f26;--ink:#f1eef5;--muted:#aba6b3;--rule:#302d36;

@@ -40,15 +40,22 @@ def head(title,desc):
 <link rel="icon" href="{FAV}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://images.pexels.com">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"></noscript>
+<style>@font-face{{font-family:"Nunito Fallback";src:local("Arial");size-adjust:101.5%;ascent-override:99.6%;descent-override:34.8%;line-gap-override:0%}}.hero{{position:relative;overflow:hidden}}.hero>img{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}}</style>
 <link rel="stylesheet" href="style.css?v={CSSV}">
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
   (function () {{
+      function go(){{
       var script = document.createElement("script");
       script.async = 1;
       script.setAttribute("data-cmp-ab","2");
       script.src = 'https://emrldtp.cc/NjA1MTU1.js?t=605155';
       document.head.appendChild(script);
+      }}
+      function later(){{ if (window.requestIdleCallback) requestIdleCallback(go,{{timeout:2500}}); else setTimeout(go,1200); }}
+      if (document.readyState === "complete") later(); else window.addEventListener("load", later);
   }})();
 </script>
 </head>
@@ -60,7 +67,7 @@ def body_of(fn):
     return fiximg(s[a:b])
 def relink(s):
     return s.replace('href="index.html#','href="osaka-where-to-stay.html#').replace('href="index.html"','href="osaka-where-to-stay.html"')
-CSSV = "18"
+CSSV = "19"
 pages={}
 # ---- Osaka where to stay with traveller filter
 osaka=relink(body_of("index.html"))
