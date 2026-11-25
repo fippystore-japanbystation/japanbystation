@@ -1,0 +1,14 @@
+{
+ "station": "Kyoto Station",
+ "city": "Kyoto",
+ "subtitle": "2 sides · north Karasuma, south Hachijo",
+ "rows": [
+  {"to": "City buses · Kyoto Tower", "sub": "Bus terminal, taxis", "line": "JR lines", "line_color": "#0072BC", "exit": "Central", "note": "Karasuma side (north)"},
+  {"to": "Kiyomizu express bus", "sub": "EX100 / EX101, stop D1", "line": "JR lines", "line_color": "#0072BC", "exit": "Central", "note": "Weekends and holidays · ¥500"},
+  {"to": "Kintetsu to Nara", "line": "Shinkansen", "line_color": "#F08300", "exit": "Shinkansen Central", "note": "Kintetsu gates right in front"},
+  {"to": "Airport bus (KIX / Itami)", "line": "Shinkansen", "line_color": "#F08300", "exit": "Hachijo", "note": "South side · KIX ¥2,800"},
+  {"to": "Karasuma subway", "line": "Shinkansen", "line_color": "#F08300", "exit": "Hachijo", "note": "Go underground to the South gate"}
+ ],
+ "tips": ["\"Shinkansen Central\" is NOT the bus-side Central exit"],
+ "checked": "25 Nov 2026"
+}

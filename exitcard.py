@@ -57,7 +57,14 @@ def make(spec, out):
         cx = bx + 22 + badge / 2
         d.text((cx, by + 28), "EXIT", font=F(22), fill=NAVY, anchor="mm")
         num = str(r["exit"]).replace("Exit ", ""); fs = 54 if len(num) <= 2 else 44
-        d.text((cx, by + 80), num, font=F(fs), fill=NAVY, anchor="mm")
+        parts = num.split(" ") if (" " in num and d.textlength(num, font=F(30)) > badge - 14) else [num]
+        if len(parts) == 1:
+            while fs > 22 and d.textlength(num, font=F(fs)) > badge - 14: fs -= 2   # long exit names (e.g. "Hachijo") shrink to fit
+            d.text((cx, by + 80), num, font=F(fs), fill=NAVY, anchor="mm")
+        else:
+            fs = 30
+            while fs > 18 and max(d.textlength(x, font=F(fs)) for x in parts) > badge - 14: fs -= 2
+            for k, x in enumerate(parts[:2]): d.text((cx, by + 66 + k * (fs + 4)), x, font=F(fs), fill=NAVY, anchor="mm")
         yy = y + 20
         for t in tl: d.text((tx, yy), t, font=F(36), fill=INK); yy += 46
         if r.get("sub"): d.text((tx, yy - 4), r["sub"], font=F(26, "Regular"), fill=MUTED); yy += 34

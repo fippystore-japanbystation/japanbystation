@@ -18,8 +18,8 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] F01 · Fukuoka · fukuoka-food-beyond-tonkotsu-ramen · GOMASABA · page ✓  (FOOD format A "eat it differently") — FB posts queued with images
 - [x] X06 · sapporo-in-december-2026 · ODORI · page ✓  (Hokkaido · SEASON: White Illumination 46th + Munich Christmas Market 25th, new Red Brick + Nakajima Park venues) — FB posts queued · reel ✓ (sapporo-in-december-2026)
 - [x] X07 · kyoto-in-december-2026 · JOYA · page ✓  (Kyoto · SEASON: Hanatouro ended 2021 (pref.kyoto.jp), so reframed: daikon-daki, Shimai-Kobo/Tenjin, joya no kane list) — FB posts queued
-- [~] 25 Nov 15:43 X08 · Nagoya · SEASON · Nabana no Sato winter illumination (Mie): day trip from Nagoya or Osaka, tickets, timing
-- [~] 25 Nov 15:43 H06 · Kyoto · STATION · Kyoto Station: which exit (Karasuma vs Hachijo), buses, lockers and luggage forwarding, food halls — STATION HUB TEMPLATE + exit card
+- [x] X08 · nabana-no-sato-illumination-2026 · NABANA · page ✓  (Nagoya · SEASON: 17 Oct 2026–31 May 2027, prices by period, Meitetsu bus + Kintetsu set ticket; no Pexels photos of the lights exist, page uses Begonia Garden photos) — FB posts queued with images
+- [x] H06 · kyoto-station-which-exit · KARASUMA · page ✓ · exit card ✓  (Kyoto · STATION HUB: Karasuma vs Hachijo, buses, lockers, Ramen Koji, Daiichi-Asahi, 3 hotel picks; rooftop Ozora Hiroba closes 27 Nov 2026) — FB posts queued with images
 - [ ] H07 · Fukuoka · STATION · Hakata Station: which exit (Hakata vs Chikushi), airport subway, food floors — STATION HUB TEMPLATE + exit card
 - [ ] H08 · Hokkaido · STATION · Sapporo Station: which exit, underground walkways to Odori, airport train, lockers — STATION HUB TEMPLATE + exit card
 - [ ] H09 · Nagoya · STATION · Nagoya Station: JR, Meitetsu and Kintetsu, which exit for what, food — STATION HUB TEMPLATE + exit card
@@ -41,6 +41,10 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [ ] F08 · Nara · FOOD · Nara's own food: kakinoha-zushi, Miwa somen, chagayu, Yoshino kuzu
 
 ## DONE (guide slug · keyword · Reel?)  ← add every new item here
+- minoh-falls-to-katsuoji-walk-or-bus · DARUMA · page (25 Nov)
+- nabana-no-sato-illumination-2026 · NABANA · page (25 Nov, SEASON)
+- kyoto-station-which-exit · KARASUMA · page + exit card (25 Nov, STATION)
+- Photo backfill 25 Nov: tokyo-early-arrival-luggage, last-night-shinjuku-or-nippori, minoh-falls-autumn-afternoon (3 photos each)
 - tokyo-christmas-markets-2026 · GLUHWEIN · season page (25 Nov)
 - sapporo-in-december-2026 · ODORI · season page (25 Nov)
 - kyoto-in-december-2026 · JOYA · season page (25 Nov)
@@ -143,7 +147,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 79 · yanaka-ginza-which-direction · YANAKA · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 15 · itami-sky-park-without-a-car · PLANES · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [x] 80 · kiyosumi-shirakawa-what-to-pay-for · KIYOSUMI · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [~] 25 Nov 15:43 SEO · Osaka · Minoh Falls to Katsuo-ji temple: walk on, or bus? (autocomplete "minoh falls to katsuoji temple", also "minoh falls from kyoto"; link from minoh-falls-autumn-afternoon)
+- [x] SEO · minoh-falls-to-katsuoji-walk-or-bus · DARUMA · page ✓  (Osaka · Minoh Falls to Katsuo-ji: no bus since Mar 2025 → bus 30 up from Minoh-Kayano, walk down; linked both ways with minoh-falls-autumn-afternoon) — FB posts queued with images
 
 ## Finished briefs
 - [x] 01 · namba-5000-yen-private-room · PRIVACY · page ✓ · reel ✓
