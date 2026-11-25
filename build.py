@@ -15,7 +15,7 @@ def nav(active):
     def a(k,u,n): return f'<a href="{u}">{"<b>"+n+"</b>" if k==active else n}</a>'
     links=a("home","index.html","Home")+"".join(a("city-"+sl,sl+".html",c) for c,sl,n in NAV_CITIES)
     links+=a("guides","guides.html","All guides")+a("about","about.html","About")
-    return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none"><img src="/icons/favicon-96.png" alt="Japan by Station logo" width="30" height="30" class="brand-ic">Japan <i>by</i> Station</a><span class="links">'+links+'</span></nav>'
+    return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none"><img src="/icons/favicon-96.png" alt="Japan by Station logo" width="34" height="34" class="brand-ic">Japan <i>by</i> Station</a><span class="links">'+links+'</span></nav>'
 FOOT='''<footer>
   <div class="wrap">
     <p><b>Japan by Station</b> · Where to stay in Japan, worked out from the station.</p>

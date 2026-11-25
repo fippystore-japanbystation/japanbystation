@@ -341,4 +341,4 @@ main .sec>h2{margin-top:6px}
 @media (max-width:520px){.nav{flex-wrap:nowrap;gap:10px}.nav .brand{flex:none;white-space:nowrap}.nav .links{flex:1 1 auto;min-width:0}}
 
 /* brand icon in the nav (25 Nov) */
-.brand{display:inline-flex;align-items:center;gap:8px}.brand-ic{width:30px;height:30px;border-radius:8px;flex:none}
+.brand{display:inline-flex;align-items:center;gap:8px}.brand-ic{width:34px;height:34px;flex:none}
