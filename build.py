@@ -447,7 +447,12 @@ def seo(fn,h):
 urls=[]
 for fn,(h,active,b) in pages.items():
     h,url=seo(fn,h); urls.append((url,fn))
-    open(f"{OUT}/{fn}","w").write(h+nav(active)+b+FOOT)
+    _page=h+nav(active)+b+FOOT
+    # Clean internal URLs (25 Nov): Cloudflare Pages 308-redirects /x.html -> /x, so link straight to /x (no redirect hop)
+    _page=_re.sub(r'href="(?:https://japanbystation\.com/|/)?index\.html(#[^"]*)?"', lambda m: 'href="/'+(m.group(1) or '')+'"', _page)
+    _page=_re.sub(r'href="(?:https://japanbystation\.com/|/)?([a-z0-9][a-z0-9-]*)\.html((?:[?#][^"]*)?)"', lambda m: 'href="/'+m.group(1)+m.group(2)+'"', _page)
+    _page=_re.sub(r'"([a-z0-9][a-z0-9-]*)\.html(#[^"]*)?"', lambda m: '"/'+m.group(1)+(m.group(2) or '')+'"', _page)   # link targets inside inline scripts
+    open(f"{OUT}/{fn}","w").write(_page)
 today=_dt.date.today().isoformat()
 def _smimg(f):
     if f not in GUIDES: return ""
