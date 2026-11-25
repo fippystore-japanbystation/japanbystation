@@ -18,7 +18,7 @@ def nav(active):
     return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none"><img src="/icons/favicon-96.png?v=2" alt="Japan by Station logo" width="34" height="34" class="brand-ic">Japan <i>by</i> Station</a><span class="links">'+links+'</span></nav>'
 FOOT='''<footer>
   <div class="wrap">
-    <p><b>Japan by Station</b> · Where to stay in Japan, worked out from the station.</p>
+    <p><b>Japan by Station</b> · Checked Japan travel answers, quick to read.</p>
     <p>Times are approximate, for the fastest regular train, and don't include waiting or walking inside big stations. We check them against operators and tourism bureaus and re-check every three months.</p>
     <p>Some links earn us a commission if you book, at no extra cost to you. <a href="disclosure.html">How we make money</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
     <p>Photos: Pexels contributors, credited on each page.</p>
@@ -134,7 +134,7 @@ pages["kansai-airport-to-osaka.html"]=(head("Kansai Airport to Osaka: Which Trai
 import re as _re
 home=open(os.path.join(HERE,"home.html")).read()
 home=_re.sub(r"\{img:([a-z_]+):(\d+)\}", lambda m: purl(m.group(1), int(m.group(2))), home)
-pages["index.html"]=(head("Japan by Station: Japan Travel Guides, Station by Station","Japan by Station: English Japan travel guides built around train stations. Where to stay, which exit, airport trains and local food in Tokyo, Osaka and Kyoto."),"home",home)
+pages["index.html"]=(head("Japan by Station: Checked Japan Travel Guides That Save Time","Japan travel answers you can trust: the quick answer first, every time and price checked, plus the local places most lists miss. Stay, eat and get around Japan."),"home",home)
 def simple(title,h1,inner):
     return f'''
 <main class="wrap doc">
@@ -142,9 +142,9 @@ def simple(title,h1,inner):
   {inner}
 </main>
 '''
-pages["about.html"]=(head("About Japan by Station (japanbystation.com)","Japan by Station is an independent English guide to Japan, organised by train station. Who we are, how we check every time and price, and how to reach us."),"about",simple("About","About Japan by Station",'''
-  <p><b>Japan by Station</b> (japanbystation.com) is an independent English travel guide to Japan, organised around train stations. We're on Instagram, Facebook and Pinterest as <b>@japanbystation</b>.</p>
-  <p>It started with one decision: where to stay. We cover Japan's main cities area by area, and for each one we answer three questions. What is it like to stay there? What can you walk to? How long does it take to reach everything else?</p>
+pages["about.html"]=(head("About Japan by Station (japanbystation.com)","Japan by Station is an independent English guide to Japan: quick, carefully checked answers to real trip questions, plus the local places most lists miss."),"about",simple("About","About Japan by Station",'''
+  <p><b>Japan by Station</b> (japanbystation.com) is an independent English guide to Japan. We do the checking so you don't have to, and we keep it short, so you can decide in a minute and get back to planning the fun part. We're on Instagram, Facebook and Pinterest as <b>@japanbystation</b>.</p>
+  <p>Every guide starts with the quick answer to one real trip question: where to stay, what to eat near the station, which train, what to do with a free afternoon. Then come the details that make it work, and the things most lists miss: the lunch counter locals queue for, the quieter exit, the free view at sunset.</p>
   <h2>How we check our facts</h2>
   <p>Train times come from the operators themselves, the airports and city tourism bureaus wherever they publish them. When we can only find a figure in travel guides, we say so. Each guide shows the date we checked it, and we re-check every three months.</p>
   <p>We have not stayed in every area or hotel we write about, and we don't pretend to. Our guides are built from published timetables, maps and official sources, not from paid stays.</p>
@@ -434,7 +434,7 @@ def seo(fn,h):
     title=html.unescape(title); desc=html.unescape(desc)
     org={"@type":"Organization","@id":SITE+"/#org","name":"Japan by Station","alternateName":["JapanByStation","japanbystation","japanbystation.com"],"url":SITE+"/",
          "logo":{"@type":"ImageObject","url":SITE+"/icons/favicon-512.png","width":512,"height":512},
-         "description":"Japan by Station is an independent English travel guide to Japan, organised around train stations: where to stay, which exit, airport trains and local food.",
+         "description":"Japan by Station is an independent English guide to Japan: quick, carefully checked answers to real trip questions, plus the local places most lists miss.",
          "sameAs":["https://www.instagram.com/japanbystation/","https://www.facebook.com/1512969825226649","https://www.pinterest.com/japanbystation/"]}
     if fn=="index.html":
         ld={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":SITE+"/#website","name":"Japan by Station","alternateName":["JapanByStation","japanbystation.com"],"url":SITE+"/","inLanguage":"en","description":desc,"publisher":{"@id":SITE+"/#org"}},org]}
@@ -471,7 +471,7 @@ open(f"{OUT}/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<u
 # GEO: say plainly that search and AI-answer crawlers are welcome (Ling wants to be cited by ChatGPT, Claude, Perplexity, Gemini)
 _bots=["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot","Applebot-Extended","DuckDuckBot"]
 open(f"{OUT}/robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in _bots)+"User-agent: *\nAllow: /\n\nSitemap: https://japanbystation.com/sitemap.xml\n")
-_ll="# Japan by Station\n\n> English guides to Japan travel, organised around train stations: where to stay, what is within walking distance, local markets, nightlife, and how many minutes it takes to reach the airport, day trips and sights. Every time and price is checked against operators, airports and tourism bureaus, with the check date shown on each page.\n"
+_ll="# Japan by Station\n\n> Carefully checked English guides to Japan travel, quick answer first: where to stay, what is within walking distance, local markets, nightlife, and how many minutes it takes to reach the airport, day trips and sights. Every time and price is checked against operators, airports and tourism bureaus, with the check date shown on each page.\n"
 # GEO (24 Nov): station hubs first, with their key facts, so answer engines find the direct answers
 _hubs=[g for g in ALLG if g.get("keyfacts") and "station" in g["slug"]]
 if _hubs:
@@ -633,7 +633,7 @@ for _r,_d,_fs in os.walk(OUT):
         _t=re.sub(r'<img\b[^>]*>', _wh, _t)
         _t=re.sub(r'(<header class="hero">\s*<img)(?![^>]*fetchpriority)', r'\1 fetchpriority="high" decoding="async"', _t, count=1)
         if _t!=_o: open(_pth,"w",encoding="utf-8").write(_t)
-_full=["# Japan by Station: full text of every guide","","> English Japan travel guides organised around train stations. Each guide shows the date its facts were checked. Source: https://japanbystation.com",""]
+_full=["# Japan by Station: full text of every guide","","> Carefully checked English Japan travel guides, quick answer first. Each guide shows the date its facts were checked. Source: https://japanbystation.com",""]
 for g in ALLG:
     _fp=os.path.join(OUT, g["slug"])
     if not os.path.exists(_fp): continue
