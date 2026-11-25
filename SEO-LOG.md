@@ -102,3 +102,8 @@ AUDIT CURSOR: 2026-11-25 run 6 (DEEP mode starts) → audited fukuoka-yatai-how-
 - Built: dateModified from check dates, real sitemap lastmod, hub CollectionPage + ItemList, Pinterest in sameAs, srcset + fetchpriority hero (LCP p90 was 7.8 s), llms-full.txt, IndexNow key + all 65 URLs pinged.
 - Cloudflare 7 days: 138 visits (MY 60 incl. our own checks, US 55, SE 8, UK 3, CA 3); referrers: direct 93, Facebook 43.
 - TODO next run: guide for "station osaka" (Osaka Station vs Umeda), check Page indexing.
+
+## 26 Nov 00:20 (main session) — Bing Webmaster setup
+- Bing sitemap resubmitted (Bing had 30 URLs from 23 Nov; live sitemap 96). All 96 URLs submitted via URL Submission (quota 100/day).
+- IndexNow page: 58 URLs in 16 h; our "Self" pings arrive. Cloudflare was also pinging bot-probe URLs (/backup.tar.gz, /site.zip…) because every unknown path returned the home page with HTTP 200 (soft 404).
+- FIX deployed: real 404.html (noindex, absolute links). /nope-xyz and /backup.tar.gz now return 404; /, /osaka, /about 200.
