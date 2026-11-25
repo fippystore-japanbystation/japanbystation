@@ -463,6 +463,16 @@ for fn,(h,active,b) in pages.items():
     _page=_re.sub(r'href="(?:https://japanbystation\.com/|/)?([a-z0-9][a-z0-9-]*)\.html((?:[?#][^"]*)?)"', lambda m: 'href="/'+m.group(1)+m.group(2)+'"', _page)
     _page=_re.sub(r'"([a-z0-9][a-z0-9-]*)\.html(#[^"]*)?"', lambda m: '"/'+m.group(1)+(m.group(2) or '')+'"', _page)   # link targets inside inline scripts
     open(f"{OUT}/{fn}","w").write(_page)
+# 404 (26 Nov): without a 404.html, Cloudflare Pages served the home page with HTTP 200 for ANY unknown URL (soft 404s; Cloudflare even pinged bot probes like /backup.tar.gz to Bing). A real 404.html makes Pages answer 404. Not in the sitemap, noindex, absolute asset paths (it is served at any depth).
+_h404=head("Page not found","This page doesn't exist on Japan by Station. Try our guides to Osaka, Tokyo, Kyoto and more.").replace('<link rel="stylesheet"','<meta name="robots" content="noindex">\n<link rel="stylesheet"',1)
+_p404=_h404+nav("")+simple("","Sorry, that page doesn't exist",'''
+  <p>The link may be old, or the address has a typo. These are a good place to start:</p>
+  <ul><li><a href="index.html">Home</a></li><li><a href="guides.html">All guides</a></li><li><a href="osaka.html">Osaka</a> · <a href="tokyo.html">Tokyo</a> · <a href="kyoto.html">Kyoto</a></li></ul>
+''')+FOOT
+_p404=_re.sub(r'href="(?:https://japanbystation\.com/|/)?index\.html(#[^"]*)?"', lambda m: 'href="/'+(m.group(1) or '')+'"', _p404)
+_p404=_re.sub(r'href="(?:https://japanbystation\.com/|/)?([a-z0-9][a-z0-9-]*)\.html((?:[?#][^"]*)?)"', lambda m: 'href="/'+m.group(1)+m.group(2)+'"', _p404)
+_p404=_re.sub(r'(href|src)="(?!https?:|/|#|data:|mailto:)([^"]+)"', lambda m: m.group(1)+'="/'+m.group(2)+'"', _p404)
+open(f"{OUT}/404.html","w").write(_p404)
 today=_dt.date.today().isoformat()
 def _smimg(f):
     if f not in GUIDES: return ""
