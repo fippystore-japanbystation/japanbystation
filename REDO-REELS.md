@@ -18,9 +18,9 @@ re-render, check the stills sheet, then `jbs.py add-reel` them (same slug). Tick
 Specs are ALREADY rewritten (cover, hook, cards, voice, caption) to PLAYBOOK "READABLE TITLES" + "SHORT LINES". Do not change the text: just fetch the same clips as the original spec, re-render (new voice), check the stills sheet, `jbs.py add-reel <slug>`.
 - [x] sapporo-in-december-2026  (re-queued 25 Nov 21:10; cover title now "Sapporo in December:|2 events, 1 park" so the title names the city)
 - [x] shinjuku-two-hours-before-dinner  (re-queued 25 Nov 21:10, text unchanged)
-- [ ] sensoji-morning-or-evening-v2  (original posted 25 Nov; new slug, new caption first line)
-- [ ] new-chitose-airport-to-sapporo-v2  (original posted 25 Nov; new slug, new caption first line)
-- [ ] tokyo-christmas-markets-2026  (pulled 25 Nov 23:40: clearer "moved again" line + ending; text already fixed in the spec; same slug)
+- [x] sensoji-morning-or-evening-v2  (queued 26 Nov: cover "Tokyo's Senso-ji|without the crowds", hook "Skip midday at Tokyo's Senso-ji", Comment SENSOJI ending, new cover photo p_21759449; replaces posted "Skip midday at Tokyo's Senso-ji. Come early, or after dinner")
+- [x] new-chitose-airport-to-sapporo-v2  (queued 26 Nov: hook failed HOOK GATE (no tension) → "Sapporo airport:|skip the ticket queue", Comment CHITOSE ending, new cover p_36595976; replaces posted "Big suitcase into Sapporo? Take the airport train")
+- [x] tokyo-christmas-markets-2026  (re-queued 26 Nov, trimmed to ~70 words, market shot first, new cover cv_w7_33) (pulled 25 Nov 23:40: clearer "moved again" line + ending; text already fixed in the spec; same slug)
 - [ ] shinjuku-two-hours-before-dinner  (pulled 25 Nov 23:40: no rain in winter → "do the garden first"; DM says what we send; same slug)
 - [ ] shibuya-quiet-base-yoyogi-v2  (posted original confused Ling: "quiet mornings" title over night crowds, bare "DM us YOYOGI". Spec rewritten with a "promise" field. FOOTAGE: hook + frame + pick1 must show calm MORNING streets / Yoyogi Park in daylight, NO night neon or crowds; pick2 = park at dawn; cta = Tokyo Camii exterior only if a licensed photo exists, else the park)
 For every OTHER line in this file: write the new cover/cards/voice/caption to the READABLE + SHORT LINES rules too.

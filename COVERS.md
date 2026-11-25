@@ -28,3 +28,6 @@ shinjuku-two-hours-before-dinner (title fix, same photo): cv_p_38410095 Shinjuku
 sapporo-in-december-2026 (re-cut, new title): cv_w6_06 blue light carpet + TV Tower (same photo; clock visible)
 tokyo-christmas-markets-2026: cv_w7_25 Keyakizaka white lights with Tokyo Tower, cropped right to hide a "2024" banner (Wikimedia, Kakidai)
 shinjuku-two-hours-before-dinner (readable re-render, same photo): cv_p_38410095 Shinjuku Gyoen garden with Docomo tower (Pexels)
+tokyo-christmas-markets-2026 (re-cut 26 Nov): cv_w7_33 Yokohama Red Brick market hut at night with crowd, portrait crop (Wikimedia, Dick Thomas Johnson)
+new-chitose-airport-to-sapporo-v2: cv_p_36595976 JR Hokkaido train in deep snow (Pexels)
+sensoji-morning-or-evening-v2: cv_p_21759449 Senso-ji pagoda in morning sun, empty square, crop on the pagoda (Pexels)

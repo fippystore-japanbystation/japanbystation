@@ -3,26 +3,26 @@
  "outdir": "out/",
  "slug": "new-chitose-airport-to-sapporo-v2",
  "keyword": "CHITOSE",
- "music": "m_tokyostroll.mp3",
+ "music": "m_japansnacks.mp3",
  "emph": [
   "Sapporo",
   "Suica",
-  "Odori",
-  "Hakodate",
+  "queue",
+  "seafood",
   "CHITOSE"
  ],
  "hook": {
   "tag": "SAPPORO, JAPAN",
   "lines": [
-   "Airport to Sapporo?",
-   "Take the train"
+   "Sapporo airport:",
+   "skip the ticket queue"
   ]
  },
  "cover": {
-  "title": "Airport to Sapporo?|Take the train",
-  "category": "NEW CHITOSE AIRPORT",
+  "title": "Sapporo airport:|skip the ticket queue",
+  "category": "NEW CHITOSE AIRPORT, SAPPORO",
   "color": "sky",
-  "clip": "cv_p_35837217.mp4",
+  "clip": "cv_p_36595976.mp4",
   "t": 0.5
  },
  "scenes": [
@@ -30,20 +30,20 @@
    "id": "hook",
    "clips": [
     [
-     "p_35837219.jpg"
+     "w5_08.jpg"
     ],
     [
-     "p_36053234.jpg"
+     "p_35837219.jpg"
     ]
    ],
    "clauses": [
     [
-     "Flying into Sapporo with a big suitcase?",
-     "Flying into Sapporo with a big suitcase?"
+     "At Sapporo's airport, skip the ticket queue:",
+     "At Sapporo's airport, skip the ticket queue:"
     ],
     [
-     "The easiest way into the city is the train.",
-     "The easiest way into the city is the train."
+     "tap Suica and take the train.",
+     "tap Suica and take the train."
     ]
    ]
   },
@@ -52,9 +52,6 @@
    "clips": [
     [
      "w5_12.jpg"
-    ],
-    [
-     "w5_08.jpg"
     ],
     [
      "w5_01.jpg"
@@ -67,20 +64,16 @@
     "color": "sky",
     "kicker": "#1 EASIEST",
     "title": "JR Rapid Airport train",
-    "small": "no booking, just tap Suica"
+    "small": "tap Suica, no ticket queue"
    },
    "clauses": [
     [
-     "Number one: the JR Rapid Airport train.",
-     "Number one: the JR Rapid Airport train."
+     "The JR Rapid Airport train leaves right under the terminal,",
+     "The JR Rapid Airport train leaves right under the terminal,"
     ],
     [
-     "The station is right under the terminal.",
-     "The station is right under the terminal."
-    ],
-    [
-     "Just tap your Suica card and get on.",
-     "Just tap your Suica card and get on."
+     "and Suica works at the gate.",
+     "and Suica works at the gate."
     ]
    ]
   },
@@ -88,14 +81,11 @@
    "id": "pick2",
    "clips": [
     [
-     "w5_04.jpg"
+     "w5_02.jpg"
     ],
     [
      "c_31150440.mp4",
      1.0
-    ],
-    [
-     "w5_02.jpg"
     ],
     [
      "p_36464542.jpg"
@@ -105,20 +95,16 @@
     "color": "mint",
     "kicker": "#2 TO YOUR HOTEL",
     "title": "Airport bus",
-    "small": "stops at some big hotels"
+    "small": "no booking, pay as you get off"
    },
    "clauses": [
     [
-     "Number two: the airport bus,",
-     "Number two: the airport bus,"
+     "Hotel on the bus route?",
+     "Hotel on the bus route?"
     ],
     [
-     "if your hotel is one of its stops.",
-     "if your hotel is one of its stops."
-    ],
-    [
-     "Pay by cash or card. Suica doesn't work.",
-     "Pay by cash or card. Suica doesn't work."
+     "The bus needs no booking, and you pay as you get off.",
+     "The bus needs no booking, and you pay as you get off."
     ]
    ]
   },
@@ -126,20 +112,17 @@
    "id": "detail",
    "clips": [
     [
-     "w5_13.jpg"
-    ],
-    [
      "p_36595968.jpg"
     ]
    ],
    "clauses": [
     [
-     "Busy day? Book a seat in car 4.",
-     "Busy day? Book a seat in car four."
+     "Busy day? Book car 4 online,",
+     "Busy day? Book car 4 online,"
     ],
     [
-     "There's more room for your bag.",
-     "There's more room for your bag."
+     "for a seat and space for your case.",
+     "for a seat and space for your case."
     ]
    ]
   },
@@ -147,27 +130,84 @@
    "id": "cta",
    "clips": [
     [
-     "w5_15.jpg"
-    ],
-    [
      "p_29989984.jpg"
     ],
     [
-     "w5_16.jpg"
+     "p_36053234.jpg"
     ]
    ],
    "clauses": [
     [
-     "Hungry? There's a Hakodate seafood bowl in the terminal.",
-     "Hungry? There's a Hakodate seafood bowl in the terminal."
+     "Comment CHITOSE for our free guide to Sapporo's airport,",
+     "Comment CHITOSE for our free guide to Sapporo's airport,"
     ],
     [
-     "DM us CHITOSE and we'll send you where.",
-     "DM us CHITOSE and we'll send you where."
+     "including a Hakodate seafood bowl in the terminal.",
+     "including a Hakodate seafood bowl in the terminal."
     ]
    ]
   }
  ],
- "caption": "Flying into Sapporo with a big suitcase? ✈️🚆\nThe easiest way into the city is the train.\n\n🥇 JR Rapid Airport train\n🚉 The station is right under the\nDomestic Terminal. Follow the signs down.\n💳 Tap Suica, ICOCA, PASMO or Kitaca\nand board any non-reserved car.\n🎫 No IC card? Ticket machines take cash only.\nThe orange reserved-seat machines take cards.\n🧳 Two pieces of luggage per person.\n\n🥈 Airport bus, if your hotel is a stop\n🚌 It stops at Sapporo Station, Susukino\nand several big Odori hotels.\n💴 No booking. Pay when you get off:\ncash, contactless card or PayPay.\n❌ Suica doesn't work on the bus.\n🧳 One suitcase per person in the hold.\n\n💡 Busy day?\nCar 4 has reserved u-seats.\nYou get a seat and room for a big case.\nBook ahead online.\n\n🍣 A Hakodate seafood bowl is waiting\ninside the terminal.\nDM us CHITOSE and we'll send you where.\n\n🧳 Send this to your travel buddy.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#newchitoseairport #sapporo #hokkaido #sapporotravel #hokkaidotravel #japantravel #japantrip",
- "readable_v": 1
+ "caption": "At Sapporo's airport, skip the ticket queue ✈️🚆\nTap Suica and take the train.\n\n🥇 JR Rapid Airport train\n\n🚉 The station is right under\nthe Domestic Terminal.\n\n💳 Tap Suica, ICOCA, PASMO or Kitaca\nand board any non-reserved car.\n\n🎫 No IC card? The ticket machines take cash.\nThe orange reserved-seat machines take cards.\n\n🥈 Airport bus, if your hotel is a stop\n\n🚌 It stops at Sapporo Station, Susukino\nand several big Odori hotels.\n\n💴 No booking. Pay when you get off:\ncash, contactless card or PayPay.\n\n❌ Suica doesn't work on the bus.\n\n💡 Busy day?\nCar 4 has reserved u-seats.\nBook online for a seat and room for a big case.\n\n💬 Comment CHITOSE for our free guide\nto Sapporo's airport, including a Hakodate\nseafood bowl inside the terminal.\n\n🧳 Send this to your travel buddy.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#newchitoseairport #sapporo #hokkaido #sapporotravel #hokkaidotravel #japantravel #japantrip",
+ "readable_v": 1,
+ "promise": "From Sapporo's New Chitose Airport you can skip the ticket queue: tap Suica onto the train under the terminal, or take the bus if your hotel is a stop.",
+ "hook_candidates": [
+  {
+   "hook": "Sapporo airport: skip the ticket queue",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "Airport to Sapporo? Take the train",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 4
+  },
+  {
+   "hook": "Sapporo airport bus: Suica won't work",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 3
+  },
+  {
+   "hook": "Sapporo airport: a Hakodate seafood bowl",
+   "checks": {
+    "related": 0,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 3
+  },
+  {
+   "hook": "Big suitcase into Sapporo?",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 3
+  }
+ ],
+ "hook_type": "MISTAKE (skip the ticket queue, tap Suica)",
+ "opening_type": "the answer itself"
 }

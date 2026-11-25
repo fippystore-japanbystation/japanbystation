@@ -219,7 +219,8 @@ def render(spec, tj, wd, stills=False):
         elif s == order[-1]:
             # Ling 24 Nov: no big box over the footage at the end. One small pill at the bottom, video stays visible.
             a = ease(lt / .3); K = spec["keyword"]
-            f1 = F(40); t1 = f"DM {K}"; f2 = F(30, "Medium"); t2 = "  ·  link in bio"
+            if not K: a = 0   # SCENIC Reels: no keyword, no pill
+            f1 = F(40); t1 = f"COMMENT {K}"; f2 = F(30, "Medium"); t2 = "  ·  free guide"   # Ling 25 Nov 23:44: endings = comment, never DM / link in bio
             w1 = f1.getlength(t1) + 40; w2 = f2.getlength(t2); w = w1 + w2 + 36; x0 = W/2 - w/2; y = 1690 + (1 - a) * 24
             rr(d, (x0, y, x0 + w, y + 76), 38, al(CREAM, .93 * a))
             rr(d, (x0 + 8, y + 8, x0 + 8 + w1, y + 68), 30, al(COL["coral"], a)); d.text((x0 + 28, y + 12), t1, font=f1, fill=al(INK, a))

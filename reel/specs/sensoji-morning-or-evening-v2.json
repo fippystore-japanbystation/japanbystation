@@ -6,45 +6,45 @@
  "music": "m_petals.mp3",
  "emph": [
   "Senso-ji",
-  "Nakamise",
+  "midday",
   "shutters",
   "free",
   "SENSOJI"
  ],
  "hook": {
-  "tag": "TOKYO'S OLDEST TEMPLE",
+  "tag": "TOKYO, JAPAN",
   "lines": [
-   "Senso-ji without",
-   "the crowds"
+   "Tokyo's Senso-ji",
+   "without the crowds"
   ]
  },
  "cover": {
-  "title": "Senso-ji without|the crowds",
+  "title": "Tokyo's Senso-ji|without the crowds",
   "category": "SENSO-JI, TOKYO",
   "color": "sun",
-  "clip": "c_18688462.mp4",
-  "t": 1.5
+  "clip": "cv_p_21759449.mp4",
+  "t": 0.5
  },
  "scenes": [
   {
    "id": "hook",
    "clips": [
     [
-     "c_34183481.mp4",
-     1.0
+     "p_41068409.jpg"
     ],
     [
-     "p_33434176.jpg"
+     "c_34183481.mp4",
+     1.0
     ]
    ],
    "clauses": [
     [
-     "Want Tokyo's Senso-ji without the crowds?",
-     "Want Tokyo's Senso-ji without the crowds?"
+     "Skip midday at Tokyo's Senso-ji.",
+     "Skip midday at Tokyo's Senso-ji."
     ],
     [
-     "Skip midday. Go early, or after dinner.",
-     "Skip midday. Go early, or after dinner."
+     "Go early, or after dinner.",
+     "Go early, or after dinner."
     ]
    ]
   },
@@ -52,7 +52,7 @@
    "id": "pick1",
    "clips": [
     [
-     "p_41068409.jpg"
+     "p_21759449.jpg"
     ],
     [
      "c_37688848.mp4",
@@ -60,9 +60,6 @@
     ],
     [
      "p_39692061.jpg"
-    ],
-    [
-     "p_21759449.jpg"
     ]
    ],
    "card": {
@@ -73,16 +70,12 @@
    },
    "clauses": [
     [
-     "Number one: early morning, before the shops open.",
-     "Number one: early morning, before the shops open."
+     "Early morning, before the shops open,",
+     "Early morning, before the shops open,"
     ],
     [
-     "You can go inside the main hall in peace,",
-     "You can go inside the main hall in peace,"
-    ],
-    [
-     "then warm up with miso soup nearby.",
-     "then warm up with miso soup nearby."
+     "you can step inside the main hall in peace.",
+     "you can step inside the main hall in peace."
     ]
    ]
   },
@@ -97,10 +90,6 @@
     ],
     [
      "p_19592986.jpg"
-    ],
-    [
-     "c_18688462.mp4",
-     6.0
     ]
    ],
    "card": {
@@ -111,12 +100,8 @@
    },
    "clauses": [
     [
-     "Number two: after dinner.",
-     "Number two: after dinner."
-    ],
-    [
-     "The gates and the pagoda are lit up,",
-     "The gates and the pagoda are lit up,"
+     "After dinner, the gates and the pagoda are lit up,",
+     "After dinner, the gates and the pagoda are lit up,"
     ],
     [
      "and the closed shops show painted shutters.",
@@ -136,12 +121,12 @@
    ],
    "clauses": [
     [
-     "Want the view down Nakamise street?",
-     "Want the view down Nakamise street?"
+     "For the view down Nakamise,",
+     "For the view down Nakamise,"
     ],
     [
-     "The tourist centre opposite has a free terrace.",
-     "The tourist centre opposite has a free terrace."
+     "the tourist centre opposite has a free terrace.",
+     "the tourist centre opposite has a free terrace."
     ]
    ]
   },
@@ -160,16 +145,76 @@
    ],
    "clauses": [
     [
-     "Nearby, comedians tell traditional stories every day.",
-     "Nearby, comedians tell traditional stories every day."
+     "Comment SENSOJI for our free guide to Senso-ji,",
+     "Comment SENSOJI for our free guide to Senso-ji,"
     ],
     [
-     "DM us SENSOJI and we'll send you where.",
-     "DM us SENSOJI and we'll send you where."
+     "including a miso soup breakfast and a comedy theatre that plays every day.",
+     "including a miso soup breakfast and a comedy theatre that plays every day."
     ]
    ]
   }
  ],
- "caption": "Want Tokyo's Senso-ji without the crowds? 🏮\nSkip midday. Go early, or after dinner.\n\n🥇 Early morning\n🚶 The temple grounds never close.\n🏮 Walk Nakamise before the shops open.\n⛩️ Go inside the main hall in peace.\n🍲 Then have a miso soup breakfast\nat MISOJYU, a short walk away.\n\n🥈 After dinner\n✨ The gates, pagoda and main hall are lit up.\n🖼️ The closed shops show painted shutters.\n📸 The hall is shut at night,\nso this visit is for photos and a slow walk.\n\n💡 Free view\nGo up to the free 8th-floor terrace of the\nAsakusa Culture Tourist Information Center.\nIt's right opposite Kaminarimon gate.\n\n🎭 Nearby, a theatre has rakugo, Japanese comic\nstorytelling, every day of the year.\nDM us SENSOJI and we'll send you where.\n\n👫 Send this to your Tokyo travel buddy.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#sensoji #asakusa #nakamise #tokyotemple #tokyotravel #japantravel #japantrip",
- "readable_v": 1
+ "caption": "Skip midday at Tokyo's Senso-ji 🏮\nGo early, or after dinner, for no crowds.\n\n🥇 Early morning\n\n🚶 The temple grounds never close.\n\n🏮 Walk Nakamise before the shops open.\n\n⛩️ Step inside the main hall in peace.\n\n🍲 Then a miso soup breakfast\nat MISOJYU, a short walk away.\n\n🥈 After dinner\n\n✨ The gates, pagoda and main hall are lit up.\n\n🖼️ The closed shops show painted shutters.\n\n📸 The hall is shut at night,\nso this visit is for photos and a slow walk.\n\n💡 For the view down Nakamise,\ngo up to the free 8th-floor terrace\nof the tourist centre opposite Kaminarimon.\n\n💬 Comment SENSOJI for our free guide to Senso-ji,\nincluding a miso soup breakfast\nand a comedy theatre with rakugo\n(comic storytelling) every day of the year.\n\n👫 Send this to your Tokyo travel buddy.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#sensoji #asakusa #nakamise #tokyotemple #tokyotravel #japantravel #japantrip",
+ "readable_v": 1,
+ "promise": "You can see Tokyo's Senso-ji without the crowds: skip midday and go early in the morning or after dinner.",
+ "hook_candidates": [
+  {
+   "hook": "Tokyo's Senso-ji without the crowds",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "Skip midday at Tokyo's Senso-ji",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 4
+  },
+  {
+   "hook": "Senso-ji, Tokyo: 2 quiet times",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 0,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 4
+  },
+  {
+   "hook": "Tokyo's Senso-ji never closes",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 3
+  },
+  {
+   "hook": "Senso-ji's painted shutters, Tokyo",
+   "checks": {
+    "related": 0,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 3
+  }
+ ],
+ "hook_type": "MISTAKE / CONTRAST (skip midday, go early or after dinner)",
+ "opening_type": "the common mistake"
 }

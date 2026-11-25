@@ -87,3 +87,8 @@ WIKIMEDIA (w7_*.jpg in Downloads/jbs_media; author/licence in w7_index_1125.json
  Yokohama Red Brick Christmas Market 2022 (Dick Thomas Johnson, CC BY 2.0): w7_28–w7_45 · AVOID w7_45 (sign with "2022" and prices), w7_31 nativity (fine but off-topic)
  Tokyo Tower at night: w7_46 (Kakidai, CC BY-SA 4.0), w7_47 (T.Kiya, CC BY-SA 2.0)
 Pexels: Tokyo Tower lit video 37306459 and Skytree lit 31013035 / 4729552 exist (fetch from a commons tab failed with CORS: fetch Pexels mp4s from a pexels.com tab). Osaka: no Pexels footage of Tenshiba / Umeda Sky / Hankyu Christmas markets; Commons has almost none either (Tenshiba light-up Mar 2025, Hankyu 2012).
+
+## Added 26 Nov (Reels run: tokyo-christmas re-cut, new-chitose-v2, sensoji-v2) — no new downloads, reused Downloads/jbs_media
+- Cover clips made locally from photos with a custom portrait crop (cover.py centre-crops): cv_p_21759449 (crop x≈0.72 = pagoda), cv_p_36595976, cv_w7_33.
+- Seasonal check: w5_13 (733 Rapid Airport) is SUMMER greenery — avoid in winter/Sapporo-snow Reels; p_36595968 / p_36595976 are the snowy JR Hokkaido trains.
+- reelkit ending pill changed 26 Nov to "COMMENT <KEYWORD> · free guide" (Ling 25 Nov 23:44: endings = comment, never DM / link in bio); no pill when keyword is empty (SCENIC).
