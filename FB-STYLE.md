@@ -28,10 +28,35 @@ The Facebook writer (PLAYBOOK 2b) applies this profile to every new FB post. The
 - 24 Nov · Tabimawari FB (17K) · "Comment KEYWORD to get my guide" (video, lead magnet) · 0–3 · lowest
 - 24 Nov · Japan Objects (71K, crafts shop) · "What's special about X?" explainer question + 2-sentence answer · 9 / 2 · ~2× page usual
 - 24 Nov · TripOut (97K) · hotel beach promo · 306 / 1 / 13 · probably boosted/sponsored → excluded from patterns
-Progress: 18 samples (17 usable) from 9 pages (24 Nov). Target ≥ 30 by 26 Nov.
+Progress (24 Nov): 18 samples (17 usable) from 9 pages.
+- 25 Nov · JapanTravel (211K, usual ~15–85 reactions) · overtourism contrast: "while some places are overrun…" → a quiet place in Fukuoka, photo · 19.6K / 160 / 910 · ~250× usual, the biggest post seen so far
+- 25 Nov · JapanTravel · "the side of Japan people keep asking us for": a place where you don't need a 5 a.m. alarm to beat crowds (Hachinohe) · 345 / 4 / 18 · ~5× usual
+- 25 Nov · JapanTravel · "you don't need to fly to Europe for a view like this" (Toyama), photo · 85 / 1 / 5 · ~1.5× usual
+- 25 Nov · JapanTravel · "Would you sleep in this former prison?" + 1-line fact (closed 2017, now a hotel) · 30 / 1 / 2 · usual
+- 25 Nov · JapanTravel · "visiting X? there's another museum a short walk away" · 14 · below usual
+- 25 Nov · JapanTravel · first-person "we got off one stop early and it was the best decision" (Kanazawa line) · numbers didn't load · —
+- 25 Nov · Tokyo Cheapo (141K, usual ~15–60) · "Too soon for holiday spirit? Impossible." + dated illumination list (3 weeks old) · 2.7K / 22 / 493 shares · ~50× usual, shares extreme → same content as their 631K Reel
+- 25 Nov · Tokyo Cheapo · mini-story hook "The news came in. I dropped everything." + what/where · 198 / 8 / 22 · ~4× usual
+- 25 Nov · Tokyo Cheapo · first-person first look at a new winter illumination, honest detail ("my feet hurt") · 57 / 3 / 6 · ~1.5× usual
+- 25 Nov · Tokyo Cheapo · content-warning dark-history carousel · 17 / 1 / 5 · usual
+- 25 Nov · Tokyo Cheapo · vague teaser "This is going to be popular" · 15 / 3 · below usual
+- 25 Nov · Tokyo Cheapo · "go while you can, it only lasts a month" (garden event) · 8 / 2 · below usual
+- 25 Nov · Tokyo Cheapo · "Is it just me who's obsessed with tiny things?" personal musing, videos · 2 / 3 · lowest
+- 25 Nov · Tokyo Cheapo · "A giant character you can slide down?" + what/where · 5 · below usual
+- 25 Nov · Japan Travel Guide (JapanTravelGuide4u, 3.3K) · selling a tour service + bare article links · 0 on all 5 · dead
+- 25 Nov · Japan Travel Guide (alljapantravel, 2.3K) · one-line teaser + link card ("It's not only about the castle…") · 0 on all 5 · dead (page inactive)
+Progress: 34 usable samples from 11 pages (24–25 Nov; JapanTravel and 2 small pages new today). Target ≥ 30 reached → Profile v1 drafted 26 Nov as planned.
+Caveat (25 Nov): most winning "text" posts are photo + text, not plain text. Pure text-only posts are rare on these pages. Profile v1 should cover "caption over one strong photo", which is what our FB posts are anyway.
 Watch-out: engagement on ALL these pages is tiny compared with their follower counts (< 0.1%), so "vs page usual" matters more than absolute numbers.
 
+## Profile v0.2 additions (25 Nov, 34 samples / 11 pages — v1 on 26 Nov)
+9. The biggest winners on 2 pages are CONTRAST hooks that take the reader's side against a pain: overtourism/crowds → a quiet place (JapanTravel 19.6K and 345, both far above usual; Japan Cheapo 24 Nov page-high). Seen on 3 pages.
+10. A dated seasonal LIST ("this December: these spots, these dates") gets extreme SHARES (Tokyo Cheapo 493 shares; 14 shares on 24 Nov). 2 pages.
+11. First-person mini-story openers ("we got off one stop early…", "the news came in, I dropped everything") beat neutral announcements on the same page (Tokyo Cheapo 198 vs 5–17). 2 pages.
+12. Vague teasers ("this is going to be popular"), "go while you can", personal musings and service selling stay at or below usual. 3+ pages → confirms rule 7.
+
 ## Our own page (context for the 27–29 Nov variant test)
+- 25 Nov: now 14 practical link posts, all 0 reactions, 0 clicks, 0–18 views; still 1 follower. Reels on the Page: ~200 views each. The own-page variant test will only say something if the posts reach people: start the no-link types (place card, crowd → alternative) before 27 Nov (PERF.md E5).
 - 24 Nov: 7 text posts got 0–18 views, 0 reactions, 0 clicks (Page has 1 follower; text posts barely reach non-followers). Reels on the same Page got 50–230 views. → Own-page results for text styles will be thin; the "proven" profile on 29 Nov will rest mostly on competitor evidence unless reach improves (PERF.md E3).
 
 ## Profile v0 (early, 4 samples)
