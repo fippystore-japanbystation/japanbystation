@@ -88,7 +88,7 @@ def add_reel(slugs):
     pull(MAIN, "main")
     keys = json.load(open(os.path.join(MAIN, "keywords.json")))
     for s, sp in specs.items():
-        if not sp.get("life"):   # LIFE IN JAPAN Reels (Ling 25 Nov) have no guide page / keyword
+        if not (sp.get("noguide") or sp.get("life")):   # SCENIC Reels (25 Nov) have no guide page / keyword
             assert sp["keyword"] in keys, f"keyword {sp['keyword']} missing from keywords.json - deploy the page first"
         assert sp.get("caption"), f"{s}: spec needs a caption"
     igs = {s: encode(s) for s in slugs}

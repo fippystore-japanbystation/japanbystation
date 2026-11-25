@@ -21,7 +21,7 @@ Reach many people and earn **followers and likes** by giving **unique, informati
 Lead with **Japan itself**: what's fun, special, surprising or useful, at a specific station or area.
 - ~35% WONDER: a unique local detail most visitors miss (a market where they cook the fish you buy, a torii that only floats at high tide, a food only one area does well).
 - ~25% SMART TRAVEL: one practical thing that makes the day easier (which train, which exit, last bus, luggage trick, a mistake to avoid).
-- ~15% LIFE IN JAPAN (Ling, 25 Nov: "not 100% guides; add everyday life to increase engagement"; mainly IG + FB REELS, about 2 of 7 a day, no website page needed; see PLAYBOOK 3): "Say it in Japanese" phrases (Japanese + romaji + when to use it), everyday habits and manners (konbini, trains, trash, no tipping), Japanese-only vs foreigner-friendly places (small bars, izakaya, onsen and tattoos), jobs that hire foreigners and working-holiday basics (official sources only).
+- ~15% SCENIC: one beautiful place and why people love it (snow, quiet, a view, the season), photo- or footage-led, few words, an easy question. On Facebook this is the PLACE CARD / GUESS WHERE format; on Reels the SCENIC Reel (PLAYBOOK 2b and 3). Research 25 Nov: stunning photo + one line = 1.4K likes on a peer page; link/long-text posts 1–6.
 - ~15% PLAY: easy engagement: A-or-B picks, guess the price, "which would you choose", "how would you say this?", "tag who you'd go with".
 - ~10% STAY, LIGHT: the area to base yourself in and why (food, mood, transport), never a hotel sales pitch; the hotel shortlist is "on the site".
 Keep ~20% of all posts as experiments; let PERF.md move the mix.
