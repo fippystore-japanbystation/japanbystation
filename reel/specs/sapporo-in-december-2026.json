@@ -1,0 +1,169 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "sapporo-in-december-2026",
+ "keyword": "ODORI",
+ "music": "m_kyotoriver.mp3",
+ "emph": [
+  "Sapporo",
+  "Christmas",
+  "Munich",
+  "seventy",
+  "huts"
+ ],
+ "hook": {
+  "tag": "SAPPORO IN DECEMBER",
+  "lines": [
+   "Japan's first",
+   "winter light-up"
+  ]
+ },
+ "cover": {
+  "title": "Japan's first light-up|is in Sapporo",
+  "category": "ODORI PARK, SAPPORO",
+  "color": "sky",
+  "clip": "cv_w6_06.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "w6_03.jpg"
+    ],
+    [
+     "c_31150442.mp4",
+     0.0
+    ],
+    [
+     "w6_12.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Japan's first winter light-up began in Sapporo,",
+     "Japan's first winter light-up began in Sapporo,"
+    ],
+    [
+     "and until Christmas it comes with a Christmas market.",
+     "and until Christmas it comes with a Christmas market."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "w6_00.jpg"
+    ],
+    [
+     "w6_02.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#1  20 NOV – 25 DEC",
+    "title": "Munich Christmas Market",
+    "small": "Odori Park, below the TV Tower"
+   },
+   "clauses": [
+    [
+     "Number one: the Munich Christmas Market,",
+     "Number one: the Munich Christmas Market,"
+    ],
+    [
+     "with hot wine in a mug that changes every year.",
+     "with hot wine in a mug that changes every year."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "w6_07.jpg"
+    ],
+    [
+     "w6_14.jpg"
+    ],
+    [
+     "c_31150440.mp4",
+     1.0
+    ],
+    [
+     "w6_16.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "#2  UNTIL 25 DEC",
+    "title": "White Illumination",
+    "small": "its 46th year in Odori Park"
+   },
+   "clauses": [
+    [
+     "Number two: the lights, in their 46th year,",
+     "Number two: the lights, in their forty-sixth year,"
+    ],
+    [
+     "with about 70,000 on one street of ginkgo trees.",
+     "with about seventy thousand on one street of ginkgo trees."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "c_31150437.mp4",
+     0.0
+    ],
+    [
+     "p_37437791.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "AFTER CHRISTMAS",
+    "title": "Street lights",
+    "small": "lit into Feb and Mar 2027"
+   },
+   "clauses": [
+    [
+     "After Christmas, the street lights",
+     "After Christmas, the street lights"
+    ],
+    [
+     "keep glowing into February and March.",
+     "keep glowing into February and March."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w6_01.jpg"
+    ],
+    [
+     "w6_17.jpg"
+    ],
+    [
+     "w6_15.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Eat at the huts first, then walk the lights after the stalls close.",
+     "Eat at the huts first, then walk the lights after the stalls close."
+    ],
+    [
+     "DM us ODORI.",
+     "DM us ODORI."
+    ]
+   ]
+  }
+ ],
+ "caption": "Japan's first winter light-up began in Sapporo, and until Christmas it comes with a Christmas market ✨❄️\n\n🥇 Munich Christmas Market · 20 Nov–25 Dec 2026\n\n🍷 Glühwein, hot chocolate and Sapporo beer, plus a yearly mug with a new design.\n\n🥨 Sausages, pretzels and roasted almonds in the food block, Odori 2-chome.\n\n🤝 Sapporo and Munich are sister cities; the market began in 2002.\n\n🥈 Sapporo White Illumination · Odori Park until 25 Dec 2026\n\n💡 This is its 46th year; it began in 1981 with about 1,000 bulbs.\n\n🌳 Minami 1-jo alone has about 70,000 LEDs on 46 ginkgo trees.\n\n✨ New this year: the old Red Brick Office, lit in blue.\n\n❄️ After Christmas, the street venues stay lit into February and March 2027.\n\nEat at the huts first, then walk the park after the stalls close, when the crowds thin out. Every venue and date is in our bio 👆 or DM us ODORI.\n\n👫 Send this to whoever you'd drink hot wine in the snow with.\n\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#sapporo #sapporowhiteillumination #odoripark #christmasmarket #hokkaido #japanwinter #japantravel #japantrip"
+}

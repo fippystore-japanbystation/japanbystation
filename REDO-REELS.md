@@ -16,9 +16,9 @@ re-render, check the stills sheet, then `jbs.py add-reel` them (same slug). Tick
 ## Cover/hook titles without Japan or a known city (Ling, 25 Nov) — fix FIRST, before they post
 Rewrite ONLY the cover title, the hook tag/lines and the caption's first line so each names Japan or a well-known place (PLAYBOOK STRANGER TEST, STRICT); keep the rest of the spec. Re-render and `jbs.py add-reel <slug>` (same slug replaces the queued video, cover and caption).
 - [x] fukuoka-where-to-stay-first-trip  (cover "Sleep by the river stalls" → e.g. "Fukuoka: sleep by|the river stalls")
-- [ ] shinjuku-two-hours-before-dinner  (pulled 25 Nov: title "Tokyo: garden early, skyline late" is shorthand → plain, e.g. cover "2 hours in Shinjuku?|Garden, then city view", hook line "Two hours in Shinjuku, Tokyo?"; caption first line plain too; then add-reel again)  (cover "Garden early, skyline late"; hook "2 HOURS BEFORE DINNER?" → e.g. "2 hours in|Shinjuku, Tokyo?")
+- [x] shinjuku-two-hours-before-dinner  (re-queued 25 Nov: cover "2 hours in Tokyo?|Garden, then city view")  (pulled 25 Nov: title "Tokyo: garden early, skyline late" is shorthand → plain, e.g. cover "2 hours in Shinjuku?|Garden, then city view", hook line "Two hours in Shinjuku, Tokyo?"; caption first line plain too; then add-reel again)  (cover "Garden early, skyline late"; hook "2 HOURS BEFORE DINNER?" → e.g. "2 hours in|Shinjuku, Tokyo?")
 - [x] new-chitose-airport-to-sapporo  (cover "Big suitcase? Take the train" → e.g. "Sapporo airport:|take the train")
-- [ ] sensoji-morning-or-evening  (cover "Skip midday Senso-ji" → e.g. "Tokyo's Senso-ji:|skip midday")
+- [x] sensoji-morning-or-evening  (fixed 25 Nov: cover "Tokyo's Senso-ji:|skip midday")  (cover "Skip midday Senso-ji" → e.g. "Tokyo's Senso-ji:|skip midday")
 
 ## Already POSTED Reels with unclear titles (Ling, 25 Nov: "全都要修") — re-cut as NEW slugs
 Make a "-v2" copy of the spec (new slug <slug>-v2), new cover title + hook per STRANGER TEST STRICT and COVER + HOOK MUST STOP THE SCROLL, freshen 2–3 shots so it isn't a duplicate, keep the facts. Queue with `jbs.py add-reel <slug>-v2`. Tell Ling which old post each replaces so he can delete the old one in the IG/FB app once the new one is live. Do these AFTER the 4 unposted fixes above, max 3 per run, spread them so they don't post back to back.

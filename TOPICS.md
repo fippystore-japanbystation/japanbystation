@@ -16,7 +16,7 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] R11 · fukuoka-yatai-how-they-work · YATAI · page ✓  (Fukuoka · Nakasu vs Tenjin vs Nagahama) — FB posts queued with images
 - [x] R12 · Hokkaido · otaru-from-sapporo-half-day-or-overnight · OTARU · page ✓ — FB posts queued with images
 - [x] F01 · Fukuoka · fukuoka-food-beyond-tonkotsu-ramen · GOMASABA · page ✓  (FOOD format A "eat it differently") — FB posts queued with images
-- [x] X06 · sapporo-in-december-2026 · ODORI · page ✓  (Hokkaido · SEASON: White Illumination 46th + Munich Christmas Market 25th, new Red Brick + Nakajima Park venues) — FB posts queued
+- [x] X06 · sapporo-in-december-2026 · ODORI · page ✓  (Hokkaido · SEASON: White Illumination 46th + Munich Christmas Market 25th, new Red Brick + Nakajima Park venues) — FB posts queued · reel ✓ (sapporo-in-december-2026)
 - [x] X07 · kyoto-in-december-2026 · JOYA · page ✓  (Kyoto · SEASON: Hanatouro ended 2021 (pref.kyoto.jp), so reframed: daikon-daki, Shimai-Kobo/Tenjin, joya no kane list) — FB posts queued
 - [ ] X08 · Nagoya · SEASON · Nabana no Sato winter illumination (Mie): day trip from Nagoya or Osaka, tickets, timing
 - [ ] H06 · Kyoto · STATION · Kyoto Station: which exit (Karasuma vs Hachijo), buses, lockers and luggage forwarding, food halls — STATION HUB TEMPLATE + exit card

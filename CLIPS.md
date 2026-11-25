@@ -71,3 +71,11 @@ Pexels png-only (fail as .jpeg): 31251621, 31251612, 20449858
 WIKIMEDIA (w5_*.jpg in Downloads/jbs_media; author/licence in w5_index_1125.json; credit on the GUIDE page only):
  New Chitose: JR station entrance 2025 w5_12 (AlphaBetaGamma), gates w5_08 / platform w5_07 (has a departure board WITH TIMES: avoid) / concourse w5_09 (Mister0124), older platform w5_01 (hequilizm), bus ticket booth w5_04 (Tennen-Gas), Hokkaido Ramen Dojo 3F w5_14–16 (ノボホショコロトソ) · trains: 733 Rapid Airport w5_13 (MaedaAkihiko CC0), w5_05 (Rsa) · Hokuto Kotsu AIRPORT LINER w5_02 (PD), plain Hokuto bus w5_00 (PD) · w5_10 Airport Liner is at OKADAMA airport: don't use for Chitose
  Asakusa Engei Hall (rakugo): w5_11 (Nesnad), w5_03 (Kakidai), w5_06 street with Don Quijote tower (Yoshio Kohara)
+
+## Added 25 Nov (Reels run: sapporo-in-december-2026 + title fixes sensoji / shinjuku-two-hours)
+WIKIMEDIA (w6_*.jpg in Downloads/jbs_media; author/licence in w6_index_1125.json; credit on sapporo-in-december-2026 sources):
+ Munich Christmas Market in Sapporo, huts + crowd at night: w6_00, w6_01 (TV Tower lit behind) (t-konno, CC BY-SA 3.0) · Odori at night, TV Tower + light tree: w6_02 (popsaurus, CC BY 3.0)
+ Sapporo White Illumination 2016 (Sorah Fukumori, CC BY 3.0): w6_03 Odori from above (portrait), w6_05 light tree, w6_06 blue carpet + tree + TV Tower (cover), w6_07 snowflakes, w6_09/w6_10/w6_11 Odori sculptures, w6_12 wet street + tower, w6_13 Christmas tree, w6_14/w6_16/w6_17 light globes, w6_15 light field
+ AVOID: w6_08 (parking notice with a date), w6_18 (shows "36th" — wrong year count), w6_04 (TV Tower clock shows a time)
+Pexels SAPPORO photos (checked): TV Tower winter evening 31415732 (clock shows a time), TV Tower down snowy street 31415757, snowy mailbox 31415755, Susukino night 36464855 / 36464847 (Don Quijote), aerial at dusk 32970318
+No Pexels footage of the Sapporo Christmas market itself (all "munich christmas market" results are Germany).

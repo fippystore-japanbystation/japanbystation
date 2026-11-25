@@ -22,3 +22,6 @@ fukuoka-where-to-stay-first-trip: cv_w4_02 Nakasu yatai stalls at night, lit ram
 shinjuku-two-hours-before-dinner: cv_p_38410095 Shinjuku Gyoen garden with Docomo tower (Pexels)
 new-chitose-airport-to-sapporo: cv_p_35837217 ANA plane at snowy New Chitose gate (Pexels)
 sensoji-morning-or-evening: c_18688462 Senso-ji pagoda lit at night with Skytree (Pexels)
+sensoji-morning-or-evening (title fix, same photo): c_18688462 Senso-ji pagoda lit at night with Skytree (Pexels)
+sapporo-in-december-2026: cv_w6_06 blue light carpet + light tree, TV Tower behind, Odori Park at night (Wikimedia, Sorah Fukumori)
+shinjuku-two-hours-before-dinner (title fix, same photo): cv_p_38410095 Shinjuku Gyoen garden with Docomo tower (Pexels)
