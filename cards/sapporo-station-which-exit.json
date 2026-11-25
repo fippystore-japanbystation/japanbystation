@@ -1,0 +1,14 @@
+{
+ "station": "Sapporo Station",
+ "city": "Sapporo",
+ "subtitle": "South exit for the city · North exit for the university",
+ "rows": [
+  {"to": "Odori · TV Tower", "sub": "Chi-Ka-Ho underground walk", "line": "JR lines", "exit": "South", "note": "About 10 min · 5:45–24:30"},
+  {"to": "Clock Tower", "sub": "On foot", "line": "JR lines", "exit": "South", "note": "About 10 min · ¥350 entry"},
+  {"to": "Daimaru", "sub": "Food hall B1", "line": "JR lines", "exit": "West gate", "note": "About 3 min"},
+  {"to": "Hokkaido University", "sub": "Main Gate", "line": "JR lines", "exit": "North", "note": "West gates · about 7 min"},
+  {"to": "Tour buses", "sub": "JR North exit bus stop", "line": "JR lines", "exit": "North", "note": "Tour counter: West Concourse"}
+ ],
+ "tips": ["The station bus terminal closed in 2023: buses use street stops"],
+ "checked": "25 Nov 2026"
+}

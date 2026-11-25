@@ -1,0 +1,14 @@
+{
+ "station": "Hakata Station",
+ "city": "Fukuoka",
+ "subtitle": "2 sides · Hakata exit (city), Chikushi exit (east)",
+ "rows": [
+  {"to": "Fukuoka Airport", "sub": "Subway, 2 stops", "line": "Subway Airport Line", "exit": "Subway", "note": "About 5 min · ¥260"},
+  {"to": "Tenjin", "sub": "Shopping, city centre", "line": "Subway Airport Line", "exit": "Subway", "note": "About 5 min · ¥210"},
+  {"to": "Highway buses · Dazaifu", "sub": "Hakata Bus Terminal", "line": "JR lines", "exit": "Hakata", "note": "1 min · highway 3F, Dazaifu 1F"},
+  {"to": "Canal City", "sub": "On foot", "line": "JR lines", "exit": "Hakata", "note": "About 10 min walk"},
+  {"to": "Yodobashi · east hotels", "sub": "Chikushi side", "line": "JR lines", "exit": "Chikushi", "note": "Right outside"}
+ ],
+ "tips": ["Airport or Tenjin? Stay inside and follow the subway signs"],
+ "checked": "25 Nov 2026"
+}

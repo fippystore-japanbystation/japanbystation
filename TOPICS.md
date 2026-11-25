@@ -20,8 +20,8 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] X07 · kyoto-in-december-2026 · JOYA · page ✓  (Kyoto · SEASON: Hanatouro ended 2021 (pref.kyoto.jp), so reframed: daikon-daki, Shimai-Kobo/Tenjin, joya no kane list) — FB posts queued
 - [x] X08 · nabana-no-sato-illumination-2026 · NABANA · page ✓  (Nagoya · SEASON: 17 Oct 2026–31 May 2027, prices by period, Meitetsu bus + Kintetsu set ticket; no Pexels photos of the lights exist, page uses Begonia Garden photos) — FB posts queued with images
 - [x] H06 · kyoto-station-which-exit · KARASUMA · page ✓ · exit card ✓  (Kyoto · STATION HUB: Karasuma vs Hachijo, buses, lockers, Ramen Koji, Daiichi-Asahi, 3 hotel picks; rooftop Ozora Hiroba closes 27 Nov 2026) — FB posts queued with images
-- [~] 2026-11-25 11:42Z H07 · Fukuoka · STATION · Hakata Station: which exit (Hakata vs Chikushi), airport subway, food floors — STATION HUB TEMPLATE + exit card
-- [~] 2026-11-25 11:42Z H08 · Hokkaido · STATION · Sapporo Station: which exit, underground walkways to Odori, airport train, lockers — STATION HUB TEMPLATE + exit card
+- [x] H07 · hakata-station-which-exit · HAKATA · page ✓ · exit card ✓  (Fukuoka · STATION HUB: Hakata vs Chikushi, airport subway ¥260, Multi E-Cube same-day delivery, Men Kaido + Hakata Issou, rooftop railway shrine) — FB posts queued (card + deep no-link with image)
+- [x] H08 · sapporo-station-which-exit · CHIKAHO · page ✓ · exit card ✓  (Hokkaido · STATION HUB: South vs North, Chi-Ka-Ho, Rapid Airport ¥1,230, bus terminal closed 2023, Yoshitsune, T38) — FB posts queued (card + deep no-link with image)
 - [ ] H09 · Nagoya · STATION · Nagoya Station: JR, Meitetsu and Kintetsu, which exit for what, food — STATION HUB TEMPLATE + exit card
 - [ ] B05 · Kyoto · FROM-BASE · Half a day free in Kyoto? Uji, Fushimi sake district, Ohara or Kurama–Kibune
 - [ ] B06 · Fukuoka · FROM-BASE · Half a day free in Fukuoka? Dazaifu, Yanagawa canal boats or Itoshima coast
@@ -41,6 +41,10 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [ ] F08 · Nara · FOOD · Nara's own food: kakinoha-zushi, Miwa somen, chagayu, Yoshino kuzu
 
 ## DONE (guide slug · keyword · Reel?)  ← add every new item here
+- osaka-christmas-markets-2026 · TENSHIBA · no reel (25 Nov)
+- hakata-station-which-exit · HAKATA · no reel (25 Nov)
+- sapporo-station-which-exit · CHIKAHO · no reel (25 Nov)
+- photo backfill 25 Nov: namba-or-tennoji-30000-yen, asakusa-across-the-river, shinjuku-five-minutes-with-a-suitcase (3 photos each)
 - minoh-falls-to-katsuoji-walk-or-bus · DARUMA · page (25 Nov)
 - nabana-no-sato-illumination-2026 · NABANA · page (25 Nov, SEASON)
 - kyoto-station-which-exit · KARASUMA · page + exit card (25 Nov, STATION)
@@ -182,7 +186,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] D00 · depachika-japan-food-halls-how-they-work · DEPACHIKA · page ✓  (Tokyo · DEPACHIKA hub, format B floor by floor; every D page links here) — FB posts queued with images
 - [x] D01 · isetan-shinjuku-food-hall-what-to-buy · ISETAN · page ✓  (Tokyo · DEPACHIKA, FOOD format D "would you try it") — FB posts queued with images
 - [x] X01 · tokyo-christmas-markets-2026 · GLUHWEIN · page ✓  (Tokyo · SEASON: Shin-Toyosu, Shiba Park, Roppongi Hills, Skytree, Yokohama Red Brick; not on Klook) — FB posts queued (place card + practical with image)
-- [~] 2026-11-25 11:42Z X02 · Osaka · SEASON · Osaka Christmas markets 2026: Tenshiba (Tennoji, free) vs Umeda Sky Building (ticket incl. coupon) vs Hankyu Umeda, dates, hours, what to eat
+- [x] X02 · osaka-christmas-markets-2026 · TENSHIBA · page ✓  (Osaka · SEASON: Tenshiba free 20 Nov–25 Dec, Umeda Sky "Wonder Christmas Marche" 13 Nov–25 Dec (no longer called German market; pass prices unpublished), Hankyu 9F 18 Nov–25 Dec, event hall to 20 Dec; no Klook product) — FB posts queued (card + practical with image)
 - [ ] X03 · Osaka · SEASON · Osaka winter lights 2026: Osaka Hikari Renaissance (Nakanoshima), Midosuji illumination, Namba Hikari Tabi, Umeda — dates, free or paid, a one-evening route
 - [ ] X04 · Tokyo · SEASON · Tokyo winter illuminations 2026: Marunouchi, Roppongi Keyakizaka, Tokyo Dome City, Yomiuriland Jewellumination, Sumida bamboo lanterns — dates, free or paid, one evening plan
 - [ ] X05 · Tokyo · SEASON · New Year in Japan for visitors: what closes 31 Dec–3 Jan, hatsumode (where it is calm vs packed), fukubukuro lucky bags, New Year food
