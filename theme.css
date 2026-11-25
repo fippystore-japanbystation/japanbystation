@@ -326,11 +326,12 @@ main .sec>h2{margin-top:6px}
 .follow-us a.ig{background:#fff;color:#1b2a4a}
 
 /* first-screen value (25 Nov) */
-.quick-answer{margin:16px 0 4px;padding:14px 16px;border-radius:16px;background:#fff;box-shadow:var(--shadow);border-left:5px solid var(--sun,#ffc23d);max-width:64ch}
+.quick-answer{margin:12px 0 14px;padding:14px 16px;border-radius:16px;background:#fff;box-shadow:var(--shadow);border-left:5px solid var(--sun,#ffc23d);max-width:64ch}
 .quick-answer b{display:block;font-size:15px;margin-bottom:4px}
 .quick-answer p{margin:0 0 6px;font-size:16.5px;line-height:1.5;color:var(--ink,#2d2350)}
 .quick-answer a{font-weight:700;font-size:14.5px}
-.tiptoast{position:fixed;left:12px;right:12px;bottom:14px;z-index:50;max-width:520px;margin:0 auto;padding:12px 40px 12px 14px;border-radius:16px;background:#1b2a4a;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.25);font-size:15px;line-height:1.45}
+.tiptoast{position:fixed;left:12px;right:12px;bottom:14px;z-index:50;max-width:520px;margin:0 auto;padding:12px 40px 12px 14px;border-radius:16px;background:#1b2a4a;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.25);font-size:14.5px;line-height:1.4}
+.tiptoast a{color:#ffc23d;font-weight:700}
 .tiptoast[hidden]{display:none}
 .tiptoast b{display:block;color:#ffc23d;font-size:13.5px;margin-bottom:2px}
 .tiptoast .tt-x{position:absolute;top:6px;right:8px;background:none;border:0;color:#fff;font-size:22px;line-height:1;cursor:pointer}
