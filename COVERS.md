@@ -25,3 +25,6 @@ sensoji-morning-or-evening: c_18688462 Senso-ji pagoda lit at night with Skytree
 sensoji-morning-or-evening (title fix, same photo): c_18688462 Senso-ji pagoda lit at night with Skytree (Pexels)
 sapporo-in-december-2026: cv_w6_06 blue light carpet + light tree, TV Tower behind, Odori Park at night (Wikimedia, Sorah Fukumori)
 shinjuku-two-hours-before-dinner (title fix, same photo): cv_p_38410095 Shinjuku Gyoen garden with Docomo tower (Pexels)
+sapporo-in-december-2026 (re-cut, new title): cv_w6_06 blue light carpet + TV Tower (same photo; clock visible)
+tokyo-christmas-markets-2026: cv_w7_25 Keyakizaka white lights with Tokyo Tower, cropped right to hide a "2024" banner (Wikimedia, Kakidai)
+shinjuku-two-hours-before-dinner (readable re-render, same photo): cv_p_38410095 Shinjuku Gyoen garden with Docomo tower (Pexels)

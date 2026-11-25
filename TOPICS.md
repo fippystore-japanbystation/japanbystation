@@ -185,7 +185,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 65 · enoshima-without-the-stairs · ENOSHIMA · page ✓  (Tokyo · BRIEFS-TOKYO-41-70.md) — FB posts queued with images
 - [x] D00 · depachika-japan-food-halls-how-they-work · DEPACHIKA · page ✓  (Tokyo · DEPACHIKA hub, format B floor by floor; every D page links here) — FB posts queued with images
 - [x] D01 · isetan-shinjuku-food-hall-what-to-buy · ISETAN · page ✓  (Tokyo · DEPACHIKA, FOOD format D "would you try it") — FB posts queued with images
-- [x] X01 · tokyo-christmas-markets-2026 · GLUHWEIN · page ✓  (Tokyo · SEASON: Shin-Toyosu, Shiba Park, Roppongi Hills, Skytree, Yokohama Red Brick; not on Klook) — FB posts queued (place card + practical with image)
+- [x] X01 · tokyo-christmas-markets-2026 · GLUHWEIN · page ✓  (Tokyo · SEASON: Shin-Toyosu, Shiba Park, Roppongi Hills, Skytree, Yokohama Red Brick; not on Klook) — FB posts queued (place card + practical with image) · reel ✓ (tokyo-christmas-markets-2026: free vs paid)
 - [x] X02 · osaka-christmas-markets-2026 · TENSHIBA · page ✓  (Osaka · SEASON: Tenshiba free 20 Nov–25 Dec, Umeda Sky "Wonder Christmas Marche" 13 Nov–25 Dec (no longer called German market; pass prices unpublished), Hankyu 9F 18 Nov–25 Dec, event hall to 20 Dec; no Klook product) — FB posts queued (card + practical with image)
 - [ ] X03 · Osaka · SEASON · Osaka winter lights 2026: Osaka Hikari Renaissance (Nakanoshima), Midosuji illumination, Namba Hikari Tabi, Umeda — dates, free or paid, a one-evening route
 - [ ] X04 · Tokyo · SEASON · Tokyo winter illuminations 2026: Marunouchi, Roppongi Keyakizaka, Tokyo Dome City, Yomiuriland Jewellumination, Sumida bamboo lanterns — dates, free or paid, one evening plan

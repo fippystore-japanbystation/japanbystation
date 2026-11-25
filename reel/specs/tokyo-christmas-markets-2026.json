@@ -1,0 +1,171 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "tokyo-christmas-markets-2026",
+ "keyword": "GLUHWEIN",
+ "music": "m_tokyostroll.mp3",
+ "emph": [
+  "Tokyo",
+  "free",
+  "paid",
+  "Roppongi",
+  "Yokohama"
+ ],
+ "hook": {
+  "tag": "TOKYO, JAPAN",
+  "lines": [
+   "Tokyo Christmas markets:",
+   "free or paid?"
+  ]
+ },
+ "cover": {
+  "title": "Tokyo Christmas|markets: free or paid?",
+  "category": "TOKYO AND YOKOHAMA",
+  "color": "coral",
+  "clip": "cv_w7_25.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "w7_24.jpg"
+    ],
+    [
+     "w7_10.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Christmas markets in Tokyo: free or paid?",
+     "Christmas markets in Tokyo: free or paid?"
+    ],
+    [
+     "Here's one of each.",
+     "Here's one of each."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "w7_14.jpg"
+    ],
+    [
+     "w7_15.jpg"
+    ],
+    [
+     "w7_16.jpg"
+    ],
+    [
+     "w7_26.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#1 FREE · UNTIL 25 DEC",
+    "title": "Roppongi Hills",
+    "small": "German ornaments and hot wine"
+   },
+   "clauses": [
+    [
+     "The free one is Roppongi Hills, in its twentieth year.",
+     "The free one is Roppongi Hills, in its 20th year."
+    ],
+    [
+     "German ornaments, hot wine and pretzels,",
+     "German ornaments, hot wine and pretzels,"
+    ],
+    [
+     "then Keyakizaka's blue lights.",
+     "then Keyakizaka's blue lights."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "w7_29.jpg"
+    ],
+    [
+     "w7_33.jpg"
+    ],
+    [
+     "w7_38.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "#2 PAID · UNTIL 25 DEC",
+    "title": "Yokohama Red Brick",
+    "small": "an 11 m tree by the harbour"
+   },
+   "clauses": [
+    [
+     "The paid one is Yokohama's Red Brick Warehouse.",
+     "The paid one is Yokohama's Red Brick Warehouse."
+    ],
+    [
+     "Expect an eleven-metre tree,",
+     "Expect an 11-metre tree,"
+    ],
+    [
+     "with the harbour behind it.",
+     "with the harbour behind it."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "w7_46.jpg"
+    ],
+    [
+     "w7_47.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "MOVED IN 2026",
+    "title": "Tokyo Christmas Market",
+    "small": "Shiba Park from 4 Dec"
+   },
+   "clauses": [
+    [
+     "The Tokyo Christmas Market moved too:",
+     "The Tokyo Christmas Market moved too:"
+    ],
+    [
+     "to the waterfront, and to Shiba Park.",
+     "to the waterfront, and to Shiba Park."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w7_18.jpg"
+    ],
+    [
+     "w7_20.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Three more markets and an evening route",
+     "Three more markets and an evening route"
+    ],
+    [
+     "are waiting in our bio.",
+     "are waiting in our bio."
+    ]
+   ]
+  }
+ ],
+ "caption": "Christmas markets in Tokyo: free or paid? 🎄\nHere's one of each for December 2026.\n\n🥇 Roppongi Hills · free\n📅 21 Nov to 25 Dec 2026\n✨ Its 20th year, with about ten stalls.\n🎁 German ornaments from Käthe Wohlfahrt.\n🥨 Hot wine, sausages and fresh pretzels.\n💙 After dark, walk Keyakizaka's blue lights.\n\n🥈 Yokohama Red Brick Warehouse · paid\n📅 20 Nov to 25 Dec 2026\n🎄 An 11 m live tree and a roof of lights.\n🍷 German huts and a new mug every year.\n🌃 The harbour and skyline right behind it.\n🎟️ Entry from ¥500, part of it is free.\n\n💡 Good to know\nThe Tokyo Christmas Market moved again.\nIt's at Shin-Toyosu by the water,\nand in Shiba Park from 4 Dec.\n\n📌 Skytree's market, the full list\nand a two-market evening: link in bio 👆\n\n👫 Send this to your December travel buddy.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#tokyochristmas #christmasmarket #roppongihills #yokohama #tokyotravel #japanwinter #japantravel #japantrip"
+}

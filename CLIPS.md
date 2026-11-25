@@ -79,3 +79,11 @@ WIKIMEDIA (w6_*.jpg in Downloads/jbs_media; author/licence in w6_index_1125.json
  AVOID: w6_08 (parking notice with a date), w6_18 (shows "36th" — wrong year count), w6_04 (TV Tower clock shows a time)
 Pexels SAPPORO photos (checked): TV Tower winter evening 31415732 (clock shows a time), TV Tower down snowy street 31415757, snowy mailbox 31415755, Susukino night 36464855 / 36464847 (Don Quijote), aerial at dusk 32970318
 No Pexels footage of the Sapporo Christmas market itself (all "munich christmas market" results are Germany).
+
+## Added 25 Nov (Reels run: tokyo-christmas-markets-2026 + re-renders sapporo-in-december-2026, shinjuku-two-hours)
+WIKIMEDIA (w7_*.jpg in Downloads/jbs_media; author/licence in w7_index_1125.json; credited on tokyo-christmas-markets-2026 sources):
+ Roppongi Hills Christmas Market 2025 (ウィ貴公子, CC BY-SA 4.0): w7_00–w7_19 · good clean frames w7_10, w7_14, w7_15, w7_16, w7_18 · AVOID year signs: w7_01 and w7_05 ("Christmas Market 2025" banner), w7_06 (2025 wall sign); w7_08/09/12/13/19 show a red car advert banner (MAZDA 2025)
+ Keyakizaka illumination (Kakidai, CC BY-SA 4.0): w7_20 (2018), w7_23–w7_27 (2024; w7_25 has a small "CHRISTMAS HILLS 2024" banner at left — crop right, as w7_25c.jpg) · w7_21/w7_22 show Louis Vuitton logos: avoid
+ Yokohama Red Brick Christmas Market 2022 (Dick Thomas Johnson, CC BY 2.0): w7_28–w7_45 · AVOID w7_45 (sign with "2022" and prices), w7_31 nativity (fine but off-topic)
+ Tokyo Tower at night: w7_46 (Kakidai, CC BY-SA 4.0), w7_47 (T.Kiya, CC BY-SA 2.0)
+Pexels: Tokyo Tower lit video 37306459 and Skytree lit 31013035 / 4729552 exist (fetch from a commons tab failed with CORS: fetch Pexels mp4s from a pexels.com tab). Osaka: no Pexels footage of Tenshiba / Umeda Sky / Hankyu Christmas markets; Commons has almost none either (Tenshiba light-up Mar 2025, Hankyu 2012).

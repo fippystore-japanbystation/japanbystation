@@ -16,8 +16,8 @@ re-render, check the stills sheet, then `jbs.py add-reel` them (same slug). Tick
 
 ## READABLE re-cuts (Ling, 25 Nov 19:27: titles "人家不明白你在说什么") — DO THESE FIRST, before anything else
 Specs are ALREADY rewritten (cover, hook, cards, voice, caption) to PLAYBOOK "READABLE TITLES" + "SHORT LINES". Do not change the text: just fetch the same clips as the original spec, re-render (new voice), check the stills sheet, `jbs.py add-reel <slug>`.
-- [ ] sapporo-in-december-2026  (unposted; pulled from the queue 25 Nov; same slug)
-- [ ] shinjuku-two-hours-before-dinner  (unposted; pulled; same slug)
+- [x] sapporo-in-december-2026  (re-queued 25 Nov 21:10; cover title now "Sapporo in December:|2 events, 1 park" so the title names the city)
+- [x] shinjuku-two-hours-before-dinner  (re-queued 25 Nov 21:10, text unchanged)
 - [ ] sensoji-morning-or-evening-v2  (original posted 25 Nov; new slug, new caption first line)
 - [ ] new-chitose-airport-to-sapporo-v2  (original posted 25 Nov; new slug, new caption first line)
 For every OTHER line in this file: write the new cover/cards/voice/caption to the READABLE + SHORT LINES rules too.

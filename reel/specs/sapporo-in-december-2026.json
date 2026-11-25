@@ -14,13 +14,13 @@
  "hook": {
   "tag": "SAPPORO, JAPAN",
   "lines": [
-   "Christmas market",
-   "and winter lights"
+   "Sapporo in December:",
+   "2 events, 1 park"
   ]
  },
  "cover": {
-  "title": "Christmas market|and winter lights",
-  "category": "SAPPORO IN DECEMBER",
+  "title": "Sapporo in December:|2 events, 1 park",
+  "category": "ODORI PARK, SAPPORO",
   "color": "sky",
   "clip": "cv_w6_06.mp4",
   "t": 0.5
@@ -42,8 +42,8 @@
    ],
    "clauses": [
     [
-     "Going to Sapporo before Christmas?",
-     "Going to Sapporo before Christmas?"
+     "Going to Sapporo, Japan, before Christmas?",
+     "Going to Sapporo, Japan, before Christmas?"
     ],
     [
      "Here are two winter events in Odori Park.",
@@ -58,7 +58,7 @@
      "w6_00.jpg"
     ],
     [
-     "w6_02.jpg"
+     "w6_01.jpg"
     ]
    ],
    "card": {
@@ -144,7 +144,7 @@
    "id": "cta",
    "clips": [
     [
-     "w6_01.jpg"
+     "w6_02.jpg"
     ],
     [
      "w6_17.jpg"
