@@ -43,3 +43,7 @@ Next experiments
 - E2 (Reels): one visually striking single-place Reel near Osaka (Minoh / Katsuo-ji). A 34K account's best recent Reel did about 8× its median with exactly this kind of place.
 - E3 (FB): check whether text posts reach anyone beyond followers: compare views on a photo+text post and a plain text post on the same day (the photo share already got the only clicks).
 - E4 (FB): one "news you can use" text post (a rule, date or price that changes soon, verified at the official source). The most-shared text posts on 2 pages today were this kind.
+
+## Pinterest (from Ling's screenshot, 25 Nov 15:11, account ~2 days old)
+- Total: 75 impressions, 5 engagements, 0 outbound clicks, 0 saves. Top Pin by far: "Tenma, Osaka: where locals actually eat" (75); Hiroshima–Miyajima collage 3; Kyoto first-trip collage 3.
+- Early signal only (new account; Pinterest usually takes weeks to start distributing): the one Pin that got shown is a FOOD + "where locals" + city keyword title. Keep practical, keyword-first titles; watch whether food/"where locals" Pins keep leading once there are 20+ Pins ≥ 7 days old.
