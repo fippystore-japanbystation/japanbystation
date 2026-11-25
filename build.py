@@ -59,6 +59,11 @@ def head(title,desc):
       function later(){{ if (window.requestIdleCallback) requestIdleCallback(go,{{timeout:2500}}); else setTimeout(go,1200); }}
       if (document.readyState === "complete") later(); else window.addEventListener("load", later);
   }})();
+  /* Microsoft Clarity (Ling 25 Nov): heatmaps + session recordings, loaded after the page */
+  (function(){{
+      function cl(){{ (function(c,l,a,r,i,t,y){{c[a]=c[a]||function(){{(c[a].q=c[a].q||[]).push(arguments)}};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);}})(window,document,"clarity","script","zj80uizxew"); }}
+      if (document.readyState === "complete") setTimeout(cl,800); else window.addEventListener("load", function(){{ setTimeout(cl,800); }});
+  }})();
 </script>
 </head>
 <body>
@@ -154,9 +159,9 @@ pages["disclosure.html"]=(head("How We Make Money","Japan by Station earns commi
   <p>These commissions pay for keeping our guides checked and up to date.</p>
 '''))
 pages["privacy.html"]=(head("Privacy Policy","How Japan by Station handles your data on japanbystation.com and on Instagram: site analytics, booking-site cookies, Instagram comments and messages."),"",simple("","Privacy Policy",'''
-  <p><i>Last updated 24 November 2026.</i> Japan by Station runs japanbystation.com and the Instagram account <b>@japanbystation</b>. This policy explains what data we handle and why.</p>
+  <p><i>Last updated 25 November 2026.</i> Japan by Station runs japanbystation.com and the Instagram account <b>@japanbystation</b>. This policy explains what data we handle and why.</p>
   <h2>On this website</h2>
-  <p>We don't ask you to create an account, and we don't collect your name or email on this site. We use Cloudflare Web Analytics, which counts visits without cookies and without identifying you, and Google Analytics, which uses cookies to show us anonymous totals such as which countries visitors come from and which pages they read. We don't use it for advertising. You can opt out with Google's <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Analytics opt-out add-on</a> or by blocking cookies in your browser. Our hosting provider, Cloudflare, may log basic technical data such as IP addresses to keep the site secure.</p>
+  <p>We don't ask you to create an account, and we don't collect your name or email on this site. We use Cloudflare Web Analytics, which counts visits without cookies and without identifying you, and Google Analytics, which uses cookies to show us anonymous totals such as which countries visitors come from and which pages they read. We don't use it for advertising. We also use Microsoft Clarity to see, without identifying you, how pages are used (where people scroll and tap, and anonymised recordings of visits) so we can make the guides easier to read; Clarity masks text you type and uses cookies. See <a href="https://privacy.microsoft.com/privacystatement" rel="noopener">Microsoft's privacy statement</a>. You can opt out with Google's <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Analytics opt-out add-on</a> or by blocking cookies in your browser. Our hosting provider, Cloudflare, may log basic technical data such as IP addresses to keep the site secure.</p>
   <p>When you click a booking link, the booking site may set cookies so it can tell that you came from us. That is how affiliate commissions are tracked. Those cookies belong to the booking site and are covered by its own privacy policy.</p>
   <h2>On Instagram (comments and direct messages)</h2>
   <p>Our Reels invite you to comment a keyword, such as AIRPORT, to receive the matching guide. When you do, our app "Japan by Station DM" uses the Instagram API to read comments on our own posts, check whether the comment contains one of our keywords, and send you one direct message with the link to that guide. We may also reply publicly under your comment.</p>
