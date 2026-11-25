@@ -15,7 +15,7 @@ def nav(active):
     def a(k,u,n): return f'<a href="{u}">{"<b>"+n+"</b>" if k==active else n}</a>'
     links=a("home","index.html","Home")+"".join(a("city-"+sl,sl+".html",c) for c,sl,n in NAV_CITIES)
     links+=a("guides","guides.html","All guides")+a("about","about.html","About")
-    return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none">Japan <i>by</i> Station</a><span class="links">'+links+'</span></nav>'
+    return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none"><img src="/icons/favicon-96.png" alt="Japan by Station logo" width="30" height="30" class="brand-ic">Japan <i>by</i> Station</a><span class="links">'+links+'</span></nav>'
 FOOT='''<footer>
   <div class="wrap">
     <p><b>Japan by Station</b> · Where to stay in Japan, worked out from the station.</p>
@@ -32,12 +32,14 @@ def head(title,desc):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title if len(title)+19>65 else title+" | Japan by Station"}</title>
+<title>{title if (len(title)+19>65 or "Japan by Station" in title) else title+" | Japan by Station"}</title>
 <meta name="description" content="{html.escape(desc)}">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:site_name" content="Japan by Station">
-<link rel="icon" href="{FAV}">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="192x192" href="/icons/favicon-192.png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.pexels.com">
@@ -67,7 +69,7 @@ def body_of(fn):
     return fiximg(s[a:b])
 def relink(s):
     return s.replace('href="index.html#','href="osaka-where-to-stay.html#').replace('href="index.html"','href="osaka-where-to-stay.html"')
-CSSV = "19"
+CSSV = "20"
 pages={}
 # ---- Osaka where to stay with traveller filter
 osaka=relink(body_of("index.html"))
@@ -127,7 +129,7 @@ pages["kansai-airport-to-osaka.html"]=(head("Kansai Airport to Osaka: Which Trai
 import re as _re
 home=open(os.path.join(HERE,"home.html")).read()
 home=_re.sub(r"\{img:([a-z_]+):(\d+)\}", lambda m: purl(m.group(1), int(m.group(2))), home)
-pages["index.html"]=(head("Where to Stay in Japan, Worked Out From the Station","Where to stay in Japan's big cities, area by area: what's on your doorstep, walking times to the sights, and train times to the airport and day trips."),"home",home)
+pages["index.html"]=(head("Japan by Station: Japan Travel Guides, Station by Station","Japan by Station: English Japan travel guides built around train stations. Where to stay, which exit, airport trains and local food in Tokyo, Osaka and Kyoto."),"home",home)
 def simple(title,h1,inner):
     return f'''
 <main class="wrap doc">
@@ -135,8 +137,9 @@ def simple(title,h1,inner):
   {inner}
 </main>
 '''
-pages["about.html"]=(head("About Japan by Station","Who runs Japan by Station and how our guides are made: train times from operators and official sources, a check date on every guide, and no paid stays."),"about",simple("About","About Japan by Station",'''
-  <p>Japan by Station is a guide to one decision: where to stay. We cover Japan's main cities area by area, and for each one we answer three questions. What is it like to stay there? What can you walk to? How long does it take to reach everything else?</p>
+pages["about.html"]=(head("About Japan by Station (japanbystation.com)","Japan by Station is an independent English guide to Japan, organised by train station. Who we are, how we check every time and price, and how to reach us."),"about",simple("About","About Japan by Station",'''
+  <p><b>Japan by Station</b> (japanbystation.com) is an independent English travel guide to Japan, organised around train stations. We're on Instagram, Facebook and Pinterest as <b>@japanbystation</b>.</p>
+  <p>It started with one decision: where to stay. We cover Japan's main cities area by area, and for each one we answer three questions. What is it like to stay there? What can you walk to? How long does it take to reach everything else?</p>
   <h2>How we check our facts</h2>
   <p>Train times come from the operators themselves, the airports and city tourism bureaus wherever they publish them. When we can only find a figure in travel guides, we say so. Each guide shows the date we checked it, and we re-check every three months.</p>
   <p>We have not stayed in every area or hotel we write about, and we don't pretend to. Our guides are built from published timetables, maps and official sources, not from paid stays.</p>
@@ -333,6 +336,17 @@ def _hub_groups(gs):
             ("eat","Eat & explore","t-mint","Eat and explore like a local","Food streets, neighbourhoods and the things worth your time.",eat),
             ("away","Day trips","t-sun","Day trips and nights away","Easy escapes from the city, with the train times worked out.",away),
             ("tips","Small questions","t-lilac","Smart answers for specific situations","Budget, groups, late nights, big suitcases and the little decisions that make a trip smoother.",rest)]
+HUBMETA={  # Ling 25 Nov: hub snippets must answer straight away, no "Every Japan by Station guide..."
+ "Osaka":("Osaka Travel Guide: Where to Stay, Airport Trains, Local Food","Where to stay in Osaka (Namba, Umeda, Tennoji or Tenma), which train from Kansai Airport, where locals eat, and easy day trips like Minoh and Nara."),
+ "Tokyo":("Tokyo Travel Guide: Where to Stay, Airport Trains, Getting Around","Where to stay in Tokyo on a first trip, Narita or Haneda to your hotel, IC card or subway pass, food halls and quiet neighbourhoods for a half day."),
+ "Kyoto":("Kyoto Travel Guide: Where to Stay, Airport Trains, Kyoto Station","Where to stay in Kyoto (station, Gion or Karasuma), Kansai Airport to Kyoto, which Kyoto Station exit, the best time for Fushimi Inari, December events."),
+ "Hokkaido":("Sapporo Travel Guide: Where to Stay, Airport Trains, Local Food","Where to stay in Sapporo (station, Odori or Susukino), New Chitose Airport to the city, where locals eat, Otaru, and Sapporo's December lights."),
+ "Nara":("Nara Day Trip Guide: Deer, Temples and Trains","Nara from Osaka or Kyoto: day trip or one night, which station to use, and how to see the deer park, Todaiji's Great Buddha and a quiet evening."),
+ "Okinawa":("Naha, Okinawa Guide: Where to Stay, Do You Need a Car?","Where to stay in Naha on a first trip to Okinawa, how far the monorail gets you, and when you really need a rental car."),
+ "Hiroshima":("Hiroshima and Miyajima in One Day: Base, Tram or Train","Hiroshima and Miyajima in one day: where to base yourself, tram or train, and how the tides change your visit to the floating torii."),
+ "Nagoya":("Nagoya Day Trips: Nabana no Sato Illumination 2026","Nabana no Sato's 2026 winter illumination: dates, tickets and how to get there as a day trip from Nagoya or Osaka."),
+ "Fukuoka":("Fukuoka Travel Guide: Where to Stay, Yatai, Local Food","Where to stay in Fukuoka (Hakata, Tenjin or Nakasu), how the yatai food stalls work, and what to eat beyond tonkotsu ramen."),
+}
 for _c in _cities:
     _gs=[g for g in ALLG if g["city"]==_c]; _sl=cslug(_c)
     NAV_CITIES.append((_c,_sl,len(_gs)))
@@ -346,7 +360,9 @@ for _c in _cities:
          f'<p>Start with the big questions, then the food, day trips and smaller details. Every time and price is checked, with the date on each guide.</p>{_jump}</div></header>'
          f'<main>{_secs}'
          f'<div class="wrap"><section class="more"><p><a href="guides.html">All guides</a></p></section></div></main>')
-    pages[_sl+".html"]=(head(f"{_c} Travel Guides: Where to Stay, Getting Around",f"Every Japan by Station guide for {_c}: where to stay, trains and transfers, local food and day trips, with times and prices checked at the source."),"city-"+_sl,_hb)
+    _ht,_hd=HUBMETA.get(_c,(f"{_c} Travel Guide: Where to Stay, Trains, Food", f"{_c}, station by station: "+"; ".join(g["title"] for g in _gs[:3])))
+    if len(_hd)>158: _hd=_hd[:155].rsplit(" ",1)[0]+"…"
+    pages[_sl+".html"]=(head(_ht,_hd),"city-"+_sl,_hb)
 NAV_CITIES.sort(key=lambda x:-x[2])
 os.makedirs(OUT,exist_ok=True)
 import json as _json, datetime as _dt
@@ -405,10 +421,13 @@ def seo(fn,h):
         if _oh: tags+=f'<meta property="og:image:height" content="{_oh}">\n'
         tags+=f'<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:image" content="{_ou}">\n'
     if fn in GMETA and GMETA[fn].get("hero_alt"): tags+=f'<meta property="og:image:alt" content="{html.escape(GMETA[fn]["hero_alt"])}">\n<meta name="twitter:image:alt" content="{html.escape(GMETA[fn]["hero_alt"])}">\n'
-    org={"@type":"Organization","name":"Japan by Station","url":SITE+"/","logo":SITE+"/brand/logo-320.png",
+    title=html.unescape(title); desc=html.unescape(desc)
+    org={"@type":"Organization","@id":SITE+"/#org","name":"Japan by Station","alternateName":["JapanByStation","japanbystation","japanbystation.com"],"url":SITE+"/",
+         "logo":{"@type":"ImageObject","url":SITE+"/icons/favicon-512.png","width":512,"height":512},
+         "description":"Japan by Station is an independent English travel guide to Japan, organised around train stations: where to stay, which exit, airport trains and local food.",
          "sameAs":["https://www.instagram.com/japanbystation/","https://www.facebook.com/1512969825226649","https://www.pinterest.com/japanbystation/"]}
     if fn=="index.html":
-        ld={"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"Japan by Station","url":SITE+"/","description":desc,"publisher":org},org]}
+        ld={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":SITE+"/#website","name":"Japan by Station","alternateName":["JapanByStation","japanbystation.com"],"url":SITE+"/","inLanguage":"en","description":desc,"publisher":{"@id":SITE+"/#org"}},org]}
     elif fn in GUIDES:
         ld={"@context":"https://schema.org","@graph":[
           {"@type":"Article","headline":title,"description":desc,"url":url,"datePublished":GMETA.get(fn,{}).get("date","2026-11-22"),"dateModified":_mod(fn),
@@ -531,6 +550,8 @@ print("keywords:",len(_kw))
 import shutil as _sh
 if os.path.isdir(os.path.join(SRC,"fbimg")): _sh.copytree(os.path.join(SRC,"fbimg"), os.path.join(OUT,"fbimg"), dirs_exist_ok=True)
 if os.path.isdir(os.path.join(SRC,"pinimg")): _sh.copytree(os.path.join(SRC,"pinimg"), os.path.join(OUT,"pinimg"), dirs_exist_ok=True)
+if os.path.isdir(os.path.join(SRC,"icons")):
+    _sh.copytree(os.path.join(SRC,"icons"), os.path.join(OUT,"icons"), dirs_exist_ok=True); _sh.copy(os.path.join(SRC,"icons","favicon.ico"), os.path.join(OUT,"favicon.ico"))
 if os.path.isdir(os.path.join(SRC,"exitcards")): _sh.copytree(os.path.join(SRC,"exitcards"), os.path.join(OUT,"exitcards"), dirs_exist_ok=True)  # Ling 25 Nov: saveable "Which exit?" cheat sheets
 # fb-queue.json for the Facebook text-post workflow (site/fbposts/*.json, posted in "order")
 _fb=[]
