@@ -15,6 +15,7 @@ python3 jbs.py status                        # what's queued, which keywords exi
 Always finish with `python3 jbs.py save "what you did"` so the next session has your new sources (no Cloudflare build).
 
 ## 1. Voice and facts (non-negotiable)
+- OPENINGS: DON'T ALWAYS START WITH A QUESTION (Ling, 25 Nov 23:15: "everyone opens with a question; don't follow one pattern"). This beats any earlier example that starts with a question. Rotate the first line of pages, ledes, captions and FB posts between: (1) the answer itself ("Sleep in Namba. Dotonbori is 4 minutes on foot."), (2) a surprising number or fact ("Kyoto Station has 4 XL lockers, and they're gone by 10am."), (3) a small scene ("It's 11:40pm, the last subway left, and you're in Umeda."), (4) the common mistake ("Most people take the wrong Asakusa Station."), (5) a contrast ("Same price, 20 minutes closer."), and only sometimes (6) a question. No more than 1 in 4 openings may be a question, and never two pieces in a row with the same opening type.
 - NEVER repeat a topic. Before writing anything, read the DONE list in TOPICS.md and the existing site/guides and reel/specs. Add every new guide/Reel to DONE.
 - Professional team voice: "we suggest", "we'd take", "our pick". Never "Honestly?", no overly friendly AI phrasing, no hype.
 - Never invent team names, credentials or personal stays. We build guides from official sources.
