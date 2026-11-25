@@ -28,4 +28,5 @@ Make a "-v2" copy of the spec (new slug <slug>-v2), new cover title + hook per S
 - [ ] minoh-falls-autumn-afternoon  (was "Minoh Falls in an afternoon")
 - [ ] sapporo-where-to-stay-first-trip  (hook "Sleep in Odori")
 - [ ] shibuya-quiet-base-yoyogi  (was "Quiet mornings near Shibuya?")
+- [ ] fukuoka-where-to-stay-first-trip  (DELETED from IG + FB on 25 Nov by Ling's request — "Sleep by the river stalls" was unclear. Re-cut later as slug fukuoka-where-to-stay-first-trip-v2 with a plain title, e.g. "Fukuoka: stay near the street food")
 - [ ] shibuya-crossing-view  (was "Shibuya Crossing: worth paying?" → add Tokyo)
