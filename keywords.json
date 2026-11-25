@@ -330,5 +330,17 @@
  "CHRISTMAS": {
   "url": "https://japanbystation.com/tokyo-christmas-markets-2026",
   "title": "Tokyo Christmas Markets 2026: Which One Is for You?"
+ },
+ "TOFU": {
+  "url": "https://japanbystation.com/food-near-kyoto-station",
+  "title": "Food Near Kyoto Station: Breakfast, Lunch and Dinner, Side by Side"
+ },
+ "EKIMAE": {
+  "url": "https://japanbystation.com/food-near-osaka-umeda-station",
+  "title": "Food Near Osaka Station (Umeda): Breakfast, Lunch, Dinner and a Late Supermarket"
+ },
+ "SLURP": {
+  "url": "https://japanbystation.com/food-near-shinjuku-station",
+  "title": "Food Near Shinjuku Station: Breakfast, Lunch, Dinner and Late Night by Exit"
  }
 }
