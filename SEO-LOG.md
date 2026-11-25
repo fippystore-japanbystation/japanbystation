@@ -1,7 +1,20 @@
 # SEO / GEO log
 Newest first. One block per run: queries seen, pages changed, new guides, indexing status, GEO checks.
 
-AUDIT CURSOR: 2026-11-25 run 4 → audited (GSC pages) osaka-live-like-a-local, osaka-local-markets, minoh-falls-autumn-afternoon, sakai-watch-knife-making, cup-noodles-museum-ikeda, / . NEXT in alphabetical order of site/guides: asakusa-across-the-river, asakusa-which-station-from-narita, depachika-japan-food-halls-how-they-work, enoshima-without-the-stairs, fukuoka-food-beyond-tonkotsu-ramen, fukuoka-where-to-stay-first-trip (skip the 5 done above when reached); hand-built pages (osaka-where-to-stay, namba, kansai-airport-to-osaka) after the guides.
+AUDIT CURSOR: 2026-11-25 run 5 → audited asakusa-across-the-river, asakusa-which-station-from-narita, depachika-japan-food-halls-how-they-work, enoshima-without-the-stairs, fukuoka-food-beyond-tonkotsu-ramen, fukuoka-where-to-stay-first-trip. NEXT in alphabetical order of site/guides: fukuoka-yatai-how-they-work, fushimi-inari-dawn-day-or-after-dark, gora-to-lake-ashi-bus-or-ropeway, hakone-base-yumoto-gora-lake-ashi, hakone-big-suitcase-forward-carry-store, hakone-freepass-ryokan-one-night (skip cup-noodles/minoh/osaka-live/osaka-local-markets/sakai, done run 4); hand-built pages (osaka-where-to-stay, namba, kansai-airport-to-osaka) after the guides. Pages still WITHOUT keyfacts are the main gap (check with grep -L keyfacts site/guides/*.html).
+
+## 2026-11-25 (scheduled SEO AUDIT run 5, 09:30 UTC)
+- Data: Search Console last read 05:45 UTC (<8 h) → not re-read; Overview still "Processing data" for Page indexing, Breadcrumbs 100 valid, HTTPS 70. URL inspection: /asakusa-which-station-from-narita, /asakusa-across-the-river, /fukuoka-where-to-stay-first-trip all "URL is on Google · Page is indexed" → re-indexing requested for these 3 (titles changed).
+- PAGES AUDITED + FIXED:
+  - asakusa-across-the-river: seo_title "Asakusa Hotels Across the River: Azumabashi or Honjo?" (53; was 65); hero alt more specific; keyfacts x5 (same-dates prices, walks, Oshiage saving, Solamachi hours, who each suits); contextual links to sensoji-morning-or-evening ("early Senso-ji visit") and asakusa-which-station-from-narita; Keep planning + Asakusa-from-Narita + Tokyo first-trip.
+  - asakusa-which-station-from-narita (top social page): seo_title "Asakusa Station from Narita: Which of the 4 You'll Use" (54, keyword first); keyfacts x5 (Access Express 70 min ¥1,380, four stations, 670 m luggage walk, TX → Akihabara 5 min ¥230, Ginza Exit 1 lift).
+  - depachika-japan-food-halls-how-they-work: stations.json → Shinjuku + Tokyo Station (now gets "More around" cards); keyfact #4 evening markdowns (Time Out, as on page).
+  - fukuoka-where-to-stay-first-trip: seo_title "Where to Stay in Fukuoka: Hakata, Tenjin or Nakasu?" (51, matches the search phrase); keyfacts x5 (airport subway 5/11 min, intl shuttle 10 min, Hakata–Tenjin 6 min ¥210, who each base suits, yatai).
+  - enoshima-without-the-stairs, fukuoka-food-beyond-tonkotsu-ramen: OK (title, desc, 1 H1, 4 direct FAQ, keyfacts 4, 3–5 links, specific alts, all imgs width/height) → no change.
+- SITE-WIDE IMAGE SEO: in place and live (og:image/twitter:image = hero, width/height on all imgs (0 missing on checked pages), ImageObject list in Article JSON-LD, image sitemap 368 <image:loc> referenced from robots.txt). SEO-LINT: 0. Broken internal links: 0 (1 known JS-template false positive on index).
+- Deploy 1. Live check: /asakusa-across-the-river and /asakusa-which-station-from-narita: 1 H1, 0 broken images, new titles, og+twitter image, 6 ImageObjects, keyfacts in JSON-LD. IndexNow pinged 7 URLs (4 pages, sitemap, llms x2).
+- TOPICS: no new lines (no new keyword research this run; Tennoji/Hakata hubs already queued as H05/H07).
+- NEXT: next 6 from the cursor; first run tomorrow: re-read GSC Queries/Pages/Images + autocomplete for Asakusa/Kyoto Station seeds.
 
 ## 2026-11-25 (scheduled SEO AUDIT run 4, 05:45 UTC; first run under the new "audit only" brief)
 - Search Console 28 days (data to 23 Nov): 11 impressions, 0 clicks, avg position 15.3. Query: "station" "osaka" 5 impr. Pages: /osaka-live-like-a-local 3, / 3, /osaka-local-markets 2, /minoh-falls-autumn-afternoon 1, /sakai-watch-knife-making 1, /cup-noodles-museum-ikeda 1. Search type IMAGE: 0 impressions (no data yet).
