@@ -4,7 +4,7 @@
 
 Ling runs **Japan by Station**: japanbystation.com (Japan-only English travel guides) and Instagram **@japanbystation**.
 Each Reel answers ONE traveler question and gives the solution. Viewers comment a KEYWORD and n8n DMs them the guide page.
-**The guide page must be live (and its keyword in keywords.json) before its Reel is queued.**
+**The guide page must be live (and its keyword in keywords.json) before its Reel is queued** (except LIFE IN JAPAN Reels, section 3).
 
 ## 0. Session setup (every fresh session)
 ```
@@ -39,14 +39,6 @@ FOOD BLOG (Ling, 24 Nov; TOPICS.md lines marked "FOOD", F01…): a lighter blog-
   Official sources (tourism boards, prefecture pages, the shop's own site) are welcome as links. The point is engagement: show something different and special people can try in that area.
 - DEPACHIKA series (Ling, 24 Nov, a favourite: "Isetan's basement food market and the other malls' basement food halls, the refined things there — I want these written"): TOPICS.md lines D00–D10. Same FOOD BLOG rules and format rotation. Focus on WHAT'S THERE AND WHAT'S FUN, not directions (Ling: no exits or how-to-get-in; readers figure that out and can ask in the comments): 5–7 counters/items worth it (the refined or seasonal things: wagashi, fruit, bento, gift boxes, the store's own signature item) with price level; DISCOUNTS (whether and roughly when evening markdowns happen, any regular sale days); FREEBIES (free tasting, samples, small gifts with purchase, if the store or reliable sources say so); and the TOP-FLOOR restaurant floor (is there one, what kinds of food, one or two worth it). One less-known detail regulars know. Store sites and floor guides are the best sources; link them. Every D page links to the D00 hub and the station guide. Great material for Reels and FB WONDER/PLAY posts.
 - FB posts for a food page: both are PLAY or WONDER posts ("Would you try this?", "Guess what this costs", the story behind one dish); food posts are our best fit for STRATEGY.md.
-
-LIFE IN JAPAN (Ling, 25 Nov; TOPICS.md lines marked "LIFE", L01…): light, lively blog pages about everyday Japan, not a route guide. 500–800 words, warm and specific, answer-first.
-- PHRASES ("Say it in Japanese"): each phrase = Japanese (kana/kanji) + romaji + plain English + when you'd use it + one tip (how polite it sounds, what you'll hear back). 6–10 phrases per page, tied to a real moment (station, konbini, restaurant, onsen, shop).
-- HABITS & MANNERS: what locals do and why, without lecturing; one "what we'd do" line each.
-- JAPANESE-ONLY vs FOREIGNER-FRIENDLY: how to tell (signs, menus, the phrase to ask politely), what to do if refused, tattoo rules at onsen/sento with alternatives (private baths, tattoo-friendly sento). Respectful, factual, no shaming.
-- JOBS / WORKING HOLIDAY: which kinds of work commonly hire foreigners, what's required, from OFFICIAL sources only (Immigration Services Agency of Japan, MOFA working-holiday pages, embassy pages); link them; say rules change and to check the official page; never promise a visa or a job.
-- Never adult/nightlife "fuzoku" venues (brand fit, and Meta may restrict the account).
-- FB posts for a LIFE page: one PLAY post ("How would you say this in Japanese? Answer in the comments") and one WONDER/LIFE post. Very good Reel material too ("3 phrases for the konbini").
 
 DEEP TEMPLATE (Ling, 23 Nov; EVERY new guide, briefs included): copy `site/guides/tenma-tenjinbashisuji-local-guide.html`. Ling: "not surface level", a real 3–5 minute read (about 700–1,100 words), quality over speed. A place may be covered again from a new angle (Ling: one place can be told more than once) — link the related guides both ways.
   Order (use the sections that fit the question; brief guides keep their A/B/C answers and verdict inside this frame):
@@ -118,6 +110,12 @@ For EVERY new guide, also write TWO Facebook posts as `site/fbposts/<id>.json` �
 - FACEBOOK vs IG (Ling, 24 Nov): Reels go to IG and the Facebook Page together with the same video and caption; "link in bio" stays as it is. Only a "comment/DM KEYWORD" sentence is swapped on Facebook (the keyword auto-reply only works on IG): n8n keeps the tip and puts "👉 <reason>: <guide URL>" in place of that sentence. Facebook text posts never use keywords either; they use the playful click line + link (2b).
 
 ## 3. Reels (approved style; do not change without Ling)
+- LIFE IN JAPAN REELS (Ling, 25 Nov: "not 100% guides; add everyday life to increase engagement" — for IG + FB Reels, NOT website pages): about 2 of the 7 daily Reels. Ideas list and done list: LIFE-IDEAS.md (take the first unticked line, tick it with the slug). These need NO guide page; the guide-page-first rule does not apply to them. Kinds:
+  · SAY IT IN JAPANESE: 3–4 phrases for one real moment (konbini, station, restaurant, onsen, shop): on-screen card = Japanese (kana) + romaji + English; voice says the romaji clearly, then when to use it and what you'll hear back. End: "Which one will you use first? Comment it."
+  · HABITS & MANNERS: what locals do and why (trains, trash, no tipping, queues, konbini), friendly, never lecturing.
+  · JAPANESE-ONLY vs FOREIGNER-FRIENDLY: how to tell at small bars, izakaya, onsen (tattoo rules and alternatives), how to ask politely. Respectful and factual.
+  · JOBS / WORKING HOLIDAY: kinds of work that commonly hire foreigners and the basics, from OFFICIAL sources only (Immigration Services Agency of Japan, MOFA working-holiday pages, embassies); say rules change and to check the official page; never promise a visa or job.
+  Facts: research each Reel this run from official / reliable sources and log them in LIFE-IDEAS.md under the line (URL + check date), since there is no guide page. Same REEL FORMAT v3, QUALITY GATE (facts paired to the logged sources instead of a guide), footage rules (Pexels/Pixabay everyday Japan: konbini, trains, vending machines, streets), clean captions, voice D. Ending: a comment question or "Follow for one Japan tip a day"; "link in bio" only if a related guide really exists. Never adult/nightlife "fuzoku" venues (brand fit, and Meta may restrict the account).
 ### FAST + STRONG HOOK v4 (Ling, 24 Nov evening: URGENT and PERMANENT, "not a one-day change": faster videos, stronger hooks, keep it tight, keep testing, reach more people). OVERRIDES every older line in this section about length, word count, number of elaborations in the voice and shot length.
 Why (PERF.md, early data): Reels with avg watch ≥ 9.4 s got 4–16 saves, ≤ 6.1 s got 0–2; our Reels run 33–40 s but people watch 6–11 s. Problem-first hooks ("not sleeping early?", "too crowded?") lead; generic "First time in…?" and A-or-B questions trail.
 1. HOOK = first 1 second, ≤ 8 words, on screen from frame 1 AND spoken at once. It names a problem, a stake or a surprise, and gives the answer in the same breath ("Kuromon too crowded? Osaka shops here instead."). Strongest types so far: PROBLEM ("too crowded?", "not sleeping early?", "big suitcase?"), CONTRAST ("Skip X, do Y"), TIMELY ("X is back this week" / "opens tonight", competitor data). Banned as hooks: generic "First time in X?", plain "A or B?" without the answer, place-only titles ("Where to stay in Osaka").
