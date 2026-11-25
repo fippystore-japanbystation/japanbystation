@@ -10,6 +10,7 @@
 
 ## Tokyo
 - [Depachika 101: How Japan's Department-Store Food Halls Work](https://japanbystation.com/depachika-japan-food-halls-how-they-work): What's on each counter, when the stickers go on, where you can eat it, and the tax rule that changed in November 2026.
+- [Isetan Shinjuku Food Hall: Would You Try These?](https://japanbystation.com/isetan-shinjuku-food-hall-what-to-buy): Prawn heads fried to a crunch, crackers sold twice a month, an Isetan-only pudding: Tokyo's most famous food basement, oddest first.
 - [Hakone 'Private Onsen': Which Booking Actually Gets You One?](https://japanbystation.com/hakone-private-onsen-which-booking): An 'open-air bath' room isn't always hot-spring water. How to pick between an in-room bath, a reservable private bath and a two-hour private bath room in Yumoto.
 - [Enoshima Without the Stairs: Escalator, Boat or Stay on the Shore?](https://japanbystation.com/enoshima-without-the-stairs): What the paid escalator really covers, the boat that saves the climb back, and a flat shore day with an island view.
 - [Gora to Lake Ashi: Bus or Ropeway?](https://japanbystation.com/gora-to-lake-ashi-bus-or-ropeway): The ropeway is the view; the bus is the shortcut. From Gora, Lake Ashi and the shrine torii are only 20–30 minutes away by bus. Here's how to mix the two.
@@ -48,6 +49,7 @@
 - [First Trip to Tokyo: Which Area Should You Stay In?](https://japanbystation.com/tokyo-where-to-stay-first-trip): Shinjuku, Tokyo Station or Asakusa/Ueno? Same-night prices for two and the trips each base makes easy.
 
 ## Fukuoka
+- [Fukuoka Food Beyond Tonkotsu Ramen: Eat It Like a Local](https://japanbystation.com/fukuoka-food-beyond-tonkotsu-ramen): Udon soft on purpose, mackerel raw, noodles in the hotpot at the end: Fukuoka eats differently.
 - [Fukuoka Yatai: How They Work, and Nakasu, Tenjin or Nagahama?](https://japanbystation.com/fukuoka-yatai-how-they-work): About 100 stalls, ten seats each, mostly cash: how Fukuoka's yatai work, which area to pick and a three-stall evening.
 - [First Trip to Fukuoka: Hakata, Tenjin or Nakasu?](https://japanbystation.com/fukuoka-where-to-stay-first-trip): The airport is 5 minutes from Hakata by subway. Hakata for trains, Tenjin for shopping, Nakasu for yatai nights, and why all three work.
 
@@ -56,6 +58,12 @@
 - [Fushimi Inari: Dawn, Afternoon or After Dark? How Far Up Is Worth It](https://japanbystation.com/fushimi-inari-dawn-day-or-after-dark): Dawn for empty torii, the afternoon only if you climb past Yotsutsuji, and after dark only on the lit lower paths.
 - [Kansai Airport to Kyoto: Haruka, Limousine Bus or via Osaka?](https://japanbystation.com/kansai-airport-to-kyoto): Haruka for most arrivals, the bus when you land late or have big bags, Hankyu via Osaka when your hotel is on Shijo. Here's how to choose by where you sleep.
 - [First Trip to Kyoto: Kyoto Station, Kawaramachi/Gion or Karasuma?](https://japanbystation.com/kyoto-where-to-stay-first-trip): Karasuma for most first trips: 3 minutes from Kyoto Station, one stop from Kawaramachi, Hankyu to Arashiyama. Kyoto Station for JR day trips; Gion for evenings.
+
+## Hokkaido
+- [Otaru from Sapporo: Half Day or Overnight?](https://japanbystation.com/otaru-from-sapporo-half-day-or-overnight): 41 minutes from Sapporo: in winter a half day catches the lamps at four; in summer, stay the night.
+- [New Chitose Airport to Sapporo: Train, Bus or Car?](https://japanbystation.com/new-chitose-airport-to-sapporo): The train is fastest and Suica works. The bus wins when it stops at your hotel door. A car only makes sense if Sapporo isn't your last stop.
+- [Where Sapporo Locals Eat: Markets, Soup Curry and Ramen](https://japanbystation.com/sapporo-where-locals-eat): Curb Market for breakfast if you can get there early, soup curry in a basement off Odori, and ramen at 1 a.m. like Susukino does.
+- [First Trip to Sapporo: Sapporo Station, Odori or Susukino?](https://japanbystation.com/sapporo-where-to-stay-first-trip): Odori for most first trips, Sapporo Station for early trains and big bags, Susukino if dinner runs late. All three are joined underground.
 
 ## Osaka
 - [Shin-Osaka vs Osaka Station: Which One, and Where to Stay](https://japanbystation.com/shin-osaka-vs-osaka-station): Bullet train or city base? Which station your train uses, the 11-minute transfer rule, and one hotel per traveller.
@@ -78,11 +86,6 @@
 - [Where to stay in Osaka: Namba, Umeda or Tennoji?](https://japanbystation.com/osaka-where-to-stay): Three areas on one red subway line. What's outside each door, and who each one suits.
 - [Things to do around Namba, all within a 15-minute walk](https://japanbystation.com/namba): The canal, the food streets and the shopping arcades, with walking times from Exit 14.
 - [Kansai Airport to Osaka: which train for your hotel](https://japanbystation.com/kansai-airport-to-osaka): Nankai or JR? Pick the line that stops at your hotel and skip the transfer.
-
-## Hokkaido
-- [New Chitose Airport to Sapporo: Train, Bus or Car?](https://japanbystation.com/new-chitose-airport-to-sapporo): The train is fastest and Suica works. The bus wins when it stops at your hotel door. A car only makes sense if Sapporo isn't your last stop.
-- [Where Sapporo Locals Eat: Markets, Soup Curry and Ramen](https://japanbystation.com/sapporo-where-locals-eat): Curb Market for breakfast if you can get there early, soup curry in a basement off Odori, and ramen at 1 a.m. like Susukino does.
-- [First Trip to Sapporo: Sapporo Station, Odori or Susukino?](https://japanbystation.com/sapporo-where-to-stay-first-trip): Odori for most first trips, Sapporo Station for early trains and big bags, Susukino if dinner runs late. All three are joined underground.
 
 ## Hiroshima
 - [Hiroshima and Miyajima in One Day: Where to Base, Tram or Train, and the Tides](https://japanbystation.com/hiroshima-miyajima-one-day): Museum at 7:30, JR and ferry to the island by late morning, and one tide-table check that decides whether the torii floats or you can walk to it.
