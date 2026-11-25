@@ -9,6 +9,11 @@ Reach many people and earn **followers and likes** by giving **unique, informati
 - Second: visits to japanbystation.com. Nice to have, never forced.
 - Not now: selling. No "book now", no hard sell, no hotel promotion on social.
 
+## 1b. Facebook goal (Ling, 25 Nov)
+- **5,000 Facebook Page followers** is the target: that is when Facebook monetisation can start. Everything on Facebook serves it.
+- Mix on Facebook: **70% engagement + follow** (place cards, guess-where, and DEEP INFORMATIVE posts that give the full value inside the post, ending with a question or a soft "follow for one Japan tip a day"; no link) and **30% link to the website** (practical posts with the guide link). Reels count in the 70%.
+- The daily report tracks FB followers toward 5,000 and which post types bring new followers.
+
 ## 2. Who does what
 | Channel | Job | Hotels? |
 |---|---|---|
