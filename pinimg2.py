@@ -142,7 +142,7 @@ if __name__ == "__main__":
     a = sys.argv; m = a[1]
     if m == "cover":
         hl = None
-        if "--hl" in a: i = a.index("--hl"); hl = a[i + 1]; a = a[:i] + a[i + 2:]
+        if "--hl" in a: i = a.index("--hl"); a = a[:i] + a[i + 2:]; print("note: --hl tags are retired (Ling 25 Nov: fewer words); ignored", file=sys.stderr)
         cover(a[2], a[3], a[4], a[5], *(float(x) for x in a[6:8]), hl=hl)
     elif m == "collage": collage(a[2].split(","), a[3].split("|"), a[4], a[5], a[6])
     elif m == "page": page(a[2], int(a[3]), a[4], a[5], a[6], *(float(x) for x in a[7:9]))
