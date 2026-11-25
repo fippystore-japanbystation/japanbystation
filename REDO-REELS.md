@@ -20,6 +20,9 @@ Specs are ALREADY rewritten (cover, hook, cards, voice, caption) to PLAYBOOK "RE
 - [x] shinjuku-two-hours-before-dinner  (re-queued 25 Nov 21:10, text unchanged)
 - [ ] sensoji-morning-or-evening-v2  (original posted 25 Nov; new slug, new caption first line)
 - [ ] new-chitose-airport-to-sapporo-v2  (original posted 25 Nov; new slug, new caption first line)
+- [ ] tokyo-christmas-markets-2026  (pulled 25 Nov 23:40: clearer "moved again" line + ending; text already fixed in the spec; same slug)
+- [ ] shinjuku-two-hours-before-dinner  (pulled 25 Nov 23:40: no rain in winter → "do the garden first"; DM says what we send; same slug)
+- [ ] shibuya-quiet-base-yoyogi-v2  (posted original confused Ling: "quiet mornings" title over night crowds, bare "DM us YOYOGI". Spec rewritten with a "promise" field. FOOTAGE: hook + frame + pick1 must show calm MORNING streets / Yoyogi Park in daylight, NO night neon or crowds; pick2 = park at dawn; cta = Tokyo Camii exterior only if a licensed photo exists, else the park)
 For every OTHER line in this file: write the new cover/cards/voice/caption to the READABLE + SHORT LINES rules too.
 
 ## Cover/hook titles without Japan or a known city (Ling, 25 Nov) — fix FIRST, before they post

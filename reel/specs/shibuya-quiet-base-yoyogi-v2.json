@@ -1,0 +1,213 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "shibuya-quiet-base-yoyogi-v2",
+ "keyword": "YOYOGI",
+ "music": "m_petals.mp3",
+ "emph": [
+  "Shibuya",
+  "quiet",
+  "park",
+  "Yoyogi",
+  "YOYOGI"
+ ],
+ "hook": {
+  "tag": "TOKYO, JAPAN",
+  "lines": [
+   "Quiet mornings,",
+   "still near Shibuya"
+  ]
+ },
+ "cover": {
+  "title": "Quiet mornings,|still near Shibuya",
+  "category": "SHIBUYA, TOKYO",
+  "color": "mint",
+  "clip": "cv_w3_y09.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "w3_y17.jpg"
+    ],
+    [
+     "w3_y11.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Love Shibuya at night, but want a quiet morning?",
+     "Love Shibuya at night, but want a quiet morning?"
+    ],
+    [
+     "Stay on the park side of Shibuya.",
+     "Stay on the park side of Shibuya."
+    ]
+   ]
+  },
+  {
+   "id": "frame",
+   "clips": [
+    [
+     "w3_y21.jpg"
+    ],
+    [
+     "w3_y05.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "The quiet stations nearby look close on the map,",
+     "The quiet stations nearby look close on the map,"
+    ],
+    [
+     "but each one means changing trains every night.",
+     "but each one means changing trains every night."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "w3_y20.jpg"
+    ],
+    [
+     "w3_y16.jpg"
+    ],
+    [
+     "w3_y19.jpg"
+    ],
+    [
+     "w3_y10.jpg"
+    ],
+    [
+     "w3_y13.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "#1 BEST OF BOTH",
+    "title": "Shibuya, park side",
+    "small": "walk home at night, park in the morning"
+   },
+   "clauses": [
+    [
+     "Number one: Shibuya's north side, near Yoyogi Park.",
+     "Number one: Shibuya's north side, near Yoyogi Park."
+    ],
+    [
+     "You walk home from dinner,",
+     "You walk home from dinner,"
+    ],
+    [
+     "with no last train to catch.",
+     "with no last train to catch."
+    ],
+    [
+     "In the morning,",
+     "In the morning,"
+    ],
+    [
+     "the park is a short walk away.",
+     "the park is a short walk away."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "w3_y02.jpg"
+    ],
+    [
+     "w3_y08.jpg"
+    ],
+    [
+     "w3_y14.jpg"
+    ],
+    [
+     "w3_y06.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "#2 EARLY RISERS",
+    "title": "Yoyogi-Hachiman",
+    "small": "the park on your doorstep"
+   },
+   "clauses": [
+    [
+     "Number two: Yoyogi-Hachiman, if you wake up early.",
+     "Number two: Yoyogi-Hachiman, if you wake up early."
+    ],
+    [
+     "Yoyogi Park is open all day and free,",
+     "Yoyogi Park is open all day and free,"
+    ],
+    [
+     "so a walk at dawn is easy.",
+     "so a walk at dawn is easy."
+    ],
+    [
+     "The catch: you change trains every night.",
+     "The catch: you change trains every night."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "w3_y29.jpg"
+    ],
+    [
+     "w3_y07.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Skip Yoyogi-Uehara for this:",
+     "Skip Yoyogi-Uehara for this:"
+    ],
+    [
+     "it's mostly apartments, with very few hotels.",
+     "it's mostly apartments, with very few hotels."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w3_y25.jpg"
+    ],
+    [
+     "w3_y22.jpg"
+    ],
+    [
+     "w3_y23.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Bonus: Japan's largest mosque is five minutes from Yoyogi-Uehara Station, and it's free to visit.",
+     "Bonus: Japan's largest mosque is five minutes from Yoyogi-Uehara Station, and it's free to visit."
+    ],
+    [
+     "DM us YOYOGI and we'll send you the hotel streets on the park side,",
+     "DM us YOYOGI and we'll send you the hotel streets on the park side,"
+    ],
+    [
+     "plus the mosque's address.",
+     "plus the mosque's address."
+    ]
+   ]
+  }
+ ],
+ "caption": "Quiet mornings in Tokyo, still close to Shibuya 🌳\nStay on the park side.\n\n🗺️ Why not the quiet stations nearby?\nThey look close on the map,\nbut each one means changing trains every night.\n\n🥇 Shibuya's north side, near Yoyogi Park\n🚶 Walk home from dinner. No last train to catch.\n🌅 Some hotels here are under 1 km from the park,\nso a morning walk is easy.\n\n🥈 Yoyogi-Hachiman, for early risers\n🌳 Yoyogi Park is open all day and free.\n⚠️ The catch: you change trains at Shimokitazawa\nevery night.\n\n💡 Skip Yoyogi-Uehara for this.\nIt's mostly apartments, with very few hotels.\n\n🕌 Bonus: Japan's largest mosque, Tokyo Camii,\nis 5 minutes from Yoyogi-Uehara Station.\nIt's free to visit.\n📩 DM us YOYOGI and we'll send you the hotel streets\non the park side, plus the mosque's address.\n\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#shibuya #yoyogipark #yoyogihachiman #tokyocamii #tokyostay #tokyotravel #japantravel #japantrip",
+ "promise": "You can have quiet mornings and still be close to Shibuya: stay on the park side.",
+ "readable_v": 1
+}
