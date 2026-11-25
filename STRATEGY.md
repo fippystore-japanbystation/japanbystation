@@ -56,7 +56,7 @@ Levers, in order of expected impact:
 2. FB 70/30 mix — no-link posts that people react to and share; 30% link posts for the site.
 3. Website → followers: every guide carries a "Follow on Facebook / Instagram" block (readers from Google become followers).
 4. Search: SEO audit 6×/day, station clusters + "More around" links, exit-card downloads, December pages, Pinterest practical pins.
-5. Next, with Ling's OK only: helpful replies to comments, and Facebook's own "invite people who reacted to follow the Page".
+5. Community (25 Nov): Facebook's own "invite people who reacted to follow the Page" runs 2×/day (max 25 a run, task "FB follow invites", log in COMMUNITY.md). Ling replies to comments himself — no task replies to comments.
 
 ## 8. Roadmap (project lead's plan)
 1. Now: FB queue = Japan-first posts; hotel-centred posts are being rewritten to the Japan-first angle (27 Nov rewrite, together with the A/B/C style test).
