@@ -15,7 +15,7 @@ def nav(active):
     def a(k,u,n): return f'<a href="{u}">{"<b>"+n+"</b>" if k==active else n}</a>'
     links=a("home","index.html","Home")+"".join(a("city-"+sl,sl+".html",c) for c,sl,n in NAV_CITIES)
     links+=a("guides","guides.html","All guides")+a("about","about.html","About")
-    return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none"><img src="/icons/favicon-96.png" alt="Japan by Station logo" width="34" height="34" class="brand-ic">Japan <i>by</i> Station</a><span class="links">'+links+'</span></nav>'
+    return '<nav class="nav" aria-label="Site"><a class="brand" href="index.html" style="text-decoration:none"><img src="/icons/favicon-96.png?v=2" alt="Japan by Station logo" width="34" height="34" class="brand-ic">Japan <i>by</i> Station</a><span class="links">'+links+'</span></nav>'
 FOOT='''<footer>
   <div class="wrap">
     <p><b>Japan by Station</b> · Where to stay in Japan, worked out from the station.</p>
@@ -37,9 +37,9 @@ def head(title,desc):
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:site_name" content="Japan by Station">
-<link rel="icon" href="/favicon.ico" sizes="48x48">
-<link rel="icon" type="image/png" sizes="192x192" href="/icons/favicon-192.png">
-<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+<link rel="icon" type="image/png" sizes="192x192" href="/icons/favicon-192.png?v=2">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png?v=2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.pexels.com">
