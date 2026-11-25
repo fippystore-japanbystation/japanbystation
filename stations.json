@@ -252,5 +252,14 @@
 "tokyo-ic-card-or-subway-pass": [
 "Tokyo Station",
 "Shinjuku"
+],
+"food-near-shinjuku-station": [
+"Shinjuku"
+],
+"food-near-osaka-umeda-station": [
+"Umeda"
+],
+"food-near-kyoto-station": [
+"Kyoto Station"
 ]
 }
