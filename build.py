@@ -424,7 +424,8 @@ for _f in sorted(os.listdir(os.path.join(SRC,"fbposts"))) if os.path.isdir(os.pa
     if _f.endswith(".json"):
         _p=_json.load(open(os.path.join(SRC,"fbposts",_f)))
         if _p.get("skip") or _p.get("rewrite"): continue  # Ling 24 Nov: retired posts (e.g. hotel/booking) stay on disk but never post
-        _fb.append({"id":_p["id"],"order":_p.get("order",999),"guide":_p["guide"],"text":_p["text"],
+        _fbtxt=re.sub(r'(https://japanbystation\.com/[A-Za-z0-9\-./]*)(?=[\s)\]]|$)', lambda m: m.group(1)+("&" if "?" in m.group(1) else "?")+"utm_source=facebook&utm_medium=social&utm_campaign=fb_post", _p["text"])  # Ling 25 Nov: tell FB visits apart
+        _fb.append({"id":_p["id"],"order":_p.get("order",999),"guide":_p["guide"],"text":_fbtxt,
                     "photo_url":(SITE+"/"+_p["image"]) if _p.get("image") else f"https://images.pexels.com/photos/{_p['photo']}/pexels-photo-{_p['photo']}.jpeg?auto=compress&cs=tinysrgb&w=1600"})
 _fb.sort(key=lambda x:(x["order"],x["id"]))
 open(f"{OUT}/fb-queue.json","w").write(_json.dumps({"items":_fb},ensure_ascii=False,indent=1))

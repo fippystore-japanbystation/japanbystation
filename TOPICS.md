@@ -1,7 +1,7 @@
 # Topics (work top to bottom; NEVER repeat anything in DONE)
 
 ## NEW REGIONS (Ling, 23 Nov) — every run: 1 line from the WORK ORDER + 2 lines from here
-SEASON lines (X01…, Ling 25 Nov: "now we work for December"): timely December pages, FIRST priority, exact 2026 dates from the official sites, ticket links where sold. FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / different dishes worth trying, mostly not mainstream with one or two classics, linking out to sources (PLAYBOOK 2 FOOD BLOG). They sit inside both lists; take them in order like any other line. Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
+STATION lines (H01…, Ling 25 Nov: station/exit pages get the most visits from social; right after December): station hubs with an exit card. SEASON lines (X01…, Ling 25 Nov: "now we work for December"): timely December pages, FIRST priority, exact 2026 dates from the official sites, ticket links where sold. FOOD lines (F01…, Ling 24 Nov): lighter FOOD BLOG pages about unique / different dishes worth trying, mostly not mainstream with one or two classics, linking out to sources (PLAYBOOK 2 FOOD BLOG). They sit inside both lists; take them in order like any other line. Ling: the site must not be only Osaka and Tokyo. Cover the big regions too, each city starting with its BASICS (where to stay, airport to city), then local eats and day plans. Take lines top to bottom (they already rotate regions). Same DEEP TEMPLATE and fact rules. Use "city" = Hokkaido / Kyoto / Nara / Fukuoka / Hiroshima / Okinawa / Nagoya / Kanazawa (Hokkaido for Sapporo/Otaru/Niseko pages). Claim and tick lines exactly like the WORK ORDER. Add new lines at the bottom for each region once its basics are done.
 - [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓ · reel ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts queued with images
 - [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓ · reel ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts queued with images
 - [x] R03 · fukuoka-where-to-stay-first-trip · FUKUOKA · page ✓ · reel ✓  (Fukuoka · Hakata vs Tenjin vs Nakasu-Kawabata) — FB posts queued with images
@@ -19,6 +19,10 @@ SEASON lines (X01…, Ling 25 Nov: "now we work for December"): timely December 
 - [ ] X06 · Hokkaido · SEASON · Sapporo in December: White Illumination + Munich Christmas Market in Odori Park, dates, snow tips
 - [ ] X07 · Kyoto · SEASON · Kyoto in December: Arashiyama Hanatouro lantern path, quieter temples after the leaves, year-end bell ringing
 - [ ] X08 · Nagoya · SEASON · Nabana no Sato winter illumination (Mie): day trip from Nagoya or Osaka, tickets, timing
+- [ ] H06 · Kyoto · STATION · Kyoto Station: which exit (Karasuma vs Hachijo), buses, lockers and luggage forwarding, food halls — STATION HUB TEMPLATE + exit card
+- [ ] H07 · Fukuoka · STATION · Hakata Station: which exit (Hakata vs Chikushi), airport subway, food floors — STATION HUB TEMPLATE + exit card
+- [ ] H08 · Hokkaido · STATION · Sapporo Station: which exit, underground walkways to Odori, airport train, lockers — STATION HUB TEMPLATE + exit card
+- [ ] H09 · Nagoya · STATION · Nagoya Station: JR, Meitetsu and Kintetsu, which exit for what, food — STATION HUB TEMPLATE + exit card
 - [ ] D07 · Hokkaido · DEPACHIKA · Daimaru Sapporo food hall: Hokkaido sweets, dairy and seafood counters by Sapporo Station
 - [ ] R13 · Kanazawa · Kanazawa basics: station area, Korinbo or Higashi Chaya? (Omicho Market, Kenrokuen early)
 - [ ] R14 · Nagoya · Nagoya: worth a night between Tokyo and Osaka? (Sakae vs Meieki, local food: miso katsu, hitsumabushi)
@@ -170,6 +174,11 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [ ] X03 · Osaka · SEASON · Osaka winter lights 2026: Osaka Hikari Renaissance (Nakanoshima), Midosuji illumination, Namba Hikari Tabi, Umeda — dates, free or paid, a one-evening route
 - [ ] X04 · Tokyo · SEASON · Tokyo winter illuminations 2026: Marunouchi, Roppongi Keyakizaka, Tokyo Dome City, Yomiuriland Jewellumination, Sumida bamboo lanterns — dates, free or paid, one evening plan
 - [ ] X05 · Tokyo · SEASON · New Year in Japan for visitors: what closes 31 Dec–3 Jan, hatsumode (where it is calm vs packed), fukubukuro lucky bags, New Year food
+- [ ] H01 · Tokyo · STATION · Tokyo Station: which exit for what (Marunouchi vs Yaesu), Shinkansen and Narita Express transfers, lockers, ekiben, where to eat — STATION HUB TEMPLATE + exit card
+- [ ] H02 · Tokyo · STATION · Shinjuku Station: which exit for your hotel or sight (South, East, West, New South), lockers, transfers — STATION HUB TEMPLATE + exit card
+- [ ] H03 · Tokyo · STATION · Shibuya Station: which exit (Hachiko, Scramble Square, Miyamasuzaka), lines, lockers — STATION HUB TEMPLATE + exit card
+- [ ] H04 · Tokyo · STATION · Ueno Station: Skyliner, JR and Metro, which exit for the park, Ameyoko and hotels — STATION HUB TEMPLATE + exit card
+- [ ] H05 · Osaka · STATION · Tennoji Station: JR, Metro and Kintetsu Abenobashi, which exit for Harukas, Shinsekai, the zoo — STATION HUB TEMPLATE + exit card
 - [ ] 66 Yokohama just for dinner  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 67 Kawagoe with parents: which station  (Tokyo · BRIEFS-TOKYO-41-70.md)
 - [ ] 68 Nikko shrines + Lake Chuzenji in one day  (Tokyo · BRIEFS-TOKYO-41-70.md)

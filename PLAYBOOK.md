@@ -275,6 +275,10 @@ EVERY SEO RUN:
 5. Max ONE deploy per run (shared Cloudflare build budget). Log what changed in SEO-LOG.md.
 
 
+## 8b. TRAFFIC SOURCES (25 Nov)
+- Facebook text-post links get ?utm_source=facebook&utm_medium=social&utm_campaign=fb_post automatically (build.py); FB Reel links get campaign=fb_reel (n8n). Instagram's in-app browser hides the referrer, so IG visits show as "direct" in Cloudflare unless the bio link carries UTM: the IG bio link should be https://japanbystation.com/?utm_source=instagram&utm_medium=social&utm_campaign=bio (Ling sets it in the IG app). Read sources in GA4 (Traffic acquisition → Session source/medium); Cloudflare shows pages and countries.
+- 24 Nov evening–25 Nov morning (Cloudflare, 24 h): ~150 visits; Facebook 65, direct 42 (incl. IG), Google 2. Top pages: home 21, asakusa-which-station-from-narita 11, haneda-late-arrival-first-night 10, shibuya-crossing-view 6, minoh-falls 6. Station / arrival problems are what social visitors open → STATION hubs (TOPICS H lines) and exit cards (2d).
+
 ## 9. PERFORMANCE LOOP + COMPETITOR FORMATS (Ling, 24 Nov: "start recording properly; we need many samples")
 - Numbers come from n8n's READ-ONLY endpoint http://localhost:5678/webhook/jbs-stats-r2x (open it with the built-in browser's navigate tool, read the JSON with get_page_text). It returns IG Reels (reach, views, saves, shares, avg watch time), FB posts and FB Reels (when the token allows), followers. NEVER call /webhook/jbs-post-now-7f3k for this: that one posts.
 - Save one snapshot a day as perf/<YYYY-MM-DD>.json; update PERF.md: early signals → patterns (only with ≥ 3 comparable posts per side, ≥ 48 h old, same format). Track per post: hook type (situation / question / number / "before you book"…), topic, city, posting slot, length.
