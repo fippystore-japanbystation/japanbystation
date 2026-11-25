@@ -1,71 +1,91 @@
-"""Japan by Station "Which exit?" cheat sheet: a saveable JPEG for a station page (Ling, 25 Nov).
+"""Japan by Station "Which exit?" cheat sheet v2: a saveable JPEG for a station page (Ling, 25 Nov).
+Design: station-sign look. Big yellow exit badges (like Japanese subway exit signs), each row a white card,
+line names as coloured chips in the line's official colour, one font family with 3 weights only.
 usage: python3 exitcard.py cards/<slug>.json site/exitcards/<slug>.jpg
-JSON: {"station": "Asakusa Station", "city": "Tokyo", "subtitle": "4 stations, 1 name: use the right exit",
-       "rows": [{"to": "Kaminarimon Gate (Senso-ji)", "line": "Ginza Line", "exit": "Exit 1", "note": "~1 min · lift"}, ...],
-       "tips": ["...", "..."], "checked": "25 Nov 2026", "color": "coral"}
+JSON: {"station": "Asakusa Station", "city": "Tokyo", "subtitle": "...",
+       "rows": [{"to": "Kaminarimon Gate", "sub": "Senso-ji", "line": "Ginza Line", "line_color": "#F39700",
+                 "exit": "1", "note": "1 min · lift"}], "tips": ["..."], "checked": "25 Nov 2026"}
 Every row must come from the guide page or an official station map checked this run (PLAYBOOK 2d)."""
 import sys, json, os
 from PIL import Image, ImageDraw, ImageFont
 W, H = 1080, 1440
 FD = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts") + "/"
 def F(s, w="Bold"): return ImageFont.truetype(FD + f"Poppins-{w}.ttf", s)
-INK = (40, 32, 70); CREAM = (255, 250, 243); WHITE = (255, 255, 255); MUTED = (110, 100, 140); LINE = (230, 222, 240)
-COL = {"coral": (255, 125, 94), "mint": (51, 195, 161), "sky": (90, 174, 255), "sun": (255, 194, 61), "lilac": (168, 139, 255), "pink": (255, 141, 182)}
+NAVY = (22, 30, 58); BG = (240, 242, 247); WHITE = (255, 255, 255); INK = (22, 30, 58); MUTED = (96, 104, 128)
+YELLOW = (255, 210, 0); CORAL = (255, 107, 84)
+
+def hexc(h, default=(90, 100, 130)):
+    try: h = h.lstrip("#"); return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+    except Exception: return default
 
 def wrap(d, text, font, maxw):
     words, lines, cur = text.split(), [], ""
     for w in words:
         t = (cur + " " + w).strip()
         if d.textlength(t, font=font) <= maxw: cur = t
-        else: lines.append(cur); cur = w
+        else:
+            if cur: lines.append(cur)
+            cur = w
     if cur: lines.append(cur)
     return lines
 
 def make(spec, out):
-    c = COL.get(spec.get("color", "coral"), COL["coral"])
-    im = Image.new("RGB", (W, H), CREAM); d = ImageDraw.Draw(im)
-    # header band
-    d.rectangle([0, 0, W, 300], fill=INK)
-    d.rounded_rectangle([60, 52, 60 + d.textlength("JAPAN BY STATION", font=F(26)) + 44, 98], 23, fill=c)
-    d.text((82, 57), "JAPAN BY STATION", font=F(26), fill=WHITE)
-    d.text((60, 118), f"{spec['station']}, {spec['city']}", font=F(54), fill=WHITE)
-    d.text((60, 192), "Which exit?", font=F(46, "Medium"), fill=c)
-    if spec.get("subtitle"): d.text((60, 250), spec["subtitle"], font=F(26, "Regular"), fill=(220, 214, 240))
-    # table header
-    y = 340; x1, x2, x3 = 60, 560, 800
-    for x, t in ((x1, "GOING TO"), (x2, "LINE"), (x3, "EXIT")):
-        d.text((x, y), t, font=F(24), fill=MUTED)
-    y += 46
+    im = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(im)
+    # header: navy block, brand pill, big station name, city
+    d.rectangle([0, 0, W, 250], fill=NAVY)
+    pill = "JAPAN BY STATION"; pw = d.textlength(pill, font=F(24)) + 40
+    d.rounded_rectangle([64, 36, 64 + pw, 80], 22, fill=CORAL); d.text((84, 41), pill, font=F(24), fill=WHITE)
+    name = spec["station"]; size = 70
+    while d.textlength(name, font=F(size)) > W - 128 and size > 50: size -= 2
+    d.text((64, 92), name, font=F(size), fill=WHITE)
+    d.text((66, 96 + size + 4), spec["city"].upper(), font=F(28, "Medium"), fill=(170, 180, 210))
+    # yellow strip
+    d.rectangle([0, 250, W, 326], fill=YELLOW)
+    d.text((64, 262), "WHICH EXIT?", font=F(40), fill=NAVY)
+    if spec.get("subtitle"):
+        st = spec["subtitle"]; f = F(24, "Medium")
+        d.text((W - 64 - d.textlength(st, font=f), 274), st, font=f, fill=NAVY)
+    # rows as white cards
+    y = 344; bx = 64; badge = 116; tx = bx + 22 + badge + 28; maxw = W - 64 - 28 - tx
     for r in spec["rows"]:
-        to_lines = wrap(d, r["to"], F(32), x2 - x1 - 24)
-        line_lines = wrap(d, r["line"], F(26, "Medium"), x3 - x2 - 20)
-        rh = max(len(to_lines) * 42, len(line_lines) * 34) + (38 if r.get("note") else 0) + 30
-        d.line([60, y, W - 60, y], fill=LINE, width=3)
-        yy = y + 18
-        for t in to_lines: d.text((x1, yy), t, font=F(32), fill=INK); yy += 42
-        if r.get("note"): d.text((x1, yy + 2), r["note"], font=F(24, "Regular"), fill=MUTED)
-        ly = y + 22
-        for t in line_lines: d.text((x2, ly), t, font=F(26, "Medium"), fill=INK); ly += 34
-        ew = d.textlength(r["exit"], font=F(34)) + 36
-        d.rounded_rectangle([x3, y + 14, x3 + ew, y + 66], 26, fill=c)
-        d.text((x3 + 18, y + 18), r["exit"], font=F(34), fill=WHITE)
-        y += rh
-    d.line([60, y, W - 60, y], fill=LINE, width=3)
-    # tips
-    y += 30
-    for t in spec.get("tips", []):
-        for i, ln in enumerate(wrap(d, t, F(26, "Regular"), W - 160)):
-            if i == 0: d.ellipse([62, y + 12, 76, y + 26], fill=c)
-            d.text((96, y), ln, font=F(26, "Regular"), fill=INK); y += 36
-        y += 10
+        tl = wrap(d, r["to"], F(36), maxw)
+        h = 22 + len(tl) * 46 + (34 if r.get("sub") else 0) + 52 + 12
+        h = max(h, badge + 28)
+        d.rounded_rectangle([bx, y, W - 64, y + h], 22, fill=WHITE)
+        by = y + (h - badge) // 2
+        d.rounded_rectangle([bx + 22, by, bx + 22 + badge, by + badge], 18, fill=YELLOW)
+        cx = bx + 22 + badge / 2
+        d.text((cx, by + 28), "EXIT", font=F(22), fill=NAVY, anchor="mm")
+        num = str(r["exit"]).replace("Exit ", ""); fs = 54 if len(num) <= 2 else 44
+        d.text((cx, by + 80), num, font=F(fs), fill=NAVY, anchor="mm")
+        yy = y + 20
+        for t in tl: d.text((tx, yy), t, font=F(36), fill=INK); yy += 46
+        if r.get("sub"): d.text((tx, yy - 4), r["sub"], font=F(26, "Regular"), fill=MUTED); yy += 34
+        lc = hexc(r.get("line_color", "#5A6482")); lf = F(24, "Medium"); lw = d.textlength(r["line"], font=lf) + 36
+        d.rounded_rectangle([tx, yy + 4, tx + lw, yy + 44], 20, fill=lc)
+        d.text((tx + 18, yy + 8), r["line"], font=lf, fill=WHITE)
+        if r.get("note"): d.text((tx + lw + 18, yy + 8), r["note"], font=F(25, "Regular"), fill=MUTED)
+        y += h + 12
+    # tips box
+    tips = spec.get("tips", [])
+    if tips:
+        lines = [wrap(d, t, F(26, "Regular"), W - 64 * 2 - 110) for t in tips]
+        th = 24 + sum(len(l) * 36 + 10 for l in lines) + 14
+        d.rounded_rectangle([64, y + 2, W - 64, y + 2 + th], 22, fill=(255, 244, 196))
+        d.ellipse([88, y + 26, 124, y + 62], fill=YELLOW); d.text((106, y + 44), "!", font=F(26), fill=NAVY, anchor="mm")
+        yy = y + 24
+        for l in lines:
+            for ln in l: d.text((144, yy), ln, font=F(26, "Regular"), fill=INK); yy += 36
+            yy += 10
+        y += th + 6
     # footer
-    d.rectangle([0, H - 90, W, H], fill=INK)
-    d.text((60, H - 64), "Save this · japanbystation.com", font=F(28), fill=WHITE)
-    ck = f"Checked {spec.get('checked', '')}"
-    d.text((W - 60 - d.textlength(ck, font=F(22, 'Regular')), H - 58), ck, font=F(22, "Regular"), fill=(200, 192, 225))
-    if y > H - 110: print("WARNING: content overflows the card; cut rows or tips", file=sys.stderr)
+    d.rectangle([0, H - 90, W, H], fill=NAVY)
+    d.text((64, H - 64), "Save this  ·  japanbystation.com", font=F(28), fill=WHITE)
+    ck = f"Checked {spec.get('checked', '')}"; f = F(22, "Regular")
+    d.text((W - 64 - d.textlength(ck, font=f), H - 58), ck, font=f, fill=(170, 180, 210))
+    if y > H - 100: print("WARNING: content overflows the card; cut rows or tips", file=sys.stderr)
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
-    im.save(out, "JPEG", quality=90)
+    im.save(out, "JPEG", quality=92)
 
 if __name__ == "__main__":
     make(json.load(open(sys.argv[1])), sys.argv[2])

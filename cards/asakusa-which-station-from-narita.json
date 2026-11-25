@@ -1,43 +1,49 @@
 {
  "station": "Asakusa Station",
  "city": "Tokyo",
- "subtitle": "4 stations share one name. Pick the right exit.",
+ "subtitle": "4 stations · 1 name",
  "rows": [
   {
-   "to": "Kaminarimon Gate (Senso-ji)",
+   "to": "Kaminarimon Gate",
+   "sub": "Senso-ji, Nakamise",
    "line": "Ginza Line",
-   "exit": "Exit 1",
-   "note": "About 1 min · the only Ginza exit with a lift"
+   "line_color": "#F39700",
+   "exit": "1",
+   "note": "About 1 min · lift"
   },
   {
-   "to": "Kaminarimon Gate (Senso-ji)",
+   "to": "Kaminarimon Gate",
    "line": "Toei Asakusa Line",
+   "line_color": "#E85298",
    "exit": "A4",
    "note": "2-3 min · stairs only"
   },
   {
-   "to": "Step-free with suitcases",
+   "to": "Big suitcase? Step-free",
    "line": "Toei Asakusa Line",
+   "line_color": "#E85298",
    "exit": "A2b",
-   "note": "Lift to street · 5-7 min to Kaminarimon"
+   "note": "Lift to street · 5-7 min to the gate"
   },
   {
-   "to": "Nitenmon side, Umamichi-dori",
+   "to": "Nitenmon side",
+   "sub": "Umamichi-dori",
    "line": "Ginza Line",
-   "exit": "Exit 7",
+   "line_color": "#F39700",
+   "exit": "7",
    "note": "About 5 min"
   },
   {
-   "to": "West side, Kokusai-dori",
+   "to": "West side",
+   "sub": "Kokusai-dori",
    "line": "Tsukuba Express",
+   "line_color": "#2350A0",
    "exit": "A1",
-   "note": "About 650 m from the Toei station"
+   "note": "About 650 m from the others"
   }
  ],
  "tips": [
-  "Narita trains run on the Toei Asakusa Line. A hotel 'near Asakusa Station' may mean the Tsukuba Express one, about 9 minutes' walk away.",
-  "No underground link between the Tsukuba Express and the other three."
+  "Narita trains arrive on the Toei Asakusa Line. A hotel near 'Asakusa Station' may mean the Tsukuba Express one."
  ],
- "checked": "25 Nov 2026",
- "color": "coral"
+ "checked": "25 Nov 2026"
 }
