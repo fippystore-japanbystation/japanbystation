@@ -18,8 +18,8 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] F01 · Fukuoka · fukuoka-food-beyond-tonkotsu-ramen · GOMASABA · page ✓  (FOOD format A "eat it differently") — FB posts queued with images
 - [x] X06 · sapporo-in-december-2026 · ODORI · page ✓  (Hokkaido · SEASON: White Illumination 46th + Munich Christmas Market 25th, new Red Brick + Nakajima Park venues) — FB posts queued · reel ✓ (sapporo-in-december-2026)
 - [x] X07 · kyoto-in-december-2026 · JOYA · page ✓  (Kyoto · SEASON: Hanatouro ended 2021 (pref.kyoto.jp), so reframed: daikon-daki, Shimai-Kobo/Tenjin, joya no kane list) — FB posts queued
-- [ ] X08 · Nagoya · SEASON · Nabana no Sato winter illumination (Mie): day trip from Nagoya or Osaka, tickets, timing
-- [ ] H06 · Kyoto · STATION · Kyoto Station: which exit (Karasuma vs Hachijo), buses, lockers and luggage forwarding, food halls — STATION HUB TEMPLATE + exit card
+- [~] 25 Nov 15:43 X08 · Nagoya · SEASON · Nabana no Sato winter illumination (Mie): day trip from Nagoya or Osaka, tickets, timing
+- [~] 25 Nov 15:43 H06 · Kyoto · STATION · Kyoto Station: which exit (Karasuma vs Hachijo), buses, lockers and luggage forwarding, food halls — STATION HUB TEMPLATE + exit card
 - [ ] H07 · Fukuoka · STATION · Hakata Station: which exit (Hakata vs Chikushi), airport subway, food floors — STATION HUB TEMPLATE + exit card
 - [ ] H08 · Hokkaido · STATION · Sapporo Station: which exit, underground walkways to Odori, airport train, lockers — STATION HUB TEMPLATE + exit card
 - [ ] H09 · Nagoya · STATION · Nagoya Station: JR, Meitetsu and Kintetsu, which exit for what, food — STATION HUB TEMPLATE + exit card
@@ -143,7 +143,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 79 · yanaka-ginza-which-direction · YANAKA · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 15 · itami-sky-park-without-a-car · PLANES · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [x] 80 · kiyosumi-shirakawa-what-to-pay-for · KIYOSUMI · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
-- [ ] SEO · Osaka · Minoh Falls to Katsuo-ji temple: walk on, or bus? (autocomplete "minoh falls to katsuoji temple", also "minoh falls from kyoto"; link from minoh-falls-autumn-afternoon)
+- [~] 25 Nov 15:43 SEO · Osaka · Minoh Falls to Katsuo-ji temple: walk on, or bus? (autocomplete "minoh falls to katsuoji temple", also "minoh falls from kyoto"; link from minoh-falls-autumn-afternoon)
 
 ## Finished briefs
 - [x] 01 · namba-5000-yen-private-room · PRIVACY · page ✓ · reel ✓
