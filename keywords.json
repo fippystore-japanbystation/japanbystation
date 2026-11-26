@@ -351,6 +351,14 @@
   "url": "https://japanbystation.com/food-near-osaka-umeda-station",
   "title": "Food Near Osaka Station (Umeda): Breakfast, Lunch, Dinner and a Late Supermarket"
  },
+ "ZANGI": {
+  "url": "https://japanbystation.com/food-near-sapporo-station",
+  "title": "Food Near Sapporo Station: 7 Places From a 6:30 Hokkaido Breakfast to Zangi at 23:00"
+ },
+ "HACHIKO": {
+  "url": "https://japanbystation.com/food-near-shibuya-station",
+  "title": "Food Near Shibuya Station: 8 Places by Exit, From 8am Coffee to Noodles at 6am"
+ },
  "SLURP": {
   "url": "https://japanbystation.com/food-near-shinjuku-station",
   "title": "Food Near Shinjuku Station: Breakfast, Lunch, Dinner and Late Night by Exit"
@@ -362,6 +370,10 @@
  "HACHIJO": {
   "url": "https://japanbystation.com/kyoto-station-coin-lockers",
   "title": "Coin Lockers at Kyoto Station: Prices, Where the Big Ones Are, What to Do When They're Full"
+ },
+ "SAGANO": {
+  "url": "https://japanbystation.com/kyoto-station-to-arashiyama",
+  "title": "Kyoto Station to Arashiyama: 11 Minutes by JR, or the Slower Way That Drops You at Tenryu-ji"
  },
  "NAMBALOCKER": {
   "url": "https://japanbystation.com/namba-station-coin-lockers",
