@@ -342,16 +342,16 @@ def _hub_groups(gs):
             ("away","Day trips","t-sun","Day trips and nights away","Easy escapes from the city, with the train times worked out.",away),
             ("tips","Small questions","t-lilac","Smart answers for specific situations","Budget, groups, late nights, big suitcases and the little decisions that make a trip smoother.",rest)]
 HUBMETA={  # Ling 25 Nov: hub snippets must answer straight away, no "Every Japan by Station guide..."
- "Osaka":("Osaka Travel Guide: Where to Stay, Airport Trains, Food","Where to stay in Osaka (Namba, Umeda, Tennoji or Tenma), which train from Kansai Airport, where locals eat, and easy day trips like Minoh and Nara."),
- "Tokyo":("Tokyo Travel Guide: Where to Stay, Airports, Getting Around","Where to stay in Tokyo on a first trip, Narita or Haneda to your hotel, IC card or subway pass, food halls and quiet neighbourhoods for a half day."),
- "Kyoto":("Kyoto Travel Guide: Where to Stay, Airport, Kyoto Station","Where to stay in Kyoto (station, Gion or Karasuma), Kansai Airport to Kyoto, which Kyoto Station exit, the best time for Fushimi Inari, December events."),
- "Hokkaido":("Sapporo Travel Guide: Where to Stay, Airport Train, Food","Where to stay in Sapporo (station, Odori or Susukino), New Chitose Airport to the city, where locals eat, Otaru, and Sapporo's December lights."),
- "Nara":("Nara Day Trip: Deer, Temples and Trains","Nara from Osaka or Kyoto: day trip or one night, which station to use, and how to see the deer park, Todaiji's Great Buddha and a quiet evening."),
- "Okinawa":("Naha, Okinawa Guide: Where to Stay, Do You Need a Car?","Where to stay in Naha on a first trip to Okinawa (Kokusai-dori, Asahibashi or Omoromachi), how far the Yui Rail monorail gets you, and when you need a car."),
- "Hiroshima":("Hiroshima and Miyajima in One Day: Base, Tram or Train","Hiroshima and Miyajima in one day: where to base yourself, tram or train, and how the tides change your visit to the floating torii."),
+ "Osaka":("Osaka Travel Guide: Where to Stay, Airport Trains, Food","Stay in Namba for food and the 34-min rapi:t to Kansai Airport, or Umeda for trains to Kyoto. Plus Tenma's local izakaya, Minoh and Nara day trips."),
+ "Tokyo":("Tokyo Travel Guide: Where to Stay, Airports, Getting Around","Stay in Shinjuku on a first trip: every line plus the Narita Express. From Haneda, Keikyu or the Monorail reach most hotels in under 45 min for under ¥600."),
+ "Kyoto":("Kyoto Travel Guide: Where to Stay, Airport, Kyoto Station","Stay near Shijo-Karasuma, 3 min from Kyoto Station by subway. From Kansai Airport, the JR Haruka takes 75–80 min, ¥2,700. Plus Fushimi Inari timing."),
+ "Hokkaido":("Sapporo Travel Guide: Where to Stay, Airport Train, Food","Stay in Odori on a first Sapporo trip, 10 min underground from the station. New Chitose Airport: JR Rapid Airport, 33 min, ¥1,230. Plus Otaru and food."),
+ "Nara":("Nara Day Trip: Deer, Temples and Trains","Kintetsu from Osaka-Namba reaches Nara in about 40 min (¥680), a short walk from the deer park. Day trip or one night, temple closing times, deer rules."),
+ "Okinawa":("Naha, Okinawa Guide: Where to Stay, Do You Need a Car?","Stay near Kokusai-dori and skip the car in Naha: the Yui Rail monorail reaches the airport in 13–16 min. Rent a car only for Churaumi and the north."),
+ "Hiroshima":("Hiroshima and Miyajima in One Day: Base, Tram or Train","Yes, both fit in one day: the Peace Museum opens at 7:30, then JR and the ferry reach Miyajima in about 45 min. Walk to the torii below 100 cm of tide."),
  "Nagoya":("Nagoya Day Trips: Nabana no Sato Illumination 2026","Nabana no Sato's 2026–27 winter illumination: open 17 Oct to 31 May, December advance tickets ¥3,000, and the easy day trip from Nagoya or Osaka."),
  "Japan":("Japan Travel Guide: Christmas Food 2026 and Seasonal Tips","Japan-wide tips for any city: Christmas 2026 food (strawberry shortcake, jidori legs, Nagoya wings, shanmeri), konbini cake pick-up 19–25 Dec, where to buy."),
- "Fukuoka":("Fukuoka Travel Guide: Where to Stay, Yatai, Local Food","Where to stay in Fukuoka (Hakata, Tenjin or Nakasu), how the yatai food stalls work, and what to eat beyond tonkotsu ramen."),
+ "Fukuoka":("Fukuoka Travel Guide: Where to Stay, Yatai, Local Food","Stay in Hakata for trains or Tenjin for shopping, 6 min apart by subway; the airport subway reaches Hakata in 5 min. How yatai stalls work, what to eat."),
 }
 for _c in _cities:
     _gs=[g for g in ALLG if g["city"]==_c]; _sl=cslug(_c)
