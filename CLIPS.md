@@ -117,3 +117,20 @@ Pexels: Kawaguchiko Station building + Fuji p_40294746 · buses at Kawaguchiko w
  NOT the Fuji Excursion: p_40294735/36/43/39 (Fujisan View Express / Fujikyu locals at Kawaguchiko) · unsure place: c_38162875 (snowy lakeside), p_37438029 (green street)
 Route-card stills made from video frames: f_31024383.jpg (Shinjuku night view), f_28883548.jpg (Shibuya crossing night).
 Downloads housekeeping: old leftover *.tmp hardlinks moved to Downloads\_old_tmp_links (nothing deleted).
+
+## Wikimedia Commons photos used on guides (27 Nov 2026, website run; hotlinked from upload.wikimedia.org 1280px thumbs, credited under each photo)
+- Tebasaki karaage by kawanet in Kanayama, Nagoya (Sekai no Yamachan) · kawanet · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Tebasaki_karaage_by_kawanet_in_Kanayama,_Nagoya.jpg · page japanese-christmas-chicken-2026
+- Nagoya Cochin - 1 · KKPCW (Kyu3) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Nagoya_Cochin_-_1.jpg · japanese-christmas-chicken-2026
+- JP-Osaka-Umeda-Hankyu-Department-Store · Kanchi1979 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:JP-Osaka-Umeda-Hankyu-Department-Store.jpg · japanese-christmas-chicken-2026, osaka-christmas-food-2026
+- Japanese Christmas Cake 2011 · nubobo · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Japanese_Christmas_Cake_2011.jpg · tokyo-christmas-cake-2026
+- 2019 Takashimaya Nihonbashi 02 · Kakidai · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:2019_Takashimaya_Nihonbashi_02.jpg · tokyo-christmas-cake-2026
+- Ginza Mitsukoshi at night · Kakidai · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Ginza_Mitsukoshi_at_night.jpg · tokyo-christmas-cake-2026
+- 大阪土産 堂島ロール 2014-06-08 (Dojima Roll) · Nori Norisa · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%98%AA%E5%9C%9F%E7%94%A3_%E5%A0%82%E5%B3%B6%E3%83%AD%E3%83%BC%E3%83%AB_2014-06-08.jpg · osaka-christmas-food-2026
+- Sekai no Yamachan tebasaki · Nissy-KITAQ · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Sekai_no_Yamachan_tebasaki.JPG · christmas-in-japan-what-to-eat (backfill)
+- Retro Christmas cake ベタなクリスマスケーキ · naotakem · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Retro_Christmas_cake_%E3%83%99%E3%82%BF%E3%81%AA%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%AD.jpg · christmas-in-japan-what-to-eat (backfill)
+- Shin-Osaka Sta JRW concourse 2021,1 · Rebirth10 · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:Shin-Osaka_Sta_JRW_concourse_2021,1.jpg · shin-osaka-station-food-and-lockers (backfill)
+- Shinkansen N700 leaving Shin-Osaka Station 2020-01-21 · brian25_tw · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Shinkansen_N700_leaving_Shin-Osaka_Station_2020-01-21.jpg · shin-osaka-station-food-and-lockers (backfill)
+- Kagurazaka (49997157523) · Dick Thomas Johnson · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Kagurazaka_(49997157523).jpg · kagurazaka-lunch-main-street-or-lanes (backfill)
+- Kagurazaka street 2 · Kabacchi · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Kagurazaka_street_2.jpg · kagurazaka (backfill)
+- Kagurazaka path 2009-2 · Kamemaru2000 · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Kagurazaka_path_2009-2.JPG · kagurazaka (backfill)
+- Note: the cloud container gets HTTP 429 from upload.wikimedia.org; check/view Commons photos in the built-in browser instead.
