@@ -14,6 +14,12 @@ re-render, check the stills sheet, then `jbs.py add-reel` them (same slug). Tick
 
 
 
+## XMAS KNOW BEFORE YOU GO (Ling, 26 Nov 20:48: "things to know before you go — Osaka / Tokyo Christmas market; useful info straight in the Reel; quality posts that get 1–2K likes") — DO THESE FIRST
+Make them AFTER the market page shows "Updated 26 Nov" or later (website task X09/X10 tonight); if a run comes first, skip to the next section. Format (PLAYBOOK 3, KNOW BEFORE YOU GO):
+- [ ] tokyo-christmas-market-know-before — "Tokyo Christmas market: 5 things to know before you go" (the biggest/most-searched market first, e.g. the Tokyo Christmas Market's ticket / timed entry, the mug deposit, cash or IC, the quietest hour, the station + exit, the one drink/food to get). Keyword GLUHWEIN.
+- [ ] osaka-christmas-market-know-before — "Osaka Christmas market: 5 things to know before you go" (Umeda Sky German market + Tenshiba: free or paid, mug deposit, best time, how to get there, what to eat). Keyword TENSHIBA.
+- [ ] tokyo-christmas-market-know-before-2 — a second angle from the same page, e.g. "Which Tokyo Christmas market is free?" or "3 markets in one evening" (only after the first one has posted).
+
 ## PACE TEST A/B (Ling, 26 Nov 12:30) — DO THESE FIRST (PLAYBOOK 3, PACE TEST A/B)
 Make A and B of the same topic in the same run, queue them so the pair posts about 48 h apart (queue the second one after ~13 other items, or hold it in reel/out and add it 2 days later; note which you did here).
 - [x] kansai-airport-to-kyoto → -pa (A, post first) + -pb (B). 3 ways: JR Haruka · limousine bus · the option on the page (check the page).
