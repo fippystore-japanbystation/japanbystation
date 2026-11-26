@@ -113,6 +113,12 @@ Every route-card set (PLAYBOOK 3 ROUTE CARDS) gets ONE website page that the car
 - Facts only from our guides + the spec's routed distance; no new places without the usual research rules. Voice per PLAYBOOK 1.
 - After it is live: the carousel's FUTURE re-posts and every Pin of that set link here; add the page to the city hub and link it from each source guide ("This stop is on our <City> night walk").
 
+## 2f. CHRISTMAS DEPTH (Ling, 26 Nov 20:45)
+- People search Christmas pages the day they need them: answer fast, then go DEEP. Each Christmas page: quick answer card, then per item (market / cake / KFC pack): dates, hours, price, how to book, what to eat/drink there (named), best time, how to get there (station + exit), one honest tip; a comparison table; FAQ with the exact questions people type ("is KFC Christmas reservation needed", "Tokyo Christmas market entry fee").
+- Sources: the OFFICIAL 2026 page first (organiser, the store, the company). If this year's details aren't published yet, give LAST YEAR's clearly labelled ("2025: …, the 2026 details are expected in <month>") and a line saying when we'll update. Never present last year's dates or prices as this year's.
+- Several versions are good: one broad page (Christmas in Japan) + city pages + single-topic pages (KFC, cakes, markets); link them all to each other and from the city hubs. Each gets its own SEASON Reel angle and FB post.
+- Christmas pages are re-checked every 3 days until 25 Dec by the SEO audit (dates sold out? new info?), with "Updated <date>" at the top.
+
 ## 2b. Facebook text posts (Ling, 23 Nov — test)
 - FACEBOOK = JAPAN FIRST (Ling, 24 Nov, final; see STRATEGY.md 2–4): posts are about what makes Japan fun, special or easier at a station/area, written to be enjoyed on Facebook itself. Hotels are never the topic (we have no real hotel photos; hotel-centred posts look weak); at most one soft line like "we filtered a few good-value hotels near X on the site". Mix per STRATEGY.md 3. Posts marked "rewrite" in site/fbposts are hotel-centred and wait to be rewritten to this angle (build.py drops them from the queue until "rewrite" is removed).
 - STYLE (24 Nov): write every Facebook text post to FB-STYLE.md (style profile learned from high-performing Japan-travel FB posts). - PERFORMANCE (24 Nov): before writing, read PERF.md (what hooks/topics are winning on IG/FB) and COMPETITORS.md (formats that outperform); lean on winners, keep ~20% experiments. See section 9.
