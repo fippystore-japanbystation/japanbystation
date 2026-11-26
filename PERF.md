@@ -74,3 +74,8 @@ Next experiments
 ## Pinterest (from Ling's screenshot, 25 Nov 15:11, account ~2 days old)
 - Total: 75 impressions, 5 engagements, 0 outbound clicks, 0 saves. Top Pin by far: "Tenma, Osaka: where locals actually eat" (75); Hiroshima–Miyajima collage 3; Kyoto first-trip collage 3.
 - Early signal only (new account; Pinterest usually takes weeks to start distributing): the one Pin that got shown is a FOOD + "where locals" + city keyword title. Keep practical, keyword-first titles; watch whether food/"where locals" Pins keep leading once there are 20+ Pins ≥ 7 days old.
+
+
+## PACE TEST (A = current style, B = theluns-style pauses + stacked list + "N ways" cover; started 26 Nov)
+| topic | variant | posted | reach 24h | watch 24h | saves | shares | reach 48h | watch 48h |
+|---|---|---|---|---|---|---|---|---|

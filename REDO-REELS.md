@@ -14,6 +14,12 @@ re-render, check the stills sheet, then `jbs.py add-reel` them (same slug). Tick
 
 
 
+## PACE TEST A/B (Ling, 26 Nov 12:30) — DO THESE FIRST (PLAYBOOK 3, PACE TEST A/B)
+Make A and B of the same topic in the same run, queue them so the pair posts about 48 h apart (queue the second one after ~13 other items, or hold it in reel/out and add it 2 days later; note which you did here).
+- [ ] kansai-airport-to-kyoto → -pa (A, post first) + -pb (B). 3 ways: JR Haruka · limousine bus · the option on the page (check the page).
+- [ ] tokyo-to-kawaguchiko-big-suitcase-bus-or-train → -pb (B, post first) + -pa (A). 2 ways: Fujikyu highway bus from Busta Shinjuku · Fuji Excursion train.
+- [ ] tokyo-airport-which-train → -pa (A, post first) + -pb (B). Haneda options (Keikyu / Monorail) and Narita options as the page gives them.
+
 ## READABLE re-cuts (Ling, 25 Nov 19:27: titles "人家不明白你在说什么") — DO THESE FIRST, before anything else
 Specs are ALREADY rewritten (cover, hook, cards, voice, caption) to PLAYBOOK "READABLE TITLES" + "SHORT LINES". Do not change the text: just fetch the same clips as the original spec, re-render (new voice), check the stills sheet, `jbs.py add-reel <slug>`.
 - [x] sapporo-in-december-2026  (re-queued 25 Nov 21:10; cover title now "Sapporo in December:|2 events, 1 park" so the title names the city)

@@ -69,7 +69,10 @@ def voice(spec, wd):
                 for w, y in zip(ws, wt):
                     dd = (cd_ - 0.06) * y / wtot; words.append(dict(w=w, s=round(c, 3), e=round(c + dd, 3))); c += dd
                 clauses.append(dict(text=shown, s=round(c0, 3), e=round(c0 + cd_, 3))); c0 += cd_
-            g = 0.3 if j == len(cl) - 1 else 0.2
+            # PACE (26 Nov, Ling: A/B test of theluns.travel's rhythm): normal speaking speed, but a clear pause after each point.
+            # spec "pace": {"sentence_gap": s, "scene_gap": s}; a scene may set "pause_after". Defaults = version A (0.2 / 0.3).
+            pc = spec.get("pace", {})
+            g = sc.get("pause_after", pc.get("scene_gap", 0.3)) if j == len(cl) - 1 else pc.get("sentence_gap", 0.2)
             ch += [a, np.zeros(int(g * sr), np.float32)]; t += d + g; i = j + 1
         scenes.append(dict(id=sc["id"], start=round(s0, 3), end=round(t, 3)))
     sf.write(wd + "voice_raw.wav", np.concatenate(ch), sr)
@@ -179,6 +182,29 @@ def render(spec, tj, wd, stills=False):
         ctext(d, y0 + 84, c["title"], ft, al(INK, a)); yy = y0 + 134
         if big: ctext(d, yy, big, F(72), al(deep(color), a)); yy += 106
         if small: ctext(d, yy + 4, small, F(28, "Medium"), al((124, 115, 152), a))
+    # STACK (26 Nov, version B): numbered option pills that build up and stay on screen (1, 2, 3 …), so the viewer
+    # sees the whole list and can screenshot/save it. Each card scene adds one pill: number + title + small line.
+    CARDS = [k for k in order[1:] if S[k].get("card")]
+    def stack(d, cur, lt):
+        upto = CARDS.index(cur) if cur in CARDS else (len(CARDS) - 1 if order.index(cur) > order.index(CARDS[-1]) else
+               max([i for i, k in enumerate(CARDS) if order.index(k) < order.index(cur)], default=-1))
+        for i in range(upto + 1):
+            c = S[CARDS[i]]["card"]; new = (CARDS[i] == cur)
+            sc_ = back(lt / .45) if new else 1.0; a = ease(lt / .25) if new else 1.0
+            if a <= 0: continue
+            pw, ph = 900, 104; x0 = W/2 - pw/2 + (1 - sc_) * 60; y0 = 300 + i * 120
+            rr(d, (x0 + 5, y0 + 8, x0 + pw + 5, y0 + ph + 8), 30, al((40, 30, 70), .18 * a))
+            rr(d, (x0, y0, x0 + pw, y0 + ph), 30, al(CREAM, .97 * a))
+            cx, cy = x0 + 56, y0 + ph/2; d.ellipse((cx - 32, cy - 32, cx + 32, cy + 32), fill=al(COL["coral"], a))
+            fn = F(36); n = str(i + 1); d.text((cx - fn.getlength(n)/2, cy - 25), n, font=fn, fill=al(WHITE, a))
+            ft = F(38); tt = c["title"]
+            while ft.getlength(tt) > pw - 140: ft = F(ft.size - 2)
+            sm = c.get("small") or c.get("big") or ""
+            d.text((x0 + 110, y0 + (14 if sm else 30)), tt, font=ft, fill=al(INK, a))
+            if sm:
+                fs = F(26, "Medium")
+                while fs.getlength(sm) > pw - 140: fs = F(fs.size - 1)
+                d.text((x0 + 112, y0 + 62), sm, font=fs, fill=al((124, 115, 152), a))
     def caption(d, t):
         for c in tj["clauses"]:
             if c["s"] - 0.05 <= t < c["e"] + 0.12:
@@ -225,7 +251,8 @@ def render(spec, tj, wd, stills=False):
             rr(d, (x0, y, x0 + w, y + 76), 38, al(CREAM, .93 * a))
             rr(d, (x0 + 8, y + 8, x0 + 8 + w1, y + 68), 30, al(COL["coral"], a)); d.text((x0 + 28, y + 12), t1, font=f1, fill=al(INK, a))
             d.text((x0 + 8 + w1 + 14, y + 20), t2, font=f2, fill=al(INK, a))
-        elif S[s].get("card"): card(d, lt, S[s]["card"])
+        elif S[s].get("card") and not spec.get("stack"): card(d, lt, S[s]["card"])
+        if spec.get("stack") and s != order[0]: stack(d, s, lt)
         if s != order[0] and lt < 0.12: d.rectangle((0, 0, W, H), fill=(255, 255, 255, int(70 * (1 - lt / 0.12))))   # quick flash on every new part
         caption(d, t)
         fade = min(1, (END - t) / .35)   # Ling 24 Nov: no fade-in, so the first frame (FB thumbnail) is never black
