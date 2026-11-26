@@ -1,0 +1,175 @@
+{
+ "slug": "tokyo-night-walks",
+ "format": "routes",
+ "post_as": "carousel",
+ "city": "Tokyo",
+ "keyword": "TOKYO",
+ "music": "m_tokyostroll.mp3",
+ "clipdir": "air/",
+ "outdir": "out/",
+ "hook_type": "ROUTE SET (N walks, save)",
+ "promise": "Four free-to-start evening walks in Tokyo's big areas, each with its stops in order, so you can pick one tonight.",
+ "cover": {
+  "media": "w7_46.jpg",
+  "lines": [
+   "TOKYO AFTER DARK",
+   "4 NIGHT WALKS"
+  ],
+  "small": "SAVE THESE ROUTES"
+ },
+ "routes": [
+  {
+   "name": [
+    "ASAKUSA",
+    "LIT UP"
+   ],
+   "sub": "Gates, pagoda, quiet lanes",
+   "color": "coral",
+   "start": "Asakusa Stn",
+   "end": "Pagoda",
+   "stops": [
+    {
+     "name": "Tourist centre terrace",
+     "note": "Free 8th-floor view down Nakamise",
+     "media": "p_19592986.jpg",
+     "ll": [
+      35.7106,
+      139.7965
+     ]
+    },
+    {
+     "name": "Kaminarimon",
+     "note": "The big gate, lit after sunset",
+     "media": "p_25526694.jpg",
+     "q": "Kaminarimon, Asakusa, Tokyo"
+    },
+    {
+     "name": "Hozomon",
+     "note": "Walk Nakamise's painted shutters here",
+     "media": "p_8508506.jpg",
+     "q": "Hozomon, Sensoji, Tokyo"
+    },
+    {
+     "name": "Five-storied pagoda",
+     "note": "Glows after dark, crowds gone",
+     "media": "p_38738804.jpg",
+     "ll": [
+      35.7143,
+      139.796
+     ]
+    }
+   ],
+   "best": "Photographers, and anyone staying nearby after dinner"
+  },
+  {
+   "name": [
+    "SHINJUKU",
+    "FREE VIEW"
+   ],
+   "sub": "Free city lights, then lanterns",
+   "color": "sky",
+   "start": "TMG Building",
+   "end": "Hanazono",
+   "stops": [
+    {
+     "name": "Free observatory",
+     "note": "City lights 202 m up, free",
+     "media": "f_31024383.jpg",
+     "q": "Tokyo Metropolitan Government Building, Shinjuku"
+    },
+    {
+     "name": "East-side streets",
+     "note": "Wander Shinjuku-sanchome to dinner",
+     "media": "w_57.jpg",
+     "ll": [
+      35.6907,
+      139.7035
+     ]
+    },
+    {
+     "name": "Hanazono Shrine",
+     "note": "From neon to lanterns in a few steps",
+     "media": "w4_44.jpg",
+     "ll": [
+      35.6938,
+      139.7049
+     ]
+    }
+   ],
+   "best": "Sunset and city lights for free, dinner on the east side"
+  },
+  {
+   "name": [
+    "SHIBUYA",
+    "SCRAMBLE"
+   ],
+   "sub": "The crossing from 3 angles",
+   "color": "sun",
+   "start": "Mark City",
+   "end": "MAG8",
+   "stops": [
+    {
+     "name": "Mark City passage",
+     "note": "Free crossing view by a 30 m mural",
+     "media": "w2_s09.jpg",
+     "q": "Shibuya Mark City, Tokyo"
+    },
+    {
+     "name": "Hachiko Square",
+     "note": "Watch one light change, then cross",
+     "media": "f_28883548.jpg",
+     "q": "Hachiko Statue, Shibuya, Tokyo"
+    },
+    {
+     "name": "MAG8 rooftop",
+     "note": "Straight down on the scramble",
+     "media": "w2_s04.jpg",
+     "ll": [
+      35.6598,
+      139.7007
+     ]
+    }
+   ],
+   "best": "First-timers who want to feel the crowd"
+  },
+  {
+   "name": [
+    "ROPPONGI",
+    "CHRISTMAS"
+   ],
+   "sub": "A free market and a street of lights",
+   "color": "mint",
+   "start": "Roppongi Hills",
+   "end": "Keyakizaka",
+   "stops": [
+    {
+     "name": "Christmas market",
+     "note": "Free entry, Glühwein and pretzels",
+     "media": "w7_14.jpg",
+     "ll": [
+      35.65966,
+      139.73031
+     ]
+    },
+    {
+     "name": "Keyakizaka",
+     "note": "About 400 m of lit trees",
+     "media": "w7_24.jpg",
+     "ll": [
+      35.6585,
+      139.7302
+     ]
+    }
+   ],
+   "best": "Short on time: a free market and lights side by side"
+  }
+ ],
+ "ending": {
+  "lines": [
+   "Comment TOKYO",
+   "for our free Tokyo guides,",
+   "incl. where to eat near each walk"
+  ]
+ },
+ "caption": "Tokyo after dark: 4 night walks 🌙\nSave this for your trip.\n\n🔴 Route 1 · Asakusa lit up\nTerrace view, Kaminarimon, Hozomon, the pagoda.\n\n🔵 Route 2 · Shinjuku free view\nCity lights 202 m up, then Hanazono Shrine.\n\n🟡 Route 3 · Shibuya scramble\nMark City window, Hachiko, the MAG8 rooftop.\n\n🟢 Route 4 · Roppongi Christmas\nA free market, then Keyakizaka's lights.\n\n👫 Send this to the person you're travelling with.\n\n💬 Comment TOKYO for our free Tokyo guides,\nincluding where to eat near each walk.\n\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#tokyo #tokyonight #asakusa #shinjuku #shibuya #roppongi #japantravel #japantrip"
+}

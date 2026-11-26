@@ -1,0 +1,222 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "keyword": "EXCURSION",
+ "pace_test": "tokyo-to-kawaguchiko-big-suitcase-bus-or-train",
+ "season": false,
+ "readable_v": 1,
+ "slug": "tokyo-to-kawaguchiko-big-suitcase-bus-or-train-pa",
+ "music": "m_tokyostroll.mp3",
+ "variant": "A",
+ "emph": [
+  "half",
+  "free",
+  "Excursion",
+  "unreserved",
+  "EXCURSION"
+ ],
+ "promise": "From Tokyo to Kawaguchiko with a big suitcase, take the highway bus: it costs less than half the train and your case rides free; book the Fuji Excursion only when the arrival time matters.",
+ "hook_candidates": [
+  {
+   "hook": "Tokyo to Kawaguchiko: the bus costs less than half",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "Tokyo to Kawaguchiko: bus or train?",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 3
+  },
+  {
+   "hook": "Big suitcase to Mount Fuji?",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 0,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 3
+  },
+  {
+   "hook": "The Fuji train only runs in the morning",
+   "checks": {
+    "related": 0,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 4
+  },
+  {
+   "hook": "Sold-out Fuji train? Buy this ticket",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 0,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 3
+  }
+ ],
+ "hook_type": "MONEY / CONTRAST (bus vs train price)",
+ "opening_type": "the answer itself (contrast)",
+ "hook": {
+  "tag": "TOKYO TO KAWAGUCHIKO",
+  "lines": [
+   "The bus costs",
+   "less than half"
+  ]
+ },
+ "cover": {
+  "title": "Tokyo to Kawaguchiko:|bus for less than half",
+  "category": "LAKE KAWAGUCHI, MT FUJI",
+  "color": "sky",
+  "clip": "cv_p_19853984.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "p_19853984.jpg"
+    ],
+    [
+     "kk_12.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Tokyo to Kawaguchiko with a big suitcase?",
+     "Tokyo to Kawaguchiko with a big suitcase?"
+    ],
+    [
+     "The bus costs less than half the train.",
+     "The bus costs less than half the train."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "kk_08.jpg"
+    ],
+    [
+     "kk_00.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#1 ONE CASE EACH",
+    "title": "Highway bus",
+    "small": "¥2,000 · case rides free in the hold"
+   },
+   "clauses": [
+    [
+     "It's two thousand yen online,",
+     "It's ¥2,000 online,"
+    ],
+    [
+     "and your case rides free in the hold.",
+     "and your case rides free in the hold."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "kk_11.jpg"
+    ],
+    [
+     "kk_10.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "#2 FIXED ARRIVAL",
+    "title": "Fuji Excursion",
+    "small": "direct train, no road traffic"
+   },
+   "clauses": [
+    [
+     "Arriving at a fixed time?",
+     "Arriving at a fixed time?"
+    ],
+    [
+     "The Fuji Excursion train is direct, with no traffic.",
+     "The Fuji Excursion train is direct, with no traffic."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "kk_09.jpg"
+    ],
+    [
+     "p_40294746.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "GOOD TO KNOW",
+    "title": "Seats sold out?",
+    "small": "buy an unreserved-seat ticket"
+   },
+   "clauses": [
+    [
+     "Seats sold out?",
+     "Seats sold out?"
+    ],
+    [
+     "Fujikyu also sells unreserved tickets for that train.",
+     "Fujikyu also sells unreserved tickets for that train."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "p_33390917.jpg"
+    ],
+    [
+     "c_35468442.mp4",
+     3.0
+    ],
+    [
+     "p_36286411.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Comment EXCURSION for our free guide to Kawaguchiko,",
+     "Comment EXCURSION for our free guide to Kawaguchiko,"
+    ],
+    [
+     "including the last train connection at night.",
+     "including the last train connection at night."
+    ]
+   ]
+  }
+ ],
+ "caption": "Tokyo to Kawaguchiko: the bus costs less than half 🗻\nWith a big suitcase, start at Busta Shinjuku.\n\n🥇 Highway bus · one case each\n\n🎫 ¥2,000 booked online.\n\n🧳 One big case each rides free in the hold.\n\n⏱️ About 1 h 45, depending on traffic.\n\n🥈 Fuji Excursion · fixed arrival time\n\n🚆 Direct from Shinjuku, no road traffic.\n\n🎫 ¥4,200, and weekend seats often sell out.\n\n💡 Seats gone? Fujikyu also sells\nan unreserved-seat ticket for it.\n\n💬 Comment EXCURSION for our free guide\nto Kawaguchiko, including the last\ntrain connection at night.\n\n🗻 Send this to whoever you're going to Fuji with.\n\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#kawaguchiko #mtfuji #fujiexcursion #bustashinjuku #japantrains #japantravel #japantrip"
+}

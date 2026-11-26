@@ -1,0 +1,167 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "keyword": "EXCURSION",
+ "pace_test": "tokyo-to-kawaguchiko-big-suitcase-bus-or-train",
+ "season": false,
+ "readable_v": 1,
+ "slug": "tokyo-to-kawaguchiko-big-suitcase-bus-or-train-pb",
+ "music": "m_kyotoriver.mp3",
+ "variant": "B",
+ "pace": {
+  "sentence_gap": 0.35,
+  "scene_gap": 1.2
+ },
+ "stack": true,
+ "emph": [
+  "two",
+  "bus",
+  "free",
+  "Excursion",
+  "EXCURSION"
+ ],
+ "promise": "There are two good ways from Tokyo to Kawaguchiko with a big suitcase: the highway bus and the Fuji Excursion train; here they are side by side.",
+ "hook_candidates": [
+  {
+   "hook": "Tokyo to Kawaguchiko: 2 ways",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  }
+ ],
+ "hook_type": "N WAYS LIST (PACE TEST B cover)",
+ "opening_type": "the answer itself (a list)",
+ "hook": {
+  "tag": "TOKYO TO KAWAGUCHIKO",
+  "lines": [
+   "2 ways"
+  ]
+ },
+ "cover": {
+  "title": "Tokyo to Kawaguchiko|2 ways",
+  "category": "LAKE KAWAGUCHI, MT FUJI",
+  "color": "mint",
+  "clip": "cv_kk_11c.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "p_40294746.jpg"
+    ],
+    [
+     "kk_12.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Tokyo to Kawaguchiko, by Mount Fuji: two ways.",
+     "Tokyo to Kawaguchiko, by Mount Fuji: two ways."
+    ]
+   ]
+  },
+  {
+   "id": "o1",
+   "clips": [
+    [
+     "kk_00.jpg"
+    ],
+    [
+     "kk_08.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "1",
+    "title": "Highway bus",
+    "small": "about 1 h 45 · ¥2,000 · case in the hold"
+   },
+   "clauses": [
+    [
+     "One: the highway bus. Your big case rides free underneath.",
+     "One: the highway bus. Your big case rides free underneath."
+    ]
+   ]
+  },
+  {
+   "id": "o2",
+   "clips": [
+    [
+     "kk_10.jpg"
+    ],
+    [
+     "kk_09.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "2",
+    "title": "Fuji Excursion train",
+    "small": "about 2 h · ¥4,200 · no traffic"
+   },
+   "clauses": [
+    [
+     "Two: the Fuji Excursion train, direct, but it leaves Tokyo only in the morning.",
+     "Two: the Fuji Excursion train, direct, but it leaves Tokyo only in the morning."
+    ]
+   ]
+  },
+  {
+   "id": "pick",
+   "clips": [
+    [
+     "kk_03.jpg"
+    ],
+    [
+     "kk_11.jpg"
+    ],
+    [
+     "p_33390917.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "One case each? Take the bus.",
+     "One case each? Take the bus."
+    ],
+    [
+     "A fixed arrival time? Book the train.",
+     "A fixed arrival time? Book the train."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "p_36286411.jpg"
+    ],
+    [
+     "c_35468442.mp4",
+     1.0
+    ],
+    [
+     "p_31356866.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Comment EXCURSION for our free guide to Kawaguchiko,",
+     "Comment EXCURSION for our free guide to Kawaguchiko,"
+    ],
+    [
+     "including the last train connection at night.",
+     "including the last train connection at night."
+    ]
+   ]
+  }
+ ],
+ "caption": "Tokyo to Kawaguchiko: 2 ways 🗻\nSave this before your Fuji day.\n\n1️⃣ Highway bus from Busta Shinjuku\n\n⏱️ About 1 h 45, depending on traffic.\n\n🎫 ¥2,000 booked online.\n\n🧳 One big case each rides free in the hold.\n\n2️⃣ Fuji Excursion train\n\n⏱️ About 2 hours, direct, no traffic.\n\n🎫 ¥4,200; seats go on sale a month ahead.\n\n🌅 Direct trains leave Tokyo only in the morning.\n\n✅ One case each? Take the bus.\n\n✅ Fixed arrival time? Book the train.\n\n💬 Comment EXCURSION for our free guide\nto Kawaguchiko, including the last\ntrain connection at night.\n\n🗻 Send this to whoever you're going to Fuji with.\n\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#kawaguchiko #mtfuji #fujiexcursion #bustashinjuku #japantrains #japantravel #japantrip"
+}
