@@ -410,6 +410,8 @@ def _page_imgs(body):
             pid=pm.group(1); u=f"https://images.pexels.com/photos/{pid}/pexels-photo-{pid}.jpeg?auto=compress&cs=tinysrgb&w=1200"; w,h=1200,_imgh(pid)
         elif "exitcards/" in src:
             u=SITE+"/exitcards/"+src.split("exitcards/")[1]; w,h=1080,1440
+        elif "carousels/" in src:   # 26 Nov: route-card maps on WALK pages
+            u=SITE+"/carousels/"+src.split("carousels/")[1]; w,h=1080,1350
         else: continue
         if u in seen: continue
         seen.add(u); out.append((u,w,h,caps.get(src) or alt))
