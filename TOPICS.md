@@ -173,6 +173,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] 15 · itami-sky-park-without-a-car · PLANES · page ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [x] 80 · kiyosumi-shirakawa-what-to-pay-for · KIYOSUMI · page ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] SEO · minoh-falls-to-katsuoji-walk-or-bus · DARUMA · page ✓  (Osaka · Minoh Falls to Katsuo-ji: no bus since Mar 2025 → bus 30 up from Minoh-Kayano, walk down; linked both ways with minoh-falls-autumn-afternoon) — FB posts queued with images
+- [ ] SEO · Tokyo · Tokyo Character Street at Tokyo Station: which exit/gate (verify on the official site; believed Yaesu side, Tokyo Station First Avenue B1), hours, which shops, how long to allow before a Shinkansen · searches: "tokyo station character street", "tokyo character street hours" (Google autocomplete 26 Nov, #7 for "tokyo station "; no page; G03/H01 don't cover it)
 
 ## Finished briefs
 - [x] 01 · namba-5000-yen-private-room · PRIVACY · page ✓ · reel ✓

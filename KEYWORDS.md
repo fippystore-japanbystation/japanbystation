@@ -34,3 +34,6 @@ Relative interest: osaka station ≈ 50 (falling from 100 to ~30 over the year) 
 ## Autocomplete 26 Nov (SEO audit 26 Nov run 1)
 - shinjuku station map / tokyo / sushi / to kawaguchiko station / restaurant / hotels · autocomplete · high · food-near-shinjuku-station (restaurant, sushi), tokyo-to-kawaguchiko-big-suitcase-bus-or-train (to kawaguchiko), shinjuku-which-station + shinjuku-five-minutes-with-a-suitcase (hotels) · keep; H02 Shinjuku hub queued
 - kyoto station map / to osaka station / hotels / luggage storage / shinkansen / to tokyo station / to arashiyama (bamboo forest) / shops / to nara · autocomplete · high · food-near-kyoto-station, kyoto-where-to-stay-first-trip; luggage = G17 queued; to arashiyama → TOPICS SEO line added
+
+## Autocomplete 26 Nov (SEO audit 26 Nov run 3)
+- tokyo station hotel / map / to narita airport / to haneda airport / shinkansen / to kyoto station / character street / to shinjuku station / restaurants / luggage storage · autocomplete · high · tokyo-airport-which-train (Narita/Haneda), G03 food + G04 luggage + H01 hub queued; character street → TOPICS SEO line added

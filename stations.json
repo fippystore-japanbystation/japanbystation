@@ -28,7 +28,8 @@
 ],
 "last-night-shinjuku-or-nippori": [
 "Shinjuku",
-"Narita Airport"
+"Narita Airport",
+"Nippori"
 ],
 "shibuya-crossing-view": [
 "Shibuya"
@@ -41,7 +42,8 @@
 ],
 "narita-three-nights-then-shinkansen": [
 "Narita Airport",
-"Tokyo Station"
+"Tokyo Station",
+"Ueno"
 ],
 "tokyo-airport-which-train": [
 "Narita Airport",
@@ -270,5 +272,14 @@
 ],
 "food-near-namba-station": [
 "Namba"
+],
+"naha-where-to-stay-do-you-need-a-car": [
+"Naha"
+],
+"yanaka-ginza-which-direction": [
+"Nippori"
+],
+"tokyo-double-or-twin-two-suitcases": [
+"Ueno"
 ]
 }

@@ -1,8 +1,28 @@
 # SEO / GEO log
 Newest first. One block per run: queries seen, pages changed, new guides, indexing status, GEO checks.
 
-AUDIT CURSOR: 2026-11-26 run 2 → audited hiroshima-miyajima-one-day … lake-kawaguchi-half-day-cycling (10). NEXT alphabetical: lake-kawaguchi-station-or-lake-view, last-night-shinjuku-or-nippori (done run 1, skip), minoh-falls-autumn-afternoon, monzen-nakacho-market-day, naha-*, nakazakicho-vs-umeda-hotel, namba, namba-or-tennoji-30000-yen, namba-station-which-namba, new-chitose-airport-to-sapporo, nifrel-two-hours, then the food-near-* pages (not audited yet). Titles >60 still: kyoto-where-to-stay-first-trip (65), tokyo-disney (65), osaka-hotels-by-budget (63), shinjuku-which-station (63), nakazakicho-vs-umeda-hotel (61). ~22 guides still WITHOUT keyfacts. Kagurazaka + Yanaka still not in a stations.json cluster.
+AUDIT CURSOR: 2026-11-26 run 3 → audited lake-kawaguchi-station-or-lake-view … nifrel-two-hours + minoh-falls-to-katsuoji + namba.html (11). NEXT: the food-near-* pages (kyoto, namba, osaka-umeda, shinjuku; not audited yet), then osaka-* guides alphabetical (osaka-christmas-markets-2026, osaka-hotels-by-budget, osaka-live-like-a-local, osaka-local-markets, osaka-night-owls, osaka-station-vs-umeda), otaru-*, sakai-*, sapporo-*. Titles >60 still: kyoto-where-to-stay-first-trip (65), tokyo-disney (65), osaka-hotels-by-budget (63), shinjuku-which-station (63). ~16 guides still WITHOUT keyfacts. Kagurazaka still not in a stations.json cluster (no fitting station).
 
+
+## 2026-11-26 (scheduled SEO AUDIT run 3, 01:28 UTC = 09:28 MYT; DEEP mode)
+- Search Console 28 d: unchanged, data still ends 23 Nov (11 impressions, 0 clicks, avg pos 15.3, only query "station" "osaka" 5). No brand-query rows yet.
+- BRAND in Google (gl=us, no quotes): "japan by station" → #1 home, NOW with the NEW title "Japan by Station: Checked Japan Travel Guides That Save Time" (recrawl done) + AI Overview mentions Japan by Station. "japanbystation" → "Did you mean: japan station", we hold #1 home (new title + new description), #2 /about (snippet still the OLD description "organised by train station"; current one is fine → wait), IG #3, /guides #4 (old "Every Japan by Station guide…" snippet), /disclosure, /privacy (old tagline snippet). Favicon: STILL grey globe; site name still "japanbystation.com".
+- PAGES AUDITED + FIXED (all: 1 H1, ≤60 title, 3–4 FAQ with direct first sentence, ≥3 guide links, 0 broken links, imgs with alt + dims):
+  - lake-kawaguchi-station-or-lake-view: desc "One night at Lake Kawaguchi for an early Fuji view: station hotel, north shore or lakeside ryokan, with…" → "No car? Book a lakeside ryokan with dinner and a Fuji-view room (¥57,200 for two), or sleep by Kawaguchiko Station (¥13,200) and take the 05:49 train."; keyfacts x4; FAQ 4 expanded; +3 Fuji-cluster links (cloudy forecast, bus-or-train with a suitcase, Fuji-view rooms); VOICE hero line.
+  - minoh-falls-autumn-afternoon (has GSC impressions; title untouched): FAQ 1 expanded 24 → 47 words.
+  - monzen-nakacho-market-day: desc question list → "Skip market day for a quiet visit: come Tuesday to Friday, not the 1st, 15th or 28th, see the 9:00 goma…"; keyfacts x4; FAQ 3 expanded; VOICE hero line, lede, Answer A intro.
+  - naha-where-to-stay-do-you-need-a-car: desc answer-first (also fixed "fares from ¥290" which contradicted the page's ¥250 minimum); keyfacts x4; added to stations.json (Naha).
+  - nakazakicho-vs-umeda-hotel: seo_title 61 → "Nakazakicho vs Umeda: Walk 12 Minutes, Save ¥3,000 a Night?" (59; not ranking); desc 160 → 154 answer-first.
+  - namba-or-tennoji-30000-yen: desc "Same three weeknights…" → "Namba wins by ¥217: …"; keyfacts x4.
+  - namba-station-which-namba: desc 159 → answer-first 150; FAQ 3 expanded (Exit 25 alternative).
+  - new-chitose-airport-to-sapporo: desc "Take the JR Rapid Airport: 33–43 min … ¥1,230 …"; keyfacts x4.
+  - nifrel-two-hours: desc 160 → answer-first 155; keyfacts x4; VOICE Answer A intro.
+  - minoh-falls-to-katsuoji-walk-or-bus: seo_title added (was 64 incl. brand) → "Minoh Falls to Katsuo-ji Temple: Walk or Bus?".
+  - namba.html (hand-built, build.py): title "Things to Do Around Namba, Osaka" → "Things to Do Near Namba Station, Osaka: All Walkable"; desc "Everything worth a stop…" → "From Namba Station Exit 14, Dotonbori is 3–5 minutes on foot, Kuromon Market about 8, and the Shinsaibashi-suji arcade starts right at the canal."; +3 contextual links (food-near-namba-station, osaka-local-markets, osaka-night-owls; was 2 guide links); VOICE hero line.
+- stations.json: + naha (Naha), yanaka-ginza (Nippori, now clustered with last-night-shinjuku-or-nippori), tokyo-double-or-twin (Ueno, clustered with narita-three-nights). 
+- SITE-WIDE: pexels-dims.json +6 ids (new coin-locker / food-near-namba photos; 36 <img> had no width/height) → 0 missing; og/twitter image, favicon, 1 H1 on all 103 pages; 0 JSON-LD entities; 0 broken internal links; sitemap 920 image:loc incl. exitcards; robots → sitemap; llms.txt/llms-full.txt build; home/about brand checks ✓. SEO-LINT: 0.
+- TOPICS: + `SEO · Tokyo · Tokyo Character Street at Tokyo Station` (WORK ORDER). KEYWORDS: "tokyo station " autocomplete.
+- NEXT: food-near-* pages; request indexing for namba + nakazakicho + lake-kawaguchi if quota left; voice pass on naha / new-chitose hero lines.
 
 ## 2026-11-26 (scheduled SEO AUDIT run 2, 21:28 UTC 25 Nov = 05:28 MYT; DEEP mode)
 - Data: Search Console read in run 1 (<8 h) → not re-read. 404 check /nope-check → 404 ✓. URL inspection /kansai-airport-to-kyoto "URL is on Google" → REQUEST INDEXING done (desc changed). (Note: the direct /search-console/inspect?…&id= URL returns 404; use the "Inspect any URL" box on the Overview page.)
