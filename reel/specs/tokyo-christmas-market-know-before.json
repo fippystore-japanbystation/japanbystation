@@ -1,0 +1,247 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "tokyo-christmas-market-know-before",
+ "keyword": "GLUHWEIN",
+ "music": "m_petals.mp3",
+ "season": true,
+ "kbyg": true,
+ "pace": {
+  "scene_gap": 0.8
+ },
+ "stack": true,
+ "readable_v": 1,
+ "emph": [
+  "free",
+  "timed",
+  "mug",
+  "Onarimon",
+  "weekday",
+  "GLUHWEIN"
+ ],
+ "promise": "Before you go to the Tokyo Christmas Market at Shiba Park (4–25 Dec), know these 5 things: it charges entry, tickets are timed, the red mug comes only with an advance ticket, the right station is Onarimon, and weekdays beat 24–25 Dec.",
+ "hook_candidates": [
+  {
+   "hook": "Tokyo Christmas Market: 5 things to know",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "Tokyo's big Christmas market isn't free",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 4
+  },
+  {
+   "hook": "Tokyo Christmas Market: don't get off at Shibakoen",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 3
+  },
+  {
+   "hook": "The free red mug at Tokyo's Christmas market",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 0
+   },
+   "score": 3
+  },
+  {
+   "hook": "Tokyo Christmas Market opens 4 Dec",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 3
+  }
+ ],
+ "hook_type": "KNOW BEFORE YOU GO (number + surprise first: it isn't free)",
+ "opening_type": "a number / the list itself",
+ "hook": {
+  "tag": "SHIBA PARK, TOKYO · 4–25 DEC",
+  "lines": [
+   "Tokyo Christmas",
+   "Market: 5 things",
+   "to know"
+  ]
+ },
+ "cover": {
+  "title": "Tokyo Christmas Market:|5 things to know",
+  "category": "SHIBA PARK, TOKYO",
+  "color": "coral",
+  "clip": "cv_fx_05c.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "fx_05c.jpg"
+    ],
+    [
+     "fx_02.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "The Tokyo Christmas Market: five things to know before you go.",
+     "The Tokyo Christmas Market: five things to know before you go."
+    ]
+   ]
+  },
+  {
+   "id": "k1",
+   "clips": [
+    [
+     "fx_04.jpg"
+    ],
+    [
+     "fx_01.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "1",
+    "title": "It isn't free",
+    "small": "¥1,000 weekdays · ¥1,500 weekends"
+   },
+   "clauses": [
+    [
+     "One: it isn't free. Entry is a thousand yen on weekdays, and fifteen hundred at weekends.",
+     "One: it isn't free. Entry is a thousand yen on weekdays, and fifteen hundred at weekends."
+    ]
+   ]
+  },
+  {
+   "id": "k2",
+   "clips": [
+    [
+     "fx_06.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "2",
+    "title": "Timed tickets",
+    "small": "30-minute slots · book weekends ahead"
+   },
+   "clauses": [
+    [
+     "Two: tickets are timed, so book your weekend slot ahead.",
+     "Two: tickets are timed, so book your weekend slot ahead."
+    ]
+   ]
+  },
+  {
+   "id": "k3",
+   "clips": [
+    [
+     "fx_00.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "3",
+    "title": "The red mug",
+    "small": "free with an advance adult ticket"
+   },
+   "clauses": [
+    [
+     "Three: the red mug comes free with an advance adult ticket.",
+     "Three: the red mug comes free with an advance adult ticket."
+    ]
+   ]
+  },
+  {
+   "id": "k4",
+   "clips": [
+    [
+     "fx_03.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "4",
+    "title": "Onarimon Station",
+    "small": "Exit A6, 1 min · not Shibakoen"
+   },
+   "clauses": [
+    [
+     "Four: get off at Onarimon, not Shibakoen.",
+     "Four: get off at Onarimon, not Shibakoen."
+    ]
+   ]
+  },
+  {
+   "id": "k5",
+   "clips": [
+    [
+     "fx_07.jpg"
+    ],
+    [
+     "w7_46.jpg"
+    ]
+   ],
+   "card": {
+    "color": "pink",
+    "kicker": "5",
+    "title": "Go on a weekday",
+    "small": "24–25 Dec: ¥2,000 and busiest"
+   },
+   "clauses": [
+    [
+     "Five: go on a weekday afternoon. The twenty-fourth and twenty-fifth cost two thousand yen, and they're the busiest.",
+     "Five: go on a weekday afternoon. The twenty-fourth and twenty-fifth cost two thousand yen, and they're the busiest."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "w7_14.jpg"
+    ],
+    [
+     "w7_23.jpg"
+    ],
+    [
+     "w7_18.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Comment GLUHWEIN for our free guide to Tokyo's Christmas markets,",
+     "Comment GLUHWEIN for our free guide to Tokyo's Christmas markets,"
+    ],
+    [
+     "including seven free ones and a three-market evening route.",
+     "including seven free ones and a three-market evening route."
+    ]
+   ]
+  }
+ ],
+ "caption": "Tokyo Christmas Market: 5 things to know 🎄\nShiba Park, under Tokyo Tower, 4–25 Dec 2026.\nSave this before you go.\n\n1️⃣ It isn't free\n🎟️ ¥1,000 on weekdays, ¥1,500 at weekends.\n\n2️⃣ Tickets are timed\n⏱️ 30-minute slots on KKday or at FamilyMart.\n📅 Same-day entry can be limited: book weekends ahead.\n\n3️⃣ The red mug\n☕ It comes free with an advance adult ticket.\n🔁 Refills cost only the drink.\n\n4️⃣ Get off at Onarimon\n🚇 Exit A6, about 1 minute.\n⚠️ Not Shibakoen Station.\n\n5️⃣ Go on a weekday afternoon\n🌤️ The quietest time.\n💴 24–25 Dec cost ¥2,000 and are the busiest.\n\n💬 Comment GLUHWEIN for our free guide\nto Tokyo's Christmas markets, including\nseven free ones and a three-market evening route.\n\n👫 Send this to your December travel buddy.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#tokyochristmasmarket #tokyochristmas #christmasmarket #tokyotower #tokyotravel #japanwinter #japantravel #japantrip\n\n📷 Photos: Flickr / Wikimedia Commons contributors, credits at japanbystation.com/tokyo-christmas-markets-2026"
+}

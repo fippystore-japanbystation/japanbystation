@@ -1,0 +1,244 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "osaka-christmas-market-know-before",
+ "keyword": "TENSHIBA",
+ "music": "m_kyotoriver.mp3",
+ "season": true,
+ "kbyg": true,
+ "pace": {
+  "scene_gap": 0.8
+ },
+ "stack": true,
+ "readable_v": 1,
+ "emph": [
+  "free",
+  "Trial",
+  "¥900",
+  "Premium",
+  "25",
+  "TENSHIBA"
+ ],
+ "promise": "Before you go to Osaka's Umeda Sky Building Christmas market (13 Nov–25 Dec), know these 5 things: it's free, the Trial Pass is just a Glühwein and a sausage, the mug is ¥900, the Premium Pass adds the observatory, and the 25 m tree has a show every half hour.",
+ "hook_candidates": [
+  {
+   "hook": "Osaka Christmas market: 5 things to know",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "Osaka's 25 m Christmas tree puts on a show",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 0
+   },
+   "score": 3
+  },
+  {
+   "hook": "Osaka's Christmas market pass: skip the Trial Pass?",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 0,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 2
+  },
+  {
+   "hook": "Free Christmas market in Osaka",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 0,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 3
+  },
+  {
+   "hook": "Umeda Sky: Christmas market under a 25 m tree",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 0,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 3
+  }
+ ],
+ "hook_type": "KNOW BEFORE YOU GO (number + surprise first: it's free)",
+ "opening_type": "a number / the list itself",
+ "hook": {
+  "tag": "UMEDA SKY BUILDING, OSAKA",
+  "lines": [
+   "Osaka Christmas",
+   "market: 5 things",
+   "to know"
+  ]
+ },
+ "cover": {
+  "title": "Osaka Christmas market:|5 things to know",
+  "category": "UMEDA SKY BUILDING, OSAKA",
+  "color": "coral",
+  "clip": "cv_fx_10.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "fx_13.jpg"
+    ],
+    [
+     "ox_01.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Osaka's Christmas market at the Umeda Sky Building: five things to know.",
+     "Osaka's Christmas market at the Umeda Sky Building: five things to know."
+    ]
+   ]
+  },
+  {
+   "id": "k1",
+   "clips": [
+    [
+     "fx_14.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "1",
+    "title": "Free to walk in",
+    "small": "pay only for food and drinks"
+   },
+   "clauses": [
+    [
+     "One: it's free to walk in.",
+     "One: it's free to walk in."
+    ]
+   ]
+  },
+  {
+   "id": "k2",
+   "clips": [
+    [
+     "fx_11.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "2",
+    "title": "Trial Pass ¥1,600",
+    "small": "= one Glühwein + one sausage"
+   },
+   "clauses": [
+    [
+     "Two: the Trial Pass is just a Glühwein and a sausage.",
+     "Two: the Trial Pass is just a Glühwein and a sausage."
+    ]
+   ]
+  },
+  {
+   "id": "k3",
+   "clips": [
+    [
+     "fx_12.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "3",
+    "title": "Mug ¥900",
+    "small": "mint or grey, at the service centre"
+   },
+   "clauses": [
+    [
+     "Three: the mug is nine hundred yen, in mint or grey.",
+     "Three: the mug is nine hundred yen, in mint or grey."
+    ]
+   ]
+  },
+  {
+   "id": "k4",
+   "clips": [
+    [
+     "ox_00.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "4",
+    "title": "Premium Pass",
+    "small": "adds the Kuchu Teien observatory"
+   },
+   "clauses": [
+    [
+     "Four: the Premium Pass adds the observatory upstairs.",
+     "Four: the Premium Pass adds the observatory upstairs."
+    ]
+   ]
+  },
+  {
+   "id": "k5",
+   "clips": [
+    [
+     "fx_10.jpg"
+    ],
+    [
+     "ox_02.jpg"
+    ]
+   ],
+   "card": {
+    "color": "pink",
+    "kicker": "5",
+    "title": "Tree light shows",
+    "small": "25 m tree · every 30 min, 17:00–21:30"
+   },
+   "clauses": [
+    [
+     "Five: in December, the twenty-five-metre tree puts on a light show every half hour.",
+     "Five: in December, the twenty-five-metre tree puts on a light show every half hour."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "ox_03.jpg"
+    ],
+    [
+     "ox_04.jpg"
+    ],
+    [
+     "ox_05.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Comment TENSHIBA for our free guide to Osaka's Christmas markets,",
+     "Comment TENSHIBA for our free guide to Osaka's Christmas markets,"
+    ],
+    [
+     "including Tenshiba's food stalls and prices.",
+     "including Tenshiba's food stalls and prices."
+    ]
+   ]
+  }
+ ],
+ "caption": "Osaka Christmas market: 5 things to know 🎄\nUmeda Sky Building, 13 Nov–25 Dec 2026.\nSave this before you go.\n\n1️⃣ It's free to walk in\n🍷 You pay only for food and drinks.\n\n2️⃣ The Trial Pass is ¥1,600\n🌭 It's just a Glühwein and a sausage.\n🤔 Buy it only if that's your order anyway.\n\n3️⃣ The mug is ¥900\n☕ Mint (the town by day) or grey (by night).\n\n4️⃣ The Premium Pass\n🌃 ¥5,000, and it adds the Kuchu Teien observatory.\n\n5️⃣ The tree light shows\n🎄 A 25 m tree with about 130,000 LEDs.\n⏱️ 1–25 Dec: every half hour, 17:00–21:30.\n\n💬 Comment TENSHIBA for our free guide\nto Osaka's Christmas markets, including\nTenshiba's food stalls and prices.\n\n👫 Tag who you're doing Osaka with.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#osakachristmas #umedaskybuilding #christmasmarket #osakatravel #umeda #japanwinter #japantravel #japantrip\n\n📷 Photos: Flickr / Wikimedia Commons contributors, credits at japanbystation.com/osaka-christmas-markets-2026"
+}
