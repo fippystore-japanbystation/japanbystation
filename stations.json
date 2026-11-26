@@ -315,7 +315,27 @@
 "japanese-christmas-chicken-2026": [
 "Nagoya Station"
 ],
-"kyoto-station-to-arashiyama": ["Kyoto Station", "Day trips from Kyoto"],
-"food-near-sapporo-station": ["Sapporo Station"],
-"food-near-shibuya-station": ["Shibuya"]
+"kyoto-station-to-arashiyama": [
+"Kyoto Station",
+"Day trips from Kyoto"
+],
+"food-near-sapporo-station": [
+"Sapporo Station"
+],
+"food-near-shibuya-station": [
+"Shibuya"
+],
+"tokyo-night-walks": [
+"Asakusa",
+"Shinjuku",
+"Shibuya"
+],
+"nara-station-jr-or-kintetsu": [
+"Kintetsu-Nara",
+"JR Nara",
+"Day trips from Osaka"
+],
+"sapporo-station-coin-lockers": [
+"Sapporo Station"
+]
 }

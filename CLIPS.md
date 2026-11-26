@@ -144,3 +144,20 @@ FLICKR (CC, licence checked on each photo page):
 - fx_14 "Willkommen zum Weihnachtsmarkt" arch, Umeda Sky 2016 · VicunaR · CC BY-SA 2.0 · flickr.com/photos/144510328@N03/32160749323
 WIKIMEDIA: ox_00 Shin Umeda City (Kuchu Teien) at night, jetsun, CC BY-SA 3.0 · ox_01 Umeda Sky Bldg. panoramio, Nagono, CC BY-SA 3.0 · ox_02 Umeda Sky Building seen from Lucua at night, 掬茶, CC BY-SA 4.0 · ox_03 Illuminated Tennoji Park and Abeno Harukas Nov 2015, Laitche, CC BY-SA 4.0 · ox_04 Tennoji Station and Abeno Harukas at night, そらみみ, CC BY-SA 4.0 · ox_05 Abeno Harukas seen from Tsutenkaku at night 2022, Dick Thomas Johnson, CC BY 2.0
 Credits added to the sources of tokyo-christmas-markets-2026 and osaka-christmas-markets-2026 (deployed 27 Nov). Still NO licensed photo of Tenshiba's market, Azabudai Hills, Tokyo Tower market, Skytree or Ueno Advent.
+
+## Wikimedia Commons photos used on guides (27 Nov 2026, website run 2; hotlinked 1280px thumbs from upload.wikimedia.org, credited under each photo; viewed in the built-in browser)
+- Kaminarimon, Sensōji, at night · Puchku · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Kaminarimon,_Sens%C5%8Dji,_at_night.jpg · tokyo-night-walks
+- View from the TMG Building South Observatory at night, looking west · Benlisquare · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:View_from_the_Tokyo_Metropolitan_Government_Building_South_Observatory_at_night,_looking_west.jpg · tokyo-night-walks
+- Shibuya - Asu no Shinwa - 2016-05-06 · MathieuMD · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Shibuya_-_Asu_no_Shinwa_-_2016-05-06.jpg · tokyo-night-walks
+- Roppongi Hills Keyakizaka Illumination 2024 (2) · Kakidai · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Roppongi_Hills_Keyakizaka_Illumination_2024_(2).jpg · tokyo-night-walks
+- Kintetsu Nara station 20140902 · Degueulasse · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:Kintetsu_Nara_station_20140902.jpg · nara-station-jr-or-kintetsu
+- 20230711 JR Nara Exterior · mtr_D406 · CC0 · https://commons.wikimedia.org/wiki/File:20230711_JR_Nara_Exterior.jpg · nara-station-jr-or-kintetsu (stay card)
+- Sapporo Station West Concourse 201406 · Wpcpey · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Sapporo_Station_West_Concourse_201406.jpg · sapporo-station-coin-lockers
+- Sapporo Station at night · ノボホショコロトソ · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Sapporo_Station_at_night.jpg · sapporo-station-coin-lockers
+- Momofuku Ando Instant Ramen Museum (11369666834) · chee.hong · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Momofuku_Ando_Instant_Ramen_Museum_(11369666834).jpg · cup-noodles-museum-ikeda (backfill)
+- 240810 Cupnoodles Museum Osaka Ikeda 01s3 · 663highland · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:240810_Cupnoodles_Museum_Osaka_Ikeda_Ikeda_Osaka_pref_Japan01s3.jpg · cup-noodles-museum-ikeda (backfill)
+- Entrance to Naritasan Fukagawa Fudōdō November 2023 · Nick-D · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Entrance_to_Naritasan_Fukagawa_Fud%C5%8Dd%C5%8D_November_2023.jpg · monzen-nakacho-market-day (backfill)
+- Naritasan Fukagawa Fudōdō November 2023 · Nick-D · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Naritasan_Fukagawa_Fud%C5%8Dd%C5%8D_November_2023.jpg · monzen-nakacho-market-day (backfill)
+- Yanaka Ginza Street from Yuyake Dandan (Oct 2024) · SuFlyer · CC0 · https://commons.wikimedia.org/wiki/File:Yanaka_Ginza_Street_from_Yuyake_Dandan_(Oct_2024).jpg · yanaka-ginza-which-direction (backfill)
+- Yanaka Ginza, Yanaka (53417016334) · Stephen Kelly · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Yanaka_Ginza,_Yanaka_(53417016334).jpg · yanaka-ginza-which-direction (backfill)
+- Skipped: File:Fukagawa-meshi.jpg (dish didn't clearly look like clam fukagawa-meshi).

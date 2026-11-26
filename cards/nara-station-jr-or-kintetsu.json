@@ -1,0 +1,14 @@
+{
+ "station": "Kintetsu-Nara Station",
+ "city": "Nara",
+ "subtitle": "2 gates · East for the park, West for buses",
+ "rows": [
+  {"to": "Todaiji · deer park", "sub": "Kofukuji, Kasuga Taisha", "line": "Kintetsu", "exit": "East Gates", "note": "Up to 1F by the fountain · Todaiji ≈20 min"},
+  {"to": "Tourist information", "sub": "Maps, bus help", "line": "Kintetsu", "exit": "East Gates", "note": "1F, next to the fountain exit"},
+  {"to": "Konishi-dori shops", "sub": "Shops toward Nalala", "line": "Kintetsu", "exit": "East Gates", "note": "B1 passage, stairs up"},
+  {"to": "Airport bus to KIX", "sub": "Also expressway buses", "line": "Kintetsu", "exit": "West Gates", "note": "Stairs up to the bus stops"},
+  {"to": "Big lockers (49 XL)", "sub": "551 lockers in all", "line": "Kintetsu", "exit": "Both", "note": "B1 and platform level · ¥100 coins"}
+ ],
+ "tips": ["Came by JR? JR Nara is a 15–20 min walk west of the park"],
+ "checked": "27 Nov 2026"
+}
