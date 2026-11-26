@@ -53,7 +53,7 @@ def setup():
     for src, dst in [("kokoro-v1.0.fp16.onnx", "kokoro.onnx"), ("voices-v1.0.bin", "voices-v1.0.bin")]:
         if not os.path.exists(os.path.join(tts, dst)):
             sh(["curl", "-sL", "-o", os.path.join(tts, dst), base + src])
-    sh("pip install -q --break-system-packages kokoro-onnx soundfile pillow numpy 2>/dev/null || true")
+    sh("pip install -q --break-system-packages kokoro-onnx soundfile pillow numpy mapbox-vector-tile 2>/dev/null || true")
     print("setup done")
 
 

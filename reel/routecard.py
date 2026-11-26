@@ -17,7 +17,7 @@ Spec:
              "time": "45–60 MIN", "best": "Temples, river views, photos"}, ...],
  "ending": {"lines": ["Comment TOKYO", "for our free guides to all 4 walks"]},
  "caption": "..."}"""
-import json, os, sys, subprocess, io
+import json, os, sys, subprocess, io, math
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -59,67 +59,78 @@ def glow_line(base, pts, color, width=7):
     g = lay.filter(ImageFilter.GaussianBlur(9)); base.alpha_composite(g); base.alpha_composite(g); base.alpha_composite(lay)
 
 def route_card(spec, ri):
+    """v2 (Ling, 26 Nov 15:31: "use a real map with the points connected, more colour"): the whole card is a real
+    dark map (maprender.py, OpenStreetMap data) with the walking route in neon; the text column sits on the left."""
+    sys.path.insert(0, HERE); from maprender import geocode, render_map
     r = spec["routes"][ri]; c = COL[r.get("color", "coral")]; cd = os.path.join(HERE, spec.get("clipdir", "air/"))
-    im = Image.new("RGBA", (CW, CH), NAVY + (255,)); d = ImageDraw.Draw(im)
-    gl = Image.new("RGBA", (CW, CH), (0, 0, 0, 0)); gd = ImageDraw.Draw(gl)          # faint blueprint grid
-    for x in range(0, CW, 54): gd.line([(x, 0), (x, CH)], fill=(120, 140, 220, 22))
-    for y in range(0, CH, 54): gd.line([(0, y), (CW, y)], fill=(120, 140, 220, 22))
-    im.alpha_composite(gl); d = ImageDraw.Draw(im)
+    stops = r["stops"][:4]; city = spec.get("city", "")
+    ll = [tuple(s["ll"]) if s.get("ll") else geocode(s.get("q") or f"{s['name']}, {city}") for s in stops]
+    im, pins, meters = render_map(ll, CW, CH, color=c, box=(600, 150, CW - 30, CH - 250), max_scale=7000)
+    d = ImageDraw.Draw(im)
+    # left text column: dark, fading into the map
+    fade = Image.new("RGBA", (CW, CH), (0, 0, 0, 0)); fd = ImageDraw.Draw(fade)
+    for x in range(0, 700):
+        a = 238 if x < 560 else int(238 * (700 - x) / 140); fd.line([(x, 0), (x, CH)], fill=NAVY + (a,))
+    for y in range(CH - 240, CH):
+        fd.line([(0, y), (CW, y)], fill=NAVY + (int(230 * (y - (CH - 240)) / 240),))
+    im.alpha_composite(fade); d = ImageDraw.Draw(im)
+    # pins + labels on the map (labels avoid each other and the pins)
+    placed = [(x - 34, y - 34, x + 34, y + 34) for x, y in pins]
+    for k, ((x, y), st) in enumerate(zip(pins, stops)):
+        gl = Image.new("RGBA", (CW, CH), (0, 0, 0, 0)); ImageDraw.Draw(gl).ellipse((x - 40, y - 40, x + 40, y + 40), fill=c + (190,))
+        im.alpha_composite(gl.filter(ImageFilter.GaussianBlur(12))); d = ImageDraw.Draw(im)
+        d.ellipse((x - 30, y - 30, x + 30, y + 30), fill=c, outline=WHITE, width=4); d.text((x, y), str(k + 1), font=F(32), fill=WHITE, anchor="mm")
+        lab = st["name"]; fl = F(26)
+        while d.textlength(lab, font=fl) > 300 and fl.size > 18: fl = F(fl.size - 1)
+        tw = d.textlength(lab, font=fl); bw, bh = tw + 26, 46
+        cands = [(x + 40, y - 23), (x - 40 - bw, y - 23), (x - bw / 2, y - 40 - bh), (x - bw / 2, y + 40), (x + 40, y - 23 - 56), (x + 40, y - 23 + 56), (x - 40 - bw, y - 23 - 56), (x - 40 - bw, y - 23 + 56)]
+        def free(r):
+            if r[0] < 560 or r[2] > CW - 8 or r[1] < 8 or r[3] > CH - 230: return False
+            return all(r[2] < q[0] or r[0] > q[2] or r[3] < q[1] or r[1] > q[3] for q in placed)
+        pick = next((cc for cc in cands if free((cc[0], cc[1], cc[0] + bw, cc[1] + bh))), cands[0])
+        lx, ly = pick; placed.append((lx - 4, ly - 4, lx + bw + 4, ly + bh + 4))
+        d.rounded_rectangle((lx, ly, lx + bw, ly + bh), 12, fill=(8, 12, 30, 235), outline=c, width=3)
+        d.text((lx + 13, ly + 6), lab, font=fl, fill=WHITE)
     # header
     lab = f"ROUTE {ri + 1}"; f = F(34); w = d.textlength(lab, font=f) + 56
-    d.rounded_rectangle((48, 44, 48 + w, 104), 30, outline=c, width=4); d.text((76, 50), lab, font=f, fill=c)
-    y = 120
+    d.rounded_rectangle((48, 44, 48 + w, 104), 30, fill=c); d.text((76, 50), lab, font=f, fill=NAVY)
+    y = 124
     for k, line in enumerate(r["name"][:2]):
         f = F(92)
-        while d.textlength(line, font=f) > 560 and f.size > 50: f = F(f.size - 4)
+        while d.textlength(line, font=f) > 500 and f.size > 46: f = F(f.size - 4)
+        if k == 1:
+            gl = Image.new("RGBA", (CW, CH), (0, 0, 0, 0)); ImageDraw.Draw(gl).text((48, y), line, font=f, fill=c + (255,))
+            im.alpha_composite(gl.filter(ImageFilter.GaussianBlur(10))); d = ImageDraw.Draw(im)
         d.text((48, y), line, font=f, fill=WHITE if k == 0 else c); y += int(f.size * 1.05)
-    y += 22; d.text((50, y), r.get("sub", ""), font=F(30, "Medium"), fill=MUTED); y += 54
-    d.line([(50, y), (590, y)], fill=c + (160,), width=3); y += 22
+    y += 18; d.text((50, y), r.get("sub", ""), font=F(30, "Medium"), fill=(205, 212, 235)); y += 52
+    d.line([(50, y), (520, y)], fill=c, width=4); y += 26
     # stops (left)
-    stops = r["stops"][:4]; rowh = (CH - 230 - y) // len(stops)
-    for k, s in enumerate(stops):
-        yy = y + k * rowh; th = min(rowh - 22, 150)
-        try: im.alpha_composite(rounded(photo(cd + s["media"], 200, th), 16), (48, yy))
-        except Exception: d.rounded_rectangle((48, yy, 248, yy + th), 16, fill=PANEL)
-        d.rounded_rectangle((48, yy, 248, yy + th), 16, outline=c + (200,), width=3)
-        d.ellipse((34, yy - 14, 82, yy + 34), fill=c); d.text((58, yy + 10), str(k + 1), font=F(30), fill=NAVY, anchor="mm")
-        fn = F(36); nl = wrap(d, s["name"], fn, 330)[:2]; ty = yy + 2
-        for ln in nl: d.text((268, ty), ln, font=fn, fill=WHITE); ty += 42
-        for ln in wrap(d, s.get("note", ""), F(25, "Regular"), 330)[:3]: d.text((268, ty + 4), ln, font=F(25, "Regular"), fill=MUTED); ty += 31
-    # schematic route (right)
-    px0, py0, px1, py1 = 630, 60, CW - 40, CH - 230
-    try:                                                   # panel = the route's own scenery, dark and soft
-        bgp = photo(cd + stops[-1]["media"], px1 - px0, py1 - py0).filter(ImageFilter.GaussianBlur(3)).convert("RGBA")
-        bgp.alpha_composite(Image.new("RGBA", bgp.size, NAVY + (175,))); im.alpha_composite(rounded(bgp, 28), (px0, py0))
-    except Exception: d.rounded_rectangle((px0, py0, px1, py1), 28, fill=PANEL + (255,))
-    d = ImageDraw.Draw(im); d.rounded_rectangle((px0, py0, px1, py1), 28, outline=c + (120,), width=2)
-    n = len(stops); pts = []
-    for k in range(n):
-        fy = py0 + 120 + k * ((py1 - py0 - 240) / max(1, n - 1))
-        fx = px0 + (110 if k % 2 == 0 else (px1 - px0) - 150)
-        pts.append((fx, fy))
-    glow_line(im, pts, c); d = ImageDraw.Draw(im)
-    if r.get("start"):
-        d.text((pts[0][0] - 40, py0 + 30), "START · " + r["start"], font=F(24, "Medium"), fill=MUTED)
-    if r.get("end"):
-        t = "END · " + r["end"]; d.text((min(px1 - 30 - d.textlength(t, font=F(24, "Medium")), pts[-1][0]), py1 - 60), t, font=F(24, "Medium"), fill=MUTED)
-    for k, (x, yv) in enumerate(pts):
-        d.ellipse((x - 34, yv - 34, x + 34, yv + 34), fill=NAVY, outline=c, width=6)
-        d.text((x, yv), str(k + 1), font=F(34), fill=WHITE, anchor="mm")
-        lab = stops[k]["name"]; fl = F(26)
-        while d.textlength(lab, font=fl) > 230 and fl.size > 18: fl = F(fl.size - 1)
-        tw = d.textlength(lab, font=fl); lx = x + 46 if k % 2 == 0 else x - 46 - tw - 24
-        d.rounded_rectangle((lx, yv - 24, lx + tw + 24, yv + 24), 12, fill=(8, 12, 30, 230), outline=c + (180,), width=2)
-        d.text((lx + 12, yv - 17), lab, font=fl, fill=WHITE)
-    # bottom boxes
+    rowh = (CH - 260 - y) // len(stops)
+    for k, s_ in enumerate(stops):
+        yy = y + k * rowh; th = min(rowh - 24, 150)
+        try: im.alpha_composite(rounded(photo(cd + s_["media"], 200, th), 18), (48, yy))
+        except Exception: d.rounded_rectangle((48, yy, 248, yy + th), 18, fill=PANEL)
+        d = ImageDraw.Draw(im); d.rounded_rectangle((48, yy, 248, yy + th), 18, outline=c, width=4)
+        d.ellipse((30, yy - 16, 82, yy + 36), fill=c, outline=WHITE, width=3); d.text((56, yy + 10), str(k + 1), font=F(30), fill=WHITE, anchor="mm")
+        fn = F(36); ty = yy
+        for ln in wrap(d, s_["name"], fn, 290)[:2]: d.text((268, ty), ln, font=fn, fill=WHITE); ty += 42
+        for ln in wrap(d, s_.get("note", ""), F(25, "Regular"), 290)[:3]: d.text((268, ty + 4), ln, font=F(25, "Regular"), fill=(200, 206, 230)); ty += 31
+    # bottom boxes (full width)
     by = CH - 200
-    d.rounded_rectangle((48, by, 520, by + 150), 22, outline=c, width=3)
-    d.text((80, by + 22), r.get("time", ""), font=F(56), fill=WHITE); d.text((82, by + 92), r.get("time_label", "APPROX. WALK"), font=F(26, "Medium"), fill=c)
-    d.rounded_rectangle((540, by, CW - 40, by + 150), 22, outline=c, width=3)
+    mins = int(math.ceil(meters / 75 / 5.0) * 5) if meters else 0
+    tt = r.get("time") or (f"ABOUT {mins} MIN" if mins else ""); tl = r.get("time_label") or ("WALK · MAP ESTIMATE" if not r.get("time") else "APPROX. WALK")
+    for bx0, bx1 in ((48, 520), (540, CW - 40)):
+        d.rounded_rectangle((bx0, by, bx1, by + 150), 22, fill=(10, 14, 34, 225), outline=c, width=3)
+    d.text((78, by + 20), tt, font=fit(d, tt, 58, 420), fill=WHITE); d.text((80, by + 94), tl, font=F(25, "Medium"), fill=c)
     d.text((572, by + 18), "BEST FOR", font=F(34), fill=c)
-    for k, ln in enumerate(wrap(d, r.get("best", ""), F(26, "Regular"), CW - 40 - 600)[:2]): d.text((572, by + 64 + k * 32), ln, font=F(26, "Regular"), fill=WHITE)
-    d.text((48, CH - 40), "Japan by Station · japanbystation.com", font=F(22, "Medium"), fill=MUTED)
+    for k, ln in enumerate(wrap(d, r.get("best", ""), F(27, "Regular"), CW - 40 - 600)[:2]): d.text((572, by + 64 + k * 34), ln, font=F(27, "Regular"), fill=WHITE)
+    d.text((48, CH - 38), "Japan by Station · japanbystation.com", font=F(22, "Medium"), fill=(170, 178, 205))
     return im.convert("RGB")
+
+def fit(d, text, size, maxw, w="Bold"):
+    f = F(size, w)
+    while d.textlength(text, font=f) > maxw and size > 24: size -= 2; f = F(size, w)
+    return f
 
 def pill_lines(d, lines, cx, y, sizes, fills):
     for ln, sz, fl in zip(lines, sizes, fills):
