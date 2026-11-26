@@ -70,3 +70,8 @@ Start the next "<Country> by Station" project only when ALL hold (check around 1
 2. Website, Reels, FB and Pinterest run a full week without Ling having to fix anything.
 3. First affiliate commission recorded (Klook, Airalo, etc.).
 Until then: Japan only. Zero-cost prep (name, domain check) is fine.
+
+
+## AUDIENCE DATA + AUTONOMY (26 Nov, Ling: "I want to stop taking part in the process and let you keep testing on your own")
+- Who visits where (JTA 2025 survey, figures from Osaka Prefecture): share of each nationality's visitors who go to Osaka = USA 45%, Canada 51%, UK 53%, Germany 59%, Australia 61%, France 65%, Italy 67%, Spain 75% (all visitors 41%). Australians' nights (May 2024–Apr 2025, JNTO): Tokyo about 2.6 million, Osaka about 1.0 million, Kyoto about 0.8 million. Reading: Western first-timers fly into Tokyo and spend most nights there; most of them ALSO do Osaka + Kyoto (Golden Route). So: Tokyo = volume; Osaka = where we already lead (Search Console, best Reels) and the base for Kyoto/Nara/Kobe/Himeji. Keep both; fill Osaka's big gaps (TOPICS W01–W06).
+- Autonomy: the project lead runs tests without asking Ling (PACE TEST, HOOK GATE, FB styles). Ling only gets: results, decisions that can't be undone, anything needing his login/money/accounts. Every test has a written hypothesis, a fair comparison and a date to judge it.

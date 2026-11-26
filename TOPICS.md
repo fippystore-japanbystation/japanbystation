@@ -158,6 +158,13 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 ## WORK ORDER (Ling, 23 Nov): Tokyo first, then alternate regions so the site and feed are never all Osaka.
 Take the FIRST unchecked line. Before researching, CLAIM it: change `- [ ]` to `- [~] <date time> ` , commit and push TOPICS.md (`python3 jbs.py save "claim NN"`); if the push conflicts, pull and take the next unclaimed line. When done mark `- [x] NN · <slug> · <KEYWORD> · page ✓` (Reels task adds `· reel ✓`). Unverifiable → `- [!] NN needs research` + NEEDS-RESEARCH.md.
 UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 IN ORDER (they start general: which station, airport arrival, exits), then the remaining Kansai briefs in order. No more alternating for now. Reels follow the same sequence (newest guides first).
+DEMAND lines W01–W06 (26 Nov, project lead): the biggest Western searches we don't cover yet. Data: Osaka is visited by 45% of American, 52% of British, 61% of Australian and 65% of French visitors (JTA 2025, via Osaka Prefecture); Tokyo still gets most Western nights. Take W lines BEFORE the numbered briefs below (after G lines).
+- [ ] W01 · Osaka · ROUTE · Osaka to Kyoto: 4 ways (JR Special Rapid, Hankyu, Keihan, shinkansen) and which one fits your hotel and your first stop in Kyoto — search "osaka to kyoto" (DEMAND, 26 Nov: biggest Western gap; theluns' "Osaka to Kyoto: 4 ways" Reel 23K views)
+- [ ] W02 · Osaka · USJ · Universal Studios Japan from Namba / Umeda: getting there, what time to arrive, Express Pass or not, Super Nintendo World entry — official USJ facts only — search "how to get to universal studios japan"
+- [ ] W03 · Tokyo · ROUTE · Tokyo to Kyoto / Osaka by shinkansen: which train, reserved or not, the Fuji side, the big-luggage seat rule — search "tokyo to kyoto shinkansen"
+- [ ] W04 · Osaka · SIGHT · Osaka Castle: go inside or just the park? Nearest station by where you come from, best time of day — search "osaka castle worth it"
+- [ ] W05 · Osaka · PASS · Osaka Amazing Pass: does it pay off? A one-day plan that beats the price, and when it doesn't — search "osaka amazing pass worth it"
+- [ ] W06 · Osaka · FOOD · Shinsekai: kushikatsu and the Tsutenkaku streets — where to eat, the no-double-dip rule, when to go — search "shinsekai kushikatsu"
 - [x] 71 · shibuya-crossing-view · SCRAMBLE · page ✓ · reel ✓  (Tokyo · BRIEFS-TOKYO-71-80.md)
 - [x] 11 · minoh-falls-autumn-afternoon · MINOH · page ✓ · reel ✓  (Kansai trip · BRIEFS-KANSAI-40.md)
 - [x] 72 · shibuya-quiet-base-yoyogi · YOYOGI · page ✓ · reel ✓  (Tokyo · BRIEFS-TOKYO-71-80.md) — cover corrected to "Would you stay outside Shibuya for a quieter morning?" (both need a change)
