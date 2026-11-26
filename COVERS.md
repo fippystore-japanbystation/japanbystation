@@ -40,3 +40,5 @@ sapporo-in-december-2026-2: cv_w6_03 Odori Park White Illumination from above at
 tokyo-to-kawaguchiko-big-suitcase-bus-or-train-pb (queued): cv_kk_11c Fuji Excursion E353 under snowy Mt Fuji, portrait crop (Wikimedia, 甲武)
 tokyo-to-kawaguchiko-big-suitcase-bus-or-train-pa (held, not queued yet): cv_p_19853984 buses at Kawaguchiko with Mt Fuji (Pexels)
 tokyo-night-walks (carousel): w7_46 Tokyo Tower lit red at night (Wikimedia, Kakidai)
+osaka-christmas-market-know-before: cv_fx_10 Umeda Sky giant LED tree at night with crowd (Flickr, Daniel Ramirez, CC BY 2.0)
+tokyo-christmas-market-know-before: cv_fx_05c Christmas pyramid at Shiba Park with Tokyo Tower behind (Flickr, lazy fri13th, CC BY 2.0)

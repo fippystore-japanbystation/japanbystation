@@ -134,3 +134,13 @@ Downloads housekeeping: old leftover *.tmp hardlinks moved to Downloads\_old_tmp
 - Kagurazaka street 2 · Kabacchi · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Kagurazaka_street_2.jpg · kagurazaka (backfill)
 - Kagurazaka path 2009-2 · Kamemaru2000 · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Kagurazaka_path_2009-2.JPG · kagurazaka (backfill)
 - Note: the cloud container gets HTTP 429 from upload.wikimedia.org; check/view Commons photos in the built-in browser instead.
+
+## Added 27 Nov 04:40 MYT (Reels run: tokyo-/osaka-christmas-market-know-before) — downloaded with device_bash curl into Downloads/jbs_media (Flickr images 429 from the browser tab; curl on Ling's PC works)
+FLICKR (CC, licence checked on each photo page):
+- fx_00–fx_06 Tokyo Christmas Market in SHIBA PARK 2019 · lazy fri13th · CC BY 2.0 · https://www.flickr.com/photos/fri13th/ (50254808076, 50254987767, 50254147178, 50254987947, 50254808101, 50254807931, 50254808146) · fx_05 = 14 m pyramid + Tokyo Tower (bottom has a small "2019" sign → use fx_05c crop), fx_03 = Tokyo Tower from the park, fx_00 = The Grill Munchen hut, fx_01/fx_02 crowds, fx_04 park + huts at dusk (playground in front), fx_06 dark
+- fx_07 Seiffen Markt nutcrackers, Tokyo Christmas Market Hibiya 2017 (daylight) · Mark D (MD111) · CC BY-SA 2.0 · https://www.flickr.com/photos/md111/33233983148 · AVOID fx_08 (gate with "Tokyo Christmas Market 2017")
+- fx_09 Umeda Sky white trees indoors, morning · fx_10 Umeda Sky giant LED tree at night 2023 (cover) · Daniel Ramirez (jdnx) · CC BY 2.0 · flickr.com/photos/danramarch/53507980590, /53507556046
+- fx_11–fx_13 Christmas market at Umeda Sky 2015 (beer hut, ornament stall, huts + crowd) · Max Kawagishi (_yuki_k_) · CC BY 2.0 · flickr.com/photos/_yuki_k_/24433733255, /23806945113, /23805532424
+- fx_14 "Willkommen zum Weihnachtsmarkt" arch, Umeda Sky 2016 · VicunaR · CC BY-SA 2.0 · flickr.com/photos/144510328@N03/32160749323
+WIKIMEDIA: ox_00 Shin Umeda City (Kuchu Teien) at night, jetsun, CC BY-SA 3.0 · ox_01 Umeda Sky Bldg. panoramio, Nagono, CC BY-SA 3.0 · ox_02 Umeda Sky Building seen from Lucua at night, 掬茶, CC BY-SA 4.0 · ox_03 Illuminated Tennoji Park and Abeno Harukas Nov 2015, Laitche, CC BY-SA 4.0 · ox_04 Tennoji Station and Abeno Harukas at night, そらみみ, CC BY-SA 4.0 · ox_05 Abeno Harukas seen from Tsutenkaku at night 2022, Dick Thomas Johnson, CC BY 2.0
+Credits added to the sources of tokyo-christmas-markets-2026 and osaka-christmas-markets-2026 (deployed 27 Nov). Still NO licensed photo of Tenshiba's market, Azabudai Hills, Tokyo Tower market, Skytree or Ueno Advent.
