@@ -24,6 +24,7 @@ AUDIT CURSOR: 2026-11-26 run 6 → audited shibuya-quiet-base-yoyogi, shinjuku-t
 - Deploy 1 (≈21:50 MYT, saved first). Live: new titles on shinjuku-which-station, japan, kyoto-where-to-stay-first-trip; shinjuku-two-hours 1 H1, 5 imgs 0 broken, Article/Breadcrumb/FAQ JSON-LD, Isetan link; kawaguchiko imgs have width/height; kyoto 7 imgs 0 broken, abstract = new keyfacts. IndexNow pinged 11 URLs. GSC REQUEST INDEXING kyoto-where-to-stay-first-trip → "Something went wrong" (quota likely) → retry tomorrow.
 - BRAND: Google "japan by station" (no quotes, gl=us): #1 japanbystation.com/about, #4 home; site name shows as "japanbystation.com" (not yet "Japan by Station"), no favicon seen in the result; snippet still the OLD About text ("organised by train station") → recrawl pending (live About is fixed). Competitors in brand SERP: japan-stations.com, japanstation.com.
 - TOPICS: + NEW REGIONS "SEO · Nara · Nara Station: JR Nara or Kintetsu Nara? … exit map" (query "nara station", pos 68, no page).
+- Late fix (saved, not deployed: one deploy per run): the producer swapped Christmas karaage for Nagoya tebasaki at 21:5x, so the Japan hub desc → "…(strawberry shortcake, jidori legs, Nagoya wings, shanmeri), konbini cake pick-up 19–25 Dec, where to buy." Goes live with the next deploy.
 - NEXT: cursor above.
 
 ## 2026-11-26 (scheduled SEO AUDIT run 5, 09:28 UTC = 17:28 MYT; DEEP mode)

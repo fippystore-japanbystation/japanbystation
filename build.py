@@ -350,7 +350,7 @@ HUBMETA={  # Ling 25 Nov: hub snippets must answer straight away, no "Every Japa
  "Okinawa":("Naha, Okinawa Guide: Where to Stay, Do You Need a Car?","Where to stay in Naha on a first trip to Okinawa (Kokusai-dori, Asahibashi or Omoromachi), how far the Yui Rail monorail gets you, and when you need a car."),
  "Hiroshima":("Hiroshima and Miyajima in One Day: Base, Tram or Train","Hiroshima and Miyajima in one day: where to base yourself, tram or train, and how the tides change your visit to the floating torii."),
  "Nagoya":("Nagoya Day Trips: Nabana no Sato Illumination 2026","Nabana no Sato's 2026–27 winter illumination: open 17 Oct to 31 May, December advance tickets ¥3,000, and the easy day trip from Nagoya or Osaka."),
- "Japan":("Japan Travel Guide: Christmas Food 2026 and Seasonal Tips","Japan-wide tips for any city: Christmas 2026 food (strawberry shortcake, Christmas karaage, shanmeri), konbini cake pick-up 19–25 Dec, where to buy, prices."),
+ "Japan":("Japan Travel Guide: Christmas Food 2026 and Seasonal Tips","Japan-wide tips for any city: Christmas 2026 food (strawberry shortcake, jidori legs, Nagoya wings, shanmeri), konbini cake pick-up 19–25 Dec, where to buy."),
  "Fukuoka":("Fukuoka Travel Guide: Where to Stay, Yatai, Local Food","Where to stay in Fukuoka (Hakata, Tenjin or Nakasu), how the yatai food stalls work, and what to eat beyond tonkotsu ramen."),
 }
 for _c in _cities:
