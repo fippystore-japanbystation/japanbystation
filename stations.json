@@ -96,7 +96,8 @@
 "Umeda"
 ],
 "shin-osaka-vs-osaka-station": [
-"Umeda"
+"Umeda",
+"Shin-Osaka"
 ],
 "minoh-falls-autumn-afternoon": [
 "Umeda",
@@ -282,7 +283,25 @@
 "tokyo-double-or-twin-two-suitcases": [
 "Ueno"
 ],
- "osaka-station-coin-lockers": ["Osaka Station", "Umeda"],
- "namba-station-coin-lockers": ["Namba", "Kansai Airport"],
- "food-near-tokyo-station": ["Tokyo Station"]
+"osaka-station-coin-lockers": [
+"Osaka Station",
+"Umeda"
+],
+"namba-station-coin-lockers": [
+"Namba",
+"Kansai Airport"
+],
+"food-near-tokyo-station": [
+"Tokyo Station"
+],
+"tokyo-station-coin-lockers": [
+"Tokyo Station"
+],
+"food-near-hakata-station": [
+"Hakata Station"
+],
+"shin-osaka-station-food-and-lockers": [
+"Shin-Osaka",
+"Umeda"
+]
 }
