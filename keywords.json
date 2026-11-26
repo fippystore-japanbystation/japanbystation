@@ -351,9 +351,21 @@
   "url": "https://japanbystation.com/food-near-shinjuku-station",
   "title": "Food Near Shinjuku Station: Breakfast, Lunch, Dinner and Late Night by Exit"
  },
+ "EKIBEN": {
+  "url": "https://japanbystation.com/food-near-tokyo-station",
+  "title": "Food at Tokyo Station: Seven Places From a 5:30 Bento to Monja at 22:00, Inside and Outside the Gates"
+ },
  "HACHIJO": {
   "url": "https://japanbystation.com/kyoto-station-coin-lockers",
   "title": "Coin Lockers at Kyoto Station: Prices, Where the Big Ones Are, What to Do When They're Full"
+ },
+ "NAMBALOCKER": {
+  "url": "https://japanbystation.com/namba-station-coin-lockers",
+  "title": "Coin Lockers at Namba Station: Where the Extra-Large Ones Are, Prices, and Plan B for Airport Cases"
+ },
+ "SAKURABASHI": {
+  "url": "https://japanbystation.com/osaka-station-coin-lockers",
+  "title": "Coin Lockers at Osaka Station: Prices, the Quieter Side, and What to Do When They're Full"
  },
  "LOCKER": {
   "url": "https://japanbystation.com/shinjuku-station-coin-lockers",
