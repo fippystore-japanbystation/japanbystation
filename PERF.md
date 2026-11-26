@@ -93,6 +93,8 @@ Next experiments
 |---|---|---|---|---|---|---|---|---|
 | kansai-airport-to-kyoto | A (-pa, "visitors pay less", 68 words) | expected 27 Nov ~01:15 MYT | | | | | | |
 | kansai-airport-to-kyoto | B (-pb, "3 ways", 59 words, stack + pauses) | target 29 Nov ~01:15 MYT (held, add on 28 Nov) | | | | | | |
+| tokyo-to-kawaguchiko | B (-pb, "2 ways", 60 words, stack + pauses; posts FIRST) | expected 27 Nov ~04:25 MYT | | | | | | |
+| tokyo-to-kawaguchiko | A (-pa, "bus for less than half", 68 words) | target 29 Nov ~04:25 MYT (held, add on 28 Nov) | | | | | | |
 
 
 ## SPLIT TEST ("Everyone goes to / Go here instead", started 26 Nov; key metric = shares)
@@ -103,3 +105,4 @@ Next experiments
 ## ROUTE TEST (route-card carousels, started 26 Nov; key metrics = saves + shares)
 | slug | posted | reach 24h | saves | shares | reach 48h | saves 48h | shares 48h | same-day Reels avg saves/shares |
 |---|---|---|---|---|---|---|---|---|
+| tokyo-night-walks (4 routes, carousel) | expected 27 Nov ~07:35 MYT | | | | | | | |

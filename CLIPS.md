@@ -107,3 +107,13 @@ NOT the right place / avoid: p_35118089, p_35118088 (HANEDA, tower visible) · p
 WIKIMEDIA (kx_*.jpg in Downloads/jbs_media; author/licence in kx_index_1126.json; credited on kansai-airport-to-kyoto sources): kx_00 airport limousine bus at night (low-res 640: use the blurred-fill composite kx_00f) · kx_01/02/03/17 Kyoto Station Hachijo side (day) · kx_04 KIX arrival atrium 2025 · kx_05 Haruka at KIX platform 4 (portrait, night) · kx_06/kx_09 KIX station platforms · kx_07/kx_08 Hello Kitty Haruka at KIX (crops kx_07c/kx_08c) · kx_10 Nankai platform at KIX · kx_11 Hankyu at Kyoto-kawaramachi (crop kx_11c) · kx_12 Kawaramachi night street (Disney/Kotocross logos: avoid) · kx_13/kx_14 271 Haruka · kx_15/16 KIX arrival hall 2006 (kx_15 shows a clock: avoid)
 SEASON CHECK: w3_s27 = SAPPORO SNOW FESTIVAL (February), NOT the White Illumination: never use for December lights. Sapporo Chi-Ka-Ho underground w3_s21 = 663highland CC BY 2.5 (credited on sapporo-in-december-2026).
 Still no usable footage: Osaka Christmas markets (Tenshiba / Umeda Sky / Hankyu) and Nabana no Sato lights → their SEASON Reels stay blocked.
+
+## Added 26 Nov (Reels run: tokyo-to-kawaguchiko -pb/-pa, tokyo-night-walks carousel)
+WIKIMEDIA (kk_*.jpg in Downloads/jbs_media; titles/authors/licences in kk_index_1126.json; credited on tokyo-to-kawaguchiko-big-suitcase-bus-or-train sources):
+ Busta Shinjuku: kk_00 4F bus bays (Animataru), kk_01 D platforms (MaedaAkihiko; shows Airport Limousine buses: not for Fuji lines), kk_02 street view 2020 (CC0), kk_03 C platforms (MaedaAkihiko), kk_12 exterior with crossing + Docomo tower (江戸村のとくぞう)
+ Fujikyu coaches: kk_08 Resort Express coach at Kawaguchiko (PD) · AVOID kk_04/kk_05 (destination sign 駒ヶ根 = Komagane line), kk_06 local/Thomas bus, kk_07 Highland Dream night bus
+ Fuji Excursion E353: kk_09 with autumn leaves, 8 Dec 2024 (CC0), kk_10 at Kawaguchiko platform (Suikotei), kk_11 under snowy Fuji (甲武; crop kk_11c = cover)
+Pexels: Kawaguchiko Station building + Fuji p_40294746 · buses at Kawaguchiko with Fuji p_19853984 · Fuji over Lake Kawaguchi: reeds p_36286411, red boats p_33390917 · Fuji close-ups p_31356866, p_37438065 · railway yard + Fuji (portrait video) c_35468442
+ NOT the Fuji Excursion: p_40294735/36/43/39 (Fujisan View Express / Fujikyu locals at Kawaguchiko) · unsure place: c_38162875 (snowy lakeside), p_37438029 (green street)
+Route-card stills made from video frames: f_31024383.jpg (Shinjuku night view), f_28883548.jpg (Shibuya crossing night).
+Downloads housekeeping: old leftover *.tmp hardlinks moved to Downloads\_old_tmp_links (nothing deleted).

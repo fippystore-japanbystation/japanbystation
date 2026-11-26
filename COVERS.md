@@ -37,3 +37,6 @@ shibuya-quiet-base-yoyogi-v2: cv_w3_y11 quiet tree-lined path in Yoyogi Park, da
 kansai-airport-to-kyoto-pa: cv_kx_07c Hello Kitty Haruka front at Kansai-Airport Station, portrait crop (Wikimedia, Suikotei)
 kansai-airport-to-kyoto-pb (held, not queued yet): cv_kx_05 Haruka at Kansai airport station platform 4, night (Wikimedia, CCP2017)
 sapporo-in-december-2026-2: cv_w6_03 Odori Park White Illumination from above at night (Wikimedia, Sorah Fukumori)
+tokyo-to-kawaguchiko-big-suitcase-bus-or-train-pb (queued): cv_kk_11c Fuji Excursion E353 under snowy Mt Fuji, portrait crop (Wikimedia, 甲武)
+tokyo-to-kawaguchiko-big-suitcase-bus-or-train-pa (held, not queued yet): cv_p_19853984 buses at Kawaguchiko with Mt Fuji (Pexels)
+tokyo-night-walks (carousel): w7_46 Tokyo Tower lit red at night (Wikimedia, Kakidai)
