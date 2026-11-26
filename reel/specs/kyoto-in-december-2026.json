@@ -1,0 +1,222 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "kyoto-in-december-2026",
+ "keyword": "BELLS",
+ "music": "m_kyotoriver.mp3",
+ "emph": [
+  "Kyoto",
+  "bell",
+  "yourself",
+  "seventy-tonne",
+  "BELLS"
+ ],
+ "hook": {
+  "tag": "KYOTO, JAPAN",
+  "lines": [
+   "Ring a temple bell",
+   "in Kyoto, 31 Dec"
+  ]
+ },
+ "cover": {
+  "title": "Ring a temple bell|in Kyoto, 31 Dec",
+  "category": "KYOTO, NEW YEAR'S EVE",
+  "color": "coral",
+  "clip": "cv_k8_06.mp4",
+  "t": 0.5
+ },
+ "readable_v": 1,
+ "season": true,
+ "promise": "On New Year's Eve in Kyoto you don't just watch the temple bells: at some temples you can ring one yourself.",
+ "hook_candidates": [
+  {
+   "hook": "Ring a temple bell in Kyoto, 31 Dec",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "A 70-tonne bell, 17 monks: Kyoto",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 4
+  },
+  {
+   "hook": "Kyoto's New Year bells: 2 ways",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 0,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 2
+  },
+  {
+   "hook": "108 rings at midnight in Kyoto",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 3
+  },
+  {
+   "hook": "Kyoto in December 2026",
+   "checks": {
+    "related": 0,
+    "payoff_2s": 0,
+    "specific": 0,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 1
+  }
+ ],
+ "hook_type": "SURPRISE / EXPERIENCE (you can do it yourself)",
+ "opening_type": "small scene / surprising fact",
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "k8_01.jpg"
+    ],
+    [
+     "k8_05.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "On New Year's Eve in Kyoto,",
+     "On New Year's Eve in Kyoto,"
+    ],
+    [
+     "you can ring a temple bell yourself.",
+     "you can ring a temple bell yourself."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "k8_02.jpg"
+    ],
+    [
+     "k8_00.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#1 RING IT · 31 DEC",
+    "title": "Shinnyo-do",
+    "small": "no ticket needed"
+   },
+   "clauses": [
+    [
+     "At Shinnyo-do, four or five people strike it together,",
+     "At Shinnyo-do, four or five people strike it together,"
+    ],
+    [
+     "no ticket needed.",
+     "no ticket needed."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "k8_06.jpg"
+    ],
+    [
+     "k8_07.jpg"
+    ],
+    [
+     "k8_11.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "#2 WATCH IT · 31 DEC",
+    "title": "Chion-in",
+    "small": "17 monks, one 70-tonne bell"
+   },
+   "clauses": [
+    [
+     "At Chion-in, seventeen monks swing a log at a seventy-tonne bell.",
+     "At Chion-in, 17 monks swing a log at a seventy-tonne bell."
+    ],
+    [
+     "Watching needs an advance application.",
+     "Watching needs an advance application."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "k8_20.jpg"
+    ],
+    [
+     "k8_22.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "#3 EARLY NIGHT · 31 DEC",
+    "title": "Myoman-ji",
+    "small": "ring out the year by daylight"
+   },
+   "clauses": [
+    [
+     "Want an early night?",
+     "Want an early night?"
+    ],
+    [
+     "At Myoman-ji, you can ring out the year in the afternoon.",
+     "At Myoman-ji, you can ring out the year in the afternoon."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "k8_16.jpg"
+    ],
+    [
+     "k8_17.jpg"
+    ],
+    [
+     "k8_14.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Comment BELLS for our free guide to Kyoto in December,",
+     "Comment BELLS for our free guide to Kyoto in December,"
+    ],
+    [
+     "including the year's last temple markets.",
+     "including the year's last temple markets."
+    ]
+   ]
+  }
+ ],
+ "caption": "Ring a temple bell yourself in Kyoto 🔔\nNew Year's Eve, 31 Dec 2026.\n\n🔔 Temples strike their bells 108 times\nto clear away the year's worldly desires.\n\n🥇 Shinnyo-do · ring it\n📅 31 Dec, from 23:45\n👥 Four or five people strike it together.\n🎫 No ticket needed.\n🍵 Free herbal tea while it lasts.\n\n🥈 Chion-in · watch it\n📅 31 Dec, from 22:20\n🙏 17 monks swing a 4 m log\nat a bell of about 70 tonnes.\n📝 Watching is by advance application only.\n👀 Its trial ringing on 27 Dec is free to watch.\n\n🌇 Early night? Myoman-ji\n📅 31 Dec, 15:00 to 17:00\n🔔 Ring out the year, then go to dinner.\n\n💬 Comment BELLS for our free guide\nto Kyoto in December, including\nthe year's last temple markets.\n\n👫 Send this to whoever you're seeing the new year with.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#kyoto #kyotonewyear #joyanokane #chionin #japannewyear #kyotowinter #japantravel #japantrip"
+}

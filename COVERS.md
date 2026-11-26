@@ -31,3 +31,6 @@ shinjuku-two-hours-before-dinner (readable re-render, same photo): cv_p_38410095
 tokyo-christmas-markets-2026 (re-cut 26 Nov): cv_w7_33 Yokohama Red Brick market hut at night with crowd, portrait crop (Wikimedia, Dick Thomas Johnson)
 new-chitose-airport-to-sapporo-v2: cv_p_36595976 JR Hokkaido train in deep snow (Pexels)
 sensoji-morning-or-evening-v2: cv_p_21759449 Senso-ji pagoda in morning sun, empty square, crop on the pagoda (Pexels)
+kyoto-in-december-2026: cv_k8_06 Chion-in New Year's Eve, monks ringing the golden-lit bell (Wikimedia, Leung Ming Ho)
+shinjuku-two-hours-before-dinner (hook re-cut 26 Nov): c_31024383 Shinjuku night view from high up, Docomo tower (Pexels)
+shibuya-quiet-base-yoyogi-v2: cv_w3_y11 quiet tree-lined path in Yoyogi Park, daylight (Wikimedia)

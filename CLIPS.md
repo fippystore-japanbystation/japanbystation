@@ -92,3 +92,11 @@ Pexels: Tokyo Tower lit video 37306459 and Skytree lit 31013035 / 4729552 exist 
 - Cover clips made locally from photos with a custom portrait crop (cover.py centre-crops): cv_p_21759449 (crop x≈0.72 = pagoda), cv_p_36595976, cv_w7_33.
 - Seasonal check: w5_13 (733 Rapid Airport) is SUMMER greenery — avoid in winter/Sapporo-snow Reels; p_36595968 / p_36595976 are the snowy JR Hokkaido trains.
 - reelkit ending pill changed 26 Nov to "COMMENT <KEYWORD> · free guide" (Ling 25 Nov 23:44: endings = comment, never DM / link in bio); no pill when keyword is empty (SCENIC).
+
+## Added 26 Nov (Reels run: kyoto-in-december-2026, shinjuku-two-hours re-cut, shibuya-quiet-base-yoyogi-v2)
+WIKIMEDIA (k8_*.jpg in Downloads/jbs_media; titles/authors/licences in k8_index_1126.json; credited on kyoto-in-december-2026 sources):
+ Kyoto New Year's Eve bells: Shinnyo-do k8_00 bell, k8_01 visitors pulling the rope (ring-it-yourself shot), k8_02 monk ringing (Haruo.takagi, CC BY-SA 4.0, 2015-01-01) · Konkai Komyo-ji NYE k8_03 bell, k8_04 queue + bonfire, k8_05 lit bell tower (Haruo.takagi) · Chion-in NYE monks + golden-lit bell k8_06 (cover), k8_07 (Leung Ming Ho, CC BY-SA 4.0) · Chion-in bell night with crowd k8_11 (Fumihiko Ueno, CC BY 3.0) · Chion-in bell by day k8_08/k8_09 (MShades, CC BY 2.0), bell tower k8_10 (KENPEI)
+ Kitano Tenmangu Shimai-Tenjin flea market, 25 Dec 2023: k8_12–k8_19 (Hyppolyte de Saint-Rambert, CC BY 4.0) · Myoman-ji by day, Dec: k8_20–k8_22 (same) · Toji flea market k8_27 (Maarten Heerlien, CC BY 2.0) · Chion-ji Hyakumanben bell k8_25/k8_26 (Daderot, CC0)
+ AVOID: k8_23 Kodaiji bamboo light-up and k8_24 Kodaiji autumn light-up (not December, not on the page) · k8_28 monks line at NYE (temple unknown, photozou)
+ DOWNLOAD NOTE: bundle header length must be in BYTES — JS js.length counts UTF-16 chars, so Japanese titles break it; split with json raw_decode instead.
+Reused: Shinjuku c_31024383 night view from high (Docomo tower) = new hook/cover; w4_37 has a Pfizer logo (use w4_38 instead).

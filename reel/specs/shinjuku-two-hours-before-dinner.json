@@ -6,48 +6,113 @@
  "music": "m_japansnacks.mp3",
  "emph": [
   "Shinjuku",
-  "Gyoen",
-  "maples",
   "free",
+  "202",
+  "maples",
   "sunset"
  ],
  "hook": {
   "tag": "SHINJUKU, TOKYO",
   "lines": [
-   "2 free hours",
-   "before dinner?"
+   "Tokyo's free view,",
+   "202 m up"
   ]
  },
  "cover": {
-  "title": "2 free hours|in Shinjuku?",
+  "title": "Tokyo's free view,|202 m up",
   "category": "SHINJUKU, TOKYO",
-  "color": "mint",
-  "clip": "cv_p_38410095.mp4",
-  "t": 0.5
+  "color": "sun",
+  "clip": "c_31024383.mp4",
+  "t": 1.0
  },
+ "readable_v": 1,
+ "promise": "With two free hours before dinner in Shinjuku, Tokyo, see Shinjuku Gyoen first (it closes early in winter), then take the free city view 202 m up at sunset.",
+ "hook_candidates": [
+  {
+   "hook": "Tokyo's free view, 202 m up",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "2 free hours in Shinjuku?",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 0,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 2
+  },
+  {
+   "hook": "Shinjuku, Tokyo: garden, then free view",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 4
+  },
+  {
+   "hook": "Tokyo's maples close early in winter",
+   "checks": {
+    "related": 0,
+    "payoff_2s": 1,
+    "specific": 0,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 3
+  },
+  {
+   "hook": "Free sunset over Tokyo before dinner",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 0,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 4
+  }
+ ],
+ "hook_type": "NUMBER + FREE (surprising fact, answered at once)",
+ "opening_type": "surprising fact",
  "scenes": [
   {
    "id": "hook",
    "clips": [
     [
-     "p_28405153.jpg"
-    ],
-    [
      "c_31024383.mp4",
      0.0
     ],
     [
-     "p_31100329.jpg"
+     "w4_38.jpg"
+    ],
+    [
+     "p_28405154.jpg"
     ]
    ],
    "clauses": [
     [
-     "Two free hours in Shinjuku, Tokyo, before dinner?",
-     "Two free hours in Shinjuku, Tokyo, before dinner?"
+     "Tokyo has a free city view, two hundred and two metres up, in Shinjuku.",
+     "Tokyo has a free city view, 202 metres up, in Shinjuku."
     ],
     [
-     "See a garden first, then a free city view.",
-     "See a garden first, then a free city view."
+     "Two hours before dinner?",
+     "Two hours before dinner?"
+    ],
+    [
+     "See the garden first.",
+     "See the garden first."
     ]
    ]
   },
@@ -55,40 +120,33 @@
    "id": "pick1",
    "clips": [
     [
-     "p_38410094.jpg"
-    ],
-    [
      "w4_34.jpg"
     ],
     [
      "w4_35.jpg"
     ],
     [
-     "p_37644815.jpg"
+     "p_38410094.jpg"
     ]
    ],
    "card": {
     "color": "mint",
-    "kicker": "#1 IF YOU START EARLY",
+    "kicker": "#1 FIRST",
     "title": "Shinjuku Gyoen",
-    "small": "red maples in autumn"
+    "small": "red maples in late autumn"
    },
    "clauses": [
     [
-     "Number one: Shinjuku Gyoen garden,",
-     "Number one: Shinjuku Gyoen garden,"
+     "Shinjuku Gyoen comes first,",
+     "Shinjuku Gyoen comes first,"
     ],
     [
-     "if you start early.",
-     "if you start early."
+     "because in winter it closes early.",
+     "because in winter it closes early."
     ],
     [
-     "In autumn, the maples",
-     "In autumn, the maples"
-    ],
-    [
-     "near the Shinjuku Gate turn red.",
-     "near the Shinjuku Gate turn red."
+     "Its maples turn red in late autumn.",
+     "Its maples turn red in late autumn."
     ]
    ]
   },
@@ -103,7 +161,7 @@
     ],
     [
      "c_30995856.mp4",
-     0.0
+     2.0
     ],
     [
      "p_40437973.jpg"
@@ -113,40 +171,20 @@
     "color": "sun",
     "kicker": "#2 FREE",
     "title": "City view, 202 m up",
-    "small": "best at sunset"
+    "small": "go at sunset, stay for the lights"
    },
    "clauses": [
     [
-     "Number two: the free city view",
-     "Number two: the free city view"
+     "Then go up the Tokyo government building at sunset.",
+     "Then go up the Tokyo government building at sunset."
     ],
     [
-     "from the Tokyo government building, best at sunset.",
-     "from the Tokyo government building, best at sunset."
-    ]
-   ]
-  },
-  {
-   "id": "detail",
-   "clips": [
-    [
-     "w_64.jpg"
+     "After dark, a free light show",
+     "After dark, a free light show"
     ],
     [
-     "w_57.jpg"
-    ],
-    [
-     "w_62.jpg"
-    ]
-   ],
-   "clauses": [
-    [
-     "In winter, the garden closes early in the afternoon,",
-     "In winter, the garden closes early in the afternoon,"
-    ],
-    [
-     "so always do the garden first.",
-     "so always do the garden first."
+     "plays on its outside wall.",
+     "plays on its outside wall."
     ]
    ]
   },
@@ -165,16 +203,15 @@
    ],
    "clauses": [
     [
-     "Bonus: behind Golden Gai, red gates lead to a quiet shrine where performers pray for luck.",
-     "Bonus: behind Golden Gai, red gates lead to a quiet shrine where performers pray for luck."
+     "Comment GARDEN for our free Shinjuku evening plan,",
+     "Comment GARDEN for our free Shinjuku evening plan,"
     ],
     [
-     "Comment GARDEN for our free Shinjuku evening plan, including an izakaya alley tour to end the night.",
-     "Comment GARDEN for our free Shinjuku evening plan, including an izakaya alley tour to end the night."
+     "including a quiet shrine behind Golden Gai.",
+     "including a quiet shrine behind Golden Gai."
     ]
    ]
   }
  ],
- "caption": "2 free hours in Shinjuku, Tokyo, before dinner? 🍁\nSee a garden first, then a free city view.\n\n🥇 Shinjuku Gyoen garden (start early)\n🍁 In autumn, the maples turn red.\n🌳 Stay near the Shinjuku Gate end,\nso you never have to rush out.\n\n🥈 Free view from the Tokyo government building\n🏙️ It's free and 202 m up.\n🌅 Go near sunset, stay for the city lights.\n⏱️ Allow about an hour, with the lift queue.\n✨ After dark, a free light show\nplays on the building's outside wall.\n\n⏰ Winter tip\nThe garden closes early in the afternoon,\nso do the garden first.\n\n⛩️ Bonus: behind Golden Gai, red gates lead\nto a quiet shrine where performers pray for luck.\n💬 Comment GARDEN for our free Shinjuku evening plan,\nincluding an izakaya alley tour to end the night.\n\n📲 Send this to whoever you're having dinner with.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#shinjuku #shinjukugyoen #tokyoautumn #tokyometropolitangovernmentbuilding #hanazonoshrine #tokyotravel #japantravel #japantrip",
- "readable_v": 1
+ "caption": "Tokyo has a free city view, 202 m up 🌇\nIt's in Shinjuku. Two hours before dinner?\nSee the garden first.\n\n🥇 Shinjuku Gyoen garden\n🍁 The maples turn red in late autumn.\n🌳 Stay near the Shinjuku Gate end.\n⏰ In winter it closes early, so go first.\n\n🥈 Tokyo government building\n🏙️ The observatory is free, 202 m up.\n🌅 Go near sunset, stay for the lights.\n✨ After dark, a free light show\nplays on the building's outside wall.\n\n⛩️ Behind Golden Gai, red gates lead\nto a quiet shrine where performers pray for luck.\n\n💬 Comment GARDEN for our free\nShinjuku evening plan, including that shrine\nand an izakaya alley tour.\n\n📲 Send this to whoever you're having dinner with.\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#shinjuku #shinjukugyoen #tokyoautumn #tokyoviews #tokyotravel #japantravel #japantrip"
 }
