@@ -335,6 +335,10 @@
   "url": "https://japanbystation.com/food-near-kyoto-station",
   "title": "Food Near Kyoto Station: Breakfast, Lunch and Dinner, Side by Side"
  },
+ "TAKOYAKI": {
+  "url": "https://japanbystation.com/food-near-namba-station",
+  "title": "Food Near Namba Station: Eight Places From a Morning Cheesecake to Late-Night Skewers"
+ },
  "EKIMAE": {
   "url": "https://japanbystation.com/food-near-osaka-umeda-station",
   "title": "Food Near Osaka Station (Umeda): Breakfast, Lunch, Dinner and a Late Supermarket"
@@ -342,5 +346,13 @@
  "SLURP": {
   "url": "https://japanbystation.com/food-near-shinjuku-station",
   "title": "Food Near Shinjuku Station: Breakfast, Lunch, Dinner and Late Night by Exit"
+ },
+ "HACHIJO": {
+  "url": "https://japanbystation.com/kyoto-station-coin-lockers",
+  "title": "Coin Lockers at Kyoto Station: Prices, Where the Big Ones Are, What to Do When They're Full"
+ },
+ "LOCKER": {
+  "url": "https://japanbystation.com/shinjuku-station-coin-lockers",
+  "title": "Coin Lockers at Shinjuku Station: Prices, Where the Big Ones Are, What If They're Full"
  }
 }
