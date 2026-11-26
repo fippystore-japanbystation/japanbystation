@@ -370,5 +370,29 @@
  "LOCKER": {
   "url": "https://japanbystation.com/shinjuku-station-coin-lockers",
   "title": "Coin Lockers at Shinjuku Station: Prices, Where the Big Ones Are, What If They're Full"
+ },
+ "TOKYO": {
+  "url": "https://japanbystation.com/tokyo",
+  "title": "All our Tokyo guides"
+ },
+ "HOKKAIDO": {
+  "url": "https://japanbystation.com/hokkaido",
+  "title": "All our Hokkaido guides"
+ },
+ "NARA": {
+  "url": "https://japanbystation.com/nara",
+  "title": "All our Nara guides"
+ },
+ "OKINAWA": {
+  "url": "https://japanbystation.com/okinawa",
+  "title": "All our Okinawa guides"
+ },
+ "HIROSHIMA": {
+  "url": "https://japanbystation.com/hiroshima",
+  "title": "All our Hiroshima guides"
+ },
+ "NAGOYA": {
+  "url": "https://japanbystation.com/nagoya",
+  "title": "All our Nagoya guides"
  }
 }
