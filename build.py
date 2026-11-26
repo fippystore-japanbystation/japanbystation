@@ -571,6 +571,12 @@ for g in sorted(ALLG,key=lambda g:g.get("date","")):
     for _al in (g.get("keyword_aliases") or []):   # Ling 25 Nov: area words like SHIBUYA can also trigger the guide
         assert _al not in _kw, f"duplicate keyword alias {_al}"
         _kw[_al]=_kw[k]
+# City hubs (26 Nov, route-card carousels: "Comment TOKYO for our free guides to all 4 walks" -> the city's hub page with
+# every guide). Only where the city word isn't already a guide keyword (OSAKA/KYOTO stay on their guides).
+for _hub in ("tokyo","osaka","kyoto","hokkaido","fukuoka","nara","okinawa","hiroshima","nagoya"):
+    _K=_hub.upper()
+    if _K not in _kw and os.path.exists(f"{OUT}/{_hub}.html"):
+        _kw[_K]={"url":"https://japanbystation.com/"+_hub,"title":f"All our {_hub.capitalize()} guides"}
 open(f"{OUT}/keywords.json","w").write(_json.dumps(_kw,ensure_ascii=False,indent=1))
 print("keywords:",len(_kw))
 

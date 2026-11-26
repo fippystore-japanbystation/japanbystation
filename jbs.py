@@ -91,16 +91,30 @@ def add_reel(slugs):
         if not (sp.get("noguide") or sp.get("life")):   # SCENIC Reels (25 Nov) have no guide page / keyword
             assert sp["keyword"] in keys, f"keyword {sp['keyword']} missing from keywords.json - deploy the page first"
         assert sp.get("caption"), f"{s}: spec needs a caption"
-    igs = {s: encode(s) for s in slugs}
+    # CAROUSEL items (26 Nov, route cards): spec "post_as": "carousel" -> the 4:5 cards in reel/out/<slug>-cards/ are
+    # published as an IG carousel + FB multi-photo post (n8n handles type "carousel"); no video needed.
+    car = {s for s, sp in specs.items() if sp.get("post_as") == "carousel"}
+    for s in car:
+        src = os.path.join(out, s + "-cards"); dst = os.path.join(MAIN, "carousels", s)
+        cards = sorted(f for f in os.listdir(src) if f.endswith(".jpg"))
+        assert 2 <= len(cards) <= 10, f"{s}: a carousel needs 2-10 cards, has {len(cards)}"
+        os.makedirs(dst, exist_ok=True)
+        for f in cards: shutil.copy(os.path.join(src, f), os.path.join(dst, f))
+        specs[s]["_images"] = [f"https://japanbystation.com/carousels/{s}/{f}" for f in cards]
+    igs = {s: encode(s) for s in slugs if s not in car}
     qp = os.path.join(MAIN, "reels-queue.json"); q = json.load(open(qp))
     for s, sp in specs.items():
         shutil.copy(os.path.join(out, s + ".jpg"), os.path.join(MAIN, "covers", s + ".jpg"))
         for i in q["items"]:
             if i["slug"] == s: i["caption"] = sp["caption"]   # re-cut of a queued Reel: new video + new caption
         if not any(i["slug"] == s for i in q["items"]):
-            q["items"].append({"slug": s, "keyword": sp.get("keyword") or "",
-                               "video_url": f"https://media.japanbystation-web.pages.dev/{s}.mp4",
-                               "cover_url": f"https://japanbystation.com/covers/{s}.jpg", "caption": sp["caption"]})
+            if s in car:
+                q["items"].append({"slug": s, "type": "carousel", "keyword": sp.get("keyword") or "", "images": sp["_images"],
+                                   "cover_url": f"https://japanbystation.com/covers/{s}.jpg", "caption": sp["caption"]})
+            else:
+                q["items"].append({"slug": s, "keyword": sp.get("keyword") or "",
+                                   "video_url": f"https://media.japanbystation-web.pages.dev/{s}.mp4",
+                                   "cover_url": f"https://japanbystation.com/covers/{s}.jpg", "caption": sp["caption"]})
     keep = [i["slug"] for i in q["items"][-45:]]
     # media branch: rebuilt as a single orphan commit holding only recent videos (no git bloat)
     pull(MEDIA, "media")

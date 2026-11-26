@@ -86,3 +86,8 @@ Next experiments
 ## SPLIT TEST ("Everyone goes to / Go here instead", started 26 Nov; key metric = shares)
 | slug | posted | reach 24h | watch 24h | saves | shares | reach 48h | shares 48h | same-day normal Reels avg shares |
 |---|---|---|---|---|---|---|---|---|
+
+
+## ROUTE TEST (route-card carousels, started 26 Nov; key metrics = saves + shares)
+| slug | posted | reach 24h | saves | shares | reach 48h | saves 48h | shares 48h | same-day Reels avg saves/shares |
+|---|---|---|---|---|---|---|---|---|
