@@ -11,8 +11,8 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] G13 · food-near-namba-station · TAKOYAKI · page ✓ — FB fun post fb-takoyaki-1 queued  (Osaka · GROUND · Food near Namba Station)
 - [x] G12 · osaka-station-coin-lockers · SAKURABASHI · page ✓ — FB: none new (queue buffer)  (Osaka · GROUND · Coin lockers at Osaka / Umeda Station: prices and whe)
 - [x] G14 · namba-station-coin-lockers · NAMBALOCKER · page ✓ — FB fun post fb-nambalocker-1 queued  (Osaka · GROUND · Coin lockers at Namba Station (Nankai side, XXL locke)
-- [ ] G15 · Osaka · GROUND · Shin-Osaka Station: where to eat and where to leave your bags (one page) · searches: "where to eat shin osaka station", "coin lockers shin osaka station"
-- [ ] G18 · Fukuoka · GROUND · Food near Hakata Station · searches: "restaurants near hakata station", "best food near hakata station"
+- [~] 26 Nov 15:43 G15 · Osaka · GROUND · Shin-Osaka Station: where to eat and where to leave your bags (one page) · searches: "where to eat shin osaka station", "coin lockers shin osaka station"
+- [~] 26 Nov 15:43 G18 · Fukuoka · GROUND · Food near Hakata Station · searches: "restaurants near hakata station", "best food near hakata station"
 - [ ] G19 · Hokkaido · GROUND · Food near Sapporo Station · searches: "restaurants near sapporo station", "best food near sapporo station"
 - [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓ · reel ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts queued with images
 - [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓ · reel ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts queued with images
@@ -229,7 +229,7 @@ WALK lines (26 Nov, Ling): one page per route-card set (PLAYBOOK 2e). Take a WAL
 - [x] G02 · shinjuku-station-coin-lockers · LOCKER · page ✓ — FB: none new (queue buffer)  (Tokyo · GROUND · Coin lockers at Shinjuku Station)
 - [ ] X03 · Osaka · SEASON · Osaka winter lights 2026: Osaka Hikari Renaissance (Nakanoshima), Midosuji illumination, Namba Hikari Tabi, Umeda — dates, free or paid, a one-evening route
 - [x] G03 · food-near-tokyo-station · EKIBEN · page ✓ — FB fun post fb-ekiben-1 queued  (Tokyo · GROUND · Food at and near Tokyo Station (inside the gates vs Y)
-- [ ] G04 · Tokyo · GROUND · Luggage at Tokyo Station: lockers vs staffed counters, overnight/multiple days, Shinkansen side · searches: "luggage storage tokyo station price", "luggage storage tokyo station multiple days", "luggage storage tokyo station shinkansen"
+- [~] 26 Nov 15:43 G04 · Tokyo · GROUND · Luggage at Tokyo Station: lockers vs staffed counters, overnight/multiple days, Shinkansen side · searches: "luggage storage tokyo station price", "luggage storage tokyo station multiple days", "luggage storage tokyo station shinkansen"
 - [ ] X04 · Tokyo · SEASON · Tokyo winter illuminations 2026: Marunouchi, Roppongi Keyakizaka, Tokyo Dome City, Yomiuriland Jewellumination, Sumida bamboo lanterns — dates, free or paid, one evening plan
 - [ ] X05 · Tokyo · SEASON · New Year in Japan for visitors: what closes 31 Dec–3 Jan, hatsumode (where it is calm vs packed), fukubukuro lucky bags, New Year food
 - [ ] G05 · Tokyo · GROUND · Food near Shibuya Station by exit (halal/vegetarian only if officially listed) · searches: "food near shibuya station", "places to eat near shibuya station", "halal food near shibuya station"
