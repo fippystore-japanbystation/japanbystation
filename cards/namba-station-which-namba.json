@@ -1,0 +1,14 @@
+{
+ "station": "Namba Station",
+ "city": "Osaka",
+ "subtitle": "4 stations, 1 name · go by exit",
+ "rows": [
+  {"to": "Dotonbori", "sub": "Hozenji, Shinsaibashisuji arcade", "line": "Osaka Metro", "line_color": "#E5171F", "exit": "14", "note": "3–5 min walk · east of Midosuji"},
+  {"to": "Nankai airport trains", "sub": "Namba Parks, Takashimaya", "line": "Osaka Metro", "line_color": "#E5171F", "exit": "4", "note": "rapi:t to Kansai Airport"},
+  {"to": "Namba HIPS", "line": "Osaka Metro", "line_color": "#E5171F", "exit": "15-B", "note": "Covered walkway into the building"},
+  {"to": "Kintetsu / Hanshin trains", "sub": "Nara, Kobe · Namba Walk", "line": "Osaka Metro", "line_color": "#E5171F", "exit": "27", "note": "Follow signs: gates along Namba Walk"},
+  {"to": "JR Namba · OCAT airport bus", "line": "Yotsubashi Line", "line_color": "#0078BA", "exit": "30", "note": "Connecting passage"}
+ ],
+ "tips": ["Exit 25 also reaches Dotonbori, from the west side of Midosuji"],
+ "checked": "26 Nov 2026"
+}

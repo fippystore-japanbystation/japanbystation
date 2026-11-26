@@ -1,0 +1,13 @@
+{
+ "station": "Shin-Osaka Station",
+ "city": "Osaka",
+ "subtitle": "Bullet trains · 4 min from Osaka Stn",
+ "rows": [
+  {"to": "remm Shin-Osaka", "sub": "For the first Shinkansen", "line": "Shinkansen", "line_color": "#F08300", "exit": "Central", "note": "Directly connected"},
+  {"to": "Courtyard by Marriott", "sub": "Shin-Osaka Station", "line": "Shinkansen", "line_color": "#F08300", "exit": "North", "note": "Over the deck · about 1 min"},
+  {"to": "Via Inn Shin-Osaka", "sub": "XL coin lockers here", "line": "JR lines", "line_color": "#0072BC", "exit": "East", "note": "About 3 min · lockers on the south side"},
+  {"to": "Washington Hotel Plaza", "sub": "Via Inn Shomenguchi", "line": "JR lines", "line_color": "#0072BC", "exit": "Front", "note": "Go down to the 1st floor"}
+ ],
+ "tips": ["Main concourse is on the 3rd floor: Shinkansen and JR gates side by side"],
+ "checked": "26 Nov 2026"
+}

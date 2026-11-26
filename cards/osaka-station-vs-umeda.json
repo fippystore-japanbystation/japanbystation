@@ -1,0 +1,13 @@
+{
+ "station": "Osaka Station",
+ "city": "Osaka · Umeda",
+ "subtitle": "JR Osaka = Umeda · one walkable hub",
+ "rows": [
+  {"to": "HARUKA to Kansai Airport", "sub": "Underground track 21", "line": "JR Osaka", "line_color": "#0072BC", "exit": "West Gate", "note": "Track 24 = towards Kyoto"},
+  {"to": "Osaka Station Hotel", "line": "JR Osaka", "line_color": "#0072BC", "exit": "West Gate", "note": "Directly connected"},
+  {"to": "Hotel Granvia Osaka", "line": "JR Osaka", "line_color": "#0072BC", "exit": "Central", "note": "Out of the gate, turn right"},
+  {"to": "Grand Front Osaka", "sub": "Hotel Hankyu RESPIRE", "line": "JR Osaka", "line_color": "#0072BC", "exit": "3F Bridge", "note": "North over the deck · 3 min"}
+ ],
+ "tips": ["Umeda has six stations (JR, Metro, Hankyu, Hanshin…), all linked on foot"],
+ "checked": "26 Nov 2026"
+}

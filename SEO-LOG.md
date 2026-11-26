@@ -4,6 +4,13 @@ Newest first. One block per run: queries seen, pages changed, new guides, indexi
 AUDIT CURSOR: 2026-11-26 run 3 → audited lake-kawaguchi-station-or-lake-view … nifrel-two-hours + minoh-falls-to-katsuoji + namba.html (11). NEXT: the food-near-* pages (kyoto, namba, osaka-umeda, shinjuku; not audited yet), then osaka-* guides alphabetical (osaka-christmas-markets-2026, osaka-hotels-by-budget, osaka-live-like-a-local, osaka-local-markets, osaka-night-owls, osaka-station-vs-umeda), otaru-*, sakai-*, sapporo-*. Titles >60 still: kyoto-where-to-stay-first-trip (65), tokyo-disney (65), osaka-hotels-by-budget (63), shinjuku-which-station (63). ~16 guides still WITHOUT keyfacts. Kagurazaka still not in a stations.json cluster (no fitting station).
 
 
+
+## 2026-11-26 13:30 MYT (main session, Ling: "nobody clicks")
+- 24 h (fresh) data: 228 impressions, 0 clicks, avg pos 9.9. The audit had been reading 28 d data (11 impressions, ends 23 Nov) → rule CLICKS FIRST added to PLAYBOOK 8.
+- Top pages 24 h: namba-station-which-namba 55 imp pos 11.9 · shin-osaka-vs-osaka-station 49 / 8.0 · osaka-station-vs-umeda 39 / 11.7 · minoh-falls-autumn-afternoon 12 / 6.5 · home 10 / 1.4 · about 9 / 4.3 · lake-kawaguchi-half-day-cycling 8 / 7.3 · osaka-hotels-by-budget 8 / 11.6. Top queries: namba station 29 (8.3), shin osaka station 15 (6.6), shin osaka 7, osaka umeda station 7 (8.4), umeda station 7 (19.6), minoh falls autumn 3 (2.3), is umeda station same as osaka station 3 (12.0).
+- SERP "namba station" (gl=us): Wikipedia, Osaka Metro station guide, Navitime complete guide, Reddit, a Namba station map PDF, Klook. Intent = map / which exit.
+- Done: exit cards for the 3 station pages (cards/*.json → site/exitcards/*.jpg, on the page under the lede); titles + descriptions rewritten for CTR (old titles in PLAYBOOK 8 CLICKS FIRST). Judge 3 Dec.
+
 ## 2026-11-26 (scheduled SEO AUDIT run 3, 01:28 UTC = 09:28 MYT; DEEP mode)
 - Search Console 28 d: unchanged, data still ends 23 Nov (11 impressions, 0 clicks, avg pos 15.3, only query "station" "osaka" 5). No brand-query rows yet.
 - BRAND in Google (gl=us, no quotes): "japan by station" → #1 home, NOW with the NEW title "Japan by Station: Checked Japan Travel Guides That Save Time" (recrawl done) + AI Overview mentions Japan by Station. "japanbystation" → "Did you mean: japan station", we hold #1 home (new title + new description), #2 /about (snippet still the OLD description "organised by train station"; current one is fine → wait), IG #3, /guides #4 (old "Every Japan by Station guide…" snippet), /disclosure, /privacy (old tagline snippet). Favicon: STILL grey globe; site name still "japanbystation.com".
