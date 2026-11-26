@@ -9,8 +9,8 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] G17 · kyoto-station-coin-lockers · HACHIJO · page ✓ — FB fun post fb-hachijo-1 queued  (Kyoto · GROUND · Coin lockers at Kyoto Station)
 - [ ] SEO · Kyoto · Kyoto Station to Arashiyama: JR Sagano Line vs bus, which Arashiyama station, how long and what it costs · searches: "kyoto station to arashiyama", "kyoto station to arashiyama bamboo forest" (Google autocomplete 26 Nov, #7 and #10 for "kyoto station"; R15 covers crowds/timing, not the route)
 - [x] G13 · food-near-namba-station · TAKOYAKI · page ✓ — FB fun post fb-takoyaki-1 queued  (Osaka · GROUND · Food near Namba Station)
-- [~] 2026-11-26 03:42Z G12 · Osaka · GROUND · Coin lockers at Osaka / Umeda Station: prices and where the big ones are · searches: "coin locker osaka station price", "coin lockers umeda station"
-- [~] 2026-11-26 03:42Z G14 · Osaka · GROUND · Coin lockers at Namba Station (Nankai side, XXL lockers for airport cases) · searches: "coin locker namba station price", "xxl luggage coin lockers namba station"
+- [x] G12 · osaka-station-coin-lockers · SAKURABASHI · page ✓ — FB: none new (queue buffer)  (Osaka · GROUND · Coin lockers at Osaka / Umeda Station: prices and whe)
+- [x] G14 · namba-station-coin-lockers · NAMBALOCKER · page ✓ — FB fun post fb-nambalocker-1 queued  (Osaka · GROUND · Coin lockers at Namba Station (Nankai side, XXL locke)
 - [ ] G15 · Osaka · GROUND · Shin-Osaka Station: where to eat and where to leave your bags (one page) · searches: "where to eat shin osaka station", "coin lockers shin osaka station"
 - [ ] G18 · Fukuoka · GROUND · Food near Hakata Station · searches: "restaurants near hakata station", "best food near hakata station"
 - [ ] G19 · Hokkaido · GROUND · Food near Sapporo Station · searches: "restaurants near sapporo station", "best food near sapporo station"
@@ -53,6 +53,11 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [ ] F08 · Nara · FOOD · Nara's own food: kakinoha-zushi, Miwa somen, chagayu, Yoshino kuzu
 
 ## DONE (guide slug · keyword · Reel?)  ← add every new item here
+- food-near-tokyo-station · EKIBEN · page (26 Nov, GROUND G03: Ekibenya Matsuri inside gates 5:30–22:00 150+ ekiben; Rokurinsha 7:30–9:45 + 10–23; T's Tantan vegan B1 outside gates 10–22 (moved from Keiyo St); Kantaro standing sushi + kaitenzushi; Kurokatsutei; Tamatoya monja Kurobei Yokocho 11–23; all 4★+; Burdigala/Standard Bakers/Honnoriya/Soranoiro/Echigo soba rejected <4.0; one more = Gransta on TABETE app)
+- osaka-station-coin-lockers · SAKURABASHI · page (26 Nov, GROUND G12: JR S¥400/M¥500/L¥700 any IC card 4:40–24:40; Central room 162 L, Sakurabashi ~126 L quieter; ICOCA Locker Search live; Crosta Osaka 9–20 ¥1,000 / delivery ¥2,000; TiS ¥1,000; one more = Hankyu animal-marked 24 h lockers)
+- namba-station-coin-lockers · NAMBALOCKER · page (26 Nov, GROUND G14: 16 XL total = Nankai 8 (north exit SMBC 6, Central gate ATM 2) + Kintetsu East gate 8 ¥800–1,000; Nankai mostly cash, B1 bank IC; n·e·s·t 2F ¥800/day ≤220 cm, to KIX ¥2,500; Kintetsu delivery lockers ¥1,900–2,800; one more = SPACER booking of Kintetsu blue lockers)
+- photo backfill 26 Nov run 3: namba-5000-yen-private-room (+3), shibuya-nightlife-quiet-room (+2), kawaguchiko-cloudy-fuji-forecast (+3); no facts changed
+- FB reformat (SHORT LINES, fmt 2) 26 Nov run 3: tenma-1, local-1b, market-1, nakazaki-1, group-1, bullet-1, landing-1, suitcase-2, asakusa-1, asakusa-2
 - shinjuku-station-coin-lockers · LOCKER · page (26 Nov, GROUND G02: JR East prices SS ¥300 / S ¥500 / M ¥700–800 / L ¥900–1,000; Platforms 5–6 B1 passage 42 L 'less crowded'; South Gate 76 L, East Exit 64 L, New South Penguin Plaza 41 L; Multi ecube booking ¥500, delivery 9:30/11:00; ecbo ¥800/¥1,000; one more = drop the case before leaving the N'EX gates)
 - kyoto-station-coin-lockers · HACHIJO · page (26 Nov, GROUND G17: about ¥400/500/700/1,000; JR Central Multi Cube Hachijo 72 lockers, 40 L, ¥500 booking, delivery ¥1,500–1,700; Kintetsu 45 coin lockers ¥100 coins; pikuraku delivery by 14:00 ¥1,900–2,800; Crosta B1; Smart Navi live map; one more = Platform 0 lockers). Also fixed kyoto-station-which-exit Crosta cutoff 13:00 → 14:00 (hands-free.kyoto.travel)
 - food-near-namba-station · TAKOYAKI · page (26 Nov, GROUND G13: Rikuro 9:30, Wanaka, Hokkyokusei Takashimaya B1, 551 Horai, Imai kitsune udon ¥930, Ajinoya, Meoto Zenzai to 22:30, Yakiton Center to 23:30; all 4★+ Google; no official halal; one more = Usami-tei Matsubaya 1893)
@@ -212,7 +217,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] G01 · food-near-shinjuku-station · SLURP · page ✓ — FB posts queued with images  (Tokyo · GROUND · Food near Shinjuku Station, by exit and time of day (breakfast,…)
 - [x] G02 · shinjuku-station-coin-lockers · LOCKER · page ✓ — FB: none new (queue buffer)  (Tokyo · GROUND · Coin lockers at Shinjuku Station)
 - [ ] X03 · Osaka · SEASON · Osaka winter lights 2026: Osaka Hikari Renaissance (Nakanoshima), Midosuji illumination, Namba Hikari Tabi, Umeda — dates, free or paid, a one-evening route
-- [~] 2026-11-26 03:42Z G03 · Tokyo · GROUND · Food at and near Tokyo Station (inside the gates vs Yaesu side; early and late options) · searches: "food at tokyo station", "food near tokyo station open now"
+- [x] G03 · food-near-tokyo-station · EKIBEN · page ✓ — FB fun post fb-ekiben-1 queued  (Tokyo · GROUND · Food at and near Tokyo Station (inside the gates vs Y)
 - [ ] G04 · Tokyo · GROUND · Luggage at Tokyo Station: lockers vs staffed counters, overnight/multiple days, Shinkansen side · searches: "luggage storage tokyo station price", "luggage storage tokyo station multiple days", "luggage storage tokyo station shinkansen"
 - [ ] X04 · Tokyo · SEASON · Tokyo winter illuminations 2026: Marunouchi, Roppongi Keyakizaka, Tokyo Dome City, Yomiuriland Jewellumination, Sumida bamboo lanterns — dates, free or paid, one evening plan
 - [ ] X05 · Tokyo · SEASON · New Year in Japan for visitors: what closes 31 Dec–3 Jan, hatsumode (where it is calm vs packed), fukubukuro lucky bags, New Year food
