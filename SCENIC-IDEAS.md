@@ -18,3 +18,17 @@ Take the first unticked line. Rules: PLAYBOOK 3 "SCENIC REELS" and 2b "FB FORMAT
 - [ ] S16 · Nikko's Shinkyo bridge and shrines (Tochigi)
 - [ ] S17 · Tottori Sand Dunes — Japan's desert by the sea
 - [ ] S18 · Naoshima art island (Kagawa) — the yellow pumpkin and museums
+
+## NATURE (Ling, 26 Nov: "people love nature now") — take these before the remaining town lines; facts only from the official tourism site, winter-true
+- [ ] S19 · Jigokudani Snow Monkey Park (Nagano) — wild monkeys in hot springs, deep snow in winter
+- [ ] S20 · Oirase Gorge in winter (Aomori) — frozen waterfalls and icicles along the stream
+- [ ] S21 · Takachiho Gorge (Miyazaki) — rowing under the Manai Falls between basalt cliffs
+- [ ] S22 · Nachi Falls and the red pagoda (Wakayama) — Japan's tallest single-drop waterfall
+- [ ] S23 · Lake Biwa's torii in the water at Shirahige Shrine (Shiga) — sunrise over the lake
+- [ ] S24 · Mt. Takao in winter (Tokyo) — an easy hike with a Fuji view on clear days, under an hour from Shinjuku
+- [ ] S25 · Yufuin's morning mist over Lake Kinrin (Oita) — best on cold mornings
+- [ ] S26 · Iya Valley vine bridge (Tokushima) — a swaying bridge over a deep green gorge
+- [ ] S27 · Kegon Falls in winter (Nikko, Tochigi) — partly frozen in the cold months
+- [ ] S28 · Lake Shikotsu (Hokkaido) — clear blue water that doesn't freeze, near New Chitose Airport
+- [ ] S29 · Owakudani's steaming valley and black eggs (Hakone) — Fuji behind on clear days
+- [ ] S30 · Kumano Kodo stone path through cedar forest (Wakayama) — a short walk from Daimon-zaka
