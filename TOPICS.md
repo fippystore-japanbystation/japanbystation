@@ -11,8 +11,8 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] G13 · food-near-namba-station · TAKOYAKI · page ✓ — FB fun post fb-takoyaki-1 queued  (Osaka · GROUND · Food near Namba Station)
 - [x] G12 · osaka-station-coin-lockers · SAKURABASHI · page ✓ — FB: none new (queue buffer)  (Osaka · GROUND · Coin lockers at Osaka / Umeda Station: prices and whe)
 - [x] G14 · namba-station-coin-lockers · NAMBALOCKER · page ✓ — FB fun post fb-nambalocker-1 queued  (Osaka · GROUND · Coin lockers at Namba Station (Nankai side, XXL locke)
-- [~] 26 Nov 15:43 G15 · Osaka · GROUND · Shin-Osaka Station: where to eat and where to leave your bags (one page) · searches: "where to eat shin osaka station", "coin lockers shin osaka station"
-- [~] 26 Nov 15:43 G18 · Fukuoka · GROUND · Food near Hakata Station · searches: "restaurants near hakata station", "best food near hakata station"
+- [x] G15 · shin-osaka-station-food-and-lockers · SHINKANSEN · page ✓ — FB: none new (queue buffer, max 2 fun posts)  (Osaka · GROUND · Shin-Osaka Station: where to eat and where to leave your bags)
+- [x] G18 · food-near-hakata-station · MENTAIKO · page ✓ — FB fun post fb-mentaiko-1 queued  (Fukuoka · GROUND · Food near Hakata Station)
 - [ ] G19 · Hokkaido · GROUND · Food near Sapporo Station · searches: "restaurants near sapporo station", "best food near sapporo station"
 - [x] R01 · sapporo-where-to-stay-first-trip · SAPPORO · page ✓ · reel ✓  (Hokkaido · Sapporo Station vs Odori vs Susukino) — FB posts queued with images
 - [x] R02 · kyoto-where-to-stay-first-trip · KYOTO · page ✓ · reel ✓  (Kyoto · Kyoto Station vs Karasuma vs Kawaramachi/Gion) — FB posts queued with images
@@ -53,6 +53,11 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [ ] F08 · Nara · FOOD · Nara's own food: kakinoha-zushi, Miwa somen, chagayu, Yoshino kuzu
 
 ## DONE (guide slug · keyword · Reel?)  ← add every new item here
+- tokyo-station-coin-lockers · GRANSTA · page (26 Nov, GROUND G04: JR East SS ¥300/S ¥500/M ¥700–800/L ¥900–1,000; B1 GRANSTA bank S728 M152 L40 only; Yaesu North gate bank fills first; Baggage Storage Center ¥420/night (¥840 from night 6) 8:00–20:00, same-day ¥600 to 20:30; GRANSTA Cloak 8:30–21:00; Travel Service Center Marunouchi N 8:30–19:00; Multi ecube delivery book 9:30/drop 11:00/hotel 18:00 ¥2,500–2,700; no lift at Tohoku S / Tokaido central transfer gates; one more = B4 Sobu underground lockers)
+- shin-osaka-station-food-and-lockers · SHINKANSEN · page (26 Nov, GROUND G15: osaka-info 9 banks ~200 L, only 4 XL at JR East exit south; about ¥400/500/700/1,000; Crosta 1F 9–20 ¥1,000 / hotel ¥2,000; TiS 11–19 ¥1,000 card; picks Kissa Sancho 7:20 PayPay, Restaurant Yokoo beef katsu sando inside Shinkansen gates, Uoya Stand Fuji to 23:00; all 4★+; Kukuru/Yamamoto/Marushou rejected <4.0; one more = quiet 1F lockers)
+- food-near-hakata-station · MENTAIKO · page (26 Nov, GROUND G18: Tanya 7:00 gyutan, Kisuimaru breakfast 7:30–10:00 + free mentaiko with sets, Ishikura tai-meshi (wknd 8:30), Shin-Shin DEITOS to 24:00, Hakata Issou 11–24 cash, Hamadaya Kuten mizutaki for one 10F, Rakutenchi APA motsunabe 17–22; all 4★+; Daifuku/Inaba udon, Nadai, Amano, Hanamidori annex, Hyakusai rejected <4.0; one more = Kisuimaru free mentaiko)
+- photo backfill 26 Nov run 4: hakone-ryokan-dinner-leave-tokyo (+3), lake-kawaguchi-half-day-cycling (+3), kawaguchiko-fuji-view-room-what-you-buy (+3); no facts changed
+- FB reformat (SHORT LINES, fmt 2) 26 Nov run 4: hakone-1, hakone-2, odori-1, gluhwein-2, joya-1, tenshiba-2, nabana-1, odori-2, tenshiba-1, joya-2 (rewrite-flagged hotel posts left for the 27 Nov rewrite)
 - food-near-tokyo-station · EKIBEN · page (26 Nov, GROUND G03: Ekibenya Matsuri inside gates 5:30–22:00 150+ ekiben; Rokurinsha 7:30–9:45 + 10–23; T's Tantan vegan B1 outside gates 10–22 (moved from Keiyo St); Kantaro standing sushi + kaitenzushi; Kurokatsutei; Tamatoya monja Kurobei Yokocho 11–23; all 4★+; Burdigala/Standard Bakers/Honnoriya/Soranoiro/Echigo soba rejected <4.0; one more = Gransta on TABETE app)
 - osaka-station-coin-lockers · SAKURABASHI · page (26 Nov, GROUND G12: JR S¥400/M¥500/L¥700 any IC card 4:40–24:40; Central room 162 L, Sakurabashi ~126 L quieter; ICOCA Locker Search live; Crosta Osaka 9–20 ¥1,000 / delivery ¥2,000; TiS ¥1,000; one more = Hankyu animal-marked 24 h lockers)
 - namba-station-coin-lockers · NAMBALOCKER · page (26 Nov, GROUND G14: 16 XL total = Nankai 8 (north exit SMBC 6, Central gate ATM 2) + Kintetsu East gate 8 ¥800–1,000; Nankai mostly cash, B1 bank IC; n·e·s·t 2F ¥800/day ≤220 cm, to KIX ¥2,500; Kintetsu delivery lockers ¥1,900–2,800; one more = SPACER booking of Kintetsu blue lockers)
@@ -229,7 +234,7 @@ WALK lines (26 Nov, Ling): one page per route-card set (PLAYBOOK 2e). Take a WAL
 - [x] G02 · shinjuku-station-coin-lockers · LOCKER · page ✓ — FB: none new (queue buffer)  (Tokyo · GROUND · Coin lockers at Shinjuku Station)
 - [ ] X03 · Osaka · SEASON · Osaka winter lights 2026: Osaka Hikari Renaissance (Nakanoshima), Midosuji illumination, Namba Hikari Tabi, Umeda — dates, free or paid, a one-evening route
 - [x] G03 · food-near-tokyo-station · EKIBEN · page ✓ — FB fun post fb-ekiben-1 queued  (Tokyo · GROUND · Food at and near Tokyo Station (inside the gates vs Y)
-- [~] 26 Nov 15:43 G04 · Tokyo · GROUND · Luggage at Tokyo Station: lockers vs staffed counters, overnight/multiple days, Shinkansen side · searches: "luggage storage tokyo station price", "luggage storage tokyo station multiple days", "luggage storage tokyo station shinkansen"
+- [x] G04 · tokyo-station-coin-lockers · GRANSTA · page ✓ — FB fun post fb-gransta-1 queued  (Tokyo · GROUND · Luggage at Tokyo Station)
 - [ ] X04 · Tokyo · SEASON · Tokyo winter illuminations 2026: Marunouchi, Roppongi Keyakizaka, Tokyo Dome City, Yomiuriland Jewellumination, Sumida bamboo lanterns — dates, free or paid, one evening plan
 - [ ] X05 · Tokyo · SEASON · New Year in Japan for visitors: what closes 31 Dec–3 Jan, hatsumode (where it is calm vs packed), fukubukuro lucky bags, New Year food
 - [ ] G05 · Tokyo · GROUND · Food near Shibuya Station by exit (halal/vegetarian only if officially listed) · searches: "food near shibuya station", "places to eat near shibuya station", "halal food near shibuya station"
