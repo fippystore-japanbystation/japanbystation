@@ -22,10 +22,10 @@ Make A and B of the same topic in the same run, queue them so the pair posts abo
 - [ ] tokyo-to-kawaguchiko-big-suitcase-bus-or-train → -pb (B, post first) + -pa (A). 2 ways: Fujikyu highway bus from Busta Shinjuku · Fuji Excursion train.
 - [ ] tokyo-airport-which-train → -pa (A, post first) + -pb (B). Haneda options (Keikyu / Monorail) and Narita options as the page gives them.
 
-## ROUTE TEST (26 Nov) — route-card carousels (PLAYBOOK 3, ROUTE CARDS); 1 per run, interleave with SPLIT
-- [ ] tokyo-night-walks — "Tokyo after dark": 3–4 evening routes from our Tokyo guides (e.g. Senso-ji at night from sensoji-morning-or-evening, the river side from asakusa-across-the-river, the free night view from shinjuku-two-hours-before-dinner, Christmas lights from tokyo-christmas-markets-2026). Keyword TOKYO.
-- [ ] tokyo-slow-mornings — "Old Tokyo, slow mornings": Yanaka (yanaka-ginza-which-direction), Kiyosumi-Shirakawa (kiyosumi-*), Monzen-Nakacho market day, Kagurazaka lanes. Keyword TOKYO.
-- [ ] osaka-food-walks — 3 food walks from our Osaka food pages (food-near-namba-station, food-near-osaka-umeda-station, osaka-local-markets, osaka-night-owls). NO Tenma (cooldown). Keyword OSAKA or the guide most routes come from.
+## ROUTE TEST (26 Nov) — route-card carousels (PLAYBOOK 3, ROUTE CARDS); an EXTRA format, 1 per run at most, interleave with SPLIT; MAINSTREAM areas (Ling 15:40)
+- [ ] tokyo-night-walks — "Tokyo after dark": 3–4 evening routes in the big areas: Asakusa (sensoji-morning-or-evening, asakusa-across-the-river), Shinjuku (shinjuku-two-hours-before-dinner: the free night view), Shibuya (shibuya-crossing-view), Christmas lights (tokyo-christmas-markets-2026). Keyword TOKYO.
+- [ ] osaka-food-walks — 3 food walks in mainstream Osaka: Namba/Dotonbori (food-near-namba-station), Umeda (food-near-osaka-umeda-station), the markets (osaka-local-markets), late night (osaka-night-owls). NO Tenma (cooldown). Keyword OSAKA or the guide most routes come from.
+- [ ] kyoto-station-and-around — Kyoto's big areas from our Kyoto pages (Kyoto Station food/gifts, Fushimi Inari dawn or after dark, Kyoto in December lights) — only routes our pages support. Keyword KYOTO or the main guide's.
 
 ## SPLIT TEST (26 Nov) — after the PACE TEST pairs (PLAYBOOK 3, SPLIT REELS)
 Make 3 SPLIT Reels, 1 per run, spread over 2 days; log them in PERF.md "SPLIT TEST" (reach, watch, saves, SHARES at 24 h / 48 h vs the normal Reels of the same days).
