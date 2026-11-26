@@ -1,6 +1,20 @@
 # Keyword demand (what people search)
 Filled by the SEO task (PLAYBOOK 8, KEYWORD DEMAND). phrase · source · demand (high/med/low) · our page or "none" · next action
 
+## Autocomplete refresh 27 Nov 2026 (google.com en/US, first SEO run of the day)
+- namba station: osaka / to kyoto station / to shin osaka station / map / to dotonbori / to nara / luggage storage / to kix · high · namba-station-which-namba (all covered; PAA "Is Namba Station near Dotonbori?" now FAQ 3)
+- osaka station: hotel / to kyoto / city / map / to nara / to dotonbori / to kansai airport / shinkansen · high · osaka-station-vs-umeda + osaka-station-coin-lockers + food-near-osaka-umeda-station
+- shin osaka station: to kyoto / to namba / map / to dotonbori / directory / to osaka station / luggage storage / hotel / vs osaka station · high · shin-osaka-vs-osaka-station, shin-osaka-station-food-and-lockers (PAA: "How to transfer from Shin-Osaka to Osaka Station?", "Is Shin-Osaka the station for Osaka?")
+- umeda station: osaka / map / to kyoto / to namba / stamp / to umeda sky building / luggage storage / lockers / to kansai airport · med · osaka-station-vs-umeda
+- kyoto station: map / hotels / to osaka / luggage storage / shinkansen / to arashiyama · high · kyoto-station-which-exit, kyoto-station-coin-lockers, kyoto-station-to-arashiyama, kyoto-where-to-stay-first-trip
+- tokyo station: hotel / map / to narita / to haneda / shinkansen / character street / restaurants / luggage storage · high · tokyo-station-coin-lockers, food-near-tokyo-station, tokyo-airport-which-train; H01 hub + Character Street line still open in TOPICS
+- shinjuku station: map / tokyo / to kawaguchiko / restaurant · high · H02 hub open; tokyo-to-kawaguchiko-big-suitcase-bus-or-train, food-near-shinjuku-station
+- sapporo station: hotel / to new chitose / to otaru / map / luggage storage / lockers / restaurants · med · NEW TOPICS line (Sapporo lockers)
+- hakata station: to fukuoka airport / hotels / luggage storage / shops · med · NEW TOPICS line (Hakata lockers)
+- nara station: to deer park / luggage storage / to kyoto / lockers / map / coin locker · med · Nara Station TOPICS line (26 Nov) covers lockers
+- budget hotel osaka: reddit / namba / cheap hotel osaka / affordable · high · osaka-hotels-by-budget (ranks #3 for "osaka hotel budget"; title now ≤60 chars)
+- "japan by station" autocomplete still only suggests "japan stationery…" → brand not yet a suggestion
+
 ## Search Console (real impressions)
 - GSC 28 days to 23 Nov: 11 impressions, avg pos 15.3; pages osaka-live-like-a-local 3, osaka-local-markets 2, minoh 1, sakai 1, cup-noodles 1 (audited 25 Nov run 4)
 - "station" "osaka" · GSC 28 days · 1 impression, pos 9, page / (24 Nov 2nd run; 4 impr pos 8.3 in the 24 h view earlier) · osaka-station-vs-umeda (live 24 Nov) · wait for indexing, keep linking
