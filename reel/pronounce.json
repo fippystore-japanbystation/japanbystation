@@ -1,0 +1,12 @@
+{
+ "_note": "Japanese words the English voice must say the Japanese way (romaji -> IPA by rule in pronounce.py). Add every new place, station, line, dish or shop name a Reel says. 'override' = exact IPA when the rule is not good enough.",
+ "words": [
+  "Tokyo","Osaka","Kyoto","Nara","Kobe","Hokkaido","Sapporo","Otaru","Chitose","Susukino","Odori","Niseko","Hakodate","Asahikawa","Furano","Biei",
+  "Fukuoka","Hakata","Tenjin","Nakasu","Hiroshima","Miyajima","Itsukushima","Okinawa","Naha","Nagoya","Kanazawa","Takayama","Shirakawa-go","Kamakura","Enoshima","Yokohama","Nikko","Hakone","Gora","Yumoto","Kawaguchiko","Fujikyu","Fuji",
+  "Namba","Umeda","Shin-Osaka","Tennoji","Tenma","Tenjinbashisuji","Dotonbori","Shinsaibashi","Kuromon","Shinsekai","Tsutenkaku","Nakazakicho","Honmachi","Kitahama","Minoh","Katsuo-ji","Ikeda","Itami","Sakai","Kansai","Nankai","Kintetsu","Hankyu","Hanshin","Keihan","Midosuji","Yotsubashi","Haruka","Abeno","Harukas","Kaiyukan","Tempozan","Juso",
+  "Shinjuku","Shibuya","Harajuku","Yoyogi","Asakusa","Senso-ji","Kaminarimon","Ueno","Ginza","Akihabara","Ikebukuro","Shinagawa","Nippori","Yanaka","Kagurazaka","Kiyosumi-Shirakawa","Monzen-Nakacho","Fukagawa","Tsukiji","Toyosu","Odaiba","Roppongi","Ebisu","Shimokitazawa","Kichijoji","Haneda","Narita","Keikyu","Keisei","Yamanote","Toei","Marunouchi","Yaesu","Nihonbashi","Shiba",
+  "Arashiyama","Gion","Kiyomizu","Kiyomizu-dera","Fushimi","Inari","Nishiki","Kawaramachi","Karasuma","Hachijo","Uji","Himeji","Arima","Rokko","Kitano","Akashi","Takarazuka","Nada",
+  "Isetan","Takashimaya","Daimaru","Hozenji","Yodobashi","Nozomi","Hikari","Kodama","shinkansen","depachika","ryokan","onsen","izakaya","yatai","takoyaki","okonomiyaki","kushikatsu","yakitori","tonkatsu","udon","soba","onigiri","matcha","mochi","ekiben","omiyage","konbini","kaiseki","yukata","torii","Jingu","Meiji"
+ ],
+ "override": {}
+}

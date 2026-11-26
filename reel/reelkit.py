@@ -45,6 +45,9 @@ def voice(spec, wd):
     k = Kokoro(os.path.join(HERE, "tts/kokoro.onnx"), os.path.join(HERE, "tts/voices-v1.0.bin"))
     v = 0.6 * k.get_voice_style("am_puck") + 0.4 * k.get_voice_style("am_michael")   # Ling 24 Nov: voice D (brighter)
     sr = 24000
+    sys.path.insert(0, HERE); from pronounce import load, to_phonemes
+    from kokoro_onnx.tokenizer import Tokenizer
+    LEX = load(spec.get("pronounce")); TOK = Tokenizer()
     def trim(a, th=0.008):
         i = np.where(np.abs(a) > th)[0]; return a[max(0, i[0] - 360): i[-1] + 900]
     def syl(w):
@@ -60,7 +63,9 @@ def voice(spec, wd):
             j = i
             while j < len(cl) - 1 and cl[j][0].rstrip()[-1:] not in ".?!": j += 1
             grp = cl[i:j + 1]
-            a, sr = k.create(" ".join(x[0].strip() for x in grp), voice=v, speed=spec.get("speed", 1.05), lang="en-us")
+            # Japanese names said the Japanese way (26 Nov, Ling: "Chitose" was wrong): pronounce.py, pronounce.json
+            ph = to_phonemes(" ".join(x[0].strip() for x in grp), LEX, TOK)
+            a, sr = k.create(ph, voice=v, speed=spec.get("speed", 1.05), lang="en-us", is_phonemes=True)
             a = trim(a.astype(np.float32)); d = len(a) / sr
             sw = [sum(syl(w) for w in x[0].split()) + 0.6 for x in grp]; tot = sum(sw); c0 = t
             for (spoken, shown), x in zip(grp, sw):
