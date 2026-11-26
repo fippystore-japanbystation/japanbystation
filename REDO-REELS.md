@@ -22,7 +22,7 @@ Make A and B of the same topic in the same run, queue them so the pair posts abo
 
 ## SPLIT TEST (26 Nov) — after the PACE TEST pairs (PLAYBOOK 3, SPLIT REELS)
 Make 3 SPLIT Reels, 1 per run, spread over 2 days; log them in PERF.md "SPLIT TEST" (reach, watch, saves, SHARES at 24 h / 48 h vs the normal Reels of the same days).
-- [ ] osaka-everyone-vs-instead — Osaka: e.g. Dotonbori → Tenma, Kuromon → the market on osaka-local-markets, + other swaps our Osaka guides support (keyword: the guide most pairs come from)
+- [ ] osaka-everyone-vs-instead — Osaka: swaps our Osaka guides support (e.g. Kuromon → the market on osaka-local-markets, Shin-Osaka/Umeda hotels → Nakazakicho, Universal-day crowds → Minoh Falls). NO Tenma (PLACE COOLDOWN until 10 Dec); keyword: the guide most pairs come from
 - [ ] tokyo-everyone-vs-instead — Tokyo: e.g. Shibuya Sky → shibuya-crossing-view's pick, Tsukiji → monzen-nakacho-market-day, Asakusa crowds → yanaka-ginza / kiyosumi-shirakawa (check each page)
 - [ ] kansai-everyone-vs-instead — Kyoto/Kansai day trips: swaps our Kyoto, Nara, Minoh and Hakone-style guides support (only what the pages say)
 
