@@ -21,7 +21,7 @@ FOOT='''<footer>
     <p><b>Japan by Station</b> · Checked Japan travel answers, quick to read.</p>
     <p>Times are approximate, for the fastest regular train, and don't include waiting or walking inside big stations. We check them against operators and tourism bureaus and re-check every three months.</p>
     <p>Some links earn us a commission if you book, at no extra cost to you. <a href="disclosure.html">How we make money</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
-    <p>Photos: Pexels contributors, credited on each page.</p>
+    <p>Photos: Pexels contributors and Wikimedia Commons / Flickr photographers (CC licences), credited on each page.</p>
   </div>
 </footer>
 </body>
@@ -149,7 +149,7 @@ pages["about.html"]=(head("About Japan by Station (japanbystation.com)","Japan b
   <p>Train times come from the operators themselves, the airports and city tourism bureaus wherever they publish them. When we can only find a figure in travel guides, we say so. Each guide shows the date we checked it, and we re-check every three months.</p>
   <p>We have not stayed in every area or hotel we write about, and we don't pretend to. Our guides are built from published timetables, maps and official sources, not from paid stays.</p>
   <h2>Photos</h2>
-  <p>Our photos come from Pexels and are credited to their photographers on each page.</p>
+  <p>Our photos come from Pexels and, for real photos of a specific market, shop or dish, from Wikimedia Commons and Flickr under Creative Commons licences. Each photo is credited to its photographer, with its licence, on the page where it appears.</p>
   <h2>Contact</h2>
   <p>Spotted a wrong time or a closed attraction? Send us a message on Instagram at <b>@japanbystation</b> and we'll fix it.</p>
 '''))
