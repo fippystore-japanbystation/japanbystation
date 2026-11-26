@@ -281,5 +281,8 @@
 ],
 "tokyo-double-or-twin-two-suitcases": [
 "Ueno"
-]
+],
+ "osaka-station-coin-lockers": ["Osaka Station", "Umeda"],
+ "namba-station-coin-lockers": ["Namba", "Kansai Airport"],
+ "food-near-tokyo-station": ["Tokyo Station"]
 }
