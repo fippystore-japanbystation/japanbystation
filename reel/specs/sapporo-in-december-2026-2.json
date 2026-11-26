@@ -1,0 +1,226 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "sapporo-in-december-2026-2",
+ "keyword": "ODORI",
+ "music": "m_kyotoriver.mp3",
+ "season": true,
+ "readable_v": 1,
+ "angle": "Japan's first illumination + one-evening order (dinner first, lights after); differs from sapporo-in-december-2026 (2 events, 1 park)",
+ "emph": [
+  "Sapporo",
+  "first",
+  "market",
+  "lights",
+  "ODORI"
+ ],
+ "promise": "Sapporo has what its organisers call Japan's first winter illumination, and the best way to do it is one evening: dinner at the Christmas market first, then the Odori lights after the stalls close.",
+ "hook_candidates": [
+  {
+   "hook": "Sapporo: Japan's first winter light show",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "70,000 lights on one Sapporo street",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "Sapporo's lights: eat first, walk last",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 0,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 4
+  },
+  {
+   "hook": "Sapporo in December: 2 events",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 0,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 2
+  },
+  {
+   "hook": "Hot wine in the snow: Sapporo",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 4
+  }
+ ],
+ "hook_choice_note": "#2 also 5/5 but '70,000 lights' was the card fact of sapporo-in-december-2026 (FACT VARIETY), so #1.",
+ "hook_type": "SURPRISE FACT (Japan's first) + SEASON",
+ "opening_type": "surprising fact",
+ "hook": {
+  "tag": "SAPPORO, JAPAN",
+  "lines": [
+   "Japan's first",
+   "winter light show"
+  ]
+ },
+ "cover": {
+  "title": "Sapporo: Japan's first|winter light show",
+  "category": "ODORI PARK, SAPPORO",
+  "color": "sky",
+  "clip": "cv_w6_03.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "w6_03.jpg"
+    ],
+    [
+     "w6_05.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Sapporo calls its lights Japan's first winter illumination.",
+     "Sapporo calls its lights Japan's first winter illumination."
+    ],
+    [
+     "Do them in one evening.",
+     "Do them in one evening."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "w6_00.jpg"
+    ],
+    [
+     "w6_01.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#1 20 NOV–25 DEC",
+    "title": "Christmas market",
+    "small": "dinner under the TV Tower"
+   },
+   "clauses": [
+    [
+     "Start with dinner at the Christmas market:",
+     "Start with dinner at the Christmas market:"
+    ],
+    [
+     "hot wine and sausages from wooden huts.",
+     "hot wine and sausages from wooden huts."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "w6_10.jpg"
+    ],
+    [
+     "w6_12.jpg"
+    ],
+    [
+     "w6_14.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sky",
+    "kicker": "#2 UNTIL 25 DEC",
+    "title": "Odori Park lights",
+    "small": "walk them after the stalls close"
+   },
+   "clauses": [
+    [
+     "The stalls close before the lights,",
+     "The stalls close before the lights,"
+    ],
+    [
+     "so walk the park after dinner, when the crowds thin.",
+     "so walk the park after dinner, when the crowds thin."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "c_31150442.mp4",
+     0.0
+    ],
+    [
+     "w3_s21.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "SNOWING HARD?",
+    "title": "Go underground",
+    "small": "Sapporo Station to Odori, indoors"
+   },
+   "clauses": [
+    [
+     "Snowing hard?",
+     "Snowing hard?"
+    ],
+    [
+     "An underground walkway runs from Sapporo Station to Odori.",
+     "An underground walkway runs from Sapporo Station to Odori."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "c_31150441.mp4",
+     0.0
+    ],
+    [
+     "w6_16.jpg"
+    ],
+    [
+     "w6_17.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Comment ODORI for our free guide to Sapporo in December,",
+     "Comment ODORI for our free guide to Sapporo in December,"
+    ],
+    [
+     "including a one-evening light walk.",
+     "including a one-evening light walk."
+    ]
+   ]
+  }
+ ],
+ "caption": "Sapporo has Japan's first winter light show ✨❄️\nDo it in one evening: dinner first, lights after.\n\n🥇 Munich Christmas Market · until 25 Dec\n\n🍷 Hot wine and sausages from wooden huts.\n\n🗼 Right below the TV Tower in Odori Park.\n\n🥈 Odori Park lights · until 25 Dec\n\n🌙 The stalls close before the lights go off.\n\n✨ So walk the park after dinner, when it's quieter.\n\n🎄 Lit until midnight on 23–25 Dec.\n\n💡 Snowing hard?\n\n🚶 An underground walkway runs\nfrom Sapporo Station to Odori.\n\n💬 Comment ODORI for our free guide\nto Sapporo in December, including\na one-evening light walk.\n\n❄️ Send this to whoever you'd go with.\n\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#sapporo #sapporowhiteillumination #odoripark #hokkaido #japanwinter #japanchristmas #japantravel #japantrip"
+}

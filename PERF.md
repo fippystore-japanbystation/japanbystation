@@ -79,6 +79,8 @@ Next experiments
 ## PACE TEST (A = current style, B = theluns-style pauses + stacked list + "N ways" cover; started 26 Nov)
 | topic | variant | posted | reach 24h | watch 24h | saves | shares | reach 48h | watch 48h |
 |---|---|---|---|---|---|---|---|---|
+| kansai-airport-to-kyoto | A (-pa, "visitors pay less", 68 words) | expected 27 Nov ~01:15 MYT | | | | | | |
+| kansai-airport-to-kyoto | B (-pb, "3 ways", 59 words, stack + pauses) | target 29 Nov ~01:15 MYT (held, add on 28 Nov) | | | | | | |
 
 
 ## SPLIT TEST ("Everyone goes to / Go here instead", started 26 Nov; key metric = shares)

@@ -16,7 +16,9 @@ re-render, check the stills sheet, then `jbs.py add-reel` them (same slug). Tick
 
 ## PACE TEST A/B (Ling, 26 Nov 12:30) — DO THESE FIRST (PLAYBOOK 3, PACE TEST A/B)
 Make A and B of the same topic in the same run, queue them so the pair posts about 48 h apart (queue the second one after ~13 other items, or hold it in reel/out and add it 2 days later; note which you did here).
-- [ ] kansai-airport-to-kyoto → -pa (A, post first) + -pb (B). 3 ways: JR Haruka · limousine bus · the option on the page (check the page).
+- [x] kansai-airport-to-kyoto → -pa (A, post first) + -pb (B). 3 ways: JR Haruka · limousine bus · the option on the page (check the page).
+  · 26 Nov run: BOTH rendered and passed the gate. -pa QUEUED (posts ≈ 27 Nov 01:15 MYT; cover "Kansai Airport to Kyoto:|visitors pay less"). -pb HELD (reel/out is not kept between sessions): finished video + cover are on Ling's PC at Downloads\jbs_media\hold\kansai-airport-to-kyoto-pb.mp4 / .jpg, spec reel/specs/kansai-airport-to-kyoto-pb.json.
+  · [ ] TODO on 28 Nov (a run between ~14:00 and 23:00 MYT): device_stage_files both hold files → copy to reel/out/ → `jbs.py add-reel kansai-airport-to-kyoto-pb` at a moment when it lands as the item posting at the 29 Nov 01:15 MYT slot (±1 slot): i.e. count the unposted items first; if too many are queued, still add it and note the actual slot in PERF.md. Do NOT re-render (same file = fair test). Then tick this line.
 - [ ] tokyo-to-kawaguchiko-big-suitcase-bus-or-train → -pb (B, post first) + -pa (A). 2 ways: Fujikyu highway bus from Busta Shinjuku · Fuji Excursion train.
 - [ ] tokyo-airport-which-train → -pa (A, post first) + -pb (B). Haneda options (Keikyu / Monorail) and Narita options as the page gives them.
 

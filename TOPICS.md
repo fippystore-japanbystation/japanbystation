@@ -28,7 +28,7 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] R11 · fukuoka-yatai-how-they-work · YATAI · page ✓  (Fukuoka · Nakasu vs Tenjin vs Nagahama) — FB posts queued with images
 - [x] R12 · Hokkaido · otaru-from-sapporo-half-day-or-overnight · OTARU · page ✓ — FB posts queued with images
 - [x] F01 · Fukuoka · fukuoka-food-beyond-tonkotsu-ramen · GOMASABA · page ✓  (FOOD format A "eat it differently") — FB posts queued with images
-- [x] X06 · sapporo-in-december-2026 · ODORI · page ✓  (Hokkaido · SEASON: White Illumination 46th + Munich Christmas Market 25th, new Red Brick + Nakajima Park venues) — FB posts queued · reel ✓ (sapporo-in-december-2026)
+- [x] X06 · sapporo-in-december-2026 · ODORI · page ✓  (Hokkaido · SEASON: White Illumination 46th + Munich Christmas Market 25th, new Red Brick + Nakajima Park venues) — FB posts queued · reel ✓ (sapporo-in-december-2026; -2 = "Japan's first winter light show", dinner first then lights, queued 26 Nov)
 - [x] X07 · kyoto-in-december-2026 · JOYA · page ✓  (Kyoto · SEASON: Hanatouro ended 2021 (pref.kyoto.jp), so reframed: daikon-daki, Shimai-Kobo/Tenjin, joya no kane list) — FB posts queued · reel ✓ (kyoto-in-december-2026: ring the bell yourself, Comment BELLS)
 - [x] X08 · nabana-no-sato-illumination-2026 · NABANA · page ✓  (Nagoya · SEASON: 17 Oct 2026–31 May 2027, prices by period, Meitetsu bus + Kintetsu set ticket; no Pexels photos of the lights exist, page uses Begonia Garden photos) — FB posts queued with images
 - [x] H06 · kyoto-station-which-exit · KARASUMA · page ✓ · exit card ✓  (Kyoto · STATION HUB: Karasuma vs Hachijo, buses, lockers, Ramen Koji, Daiichi-Asahi, 3 hotel picks; rooftop Ozora Hiroba closes 27 Nov 2026) — FB posts queued with images

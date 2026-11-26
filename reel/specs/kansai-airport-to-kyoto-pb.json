@@ -1,0 +1,184 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "kansai-airport-to-kyoto-pb",
+ "keyword": "HARUKA",
+ "music": "m_japansnacks.mp3",
+ "variant": "B",
+ "pace_test": "kansai-airport-to-kyoto",
+ "pace": {
+  "sentence_gap": 0.35,
+  "scene_gap": 1.2
+ },
+ "stack": true,
+ "season": false,
+ "readable_v": 1,
+ "emph": [
+  "three",
+  "Haruka",
+  "bus",
+  "Osaka",
+  "HARUKA"
+ ],
+ "promise": "There are three ways from Kansai Airport to Kyoto: the Haruka, the limousine bus and trains via Osaka; here they are side by side.",
+ "hook_candidates": [
+  {
+   "hook": "Kansai Airport to Kyoto: 3 ways",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  }
+ ],
+ "hook_type": "N WAYS LIST (PACE TEST B cover)",
+ "opening_type": "the answer itself (a list)",
+ "hook": {
+  "tag": "KANSAI AIRPORT TO KYOTO",
+  "lines": [
+   "3 ways"
+  ]
+ },
+ "cover": {
+  "title": "Kansai Airport to Kyoto|3 ways",
+  "category": "KANSAI AIRPORT, OSAKA",
+  "color": "sky",
+  "clip": "cv_kx_05.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "kx_04.jpg"
+    ],
+    [
+     "p_39709094.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Kansai Airport to Kyoto: three ways.",
+     "Kansai Airport to Kyoto: three ways."
+    ]
+   ]
+  },
+  {
+   "id": "o1",
+   "clips": [
+    [
+     "kx_08c.jpg"
+    ],
+    [
+     "kx_13c.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "1",
+    "title": "JR Haruka",
+    "small": "75–80 min · ¥2,700 visitor ticket"
+   },
+   "clauses": [
+    [
+     "One: the Haruka train, straight to Kyoto Station.",
+     "One: the Haruka train, straight to Kyoto Station."
+    ]
+   ]
+  },
+  {
+   "id": "o2",
+   "clips": [
+    [
+     "kx_00f.jpg"
+    ],
+    [
+     "p_20048254.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "2",
+    "title": "Limousine bus",
+    "small": "85–90 min · ¥2,800 · runs latest"
+   },
+   "clauses": [
+    [
+     "Two: the limousine bus, which runs later at night.",
+     "Two: the limousine bus, which runs later at night."
+    ]
+   ]
+  },
+  {
+   "id": "o3",
+   "clips": [
+    [
+     "kx_10.jpg"
+    ],
+    [
+     "kx_11c.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "3",
+    "title": "Trains via Osaka",
+    "small": "about 1 h 50 · ¥1,670 · changes"
+   },
+   "clauses": [
+    [
+     "Three: ordinary trains via Osaka, cheapest but with changes.",
+     "Three: ordinary trains via Osaka, cheapest but with changes."
+    ]
+   ]
+  },
+  {
+   "id": "pick",
+   "clips": [
+    [
+     "c_20661466.mp4",
+     2.0
+    ],
+    [
+     "kx_03.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Big bags or a late flight? Take the bus.",
+     "Big bags or a late flight? Take the bus."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "p_37745654.jpg"
+    ],
+    [
+     "p_30215354.jpg"
+    ],
+    [
+     "c_40692168.mp4",
+     0.5
+    ]
+   ],
+   "clauses": [
+    [
+     "Comment HARUKA for our free guide to getting into Kyoto,",
+     "Comment HARUKA for our free guide to getting into Kyoto,"
+    ],
+    [
+     "including where to stay for your landing time.",
+     "including where to stay for your landing time."
+    ]
+   ]
+  }
+ ],
+ "caption": "Kansai Airport to Kyoto: 3 ways 🚆\nSave this before you land.\n\n1️⃣ JR Haruka\n\n⏱️ About 75–80 minutes, no change.\n\n🎫 ¥2,700 on the visitor one-way ticket.\n\n2️⃣ Limousine bus\n\n⏱️ About 85–90 minutes, ¥2,800.\n\n🌙 It runs over an hour after the last Haruka.\n\n3️⃣ Ordinary trains via Osaka\n\n💴 Cheapest, about ¥1,670.\n\n🔁 About 1 h 50, with changes.\n\n🧳 Big bags or a late flight? Take the bus.\n\n💬 Comment HARUKA for our free guide\nto getting into Kyoto, including\nwhere to stay for your landing time.\n\n✈️ Send this to whoever you're landing with.\n\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#kansaiairport #kyoto #haruka #kyototravel #japantrains #japantravel #japantrip"
+}

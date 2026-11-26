@@ -1,0 +1,226 @@
+{
+ "clipdir": "air/",
+ "outdir": "out/",
+ "slug": "kansai-airport-to-kyoto-pa",
+ "keyword": "HARUKA",
+ "music": "m_petals.mp3",
+ "variant": "A",
+ "pace_test": "kansai-airport-to-kyoto",
+ "season": false,
+ "readable_v": 1,
+ "emph": [
+  "Haruka",
+  "visitors",
+  "less",
+  "bus",
+  "HARUKA"
+ ],
+ "promise": "Going from Kansai Airport to Kyoto, take the Haruka on the cheaper visitor-only ticket; switch to the bus if you land late, or to trains via Osaka if you travel light.",
+ "hook_candidates": [
+  {
+   "hook": "Kansai Airport to Kyoto: visitors pay less",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 5
+  },
+  {
+   "hook": "Kansai Airport to Kyoto: train or bus?",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 3
+  },
+  {
+   "hook": "Kansai Airport to Kyoto: ¥2,700, no change",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 0,
+    "saveable_body": 1
+   },
+   "score": 4
+  },
+  {
+   "hook": "Late flight to Kyoto? Take the bus",
+   "checks": {
+    "related": 0,
+    "payoff_2s": 1,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 1
+   },
+   "score": 4
+  },
+  {
+   "hook": "Kansai Airport to Kyoto by taxi? ¥40,000",
+   "checks": {
+    "related": 1,
+    "payoff_2s": 0,
+    "specific": 1,
+    "tension": 1,
+    "saveable_body": 0
+   },
+   "score": 3
+  }
+ ],
+ "hook_type": "MONEY / INSIDER (a visitor-only fare)",
+ "opening_type": "small scene + the answer (question once)",
+ "hook": {
+  "tag": "KANSAI AIRPORT TO KYOTO",
+  "lines": [
+   "Visitors",
+   "pay less"
+  ]
+ },
+ "cover": {
+  "title": "Kansai Airport to Kyoto:|visitors pay less",
+  "category": "KANSAI AIRPORT, OSAKA",
+  "color": "sky",
+  "clip": "cv_kx_07c.mp4",
+  "t": 0.5
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "clips": [
+    [
+     "kx_07c.jpg"
+    ],
+    [
+     "kx_04.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Flying into Kansai Airport for Kyoto?",
+     "Flying into Kansai Airport for Kyoto?"
+    ],
+    [
+     "Visitors pay less on the Haruka.",
+     "Visitors pay less on the Haruka."
+    ]
+   ]
+  },
+  {
+   "id": "pick1",
+   "clips": [
+    [
+     "kx_05.jpg"
+    ],
+    [
+     "p_39466513.jpg"
+    ]
+   ],
+   "card": {
+    "color": "coral",
+    "kicker": "#1 MOST ARRIVALS",
+    "title": "JR Haruka",
+    "small": "75–80 min · ¥2,700 visitor ticket"
+   },
+   "clauses": [
+    [
+     "The visitor ticket is two thousand seven hundred yen,",
+     "The visitor ticket is ¥2,700,"
+    ],
+    [
+     "no change to Kyoto Station.",
+     "no change to Kyoto Station."
+    ]
+   ]
+  },
+  {
+   "id": "pick2",
+   "clips": [
+    [
+     "kx_00f.jpg"
+    ],
+    [
+     "p_39709091.jpg"
+    ]
+   ],
+   "card": {
+    "color": "sun",
+    "kicker": "#2 LATE FLIGHT",
+    "title": "Limousine bus",
+    "small": "85–90 min · ¥2,800"
+   },
+   "clauses": [
+    [
+     "Landing late?",
+     "Landing late?"
+    ],
+    [
+     "The bus runs after the last Haruka,",
+     "The bus runs after the last Haruka,"
+    ],
+    [
+     "and bags ride in the hold.",
+     "and bags ride in the hold."
+    ]
+   ]
+  },
+  {
+   "id": "detail",
+   "clips": [
+    [
+     "p_39113940.jpg"
+    ],
+    [
+     "kx_11c.jpg"
+    ]
+   ],
+   "card": {
+    "color": "mint",
+    "kicker": "#3 TRAVELLING LIGHT",
+    "title": "Trains via Osaka",
+    "small": "about 1 h 50 · ¥1,670"
+   },
+   "clauses": [
+    [
+     "Travelling light?",
+     "Travelling light?"
+    ],
+    [
+     "Trains via Osaka are cheaper, but you change with bags.",
+     "Trains via Osaka are cheaper, but you change with bags."
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "clips": [
+    [
+     "p_17950276.jpg"
+    ],
+    [
+     "c_20666407.mp4",
+     3.0
+    ],
+    [
+     "p_41208008.jpg"
+    ]
+   ],
+   "clauses": [
+    [
+     "Comment HARUKA for our free guide to getting into Kyoto,",
+     "Comment HARUKA for our free guide to getting into Kyoto,"
+    ],
+    [
+     "including a ramen floor and a free night view.",
+     "including a ramen floor and a free night view."
+    ]
+   ]
+  }
+ ],
+ "caption": "Kansai Airport to Kyoto: visitors pay less 🚆\nThe Haruka has a ticket only for visitors.\n\n🥇 JR Haruka · most arrivals\n\n⏱️ About 75–80 minutes, no change.\n\n🎫 Visitor one-way ticket: ¥2,700.\n\n🛂 For foreign passports on a visitor stay.\n\n🥈 Limousine bus · late flights\n\n🌙 It runs over an hour after the last Haruka.\n\n🧳 Your suitcases ride in the hold.\n\n🚏 It stops on Kyoto Station's south side.\n\n🥉 Trains via Osaka · travelling light\n\n💴 Cheapest, about ¥1,670.\n\n🔁 But you change trains with your bags.\n\n💬 Comment HARUKA for our free guide\nto getting into Kyoto, including\na ramen floor and a free night view.\n\n✈️ Send this to whoever you're landing with.\n\nFollow @japanbystation for a new Japan tip every day 🇯🇵\n\n#kansaiairport #kyoto #haruka #kyototravel #japantrains #japantravel #japantrip"
+}

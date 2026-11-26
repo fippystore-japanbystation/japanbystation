@@ -34,3 +34,6 @@ sensoji-morning-or-evening-v2: cv_p_21759449 Senso-ji pagoda in morning sun, emp
 kyoto-in-december-2026: cv_k8_06 Chion-in New Year's Eve, monks ringing the golden-lit bell (Wikimedia, Leung Ming Ho)
 shinjuku-two-hours-before-dinner (hook re-cut 26 Nov): c_31024383 Shinjuku night view from high up, Docomo tower (Pexels)
 shibuya-quiet-base-yoyogi-v2: cv_w3_y11 quiet tree-lined path in Yoyogi Park, daylight (Wikimedia)
+kansai-airport-to-kyoto-pa: cv_kx_07c Hello Kitty Haruka front at Kansai-Airport Station, portrait crop (Wikimedia, Suikotei)
+kansai-airport-to-kyoto-pb (held, not queued yet): cv_kx_05 Haruka at Kansai airport station platform 4, night (Wikimedia, CCP2017)
+sapporo-in-december-2026-2: cv_w6_03 Odori Park White Illumination from above at night (Wikimedia, Sorah Fukumori)
