@@ -3,73 +3,85 @@ Snapshots: perf/<date>.json (from n8n read-only endpoint http://localhost:5678/w
 Rule: patterns need samples. Compare like with like (same format, similar posting slot, similar age ≥ 48 h). Call something a pattern only with ≥ 3 posts on each side; until then write "early signal".
 
 ## Goals (updated daily)
-- **25 Nov 20:15 MYT: FB Page followers 1 / 5,000 (yesterday 1, +0) · website 87 visits in 24 h / 1,000 (yesterday's 24 h ≈ 69, +26%)** · IG 11 followers (yesterday 7, +4).
-- Checkpoint 31 Dec: FB 500 · web 300/day. Needed pace from here: FB ≈ +14/day, web ≈ ×3.5 in 5 weeks. Today: FB is OFF pace (0 new followers in 3 days of posting); web is early but growing.
+- **26 Nov 20:17 MYT: FB Page followers 2 / 5,000 (yesterday 1, +1) · website 65 visits in 24 h / 1,000 (yesterday 87, −25%)** · IG 15 followers (yesterday 11, +4).
+- 25 Nov: FB 1 · web 87 · IG 11.
+- Checkpoint 31 Dec: FB 500 · web 300/day. Needed pace: FB ≈ +14/day (actual +1/day) → OFF pace. Web: OFF pace and probably smaller than it looks (see FB→web below).
 
-## Status (25 Nov, 20:15 MYT snapshot perf/2026-11-25.json)
-- IG: 16 Reels, 11 followers. FB: 27 items (13 Reels, 14 text/photo posts), 1 follower.
-- 6 Reels are now ≥ 48 h old → first like-for-like comparison possible (see Patterns).
-- Reel reach is basically final after ~30 h (reach grew +0–17 on Reels older than 48 h, +15–67 on 30–36 h ones). So a Reel's fate is decided in its first day.
-- FB API: reactions, comments, post_media_view (views), post_clicks arrive. Shares and post_total_media_view_unique (reach) are STILL not in the JSON (n8n not changed; Ling can add them).
-- No FB post has a "style" tag yet (variants start 27 Nov). fb-queue.json has no "type" field; all 14 posted FB text posts so far are PRACTICAL-WITH-LINK (photo + ~1,900 characters + guide link). There have been no place cards, guess-where or no-link deep informative posts yet, so the 70/30 mix is not running yet → we can't compare types for followers.
-- Website (Cloudflare, last 24 h, bots excluded): 87 visits, 94 page views. Referrers: direct 35, m.facebook.com 26, www.facebook.com 25, google 1. Top paths: / 14, hakone-big-suitcase-forward-carry-store 13, asakusa-which-station-from-narita 12, shinjuku-five-minutes-with-a-suitcase 6, new-chitose-airport-to-sapporo 6 (= exactly the guides our FB link posts pointed to). Countries: US 43, Malaysia 24, Sweden 12, Ireland 4.
-- ⚠ Data conflict: Cloudflare shows 51 visits from facebook.com, but the FB API shows 0 post_clicks on every one of those link posts and 0–5 views. 57 of 87 visits are Windows desktop (unusual for FB traffic, which is mostly phones). Some of these "FB" visits may be Meta's link-preview/scanning or in-app prefetch rather than people. Treat FB→web as UNVERIFIED until GA4 (utm_campaign fb_post) confirms it. GA4 not checked this run.
+## Status (26 Nov, 20:17 MYT snapshot perf/2026-11-26.json)
+- IG: 22 Reels, 15 followers. FB: 41 items (19 Reels, 22 text/photo posts), 2 followers.
+- FB API now returns reactions, comments, post_media_view (views) and post_clicks; shares and reach (post_total_media_view_unique) are still NOT in the JSON (n8n not changed).
+- fb-queue.json still has no "type"/"style" fields. Tagged by hand from the text: on 25–26 Nov the FIRST no-link posts ran (E5): 5 PLACE CARDS (-1 items: fb-odori-1, fb-joya-1, fb-nabana-1, fb-tenshiba-1, fb-gluhwein-1; ~270–380 characters, photo, question or follow line, no link) and 4 PRACTICAL-WITH-LINK (-2 items: fb-gluhwein-2, fb-tenshiba-2, fb-odori-2, fb-joya-2; ~930–1,030 characters + link). No guess-where yet.
+- Website (Cloudflare, last 24 h, bots excluded): 65 visits, 69 page views. Referrers: direct 37, www.facebook.com 17, m.facebook.com 10, google 1. Top paths: / 16, kyoto-in-december-2026 8, osaka-christmas-markets-2026 6, tokyo-christmas-markets-2026 5, shinjuku-two-hours-before-dinner 4 (again = exactly the guides our newest FB posts link to). Countries: Malaysia 28, US 25, Ireland 6. Devices: Windows desktop 51 of 65.
+- ⚠ FB→web is still UNVERIFIED and now looks mostly non-human: 27 "facebook.com" visits in 24 h, while the FB API shows 0–3 views and 0 clicks on every link post. GA4 (28 days to 25 Nov): 124 sessions; Organic Social 56 sessions with ~1 s average engagement; Organic Search 5 sessions, 10 s. A 1-second "visit" is a link-preview/scan or a bounce, not a reader. Malaysia (28) is probably our own team checking pages. Honest reading: real human visits are a small fraction of 65.
 - Pinterest: no new data this run.
 
-## IG Reels (25 Nov snapshot; reach · avg watch s · saves · shares · posted MYT · hook)
+## IG Reels (26 Nov snapshot; reach · avg watch s · saves · shares · posted MYT · hook; v4 = FAST format from 25 Nov)
 | Reel (spec) | age | reach | watch | saves | shares | posted | hook |
 |---|---|---|---|---|---|---|---|
-| Not sleeping early in Osaka? (osaka-night-owls) | 57 h | 1,286 | 9.5 | 16 | 9 | 23 Nov 11:01 | problem + "before you book" |
-| Staying in Namba? (namba) | 61 h | 404 | 11.6 | 14 | 3 | 23 Nov 07:00 | situation |
-| Kuromon too crowded? (osaka-local-markets) | 49 h | 323 | 9.7 | 11 | 2 | 23 Nov 19:32 | problem + local alternative |
-| First trip to Sapporo? Sleep in Odori (sapporo-where-to-stay-first-trip) | 19 h | 276 | 9.8 | 6 | 2 | 25 Nov 01:10 | first-timer + answer in hook, winter city |
-| First time in Osaka? (osaka-where-to-stay) | 63 h | 260 | 6.1 | 2 | 1 | 23 Nov 05:01 | generic first-timer |
-| Want local Osaka, not the neon? (osaka-live-like-a-local) | 36 h | 253 | 10.4 | 7 | 2 | 24 Nov 08:01 | contrast |
-| Big suitcase into Sapporo? (new-chitose-airport-to-sapporo-v2, v4) | 6 h | 216 | 6.9 | 2 | 0 | 25 Nov 14:19 | problem + answer, winter city |
-| Two of you, one afternoon: Minoh (minoh-falls-autumn-afternoon) | 23 h | 200 | 8.2 | 5 | 0 | 24 Nov 21:40 | situation + scenic place |
-| Just landed at KIX? (kansai-airport-which-train) | 67 h | 188 | 7.5 | 4 | 0 | 23 Nov 01:10 | arrival situation |
-| Solo on ¥5,000? (namba-5000-yen-private-room) | 30 h | 165 | 5.5 | 0 | 0 | 24 Nov 14:14 | budget number |
-| Four friends: apartment or 2 rooms? (osaka-four-friends) | 59 h | 159 | 6.0 | 0 | 0 | 23 Nov 08:59 | A-or-B |
-| Skip Shibuya Sky (shibuya-crossing-view) | 26 h | 157 | 7.4 | 1 | 0 | 24 Nov 18:08 | contrarian "skip X" |
-| Cup Noodles ¥500 (cup-noodles-museum-ikeda) | 33 h | 141 | 8.2 | 1 | 1 | 24 Nov 10:48 | attraction + price |
-| Quiet mornings near Shibuya (shibuya-quiet-base-yoyogi) | 13 h | 128 | 5.8 | 1 | 0 | 25 Nov 07:38 | stay-area |
-| A few days in Kyoto? (kyoto-where-to-stay-first-trip) | 16 h | 123 | 4.5 | 1 | 0 | 25 Nov 04:22 | stay-area |
-| Skip midday at Senso-ji (sensoji-morning-or-evening-v2, v4) | 2 h | 120 | 3.7 | 0 | 0 | 25 Nov 18:04 | "skip X", too young |
+| Not sleeping early in Osaka? (osaka-night-owls) | 81 h | 1,286 | 9.5 | 16 | 9 | 23 Nov 11:01 | problem + "before you book" |
+| Christmas markets in Tokyo: free or paid? (tokyo-christmas-markets-2026, v4) | 16 h | 817 | 6.4 | 13 | 9 | 26 Nov 04:25 | TIMELY seasonal + A-or-B with the answer |
+| At Sapporo's airport, skip the ticket queue (new-chitose-airport-to-sapporo-v2, v4) | 13 h | 530 | 7.4 | 7 | 5 | 26 Nov 07:31 | "skip X" smart-travel, winter city |
+| Staying in Namba? (namba) | 85 h | 406 | 11.7 | 14 | 3 | 23 Nov 07:00 | situation |
+| First trip to Sapporo? Sleep in Odori (sapporo-where-to-stay-first-trip) | 43 h | 379 | 10.6 | 8 | 2 | 25 Nov 01:10 | first-timer + answer, winter city |
+| Kuromon too crowded? (osaka-local-markets) | 73 h | 326 | 9.8 | 12 | 2 | 23 Nov 19:32 | problem + local alternative |
+| Big suitcase into Sapporo? (new-chitose-airport-to-sapporo, v4) | 30 h | 312 | 9.1 | 4 | 1 | 25 Nov 14:19 | problem + answer, winter city |
+| First time in Osaka? (osaka-where-to-stay) | 87 h | 260 | 6.1 | 2 | 1 | 23 Nov 05:01 | generic first-timer |
+| Want local Osaka, not the neon? (osaka-live-like-a-local) | 60 h | 253 | 10.5 | 7 | 2 | 24 Nov 08:01 | contrast |
+| Going to Sapporo before Christmas? (sapporo-in-december-2026, v4) | 23 h | 250 | 9.5 | 1 | 3 | 25 Nov 21:30 | timely seasonal question |
+| Two of you, one afternoon: Minoh (minoh-falls-autumn-afternoon) | 47 h | 216 | 7.9 | 6 | 0 | 24 Nov 21:40 | situation + scenic place |
+| Just landed at KIX? (kansai-airport-which-train) | 91 h | 188 | 7.5 | 4 | 0 | 23 Nov 01:10 | arrival situation |
+| Solo on ¥5,000? (namba-5000-yen-private-room) | 54 h | 165 | 5.5 | 0 | 0 | 24 Nov 14:14 | budget number |
+| Four friends: apartment or 2 rooms? (osaka-four-friends) | 83 h | 159 | 6.0 | 0 | 0 | 23 Nov 08:59 | A-or-B |
+| Skip Shibuya Sky (shibuya-crossing-view) | 50 h | 158 | 7.5 | 1 | 0 | 24 Nov 18:08 | contrarian "skip X" |
+| Skip midday at Senso-ji (sensoji-morning-or-evening, v4) | 26 h | 144 | 4.7 | 0 | 0 | 25 Nov 18:04 | "skip X" |
+| Cup Noodles ¥500 (cup-noodles-museum-ikeda) | 57 h | 142 | 8.1 | 1 | 1 | 24 Nov 10:48 | attraction + price |
+| Skip midday at Senso-ji, 2nd cut (sensoji-morning-or-evening-v2, v4) | 9 h | 138 | 5.1 | 0 | 0 | 26 Nov 10:48 | "skip X" |
+| Quiet mornings near Shibuya (shibuya-quiet-base-yoyogi) | 37 h | 129 | 6.0 | 1 | 0 | 25 Nov 07:38 | stay-area |
+| A few days in Kyoto? (kyoto-where-to-stay-first-trip) | 40 h | 124 | 4.7 | 1 | 0 | 25 Nov 04:22 | stay-area |
+| Ring a temple bell in Kyoto (kyoto-in-december-2026, v4) | 6 h | 124 | 4.1 | 0 | 2 | 26 Nov 14:15 | timely seasonal, too young |
+| Tokyo free city view 202 m (shinjuku-two-hours-before-dinner, v4) | 2 h | 83 | 3.9 | 0 | 0 | 26 Nov 18:06 | free + number, too young |
 
-## FB (25 Nov snapshot; views = post_media_view)
-- FB Reels: 190–231 views each for every Reel ≥ 12 h old, whatever the topic (Kuromon 231, Kyoto 226, Sapporo Odori 218, Solo ¥5,000 213, Shinjuku 212, Shibuya Sky 207, Shibuya park 207, Cup Noodles 207; Minoh 127, Night owls 112, Tenma 8). Avg watch 3.4–6.3 s. Reactions 0–3. → Facebook seems to give each Reel a fixed ~200-view test and none has broken out yet. Kyoto (3 likes) and Sapporo Odori (2) got the most reactions.
-- FB text/photo link posts: 0–18 views, 0 reactions, 0 clicks on all 14. Newest: fb-hakone-2 0 (1 h), fb-hakone-1 5, fb-asakusa-2 2, fb-asakusa-1 3, fb-suitcase-2 0, fb-landing-1 4, fb-bullet-1 2, fb-group-1 3, fb-nakazaki-1 5, fb-tenma-1 18, fb-market-1 5, fb-local-1b 15. Photo share "Second trip to Osaka?" 11 views, 2 clicks (still the only clicks besides 1 on the Minoh Reel).
-- New FB followers: 0. No post type has brought a follower yet.
+## FB (26 Nov snapshot; views = post_media_view)
+- FB Reels ≥ 12 h old: most still get the ~190–235-view test (Kuromon 234, Kyoto 229, Sapporo Odori 222, Solo 213, Shinjuku 212, Shibuya Sky 209, Cup Noodles 209, Shibuya park 208, Sapporo airport v2 190, Sapporo Christmas 162). Avg watch 3–6 s. Reactions 0–2 (Kyoto 2).
+- ⚠ 4 of 19 FB Reels got stuck near zero: Christmas markets 9 (while it is our #2 Reel on IG), Sapporo airport v1 22, Tenma 8, Senso-ji v1 0. No common cause visible in the data (slot, topic and length differ). Possible: FB processing/music/duplicate-content flag. Check in Meta Business Suite whether those Reels show a restriction notice.
+- FB text/photo posts (22): 0–18 views, 0 reactions, 0 clicks, link or no link. New no-link PLACE CARDS (E5) got 0–3 views (odori-1 1, joya-1 2, nabana-1 1, tenshiba-1 3, gluhwein-1 0 at 1 h); same-day LINK posts got 0–2 (gluhwein-2 2, tenshiba-2 0, odori-2 2, joya-2 1). → With 2 followers, Facebook shows text/photo posts to almost nobody, whatever the style. The format test can't work until the Page has an audience (see Next experiments E7).
+- New FB followers: +1 (2 total). Can't attribute it to a post (no per-post follow data); Reels are the only items that reached non-followers.
 
 ## Patterns (≥ 3 comparable posts per side, ≥ 48 h old)
-P1 (25 Nov, IG Reels, old 33–40 s format, n = 3 v 3, weakest possible pattern): Reels whose hook names a SPECIFIC traveller problem/situation (night owls, staying in Namba, Kuromon too crowded) got 323–1,286 reach, 9.5–11.6 s watch, 11–16 saves. The generic first-timer, the A-or-B and the arrival-train Reels got 159–260 reach, 6.0–7.5 s, 0–4 saves. Confounds: all 6 are Osaka and posted 22–23 Nov; the night-owls outlier inflates reach. Saves track watch time on all 16 Reels.
+P1 (25 Nov, IG Reels, old 33–40 s format, n = 3 v 3, weakest possible pattern): Reels whose hook names a SPECIFIC traveller problem/situation (night owls, staying in Namba, Kuromon too crowded) got 323–1,286 reach, 9.5–11.6 s watch, 11–16 saves. The generic first-timer, the A-or-B and the arrival-train Reels got 159–260 reach, 6.0–7.5 s, 0–4 saves. Confounds: all 6 are Osaka and posted 22–23 Nov; the night-owls outlier inflates reach. Saves track watch time on all 22 Reels. (26 Nov: numbers final, unchanged.)
+P2 (26 Nov, FB, n = 22 text/photo posts v 15 unstuck Reels on the same Page, 23–26 Nov): on our Page, text/photo posts reach almost nobody (0–18 views; 9 new ones 0–3) while Reels get a ~200-view test. Holds for link AND no-link posts. This is a reach problem (2 followers), not a writing problem.
 
 ## Early signals (not patterns yet)
-1. Winter / Sapporo topics: the two Sapporo Reels are #1 and #3 of the last 2 days by reach (276 in 19 h; 216 in 6 h) while Tokyo/Kyoto stay-area Reels sit at 123–157. n = 2. Matches competitors today (japan_walker_'s Hokkaido winter Reel ≈ 5.5× its usual).
-2. "Where to stay in <area>" Reels without a problem in the hook (Kyoto 4.5 s, Shibuya park 5.8 s, Solo ¥5,000 5.5 s) have the lowest watch time. n = 3, all < 30 h old.
-3. v4 FAST Reels: only 2 so far (Sapporo airport 6.9 s at 6 h, Senso-ji 3.7 s at 2 h). Too young; compare on 27 Nov.
-4. FB: Reels reach non-followers (~200 each); text link posts reach almost nobody (0–18). Same as yesterday, now 14 text posts.
+1. WINTER / CHRISTMAS / SAPPORO is our strongest topic now: the 5 winter Reels posted 24–26 Nov got 250–817 reach (median 379); the 9 non-winter Reels of the same days (≥ 20 h old) got 124–253 (median 144). Only 1 winter Reel is ≥ 48 h old, so this is still an early signal, but a strong one. Competitors agree (japan_walker_ Hokkaido 5.5×; Tokyo Cheapo dated illumination list).
+2. TIMELY hook (E1) first result: "Christmas markets in Tokyo: free or paid?" = 817 reach, 13 saves, 9 shares in 16 h — our best Reel at that age. n = 1.
+3. Senso-ji "skip midday" twice (two cuts) = 144 and 138 reach, 4.7–5.1 s, 0 saves. A famous-sight timing tip doesn't hook (n = 2, same topic).
+4. "Where to stay in <area>" with no problem in the hook stays lowest on watch time (Kyoto 4.7 s, Shibuya park 6.0 s, Solo ¥5,000 5.5 s). n = 3.
+5. v4 FAST format: 8 Reels so far; the 6 that are ≥ 9 h old have median reach ~280 vs ~200 for the 14 older-format Reels, but watch time is lower (4.7–9.5 s vs 5.5–11.7 s) and topics differ (most v4 Reels are winter). Can't separate format from topic yet; compare on 28 Nov.
+6. FB Reels: 4 of 19 stuck near 0 views (see FB). Unexplained.
 
 ## Do more / Do less / Next experiments (read by the Reels and Facebook producers)
-LING DECISION (24 Nov evening, permanent): Reels go to FAST + STRONG HOOK v4 (PLAYBOOK 3): 20–30 s, 50–70 words, hook in the first second with the answer, a new shot every 1.5–2.5 s. From 25 Nov this log compares v4 Reels against the older 33–40 s Reels.
+LING DECISION (24 Nov evening, permanent): Reels go to FAST + STRONG HOOK v4 (PLAYBOOK 3): 20–30 s, 50–70 words, hook in the first second with the answer, a new shot every 1.5–2.5 s.
 Do more
-- Problem-first hooks: name one specific annoyance or constraint the viewer has (crowds, late nights, luggage, closing times), then the local alternative.
-- Put the practical, save-worthy payoff in the first 3 s (saves > likes on every Reel).
+- Problem-first hooks: name one specific annoyance or constraint (crowds, late nights, luggage, queues, closing times), then the fix (P1).
+- Winter / Christmas / Hokkaido Reels through December, with dates and "free or paid?"-style answers in the hook (signals 1–2). Sapporo, Otaru, illuminations, Christmas markets first.
+- "Crowd problem → quieter alternative" angle on Reels AND FB: now confirmed on 2 platforms at JapanTravel (FB 22.1K reactions; IG Reel 284K ≈ 16× usual).
+- FREE things with a hands-on activity near Osaka/Kyoto (a competitor's free Katsuo-ji daruma stamp rally Reel = 292K, 4.5–16× usual on 2 accounts). We have fb-daruma / Minoh material: make a Reel of it.
+- Put the save-worthy payoff in the first 3 s (saves track watch time on every Reel).
 Do less
-- Generic "First time in X?" openers, and A-or-B questions that don't tease the answer in the first seconds (both ≤ 6.1 s watch, 0–2 saves). Early signal only: keep about 1 in 5 as a control and don't drop them yet.
-Do more (25 Nov additions)
-- Winter / Hokkaido / snow Reels in December (early signal + competitors). Sapporo and Otaru topics first.
-- "Crowd problem → quieter alternative" angle on BOTH Reels and FB (our best Reels + JapanTravel's 19.6K-reaction FB post).
-Do less (25 Nov additions)
-- Plain "where to stay in <area>" Reels with no problem in the hook (lowest watch time, n = 3).
-- FB: stop adding more long practical LINK posts until the no-link types run; 14 in a row got 0 reactions.
+- Famous-sight timing tips with no twist (Senso-ji ×2 at ~140).
+- Plain "where to stay in <area>" Reels with no problem in the hook; generic "First time in X?" openers (keep ~1 in 5 as a control).
+- FB: more text/photo posts will not grow the Page by themselves while it has 2 followers (P2). Keep the 70/30 queue running for the style test, but the growth lever on FB right now is Reels.
+- Selling / sponsored / "comment KEYWORD" / AI-sounding "Unlock the best…" openers: lowest on every account checked (5 accounts now).
 Next experiments
-- E5 (FB, start now, don't wait for 27 Nov): post the first 70% no-link types (PLACE CARD with one stunning photo + one line + an easy question; one "crowd → quieter alternative" deep post with no link) and compare views/reactions/follows with the link posts.
-- E6 (Reels): one "Is <premium thing> worth ¥X?" verdict Reel (e.g. Green Car, a rapi:t Super Seat) — Paolo's best organic Reel in 3 months (~3×) was this format.
-- E1 (Reels): a timely "X is back / opens this week" hook (seasonal light-ups, winter events). Tokyo Cheapo's two biggest recent Reels (631K and 499K vs ~70K usual) are a dated seasonal list and an "is back" event. Try 2 timely Reels this week and compare them with problem hooks.
-- E2 (Reels): one visually striking single-place Reel near Osaka (Minoh / Katsuo-ji). A 34K account's best recent Reel did about 8× its median with exactly this kind of place. Tested 24 Nov (minoh-falls-autumn-afternoon): 200 reach, 8.2 s, 5 saves = mid-pack, n = 1; try one more with a stronger visual first second.
-- E3 (FB): check whether text posts reach anyone beyond followers: compare views on a photo+text post and a plain text post on the same day (the photo share already got the only clicks).
-- E4 (FB): one "news you can use" text post (a rule, date or price that changes soon, verified at the official source). The most-shared text posts on 2 pages today were this kind.
+- E7 (FB, NEW, start 27 Nov): make FB style variants visible. Since text posts get ~0 views, put the A/B/C text styles into the CAPTIONS of FB Reels (which get ~200 views each) and also judge them on reactions-per-view. Keep the text-post variants running too, but don't expect a verdict from 0–3-view posts.
+- E8 (Reels, NEW): one "free + hands-on" Reel near Osaka (Katsuo-ji daruma / Minoh) with "free" and the activity in the first second. Compare reach/saves with the Minoh scenic Reel (216).
+- E1 (Reels, running, 1 result = 817): 2 more timely "this December / is back / free or paid" Reels this week (Osaka Christmas markets, Kyoto New Year bells) to see if it repeats.
+- E5 (FB, running since 25 Nov): place cards vs link posts — both 0–3 views so far; let it run to 29 Nov but judge it on Reels (E7).
+- E6 (Reels): one "Is <premium thing> worth ¥X?" verdict Reel (Green Car, rapi:t Super Seat).
+- E2 (Reels): single striking place near Osaka — 1 try (Minoh 216 = mid-pack); fold into E8.
+- E3 (FB): photo + text vs plain text — superseded by P2 until the Page has followers.
+- E4 (FB): one "news you can use" post (rule/date/price that changes soon). Competitor evidence keeps growing (Tokyo Cheapo "it's back" 111 shares; Japan Travel Tips tax-refund FAQ).
+- Check (Ling or next run, read-only): open the 4 stuck FB Reels in Meta Business Suite and look for a restriction or copyright notice.
 
 ## Pinterest (from Ling's screenshot, 25 Nov 15:11, account ~2 days old)
 - Total: 75 impressions, 5 engagements, 0 outbound clicks, 0 saves. Top Pin by far: "Tenma, Osaka: where locals actually eat" (75); Hiroshima–Miyajima collage 3; Kyoto first-trip collage 3.
