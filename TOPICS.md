@@ -9,8 +9,8 @@ FROM-BASE lines (B01…, Ling 25 Nov): free half-day / extra-day pages framed fr
 - [x] G17 · kyoto-station-coin-lockers · HACHIJO · page ✓ — FB fun post fb-hachijo-1 queued  (Kyoto · GROUND · Coin lockers at Kyoto Station)
 - [ ] SEO · Kyoto · Kyoto Station to Arashiyama: JR Sagano Line vs bus, which Arashiyama station, how long and what it costs · searches: "kyoto station to arashiyama", "kyoto station to arashiyama bamboo forest" (Google autocomplete 26 Nov, #7 and #10 for "kyoto station"; R15 covers crowds/timing, not the route)
 - [x] G13 · food-near-namba-station · TAKOYAKI · page ✓ — FB fun post fb-takoyaki-1 queued  (Osaka · GROUND · Food near Namba Station)
-- [ ] G12 · Osaka · GROUND · Coin lockers at Osaka / Umeda Station: prices and where the big ones are · searches: "coin locker osaka station price", "coin lockers umeda station"
-- [ ] G14 · Osaka · GROUND · Coin lockers at Namba Station (Nankai side, XXL lockers for airport cases) · searches: "coin locker namba station price", "xxl luggage coin lockers namba station"
+- [~] 2026-11-26 03:42Z G12 · Osaka · GROUND · Coin lockers at Osaka / Umeda Station: prices and where the big ones are · searches: "coin locker osaka station price", "coin lockers umeda station"
+- [~] 2026-11-26 03:42Z G14 · Osaka · GROUND · Coin lockers at Namba Station (Nankai side, XXL lockers for airport cases) · searches: "coin locker namba station price", "xxl luggage coin lockers namba station"
 - [ ] G15 · Osaka · GROUND · Shin-Osaka Station: where to eat and where to leave your bags (one page) · searches: "where to eat shin osaka station", "coin lockers shin osaka station"
 - [ ] G18 · Fukuoka · GROUND · Food near Hakata Station · searches: "restaurants near hakata station", "best food near hakata station"
 - [ ] G19 · Hokkaido · GROUND · Food near Sapporo Station · searches: "restaurants near sapporo station", "best food near sapporo station"
@@ -212,7 +212,7 @@ UPDATE (Ling, 23 Nov 14:10): Tokyo BASICS first, then the Tokyo briefs 41→70 I
 - [x] G01 · food-near-shinjuku-station · SLURP · page ✓ — FB posts queued with images  (Tokyo · GROUND · Food near Shinjuku Station, by exit and time of day (breakfast,…)
 - [x] G02 · shinjuku-station-coin-lockers · LOCKER · page ✓ — FB: none new (queue buffer)  (Tokyo · GROUND · Coin lockers at Shinjuku Station)
 - [ ] X03 · Osaka · SEASON · Osaka winter lights 2026: Osaka Hikari Renaissance (Nakanoshima), Midosuji illumination, Namba Hikari Tabi, Umeda — dates, free or paid, a one-evening route
-- [ ] G03 · Tokyo · GROUND · Food at and near Tokyo Station (inside the gates vs Yaesu side; early and late options) · searches: "food at tokyo station", "food near tokyo station open now"
+- [~] 2026-11-26 03:42Z G03 · Tokyo · GROUND · Food at and near Tokyo Station (inside the gates vs Yaesu side; early and late options) · searches: "food at tokyo station", "food near tokyo station open now"
 - [ ] G04 · Tokyo · GROUND · Luggage at Tokyo Station: lockers vs staffed counters, overnight/multiple days, Shinkansen side · searches: "luggage storage tokyo station price", "luggage storage tokyo station multiple days", "luggage storage tokyo station shinkansen"
 - [ ] X04 · Tokyo · SEASON · Tokyo winter illuminations 2026: Marunouchi, Roppongi Keyakizaka, Tokyo Dome City, Yomiuriland Jewellumination, Sumida bamboo lanterns — dates, free or paid, one evening plan
 - [ ] X05 · Tokyo · SEASON · New Year in Japan for visitors: what closes 31 Dec–3 Jan, hatsumode (where it is calm vs packed), fukubukuro lucky bags, New Year food
