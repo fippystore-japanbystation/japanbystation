@@ -335,6 +335,10 @@
   "url": "https://japanbystation.com/tokyo-christmas-markets-2026",
   "title": "Tokyo Christmas Markets 2026: Which One Is for You?"
  },
+ "MENTAIKO": {
+  "url": "https://japanbystation.com/food-near-hakata-station",
+  "title": "Food Near Hakata Station: Seven Places From a 7am Beef-Tongue Breakfast to Midnight Ramen"
+ },
  "TOFU": {
   "url": "https://japanbystation.com/food-near-kyoto-station",
   "title": "Food Near Kyoto Station: Breakfast, Lunch and Dinner, Side by Side"
@@ -367,9 +371,17 @@
   "url": "https://japanbystation.com/osaka-station-coin-lockers",
   "title": "Coin Lockers at Osaka Station: Prices, the Quieter Side, and What to Do When They're Full"
  },
+ "SHINKANSEN": {
+  "url": "https://japanbystation.com/shin-osaka-station-food-and-lockers",
+  "title": "Shin-Osaka Station: Where to Eat and Where to Leave Your Bags"
+ },
  "LOCKER": {
   "url": "https://japanbystation.com/shinjuku-station-coin-lockers",
   "title": "Coin Lockers at Shinjuku Station: Prices, Where the Big Ones Are, What If They're Full"
+ },
+ "GRANSTA": {
+  "url": "https://japanbystation.com/tokyo-station-coin-lockers",
+  "title": "Luggage at Tokyo Station: Coin Lockers, Staffed Storage for Several Days, and the Quiet Lockers"
  },
  "TOKYO": {
   "url": "https://japanbystation.com/tokyo",
