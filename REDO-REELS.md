@@ -20,6 +20,12 @@ Make A and B of the same topic in the same run, queue them so the pair posts abo
 - [ ] tokyo-to-kawaguchiko-big-suitcase-bus-or-train → -pb (B, post first) + -pa (A). 2 ways: Fujikyu highway bus from Busta Shinjuku · Fuji Excursion train.
 - [ ] tokyo-airport-which-train → -pa (A, post first) + -pb (B). Haneda options (Keikyu / Monorail) and Narita options as the page gives them.
 
+## SPLIT TEST (26 Nov) — after the PACE TEST pairs (PLAYBOOK 3, SPLIT REELS)
+Make 3 SPLIT Reels, 1 per run, spread over 2 days; log them in PERF.md "SPLIT TEST" (reach, watch, saves, SHARES at 24 h / 48 h vs the normal Reels of the same days).
+- [ ] osaka-everyone-vs-instead — Osaka: e.g. Dotonbori → Tenma, Kuromon → the market on osaka-local-markets, + other swaps our Osaka guides support (keyword: the guide most pairs come from)
+- [ ] tokyo-everyone-vs-instead — Tokyo: e.g. Shibuya Sky → shibuya-crossing-view's pick, Tsukiji → monzen-nakacho-market-day, Asakusa crowds → yanaka-ginza / kiyosumi-shirakawa (check each page)
+- [ ] kansai-everyone-vs-instead — Kyoto/Kansai day trips: swaps our Kyoto, Nara, Minoh and Hakone-style guides support (only what the pages say)
+
 ## READABLE re-cuts (Ling, 25 Nov 19:27: titles "人家不明白你在说什么") — DO THESE FIRST, before anything else
 Specs are ALREADY rewritten (cover, hook, cards, voice, caption) to PLAYBOOK "READABLE TITLES" + "SHORT LINES". Do not change the text: just fetch the same clips as the original spec, re-render (new voice), check the stills sheet, `jbs.py add-reel <slug>`.
 - [x] sapporo-in-december-2026  (re-queued 25 Nov 21:10; cover title now "Sapporo in December:|2 events, 1 park" so the title names the city)

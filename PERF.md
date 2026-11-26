@@ -79,3 +79,8 @@ Next experiments
 ## PACE TEST (A = current style, B = theluns-style pauses + stacked list + "N ways" cover; started 26 Nov)
 | topic | variant | posted | reach 24h | watch 24h | saves | shares | reach 48h | watch 48h |
 |---|---|---|---|---|---|---|---|---|
+
+
+## SPLIT TEST ("Everyone goes to / Go here instead", started 26 Nov; key metric = shares)
+| slug | posted | reach 24h | watch 24h | saves | shares | reach 48h | shares 48h | same-day normal Reels avg shares |
+|---|---|---|---|---|---|---|---|---|
