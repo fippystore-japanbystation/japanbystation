@@ -127,7 +127,7 @@ osaka=osaka.replace('<p class="byline wrap">Times checked 22 November 2026</p>',
 osaka=osaka.replace('<span class="kicker">Osaka · Where to stay</span>','<span class="kicker">Osaka · Where to stay</span>')
 ONEMORE_OSAKA='<div class="onemore" style="margin:28px auto"><h2 id="h-one" style="margin-top:0;font-size:24px">One more thing: a 1920s street under a skyscraper</h2><p>If you stay in Umeda, go down to the basement of the Umeda Sky Building to <b>Takimi Koji</b>, a food alley built to look like an Osaka street from the early Showa era, with cobblestones, tiled roofs, old posters and a small shrine. Around 20 restaurants serve okonomiyaki, kushikatsu and other Osaka staples, and you can wander it for free after the sunset from the rooftop.</p><p class="small">Takimi Koji, Umeda Sky Building B1F, 1-1-88 Oyodonaka, Kita-ku; about 7–9 min from JR Osaka Station. Hours vary by restaurant. Sources: Osaka Convention &amp; Tourism Bureau (osaka-info.jp), GLTJP. Checked 23 November 2026.</p></div>'
 osaka=osaka.replace('<h2 style="margin-top:28px;font-size:26px">Keep planning Osaka',ONEMORE_OSAKA+'<h2 style="margin-top:28px;font-size:26px">Keep planning Osaka',1)
-pages["osaka-where-to-stay.html"]=(head("Where to Stay in Osaka: Namba, Umeda or Tennoji","Where to stay in Osaka: Namba, Umeda or Tennoji for first-timers, couples and families, with walking times to the sights and minutes to the airport and Kyoto."),"city-osaka",osaka)
+pages["osaka-where-to-stay.html"]=(head("Where to Stay in Osaka: Namba, Umeda or Tennoji","Namba: Dotonbori 3–5 min on foot, Kansai Airport direct in 34–39 min. Umeda: Kyoto direct in 29 min. Tennoji: the zoo and Shinsekai. All under 15 min apart."),"city-osaka",osaka)
 HANDFAQ={"namba.html":[
  ("Are Namba and Dotonbori the same place?","Not quite. Namba is the wider district around Namba Station, and Dotonbori is the canal street inside it, 3–5 minutes on foot from Exit 14 of Osaka Metro Namba Station. Kuromon Market, the Shinsaibashi-suji arcade and the Doguyasuji kitchen street are all part of the same walkable area. Not sure which Namba you're at? Here are <a href='namba-station-which-namba.html'>the four Namba stations and their exits</a>."),
  ("What is Namba famous for?","Street food and neon. Namba is where you eat takoyaki along the Dotonbori canal under the giant moving signs, graze at Kuromon Market (about 150 shops, best before noon) and shop the covered Shinsaibashi-suji arcade. A quieter local favourite is Namba Yasaka Shrine, with its 12-metre lion-head stage, free to visit."),
@@ -135,12 +135,12 @@ HANDFAQ={"namba.html":[
 ]}
 _NAMBA_FAQ='<section class="wrap sec faq" aria-labelledby="h-faq"><h2 id="h-faq">Quick answers</h2>'+''.join(f'<details><summary>{html.escape(q)}</summary><p>{a}</p></details>' for q,a in HANDFAQ["namba.html"])+'</section>'
 pages["namba.html"]=(head("Things to Do Near Namba Station, Osaka: All Walkable","From Namba Station Exit 14, Dotonbori is 3–5 minutes on foot, Kuromon Market about 8, and the Shinsaibashi-suji arcade starts right at the canal."),"city-osaka",relink(body_of("namba.html")).replace('<div class="wrap"><section class="more"',_NAMBA_FAQ+'<div class="wrap"><section class="more"',1))
-pages["kansai-airport-to-osaka.html"]=(head("Kansai Airport to Osaka: Which Train for Your Hotel","Nankai or JR? Kansai Airport to Namba, Tennoji, Osaka Station and Shin-Osaka with travel times and fares, picked by where your hotel is."),"city-osaka",relink(body_of("kansai-airport-to-osaka.html")))
+pages["kansai-airport-to-osaka.html"]=(head("Kansai Airport to Osaka: Which Train for Your Hotel","Namba: Nankai rapi:t, 34–39 min, ¥970 + ¥700 seat. Osaka Station (Umeda): JR Haruka direct, 45–50 min. Tennoji: Haruka, 30 min, about ¥1,840. Pick by hotel."),"city-osaka",relink(body_of("kansai-airport-to-osaka.html")))
 # ---- Home
 import re as _re
 home=open(os.path.join(HERE,"home.html")).read()
 home=_re.sub(r"\{img:([a-z_]+):(\d+)\}", lambda m: purl(m.group(1), int(m.group(2))), home)
-pages["index.html"]=(head("Japan by Station: Checked Japan Travel Guides That Save Time","Japan travel answers you can trust: the quick answer first, every time and price checked, plus the local places most lists miss. Stay, eat and get around Japan."),"home",home)
+pages["index.html"]=(head("Japan by Station: Checked Japan Travel Guides That Save Time","Which exit, which train, where to stay: 100+ Japan trip questions answered in the first line, for Tokyo, Osaka, Kyoto and Sapporo. Every price and time dated."),"home",home)
 def simple(title,h1,inner):
     return f'''
 <main class="wrap doc">
@@ -148,8 +148,8 @@ def simple(title,h1,inner):
   {inner}
 </main>
 '''
-pages["about.html"]=(head("About Japan by Station (japanbystation.com)","Japan by Station is an independent English guide to Japan: quick, carefully checked answers to real trip questions, plus the local places most lists miss."),"about",simple("About","About Japan by Station",'''
-  <p><b>Japan by Station</b> (japanbystation.com) is an independent English guide to Japan. We do the checking so you don't have to, and we keep it short, so you can decide in a minute and get back to planning the fun part. We're on Instagram, Facebook and Pinterest as <b>@japanbystation</b>.</p>
+pages["about.html"]=(head("About Japan by Station (japanbystation.com)","100+ Japan trip questions, each answered in the first line: which exit, which train, where to stay. Times and prices from the operators, dated on every guide."),"about",simple("About","About Japan by Station",'''
+  <p><b>Japan by Station</b> (japanbystation.com) answers 100+ real Japan trip questions in the first line: which exit, which train, where to stay, in Tokyo, Osaka, Kyoto, Sapporo, Fukuoka and beyond. It is an independent English guide. We do the checking so you don't have to, and we keep it short, so you can decide in a minute and get back to planning the fun part. We're on Instagram, Facebook and Pinterest as <b>@japanbystation</b>.</p>
   <p>Every guide starts with the quick answer to one real trip question: where to stay, what to eat near the station, which train, what to do with a free afternoon. Then come the details that make it work, and the things most lists miss: the lunch counter locals queue for, the quieter exit, the free view at sunset.</p>
   <h2>How we check our facts</h2>
   <p>Train times come from the operators themselves, the airports and city tourism bureaus wherever they publish them. When we can only find a figure in travel guides, we say so. Each guide shows the date we checked it, and we re-check every three months.</p>
@@ -329,7 +329,7 @@ _gi='<header class="hero hero-lite"><div class="wrap"><span class="kicker">All g
 for c in _cities:
     _gi+=f'<section class="wrap sec" id="{c.lower()}" aria-labelledby="h-{c.lower()}"><div class="sec-h"><h2 id="h-{c.lower()}">{c}</h2></div><div class="posts">'+''.join(_card(g) for g in ALLG if g["city"]==c)+'</div></section>'
 _gi+='</main>'
-pages["guides.html"]=(head("All Japan Travel Guides","Japan travel guides by city and station: where to stay in Tokyo, Osaka, Kyoto and Sapporo, airport trains, which exit to use, local food and day trips."),"guides",_gi)
+pages["guides.html"]=(head("All Japan Travel Guides","100+ checked Japan guides by city: where to stay in Tokyo, Osaka, Kyoto and Sapporo, airport trains with fares, free station exit maps, local food, day trips."),"guides",_gi)
 
 import re as _hre
 _CORE=_hre.compile(r"(?i)first trip|which area should you stay|where to stay in|where to stay:|airport to|narita or haneda|getting around|kansai airport")
