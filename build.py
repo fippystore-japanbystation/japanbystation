@@ -128,7 +128,13 @@ osaka=osaka.replace('<span class="kicker">Osaka · Where to stay</span>','<span 
 ONEMORE_OSAKA='<div class="onemore" style="margin:28px auto"><h2 id="h-one" style="margin-top:0;font-size:24px">One more thing: a 1920s street under a skyscraper</h2><p>If you stay in Umeda, go down to the basement of the Umeda Sky Building to <b>Takimi Koji</b>, a food alley built to look like an Osaka street from the early Showa era, with cobblestones, tiled roofs, old posters and a small shrine. Around 20 restaurants serve okonomiyaki, kushikatsu and other Osaka staples, and you can wander it for free after the sunset from the rooftop.</p><p class="small">Takimi Koji, Umeda Sky Building B1F, 1-1-88 Oyodonaka, Kita-ku; about 7–9 min from JR Osaka Station. Hours vary by restaurant. Sources: Osaka Convention &amp; Tourism Bureau (osaka-info.jp), GLTJP. Checked 23 November 2026.</p></div>'
 osaka=osaka.replace('<h2 style="margin-top:28px;font-size:26px">Keep planning Osaka',ONEMORE_OSAKA+'<h2 style="margin-top:28px;font-size:26px">Keep planning Osaka',1)
 pages["osaka-where-to-stay.html"]=(head("Where to Stay in Osaka: Namba, Umeda or Tennoji","Where to stay in Osaka: Namba, Umeda or Tennoji for first-timers, couples and families, with walking times to the sights and minutes to the airport and Kyoto."),"city-osaka",osaka)
-pages["namba.html"]=(head("Things to Do Near Namba Station, Osaka: All Walkable","From Namba Station Exit 14, Dotonbori is 3–5 minutes on foot, Kuromon Market about 8, and the Shinsaibashi-suji arcade starts right at the canal."),"city-osaka",relink(body_of("namba.html")))
+HANDFAQ={"namba.html":[
+ ("Are Namba and Dotonbori the same place?","Not quite. Namba is the wider district around Namba Station, and Dotonbori is the canal street inside it, 3–5 minutes on foot from Exit 14 of Osaka Metro Namba Station. Kuromon Market, the Shinsaibashi-suji arcade and the Doguyasuji kitchen street are all part of the same walkable area. Not sure which Namba you're at? Here are <a href='namba-station-which-namba.html'>the four Namba stations and their exits</a>."),
+ ("What is Namba famous for?","Street food and neon. Namba is where you eat takoyaki along the Dotonbori canal under the giant moving signs, graze at Kuromon Market (about 150 shops, best before noon) and shop the covered Shinsaibashi-suji arcade. A quieter local favourite is Namba Yasaka Shrine, with its 12-metre lion-head stage, free to visit."),
+ ("How far is Kuromon Market from Namba Station?","About 8 minutes on foot. Kuromon is a covered market of about 150 shops selling grilled seafood, wagyu skewers and fruit, and it is at its best before noon. For more to eat right by the gates, see <a href='food-near-namba-station.html'>food near Namba Station</a>."),
+]}
+_NAMBA_FAQ='<section class="wrap sec faq" aria-labelledby="h-faq"><h2 id="h-faq">Quick answers</h2>'+''.join(f'<details><summary>{html.escape(q)}</summary><p>{a}</p></details>' for q,a in HANDFAQ["namba.html"])+'</section>'
+pages["namba.html"]=(head("Things to Do Near Namba Station, Osaka: All Walkable","From Namba Station Exit 14, Dotonbori is 3–5 minutes on foot, Kuromon Market about 8, and the Shinsaibashi-suji arcade starts right at the canal."),"city-osaka",relink(body_of("namba.html")).replace('<div class="wrap"><section class="more"',_NAMBA_FAQ+'<div class="wrap"><section class="more"',1))
 pages["kansai-airport-to-osaka.html"]=(head("Kansai Airport to Osaka: Which Train for Your Hotel","Nankai or JR? Kansai Airport to Namba, Tennoji, Osaka Station and Shin-Osaka with travel times and fares, picked by where your hotel is."),"city-osaka",relink(body_of("kansai-airport-to-osaka.html")))
 # ---- Home
 import re as _re
@@ -453,8 +459,9 @@ def seo(fn,h):
             {"@type":"ItemList","name":title,"itemListElement":[{"@type":"ListItem","position":k+1,"url":SITE+"/"+g["slug"].replace(".html",""),"name":g["title"]} for k,g in enumerate(_gs)]}]}
     else:
         ld={"@context":"https://schema.org","@type":"WebPage","name":title,"url":url,"publisher":org}
-    if GMETA.get(fn,{}).get("faq"):
-        ld.setdefault("@graph",[]).append({"@type":"FAQPage","mainEntity":[{"@type":"Question","name":html.unescape(q),"acceptedAnswer":{"@type":"Answer","text":html.unescape(_re.sub("<[^>]+>","",a))}} for q,a in GMETA[fn]["faq"]]})
+    _fq=GMETA.get(fn,{}).get("faq") or HANDFAQ.get(fn)
+    if _fq:
+        ld.setdefault("@graph",[]).append({"@type":"FAQPage","mainEntity":[{"@type":"Question","name":html.unescape(q),"acceptedAnswer":{"@type":"Answer","text":html.unescape(_re.sub("<[^>]+>","",a))}} for q,a in _fq]})
     tags+='<script type="application/ld+json">'+_json.dumps(ld,ensure_ascii=False)+'</script>\n'
     return h.replace('<link rel="stylesheet"',tags+'<link rel="stylesheet"',1), url
 urls=[]
