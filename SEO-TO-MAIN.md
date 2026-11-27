@@ -1,0 +1,18 @@
+# SEO → MAIN: content hand-off (Ling, 27 Nov 23:00: "if it is content, report to Main and let it ask the correct one to improve")
+The SEO auditor fixes titles, descriptions, ledes, FAQ and links itself. The items below are CONTENT work for the writers / Reels / community tasks. Main: please route each to the right task and tick it here.
+
+## What the research showed (27 Nov, 7 of our core queries, gl=us, top 5 each)
+- Position 1 was a Reddit or Facebook-group thread on 6 of 7 queries (shin osaka vs osaka station, umeda vs osaka station, namba exit for dotonbori, tokyo subway pass vs suica, kansai airport to kyoto, hakone freepass worth it). Google is ranking "a real person answered this" above every brand, Klook included.
+- The small blogs that beat or sit beside Klook all put the VERDICT or a number in the title: "Is The Hakone Free Pass Worth It? (Yes!)", "…Guide + Cost Breakdown", "…2026 Cost Comparison", "Tokyo Subway Ticket vs Suica (2026): Which Should First-Timers…". Klook's own title is generic ("A Complete Guide"); it ranks on brand weight, not on the snippet.
+- For exit queries the winners are maps (JR West PDF, kyotostation.com "Map – Finding Your Way", japan-stations.com "Map, Karasuma & Hachijo Exits").
+- 6 of 7 queries show an AI Overview. Seer Interactive (53 brands, 2025–Feb 2026): informational CTR 3.35% with no AI Overview, 2.07% when the page is cited in it, 0.94% when it is not. Being the cited source more than doubles clicks.
+- Old, conflicting forum answers hold top spots: for "namba station which exit for dotonbori" Reddit (7 years old) says Exit 14, a Facebook answer says Exit 25, a 2018 forum thread says "just exit". Nobody gives a dated, sourced answer in the title.
+
+## Content requests
+- [ ] WRITERS · every new guide: seo_title = the exact question + the verdict or the key number ("…Worth It? Not for One Ryokan Night", "…: 33 Min by Train, ¥1,230"). Never "A Guide to…", never a question with no answer. First 160 characters of the lede = verdict + one number the top results don't show (Google uses the lede as the snippet).
+- [ ] WRITERS · single-question pages for forum-held queries (short, one answer, dated, official source in the first line). First two are in TOPICS.md as SEO lines (Namba exit for Dotonbori; Shin-Osaka to Osaka Station transfer).
+- [ ] WRITERS · "we ran the numbers" blocks: our strongest non-copyable asset is priced comparisons with dates (¥3,662 vs ¥7,100, ¥37,350 vs ¥36,845). Each where-to-stay / pass / transfer guide should carry one small comparison table near the top; AI Overviews and Reddit can't produce these.
+- [ ] WRITERS · experience signal without inventing stays: step-by-step "from the ticket gate" walk descriptions taken from the operator's station map (gate → landmark → exit), with the map source and date. That is the forum-style practical detail that currently ranks first.
+- [ ] REELS / PINS · the exit cards are the one thing Klook does not have. Each station exit card should exist as a Pin and a Reel frame with the page URL, so image search and social carry the same asset.
+- [ ] COMMUNITY (needs Ling's decision, not started): Reddit and Facebook-group threads rank #1 for our queries. Answering such questions as the brand, with the sourced answer and no link-dropping, is how small sites get into those results. Today's rule is invites only, so nothing is done until Ling approves.
+- [ ] LINKS (later): publish one small original dataset others would cite, e.g. "extra-large coin lockers at Japan's 8 biggest stations" from our locker guides. Ahrefs' travel interviews: data-led pieces earned 68–91 links each.

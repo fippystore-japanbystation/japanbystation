@@ -9,6 +9,13 @@ AUDIT CURSOR: 2026-11-27 run 6 (evening; runs 3–5 did not log) → audited nam
 
 
 
+
+## 2026-11-27 23:10 MYT (live session with Ling: "a very strong hook; research the travel niche, compare the top 3, how do we fight Klook")
+- SERP study, 7 core queries (gl=us, top 5): Reddit/Facebook thread at #1 on 6 of 7; AI Overview on 6 of 7; independent blogs that rank put the verdict/number in the title ("(Yes!)", "Cost Breakdown", "2026 Cost Comparison"); Klook's title is generic. Seer Interactive 2026: cited in AI Overview 2.07% CTR vs 0.94% not cited (3.35% with no AIO). Details + content requests → SEO-TO-MAIN.md.
+- TITLE TEST (non-ranking pages only, position > 20 or no impressions; H1 unchanged; saved 27 Nov, goes live with the next deploy): hakone-freepass-ryokan-one-night "Hakone Freepass for a Ryokan Night: Worth It or Not?" → "Is the Hakone Freepass Worth It? Not for One Ryokan Night"; kansai-airport-to-kyoto (pos 36) "Kansai Airport to Kyoto: Haruka, Limousine Bus or via Osaka?" → "Kansai Airport to Kyoto: Haruka, 75 Min, ¥2,700 (vs Bus)"; new-chitose-airport-to-sapporo (pos 47) "New Chitose Airport to Sapporo: Train, Bus or Car?" → "New Chitose Airport to Sapporo: 33 Min by Train, ¥1,230". Review 4 Dec / 25 Dec. Ranking pages (top 20) keep their titles.
+- TOPICS: + 2 SEO lines at the top of WORK ORDER (Namba exit for Dotonbori; Shin-Osaka → Osaka Station transfer).
+- NEXT RUN: deploy these; add verdict-first ledes on the 10 pages with most impressions where the first 160 characters don't hold a number.
+
 ## 2026-11-27 22:30 MYT (live session with Ling: "use a higher-level SEO + GEO audit; meta descriptions don't make people click; About says nothing")
 - New standing rule → PLAYBOOK 8 "SNIPPET HOOK + QUERY×URL AUDIT". Every run follows it.
 - GSC 24 h at 22:30: 493 imp, 2 clicks, CTR 0.4%, pos 12.2. Query×URL (24 h, page filter):
